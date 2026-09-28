@@ -1,0 +1,21 @@
+{
+  "name": "epoch-test-collection-runner",
+  "version": "1.0.0",
+  "description": "Package used to run a set of postman collections and produce reports",
+  "main": "RunCollections.js",
+  "dependencies": {
+    "newman": "^5.3.0",
+    "newman-reporter-htmlextra": "^1.22.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "clean": "npx rimraf ./node_modules",
+    "test": "node ./RunCollections.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@codecloud.web.att.com:7999/st_epoch/epoch-test-collection-runner.git"
+  },
+  "author": "Valencia, Jennifer <jm766n@att.com> (jm766n)",
+  "license": "MIT"
+}

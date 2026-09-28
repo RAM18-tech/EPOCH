@@ -1,0 +1,1402 @@
+{
+"productOfferings":[
+    {
+        "id": "937d1237-ed2c-4616-a7fd-a9025c7fe2cf",
+        "href": "https://pod-productoffering-service-amo-il01-env1-runtime.apps.ildelocpamo401.ocpd.corp.amdocs.com:443/productOfferingDiscovery/v11/productOffering?productOfferingId=937d1237-ed2c-4616-a7fd-a9025c7fe2cf&salesChannel=SelfService",
+        "name": "Mobile Security and Call Protect Plus",
+        "localizedName": "Mobile Security and Call Protect Plus",
+        "description": "Add-on which offers provides extended mobile security and call protect ",
+        "productOfferingType": "Mobile_Application",
+        "productOfferingTypeGroup": "mobileApps",
+        "bundledProdOfferOption": [
+            {
+                "numberRelOfferLowerLimit": "1",
+                "numberRelOfferUpperLimit": "1",
+                "defaultRelOfferNumber": "1",
+                "itemTotalPrice": [
+                    {
+                        "priceType": "RC",
+                        "recurringChargePeriod": "Month",
+                        "recurringChargePeriodLength": 1,
+                        "price": {
+                            "taxIncludedAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "dutyFreeAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "taxAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "taxRate": 19
+                        },
+                        "finalPrice": {
+                            "taxIncludedAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "dutyFreeAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "taxAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "taxRate": 19
+                        },
+                        "standalonePrice": {
+                            "taxIncludedAmount": {
+                                "unit": "USD",
+                                "value": 11.9
+                            },
+                            "dutyFreeAmount": {
+                                "unit": "USD",
+                                "value": 10
+                            },
+                            "taxAmount": {
+                                "unit": "USD",
+                                "value": 1.9
+                            },
+                            "taxRate": 19
+                        },
+                        "priceAlteration": [
+                            {
+                                "priceType": "RC",
+                                "alterationType": "Bundle Price Alteration",
+                                "chargeType": "credit",
+                                "price": {
+                                    "taxIncludedAmount": {
+                                        "unit": "USD",
+                                        "value": 11.9
+                                    },
+                                    "dutyFreeAmount": {
+                                        "unit": "USD",
+                                        "value": 10
+                                    },
+                                    "taxAmount": {
+                                        "unit": "USD",
+                                        "value": 1.9
+                                    },
+                                    "taxRate": 19
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "itemPrice": [
+                    {
+                        "id": "36435cbf-d617-41b2-91b1-22946ba65320",
+                        "name": "Mobile Security and Call Protect Plus RC",
+                        "description": "Mobile Security and Call Protect Plus Monthly charge",
+                        "priceType": "RC",
+                        "recurringChargePeriod": "Month",
+                        "recurringChargePeriodLength": 1,
+                        "taxIncluded": "Excluded",
+                        "price": {
+                            "taxIncludedAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "dutyFreeAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "taxAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "taxRate": 19,
+                            "appliedTax": [
+                                {
+                                    "taxDefinition": {
+                                        "name": "Value added tax",
+                                        "taxRate": 19,
+                                        "taxType": "VAT",
+                                        "category": "Regular",
+                                        "validFor": null,
+                                        "taxJurisdiction": {
+                                            "name": "NA",
+                                            "level": "State",
+                                            "id": "0"
+                                        }
+                                    },
+                                    "taxAmount": {
+                                        "unit": "USD",
+                                        "value": 0
+                                    },
+                                    "taxableAmount": {
+                                        "unit": "USD",
+                                        "value": 0
+                                    },
+                                    "periodCoverage": null
+                                }
+                            ]
+                        },
+                        "finalPrice": {
+                            "taxIncludedAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "dutyFreeAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "taxAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "taxRate": 19,
+                            "appliedTax": [
+                                {
+                                    "taxDefinition": {
+                                        "name": "Value added tax",
+                                        "taxRate": 19,
+                                        "taxType": "VAT",
+                                        "category": "Regular",
+                                        "validFor": null,
+                                        "taxJurisdiction": {
+                                            "name": "NA",
+                                            "level": "State",
+                                            "id": "0"
+                                        }
+                                    },
+                                    "taxAmount": {
+                                        "unit": "USD",
+                                        "value": 0
+                                    },
+                                    "taxableAmount": {
+                                        "unit": "USD",
+                                        "value": 0
+                                    },
+                                    "periodCoverage": null
+                                }
+                            ]
+                        },
+                        "standalonePrice": {
+                            "taxIncludedAmount": {
+                                "unit": "USD",
+                                "value": 11.9
+                            },
+                            "dutyFreeAmount": {
+                                "unit": "USD",
+                                "value": 10
+                            },
+                            "taxAmount": {
+                                "unit": "USD",
+                                "value": 1.9
+                            },
+                            "taxRate": 19,
+                            "appliedTax": [
+                                {
+                                    "taxDefinition": {
+                                        "name": "Value added tax",
+                                        "taxRate": 19,
+                                        "taxType": "VAT",
+                                        "category": "Regular",
+                                        "validFor": null,
+                                        "taxJurisdiction": {
+                                            "name": "NA",
+                                            "level": "State",
+                                            "id": "0"
+                                        }
+                                    },
+                                    "taxAmount": {
+                                        "unit": "USD",
+                                        "value": 1.9
+                                    },
+                                    "taxableAmount": {
+                                        "unit": "USD",
+                                        "value": 10
+                                    },
+                                    "periodCoverage": null
+                                }
+                            ]
+                        },
+                        "priceAlteration": [
+                            {
+                                "name": "Mobile Security and Call Protect Plus RC",
+                                "description": "Mobile Security and Call Protect Plus Monthly charge",
+                                "priceType": "RC",
+                                "alterationType": "Bundle Price Alteration",
+                                "alterationProductOfferingPriceId": "80e80527-0d4e-4b75-98b8-2d5f89570fb1",
+                                "alterationBundleProductOfferingId": "d8bfb8be-79dd-45e6-95c6-0bc2e30f12d8",
+                                "alterationApplyOrder": 0,
+                                "chargeType": "credit",
+                                "price": {
+                                    "taxIncludedAmount": {
+                                        "unit": "USD",
+                                        "value": 11.9
+                                    },
+                                    "dutyFreeAmount": {
+                                        "unit": "USD",
+                                        "value": 10
+                                    },
+                                    "taxAmount": {
+                                        "unit": "USD",
+                                        "value": 1.9
+                                    },
+                                    "taxRate": 19,
+                                    "priceOverride": {
+                                        "unit": "USD",
+                                        "value": 0
+                                    },
+                                    "appliedTax": [
+                                        {
+                                            "taxDefinition": {
+                                                "name": "Value added tax",
+                                                "taxRate": 19,
+                                                "taxType": "VAT",
+                                                "category": "Regular",
+                                                "validFor": null,
+                                                "taxJurisdiction": {
+                                                    "name": "NA",
+                                                    "level": "State",
+                                                    "id": "0"
+                                                }
+                                            },
+                                            "taxAmount": {
+                                                "unit": "USD",
+                                                "value": 1.9
+                                            },
+                                            "taxableAmount": {
+                                                "unit": "USD",
+                                                "value": 10
+                                            },
+                                            "periodCoverage": null
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "isBundle": true,
+        "mustBeBundled": false,
+        "validFor": {
+            "startDateTime": "2020-08-31T14:00:00Z"
+        },
+        "offerClassification": "customerOffer",
+        "isEnabledBy": false,
+        "primary": true,
+        "serialized": false,
+        "isRestricted": false,
+        "productOfferingCharacteristic": [
+            {
+                "name": "Bundle_Description",
+                "localizedName": "Bundle Description",
+                "valueType": "String",
+                "value": [
+                    {
+                        "default": false,
+                        "value": "With Unlimited Your Way, you can pick a plan for each line on your account. All plans included unlimited talk, text, & data and 5G access. Plan choices for each line differ based on price and included features like hotspot data, HD and HBO Max so you can get a perfect match for each family member.",
+                        "localizedValue": "With Unlimited Your Way, you can pick a plan for each line on your account. All plans included unlimited talk, text, & data and 5G access. Plan choices for each line differ based on price and included features like hotspot data, HD and HBO Max so you can get a perfect match for each family member."
+                    }
+                ],
+                "characteristicsMetadata": [
+                    {
+                        "name": "VisibleInHighlights",
+                        "value": "True",
+                        "type": "Discovery"
+                    }
+                ]
+            }
+        ],
+        "metadata": [
+            {
+                "name": "Comparable",
+                "value": "True",
+                "type": "Discovery"
+            },
+            {
+                "name": "billingAgreement",
+                "value": "True",
+                "type": "Billing"
+            },
+            {
+                "name": "businessType",
+                "value": "multilineMobileOffer",
+                "type": "General"
+            },
+            {
+                "name": "PresentationPriority",
+                "value": "2",
+                "type": "Configuration"
+            }
+        ],
+        "CategoryRef": [
+            {
+                "id": "c8f31d65-4eb5-4700-bc1b-f157bd17f195",
+                "name": "Unlimited_Plans"
+            }
+        ],
+        "productOfferingTotalPrice": [
+            {
+                "priceType": "RC",
+                "recurringChargePeriod": "Month",
+                "recurringChargePeriodLength": 1,
+                "price": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 113.05
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 95
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 18.05
+                    },
+                    "taxRate": 19
+                },
+                "finalPrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 113.05
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 95
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 18.05
+                    },
+                    "taxRate": 19
+                },
+                "standalonePrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 142.8
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 120
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 22.8
+                    },
+                    "taxRate": 19
+                },
+                "priceAlteration": [
+                    {
+                        "priceType": "RC",
+                        "alterationType": "Bundle Price Alteration",
+                        "chargeType": "credit",
+                        "price": {
+                            "taxIncludedAmount": {
+                                "unit": "USD",
+                                "value": 29.75
+                            },
+                            "dutyFreeAmount": {
+                                "unit": "USD",
+                                "value": 25
+                            },
+                            "taxAmount": {
+                                "unit": "USD",
+                                "value": 4.75
+                            },
+                            "taxRate": 19
+                        }
+                    }
+                ]
+            },
+            {
+                "priceType": "OC",
+                "price": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "finalPrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "standalonePrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "immediatePayOption": {
+                    "payImmediately": false
+                }
+            },
+            {
+                "priceType": "Immediate",
+                "price": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "finalPrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "standalonePrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "immediatePayOption": {
+                    "payImmediately": true
+                }
+            },
+            {
+                "priceType": "OC",
+                "price": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "finalPrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "standalonePrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "immediatePayOption": {
+                    "payImmediately": true
+                }
+            }
+        ],
+        "productOfferingPrice": [
+            {
+                "id": "ebda1c5f-414e-4391-bd60-c3958f916ce8",
+                "name": "Mobile Security and Call Protect Plus RC",
+                "description": "Mobile Security and Call Protect Plus Monthly charge",
+                "priceType": "RC",
+                "recurringChargePeriod": "Month",
+                "recurringChargePeriodLength": 1,
+                "taxIncluded": "Excluded",
+                "price": null,
+                "finalPrice": null,
+                "standalonePrice": null
+            }
+        ]
+    },
+    {
+        "id": "a002fb3e-991b-4189-aec6-faae3b27ec3e",
+        "href": "https://pod-productoffering-service-amo-il01-env1-runtime.apps.ildelocpamo401.ocpd.corp.amdocs.com:443/productOfferingDiscovery/v11/productOffering?productOfferingId=a002fb3e-991b-4189-aec6-faae3b27ec3e&salesChannel=SelfService",
+        "name": "HD Streaming",
+        "localizedName": "HD Streaming",
+        "description": "Add-on which provides ability to have HD streaming",
+        "productOfferingType": "Video_Streaming_",
+        "productOfferingTypeGroup": "mobileAddon",
+        "bundledProdOfferOption": [
+            {
+                "numberRelOfferLowerLimit": "0",
+                "numberRelOfferUpperLimit": "1",
+                "defaultRelOfferNumber": "0"
+            }
+        ],
+        "isBundle": true,
+        "mustBeBundled": false,
+        "validFor": {
+            "startDateTime": "2020-09-09T14:00:00Z"
+        },
+        "offerClassification": "customerOffer",
+        "isEnabledBy": false,
+        "primary": true,
+        "serialized": true,
+        "isRestricted": false,
+        "productOfferingCharacteristic": [
+            {
+                "name": "Bundle_Description",
+                "localizedName": "Bundle Description",
+                "valueType": "String",
+                "value": [
+                    {
+                        "default": false,
+                        "value": "Unlimited talk, text, data AT&T may temporarily slow data speeds if the network is busy. Roaming may be at 2G speed. $35 per line/mo $140/mo. for 4 lines",
+                        "localizedValue": "Unlimited talk, text, data AT&T may temporarily slow data speeds if the network is busy. Roaming may be at 2G speed. $35 per line/mo $140/mo. for 4 lines"
+                    }
+                ],
+                "characteristicsMetadata": [
+                    {
+                        "name": "VisibleInHighlights",
+                        "value": "True",
+                        "type": "Discovery"
+                    }
+                ]
+            }
+        ],
+        "metadata": [
+            {
+                "name": "Comparable",
+                "value": "True",
+                "type": "Discovery"
+            },
+            {
+                "name": "billingAgreement",
+                "value": "True",
+                "type": "Billing"
+            },
+            {
+                "name": "businessType",
+                "value": "multilineMobileOffer",
+                "type": "General"
+            },
+            {
+                "name": "PresentationPriority",
+                "value": "2",
+                "type": "Configuration"
+            }
+        ],
+        "CategoryRef": [
+            {
+                "id": "c8f31d65-4eb5-4700-bc1b-f157bd17f195",
+                "name": "Unlimited_Plans"
+            }
+        ],
+        "productOfferingTotalPrice": [
+            {
+                "priceType": "RC",
+                "recurringChargePeriod": "Month",
+                "recurringChargePeriodLength": 1,
+                "price": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 89.25
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 75
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 14.25
+                    },
+                    "taxRate": 19
+                },
+                "finalPrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 89.25
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 75
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 14.25
+                    },
+                    "taxRate": 19
+                },
+                "standalonePrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 89.25
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 75
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 14.25
+                    },
+                    "taxRate": 19
+                }
+            },
+            {
+                "priceType": "OC",
+                "price": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "finalPrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "standalonePrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "immediatePayOption": {
+                    "payImmediately": false
+                }
+            },
+            {
+                "priceType": "Immediate",
+                "price": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "finalPrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "standalonePrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "immediatePayOption": {
+                    "payImmediately": true
+                }
+            },
+            {
+                "priceType": "OC",
+                "price": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "finalPrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "standalonePrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "immediatePayOption": {
+                    "payImmediately": true
+                }
+            }
+        ]
+    },
+    {
+        "id": "bfb96f45-e9b5-47df-af4e-4f37f76f16e2",
+        "href": "https://pod-productoffering-service-amo-il01-env1-runtime.apps.ildelocpamo401.ocpd.corp.amdocs.com:443/productOfferingDiscovery/v11/productOffering?productOfferingId=bfb96f45-e9b5-47df-af4e-4f37f76f16e2&salesChannel=SelfService",
+        "name": "Mobile Hotspot Unlimited",
+        "localizedName": "Mobile Hotspot Unlimited",
+        "description": "Add-on which provides ability to share data with others",
+        "productOfferingType": "Mobile_Hotspot",
+        "productOfferingTypeGroup": "mobileAddon",
+        "bundledProdOfferOption": [
+            {
+                "numberRelOfferLowerLimit": "1",
+                "numberRelOfferUpperLimit": "1",
+                "defaultRelOfferNumber": "1",
+                "itemTotalPrice": [
+                    {
+                        "priceType": "RC",
+                        "recurringChargePeriod": "Month",
+                        "recurringChargePeriodLength": 1,
+                        "price": {
+                            "taxIncludedAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "dutyFreeAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "taxAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "taxRate": 19
+                        },
+                        "finalPrice": {
+                            "taxIncludedAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "dutyFreeAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "taxAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "taxRate": 19
+                        },
+                        "standalonePrice": {
+                            "taxIncludedAmount": {
+                                "unit": "USD",
+                                "value": 17.85
+                            },
+                            "dutyFreeAmount": {
+                                "unit": "USD",
+                                "value": 15
+                            },
+                            "taxAmount": {
+                                "unit": "USD",
+                                "value": 2.85
+                            },
+                            "taxRate": 19
+                        },
+                        "priceAlteration": [
+                            {
+                                "priceType": "RC",
+                                "alterationType": "Bundle Price Alteration",
+                                "chargeType": "credit",
+                                "price": {
+                                    "taxIncludedAmount": {
+                                        "unit": "USD",
+                                        "value": 17.85
+                                    },
+                                    "dutyFreeAmount": {
+                                        "unit": "USD",
+                                        "value": 15
+                                    },
+                                    "taxAmount": {
+                                        "unit": "USD",
+                                        "value": 2.85
+                                    },
+                                    "taxRate": 19
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "itemPrice": [
+                    {
+                        "id": "887c4b87-1f69-4769-b4ed-4c05e75a8ede",
+                        "name": "Mobil Hotspot RC",
+                        "description": "Mobile Hotspot Unlimited for Mobil Hotspot Unlimited",
+                        "priceType": "RC",
+                        "recurringChargePeriod": "Month",
+                        "recurringChargePeriodLength": 1,
+                        "taxIncluded": "Excluded",
+                        "price": {
+                            "taxIncludedAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "dutyFreeAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "taxAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "taxRate": 19,
+                            "appliedTax": [
+                                {
+                                    "taxDefinition": {
+                                        "name": "Value added tax",
+                                        "taxRate": 19,
+                                        "taxType": "VAT",
+                                        "category": "Regular",
+                                        "validFor": null,
+                                        "taxJurisdiction": {
+                                            "name": "NA",
+                                            "level": "State",
+                                            "id": "0"
+                                        }
+                                    },
+                                    "taxAmount": {
+                                        "unit": "USD",
+                                        "value": 0
+                                    },
+                                    "taxableAmount": {
+                                        "unit": "USD",
+                                        "value": 0
+                                    },
+                                    "periodCoverage": null
+                                }
+                            ]
+                        },
+                        "finalPrice": {
+                            "taxIncludedAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "dutyFreeAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "taxAmount": {
+                                "unit": "USD",
+                                "value": 0
+                            },
+                            "taxRate": 19,
+                            "appliedTax": [
+                                {
+                                    "taxDefinition": {
+                                        "name": "Value added tax",
+                                        "taxRate": 19,
+                                        "taxType": "VAT",
+                                        "category": "Regular",
+                                        "validFor": null,
+                                        "taxJurisdiction": {
+                                            "name": "NA",
+                                            "level": "State",
+                                            "id": "0"
+                                        }
+                                    },
+                                    "taxAmount": {
+                                        "unit": "USD",
+                                        "value": 0
+                                    },
+                                    "taxableAmount": {
+                                        "unit": "USD",
+                                        "value": 0
+                                    },
+                                    "periodCoverage": null
+                                }
+                            ]
+                        },
+                        "standalonePrice": {
+                            "taxIncludedAmount": {
+                                "unit": "USD",
+                                "value": 17.85
+                            },
+                            "dutyFreeAmount": {
+                                "unit": "USD",
+                                "value": 15
+                            },
+                            "taxAmount": {
+                                "unit": "USD",
+                                "value": 2.85
+                            },
+                            "taxRate": 19,
+                            "appliedTax": [
+                                {
+                                    "taxDefinition": {
+                                        "name": "Value added tax",
+                                        "taxRate": 19,
+                                        "taxType": "VAT",
+                                        "category": "Regular",
+                                        "validFor": null,
+                                        "taxJurisdiction": {
+                                            "name": "NA",
+                                            "level": "State",
+                                            "id": "0"
+                                        }
+                                    },
+                                    "taxAmount": {
+                                        "unit": "USD",
+                                        "value": 2.85
+                                    },
+                                    "taxableAmount": {
+                                        "unit": "USD",
+                                        "value": 15
+                                    },
+                                    "periodCoverage": null
+                                }
+                            ]
+                        },
+                        "priceAlteration": [
+                            {
+                                "name": "Mobil Hotspot RC",
+                                "description": "Mobile Hotspot Unlimited for Mobil Hotspot Unlimited",
+                                "priceType": "RC",
+                                "alterationType": "Bundle Price Alteration",
+                                "alterationProductOfferingPriceId": "1c01e305-b681-4379-b5e8-b1e995b71223",
+                                "alterationBundleProductOfferingId": "d8bfb8be-79dd-45e6-95c6-0bc2e30f12d8",
+                                "alterationApplyOrder": 0,
+                                "chargeType": "credit",
+                                "price": {
+                                    "taxIncludedAmount": {
+                                        "unit": "USD",
+                                        "value": 17.85
+                                    },
+                                    "dutyFreeAmount": {
+                                        "unit": "USD",
+                                        "value": 15
+                                    },
+                                    "taxAmount": {
+                                        "unit": "USD",
+                                        "value": 2.85
+                                    },
+                                    "taxRate": 19,
+                                    "priceOverride": {
+                                        "unit": "USD",
+                                        "value": 0
+                                    },
+                                    "appliedTax": [
+                                        {
+                                            "taxDefinition": {
+                                                "name": "Value added tax",
+                                                "taxRate": 19,
+                                                "taxType": "VAT",
+                                                "category": "Regular",
+                                                "validFor": null,
+                                                "taxJurisdiction": {
+                                                    "name": "NA",
+                                                    "level": "State",
+                                                    "id": "0"
+                                                }
+                                            },
+                                            "taxAmount": {
+                                                "unit": "USD",
+                                                "value": 2.85
+                                            },
+                                            "taxableAmount": {
+                                                "unit": "USD",
+                                                "value": 15
+                                            },
+                                            "periodCoverage": null
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "isBundle": true,
+        "mustBeBundled": false,
+        "validFor": {
+            "startDateTime": "2020-09-09T14:00:00Z"
+        },
+        "offerClassification": "customerOffer",
+        "isEnabledBy": false,
+        "primary": true,
+        "serialized": true,
+        "isRestricted": false,
+        "productOfferingCharacteristic": [
+            {
+                "name": "Bundle_Description",
+                "localizedName": "Bundle Description",
+                "valueType": "String",
+                "value": [
+                    {
+                        "default": false,
+                        "value": "Unlimited talk, text, data AT&T may temporarily slow data speeds if the network is busy. Roaming may be at 2G speed. $35 per line/mo $140/mo. for 4 lines",
+                        "localizedValue": "Unlimited talk, text, data AT&T may temporarily slow data speeds if the network is busy. Roaming may be at 2G speed. $35 per line/mo $140/mo. for 4 lines"
+                    }
+                ],
+                "characteristicsMetadata": [
+                    {
+                        "name": "VisibleInHighlights",
+                        "value": "True",
+                        "type": "Discovery"
+                    }
+                ]
+            }
+        ],
+        "metadata": [
+            {
+                "name": "Comparable",
+                "value": "True",
+                "type": "Discovery"
+            },
+            {
+                "name": "billingAgreement",
+                "value": "True",
+                "type": "Billing"
+            },
+            {
+                "name": "businessType",
+                "value": "multilineMobileOffer",
+                "type": "General"
+            },
+            {
+                "name": "PresentationPriority",
+                "value": "2",
+                "type": "Configuration"
+            }
+        ],
+        "CategoryRef": [
+            {
+                "id": "c8f31d65-4eb5-4700-bc1b-f157bd17f195",
+                "name": "Unlimited_Plans"
+            }
+        ],
+        "productOfferingTotalPrice": [
+            {
+                "priceType": "RC",
+                "recurringChargePeriod": "Month",
+                "recurringChargePeriodLength": 1,
+                "price": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 89.25
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 75
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 14.25
+                    },
+                    "taxRate": 19
+                },
+                "finalPrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 89.25
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 75
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 14.25
+                    },
+                    "taxRate": 19
+                },
+                "standalonePrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 89.25
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 75
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 14.25
+                    },
+                    "taxRate": 19
+                }
+            },
+            {
+                "priceType": "OC",
+                "price": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "finalPrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "standalonePrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "immediatePayOption": {
+                    "payImmediately": false
+                }
+            },
+            {
+                "priceType": "Immediate",
+                "price": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "finalPrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "standalonePrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "immediatePayOption": {
+                    "payImmediately": true
+                }
+            },
+            {
+                "priceType": "OC",
+                "price": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "finalPrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "standalonePrice": {
+                    "taxIncludedAmount": {
+                        "unit": "USD",
+                        "value": 35.7
+                    },
+                    "dutyFreeAmount": {
+                        "unit": "USD",
+                        "value": 30
+                    },
+                    "taxAmount": {
+                        "unit": "USD",
+                        "value": 5.7
+                    },
+                    "taxRate": 19
+                },
+                "immediatePayOption": {
+                    "payImmediately": true
+                }
+            }
+        ]
+    }
+]
+}

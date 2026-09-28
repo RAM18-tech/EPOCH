@@ -1,0 +1,1530 @@
+{
+        "limit": 0,
+        "offset": 0,
+        "count": 3,
+        "total": 3,
+        "offers": [
+            {
+                "id": "a5d66ad9-8da9-43dd-9ebf-b75a8b5f77da",
+                "code": "OF_ACCESSORY-GENIE-REMOTE_satellite",
+                "status": "live",
+                "name": {
+                    "en": "Genie Remote"
+                },
+                "description": {
+                    "en": "With this streamlined remote, "},
+                "startDate": "2012-10-26T18:30:00.000Z",
+                "endDate": "2050-12-31T18:29:00.000Z",
+                "attributes": {
+                    "offerProductType": 
+                        "video-accessory"
+                    ,
+                    "offerProductFamilies": [
+                        "satellite"
+                    ],
+                    "offerStatus": "Active",
+                    "offerActionTypes": [
+                        "Cross-sell",
+                        "Other",
+                        "Downgrade",
+                        "Upgrade"
+                    ],
+                    "displayName": {
+                        "en": "Genie Remote"
+                    },
+                    "billingId": "prod9012",
+                    "billingCode": "prod9012",
+                    "migratedOffer": false,
+                    "associatedProducts": [
+                        {
+                            "bundleProducts": [
+                                {
+                                    "constraints": {
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "09cdd449-c9b5-4209-b568-cb7306a48c79",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "09cdd449-c9b5-4209-b568-cb7306a48c79",
+                                                "code": "ACCESSORY-GENIE-REMOTE_satellite",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "72eeced4-4b11-47f5-a823-8c9fdaacffdd",
+                                                    "key": "video-accessory"
+                                                },
+                                                "name": {
+                                                    "en": "Genie Remote"
+                                                },
+                                                "description": {
+                                                    "en": "With this streamlined remote"},
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "key": "prod9012",
+                                                        "prices": [
+                                                            {
+                                                                "value": {
+                                                                    "currencyCode": "USD",
+                                                                    "dollarAmount": 15.0
+                                                                },
+                                                                "id": "b1e02af5-4399-46a6-aec5-dbf6ef64535c",
+                                                                "startDate": "2012-10-26T18:30:00.000Z",
+                                                                "endDate": "2050-12-30T18:30:00.000Z",
+                                                                "recurrenceIndicator": false,
+                                                                "duration": 0,
+                                                                "gfVersion": 0,
+                                                                "chargeType": "nrc",
+                                                                "contracted": false,
+                                                                "grandfathered": false
+                                                            }
+                                                        ],
+                                                        "attributes": {
+                                                            "displayName": {
+                                                                "en": "Genie Remote"
+                                                            },
+                                                            "billingProductCode": "prod9012",
+                                                            "billingCode": "prod9012",
+                                                            "startDate": "2012-10-26T18:30:00.000Z",
+                                                            "endDate": "2050-12-30T18:30:00.000Z",
+                                                            "compatibleProducts": [
+                                                                {
+                                                                    "constraints": {
+                                                                        "dependent": false,
+                                                                        "anchor": false
+                                                                    },
+                                                                    "products": [
+                                                                        {
+                                                                            "id": "4f713f4b-f0da-450d-8f7d-a4be87eae194",
+                                                                            "typeId": "product",
+                                                                            "obj": {
+                                                                                "id": "4f713f4b-f0da-450d-8f7d-a4be87eae194",
+                                                                                "code": "DEVICE-RVU-RECEIVER_satellite",
+                                                                                "productType": {
+                                                                                    "typeId": "product-type",
+                                                                                    "id": "52293f6a-b51e-4cd0-8538-a0555aa34f5c",
+                                                                                    "key": "video-device"
+                                                                                },
+                                                                                "name": {
+                                                                                    "en": "RVU Receiver"
+                                                                                },
+                                                                                "description": {
+                                                                                    "en": "RVU Receiver"
+                                                                                },
+                                                                                "categories": [],
+                                                                                "variants": [
+                                                                                    {
+                                                                                        "id": "1",
+                                                                                        "key": "prod8930245",
+                                                                                        "prices": [
+                                                                                            {
+                                                                                                "value": {
+                                                                                                    "currencyCode": "USD",
+                                                                                                    "dollarAmount": 0.0
+                                                                                                },
+                                                                                                "id": "5777bd2e-dd0f-4f31-9ef5-9e4002decc04",
+                                                                                                "startDate": "2016-01-01T00:00:00.000Z",
+                                                                                                "endDate": "2049-12-31T00:00:00.000Z",
+                                                                                                "recurrenceIndicator": false,
+                                                                                                "duration": 0,
+                                                                                                "gfVersion": 0,
+                                                                                                "chargeType": "mrc",
+                                                                                                "contracted": false,
+                                                                                                "grandfathered": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "attributes": {
+                                                                                            "displayName": {
+                                                                                                "en": "RVU Receiver"
+                                                                                            },
+                                                                                            "billingProductCode": "prod8930245",
+                                                                                            "billingCode": "prod8930245",
+                                                                                            "startDate": "2017-03-10T00:00:00.000Z",
+                                                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                                                            "omsComponentMapping": [
+                                                                                                {
+                                                                                                    "componentCode": "DTVRVU",
+                                                                                                    "componentPath": "ATTDTVCPE|DTVRVU"
+                                                                                                }
+                                                                                            ],
+                                                                                            "customerSegments": [
+                                                                                                "Residential"
+                                                                                            ],
+                                                                                            "selfInstallAvailability": "notAllowed",
+                                                                                            "deviceType": "rvu",
+                                                                                            "deviceCategory": "stb",
+                                                                                            "migratedProduct": false,
+                                                                                            "orderingMethod": "addtoCart",
+                                                                                            "enablerPricePlanCode": "111",
+                                                                                            "tokens": "IncludedRVU",
+                                                                                            "productImages": "DTV-RVU",
+                                                                                            "description": {
+                                                                                                "en": "RVU Receiver"
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "productType": "video-device",
+                                                                            "key": "DEVICE-RVU-RECEIVER_satellite"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "constraints": {
+                                                                        "dependent": false,
+                                                                        "anchor": false
+                                                                    },
+                                                                    "products": [
+                                                                        {
+                                                                            "id": "ae8170d9-26e9-48f9-b694-614bd430d646",
+                                                                            "typeId": "product",
+                                                                            "obj": {
+                                                                                "id": "ae8170d9-26e9-48f9-b694-614bd430d646",
+                                                                                "code": "DEVICE-GENIE-LITE_satellite",
+                                                                                "productType": {
+                                                                                    "typeId": "product-type",
+                                                                                    "id": "52293f6a-b51e-4cd0-8538-a0555aa34f5c",
+                                                                                    "key": "video-device"
+                                                                                },
+                                                                                "name": {
+                                                                                    "en": "Genie Lite"
+                                                                                },
+                                                                                "description": {
+                                                                                    "en": "Allows Genie-quality HD picture and sound on a connected TV."
+                                                                                },
+                                                                                "categories": [],
+                                                                                "variants": [
+                                                                                    {
+                                                                                        "id": "1",
+                                                                                        "key": "prod8930242",
+                                                                                        "prices": [
+                                                                                            {
+                                                                                                "value": {
+                                                                                                    "currencyCode": "USD",
+                                                                                                    "dollarAmount": 7.0
+                                                                                                },
+                                                                                                "id": "25bdf384-298e-4419-8868-116c962bcea0",
+                                                                                                "startDate": "1990-01-01T00:00:00.000Z",
+                                                                                                "endDate": "2049-12-31T00:00:00.000Z",
+                                                                                                "recurrenceIndicator": false,
+                                                                                                "duration": 0,
+                                                                                                "gfVersion": 0,
+                                                                                                "chargeType": "mrc",
+                                                                                                "contracted": false,
+                                                                                                "grandfathered": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "attributes": {
+                                                                                            "displayName": {
+                                                                                                "en": "Genie Lite"
+                                                                                            },
+                                                                                            "billingProductCode": "prod8930242",
+                                                                                            "billingCode": "prod8930242",
+                                                                                            "startDate": "2017-03-10T00:00:00.000Z",
+                                                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                                                            "customerSegments": [
+                                                                                                "Residential"
+                                                                                            ],
+                                                                                            "selfInstallAvailability": "notAllowed",
+                                                                                            "specifications": [
+                                                                                                {
+                                                                                                    "0": {
+                                                                                                        "0": {
+                                                                                                            "specificationsId": "170",
+                                                                                                            "text": "Enjoy TV Apps like Pandora and ScoreGuide",
+                                                                                                            "category": "feature"
+                                                                                                        },
+                                                                                                        "specificationsId": "168",
+                                                                                                        "category": "feature",
+                                                                                                        "text": "Experience amazing Genie-quality HD picture and sound on every connected TV"
+                                                                                                    },
+                                                                                                    "category": "feature",
+                                                                                                    "text": "Transform your Genie Lite into a full-featured Genie HD DVR later with the Genie Lite HD DVR Kit (sold separately). Please note: If you want full HD DVR capabilities now, please order the Genie HD DVR.",
+                                                                                                    "specificationsId": "169"
+                                                                                                }
+                                                                                            ],
+                                                                                            "deviceType": "genieLite",
+                                                                                            "deviceCategory": "stb",
+                                                                                            "migratedProduct": false,
+                                                                                            "orderingMethod": "addtoCart",
+                                                                                            "enablerPricePlanCode": "88834884",
+                                                                                            "tokens": "compatibleGenieLite",
+                                                                                            "chargeCode": "DTVPUR",
+                                                                                            "productImages": "DTV-GENIE-LITE"
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "productType": "video-device",
+                                                                            "key": "DEVICE-GENIE-LITE_satellite"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "constraints": {
+                                                                        "modelNos": "HR44-500,HR44-700,HR44-200,HR54-500,HR54-700,HR54-200",
+                                                                        "dependent": false,
+                                                                        "anchor": false
+                                                                    },
+                                                                    "products": [
+                                                                        {
+                                                                            "id": "b60f7fdc-4b4d-4e2c-9e4f-dcb5f04e0055",
+                                                                            "typeId": "product",
+                                                                            "obj": {
+                                                                                "id": "b60f7fdc-4b4d-4e2c-9e4f-dcb5f04e0055",
+                                                                                "code": "DEVICE-GENIE-HD-DVR_satellite",
+                                                                                "productType": {
+                                                                                    "typeId": "product-type",
+                                                                                    "id": "52293f6a-b51e-4cd0-8538-a0555aa34f5c",
+                                                                                    "key": "video-device"
+                                                                                },
+                                                                                "name": {
+                                                                                    "en": "Genie HD DVR"
+                                                                                },
+                                                                                "description": {
+                                                                                    "en": "Enjoy HD DVR service on all the TVs in your home. After selecting this receiver, select the Genie Mini for each additional TV.\n"
+                                                                                },
+                                                                                "categories": [],
+                                                                                "variants": [
+                                                                                    {
+                                                                                        "id": "1",
+                                                                                        "prices": [
+                                                                                            {
+                                                                                                "value": {
+                                                                                                    "currencyCode": "USD",
+                                                                                                    "dollarAmount": 299.0
+                                                                                                },
+                                                                                                "id": "22297961-2ec9-4b70-a4bf-1d29619485e3",
+                                                                                                "startDate": "2012-11-19T18:30:00.000Z",
+                                                                                                "endDate": "2050-12-30T18:30:00.000Z",
+                                                                                                "recurrenceIndicator": false,
+                                                                                                "duration": 0,
+                                                                                                "gfVersion": 0,
+                                                                                                "chargeType": "mrc",
+                                                                                                "contracted": false,
+                                                                                                "grandfathered": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "attributes": {
+                                                                                            "displayName": {
+                                                                                                "en": "Genie HD DVR"
+                                                                                            },
+                                                                                            "billingProductCode": "prod3470006",
+                                                                                            "billingCode": "prod3470006",
+                                                                                            "startDate": "2012-11-19T18:30:00.000Z",
+                                                                                            "endDate": "2050-12-30T18:30:00.000Z",
+                                                                                            "omsComponentMapping": [
+                                                                                                {
+                                                                                                    "omsAttributes": [
+                                                                                                        {
+                                                                                                            "attributeCode": "numberOfTvs",
+                                                                                                            "attributeValue": "@QUANTITY@"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "attributeCode": "DTVGenie",
+                                                                                                            "attributeValue": "@QUANTITY@"
+                                                                                                        }
+                                                                                                    ],
+                                                                                                    "componentCode": "ATTDTVCPE",
+                                                                                                    "componentPath": "ATTDTVCPE",
+                                                                                                    "operationName": "MOORequest,PUSPO1Request"
+                                                                                                },
+                                                                                                {
+                                                                                                    "componentCode": "DTVGenie",
+                                                                                                    "componentPath": "ATTDTVCPE|DTVGenie",
+                                                                                                    "operationName": "MOORequest,PUSPO1Request"
+                                                                                                }
+                                                                                            ],
+                                                                                            "customerSegments": [
+                                                                                                "Residential"
+                                                                                            ],
+                                                                                            "selfInstallAvailability": "notAllowed",
+                                                                                            "termsAndConditions": {
+                                                                                                "en": "All equipment is leased. Advanced Receiver Service "},
+                                                                                            "deviceType": "genieHDDVR",
+                                                                                            "deviceCategory": "dvr",
+                                                                                            "migratedProduct": false,
+                                                                                            "orderingMethod": "addtoCart",
+                                                                                            "enablerPricePlanCode": "88855444",
+                                                                                            "chargeCode": "DTVGRO",
+                                                                                            "productImages": "/cms2/product_catalog/equipment/HMC_Receiver_OM.png",
+                                                                                            "productHighlights": "This receiver lets you record up to 5 shows at once, store up to 800 hours of favorite programs, and watch <br />your DVR recordings in any room. All in crystal-clear HD.\n",
+                                                                                            "description": {
+                                                                                                "en": "Enjoy full HD DVR service on all the TVs in your home. Select one Genie HD DVR for your 1st TV and then select a Genie Mini for each additional TV. This setup lets you enjoy the following features: Experience breathtaking HD on every connected TV | Enjoy full DVR functionality on every connected TV | Watch recorded or live TV on up to 4 TVs at once | Record any 5 shows at the same time, all in HD | Store all your favorite shows with up to 3x more recording capacity than cable | Enjoy thousands of shows and movies On Demand (Genie HD DVR must be connected to the Internet) | And much more."
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "productType": "video-device",
+                                                                            "key": "DEVICE-GENIE-HD-DVR_satellite"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "constraints": {
+                                                                        "dependent": false,
+                                                                        "anchor": false
+                                                                    },
+                                                                    "products": [
+                                                                        {
+                                                                            "id": "45af0c29-9e18-434f-a387-2cdec679b266",
+                                                                            "typeId": "product",
+                                                                            "obj": {
+                                                                                "id": "45af0c29-9e18-434f-a387-2cdec679b266",
+                                                                                "code": "DEVICE-GENIE-MINI-4K_satellite",
+                                                                                "productType": {
+                                                                                    "typeId": "product-type",
+                                                                                    "id": "52293f6a-b51e-4cd0-8538-a0555aa34f5c",
+                                                                                    "key": "video-device"
+                                                                                },
+                                                                                "name": {
+                                                                                    "en": "Genie Mini 4k"
+                                                                                },
+                                                                                "description": {
+                                                                                    "en": "Allows 4K programming on your 4K TV with your existing Genie setup."
+                                                                                },
+                                                                                "categories": [],
+                                                                                "variants": [
+                                                                                    {
+                                                                                        "id": "1",
+                                                                                        "prices": [
+                                                                                            {
+                                                                                                "value": {
+                                                                                                    "currencyCode": "USD",
+                                                                                                    "dollarAmount": 0.0
+                                                                                                },
+                                                                                                "id": "c45c014c-4e8c-484c-a1a3-968cd0b54b29",
+                                                                                                "startDate": "2016-01-01T00:00:00.000Z",
+                                                                                                "endDate": "2049-12-31T00:00:00.000Z",
+                                                                                                "recurrenceIndicator": false,
+                                                                                                "duration": 0,
+                                                                                                "gfVersion": 0,
+                                                                                                "chargeType": "mrc",
+                                                                                                "contracted": false,
+                                                                                                "grandfathered": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "attributes": {
+                                                                                            "displayName": {
+                                                                                                "en": "Genie Mini 4k"
+                                                                                            },
+                                                                                            "billingProductCode": "prod8930244",
+                                                                                            "billingCode": "prod8930244",
+                                                                                            "startDate": "2017-03-10T00:00:00.000Z",
+                                                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                                                            "customerSegments": [
+                                                                                                "Residential"
+                                                                                            ],
+                                                                                            "selfInstallAvailability": "notAllowed",
+                                                                                            "specifications": [
+                                                                                                {
+                                                                                                    "0": {
+                                                                                                        "0": {
+                                                                                                            "specificationsId": "171",
+                                                                                                            "text": "Enjoy programs in 4K HD resolution, the best picture available ",
+                                                                                                            "category": "feature"
+                                                                                                        },
+                                                                                                        "specificationsId": "161",
+                                                                                                        "category": "feature",
+                                                                                                        "text": "Watch recorded or live TV on up to 4 TVs at once"
+                                                                                                    },
+                                                                                                    "category": "feature",
+                                                                                                    "text": "Enjoy full DVR functionality on every connected TV: Record shows; watch, rewind, fast-forward, and delete record shows; pause and rewind live TV ",
+                                                                                                    "specificationsId": "160"
+                                                                                                }
+                                                                                            ],
+                                                                                            "deviceType": "genieMini4k",
+                                                                                            "deviceCategory": "stb",
+                                                                                            "migratedProduct": false,
+                                                                                            "orderingMethod": "addtoCart",
+                                                                                            "enablerPricePlanCode": "88855484",
+                                                                                            "tokens": "IncludedGenieMini4k",
+                                                                                            "chargeCode": "DTVFGO",
+                                                                                            "productImages": "DTV-GENIE-MINI-4K"
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "productType": "video-device",
+                                                                            "key": "DEVICE-GENIE-MINI-4K_satellite"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "constraints": {
+                                                                        "modelNos": "C41W-100,C41W-500",
+                                                                        "dependent": false,
+                                                                        "anchor": false
+                                                                    },
+                                                                    "products": [
+                                                                        {
+                                                                            "id": "6180b381-c9be-4f1f-9ec1-0640841a31cb",
+                                                                            "typeId": "product",
+                                                                            "obj": {
+                                                                                "id": "6180b381-c9be-4f1f-9ec1-0640841a31cb",
+                                                                                "code": "DEVICE-GENIE-MINI-WIRELESS_satellite",
+                                                                                "productType": {
+                                                                                    "typeId": "product-type",
+                                                                                    "id": "52293f6a-b51e-4cd0-8538-a0555aa34f5c",
+                                                                                    "key": "video-device"
+                                                                                },
+                                                                                "name": {
+                                                                                    "en": "Genie Mini"
+                                                                                },
+                                                                                "description": {
+                                                                                    "en": "Enjoy Genie HD DVRs amazing features anywhere"},
+                                                                                "categories": [],
+                                                                                "variants": [
+                                                                                    {
+                                                                                        "id": "1",
+                                                                                        "key": "prod8370286",
+                                                                                        "prices": [
+                                                                                            {
+                                                                                                "value": {
+                                                                                                    "currencyCode": "USD",
+                                                                                                    "dollarAmount": 99.0
+                                                                                                },
+                                                                                                "id": "2fd8437c-6bef-4073-ac85-93b75a64c527",
+                                                                                                "startDate": "1990-01-01T00:00:00.000Z",
+                                                                                                "endDate": "2049-12-31T00:00:00.000Z",
+                                                                                                "recurrenceIndicator": false,
+                                                                                                "duration": 0,
+                                                                                                "gfVersion": 0,
+                                                                                                "chargeType": "nrc",
+                                                                                                "contracted": false,
+                                                                                                "grandfathered": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "attributes": {
+                                                                                            "displayName": {
+                                                                                                "en": "Genie Mini"
+                                                                                            },
+                                                                                            "billingProductCode": "prod8370286",
+                                                                                            "billingCode": "prod8370286",
+                                                                                            "startDate": "2015-10-01T00:00:00.000Z",
+                                                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                                                            "omsComponentMapping": [
+                                                                                                {
+                                                                                                    "omsAttributes": [
+                                                                                                        {
+                                                                                                            "attributeCode": "numberOfTvs",
+                                                                                                            "attributeValue": "@QUANTITY@"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "attributeCode": "DTVWGenieMini",
+                                                                                                            "attributeValue": "@QUANTITY@"
+                                                                                                        }
+                                                                                                    ],
+                                                                                                    "componentCode": "ATTDTVCPE",
+                                                                                                    "componentPath": "ATTDTVCPE",
+                                                                                                    "operationName": "MOORequest,PUSPO1Request"
+                                                                                                },
+                                                                                                {
+                                                                                                    "componentCode": "DTVWirelessGenie",
+                                                                                                    "componentPath": "ATTDTVCPE|DTVWirelessGenie",
+                                                                                                    "operationName": "MOORequest,PUSPO1Request"
+                                                                                                }
+                                                                                            ],
+                                                                                            "customerSegments": [
+                                                                                                "Residential"
+                                                                                            ],
+                                                                                            "selfInstallAvailability": "optional",
+                                                                                            "deviceType": "genieMiniWireless",
+                                                                                            "deviceCategory": "stb",
+                                                                                            "isWirelessCapable": true,
+                                                                                            "migratedProduct": false,
+                                                                                            "enablerPricePlanCode": "88855464",
+                                                                                            "chargeCode": "DTVWGO",
+                                                                                            "productImages": "DTV-GENIE-MINI-WIRELESS"
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "productType": "video-device",
+                                                                            "key": "DEVICE-GENIE-MINI-WIRELESS_satellite"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "constraints": {
+                                                                        "modelNos": "C41-500,C41-100,C41-700",
+                                                                        "dependent": false,
+                                                                        "anchor": false
+                                                                    },
+                                                                    "products": [
+                                                                        {
+                                                                            "id": "44750eb0-3b68-4e43-a7d0-5e7c838f4160",
+                                                                            "typeId": "product",
+                                                                            "obj": {
+                                                                                "id": "44750eb0-3b68-4e43-a7d0-5e7c838f4160",
+                                                                                "code": "DEVICE-GENIE-MINI_satellite",
+                                                                                "productType": {
+                                                                                    "typeId": "product-type",
+                                                                                    "id": "52293f6a-b51e-4cd0-8538-a0555aa34f5c",
+                                                                                    "key": "video-device"
+                                                                                },
+                                                                                "name": {
+                                                                                    "en": "Genie Mini "
+                                                                                },
+                                                                                "description": {
+                                                                                    "en": "Select one Genie Mini for each additional TV to be included with your Genie HD DVR setup. You'll enjoy full HD DVR service on every TV included in this setup. \n"
+                                                                                },
+                                                                                "categories": [],
+                                                                                "variants": [
+                                                                                    {
+                                                                                        "id": "1",
+                                                                                        "key": "prod3380002",
+                                                                                        "prices": [
+                                                                                            {
+                                                                                                "value": {
+                                                                                                    "currencyCode": "USD",
+                                                                                                    "dollarAmount": 99.0
+                                                                                                },
+                                                                                                "id": "a8dcb287-e1d1-4b7f-a5c2-804b3802e45d",
+                                                                                                "startDate": "2012-08-21T18:30:00.000Z",
+                                                                                                "endDate": "2050-12-30T18:30:00.000Z",
+                                                                                                "recurrenceIndicator": false,
+                                                                                                "duration": 0,
+                                                                                                "gfVersion": 0,
+                                                                                                "chargeType": "mrc",
+                                                                                                "contracted": false,
+                                                                                                "grandfathered": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "attributes": {
+                                                                                            "displayName": {
+                                                                                                "en": "Genie Mini"
+                                                                                            },
+                                                                                            "billingProductCode": "prod3380002",
+                                                                                            "billingCode": "prod3380002",
+                                                                                            "startDate": "2012-08-21T18:30:00.000Z",
+                                                                                            "endDate": "2050-12-30T18:30:00.000Z",
+                                                                                            "omsComponentMapping": [
+                                                                                                {
+                                                                                                    "omsAttributes": [
+                                                                                                        {
+                                                                                                            "attributeCode": "numberOfTvs",
+                                                                                                            "attributeValue": "@QUANTITY@"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "attributeCode": "DTVGenieMini",
+                                                                                                            "attributeValue": "@QUANTITY@"
+                                                                                                        }
+                                                                                                    ],
+                                                                                                    "componentCode": "ATTDTVCPE",
+                                                                                                    "componentPath": "ATTDTVCPE",
+                                                                                                    "operationName": "MOORequest,PUSPO1Request"
+                                                                                                },
+                                                                                                {
+                                                                                                    "componentCode": "DTVGenieMini",
+                                                                                                    "componentPath": "ATTDTVCPE|DTVGenieMini",
+                                                                                                    "operationName": "MOORequest,PUSPO1Request"
+                                                                                                }
+                                                                                            ],
+                                                                                            "customerSegments": [
+                                                                                                "Residential"
+                                                                                            ],
+                                                                                            "selfInstallAvailability": "notAllowed",
+                                                                                            "termsAndConditions": {
+                                                                                                "en": "All equipment is leased. Advanced Receiver Service "},
+                                                                                            "deviceType": "genieMini",
+                                                                                            "deviceCategory": "stb",
+                                                                                            "migratedProduct": false,
+                                                                                            "orderingMethod": "addtoCart",
+                                                                                            "enablerPricePlanCode": "88855474",
+                                                                                            "chargeCode": "DTVGMO",
+                                                                                            "productImages": "/cms2/product_catalog/equipment/Genie_Mini_Client.png",
+                                                                                            "productHighlights": "\"This compact box lets you connect an additional TV to the Genie HD DVR.<br />You can enjoy full HD DVR service on every connected TV.\n\"\n",
+                                                                                            "description": {
+                                                                                                "en": "Connect an additional TV to your Genie HD DVR. This compact, easy-to-hide device lets you connect an additional TV to your Genie HD DVR. Select one Genie Mini for each additional TV you want to include in your Genie HD DVR setup. You'll enjoy full HD DVR functionality on every TV connected to your Genie HD DVR with a Genie Mini."
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "productType": "video-device",
+                                                                            "key": "DEVICE-GENIE-MINI_satellite"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ],
+                                                            "customerSegments": [
+                                                                "Residential"
+                                                            ],
+                                                            "selfInstallAvailability": "mandatory",
+                                                            "accessoryType": "tv-accesory",
+                                                            "maxOrderLimit": 4,
+                                                            "maxAccountLimit": 999,
+                                                            "migratedProduct": false,
+                                                            "orderingMethod": "addToCart",
+                                                            "enablerPricePlanCode": "88971885",
+                                                            "tokens": "GenieRemote",
+                                                            "chargeCode": "DTVGRC",
+                                                            "productImages": "DTV-GENIE-REMOTE",
+                                                            "description": {
+                                                                "en": "With this streamlined remote,"}
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "productType": "video-accessory",
+                                            "key": "ACCESSORY-GENIE-REMOTE_satellite"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [],
+                    "eligibility": {
+                        "constraints": [
+                            {
+                                "customerSegments": [
+                                    "Residential"
+                                ],
+                                "minimumPurchaseAmount": 0,
+                                "existingCustomerType": [
+                                    "Satellite"
+                                ]
+                            }
+                        ]
+                    },
+                    "leadOffer": false,
+                    "recommendedOfferOPUS": false,
+                    "recommendedOnline": false,
+                    "isVirtual": false,
+                    "flashSaleOffer": false,
+                    "isSpecialOffer": false
+                }
+            },
+            {
+                "id": "af24e92f-9c6d-4a23-96b4-c21993516cb4",
+                "code": "OF_ACCESSORY-UNIVERSAL-REMOTE_satellite",
+                "status": "live",
+                "name": {
+                    "en": "Universal Remote"
+                },
+                "description": {
+                    "en": "Just point this infrared remote at your DIRECTV&reg; system and click to operate all your components. Change channels, fast-forward, adjust volume, and more.\n"
+                },
+                "startDate": "2007-10-01T09:35:00.000Z",
+                "endDate": "2029-10-01T09:36:00.000Z",
+                "attributes": {
+                    "offerProductType":"video-accessory",
+                    
+                    "offerProductFamilies": [
+                        "satellite"
+                    ],
+                    "offerStatus": "Active",
+                    "offerActionTypes": [
+                        "Cross-sell",
+                        "Other",
+                        "Downgrade",
+                        "Upgrade"
+                    ],
+                    "displayName": {
+                        "en": "Universal Remote"
+                    },
+                    "billingId": "9830",
+                    "billingCode": "9830",
+                    "migratedOffer": false,
+                    "associatedProducts": [
+                        {
+                            "bundleProducts": [
+                                {
+                                    "constraints": {
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "7e041257-b4e6-4450-9767-c3df74bef25c",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "7e041257-b4e6-4450-9767-c3df74bef25c",
+                                                "code": "ACCESSORY-UNIVERSAL-REMOTE_satellite",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "72eeced4-4b11-47f5-a823-8c9fdaacffdd",
+                                                    "key": "video-accessory"
+                                                },
+                                                "name": {
+                                                    "en": "Universal Remote"
+                                                },
+                                                "description": {
+                                                    "en": "Just point this infrared remote at your DIRECTV&reg; system and click to operate all your components. Change channels, fast-forward, adjust volume, and more.\n"
+                                                },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "key": "9830",
+                                                        "prices": [
+                                                            {
+                                                                "value": {
+                                                                    "currencyCode": "USD",
+                                                                    "dollarAmount": 15.0
+                                                                },
+                                                                "id": "7ae4f43c-1dd5-40ce-8556-175143f0728a",
+                                                                "startDate": "2007-10-01T09:35:00.000Z",
+                                                                "endDate": "2029-10-01T09:36:00.000Z",
+                                                                "recurrenceIndicator": false,
+                                                                "duration": 0,
+                                                                "gfVersion": 0,
+                                                                "chargeType": "nrc",
+                                                                "contracted": false,
+                                                                "grandfathered": false
+                                                            }
+                                                        ],
+                                                        "attributes": {
+                                                            "displayName": {
+                                                                "en": "Universal Remote"
+                                                            },
+                                                            "billingProductCode": "9830",
+                                                            "billingCode": "9830",
+                                                            "startDate": "2007-10-01T09:35:00.000Z",
+                                                            "endDate": "2029-10-01T09:36:00.000Z",
+                                                            "customerSegments": [
+                                                                "Residential"
+                                                            ],
+                                                            "selfInstallAvailability": "mandatory",
+                                                            "accessoryType": "tv-accesory",
+                                                            "migratedProduct": false,
+                                                            "orderingMethod": "addToCart",
+                                                            "enablerPricePlanCode": "88971615",
+                                                            "tokens": "UniversalRemote",
+                                                            "chargeCode": "DTVURC",
+                                                            "productImages": "DTV-UNIVERSAL-REMOTE"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "productType": "video-accessory",
+                                            "key": "ACCESSORY-UNIVERSAL-REMOTE_satellite"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [],
+                    "eligibility": {
+                        "constraints": [
+                            {
+                                "customerSegments": [
+                                    "Residential"
+                                ],
+                                "minimumPurchaseAmount": 0,
+                                "existingCustomerType": [
+                                    "Satellite"
+                                ]
+                            }
+                        ]
+                    },
+                    "leadOffer": false,
+                    "recommendedOfferOPUS": false,
+                    "recommendedOnline": false,
+                    "isVirtual": false,
+                    "flashSaleOffer": false,
+                    "isSpecialOffer": false
+                }
+            },
+            {
+                "id": "eb25f8ad-6ec3-4457-99d9-56b418f4ef4c",
+                "code": "OF_ACCESSORY-GENIE-BACKLIT-REMOTE_satellite",
+                "name": {
+                    "en": "Genie backlit remote"
+                },
+                "description": {
+                    "en": "With this streamlined backlit remote"},
+                "startDate": "2017-08-01T00:00:00.000Z",
+                "endDate": "2049-12-31T00:00:00.000Z",
+                "attributes": {
+                    "offerProductType": 
+                        "video-accessory",
+                    "offerProductFamilies": [
+                        "satellite"
+                    ],
+                    "offerStatus": "Active",
+                    "offerActionTypes": [
+                        "Cross-sell",
+                        "Other",
+                        "Downgrade",
+                        "Upgrade"
+                    ],
+                    "displayName": {
+                        "en": "Genie backlit remote"
+                    },
+                    "migratedOffer": false,
+                    "associatedProducts": [
+                        {
+                            "bundleProducts": [
+                                {
+                                    "constraints": {
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "0e56c029-6ea6-4308-8045-5f16c19daa8b",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "0e56c029-6ea6-4308-8045-5f16c19daa8b",
+                                                "code": "ACCESSORY-GENIE-BACKLIT-REMOTE_satellite",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "72eeced4-4b11-47f5-a823-8c9fdaacffdd",
+                                                    "key": "video-accessory"
+                                                },
+                                                "name": {
+                                                    "en": "Genie backlit remote"
+                                                },
+                                                "description": {
+                                                    "en": "With this streamlined backlit remote,"},
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "key": "prod9140222",
+                                                        "prices": [
+                                                            {
+                                                                "value": {
+                                                                    "currencyCode": "USD",
+                                                                    "dollarAmount": 25.0
+                                                                },
+                                                                "id": "ae1bdb64-706c-43e0-b46a-09caa58db77c",
+                                                                "startDate": "2017-08-01T00:00:00.000Z",
+                                                                "endDate": "2049-12-31T00:00:00.000Z",
+                                                                "recurrenceIndicator": false,
+                                                                "duration": 0,
+                                                                "gfVersion": 0,
+                                                                "chargeType": "nrc",
+                                                                "contracted": false,
+                                                                "grandfathered": false
+                                                            }
+                                                        ],
+                                                        "attributes": {
+                                                            "displayName": {
+                                                                "en": "Genie backlit remote"
+                                                            },
+                                                            "billingProductCode": "prod9140222",
+                                                            "billingCode": "prod9140222",
+                                                            "startDate": "2017-10-09T00:00:00.000Z",
+                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                            "compatibleProducts": [
+                                                                {
+                                                                    "constraints": {
+                                                                        "dependent": false,
+                                                                        "anchor": false
+                                                                    },
+                                                                    "products": [
+                                                                        {
+                                                                            "id": "4f713f4b-f0da-450d-8f7d-a4be87eae194",
+                                                                            "typeId": "product",
+                                                                            "obj": {
+                                                                                "id": "4f713f4b-f0da-450d-8f7d-a4be87eae194",
+                                                                                "code": "DEVICE-RVU-RECEIVER_satellite",
+                                                                                "productType": {
+                                                                                    "typeId": "product-type",
+                                                                                    "id": "52293f6a-b51e-4cd0-8538-a0555aa34f5c",
+                                                                                    "key": "video-device"
+                                                                                },
+                                                                                "name": {
+                                                                                    "en": "RVU Receiver"
+                                                                                },
+                                                                                "description": {
+                                                                                    "en": "RVU Receiver"
+                                                                                },
+                                                                                "categories": [],
+                                                                                "variants": [
+                                                                                    {
+                                                                                        "id": "1",
+                                                                                        "key": "prod8930245",
+                                                                                        "prices": [
+                                                                                            {
+                                                                                                "value": {
+                                                                                                    "currencyCode": "USD",
+                                                                                                    "dollarAmount": 0.0
+                                                                                                },
+                                                                                                "id": "5777bd2e-dd0f-4f31-9ef5-9e4002decc04",
+                                                                                                "startDate": "2016-01-01T00:00:00.000Z",
+                                                                                                "endDate": "2049-12-31T00:00:00.000Z",
+                                                                                                "recurrenceIndicator": false,
+                                                                                                "duration": 0,
+                                                                                                "gfVersion": 0,
+                                                                                                "chargeType": "mrc",
+                                                                                                "contracted": false,
+                                                                                                "grandfathered": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "attributes": {
+                                                                                            "displayName": {
+                                                                                                "en": "RVU Receiver"
+                                                                                            },
+                                                                                            "billingProductCode": "prod8930245",
+                                                                                            "billingCode": "prod8930245",
+                                                                                            "startDate": "2017-03-10T00:00:00.000Z",
+                                                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                                                            "omsComponentMapping": [
+                                                                                                {
+                                                                                                    "componentCode": "DTVRVU",
+                                                                                                    "componentPath": "ATTDTVCPE|DTVRVU"
+                                                                                                }
+                                                                                            ],
+                                                                                            "customerSegments": [
+                                                                                                "Residential"
+                                                                                            ],
+                                                                                            "selfInstallAvailability": "notAllowed",
+                                                                                            "deviceType": "rvu",
+                                                                                            "deviceCategory": "stb",
+                                                                                            "migratedProduct": false,
+                                                                                            "orderingMethod": "addtoCart",
+                                                                                            "enablerPricePlanCode": "111",
+                                                                                            "tokens": "IncludedRVU",
+                                                                                            "productImages": "DTV-RVU",
+                                                                                            "description": {
+                                                                                                "en": "RVU Receiver"
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "productType": "video-device",
+                                                                            "key": "DEVICE-RVU-RECEIVER_satellite"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "constraints": {
+                                                                        "dependent": false,
+                                                                        "anchor": false
+                                                                    },
+                                                                    "products": [
+                                                                        {
+                                                                            "id": "45af0c29-9e18-434f-a387-2cdec679b266",
+                                                                            "typeId": "product",
+                                                                            "obj": {
+                                                                                "id": "45af0c29-9e18-434f-a387-2cdec679b266",
+                                                                                "code": "DEVICE-GENIE-MINI-4K_satellite",
+                                                                                "productType": {
+                                                                                    "typeId": "product-type",
+                                                                                    "id": "52293f6a-b51e-4cd0-8538-a0555aa34f5c",
+                                                                                    "key": "video-device"
+                                                                                },
+                                                                                "name": {
+                                                                                    "en": "Genie Mini 4k"
+                                                                                },
+                                                                                "description": {
+                                                                                    "en": "Allows 4K programming on your 4K TV with your existing Genie setup."
+                                                                                },
+                                                                                "categories": [],
+                                                                                "variants": [
+                                                                                    {
+                                                                                        "id": "1",
+                                                                                        "prices": [
+                                                                                            {
+                                                                                                "value": {
+                                                                                                    "currencyCode": "USD",
+                                                                                                    "dollarAmount": 0.0
+                                                                                                },
+                                                                                                "id": "c45c014c-4e8c-484c-a1a3-968cd0b54b29",
+                                                                                                "startDate": "2016-01-01T00:00:00.000Z",
+                                                                                                "endDate": "2049-12-31T00:00:00.000Z",
+                                                                                                "recurrenceIndicator": false,
+                                                                                                "duration": 0,
+                                                                                                "gfVersion": 0,
+                                                                                                "chargeType": "mrc",
+                                                                                                "contracted": false,
+                                                                                                "grandfathered": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "attributes": {
+                                                                                            "displayName": {
+                                                                                                "en": "Genie Mini 4k"
+                                                                                            },
+                                                                                            "billingProductCode": "prod8930244",
+                                                                                            "billingCode": "prod8930244",
+                                                                                            "startDate": "2017-03-10T00:00:00.000Z",
+                                                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                                                            "customerSegments": [
+                                                                                                "Residential"
+                                                                                            ],
+                                                                                            "selfInstallAvailability": "notAllowed",
+                                                                                            "specifications": [
+                                                                                                {
+                                                                                                    "0": {
+                                                                                                        "0": {
+                                                                                                            "specificationsId": "171",
+                                                                                                            "text": "Enjoy programs in 4K HD resolution, the best picture available ",
+                                                                                                            "category": "feature"
+                                                                                                        },
+                                                                                                        "specificationsId": "161",
+                                                                                                        "category": "feature",
+                                                                                                        "text": "Watch recorded or live TV on up to 4 TVs at once"
+                                                                                                    },
+                                                                                                    "category": "feature",
+                                                                                                    "text": "Enjoy full DVR functionality on every connected TV: Record shows; watch, rewind, fast-forward, and delete record shows; pause and rewind live TV ",
+                                                                                                    "specificationsId": "160"
+                                                                                                }
+                                                                                            ],
+                                                                                            "deviceType": "genieMini4k",
+                                                                                            "deviceCategory": "stb",
+                                                                                            "migratedProduct": false,
+                                                                                            "orderingMethod": "addtoCart",
+                                                                                            "enablerPricePlanCode": "88855484",
+                                                                                            "tokens": "IncludedGenieMini4k",
+                                                                                            "chargeCode": "DTVFGO",
+                                                                                            "productImages": "DTV-GENIE-MINI-4K"
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "productType": "video-device",
+                                                                            "key": "DEVICE-GENIE-MINI-4K_satellite"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "constraints": {
+                                                                        "dependent": false,
+                                                                        "anchor": false
+                                                                    },
+                                                                    "products": [
+                                                                        {
+                                                                            "id": "ae8170d9-26e9-48f9-b694-614bd430d646",
+                                                                            "typeId": "product",
+                                                                            "obj": {
+                                                                                "id": "ae8170d9-26e9-48f9-b694-614bd430d646",
+                                                                                "code": "DEVICE-GENIE-LITE_satellite",
+                                                                                "productType": {
+                                                                                    "typeId": "product-type",
+                                                                                    "id": "52293f6a-b51e-4cd0-8538-a0555aa34f5c",
+                                                                                    "key": "video-device"
+                                                                                },
+                                                                                "name": {
+                                                                                    "en": "Genie Lite"
+                                                                                },
+                                                                                "description": {
+                                                                                    "en": "Allows Genie-quality HD picture and sound on a connected TV."
+                                                                                },
+                                                                                "categories": [],
+                                                                                "variants": [
+                                                                                    {
+                                                                                        "id": "1",
+                                                                                        "key": "prod8930242",
+                                                                                        "prices": [
+                                                                                            {
+                                                                                                "value": {
+                                                                                                    "currencyCode": "USD",
+                                                                                                    "dollarAmount": 7.0
+                                                                                                },
+                                                                                                "id": "25bdf384-298e-4419-8868-116c962bcea0",
+                                                                                                "startDate": "1990-01-01T00:00:00.000Z",
+                                                                                                "endDate": "2049-12-31T00:00:00.000Z",
+                                                                                                "recurrenceIndicator": false,
+                                                                                                "duration": 0,
+                                                                                                "gfVersion": 0,
+                                                                                                "chargeType": "mrc",
+                                                                                                "contracted": false,
+                                                                                                "grandfathered": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "attributes": {
+                                                                                            "displayName": {
+                                                                                                "en": "Genie Lite"
+                                                                                            },
+                                                                                            "billingProductCode": "prod8930242",
+                                                                                            "billingCode": "prod8930242",
+                                                                                            "startDate": "2017-03-10T00:00:00.000Z",
+                                                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                                                            "customerSegments": [
+                                                                                                "Residential"
+                                                                                            ],
+                                                                                            "selfInstallAvailability": "notAllowed",
+                                                                                            "specifications": [
+                                                                                                {
+                                                                                                    "0": {
+                                                                                                        "0": {
+                                                                                                            "specificationsId": "170",
+                                                                                                            "text": "Enjoy TV Apps like Pandora and ScoreGuide",
+                                                                                                            "category": "feature"
+                                                                                                        },
+                                                                                                        "specificationsId": "168",
+                                                                                                        "category": "feature",
+                                                                                                        "text": "Experience amazing Genie-quality HD picture and sound on every connected TV"
+                                                                                                    },
+                                                                                                    "category": "feature",
+                                                                                                    "text": "Transform your Genie Lite into a full-featured Genie HD DVR later with the Genie Lite HD DVR Kit (sold separately). Please note: If you want full HD DVR capabilities now, please order the Genie HD DVR.",
+                                                                                                    "specificationsId": "169"
+                                                                                                }
+                                                                                            ],
+                                                                                            "deviceType": "genieLite",
+                                                                                            "deviceCategory": "stb",
+                                                                                            "migratedProduct": false,
+                                                                                            "orderingMethod": "addtoCart",
+                                                                                            "enablerPricePlanCode": "88834884",
+                                                                                            "tokens": "compatibleGenieLite",
+                                                                                            "chargeCode": "DTVPUR",
+                                                                                            "productImages": "DTV-GENIE-LITE"
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "productType": "video-device",
+                                                                            "key": "DEVICE-GENIE-LITE_satellite"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "constraints": {
+                                                                        "modelNos": "C41-500,C41-100,C41-700",
+                                                                        "dependent": false,
+                                                                        "anchor": false
+                                                                    },
+                                                                    "products": [
+                                                                        {
+                                                                            "id": "44750eb0-3b68-4e43-a7d0-5e7c838f4160",
+                                                                            "typeId": "product",
+                                                                            "obj": {
+                                                                                "id": "44750eb0-3b68-4e43-a7d0-5e7c838f4160",
+                                                                                "code": "DEVICE-GENIE-MINI_satellite",
+                                                                                "productType": {
+                                                                                    "typeId": "product-type",
+                                                                                    "id": "52293f6a-b51e-4cd0-8538-a0555aa34f5c",
+                                                                                    "key": "video-device"
+                                                                                },
+                                                                                "name": {
+                                                                                    "en": "Genie Mini "
+                                                                                },
+                                                                                "description": {
+                                                                                    "en": "Select one Genie Mini for each additional TV to be included with your Genie HD DVR setup. You'll enjoy full HD DVR service on every TV included in this setup. \n"
+                                                                                },
+                                                                                "categories": [],
+                                                                                "variants": [
+                                                                                    {
+                                                                                        "id": "1",
+                                                                                        "key": "prod3380002",
+                                                                                        "prices": [
+                                                                                            {
+                                                                                                "value": {
+                                                                                                    "currencyCode": "USD",
+                                                                                                    "dollarAmount": 99.0
+                                                                                                },
+                                                                                                "id": "a8dcb287-e1d1-4b7f-a5c2-804b3802e45d",
+                                                                                                "startDate": "2012-08-21T18:30:00.000Z",
+                                                                                                "endDate": "2050-12-30T18:30:00.000Z",
+                                                                                                "recurrenceIndicator": false,
+                                                                                                "duration": 0,
+                                                                                                "gfVersion": 0,
+                                                                                                "chargeType": "mrc",
+                                                                                                "contracted": false,
+                                                                                                "grandfathered": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "attributes": {
+                                                                                            "displayName": {
+                                                                                                "en": "Genie Mini"
+                                                                                            },
+                                                                                            "billingProductCode": "prod3380002",
+                                                                                            "billingCode": "prod3380002",
+                                                                                            "startDate": "2012-08-21T18:30:00.000Z",
+                                                                                            "endDate": "2050-12-30T18:30:00.000Z",
+                                                                                            "omsComponentMapping": [
+                                                                                                {
+                                                                                                    "omsAttributes": [
+                                                                                                        {
+                                                                                                            "attributeCode": "numberOfTvs",
+                                                                                                            "attributeValue": "@QUANTITY@"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "attributeCode": "DTVGenieMini",
+                                                                                                            "attributeValue": "@QUANTITY@"
+                                                                                                        }
+                                                                                                    ],
+                                                                                                    "componentCode": "ATTDTVCPE",
+                                                                                                    "componentPath": "ATTDTVCPE",
+                                                                                                    "operationName": "MOORequest,PUSPO1Request"
+                                                                                                },
+                                                                                                {
+                                                                                                    "componentCode": "DTVGenieMini",
+                                                                                                    "componentPath": "ATTDTVCPE|DTVGenieMini",
+                                                                                                    "operationName": "MOORequest,PUSPO1Request"
+                                                                                                }
+                                                                                            ],
+                                                                                            "customerSegments": [
+                                                                                                "Residential"
+                                                                                            ],
+                                                                                            "selfInstallAvailability": "notAllowed",
+                                                                                            "termsAndConditions": {
+                                                                                                "en": "All equipment is leased. Advanced Receiver Service "},
+                                                                                            "deviceType": "genieMini",
+                                                                                            "deviceCategory": "stb",
+                                                                                            "migratedProduct": false,
+                                                                                            "orderingMethod": "addtoCart",
+                                                                                            "enablerPricePlanCode": "88855474",
+                                                                                            "chargeCode": "DTVGMO",
+                                                                                            "productImages": "/cms2/product_catalog/equipment/Genie_Mini_Client.png",
+                                                                                            "productHighlights": "\"This compact box lets you connect an additional TV to the Genie HD DVR.<br />You can enjoy full HD DVR service on every connected TV.\n\"\n",
+                                                                                            "description": {
+                                                                                                "en": "Connect an additional TV to your Genie HD DVR. This compact, easy-to-hide device lets you connect an additional TV to your Genie HD DVR. Select one Genie Mini for each additional TV you want to include in your Genie HD DVR setup. You'll enjoy full HD DVR functionality on every TV connected to your Genie HD DVR with a Genie Mini."
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "productType": "video-device",
+                                                                            "key": "DEVICE-GENIE-MINI_satellite"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "constraints": {
+                                                                        "modelNos": "C41W-100,C41W-500",
+                                                                        "dependent": false,
+                                                                        "anchor": false
+                                                                    },
+                                                                    "products": [
+                                                                        {
+                                                                            "id": "6180b381-c9be-4f1f-9ec1-0640841a31cb",
+                                                                            "typeId": "product",
+                                                                            "obj": {
+                                                                                "id": "6180b381-c9be-4f1f-9ec1-0640841a31cb",
+                                                                                "code": "DEVICE-GENIE-MINI-WIRELESS_satellite",
+                                                                                "productType": {
+                                                                                    "typeId": "product-type",
+                                                                                    "id": "52293f6a-b51e-4cd0-8538-a0555aa34f5c",
+                                                                                    "key": "video-device"
+                                                                                },
+                                                                                "name": {
+                                                                                    "en": "Genie Mini"
+                                                                                },
+                                                                                "description": {
+                                                                                    "en": "Enjoy Genie HD DVRs amazing features "},
+                                                                                "categories": [],
+                                                                                "variants": [
+                                                                                    {
+                                                                                        "id": "1",
+                                                                                        "key": "prod8370286",
+                                                                                        "prices": [
+                                                                                            {
+                                                                                                "value": {
+                                                                                                    "currencyCode": "USD",
+                                                                                                    "dollarAmount": 99.0
+                                                                                                },
+                                                                                                "id": "2fd8437c-6bef-4073-ac85-93b75a64c527",
+                                                                                                "startDate": "1990-01-01T00:00:00.000Z",
+                                                                                                "endDate": "2049-12-31T00:00:00.000Z",
+                                                                                                "recurrenceIndicator": false,
+                                                                                                "duration": 0,
+                                                                                                "gfVersion": 0,
+                                                                                                "chargeType": "nrc",
+                                                                                                "contracted": false,
+                                                                                                "grandfathered": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "attributes": {
+                                                                                            "displayName": {
+                                                                                                "en": "Genie Mini"
+                                                                                            },
+                                                                                            "billingProductCode": "prod8370286",
+                                                                                            "billingCode": "prod8370286",
+                                                                                            "startDate": "2015-10-01T00:00:00.000Z",
+                                                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                                                            "omsComponentMapping": [
+                                                                                                {
+                                                                                                    "omsAttributes": [
+                                                                                                        {
+                                                                                                            "attributeCode": "numberOfTvs",
+                                                                                                            "attributeValue": "@QUANTITY@"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "attributeCode": "DTVWGenieMini",
+                                                                                                            "attributeValue": "@QUANTITY@"
+                                                                                                        }
+                                                                                                    ],
+                                                                                                    "componentCode": "ATTDTVCPE",
+                                                                                                    "componentPath": "ATTDTVCPE",
+                                                                                                    "operationName": "MOORequest,PUSPO1Request"
+                                                                                                },
+                                                                                                {
+                                                                                                    "componentCode": "DTVWirelessGenie",
+                                                                                                    "componentPath": "ATTDTVCPE|DTVWirelessGenie",
+                                                                                                    "operationName": "MOORequest,PUSPO1Request"
+                                                                                                }
+                                                                                            ],
+                                                                                            "customerSegments": [
+                                                                                                "Residential"
+                                                                                            ],
+                                                                                            "selfInstallAvailability": "optional",
+                                                                                            "deviceType": "genieMiniWireless",
+                                                                                            "deviceCategory": "stb",
+                                                                                            "isWirelessCapable": true,
+                                                                                            "migratedProduct": false,
+                                                                                            "enablerPricePlanCode": "88855464",
+                                                                                            "chargeCode": "DTVWGO",
+                                                                                            "productImages": "DTV-GENIE-MINI-WIRELESS"
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "productType": "video-device",
+                                                                            "key": "DEVICE-GENIE-MINI-WIRELESS_satellite"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "constraints": {
+                                                                        "modelNos": "HR44-500,HR44-700,HR44-200,HR54-500,HR54-700,HR54-200",
+                                                                        "dependent": false,
+                                                                        "anchor": false
+                                                                    },
+                                                                    "products": [
+                                                                        {
+                                                                            "id": "b60f7fdc-4b4d-4e2c-9e4f-dcb5f04e0055",
+                                                                            "typeId": "product",
+                                                                            "obj": {
+                                                                                "id": "b60f7fdc-4b4d-4e2c-9e4f-dcb5f04e0055",
+                                                                                "code": "DEVICE-GENIE-HD-DVR_satellite",
+                                                                                "productType": {
+                                                                                    "typeId": "product-type",
+                                                                                    "id": "52293f6a-b51e-4cd0-8538-a0555aa34f5c",
+                                                                                    "key": "video-device"
+                                                                                },
+                                                                                "name": {
+                                                                                    "en": "Genie HD DVR"
+                                                                                },
+                                                                                "description": {
+                                                                                    "en": "Enjoy HD DVR service on all the TVs in your home. After selecting this receiver, select the Genie Mini for each additional TV.\n"
+                                                                                },
+                                                                                "categories": [],
+                                                                                "variants": [
+                                                                                    {
+                                                                                        "id": "1",
+                                                                                        "prices": [
+                                                                                            {
+                                                                                                "value": {
+                                                                                                    "currencyCode": "USD",
+                                                                                                    "dollarAmount": 299.0
+                                                                                                },
+                                                                                                "id": "22297961-2ec9-4b70-a4bf-1d29619485e3",
+                                                                                                "startDate": "2012-11-19T18:30:00.000Z",
+                                                                                                "endDate": "2050-12-30T18:30:00.000Z",
+                                                                                                "recurrenceIndicator": false,
+                                                                                                "duration": 0,
+                                                                                                "gfVersion": 0,
+                                                                                                "chargeType": "mrc",
+                                                                                                "contracted": false,
+                                                                                                "grandfathered": false
+                                                                                            }
+                                                                                        ],
+                                                                                        "attributes": {
+                                                                                            "displayName": {
+                                                                                                "en": "Genie HD DVR"
+                                                                                            },
+                                                                                            "billingProductCode": "prod3470006",
+                                                                                            "billingCode": "prod3470006",
+                                                                                            "startDate": "2012-11-19T18:30:00.000Z",
+                                                                                            "endDate": "2050-12-30T18:30:00.000Z",
+                                                                                            "omsComponentMapping": [
+                                                                                                {
+                                                                                                    "omsAttributes": [
+                                                                                                        {
+                                                                                                            "attributeCode": "numberOfTvs",
+                                                                                                            "attributeValue": "@QUANTITY@"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "attributeCode": "DTVGenie",
+                                                                                                            "attributeValue": "@QUANTITY@"
+                                                                                                        }
+                                                                                                    ],
+                                                                                                    "componentCode": "ATTDTVCPE",
+                                                                                                    "componentPath": "ATTDTVCPE",
+                                                                                                    "operationName": "MOORequest,PUSPO1Request"
+                                                                                                },
+                                                                                                {
+                                                                                                    "componentCode": "DTVGenie",
+                                                                                                    "componentPath": "ATTDTVCPE|DTVGenie",
+                                                                                                    "operationName": "MOORequest,PUSPO1Request"
+                                                                                                }
+                                                                                            ],
+                                                                                            "customerSegments": [
+                                                                                                "Residential"
+                                                                                            ],
+                                                                                            "selfInstallAvailability": "notAllowed",
+                                                                                            "termsAndConditions": {
+                                                                                                "en": "All equipment is leased. Advanced Receiver Service "},
+                                                                                            "deviceType": "genieHDDVR",
+                                                                                            "deviceCategory": "dvr",
+                                                                                            "migratedProduct": false,
+                                                                                            "orderingMethod": "addtoCart",
+                                                                                            "enablerPricePlanCode": "88855444",
+                                                                                            "chargeCode": "DTVGRO",
+                                                                                            "productImages": "/cms2/product_catalog/equipment/HMC_Receiver_OM.png",
+                                                                                            "productHighlights": "This receiver lets you record up to 5 shows at once, store up to 800 hours of favorite programs, and watch <br />your DVR recordings in any room. All in crystal-clear HD.\n",
+                                                                                            "description": {
+                                                                                                "en": "Enjoy full HD DVR service on all the TVs in your home. Select one Genie HD DVR for your 1st TV and then select a Genie Mini for each additional TV. This setup lets you enjoy the following features: Experience breathtaking HD on every connected TV | Enjoy full DVR functionality on every connected TV | Watch recorded or live TV on up to 4 TVs at once | Record any 5 shows at the same time, all in HD | Store all your favorite shows with up to 3x more recording capacity than cable | Enjoy thousands of shows and movies On Demand (Genie HD DVR must be connected to the Internet) | And much more."
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "productType": "video-device",
+                                                                            "key": "DEVICE-GENIE-HD-DVR_satellite"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ],
+                                                            "customerSegments": [
+                                                                "Residential"
+                                                            ],
+                                                            "selfInstallAvailability": "mandatory",
+                                                            "accessoryType": "tv-accesory",
+                                                            "maxOrderLimit": 4,
+                                                            "maxAccountLimit": 999,
+                                                            "migratedProduct": false,
+                                                            "orderingMethod": "addToCart",
+                                                            "enablerPricePlanCode": "89464904",
+                                                            "tokens": "GenieBacklitRemote",
+                                                            "chargeCode": "DVGBR",
+                                                            "productImages": "DTV-GENIE-BACKLIT-REMOTE"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "productType": "video-accessory",
+                                            "key": "ACCESSORY-GENIE-BACKLIT-REMOTE_satellite"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [],
+                    "eligibility": {
+                        "constraints": [
+                            {
+                                "customerSegments": [
+                                    "Residential"
+                                ],
+                                "minimumPurchaseAmount": 0,
+                                "existingCustomerType": [
+                                    "Satellite"
+                                ]
+                            }
+                        ]
+                    },
+                    "leadOffer": false,
+                    "recommendedOfferOPUS": false,
+                    "recommendedOnline": false,
+                    "isVirtual": false,
+                    "flashSaleOffer": false,
+                    "isSpecialOffer": false
+                }
+            }
+        ]
+}

@@ -1,0 +1,2084 @@
+{
+  "limit": 300,
+  "offset": 0,
+  "count": 13,
+  "total": 13,
+  "offers": [
+    {
+      "id": "f52cfed0-c119-49d7-9dbc-eee7a60d7e07",
+      "code": "OF_ACCESSORY-UNIVERSAL-REMOTE_satellite",
+      "status": "live",
+      "name": {
+        "en": "Universal Remote"
+      },
+      "description": {
+        "en": "Just point this infrared remote at your DIRECTV&reg; system and click to operate all your components. Change channels, fast-forward, adjust volume, and more.n"
+      },
+      "startDate": "2007-10-01T09:35:00.000Z",
+      "endDate": "2029-10-01T09:36:00.000Z",
+      "attributes": {
+        "offerProductType": "video-accessory",
+        "offerProductTypes": [
+          "video-accessory"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Other",
+        "offerActionTypes": [
+          "Other",
+          "Downgrade",
+          "Upgrade",
+          "Acquisition"
+        ],
+        "displayName": {
+          "en": "Universal Remote"
+        },
+        "billingId": "9830",
+        "billingCode": "9830",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-accessory"
+                  ],
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "2589b46f-9886-4ccd-bf42-9ba52d9f373a",
+                    "typeId": "product",
+                    "productType": "video-accessory",
+                    "key": "ACCESSORY-UNIVERSAL-REMOTE_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "salesChannel": [
+                "opusServices",
+                "opusSales",
+                "onlineServices",
+                "onlineSales",
+                "opus",
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+    {
+      "id": "4763b675-d6d7-46d3-95e0-5e0cebf75272",
+      "code": "OF_ACCESSORY-UNIVERSAL-RF-REMOTE_satellite",
+      "status": "live",
+      "name": {
+        "en": "Universal RF Remote"
+      },
+      "description": {
+        "en": "No need to point. With this radio frequency-capable remote, you can change channels, fast-forward and adjust volume even on TV systems in other rooms.n"
+      },
+      "startDate": "2007-10-01T09:35:00.000Z",
+      "endDate": "2029-10-01T09:36:00.000Z",
+      "attributes": {
+        "offerProductType": "video-accessory",
+        "offerProductTypes": [
+          "video-accessory"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Other",
+        "offerActionTypes": [
+          "Other",
+          "Downgrade",
+          "Upgrade",
+          "Acquisition"
+        ],
+        "displayName": {
+          "en": "Universal RF Remote"
+        },
+        "billingId": "9831",
+        "billingCode": "9831",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-accessory"
+                  ],
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "c84a1df7-9a86-4a44-8d06-c64a1424e733",
+                    "typeId": "product",
+                    "productType": "video-accessory",
+                    "key": "ACCESSORY-UNIVERSAL-RF-REMOTE_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "salesChannel": [
+                "opusServices",
+                "opusSales",
+                "onlineServices",
+                "onlineSales",
+                "opus",
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+    {
+      "id": "0b5cb2c9-1b74-4d43-bec8-622c376521b6",
+      "code": "OF_ACCESSORY-RF-REMOTE-RF-ANTENNA_satellite",
+      "status": "live",
+      "name": {
+        "en": "RF Remote + RF Antenna"
+      },
+      "description": {
+        "en": "If your receiver is not Radio Frequency (RF) capable, don't worry. All you need is a DIRECTV RF Remote and an external RF Antenna to control your DIRECTV&#174; system without even pointing your remote at it.n"
+      },
+      "startDate": "2007-10-01T09:35:00.000Z",
+      "endDate": "2029-10-01T09:36:00.000Z",
+      "attributes": {
+        "offerProductType": "video-accessory",
+        "offerProductTypes": [
+          "video-accessory"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Other",
+        "offerActionTypes": [
+          "Other",
+          "Downgrade",
+          "Upgrade",
+          "Acquisition"
+        ],
+        "displayName": {
+          "en": "RF Remote + RF Antenna"
+        },
+        "billingId": "prod1000060",
+        "billingCode": "prod1000060",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-accessory"
+                  ],
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "19c2dd26-0bc2-4de0-943d-d5a2efb11d2e",
+                    "typeId": "product",
+                    "productType": "video-accessory",
+                    "key": "ACCESSORY-RF-REMOTE-RF-ANTENNA_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "salesChannel": [
+                "opus",
+                "opusServices",
+                "opusSales",
+                "onlineServices",
+                "onlineSales",
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+    {
+      "id": "824c940e-f515-4d5c-b178-fd32074679cb",
+      "code": "OF_ACCESSORY-GENIE-REMOTE_satellite",
+      "status": "live",
+      "name": {
+        "en": "Genie Remote"
+      },
+      "description": {
+        "en": "With this streamlined remote, it's now easier than ever to control your entertainment. It's smaller than our standard remote and has a significantly faster response time. Compatible with Genie HD DVR in RF and IR mode-and all other receivers when in IR mode.n"
+      },
+      "startDate": "2012-10-26T18:30:00.000Z",
+      "endDate": "2050-12-31T18:29:00.000Z",
+      "attributes": {
+        "offerProductType": "video-accessory",
+        "offerProductTypes": [
+          "video-accessory"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Other",
+        "offerActionTypes": [
+          "Other",
+          "Downgrade",
+          "Upgrade",
+          "Acquisition"
+        ],
+        "displayName": {
+          "en": "Genie Remote"
+        },
+        "billingId": "prod9012",
+        "billingCode": "prod9012",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-accessory"
+                  ],
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "3a8ea117-1507-4c5b-bf7c-ec655dc00be7",
+                    "typeId": "product",
+                    "productType": "video-accessory",
+                    "key": "ACCESSORY-GENIE-REMOTE_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "salesChannel": [
+                "opusServices",
+                "opusSales",
+                "onlineServices",
+                "onlineSales",
+                "opus",
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+    {
+      "id": "e4da6633-2528-44cb-bd32-ff83112e74e7",
+      "code": "OF_ACCESSORY-CONNECTION-KIT_satellite",
+      "status": "live",
+      "name": {
+        "en": "DIRECTV CINEMA&trade; Connection Kit (Self-Installation)"
+      },
+      "description": {
+        "en": "This wireless kit includes everything you need to connect your HD DVR to your existing high-speed Internet network. Please note: Your home must be equipped with active high-speed Internet service and a wireless router.n"
+      },
+      "startDate": "2012-04-17T18:30:00.000Z",
+      "endDate": "2050-12-31T08:00:00.000Z",
+      "attributes": {
+        "offerProductType": "video-accessory",
+        "offerProductTypes": [
+          "video-accessory"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Other",
+        "offerActionTypes": [
+          "Other",
+          "Downgrade",
+          "Upgrade",
+          "Acquisition"
+        ],
+        "displayName": {
+          "en": "DIRECTV CINEMA&trade; Connection Kit (Self-Installation)"
+        },
+        "billingId": "prod2510011",
+        "billingCode": "prod2510011",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-accessory"
+                  ],
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "e3b1ceaf-18c7-480d-97f1-661e792406b7",
+                    "typeId": "product",
+                    "productType": "video-accessory",
+                    "key": "ACCESSORY-CONNECTION-KIT_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "customerSegment": "Residential",
+              "salesChannel": [
+                "opusServices",
+                "opusSales",
+                "onlineServices",
+                "onlineSales",
+                "opus",
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+    {
+      "id": "d80de724-9a59-4919-b50d-a20d2a10945c",
+      "code": "OF_ACCESSORY-CONNECTION-KIT-1_satellite",
+      "status": "live",
+      "name": {
+        "en": "DIRECTV CINEMA&trade; Connection Kit (Self-Installation)"
+      },
+      "description": {
+        "en": "This wireless kit includes everything you need to connect your HD DVR to your existing high-speed Internet network. Please note: Your home must be equipped with active high-speed Internet service and a wireless router."
+      },
+      "startDate": "2011-03-01T11:06:00.000Z",
+      "attributes": {
+        "offerProductType": "video-accessory",
+        "offerProductTypes": [
+          "video-accessory"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Other",
+        "offerActionTypes": [
+          "Other",
+          "Downgrade",
+          "Upgrade",
+          "Acquisition"
+        ],
+        "displayName": {
+          "en": "DIRECTV CINEMA&trade; Connection Kit (Self-Installation)"
+        },
+        "billingId": "prod2520002",
+        "billingCode": "prod2520002",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-accessory"
+                  ],
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "c5e8b943-7d3e-4ca1-85c5-976ecb49992f",
+                    "typeId": "product",
+                    "productType": "video-accessory",
+                    "key": "ACCESSORY-CONNECTION-KIT-1_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "customerSegment": "Residential",
+              "salesChannel": [
+                "opusServices",
+                "opusSales",
+                "onlineServices",
+                "onlineSales",
+                "opus",
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+    {
+      "id": "a878316c-071f-4e8f-85b7-f3e5d8aaaa25",
+      "code": "OF_ACCESSORY-CONNECTION-KIT-2_satellite",
+      "status": "live",
+      "name": {
+        "en": "DIRECTV CINEMA&trade; Connection Kit (Self-Installation)"
+      },
+      "description": {
+        "en": "This wireless kit includes everything you need to connect your HD DVR to your existing high-speed Internet network. Please note: Your home must be equipped with active high-speed Internet service and a wireless router.n"
+      },
+      "startDate": "2011-03-01T04:22:00.000Z",
+      "attributes": {
+        "offerProductType": "video-accessory",
+        "offerProductTypes": [
+          "video-accessory"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Other",
+        "offerActionTypes": [
+          "Other",
+          "Downgrade",
+          "Upgrade",
+          "Acquisition"
+        ],
+        "displayName": {
+          "en": "DIRECTV CINEMA&trade; Connection Kit (Self-Installation)"
+        },
+        "billingId": "prod2510011",
+        "billingCode": "prod2510011",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-accessory"
+                  ],
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "4bd60da0-b698-400e-a6da-9297206052af",
+                    "typeId": "product",
+                    "productType": "video-accessory",
+                    "key": "ACCESSORY-CONNECTION-KIT-2_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "customerSegment": "Residential",
+              "salesChannel": [
+                "opusServices",
+                "opusSales",
+                "onlineServices",
+                "onlineSales",
+                "opus",
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+    {
+      "id": "c9c8035c-39ce-4e2f-b58c-af9d7c0256d9",
+      "code": "OF_ACCESSORY-UNIVERSAL-RF-REMOTE-WARRANTY_satellite",
+      "name": {
+        "en": "Universal RF Remote Control Replacement Warranty"
+      },
+      "description": {
+        "en": "No need to point. With this radio frequency-capable remote, you can change channels, fast-forward and adjust volume even on TV systems in other rooms."
+      },
+      "startDate": "2007-10-01T15:05:00.000Z",
+      "endDate": "2029-10-01T15:06:00.000Z",
+      "attributes": {
+        "offerProductType": "video-accessory",
+        "offerProductTypes": [
+          "video-accessory"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Cross-sell",
+        "offerActionTypes": [
+          "Cross-sell",
+          "Other",
+          "Downgrade",
+          "Upgrade"
+        ],
+        "displayName": {
+          "en": "Universal RF Remote Control Replacement Warranty"
+        },
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-accessory"
+                  ],
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "76d4c850-b88e-4d0d-b889-1a186cf28906",
+                    "typeId": "product",
+                    "productType": "video-accessory",
+                    "key": "ACCESSORY-UNIVERSAL-RF-REMOTE-WARRANTY_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "salesChannel": [
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+    {
+      "id": "5400ac94-fa49-4675-8846-6b0a7aeb11dc",
+      "code": "OF_ACCESSORY-UNIVERSAL-RF-REMOTE-PPLAN_satellite",
+      "name": {
+        "en": "Universal RF Remote Control Replacement PPLan"
+      },
+      "description": {
+        "en": "No need to point. With this radio frequency-capable remote, you can change channels, fast-forward and adjust volume even on TV systems in other rooms."
+      },
+      "startDate": "2007-10-01T15:05:00.000Z",
+      "endDate": "2029-10-01T15:06:00.000Z",
+      "attributes": {
+        "offerProductType": "video-accessory",
+        "offerProductTypes": [
+          "video-accessory"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Other",
+        "offerActionTypes": [
+          "Other",
+          "Cross-sell",
+          "Downgrade",
+          "Upgrade"
+        ],
+        "displayName": {
+          "en": "Universal RF Remote Control Replacement PPLan"
+        },
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-accessory"
+                  ],
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "677a63ac-1d72-4a85-ae78-a7feddadc065",
+                    "typeId": "product",
+                    "productType": "video-accessory",
+                    "key": "ACCESSORY-UNIVERSAL-RF-REMOTE-PPLAN_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "salesChannel": [
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+    {
+      "id": "4ca3f3fe-aedb-4642-81a3-63d4abf92d6d",
+      "code": "OF_ACCESSORY-GENIE-REMOTE-PPLAN_satellite",
+      "name": {
+        "en": "Genie Remote Control Replacement PPLan"
+      },
+      "description": {
+        "en": "With this streamlined remote, it's now easier than ever to control your entertainment. It's smaller than our standard remote and has a significantly faster response time. Compatible with Genie HD DVR in RF and IR mode-and all other receivers when in IR mode."
+      },
+      "startDate": "2012-10-27T00:00:00.000Z",
+      "endDate": "2050-12-31T23:59:00.000Z",
+      "attributes": {
+        "offerProductType": "video-accessory",
+        "offerProductTypes": [
+          "video-accessory"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Other",
+        "offerActionTypes": [
+          "Other",
+          "Cross-sell",
+          "Downgrade",
+          "Upgrade"
+        ],
+        "displayName": {
+          "en": "Genie Remote Control Replacement PPLan"
+        },
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-accessory"
+                  ],
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "1fffc5a3-1aa6-468a-9268-dfeec4eeae08",
+                    "typeId": "product",
+                    "productType": "video-accessory",
+                    "key": "ACCESSORY-GENIE-REMOTE-PPLAN_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "salesChannel": [
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+    {
+      "id": "7dbea627-5adf-4681-9da1-edbf9ecb2fde",
+      "code": "OF_ACCESSORY-GENIE-REMOTE-WARRANTY_satellite",
+      "name": {
+        "en": "Genie Remote Control Replacement Warranty"
+      },
+      "description": {
+        "en": "With this streamlined remote, it's now easier than ever to control your entertainment. It's smaller than our standard remote and has a significantly faster response time. Compatible with Genie HD DVR in RF and IR mode-and all other receivers when in IR mode."
+      },
+      "startDate": "2012-10-27T00:00:00.000Z",
+      "endDate": "2050-12-31T23:59:00.000Z",
+      "attributes": {
+        "offerProductType": "video-accessory",
+        "offerProductTypes": [
+          "video-accessory"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Other",
+        "offerActionTypes": [
+          "Other",
+          "Cross-sell",
+          "Upgrade",
+          "Downgrade"
+        ],
+        "displayName": {
+          "en": "Genie Remote Control Replacement Warranty"
+        },
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-accessory"
+                  ],
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "879d5868-3ad6-4fa6-a0f9-2b0622bc72bc",
+                    "typeId": "product",
+                    "productType": "video-accessory",
+                    "key": "ACCESSORY-GENIE-REMOTE-WARRANTY_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "salesChannel": [
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+    {
+      "id": "670b2e16-35bc-4041-9fb1-f06af2891f8f",
+      "code": "OF_ACCESSORY-UNIVERSAL-REMOTE-WARRANTY_satellite",
+      "name": {
+        "en": "Universal Remote Control Replacement Warranty"
+      },
+      "description": {
+        "en": "Just point this infrared remote at your DIRECTV&reg; system and click to operate all your components. Change channels, fast-forward, adjust volume, and more."
+      },
+      "startDate": "2007-10-01T15:05:00.000Z",
+      "endDate": "2029-10-01T15:06:00.000Z",
+      "attributes": {
+        "offerProductType": "video-accessory",
+        "offerProductTypes": [
+          "video-accessory"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Other",
+        "offerActionTypes": [
+          "Other",
+          "Cross-sell",
+          "Downgrade",
+          "Upgrade"
+        ],
+        "displayName": {
+          "en": "Universal Remote Control Replacement Warranty"
+        },
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-accessory"
+                  ],
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "3ef5a028-8c44-4bb3-a1b3-774e4d2d4edc",
+                    "typeId": "product",
+                    "productType": "video-accessory",
+                    "key": "ACCESSORY-UNIVERSAL-REMOTE-WARRANTY_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "salesChannel": [
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+    {
+      "id": "81af4117-443d-4a96-bc88-e9b7fb4c329d",
+      "code": "OF_ACCESSORY-UNIVERSAL-REMOTE-PPLAN_satellite",
+      "name": {
+        "en": "Universal Remote Control Replacement PPLan"
+      },
+      "description": {
+        "en": "Just point this infrared remote at your DIRECTV&reg; system and click to operate all your components. Change channels, fast-forward, adjust volume, and more."
+      },
+      "startDate": "2007-10-01T15:05:00.000Z",
+      "endDate": "2029-10-01T15:06:00.000Z",
+      "attributes": {
+        "offerProductType": "video-accessory",
+        "offerProductTypes": [
+          "video-accessory"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Other",
+        "offerActionTypes": [
+          "Other",
+          "Cross-sell",
+          "Downgrade",
+          "Upgrade"
+        ],
+        "displayName": {
+          "en": "Universal Remote Control Replacement PPLan"
+        },
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-accessory"
+                  ],
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "82df02d1-1b97-40c6-aaee-210a63e2f68d",
+                    "typeId": "product",
+                    "productType": "video-accessory",
+                    "key": "ACCESSORY-UNIVERSAL-REMOTE-PPLAN_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "salesChannel": [
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "2589b46f-9886-4ccd-bf42-9ba52d9f373a",
+      "code": "ACCESSORY-UNIVERSAL-REMOTE_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "83dea094-8519-4c94-86d5-bd8ddad994bc",
+        "key": "video-accessory"
+      },
+      "name": {
+        "en": "Universal Remote"
+      },
+      "description": {
+        "en": "Just point this infrared remote at your DIRECTV&reg; system and click to operate all your components. Change channels, fast-forward, adjust volume, and more.n"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "9830",
+          "key": "9830",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 1500,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 15
+              },
+              "id": "df8225dd-7ac8-46ae-9634-ee91b388d869",
+              "startDate": "2007-10-01T09:35:00.000Z",
+              "endDate": "2029-10-01T09:36:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "MBL,HWI,HAC,GME,WSM,VEN,VIP,VPA,VZN,SWB,RVA,QST,REG,PTR,PCO,PAC,FRP,CBT,DAE,DTV,AMR,ATT,BLS,3PB",
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Universal Remote"
+            },
+            "billingProductCode": "9830",
+            "billingCode": "9830",
+            "startDate": "2007-10-01T09:35:00.000Z",
+            "endDate": "2029-10-01T09:36:00.000Z",
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "customerSegments": [
+              "Residential"
+            ],
+            "accessoryType": "tv-accesory",
+            "migratedProduct": false,
+            "productImages": "/cms2/product_catalog/equipment/Universal_Remote.gif"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c84a1df7-9a86-4a44-8d06-c64a1424e733",
+      "code": "ACCESSORY-UNIVERSAL-RF-REMOTE_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "83dea094-8519-4c94-86d5-bd8ddad994bc",
+        "key": "video-accessory"
+      },
+      "name": {
+        "en": "Universal RF Remote"
+      },
+      "description": {
+        "en": "No need to point. With this radio frequency-capable remote, you can change channels, fast-forward and adjust volume even on TV systems in other rooms.n"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "9831",
+          "key": "9831",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 2500,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 25
+              },
+              "id": "82d738ce-870b-4419-9748-cfcd1cb8df95",
+              "startDate": "2007-10-01T09:35:00.000Z",
+              "endDate": "2029-10-01T09:36:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "MTL,MDL,MDD,LSE,JDU,HWI,HSP,HNS,HDL,HAC,GME,WSM,VEN,VIP,VPA,VPB,VZN,SWB,QST,REG,PTR,PCR,PCO,FRP,CBT,CSH,DAE,DTV,AMR,ATT,BLS",
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Universal RF Remote"
+            },
+            "billingProductCode": "9831",
+            "billingCode": "9831",
+            "startDate": "2007-10-01T09:35:00.000Z",
+            "endDate": "2029-10-01T09:36:00.000Z",
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "customerSegments": [
+              "Residential"
+            ],
+            "migratedProduct": false,
+            "productImages": "/cms2/product_catalog/equipment/Universal_Remote.gif"
+          }
+        }
+      ]
+    },
+    {
+      "id": "19c2dd26-0bc2-4de0-943d-d5a2efb11d2e",
+      "code": "ACCESSORY-RF-REMOTE-RF-ANTENNA_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "83dea094-8519-4c94-86d5-bd8ddad994bc",
+        "key": "video-accessory"
+      },
+      "name": {
+        "en": "RF Remote + RF Antenna"
+      },
+      "description": {
+        "en": "If your receiver is not Radio Frequency (RF) capable, don't worry. All you need is a DIRECTV RF Remote and an external RF Antenna to control your DIRECTV&#174; system without even pointing your remote at it.n"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "prod1000060",
+          "key": "prod1000060",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 3000,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 30
+              },
+              "id": "eca6e8de-ec87-4465-91ff-825f2e7dbf6a",
+              "startDate": "2007-10-01T09:35:00.000Z",
+              "endDate": "2029-10-01T09:36:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "MTL,MDL,MDD,LSE,JDU,HWI,HSP,HNS,HDL,HAC,GME,WSM,VEN,VIP,VPA,VPB,VZN,SWB,QST,REG,PTR,PCR,PCO,FRP,CBT,CSH,DAE,DTV,AMR,ATT,BLS",
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "RF Remote + RF Antenna"
+            },
+            "billingProductCode": "prod1000060",
+            "billingCode": "prod1000060",
+            "startDate": "2007-10-01T09:35:00.000Z",
+            "endDate": "2029-10-01T09:36:00.000Z",
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "customerSegments": [
+              "Residential"
+            ],
+            "migratedProduct": false,
+            "productImages": "/cms2/product_catalog/equipment/Universal_Remote.gif",
+            "productHighlights": "A Radio Frequency (RF) Remote allows you to control your DIRECTV<sup>&reg;</sup> System without directly pointing at it.<br> In order for it to work, your DIRECTV receiver has to be equipped with a built-in RF Antenna. <br>If you have an older model receiver that's not RF-capable, you'll need an external RF Antenna.n"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3a8ea117-1507-4c5b-bf7c-ec655dc00be7",
+      "code": "ACCESSORY-GENIE-REMOTE_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "83dea094-8519-4c94-86d5-bd8ddad994bc",
+        "key": "video-accessory"
+      },
+      "name": {
+        "en": "Genie Remote"
+      },
+      "description": {
+        "en": "With this streamlined remote, it's now easier than ever to control your entertainment. It's smaller than our standard remote and has a significantly faster response time. Compatible with Genie HD DVR in RF and IR mode-and all other receivers when in IR mode.n"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "prod9012",
+          "key": "prod9012",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 1500,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 15
+              },
+              "id": "638048ca-3746-4d1d-993d-d61cf5963d21",
+              "startDate": "2012-10-26T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Genie Remote"
+            },
+            "billingProductCode": "prod9012",
+            "billingCode": "prod9012",
+            "startDate": "2012-10-26T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "customerSegments": [
+              "Residential"
+            ],
+            "accessoryType": "tv-accesory",
+            "migratedProduct": false,
+            "productImages": "/images/assets/productcatalog/09-remotes/09-RC_71.gif",
+            "description": {
+              "en": "With this streamlined remote, it's now easier than ever to control your entertainment. It's smaller than our standard remote and has a significantly faster response time. Compatible with Genie HD DVR in RF and IR mode-and all other receivers when in IR mode."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "e3b1ceaf-18c7-480d-97f1-661e792406b7",
+      "code": "ACCESSORY-CONNECTION-KIT_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "83dea094-8519-4c94-86d5-bd8ddad994bc",
+        "key": "video-accessory"
+      },
+      "name": {
+        "en": "DIRECTV CINEMA&trade; Connection Kit (Self-Installation)"
+      },
+      "description": {
+        "en": "This wireless kit includes everything you need to connect your HD DVR to your existing high-speed Internet network. Please note: Your home must be equipped with active high-speed Internet service and a wireless router."
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "prod2510011",
+          "key": "prod2510011",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 2500,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 25
+              },
+              "id": "1fb53eb5-84d3-41fd-9359-53b0269ba2cc",
+              "startDate": "2011-03-01T04:22:00.000Z",
+              "endDate": "2028-03-01T04:22:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "DIRECTV CINEMA&trade; Connection Kit (Self-Installation)"
+            },
+            "billingProductCode": "prod2510011",
+            "billingCode": "prod2510011",
+            "startDate": "2011-03-01T04:22:00.000Z",
+            "endDate": "2028-03-01T04:22:00.000Z",
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "customerSegments": [
+              "Residential"
+            ],
+            "migratedProduct": false,
+            "productImages": "/cms2/product_catalog/equipment/thumbnails/Directv_Cinema_Connection%20_kit.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c5e8b943-7d3e-4ca1-85c5-976ecb49992f",
+      "code": "ACCESSORY-CONNECTION-KIT-1_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "83dea094-8519-4c94-86d5-bd8ddad994bc",
+        "key": "video-accessory"
+      },
+      "name": {
+        "en": "DIRECTV CINEMA&trade; Connection Kit (Self-Installation)"
+      },
+      "description": {
+        "en": "This wireless kit includes everything you need to connect your HD DVR to your existing high-speed Internet network. Please note: Your home must be equipped with active high-speed Internet service and a wireless router."
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "prod2520002",
+          "key": "prod2520002",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 7999,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 79.99
+              },
+              "id": "7fbcc235-b678-4f7c-a139-4a29a2099620",
+              "startDate": "2011-03-01T11:06:00.000Z",
+              "endDate": "2028-03-01T11:19:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "DIRECTV CINEMA&trade; Connection Kit (Self-Installation)"
+            },
+            "billingProductCode": "prod2520002",
+            "billingCode": "prod2520002",
+            "startDate": "2011-03-01T11:06:00.000Z",
+            "endDate": "2028-03-01T11:19:00.000Z",
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "customerSegments": [
+              "Residential"
+            ],
+            "migratedProduct": false,
+            "productImages": "/cms2/product_catalog/equipment/thumbnails/Directv_Cinema_Connection%20_kit.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4bd60da0-b698-400e-a6da-9297206052af",
+      "code": "ACCESSORY-CONNECTION-KIT-2_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "83dea094-8519-4c94-86d5-bd8ddad994bc",
+        "key": "video-accessory"
+      },
+      "name": {
+        "en": "DIRECTV CINEMA&trade; Connection Kit (Self-Installation)"
+      },
+      "description": {
+        "en": "This wireless kit includes everything you need to connect your HD DVR to your existing high-speed Internet network. Please note: Your home must be equipped with active high-speed Internet service and a wireless router."
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "p2510011",
+          "key": "p2510011",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 0,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 0
+              },
+              "id": "dcca4ea2-7b85-486b-9279-b8c809907232",
+              "startDate": "2012-04-17T18:30:00.000Z",
+              "endDate": "2050-12-31T18:29:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "DIRECTV CINEMA&trade; Connection Kit (Self-Installation)"
+            },
+            "billingProductCode": "prod2510011",
+            "startDate": "2012-04-17T18:30:00.000Z",
+            "endDate": "2050-12-31T18:29:00.000Z",
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "customerSegments": [
+              "Residential"
+            ],
+            "migratedProduct": false,
+            "productImages": "/cms2/product_catalog/equipment/thumbnails/Directv_Cinema_Connection%20_kit.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "76d4c850-b88e-4d0d-b889-1a186cf28906",
+      "code": "ACCESSORY-UNIVERSAL-RF-REMOTE-WARRANTY_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "83dea094-8519-4c94-86d5-bd8ddad994bc",
+        "key": "video-accessory"
+      },
+      "name": {
+        "en": "Universal RF Remote Control Replacement Warranty"
+      },
+      "description": {
+        "en": "No need to point. With this radio frequency-capable remote, you can change channels, fast-forward and adjust volume even on TV systems in other rooms."
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 0,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 0
+              },
+              "id": "8ddf2bb3-dd2a-46b2-8d3a-19e0453f8e29",
+              "startDate": "2007-10-01T15:05:00.000Z",
+              "endDate": "2029-10-01T15:06:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "BLS,DAE,GME,HSP,PCO,PTR,QST,REG,RVB,SWB,VIP,VPA,VZN",
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Universal RF Remote Control Replacement Warranty"
+            },
+            "startDate": "2007-10-01T15:05:00.000Z",
+            "endDate": "2029-10-01T15:06:00.000Z",
+            "salesChannel": [
+              "online"
+            ],
+            "productFamily": "satellite",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "customerSegments": [
+              "Residential"
+            ],
+            "migratedProduct": false,
+            "remoteReplacementType": "warranty",
+            "productImages": "/cms2/product_catalog/equipment/Universal_Remote.gif"
+          }
+        }
+      ]
+    },
+    {
+      "id": "677a63ac-1d72-4a85-ae78-a7feddadc065",
+      "code": "ACCESSORY-UNIVERSAL-RF-REMOTE-PPLAN_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "83dea094-8519-4c94-86d5-bd8ddad994bc",
+        "key": "video-accessory"
+      },
+      "name": {
+        "en": "Universal RF Remote Control Replacement PPLan"
+      },
+      "description": {
+        "en": "No need to point. With this radio frequency-capable remote, you can change channels, fast-forward and adjust volume even on TV systems in other rooms."
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 0,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 0
+              },
+              "id": "aabff6fc-769d-4dff-ab66-443b22ed88c4",
+              "startDate": "2007-10-01T15:05:00.000Z",
+              "endDate": "2029-10-01T15:06:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "BLS,DAE,GME,HSP,PCO,PTR,QST,REG,RVB,SWB,VIP,VPA,VZN",
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Universal RF Remote Control Replacement PPLan"
+            },
+            "startDate": "2007-10-01T15:05:00.000Z",
+            "endDate": "2029-10-01T15:06:00.000Z",
+            "salesChannel": [
+              "online"
+            ],
+            "productFamily": "satellite",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "customerSegments": [
+              "Residential"
+            ],
+            "migratedProduct": false,
+            "remoteReplacementType": "protectionPlan",
+            "productImages": "/cms2/product_catalog/equipment/Universal_Remote.gif"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1fffc5a3-1aa6-468a-9268-dfeec4eeae08",
+      "code": "ACCESSORY-GENIE-REMOTE-PPLAN_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "83dea094-8519-4c94-86d5-bd8ddad994bc",
+        "key": "video-accessory"
+      },
+      "name": {
+        "en": "Genie Remote Control Replacement PPLan"
+      },
+      "description": {
+        "en": "With this streamlined remote, it's now easier than ever to control your entertainment. It's smaller than our standard remote and has a significantly faster response time. Compatible with Genie HD DVR in RF and IR mode-and all other receivers when in IR mode."
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 0,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 0
+              },
+              "id": "8b39b443-0f94-450a-a46d-fcf4d8abcd18",
+              "startDate": "2012-10-27T00:00:00.000Z",
+              "endDate": "2050-12-31T23:59:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "BLS,DAE,GME,HSP,PCO,PTR,QST,REG,RVB,SWB,VIP,VPA,VZN",
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Genie Remote Control Replacement PPLan"
+            },
+            "startDate": "2012-10-27T00:00:00.000Z",
+            "endDate": "2050-12-31T23:59:00.000Z",
+            "salesChannel": [
+              "online"
+            ],
+            "productFamily": "satellite",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "customerSegments": [
+              "Residential"
+            ],
+            "accessoryType": "tv-accesory",
+            "migratedProduct": false,
+            "remoteReplacementType": "protectionPlan",
+            "productImages": "/images/assets/productcatalog/09-remotes/09-RC_71.gif",
+            "description": {
+              "en": "With this streamlined remote, it's now easier than ever to control your entertainment. It's smaller than our standard remote and has a significantly faster response time. Compatible with Genie HD DVR in RF and IR mode-and all other receivers when in IR mode."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "879d5868-3ad6-4fa6-a0f9-2b0622bc72bc",
+      "code": "ACCESSORY-GENIE-REMOTE-WARRANTY_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "83dea094-8519-4c94-86d5-bd8ddad994bc",
+        "key": "video-accessory"
+      },
+      "name": {
+        "en": "Genie Remote Control Replacement Warranty"
+      },
+      "description": {
+        "en": "With this streamlined remote, it's now easier than ever to control your entertainment. It's smaller than our standard remote and has a significantly faster response time. Compatible with Genie HD DVR in RF and IR mode-and all other receivers when in IR mode."
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 0,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 0
+              },
+              "id": "8f2f9072-37d8-471c-ba65-2696d8b2107d",
+              "startDate": "2012-10-27T00:00:00.000Z",
+              "endDate": "2050-12-31T23:59:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "BLS,DAE,GME,HSP,PCO,PTR,QST,REG,RVB,SWB,VIP,VPA,VZN",
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Genie Remote Control Replacement Warranty"
+            },
+            "startDate": "2012-10-27T00:00:00.000Z",
+            "endDate": "2050-12-31T23:59:00.000Z",
+            "salesChannel": [
+              "online"
+            ],
+            "productFamily": "satellite",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "customerSegments": [
+              "Residential"
+            ],
+            "accessoryType": "tv-accesory",
+            "migratedProduct": false,
+            "remoteReplacementType": "warranty",
+            "productImages": "/images/assets/productcatalog/09-remotes/09-RC_71.gif",
+            "description": {
+              "en": "With this streamlined remote, it's now easier than ever to control your entertainment. It's smaller than our standard remote and has a significantly faster response time. Compatible with Genie HD DVR in RF and IR mode-and all other receivers when in IR mode."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "3ef5a028-8c44-4bb3-a1b3-774e4d2d4edc",
+      "code": "ACCESSORY-UNIVERSAL-REMOTE-WARRANTY_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "83dea094-8519-4c94-86d5-bd8ddad994bc",
+        "key": "video-accessory"
+      },
+      "name": {
+        "en": "Universal Remote Control Replacement Warranty"
+      },
+      "description": {
+        "en": "Just point this infrared remote at your DIRECTV&reg; system and click to operate all your components. Change channels, fast-forward, adjust volume, and more."
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 0,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 0
+              },
+              "id": "60e1704d-fc94-4037-bda0-e417069d32b2",
+              "startDate": "2007-10-01T15:05:00.000Z",
+              "endDate": "2029-10-01T15:06:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "BLS,DAE,GME,HSP,PCO,PTR,QST,REG,RVB,SWB,VIP,VPA,VZN",
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Universal Remote Control Replacement Warranty"
+            },
+            "startDate": "2007-10-01T15:05:00.000Z",
+            "endDate": "2029-10-01T15:06:00.000Z",
+            "salesChannel": [
+              "online"
+            ],
+            "productFamily": "satellite",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "customerSegments": [
+              "Residential"
+            ],
+            "accessoryType": "tv-accesory",
+            "migratedProduct": false,
+            "remoteReplacementType": "warranty",
+            "productImages": "/cms2/product_catalog/equipment/Universal_Remote.gif"
+          }
+        }
+      ]
+    },
+    {
+      "id": "82df02d1-1b97-40c6-aaee-210a63e2f68d",
+      "code": "ACCESSORY-UNIVERSAL-REMOTE-PPLAN_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "83dea094-8519-4c94-86d5-bd8ddad994bc",
+        "key": "video-accessory"
+      },
+      "name": {
+        "en": "Universal Remote Control Replacement PPLan"
+      },
+      "description": {
+        "en": "Just point this infrared remote at your DIRECTV&reg; system and click to operate all your components. Change channels, fast-forward, adjust volume, and more."
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 0,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 0
+              },
+              "id": "4f71ee5f-9e8c-4984-b733-5f5658987975",
+              "startDate": "2007-10-01T15:05:00.000Z",
+              "endDate": "2029-10-01T15:06:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "BLS,DAE,GME,HSP,PCO,PTR,QST,REG,RVB,SWB,VIP,VPA,VZN",
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Universal Remote Control Replacement PPLan"
+            },
+            "startDate": "2007-10-01T15:05:00.000Z",
+            "endDate": "2029-10-01T15:06:00.000Z",
+            "salesChannel": [
+              "online"
+            ],
+            "productFamily": "satellite",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "customerSegments": [
+              "Residential"
+            ],
+            "accessoryType": "tv-accesory",
+            "migratedProduct": false,
+            "remoteReplacementType": "protectionPlan",
+            "productImages": "/cms2/product_catalog/equipment/Universal_Remote.gif"
+          }
+        }
+      ]
+    }
+  ]
+}

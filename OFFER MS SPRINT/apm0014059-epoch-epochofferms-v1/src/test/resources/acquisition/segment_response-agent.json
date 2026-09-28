@@ -1,0 +1,874 @@
+{
+    "limit": 300,
+    "count": 5,
+    "total": 5,
+    "products": [
+        {
+            "id": "86f27510-e5df-4d95-bc0f-828230310e9e",
+            "code": "SEGMENT-SP0205_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "b6afc823-139e-464d-bfb7-5a5d24905806",
+                "key": "segment"
+            },
+            "name": {
+                "en": "SP0205"
+            },
+            "description": {
+                "en": "Segment SP0205"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "prices": [],
+                    "attributes": {
+                        "startDate": "2022-07-01T00:00:00.000Z",
+                        "endDate": "2050-12-31T23:59:00.000Z",
+                        "regionName": "Acquisition Dealers All Risk Levels",
+                        "regionDesc": "Acquisition Dealers All Risk Levels",
+                        "segmentKey": "SP0205",
+                        "segmentStatus": "Active",
+                        "segmentType": "programming",
+                        "segmentTypeCode": "001",
+                        "segmentTypeDesc": "Acquisition",
+                        "segmentLevel": 3,
+                        "eligibleAccountTypeList": "MDU,JDU",
+                        "eligibleAccountStatus": "NEW,PEND",
+                        "eligibleDMA": "653,643",
+                        "eligibleZip": "42101",
+                        "customerRisk": "1,2,88,99",
+                        "salesSystem": "online",
+                        "equipmentOption": "leased,owned",
+                        "marketingSourceCode": "WDSL",
+                        "segmentOffers": [
+                            {
+                                "segmentOfferId": "OF_SEGMENT_HBO-SZ-ST-CMX-FREE-3-MO_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory",
+                                "promotionCode": "PC11111",
+                                "freeTVCount": 1
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT_DTV-FLAT-EPIX-3-MOS_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory",
+                                "promotionCode": "PC12345",
+                                "freeTVCount": 1
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "b38ba843-6548-41da-bce1-8069b9e55188",
+            "code": "SEGMENT-SP0105_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "b6afc823-139e-464d-bfb7-5a5d24905806",
+                "key": "segment"
+            },
+            "name": {
+                "en": "SP0105"
+            },
+            "description": {
+                "en": "Segment SP0105"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "prices": [],
+                    "attributes": {
+                        "startDate": "2022-07-01T00:00:00.000Z",
+                        "endDate": "2050-12-31T23:59:00.000Z",
+                        "regionName": "Acquisition Dealers All Risk Levels",
+                        "regionDesc": "Acquisition Dealers All Risk Levels",
+                        "segmentKey": "SP0105",
+                        "segmentStatus": "Active",
+                        "segmentType": "programming",
+                        "segmentTypeCode": "001",
+                        "segmentTypeDesc": "Acquisition",
+                        "segmentLevel": 3,
+                        "eligibleAccountTypeList": "REG,MDU",
+                        "eligibleAccountStatus": "NEW,PEND",
+                        "eligibleDMA": "653,643",
+                        "eligibleZip": "42101",
+                        "customerRisk": "1,2,88,99",
+                        "salesSystem": "online",
+                        "equipmentOption": "leased,owned",
+                        "marketingSourceCode": "WDSL",
+                        "segmentOffers": [
+                            {
+                                "segmentOfferId": "OF_SEGMENT_MXP-3-MO_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory",
+                                "promotionCode": "PC22222",
+                                "freeTVCount": 1
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "dc46e85b-184e-44fe-a8b5-eec16c07922e",
+            "code": "SEGMENT-EQUIPMENT-AGENT_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "b6afc823-139e-464d-bfb7-5a5d24905806",
+                "key": "segment"
+            },
+            "name": {
+                "en": "Equipment Segment - Agent"
+            },
+            "description": {
+                "en": "Equipment Segment - Agent"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "prices": [],
+                    "attributes": {
+                        "startDate": "2022-11-01T00:00:00.000Z",
+                        "endDate": "2050-12-31T23:59:00.000Z",
+                        "productFamily": "satellite",
+                        "regionName": "Acquisition Dealers All Risk Levels",
+                        "regionDesc": "Acquisition Dealers All Risk Levels",
+                        "segmentKey": "EQUIPMENT-AGENT",
+                        "segmentStatus": "Active",
+                        "segmentType": "equipment",
+                        "segmentTypeCode": "001",
+                        "segmentTypeDesc": "Acquisition",
+                        "segmentLevel": 3,
+                        "eligibleAccountStatus": "NEW,PEND",
+                        "salesSystem": "salesCRM,ccap,assistedSales",
+                        "equipmentOption": "leased,owned",
+                        "segmentOffers": [
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L5-WIRELESS-GEMINI-120_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L4-WIRELESS-GEMINI-120_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L3-WIRELESS-GEMINI-120_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L8-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L7-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L9-WIRELESS-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L9-4k-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L8-4k-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L7-4k-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L5-4k-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L9-WIRELESS-GEMINI-71_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L8-WIRELESS-GEMINI-71_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L7-WIRELESS-GEMINI-71_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L6-WIRELESS-GEMINI-71_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L5-WIRELESS-GEMINI-71_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L4-WIRELESS-GEMINI-71_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L3-WIRELESS-GEMINI-71_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L2-WIRELESS-GEMINI-120_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L1-GENIE2-399_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L8-WIRELESS-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L7-WIRELESS-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L6-4k-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L6-WIRELESS-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L6-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L5-4k-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L5-WIRELESS-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L5-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L4-4k-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L4-WIRELESS-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L4-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L3-4k-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L3-WIRELESS-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L3-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L2-4k-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L2-WIRELESS-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L1-GENIELITE-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L2-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L1-GENIE2-300_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L1-GENIE-299_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "0a065ca9-c53e-4fee-8e35-e544d1491906",
+            "code": "SEGMENT-EQUIPMENT-INDIRECT_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "b6afc823-139e-464d-bfb7-5a5d24905806",
+                "key": "segment"
+            },
+            "name": {
+                "en": "Equipment Segment - Indirect"
+            },
+            "description": {
+                "en": "Equipment Segment - Indirect"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "prices": [],
+                    "attributes": {
+                        "startDate": "2022-11-01T00:00:00.000Z",
+                        "endDate": "2050-12-31T23:59:00.000Z",
+                        "productFamily": "satellite",
+                        "regionName": "Acquisition Dealers All Risk Levels",
+                        "regionDesc": "Acquisition Dealers All Risk Levels",
+                        "segmentKey": "EQUIPMENT-INDIRECT",
+                        "segmentStatus": "Active",
+                        "segmentType": "equipment",
+                        "segmentTypeCode": "001",
+                        "segmentTypeDesc": "Acquisition",
+                        "segmentLevel": 3,
+                        "eligibleAccountStatus": "NEW,PEND",
+                        "salesSystem": "dpp,directIntegrationPartner",
+                        "equipmentOption": "leased,owned",
+                        "segmentOffers": [
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L5-WIRELESS-GEMINI-120_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L4-WIRELESS-GEMINI-120_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L3-WIRELESS-GEMINI-120_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L8-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L7-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L9-WIRELESS-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L9-4k-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L8-4k-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L7-4k-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L5-4k-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L9-WIRELESS-GEMINI-71_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L8-WIRELESS-GEMINI-71_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L7-WIRELESS-GEMINI-71_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L6-WIRELESS-GEMINI-71_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L5-WIRELESS-GEMINI-71_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L4-WIRELESS-GEMINI-71_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L3-WIRELESS-GEMINI-71_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L2-WIRELESS-GEMINI-120_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L1-GENIE2-399_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L8-WIRELESS-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L7-WIRELESS-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L6-4k-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L6-WIRELESS-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L6-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L5-4k-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L5-WIRELESS-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L5-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L4-4k-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L4-WIRELESS-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L4-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L3-4k-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L3-WIRELESS-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L3-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L2-4k-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L2-WIRELESS-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L2-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L1-GENIELITE-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L1-GENIE2-300_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L1-GENIE-299_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "d5b066f3-23ce-44f0-a1b7-72154f3f351a",
+            "code": "SEGMENT-EQUIPMENT-MDU-DTH_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "b6afc823-139e-464d-bfb7-5a5d24905806",
+                "key": "segment"
+            },
+            "name": {
+                "en": "Equipment Segment - MDU DTH"
+            },
+            "description": {
+                "en": "Equipment Segment - MDU DTH"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "prices": [],
+                    "attributes": {
+                        "startDate": "2025-01-01T08:00:00.000Z",
+                        "endDate": "2050-12-31T23:59:00.000Z",
+                        "productFamily": "satellite",
+                        "regionName": "Acquisition Dealers All Risk Levels",
+                        "regionDesc": "Acquisition Dealers All Risk Levels",
+                        "segmentKey": "EQUIPMENT-MDU-DTH",
+                        "segmentStatus": "Active",
+                        "segmentType": "equipment",
+                        "segmentTypeCode": "001",
+                        "segmentTypeDesc": "Acquisition",
+                        "segmentLevel": 4,
+                        "eligibleAccountStatus": "NEW,PEND",
+                        "salesSystem": "directIntegrationPartner,assistedSales",
+                        "equipmentOption": "leased,owned",
+                        "segmentOffers": [
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L3-4k-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L2-4k-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L3-WIRELESS-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L2-WIRELESS-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L3-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L2-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L1-GENIE-100_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L5-WIRELESS-GEMINI-71-V1_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L4-WIRELESS-GEMINI-71-V1_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L3-WIRELESS-GEMINI-71-V1_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L1-GENIE-299_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L1-GENIE2-300_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L1-GENIELITE-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L2-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L2-WIRELESS-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L2-4k-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L3-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L3-WIRELESS-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L3-4k-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L4-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L4-WIRELESS-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L4-4k-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L5-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L5-WIRELESS-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L5-4k-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L6-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L6-WIRELESS-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L6-4k-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L7-WIRELESS-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L8-WIRELESS-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L1-GENIE2-399_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L2-WIRELESS-GEMINI-120_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L3-WIRELESS-GEMINI-71_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L4-WIRELESS-GEMINI-71_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L5-WIRELESS-GEMINI-71_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L6-WIRELESS-GEMINI-71_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L7-WIRELESS-GEMINI-71_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L8-WIRELESS-GEMINI-71_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L9-WIRELESS-GEMINI-71_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L5-4k-GENIE-MINI-99_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L7-4k-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L8-4k-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L9-4k-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L9-WIRELESS-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L7-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L8-GENIE-MINI-50_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L3-WIRELESS-GEMINI-120_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L4-WIRELESS-GEMINI-120_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            },
+                            {
+                                "segmentOfferId": "OF_SEGMENT-EQIR-L5-WIRELESS-GEMINI-120_satellite",
+                                "segmentOfferType": "Acquisition",
+                                "offerRequired": "Mandatory"
+                            }
+                        ],
+                        "salesSubChannel": [
+                            "MDU-DTH"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}"}

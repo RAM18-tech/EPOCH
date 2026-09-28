@@ -1,0 +1,73 @@
+{
+    "contractIndicator": [
+        "non-contract"
+    ],
+    "customerEligibility": {
+        "zipCode": [
+            "00265"
+        ],
+        "county": [
+            "48000"
+        ]
+    },
+    "cartContext": {
+        "cartOffers": [
+            {
+                "offerCode": "OF_BASE-BASIC-CHOICE_satellite",
+                "quantity": "1"
+            },
+            {
+                "offerCode": "OF_DEVICE-HD-DVR-RECEIVER_satellite",
+                "quantity": "1"
+            }
+        ]
+    },
+    "customerContext": {
+        "existingProductFamily": [
+            "satellite"
+        ],
+        "satellite": {
+            "products": [
+                {
+                    "pricePlanCode": "88849754",
+                    "productType": "video-plan",
+                    "policyID": "DVALL2"
+                },
+                {
+                    "pricePlanCode": "88830604",
+                    "pickCode": "P0030",
+                    "productType": "video-addon"
+                },
+                {
+                    "componentCode": "DTVGenie",
+                    "pricePlanCode": "422193475",
+                    "productType": "video-device"
+                }
+            ],
+            "accountNumber": "171202181454689",
+            "isActive": true,
+            "retentionPromotionIndicator": false,
+            "freeTrialEligible": false,
+            "accountType": "Residential",
+            "nextBillingDate": "03/09/2020",
+            "policy": "DVALL2",
+            "serviceOrderDate": "03/09/2020"
+        }
+    },
+    "offerActionType": [
+        "Upgrade",
+        "Downgrade",
+        "Other",
+        "Cross-sell"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "salesChannel": [
+        "online"
+    ],
+    "offerProductTypes": [
+        "video-device",
+        "fee"
+    ]
+}

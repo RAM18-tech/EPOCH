@@ -1,0 +1,3617 @@
+{
+
+    "limit": 20,
+    "offset": 0,
+    "count": 20,
+    "total": 42,
+    "offers": [
+      {
+        "id": "477cdfef-2856-4557-bd61-be325a0288d8",
+        "code": "Test-offer-mail",
+        "status": "waiting_for_approval",
+        "name": {
+          "en": "Test-offer-mail"
+        },
+        "description": {
+          "en": "Test-offer-mail"
+        },
+        "attributes": {
+          "offerProductFamily": "OTT",
+          "offerType": "free-trial",
+          "offerActionType": "Retention",
+          "migratedOffer": false,
+          "benefits": [],
+          "leadOffer": false,
+          "isVirtual": false,
+          "flashSaleOffer": false
+        }
+      },
+      {
+        "id": "455bb4dd-85d4-4c02-b26e-45c537994a06",
+        "code": "CPOP AUTH $20Off for 1 Month Offer",
+        "status": "production_ready",
+        "name": {
+          "en": "CPOP AUTH $20Off for 1 Month Offer"
+        },
+        "description": {
+          "en": "CPOP AUTH $20Off for 1 Month Offer"
+        },
+        "startDate": "2019-11-12T01:00:00.000Z",
+        "endDate": "2019-12-01T00:00:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductFamily": "OTT",
+          "offerType": "multi-benefit",
+          "offerActionType": "Retention",
+          "rank": "500",
+          "displayName": {
+            "en": "CPOP AUTH $20Off for 1 Month Offer"
+          },
+          "displayNamesByKey": {},
+          "descriptionsByKey": {
+            "att.com": "CPOP AUTH $20Off for 1 Month Offer"
+          },
+          "migratedOffer": false,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "wireless",
+                    "anchor": false,
+                    "dependent": false
+                  }
+                },
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "anchor": false,
+                    "dependent": false
+                  },
+                  "products": []
+                }
+              ]
+            }
+          ],
+          "benefits": [
+            {
+              "benefitCategory": "Product",
+              "billingBenefitId": "64845",
+              "billingBenefitCode": "BC_CPOP AUTH $20Off for 1 Month Offer",
+              "benefitName": {
+                "en": "CPOP AUTH $20Off for 1 Month Offer"
+              },
+              "benefitDisplayName": {
+                "en": "CPOP AUTH $20Off for 1 Month Offer"
+              },
+              "benefitRank": 0,
+              "description": {
+                "en": ""
+              },
+              "startDate": "2019-11-12T01:00:00.000Z",
+              "endDate": "2019-12-01T00:00:00.000Z",
+              "contractIndicator": "contract",
+              "contractVersion": "1",
+              "selfBenefit": false,
+              "duration": 1,
+              "period": "NoOfMonths",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "cb57cdcc-84b1-4bdd-a2c0-0a87365d51ab",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "4c2a2ac7-6913-4188-a129-72a9b894b322",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "c1053952-f6dd-428c-bd29-406cbbf20826",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "b979e218-aec4-40c6-a678-3333b141fb47",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "d611da27-153b-40a8-b824-c05541aa078d",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "ce6e4352-433b-4466-9d16-b8b6ceb942b9",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "b5f6e954-f958-428a-8cdf-34790b7be34f",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "flat-off",
+              "value": {
+                "centAmount": 1000,
+                "currencyCode": "USD",
+                "percentage": 0,
+                "fractionDigits": 2,
+                "dollarAmount": 10
+              },
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "contractTerm": "24",
+              "minQuantity": 0,
+              "promoPriority": 4,
+              "id": "0232a2fc-cc9e-4079-9bcf-db8a9dec19d5",
+              "migrated": false,
+              "contracted": false,
+              "isDependentPromo": false,
+              "isQuotaBased": false
+            }
+          ],
+          "eligibility": {
+            "computedRules": {
+              "predicate": "customerSegments in (\"Mobility\",\"Residential\") AND businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\")",
+              "groupingOperator": "OR",
+              "rules": [
+                {
+                  "predicate": "customerSegments in (\"Mobility\",\"Residential\") AND businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\")"
+                }
+              ]
+            },
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Mobility",
+                  "Residential"
+                ],
+                "minimumPurchaseAmount": 0,
+                "salesChannel": [
+                  "opus",
+                  "online"
+                ],
+                "heartValue": [
+                  "TV 3",
+                  "1-HEART",
+                  "TV 2",
+                  "TV 1",
+                  "0-HEART"
+                ]
+              }
+            ]
+          },
+          "leadOffer": false,
+          "contractIndicator": "contract",
+          "isVirtual": false,
+          "flashSaleOffer": false
+        }
+      },
+      {
+        "id": "a27810ae-1a3f-4af6-b89e-99ee85e7a87c",
+        "code": "test-offer-lam",
+        "status": "in_progress",
+        "name": {
+          "en": "test-offer-lam"
+        },
+        "description": {
+          "en": "test-offer-lam"
+        },
+        "startDate": "2019-10-02T00:00:00.000Z",
+        "endDate": "2019-10-03T00:00:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductFamily": "OTT",
+          "offerType": "free-trial",
+          "offerActionType": "Retention",
+          "rank": "1",
+          "displayName": {
+            "en": "test-offer-lam"
+          },
+          "termsAndConditions": {
+            "en": "*termsandconditions*"
+          },
+          "migratedOffer": false,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "anchor": false,
+                    "dependent": false
+                  },
+                  "products": []
+                }
+              ]
+            }
+          ],
+          "benefits": [],
+          "eligibility": {
+            "computedRules": {
+              "predicate": "existingCustomerType = \"Satellite\" AND customerSegments = \"Residential\" AND salesChannel = \"online\"",
+              "groupingOperator": "OR",
+              "rules": [
+                {
+                  "predicate": "existingCustomerType = \"Satellite\" AND customerSegments = \"Residential\" AND salesChannel = \"online\""
+                }
+              ]
+            },
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Residential"
+                ],
+                "minimumPurchaseAmount": 0,
+                "salesChannel": [
+                  "online"
+                ],
+                "existingCustomerType": [
+                  "Satellite"
+                ]
+              }
+            ]
+          },
+          "leadOffer": false,
+          "contractIndicator": "contract",
+          "isVirtual": false,
+          "flashSaleOffer": false
+        }
+      },
+      {
+        "id": "9fd3d17b-7aab-424e-b809-55e5e0557d8d",
+        "code": "OF_UMS_CD_dollar10OFF1MO",
+        "status": "live",
+        "name": {
+          "en": "$10 off for 1 month"
+        },
+        "description": {
+          "en": "$10 off for 1 month"
+        },
+        "endDate": "9999-12-31T06:00:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductFamily": "OTT",
+          "offerType": "free-promo",
+          "offerActionType": "Retention",
+          "environment": "",
+          "displayName": {
+            "en": "$10 off for 1 month"
+          },
+          "descriptionsByKey": {
+            "att.com": "$10 off for 1 month"
+          },
+          "billingId": "7512457732",
+          "billingCode": "OF_UMS_CD_dollar10OFF1MO",
+          "migratedOffer": true,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "anchor": false,
+                    "dependent": false
+                  },
+                  "products": [
+                    {
+                      "id": "c1053952-f6dd-428c-bd29-406cbbf20826",
+                      "typeId": "product",
+                      "obj": {
+                        "id": "c1053952-f6dd-428c-bd29-406cbbf20826",
+                        "code": "BASE-CHOICE-201811",
+                        "productType": {
+                          "typeId": "product-type",
+                          "id": "9b5b3be3-7ad2-4bca-ade3-010bac00e7f0",
+                          "key": "video-plan"
+                        },
+                        "name": {
+                          "en": "Choice"
+                        },
+                        "description": {
+                          "en": "Choice must-haves. ##85##+ channels"
+                        },
+                        "categories": [],
+                        "variants": [
+                          {
+                            "id": "1",
+                            "prices": [
+                              {
+                                "value": {
+                                  "centAmount": 11000,
+                                  "currencyCode": "USD",
+                                  "percentage": 0,
+                                  "fractionDigits": 2,
+                                  "dollarAmount": 110
+                                },
+                                "id": "f3e73e47-3107-4d65-bec9-16b3b075c2c0",
+                                "startDate": "2019-02-17T06:00:00.000Z",
+                                "endDate": "2019-06-24T05:00:00.000Z",
+                                "recurrenceIndicator": true,
+                                "duration": 0,
+                                "period": "month",
+                                "proRateFrequency": "daily",
+                                "contractIndicator": "contract",
+                                "contracted": false,
+                                "grandfathered": false
+                              },
+                              {
+                                "value": {
+                                  "centAmount": 10500,
+                                  "currencyCode": "USD",
+                                  "percentage": 0,
+                                  "fractionDigits": 2,
+                                  "dollarAmount": 105
+                                },
+                                "id": "aa17c910-73e8-469b-82e3-e28aa02561bb",
+                                "startDate": "2019-06-25T05:00:00.000Z",
+                                "endDate": "2019-07-28T05:00:00.000Z",
+                                "recurrenceIndicator": true,
+                                "duration": 0,
+                                "period": "month",
+                                "proRateFrequency": "daily",
+                                "contractIndicator": "contract",
+                                "contracted": false,
+                                "grandfathered": false
+                              },
+                              {
+                                "value": {
+                                  "centAmount": 11000,
+                                  "currencyCode": "USD",
+                                  "percentage": 0,
+                                  "fractionDigits": 2,
+                                  "dollarAmount": 110
+                                },
+                                "id": "7a2c0673-7b8f-4ea8-92cb-8b718d7ec7f5",
+                                "startDate": "2019-07-29T05:00:00.000Z",
+                                "endDate": "9999-12-31T06:00:00.000Z",
+                                "recurrenceIndicator": true,
+                                "duration": 0,
+                                "period": "month",
+                                "proRateFrequency": "daily",
+                                "contractIndicator": "contract",
+                                "contracted": false,
+                                "grandfathered": false
+                              }
+                            ],
+                            "attributes": {
+                              "displayName": {
+                                "en": "CHOICE"
+                              },
+                              "displayNamesByKey": {
+                                "services": "Choice",
+                                "name-cpc": "CHOICE"
+                              },
+                              "descriptionsByKey": {
+                                "short-opus": "85+ channels",
+                                "long-services": "85+ channels",
+                                "short-services": "85+",
+                                "long-myatt": "$19.95 ACTIVATION, EARLY TERMINATION FEE OF $15/MO. FOR EACH MONTH REMAINING ON AGMT., ADD'L FEES APPLY.   Ends 9/28/19. 1st &amp; 2nd year Pricing: $59.99/mo. for ENTERTAINMENT Pkg; $64.99/mo. for CHOICE Pkg; $74.99/mo. for XTRA Pkg; $79.99/mo. for ULTIMATE Pkg; $64.99/mo. for OPTIMO MAS  for first 12 mos. only. After 12 mos. or loss of eligibility, then prevailing rate applies (currently $93/mo. for ENTERTAINMENT Pkg; $110/mo. for CHOICE Pkg; $124/mo. for XTRA Pkg; $135/mo. for ULTIMATE Pkg; $86/mo. for OPTIMO MAS), unless cancelled or changed prior to end of the promo period. Includes: AT&amp;T TV Pkg, & one (1) AT&amp;T TV device. Exclusions: Price excludes Regional Sports Fee of up to $8.49/mo. (which is extra &amp; applies to CHOICE and higher Pkgs), AT&amp;T TV device service fee for additional devices, and certain other add'l fees &amp; charges.",
+                                "description-cpc": "Choice"
+                              },
+                              "billingProductCode": "BASE-CHOICE-201811",
+                              "billingProductId": "13843",
+                              "startDate": "2018-11-26T06:00:00.000Z",
+                              "endDate": "9999-12-31T06:00:00.000Z",
+                              "congratsMessage": "Great choice!",
+                              "ranking": 0,
+                              "productFamily": "OTT",
+                              "packageGroup": "20000",
+                              "removalRule": {
+                                "channel": [
+                                  "online"
+                                ],
+                                "accountType": [
+                                  "ALL"
+                                ]
+                              },
+                              "numberOfChannels": "85+ live channels",
+                              "capacityLimit": 0,
+                              "videoBasePackageRequired": false,
+                              "skipAdsIndicator": false,
+                              "language": "English",
+                              "serviceFlag": true,
+                              "concurrentStreamCount": 0,
+                              "preOrder": false,
+                              "thirdPartyOTT": false,
+                              "secondaryBillingProductId": "7492324299",
+                              "dependentPromoIsFreeTrail": false,
+                              "productStatus": "Active",
+                              "compatibleProducts": [
+                                {
+                                  "constraints": {
+                                    "anchor": false,
+                                    "dependent": false
+                                  },
+                                  "products": [
+                                    {
+                                      "id": "43750a18-5e4b-4f84-9b71-bc349d76b624",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "61ce6e50-cfee-4da8-9ea5-5f56e538eaa5",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "d78c41fd-9d01-4ba6-80a1-f5a81aa309bb",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "2a4d6ace-4210-4fab-8f6d-ddd63ec12b8b",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "307a01b7-d35a-48af-895f-989557abf903",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "8a99f61e-0ab4-44eb-a838-1cbc0adf8892",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "fe9386cf-a2e2-46f3-93c8-0b6f6a54b79e",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "993bc6ac-2990-4d8b-9d0d-55cee05f0801",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "efea6573-cc11-4699-8b6c-9003e8e8ca09",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "3056ee9c-8371-47d4-964a-6e16023841b0",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "07b18be4-8bb6-438c-bf50-26e6f3ce07c6",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "02184387-ce52-4bd6-971d-7f53c0368bb2",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "71de8390-4979-4a59-9ac4-3f9c02412d62",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "309a4e67-a021-4eea-bc87-78992c2ef876",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "d911b432-9e0f-4bee-bae7-19ae2acb6ba6",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "383a897c-a5e2-45aa-bbc1-2a91332ec23e",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "e59af3f6-cf1e-41ea-9e84-65d801b0abde",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "9a0f0b45-590a-4787-851a-83a83eb26c2c",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "728dd381-d53c-4d15-9b0e-b6a69e8afb4d",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "7a296b61-ef13-4efc-b6aa-e1f1537c971b",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "599dc3c8-0f3f-4d83-9e00-393d35f37894",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "82eda609-8c09-4e13-bc82-f1ac6c122f4c",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "6851067e-6f06-4e89-9dff-c3928afd98cb",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "6042e194-d71d-44f3-a820-fc883a55513c",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "2795c1cb-3c59-4279-85be-529c6c8ed1af",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "98b62bae-ab77-44aa-bc0f-2a8bb6eacdbd",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "9bd236a4-b81f-4c66-818b-6714f660d784",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "7beb2c99-a2b4-4965-abf5-374252b79e9f",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "447fdf94-e91e-4552-bc42-4ff90d0d7ccb",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "2067b3eb-ffc9-4865-82bf-a76f2bc7cbe2",
+                                      "typeId": "product"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "compatibleMobilityProducts": [
+                                {
+                                  "constraints": {
+                                    "anchor": false,
+                                    "dependent": false
+                                  },
+                                  "products": [
+                                    {
+                                      "id": "6851067e-6f06-4e89-9dff-c3928afd98cb",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "007378d8-fabb-4070-a708-e29c8b64a9f9",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "2795c1cb-3c59-4279-85be-529c6c8ed1af",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "fe9386cf-a2e2-46f3-93c8-0b6f6a54b79e",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "383a897c-a5e2-45aa-bbc1-2a91332ec23e",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "efea6573-cc11-4699-8b6c-9003e8e8ca09",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "599dc3c8-0f3f-4d83-9e00-393d35f37894",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "d911b432-9e0f-4bee-bae7-19ae2acb6ba6",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "7a296b61-ef13-4efc-b6aa-e1f1537c971b",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "9a0f0b45-590a-4787-851a-83a83eb26c2c",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "307a01b7-d35a-48af-895f-989557abf903",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "e59af3f6-cf1e-41ea-9e84-65d801b0abde",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "02184387-ce52-4bd6-971d-7f53c0368bb2",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "07b18be4-8bb6-438c-bf50-26e6f3ce07c6",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "728dd381-d53c-4d15-9b0e-b6a69e8afb4d",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "3056ee9c-8371-47d4-964a-6e16023841b0",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "993bc6ac-2990-4d8b-9d0d-55cee05f0801",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "254ff39d-b7b0-4dfa-b51f-1911c738be23",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "d78c41fd-9d01-4ba6-80a1-f5a81aa309bb",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "8a99f61e-0ab4-44eb-a838-1cbc0adf8892",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "6042e194-d71d-44f3-a820-fc883a55513c",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "71de8390-4979-4a59-9ac4-3f9c02412d62",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "2a4d6ace-4210-4fab-8f6d-ddd63ec12b8b",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "98b62bae-ab77-44aa-bc0f-2a8bb6eacdbd",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "43750a18-5e4b-4f84-9b71-bc349d76b624",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "ca60afc6-ce68-4166-8dc7-3ae804d3c897",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "9bd236a4-b81f-4c66-818b-6714f660d784",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "7beb2c99-a2b4-4965-abf5-374252b79e9f",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "447fdf94-e91e-4552-bc42-4ff90d0d7ccb",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "2067b3eb-ffc9-4865-82bf-a76f2bc7cbe2",
+                                      "typeId": "product"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "contractApplicable": "all",
+                              "internationalVideoSubscriptionRequired": false,
+                              "hasLocalChannels": false,
+                              "pickService": false,
+                              "requiredAddonForInternationalVideoPlan": false,
+                              "autoRenewable": false,
+                              "asurionPlan": false,
+                              "thirdParty": false,
+                              "rsncapable": false
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "constraints": {
+                    "productFamily": "NA",
+                    "anchor": false,
+                    "dependent": false
+                  }
+                },
+                {
+                  "constraints": {
+                    "productFamily": "wireless",
+                    "anchor": false,
+                    "dependent": false
+                  }
+                }
+              ]
+            }
+          ],
+          "benefits": [
+            {
+              "benefitCategory": "Product",
+              "billingBenefitId": "28845",
+              "billingBenefitCode": "UMS_CD_$10OFF1MO",
+              "benefitName": {
+                "en": "$10 off for 1 month - UMS"
+              },
+              "benefitDisplayName": {
+                "en": "$10 off for 1 month"
+              },
+              "benefitRank": 10,
+              "description": {
+                "en": "$10 off for 1 month on base and international plans"
+              },
+              "startDate": "2019-04-01T05:00:00.000Z",
+              "endDate": "2019-07-31T05:00:00.000Z",
+              "contractIndicator": "non-contract",
+              "selfBenefit": false,
+              "duration": 1,
+              "period": "NoOfMonths",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "b979e218-aec4-40c6-a678-3333b141fb47",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "306ebd38-1ac6-4000-a889-bd85282766e0",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "d611da27-153b-40a8-b824-c05541aa078d",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "52da13fd-95a5-4a19-bded-22c3946f3669",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "df7d8607-a266-4155-8547-04604290b1c5",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "786586f2-81a7-49c1-9e22-88d5af737b19",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "b5f6e954-f958-428a-8cdf-34790b7be34f",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "c1053952-f6dd-428c-bd29-406cbbf20826",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "ce6e4352-433b-4466-9d16-b8b6ceb942b9",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "4c2a2ac7-6913-4188-a129-72a9b894b322",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "b463369c-cf2d-4559-9c90-afa0d38d1d07",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "cb57cdcc-84b1-4bdd-a2c0-0a87365d51ab",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "3d41e37e-65e9-4f57-a526-031a5a4e3546",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "14679cfa-e8bd-4b1a-98b5-b2193be6a2d4",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "390a7c21-c0ca-4139-a1be-2831d13a4171",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "flat-off",
+              "value": {
+                "centAmount": 1000,
+                "currencyCode": "USD",
+                "percentage": 0,
+                "fractionDigits": 2,
+                "dollarAmount": 10
+              },
+              "customerClassification": "Retention",
+              "secondaryBenefitCode": "7512457732",
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": true,
+              "minQuantity": 0,
+              "promoPriority": 0,
+              "id": "06abe344-160e-4a42-aef4-738de5d96a4a",
+              "migrated": false,
+              "contracted": false,
+              "isDependentPromo": false,
+              "isQuotaBased": false
+            }
+          ],
+          "eligibility": {
+            "computedRules": {
+              "predicate": "businessSegment = \"[object Object]\" AND salesChannel = \"undefined\" AND customerSegments in (\"Residential\",\"Mobility\")",
+              "groupingOperator": "OR",
+              "rules": [
+                {
+                  "predicate": "businessSegment = \"[object Object]\" AND salesChannel = \"undefined\" AND customerSegments in (\"Residential\",\"Mobility\")"
+                }
+              ]
+            },
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Residential",
+                  "Mobility"
+                ],
+                "minimumPurchaseAmount": 0,
+                "salesChannel": []
+              }
+            ]
+          },
+          "offerPromos": [
+            [
+              {
+                "value": "UMS_CD_$10OFF1MO",
+                "name": "promoId"
+              },
+              {
+                "value": "03/29/2019",
+                "name": "startDateStr"
+              },
+              {
+                "value": "12/31/9999",
+                "name": "endDateStr"
+              }
+            ]
+          ],
+          "leadOffer": false,
+          "contractIndicator": "non-contract",
+          "mobilityConflictingProducts": [
+            "STND-BRAZIL-201804",
+            "STND-KOREA-201804",
+            "STND-VIETNAM-201804"
+          ],
+          "residentialConflictingProducts": [
+            "STND-BRAZIL-201804",
+            "STND-KOREA-201804",
+            "STND-VIETNAM-201804"
+          ],
+          "employeeConflictingProducts": [
+            "BASE-XTRA-201811",
+            "BASE-LIVEALITTLE-201610",
+            "BASE-PLUS-2018",
+            "BASE-OMG-201610",
+            "BASE-TODOYMAS-201802",
+            "BASE-JUSTRIGHT-201610",
+            "BASE-OPTIMOMAS-122018",
+            "BASE-CHOICE-201811",
+            "BASE-ULTIMATE-201811",
+            "BASE-MAX-2018",
+            "BASE-GOBIG-201610",
+            "BASE-ENTERTAINMENT-201811",
+            "STND-BRAZIL-201804",
+            "STND-KOREA-201804",
+            "STND-VIETNAM-201804"
+          ],
+          "isVirtual": false,
+          "flashSaleOffer": false
+        }
+      },
+      {
+        "id": "9aa6db36-6395-459c-8f79-654bbb517ed9",
+        "code": "CPOPPC5OFF1month",
+        "status": "in_progress",
+        "name": {
+          "en": "CPOP_PC_TEST_$5 Off for 1 month on Video package"
+        },
+        "description": {
+          "en": "Applicable to all AT&T TV customers. Customers must have a disconnect intent\nOvers are available to all POD agents. This offer is given to customers based on the Loyalty score matrix for ATT TV\n"
+        },
+        "startDate": "2019-10-21T07:00:00.000Z",
+        "endDate": "2020-01-01T07:59:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductFamily": "OTT",
+          "offerType": "flat-off",
+          "offerActionType": "Retention",
+          "rank": "2",
+          "displayName": {
+            "en": "$5 Off for 1 Month on video package"
+          },
+          "displayNamesByKey": {},
+          "descriptionsByKey": {
+            "att.com": "Get $5 off for 1 month on any AT&T TV video packages"
+          },
+          "migratedOffer": false,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "productStatus": "Active",
+                    "anchor": false,
+                    "dependent": false
+                  },
+                  "products": []
+                }
+              ]
+            }
+          ],
+          "benefits": [],
+          "eligibility": {
+            "computedRules": {
+              "predicate": "businessSegment = \"[object Object]\" AND customerSegments = \"Residential\" AND existingCustomerType = \"OTT\" AND salesChannel = \"online\"",
+              "groupingOperator": "OR",
+              "rules": [
+                {
+                  "predicate": "businessSegment = \"[object Object]\" AND customerSegments = \"Residential\" AND existingCustomerType = \"OTT\" AND salesChannel = \"online\""
+                }
+              ]
+            },
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Residential"
+                ],
+                "minimumPurchaseAmount": 0,
+                "salesChannel": [
+                  "online"
+                ],
+                "heartValue": [
+                  "TV 1"
+                ],
+                "existingCustomerType": [
+                  "OTT"
+                ]
+              }
+            ]
+          },
+          "leadOffer": false,
+          "contractIndicator": "non-contract",
+          "isVirtual": false,
+          "flashSaleOffer": false
+        }
+      },
+      {
+        "id": "f45f7539-3846-4020-84b2-162177e136a9",
+        "code": "CPOP_RT_OF_WEB-1MON-dollar15OFF",
+        "status": "approved",
+        "name": {
+          "en": "CPOP_RT_$ 15 OFF FOR 1 MONTH"
+        },
+        "description": {
+          "en": "CPOP_RT_$15 off for 1 month_DESC"
+        },
+        "startDate": "2019-10-17T00:00:00.000Z",
+        "endDate": "2020-10-02T00:00:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductFamily": "OTT",
+          "offerType": "multi-benefit",
+          "offerActionType": "Retention",
+          "rank": "510",
+          "displayName": {
+            "en": "CPOP_RT_$15 off for 1 month."
+          },
+          "descriptionsByKey": {
+            "att.com": "CPOP_RT_$15 off for 1 month."
+          },
+          "migratedOffer": false,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "productStatus": "Grandfather",
+                    "anchor": false,
+                    "dependent": false
+                  },
+                  "products": []
+                }
+              ]
+            }
+          ],
+          "benefits": [],
+          "eligibility": {
+            "computedRules": {
+              "predicate": "businessSegment = \"[object Object]\" AND customerSegments in (\"Residential\",\"Mobility\") AND salesChannel in (\"online\",\"opus\")",
+              "groupingOperator": "OR",
+              "rules": [
+                {
+                  "predicate": "businessSegment = \"[object Object]\" AND customerSegments in (\"Residential\",\"Mobility\") AND salesChannel in (\"online\",\"opus\")"
+                }
+              ]
+            },
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Residential",
+                  "Mobility"
+                ],
+                "minimumPurchaseAmount": 0,
+                "salesChannel": [
+                  "online",
+                  "opus"
+                ],
+                "heartValue": [
+                  "TV 5",
+                  "TV 4",
+                  "TV 3",
+                  "BRE"
+                ]
+              }
+            ]
+          },
+          "leadOffer": false,
+          "contractIndicator": "non-contract",
+          "isVirtual": false,
+          "flashSaleOffer": false
+        }
+      },
+      {
+        "id": "bf4b498a-dcf4-470c-9ee4-8d565f2b4546",
+        "code": "CPOP_RT_OF_5OFFBBTV1M",
+        "status": "approved",
+        "name": {
+          "en": "CPOP_RT_$5Off for 1 Month"
+        },
+        "description": {
+          "en": "CPOP_RT_$5Off for 1 Month Offer"
+        },
+        "startDate": "2019-10-16T00:00:00.000Z",
+        "endDate": "2020-10-02T00:00:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductFamily": "OTT",
+          "offerType": "multi-benefit",
+          "offerActionType": "Retention",
+          "rank": "510",
+          "displayName": {
+            "en": "CPOP_RT_$5Off for 1 Month"
+          },
+          "descriptionsByKey": {
+            "att.com": "CPOP_RT_$5Off for 1 Month"
+          },
+          "migratedOffer": false,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "productStatus": "Grandfather",
+                    "anchor": false,
+                    "dependent": false
+                  },
+                  "products": []
+                }
+              ]
+            }
+          ],
+          "benefits": [],
+          "eligibility": {
+            "computedRules": {
+              "predicate": "businessSegment = \"[object Object]\" AND customerSegments in (\"Mobility\",\"Residential\") AND salesChannel = \"opus\"",
+              "groupingOperator": "OR",
+              "rules": [
+                {
+                  "predicate": "businessSegment = \"[object Object]\" AND customerSegments in (\"Mobility\",\"Residential\") AND salesChannel = \"opus\""
+                }
+              ]
+            },
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Mobility",
+                  "Residential"
+                ],
+                "minimumPurchaseAmount": 0,
+                "salesChannel": [
+                  "opus"
+                ],
+                "heartValue": [
+                  "TV 5",
+                  "TV 4",
+                  "TV 3",
+                  "TV 2",
+                  "TV 1",
+                  "BRE"
+                ]
+              }
+            ]
+          },
+          "leadOffer": false,
+          "contractIndicator": "non-contract",
+          "isVirtual": false,
+          "flashSaleOffer": false
+        }
+      },
+      {
+        "id": "4ef6dbd9-1e49-426b-98e9-a3faa798d5b6",
+        "code": "OF_50percentOFFNO7D",
+        "status": "live",
+        "name": {
+          "en": "50%OFF_NO7DAYSFREE"
+        },
+        "description": {
+          "en": "50%OFF_NO7DAYSFREE"
+        },
+        "endDate": "9999-12-31T06:00:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductFamily": "OTT",
+          "offerType": "prepay",
+          "offerActionType": "Retention",
+          "environment": "",
+          "displayName": {
+            "en": "50%OFF_NO7DAYSFREE"
+          },
+          "descriptionsByKey": {
+            "att.com": "50%OFF_NO7DAYSFREE"
+          },
+          "billingId": "7456863943",
+          "billingCode": "OF_50percentOFFNO7D",
+          "migratedOffer": true,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "anchor": false,
+                    "dependent": false
+                  },
+                  "products": []
+                },
+                {
+                  "constraints": {
+                    "productFamily": "NA",
+                    "anchor": false,
+                    "dependent": false
+                  }
+                },
+                {
+                  "constraints": {
+                    "productFamily": "wireless",
+                    "anchor": false,
+                    "dependent": false
+                  }
+                }
+              ]
+            }
+          ],
+          "benefits": [
+            {
+              "benefitCategory": "Product",
+              "billingBenefitId": "355",
+              "billingBenefitCode": "50%OFFNO7D",
+              "benefitName": {
+                "en": "50%OFF_NO7DAYSFREE"
+              },
+              "benefitDisplayName": {
+                "en": "50%OFF_NO7DAYSFREE"
+              },
+              "benefitRank": 10,
+              "description": {
+                "en": "50%OFF_NO7DAYSFREE"
+              },
+              "startDate": "2017-01-01T06:00:00.000Z",
+              "contractIndicator": "all",
+              "selfBenefit": false,
+              "duration": 1,
+              "period": "NoOfMonths",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "61ce6e50-cfee-4da8-9ea5-5f56e538eaa5",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "6042e194-d71d-44f3-a820-fc883a55513c",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "d48c9e33-2acb-40d0-ae4b-f490d4c057db",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "07b18be4-8bb6-438c-bf50-26e6f3ce07c6",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "43750a18-5e4b-4f84-9b71-bc349d76b624",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "3056ee9c-8371-47d4-964a-6e16023841b0",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "2a4d6ace-4210-4fab-8f6d-ddd63ec12b8b",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "7a296b61-ef13-4efc-b6aa-e1f1537c971b",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "6c2cf0ca-dadf-40e1-8622-a4e783c59aab",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "599dc3c8-0f3f-4d83-9e00-393d35f37894",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "728dd381-d53c-4d15-9b0e-b6a69e8afb4d",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "71de8390-4979-4a59-9ac4-3f9c02412d62",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "306ebd38-1ac6-4000-a889-bd85282766e0",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "52da13fd-95a5-4a19-bded-22c3946f3669",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "df7d8607-a266-4155-8547-04604290b1c5",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "786586f2-81a7-49c1-9e22-88d5af737b19",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "b463369c-cf2d-4559-9c90-afa0d38d1d07",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "percent-off",
+              "value": {
+                "centAmount": 0,
+                "percentage": 50,
+                "fractionDigits": 0,
+                "dollarAmount": 0
+              },
+              "secondaryBenefitCode": "7456863943",
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": true,
+              "minQuantity": 0,
+              "promoPriority": 6,
+              "id": "f2548454-0b77-4568-9353-db7e0b042357",
+              "migrated": false,
+              "contracted": false,
+              "isDependentPromo": true,
+              "isQuotaBased": false
+            }
+          ],
+          "eligibility": {
+            "computedRules": {
+              "predicate": "businessSegment = \"[object Object]\" AND salesChannel = \"undefined\" AND customerSegments in (\"Residential\",\"Mobility\")",
+              "groupingOperator": "OR",
+              "rules": [
+                {
+                  "predicate": "businessSegment = \"[object Object]\" AND salesChannel = \"undefined\" AND customerSegments in (\"Residential\",\"Mobility\")"
+                }
+              ]
+            },
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Residential",
+                  "Mobility"
+                ],
+                "minimumPurchaseAmount": 0,
+                "salesChannel": []
+              }
+            ]
+          },
+          "offerPromos": [
+            [
+              {
+                "value": "50%OFFNO7D",
+                "name": "promoId"
+              },
+              {
+                "value": "03/29/2019",
+                "name": "startDateStr"
+              },
+              {
+                "value": "12/31/9999",
+                "name": "endDateStr"
+              }
+            ]
+          ],
+          "leadOffer": false,
+          "contractIndicator": "non-contract",
+          "mobilityConflictingProducts": [
+            "BOLT-HBO-201610",
+            "BOLT-SHOWTIME-201707",
+            "BOLT-CDVRTIER1-201710",
+            "BOLT-3RDSTREAMFREE-201804",
+            "BOLT-DEPORTES-201802",
+            "BOLT-CDVRINCL-201710",
+            "BOLT-ENESPANOL-201802",
+            "BOLT-CINEMAX-201610",
+            "BOLT-CDVRTIER1FREE-201711",
+            "BOLT-2STREAMS-201710",
+            "BOLT-3RDSTREAM-201710",
+            "BOLT-STARZ-201610"
+          ],
+          "residentialConflictingProducts": [
+            "BOLT-HBO-201610",
+            "BOLT-SHOWTIME-201707",
+            "BOLT-CDVRTIER1-201710",
+            "BOLT-3RDSTREAMFREE-201804",
+            "BOLT-DEPORTES-201802",
+            "BOLT-CDVRINCL-201710",
+            "BOLT-ENESPANOL-201802",
+            "BOLT-CINEMAX-201610",
+            "BOLT-CDVRTIER1FREE-201711",
+            "BOLT-2STREAMS-201710",
+            "BOLT-3RDSTREAM-201710",
+            "BOLT-STARZ-201610"
+          ],
+          "employeeConflictingProducts": [
+            "BOLT-HBO-201610",
+            "BOLT-SHOWTIME-201707",
+            "BOLT-CDVRTIER1-201710",
+            "BOLT-3RDSTREAMFREE-201804",
+            "BOLT-DEPORTES-201802",
+            "BOLT-CDVRINCL-201710",
+            "BOLT-ENESPANOL-201802",
+            "BOLT-CINEMAX-201610",
+            "BOLT-CDVRTIER1FREE-201711",
+            "BOLT-2STREAMS-201710",
+            "BOLT-3RDSTREAM-201710",
+            "BOLT-STARZ-201610",
+            "BASE-LIVEALITTLE-201610",
+            "BASE-OMG-201610",
+            "BASE-TODOYMAS-201802",
+            "BASE-JUSTRIGHT-201610",
+            "BASE-GOBIG-201610"
+          ],
+          "isVirtual": false,
+          "flashSaleOffer": false
+        }
+      },
+      {
+        "id": "cd99d0d0-9cd3-40f2-8094-a87ec1d3ae08",
+        "code": "CPOP_RT_OF_WEB-1MO-dollar15OFF",
+        "status": "in_progress",
+        "name": {
+          "en": "CPOP_RT_$15 off for 1 month"
+        },
+        "description": {
+          "en": "CPOP_RT_$15 off for 1 month"
+        },
+        "startDate": "2019-10-17T00:00:00.000Z",
+        "endDate": "2020-10-02T00:00:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductFamily": "OTT",
+          "offerType": "free-promo",
+          "offerActionType": "Retention",
+          "rank": "510",
+          "displayName": {
+            "en": "CPOP_RT_$15 off for 1 month"
+          },
+          "descriptionsByKey": {
+            "att.com": "CPOP_RT_$15 off for 1 month"
+          },
+          "migratedOffer": false,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "anchor": false,
+                    "dependent": false
+                  },
+                  "products": []
+                }
+              ]
+            }
+          ],
+          "benefits": [],
+          "eligibility": {
+            "computedRules": {
+              "predicate": "businessSegment = \"[object Object]\" AND customerSegments in (\"Mobility\",\"Residential\") AND salesChannel = \"opus\"",
+              "groupingOperator": "OR",
+              "rules": [
+                {
+                  "predicate": "businessSegment = \"[object Object]\" AND customerSegments in (\"Mobility\",\"Residential\") AND salesChannel = \"opus\""
+                }
+              ]
+            },
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Mobility",
+                  "Residential"
+                ],
+                "minimumPurchaseAmount": 0,
+                "salesChannel": [
+                  "opus"
+                ]
+              }
+            ]
+          },
+          "leadOffer": false,
+          "contractIndicator": "non-contract",
+          "isVirtual": false,
+          "flashSaleOffer": false
+        }
+      },
+      {
+        "id": "c69da0f1-dbdd-4daa-b510-f5b3360b64c8",
+        "code": "CPOP_RTN_OF_WEB-1MON-dollar20OFF",
+        "status": "live",
+        "name": {
+          "en": "CPOP RTN $20Off for 1 Month Offer"
+        },
+        "description": {
+          "en": "CPOP RTN $20Off for 1 Month Offer"
+        },
+        "startDate": "2019-10-24T00:00:00.000Z",
+        "endDate": "2020-10-02T00:00:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductFamily": "OTT",
+          "offerType": "multi-benefit",
+          "offerActionType": "Retention",
+          "rank": "510",
+          "displayName": {
+            "en": "CPOP RTN $20Off for 1 Month Offer"
+          },
+          "descriptionsByKey": {
+            "att.com": "CPOP RTN $20Off for 1 Month Offer"
+          },
+          "migratedOffer": false,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "productStatus": "Grandfather",
+                    "anchor": false,
+                    "dependent": false
+                  },
+                  "products": []
+                }
+              ]
+            }
+          ],
+          "benefits": [],
+          "eligibility": {
+            "computedRules": {
+              "predicate": "businessSegment = \"[object Object]\" AND customerSegments in (\"Residential\",\"Mobility\") AND salesChannel = \"opus\"",
+              "groupingOperator": "OR",
+              "rules": [
+                {
+                  "predicate": "businessSegment = \"[object Object]\" AND customerSegments in (\"Residential\",\"Mobility\") AND salesChannel = \"opus\""
+                }
+              ]
+            },
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Residential",
+                  "Mobility"
+                ],
+                "minimumPurchaseAmount": 0,
+                "salesChannel": [
+                  "opus"
+                ],
+                "heartValue": [
+                  "BRE",
+                  "TV 5",
+                  "TV 4"
+                ]
+              }
+            ]
+          },
+          "leadOffer": false,
+          "contractIndicator": "non-contract",
+          "isVirtual": false,
+          "flashSaleOffer": false
+        }
+      },
+      {
+        "id": "cc8114c7-6c48-4a43-b9f6-b8423e21c89a",
+        "code": "CPOP_RTN_OF_WEB-1MON-dollar25OFF",
+        "status": "approved",
+        "name": {
+          "en": "CPOP RTN $25Off for 1 Month Offer"
+        },
+        "description": {
+          "en": "CPOP RTN $25Off for 1 Month Offer"
+        },
+        "startDate": "2019-10-24T00:00:00.000Z",
+        "endDate": "2020-10-02T00:00:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductFamily": "OTT",
+          "offerType": "multi-benefit",
+          "offerActionType": "Retention",
+          "rank": "510",
+          "displayName": {
+            "en": "CPOP RTN $25Off for 1 Month Offer"
+          },
+          "descriptionsByKey": {
+            "att.com": "CPOP RTN $25Off for 1 Month Offer"
+          },
+          "migratedOffer": false,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "productStatus": "Grandfather",
+                    "anchor": false,
+                    "dependent": false
+                  },
+                  "products": []
+                }
+              ]
+            }
+          ],
+          "benefits": [],
+          "eligibility": {
+            "computedRules": {
+              "predicate": "businessSegment = \"[object Object]\" AND customerSegments in (\"Residential\",\"Mobility\") AND salesChannel = \"opus\"",
+              "groupingOperator": "OR",
+              "rules": [
+                {
+                  "predicate": "businessSegment = \"[object Object]\" AND customerSegments in (\"Residential\",\"Mobility\") AND salesChannel = \"opus\""
+                }
+              ]
+            },
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Residential",
+                  "Mobility"
+                ],
+                "minimumPurchaseAmount": 0,
+                "salesChannel": [
+                  "opus"
+                ],
+                "heartValue": [
+                  "TV 5"
+                ]
+              }
+            ]
+          },
+          "leadOffer": false,
+          "contractIndicator": "non-contract",
+          "isVirtual": false,
+          "flashSaleOffer": false
+        }
+      },
+      {
+        "id": "ec2c9528-1f8e-494a-8282-51f3237e54d4",
+        "code": "CPOP_RTN_OF_10OFFBBTV1M",
+        "status": "in_progress",
+        "name": {
+          "en": "CPOP RTN $10Off for 1 Month Offer"
+        },
+        "description": {
+          "en": "CPOP RTN $10Off for 1 Month Offer"
+        },
+        "startDate": "2019-10-24T00:00:00.000Z",
+        "endDate": "2020-10-02T00:00:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductFamily": "OTT",
+          "offerType": "multi-benefit",
+          "offerActionType": "Retention",
+          "rank": "510",
+          "displayName": {
+            "en": "CPOP RTN $10Off for 1 Month Offer"
+          },
+          "descriptionsByKey": {
+            "att.com": "CPOP RTN $10Off for 1 Month Offer"
+          },
+          "migratedOffer": false,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "productStatus": "Grandfather",
+                    "anchor": false,
+                    "dependent": false
+                  },
+                  "products": []
+                }
+              ]
+            }
+          ],
+          "benefits": [
+            {
+              "benefitCategory": "Product",
+              "billingBenefitCode": "BC_RTN_OF_10OFFBBTV1M",
+              "benefitName": {
+                "en": "CPOP RTN $10Off for 1 Month Offer"
+              },
+              "benefitDisplayName": {
+                "en": "CPOP RTN $10Off for 1 Month Offer"
+              },
+              "benefitRank": 0,
+              "description": {
+                "en": ""
+              },
+              "startDate": "2019-10-31T00:00:00.000Z",
+              "endDate": "2020-01-01T01:00:00.000Z",
+              "contractIndicator": "contract",
+              "contractVersion": "1",
+              "selfBenefit": false,
+              "duration": 1,
+              "period": "NoOfMonths",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "4c2a2ac7-6913-4188-a129-72a9b894b322",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "d611da27-153b-40a8-b824-c05541aa078d",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "cb57cdcc-84b1-4bdd-a2c0-0a87365d51ab",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "b979e218-aec4-40c6-a678-3333b141fb47",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "ce6e4352-433b-4466-9d16-b8b6ceb942b9",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "c1053952-f6dd-428c-bd29-406cbbf20826",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "b5f6e954-f958-428a-8cdf-34790b7be34f",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "flat-off",
+              "value": {
+                "centAmount": 1000,
+                "currencyCode": "USD",
+                "percentage": 0,
+                "fractionDigits": 2,
+                "dollarAmount": 10
+              },
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "contractTerm": "24",
+              "minQuantity": 0,
+              "promoPriority": 4,
+              "id": "cb282315-c804-413d-843b-c6d8f08d0d9a",
+              "migrated": false,
+              "contracted": false,
+              "isDependentPromo": false,
+              "isQuotaBased": false
+            }
+          ],
+          "eligibility": {
+            "computedRules": {
+              "predicate": "businessSegment = \"[object Object]\" AND customerSegments in (\"Residential\",\"Mobility\") AND salesChannel in (\"online\",\"opus\")",
+              "groupingOperator": "OR",
+              "rules": [
+                {
+                  "predicate": "businessSegment = \"[object Object]\" AND customerSegments in (\"Residential\",\"Mobility\") AND salesChannel in (\"online\",\"opus\")"
+                }
+              ]
+            },
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Residential",
+                  "Mobility"
+                ],
+                "minimumPurchaseAmount": 0,
+                "salesChannel": [
+                  "online",
+                  "opus"
+                ],
+                "heartValue": [
+                  "TV 1",
+                  "1-HEART",
+                  "BRE",
+                  "TV 3",
+                  "TV 5",
+                  "TV 4",
+                  "TV 2"
+                ]
+              }
+            ]
+          },
+          "leadOffer": false,
+          "contractIndicator": "contract",
+          "isVirtual": false,
+          "flashSaleOffer": false
+        }
+      },
+      {
+        "id": "5ff88f06-0d67-4a6e-8d81-ab409f1e8f46",
+        "code": "CPOP AUTH $10Off for 1 Month Offer",
+        "status": "approved",
+        "name": {
+          "en": "CPOP AUTH $10Off for 1 Month Offer"
+        },
+        "description": {
+          "en": "CPOP AUTH $10Off for 1 Month Offer"
+        },
+        "startDate": "2019-11-14T18:25:00.000Z",
+        "endDate": "2019-12-01T00:00:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductFamily": "OTT",
+          "offerType": "multi-benefit",
+          "offerActionType": "Retention",
+          "rank": "500",
+          "displayName": {
+            "en": "CPOP AUTH $10Off for 1 Month Offer"
+          },
+          "displayNamesByKey": {},
+          "descriptionsByKey": {
+            "att.com": "CPOP AUTH $10Off for 1 Month Offer"
+          },
+          "migratedOffer": false,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "anchor": false,
+                    "dependent": false
+                  },
+                  "products": []
+                }
+              ]
+            }
+          ],
+          "benefits": [],
+          "eligibility": {
+            "computedRules": {
+              "predicate": "businessSegment = \"[object Object]\" AND customerSegments in (\"Mobility\",\"Residential\") AND salesChannel in (\"opus\",\"online\")",
+              "groupingOperator": "OR",
+              "rules": [
+                {
+                  "predicate": "businessSegment = \"[object Object]\" AND customerSegments in (\"Mobility\",\"Residential\") AND salesChannel in (\"opus\",\"online\")"
+                }
+              ]
+            },
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Mobility",
+                  "Residential"
+                ],
+                "minimumPurchaseAmount": 0,
+                "salesChannel": [
+                  "opus",
+                  "online"
+                ],
+                "heartValue": [
+                  "TV 3",
+                  "TV 2",
+                  "1-HEART",
+                  "0-HEART",
+                  "TV 1"
+                ]
+              }
+            ]
+          },
+          "leadOffer": false,
+          "contractIndicator": "contract",
+          "isVirtual": false,
+          "flashSaleOffer": false
+        }
+      },
+      {
+        "id": "b8cb5a9d-0727-4b2d-8cfe-7c1aaadc4542",
+        "code": "$50 off for 12 months",
+        "status": "in_progress",
+        "name": {
+          "en": "$50 off for 12 months"
+        },
+        "description": {
+          "en": "$50 off for 12 months"
+        },
+        "startDate": "2019-11-16T00:00:00.000Z",
+        "endDate": "2019-12-01T00:00:00.000Z",
+        "attributes": {
+          "offerProductType": "video-device",
+          "offerProductFamily": "OTT",
+          "offerType": "flat-off",
+          "offerActionType": "Retention",
+          "rank": "250",
+          "displayName": {
+            "en": "$50 off for 12 months"
+          },
+          "displayNamesByKey": {},
+          "migratedOffer": false,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "IPTV",
+                    "anchor": false,
+                    "dependent": false
+                  },
+                  "products": []
+                }
+              ],
+              "bundleProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "anchor": false,
+                    "dependent": false
+                  },
+                  "products": [
+                    {
+                      "id": "792b3bf2-774b-4ceb-b8b0-146d9c5d1577",
+                      "typeId": "product",
+                      "obj": {
+                        "id": "792b3bf2-774b-4ceb-b8b0-146d9c5d1577",
+                        "code": "HARD-OSPREYFREE-201804",
+                        "productType": {
+                          "typeId": "product-type",
+                          "id": "81078d42-227b-444c-b225-d1ab9226acd6",
+                          "key": "video-device"
+                        },
+                        "name": {
+                          "en": "AT&T TV"
+                        },
+                        "description": {
+                          "en": "AT&T Osprey Box"
+                        },
+                        "categories": [],
+                        "variants": [
+                          {
+                            "id": "1",
+                            "prices": [
+                              {
+                                "value": {
+                                  "centAmount": 0,
+                                  "currencyCode": "USD",
+                                  "percentage": 0,
+                                  "fractionDigits": 2,
+                                  "dollarAmount": 0
+                                },
+                                "id": "210a2322-918d-4ebe-8ed3-69fd05bff2ed",
+                                "startDate": "2017-01-01T06:00:00.000Z",
+                                "endDate": "9999-12-31T06:00:00.000Z",
+                                "recurrenceIndicator": false,
+                                "duration": 0,
+                                "contractIndicator": "non-contract",
+                                "contracted": false,
+                                "grandfathered": false
+                              },
+                              {
+                                "value": {
+                                  "centAmount": 0,
+                                  "currencyCode": "USD",
+                                  "percentage": 0,
+                                  "fractionDigits": 2,
+                                  "dollarAmount": 0
+                                },
+                                "id": "d8097e96-c779-4f6e-9ec2-1d713594ba9f",
+                                "startDate": "2019-02-17T06:00:00.000Z",
+                                "endDate": "9999-12-31T06:00:00.000Z",
+                                "recurrenceIndicator": false,
+                                "duration": 0,
+                                "contractIndicator": "contract",
+                                "contracted": false,
+                                "grandfathered": false
+                              }
+                            ],
+                            "attributes": {
+                              "displayName": {
+                                "en": "Genie Extreme"
+                              },
+                              "displayNamesByKey": {
+                                "name-cpc": "Genie Extreme"
+                              },
+                              "descriptionsByKey": {
+                                "short-opus": "Get a free streaming media device",
+                                "short-myatt": "When you prepay 2 months of AT&T TV NOW",
+                                "long-myatt": "Get up to {0} receivers.",
+                                "description-cpc": "AT&T Osprey Box"
+                              },
+                              "billingProductCode": "HARD-OSPREYFREE-201804",
+                              "billingProductId": "2805",
+                              "startDate": "2018-01-01T06:00:00.000Z",
+                              "endDate": "9999-12-31T06:00:00.000Z",
+                              "opusDisclosureMessage": "New U.S. customers only. Must Prepay for service at full price. Non-refundable. Not combinable with select offers.",
+                              "myAttDisclosureMessage": "<strong>AT&T TV:</strong> New U.S. customers only. Must prepay first 2 months of service at full price. Online orders will be shipped in 1 to 3 days by FedEx Ground<sup>&#174;</sup> to the address provided. <strong>Non-refundable.</strong> Offer limited to 1 per AT&T TV NOW account; 2 per household. Not combinable with select offers.",
+                              "ranking": 0,
+                              "productFamily": "OTT",
+                              "removalRule": {
+                                "channel": [
+                                  "online"
+                                ],
+                                "accountType": [
+                                  "NONE"
+                                ]
+                              },
+                              "capacityLimit": 0,
+                              "videoBasePackageRequired": false,
+                              "skipAdsIndicator": false,
+                              "serviceFlag": false,
+                              "concurrentStreamCount": 0,
+                              "preOrder": false,
+                              "thirdPartyOTT": false,
+                              "secondaryBillingProductId": "7456863975",
+                              "dependentPromoIsFreeTrail": false,
+                              "discountSku": "7088A",
+                              "equipmentSku": "60075",
+                              "conflictPromoList": [
+                                "LAL14",
+                                "JR14",
+                                "BIO14",
+                                "TW14",
+                                "HISTYF7D",
+                                "NWBRAZ07",
+                                "NWVIET07",
+                                "PLUS07",
+                                "MAX07"
+                              ],
+                              "contractApplicable": "contract",
+                              "installmentList": [],
+                              "internationalVideoSubscriptionRequired": false,
+                              "hasLocalChannels": false,
+                              "pickService": false,
+                              "requiredAddonForInternationalVideoPlan": false,
+                              "autoRenewable": false,
+                              "asurionPlan": false,
+                              "thirdParty": false,
+                              "rsncapable": false
+                            },
+                            "contentImages": [
+                              {
+                                "url": "/salescms/dam/att/2017/idp/dtvnow/osprey-desktop.jpg",
+                                "name": "AT&T TV",
+                                "size": ""
+                              },
+                              {
+                                "url": "/salescms/dam/att/2017/idp/dtvnow/osprey-mobile.jpg",
+                                "name": "AT&T TV",
+                                "size": ""
+                              },
+                              {
+                                "url": "/salescms/dam/att/2017/idp/dtvnow/osprey-tablet.jpg",
+                                "name": "AT&T TV",
+                                "size": ""
+                              }
+                            ],
+                            "productImages": []
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "benefits": [
+            {
+              "benefitCategory": "Product",
+              "billingBenefitCode": "BC_$50 off for 12 months",
+              "benefitName": {
+                "en": "$50 off for 12 months"
+              },
+              "benefitDisplayName": {
+                "en": "$50 off for 12 months"
+              },
+              "benefitRank": 0,
+              "description": {
+                "en": ""
+              },
+              "startDate": "2019-11-16T00:00:00.000Z",
+              "endDate": "2020-12-01T00:00:00.000Z",
+              "contractIndicator": "all",
+              "selfBenefit": false,
+              "duration": 12,
+              "period": "NoOfMonths",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "792b3bf2-774b-4ceb-b8b0-146d9c5d1577",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "flat-off",
+              "value": {
+                "centAmount": 5000,
+                "currencyCode": "USD",
+                "percentage": 0,
+                "fractionDigits": 2,
+                "dollarAmount": 50
+              },
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "minQuantity": 0,
+              "promoPriority": 4,
+              "id": "3ef9b241-a045-4cab-bd15-2864e24f4b55",
+              "migrated": false,
+              "contracted": false,
+              "isDependentPromo": false,
+              "isQuotaBased": false
+            }
+          ],
+          "eligibility": {
+            "computedRules": {
+              "predicate": "businessSegment = \"[object Object]\" AND customerSegments = \"Residential\" AND salesChannel in (\"opus\",\"online\")",
+              "groupingOperator": "OR",
+              "rules": [
+                {
+                  "predicate": "businessSegment = \"[object Object]\" AND customerSegments = \"Residential\" AND salesChannel in (\"opus\",\"online\")"
+                }
+              ]
+            },
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Residential"
+                ],
+                "minimumPurchaseAmount": 0,
+                "salesChannel": [
+                  "opus",
+                  "online"
+                ],
+                "heartValue": [
+                  "1-HEART",
+                  "0-HEART"
+                ]
+              }
+            ]
+          },
+          "leadOffer": false,
+          "contractIndicator": "non-contract",
+          "isVirtual": false,
+          "flashSaleOffer": false
+        }
+      },
+      {
+        "id": "7a986145-a43f-429d-8b33-8a6ea36413b6",
+        "code": "10$offretentionoffer",
+        "status": "production_ready",
+        "name": {
+          "en": "10$offretentionoffer"
+        },
+        "description": {
+          "en": "10$offretentionoffer"
+        },
+        "startDate": "2019-11-14T18:45:00.000Z",
+        "endDate": "2019-12-01T00:00:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductFamily": "OTT",
+          "offerType": "multi-benefit",
+          "offerActionType": "Retention",
+          "rank": "500",
+          "displayName": {
+            "en": "10$offretentionoffer"
+          },
+          "displayNamesByKey": {},
+          "descriptionsByKey": {
+            "att.com": "10$offretentionoffer"
+          },
+          "migratedOffer": false,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "anchor": false,
+                    "dependent": false
+                  },
+                  "products": []
+                }
+              ]
+            }
+          ],
+          "benefits": [
+            {
+              "benefitCategory": "Product",
+              "billingBenefitId": "65845",
+              "billingBenefitCode": "BC_10$offretentionoffer",
+              "benefitName": {
+                "en": "10$offretentionoffer"
+              },
+              "benefitDisplayName": {
+                "en": "10$offretentionoffer"
+              },
+              "benefitRank": 0,
+              "description": {
+                "en": ""
+              },
+              "startDate": "2019-11-14T18:45:00.000Z",
+              "endDate": "2019-12-01T00:00:00.000Z",
+              "contractIndicator": "contract",
+              "contractVersion": "24",
+              "selfBenefit": false,
+              "duration": 1,
+              "period": "NoOfMonths",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "ce6e4352-433b-4466-9d16-b8b6ceb942b9",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "cb57cdcc-84b1-4bdd-a2c0-0a87365d51ab",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "b979e218-aec4-40c6-a678-3333b141fb47",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "c1053952-f6dd-428c-bd29-406cbbf20826",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "b5f6e954-f958-428a-8cdf-34790b7be34f",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "4c2a2ac7-6913-4188-a129-72a9b894b322",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "d611da27-153b-40a8-b824-c05541aa078d",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "flat-off",
+              "value": {
+                "centAmount": 1000,
+                "currencyCode": "USD",
+                "percentage": 0,
+                "fractionDigits": 2,
+                "dollarAmount": 10
+              },
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "contractTerm": "1",
+              "minQuantity": 0,
+              "promoPriority": 4,
+              "id": "2fcd1636-2b30-4d64-be06-3045b4c4fdfd",
+              "migrated": false,
+              "contracted": false,
+              "isDependentPromo": false,
+              "isQuotaBased": false
+            }
+          ],
+          "eligibility": {
+            "computedRules": {
+              "predicate": "businessSegment = \"[object Object]\" AND customerSegments in (\"Mobility\",\"Residential\") AND salesChannel in (\"opus\",\"online\")",
+              "groupingOperator": "OR",
+              "rules": [
+                {
+                  "predicate": "businessSegment = \"[object Object]\" AND customerSegments in (\"Mobility\",\"Residential\") AND salesChannel in (\"opus\",\"online\")"
+                }
+              ]
+            },
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Mobility",
+                  "Residential"
+                ],
+                "minimumPurchaseAmount": 0,
+                "salesChannel": [
+                  "opus",
+                  "online"
+                ],
+                "heartValue": [
+                  "1-HEART",
+                  "0-HEART",
+                  "TV 3",
+                  "TV 2",
+                  "TV 1"
+                ]
+              }
+            ]
+          },
+          "leadOffer": false,
+          "contractIndicator": "contract",
+          "isVirtual": false,
+          "flashSaleOffer": false
+        }
+      },
+      {
+        "id": "65163c45-03ff-4e80-97a0-d30bf76e5cc0",
+        "code": "OF_WEB-2MO-dollar15OFF",
+        "status": "live",
+        "name": {
+          "en": "$15 off for 2 months"
+        },
+        "description": {
+          "en": "$15 off for 2 months"
+        },
+        "endDate": "9999-12-31T06:00:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductFamily": "OTT",
+          "offerType": "free-promo",
+          "offerActionType": "Retention",
+          "environment": "",
+          "displayName": {
+            "en": "$15 off for 2 months"
+          },
+          "descriptionsByKey": {
+            "att.com": "$15 off for 2 months"
+          },
+          "billingId": "7509495355",
+          "billingCode": "OF_WEB-2MO-dollar15OFF",
+          "migratedOffer": true,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "anchor": false,
+                    "dependent": false
+                  },
+                  "products": [
+                    {
+                      "id": "c1053952-f6dd-428c-bd29-406cbbf20826",
+                      "typeId": "product",
+                      "obj": {
+                        "id": "c1053952-f6dd-428c-bd29-406cbbf20826",
+                        "code": "BASE-CHOICE-201811",
+                        "productType": {
+                          "typeId": "product-type",
+                          "id": "9b5b3be3-7ad2-4bca-ade3-010bac00e7f0",
+                          "key": "video-plan"
+                        },
+                        "name": {
+                          "en": "Choice"
+                        },
+                        "description": {
+                          "en": "Choice must-haves. ##85##+ channels"
+                        },
+                        "categories": [],
+                        "variants": [
+                          {
+                            "id": "1",
+                            "prices": [
+                              {
+                                "value": {
+                                  "centAmount": 11000,
+                                  "currencyCode": "USD",
+                                  "percentage": 0,
+                                  "fractionDigits": 2,
+                                  "dollarAmount": 110
+                                },
+                                "id": "f3e73e47-3107-4d65-bec9-16b3b075c2c0",
+                                "startDate": "2019-02-17T06:00:00.000Z",
+                                "endDate": "2019-06-24T05:00:00.000Z",
+                                "recurrenceIndicator": true,
+                                "duration": 0,
+                                "period": "month",
+                                "proRateFrequency": "daily",
+                                "contractIndicator": "contract",
+                                "contracted": false,
+                                "grandfathered": false
+                              },
+                              {
+                                "value": {
+                                  "centAmount": 10500,
+                                  "currencyCode": "USD",
+                                  "percentage": 0,
+                                  "fractionDigits": 2,
+                                  "dollarAmount": 105
+                                },
+                                "id": "aa17c910-73e8-469b-82e3-e28aa02561bb",
+                                "startDate": "2019-06-25T05:00:00.000Z",
+                                "endDate": "2019-07-28T05:00:00.000Z",
+                                "recurrenceIndicator": true,
+                                "duration": 0,
+                                "period": "month",
+                                "proRateFrequency": "daily",
+                                "contractIndicator": "contract",
+                                "contracted": false,
+                                "grandfathered": false
+                              },
+                              {
+                                "value": {
+                                  "centAmount": 11000,
+                                  "currencyCode": "USD",
+                                  "percentage": 0,
+                                  "fractionDigits": 2,
+                                  "dollarAmount": 110
+                                },
+                                "id": "7a2c0673-7b8f-4ea8-92cb-8b718d7ec7f5",
+                                "startDate": "2019-07-29T05:00:00.000Z",
+                                "endDate": "9999-12-31T06:00:00.000Z",
+                                "recurrenceIndicator": true,
+                                "duration": 0,
+                                "period": "month",
+                                "proRateFrequency": "daily",
+                                "contractIndicator": "contract",
+                                "contracted": false,
+                                "grandfathered": false
+                              }
+                            ],
+                            "attributes": {
+                              "displayName": {
+                                "en": "CHOICE"
+                              },
+                              "displayNamesByKey": {
+                                "services": "Choice",
+                                "name-cpc": "CHOICE"
+                              },
+                              "descriptionsByKey": {
+                                "short-opus": "85+ channels",
+                                "long-services": "85+ channels",
+                                "short-services": "85+",
+                                "long-myatt": "$19.95 ACTIVATION, EARLY TERMINATION FEE OF $15/MO. FOR EACH MONTH REMAINING ON AGMT., ADD'L FEES APPLY.   Ends 9/28/19. 1st &amp; 2nd year Pricing: $59.99/mo. for ENTERTAINMENT Pkg; $64.99/mo. for CHOICE Pkg; $74.99/mo. for XTRA Pkg; $79.99/mo. for ULTIMATE Pkg; $64.99/mo. for OPTIMO MAS  for first 12 mos. only. After 12 mos. or loss of eligibility, then prevailing rate applies (currently $93/mo. for ENTERTAINMENT Pkg; $110/mo. for CHOICE Pkg; $124/mo. for XTRA Pkg; $135/mo. for ULTIMATE Pkg; $86/mo. for OPTIMO MAS), unless cancelled or changed prior to end of the promo period. Includes: AT&amp;T TV Pkg, & one (1) AT&amp;T TV device. Exclusions: Price excludes Regional Sports Fee of up to $8.49/mo. (which is extra &amp; applies to CHOICE and higher Pkgs), AT&amp;T TV device service fee for additional devices, and certain other add'l fees &amp; charges.",
+                                "description-cpc": "Choice"
+                              },
+                              "billingProductCode": "BASE-CHOICE-201811",
+                              "billingProductId": "13843",
+                              "startDate": "2018-11-26T06:00:00.000Z",
+                              "endDate": "9999-12-31T06:00:00.000Z",
+                              "congratsMessage": "Great choice!",
+                              "ranking": 0,
+                              "productFamily": "OTT",
+                              "packageGroup": "20000",
+                              "removalRule": {
+                                "channel": [
+                                  "online"
+                                ],
+                                "accountType": [
+                                  "ALL"
+                                ]
+                              },
+                              "numberOfChannels": "85+ live channels",
+                              "capacityLimit": 0,
+                              "videoBasePackageRequired": false,
+                              "skipAdsIndicator": false,
+                              "language": "English",
+                              "serviceFlag": true,
+                              "concurrentStreamCount": 0,
+                              "preOrder": false,
+                              "thirdPartyOTT": false,
+                              "secondaryBillingProductId": "7492324299",
+                              "dependentPromoIsFreeTrail": false,
+                              "productStatus": "Active",
+                              "compatibleProducts": [
+                                {
+                                  "constraints": {
+                                    "anchor": false,
+                                    "dependent": false
+                                  },
+                                  "products": [
+                                    {
+                                      "id": "43750a18-5e4b-4f84-9b71-bc349d76b624",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "61ce6e50-cfee-4da8-9ea5-5f56e538eaa5",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "d78c41fd-9d01-4ba6-80a1-f5a81aa309bb",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "2a4d6ace-4210-4fab-8f6d-ddd63ec12b8b",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "307a01b7-d35a-48af-895f-989557abf903",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "8a99f61e-0ab4-44eb-a838-1cbc0adf8892",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "fe9386cf-a2e2-46f3-93c8-0b6f6a54b79e",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "993bc6ac-2990-4d8b-9d0d-55cee05f0801",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "efea6573-cc11-4699-8b6c-9003e8e8ca09",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "3056ee9c-8371-47d4-964a-6e16023841b0",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "07b18be4-8bb6-438c-bf50-26e6f3ce07c6",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "02184387-ce52-4bd6-971d-7f53c0368bb2",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "71de8390-4979-4a59-9ac4-3f9c02412d62",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "309a4e67-a021-4eea-bc87-78992c2ef876",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "d911b432-9e0f-4bee-bae7-19ae2acb6ba6",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "383a897c-a5e2-45aa-bbc1-2a91332ec23e",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "e59af3f6-cf1e-41ea-9e84-65d801b0abde",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "9a0f0b45-590a-4787-851a-83a83eb26c2c",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "728dd381-d53c-4d15-9b0e-b6a69e8afb4d",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "7a296b61-ef13-4efc-b6aa-e1f1537c971b",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "599dc3c8-0f3f-4d83-9e00-393d35f37894",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "82eda609-8c09-4e13-bc82-f1ac6c122f4c",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "6851067e-6f06-4e89-9dff-c3928afd98cb",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "6042e194-d71d-44f3-a820-fc883a55513c",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "2795c1cb-3c59-4279-85be-529c6c8ed1af",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "98b62bae-ab77-44aa-bc0f-2a8bb6eacdbd",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "9bd236a4-b81f-4c66-818b-6714f660d784",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "7beb2c99-a2b4-4965-abf5-374252b79e9f",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "447fdf94-e91e-4552-bc42-4ff90d0d7ccb",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "2067b3eb-ffc9-4865-82bf-a76f2bc7cbe2",
+                                      "typeId": "product"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "compatibleMobilityProducts": [
+                                {
+                                  "constraints": {
+                                    "anchor": false,
+                                    "dependent": false
+                                  },
+                                  "products": [
+                                    {
+                                      "id": "6851067e-6f06-4e89-9dff-c3928afd98cb",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "007378d8-fabb-4070-a708-e29c8b64a9f9",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "2795c1cb-3c59-4279-85be-529c6c8ed1af",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "fe9386cf-a2e2-46f3-93c8-0b6f6a54b79e",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "383a897c-a5e2-45aa-bbc1-2a91332ec23e",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "efea6573-cc11-4699-8b6c-9003e8e8ca09",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "599dc3c8-0f3f-4d83-9e00-393d35f37894",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "d911b432-9e0f-4bee-bae7-19ae2acb6ba6",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "7a296b61-ef13-4efc-b6aa-e1f1537c971b",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "9a0f0b45-590a-4787-851a-83a83eb26c2c",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "307a01b7-d35a-48af-895f-989557abf903",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "e59af3f6-cf1e-41ea-9e84-65d801b0abde",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "02184387-ce52-4bd6-971d-7f53c0368bb2",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "07b18be4-8bb6-438c-bf50-26e6f3ce07c6",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "728dd381-d53c-4d15-9b0e-b6a69e8afb4d",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "3056ee9c-8371-47d4-964a-6e16023841b0",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "993bc6ac-2990-4d8b-9d0d-55cee05f0801",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "254ff39d-b7b0-4dfa-b51f-1911c738be23",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "d78c41fd-9d01-4ba6-80a1-f5a81aa309bb",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "8a99f61e-0ab4-44eb-a838-1cbc0adf8892",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "6042e194-d71d-44f3-a820-fc883a55513c",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "71de8390-4979-4a59-9ac4-3f9c02412d62",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "2a4d6ace-4210-4fab-8f6d-ddd63ec12b8b",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "98b62bae-ab77-44aa-bc0f-2a8bb6eacdbd",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "43750a18-5e4b-4f84-9b71-bc349d76b624",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "ca60afc6-ce68-4166-8dc7-3ae804d3c897",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "9bd236a4-b81f-4c66-818b-6714f660d784",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "7beb2c99-a2b4-4965-abf5-374252b79e9f",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "447fdf94-e91e-4552-bc42-4ff90d0d7ccb",
+                                      "typeId": "product"
+                                    },
+                                    {
+                                      "id": "2067b3eb-ffc9-4865-82bf-a76f2bc7cbe2",
+                                      "typeId": "product"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "contractApplicable": "all",
+                              "internationalVideoSubscriptionRequired": false,
+                              "hasLocalChannels": false,
+                              "pickService": false,
+                              "requiredAddonForInternationalVideoPlan": false,
+                              "autoRenewable": false,
+                              "asurionPlan": false,
+                              "thirdParty": false,
+                              "rsncapable": false
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "constraints": {
+                    "productFamily": "NA",
+                    "anchor": false,
+                    "dependent": false
+                  }
+                },
+                {
+                  "constraints": {
+                    "productFamily": "wireless",
+                    "anchor": false,
+                    "dependent": false
+                  }
+                }
+              ]
+            }
+          ],
+          "benefits": [
+            {
+              "benefitCategory": "Product",
+              "billingBenefitId": "27845",
+              "billingBenefitCode": "WEB-2MO-$15OFF",
+              "benefitName": {
+                "en": "$15 off for 2 months"
+              },
+              "benefitDisplayName": {
+                "en": "$15 off for 2 months"
+              },
+              "benefitRank": 10,
+              "description": {
+                "en": "{ \"promoDescrip\": \"15OF2MON\", \"title\": \"Are you sure you want to go now?\", \"subtitle\": \"Just a heads up now: our packages have changed, so if you decide to come back, you can't get the same action-packed lineup at your rate.##Stay with AT&T TV NOW and continue to get jaw-dropping entertainment with thousands of On Demand titles\", \"offerDetailsHeader\": \"Save $15 every month for the next 2 months on your current package now!\", \"offerDetailsFooter\": \"After 2 months, service renews at then-prevailing rate (currently min. $65/mo.) unless you cancel. <b>Pricing subject to change.<b>\", \"offerDesc\": \"Clicking <span class='want-msg'>&#34;Apply this offer now!&#34;</span> will continue your current subscription, charged to your payment method on file. You'll get $15/mo. off your current subscription for the next 2 months. Cancel any time. Select customers only. Exclusions & restr's apply. \", \"toolTipLink\": \"See offer details.\", \"toolTipContent\": \"<b>$15/mo. Off for 2 Months now:</b> Click &#34;Apply this offer!&#34; to continue your current subscription, charged to your payment method on file.  You'll get $15. off the price of your current subscription for the next 2 months. Subsequent months will be charged at the then-prevailing rate, and your service will renew monthly (min. $65/mo.), charged to your payment method on file until you cancel. A <b>'month'</b> is the date of subscription through the same date of the following month, or through the end of the following month if the subscription begins at the end of a month which contains more days than the following month. Not combinable with other offers/discounts/credits. <b>GENERAL:</b> Compatible device &amp; browser req'd. U.S. only (excludes Puerto Rico and U.S. Virgin Islands). <b>Pricing, channels, features, and terms subject to change &amp; may be modified or discontinued at any time without notice. Regional Sports &amp; Local Channels:</b> Limited availability. Channels vary by package &amp; billing region. Device may need to be in billing region in order to view. <b>Cancellation:</b> View, modify or cancel at any time at atttvnow.com. Once you've canceled you can access AT&T TV NOW through the remaining monthly period. No refunds or credits for any partial-month periods or unwatched content.  Limit 2 concurrent streams per account (3rd stream is $5/mo.). Programming subject to blackout restrictions. Taxes may apply. See www.atttvnownow.com for details. \", \"footerHeader\": \"AT&T TV NOW offers more top-rated channels than all of our competitors!##<b><i>New AT&T TV NOW packages include HBO<sup>&reg;<\\/sup>*</i></b>@@Emmy&#45;winning original series &#8226; Blockbuster movies &#8226; Critically&#45;acclaimed documentaries\", \"footerDesc\": \"Compares available Nielsen Top 50 channels to other live OTT providers.##*Applies to PLUS and MAX packages\", \"footerToolTipLink\": \"Details\", \"footerToolTipContent\": \"Sourced from Nielsen National Average Audience estimates, 12 months averaged ending May 31,2018, Monday through Sunday, all sponsored programs. Subject to qualifications which will be supplied upon request. Npower, Demo (Persons 18+, Households, Datastream (Live+7))\"}"
+              },
+              "startDate": "2019-01-01T06:00:00.000Z",
+              "contractIndicator": "non-contract",
+              "selfBenefit": false,
+              "duration": 2,
+              "period": "NoOfMonths",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "b979e218-aec4-40c6-a678-3333b141fb47",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "306ebd38-1ac6-4000-a889-bd85282766e0",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "d611da27-153b-40a8-b824-c05541aa078d",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "52da13fd-95a5-4a19-bded-22c3946f3669",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "df7d8607-a266-4155-8547-04604290b1c5",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "786586f2-81a7-49c1-9e22-88d5af737b19",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "b5f6e954-f958-428a-8cdf-34790b7be34f",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "c1053952-f6dd-428c-bd29-406cbbf20826",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "ce6e4352-433b-4466-9d16-b8b6ceb942b9",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "4c2a2ac7-6913-4188-a129-72a9b894b322",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "b463369c-cf2d-4559-9c90-afa0d38d1d07",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "cb57cdcc-84b1-4bdd-a2c0-0a87365d51ab",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "3d41e37e-65e9-4f57-a526-031a5a4e3546",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "14679cfa-e8bd-4b1a-98b5-b2193be6a2d4",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "390a7c21-c0ca-4139-a1be-2831d13a4171",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "flat-off",
+              "value": {
+                "centAmount": 1500,
+                "currencyCode": "USD",
+                "percentage": 0,
+                "fractionDigits": 2,
+                "dollarAmount": 15
+              },
+              "customerClassification": "Retention",
+              "secondaryBenefitCode": "7509495355",
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "descriptionforServices": "<b>Save $15 every month for the next 2 months on your current package!</b> <br> After 2 months, your subscriptions renews at the then-prevailing rate (currently min. $50/mo.) unless you cancel. <b>Pricing subject to change.</b>",
+              "minQuantity": 0,
+              "extPromoType": "selfcareRetention",
+              "promoPriority": 4,
+              "id": "745cc2f5-63d6-4749-82ed-75676df79647",
+              "migrated": false,
+              "contracted": false,
+              "isDependentPromo": false,
+              "isQuotaBased": false
+            }
+          ],
+          "eligibility": {
+            "computedRules": {
+              "predicate": "businessSegment = \"[object Object]\" AND salesChannel = \"undefined\" AND customerSegments in (\"Residential\",\"Mobility\")",
+              "groupingOperator": "OR",
+              "rules": [
+                {
+                  "predicate": "businessSegment = \"[object Object]\" AND salesChannel = \"undefined\" AND customerSegments in (\"Residential\",\"Mobility\")"
+                }
+              ]
+            },
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Residential",
+                  "Mobility"
+                ],
+                "minimumPurchaseAmount": 0,
+                "salesChannel": []
+              }
+            ]
+          },
+          "offerPromos": [
+            [
+              {
+                "value": "WEB-2MO-$15OFF",
+                "name": "promoId"
+              },
+              {
+                "value": "03/29/2019",
+                "name": "startDateStr"
+              },
+              {
+                "value": "12/31/9999",
+                "name": "endDateStr"
+              }
+            ]
+          ],
+          "leadOffer": false,
+          "contractIndicator": "non-contract",
+          "mobilityConflictingProducts": [
+            "STND-BRAZIL-201804",
+            "STND-KOREA-201804",
+            "STND-VIETNAM-201804"
+          ],
+          "residentialConflictingProducts": [
+            "BASE-TODOYMAS-201802",
+            "STND-BRAZIL-201804",
+            "STND-KOREA-201804",
+            "STND-VIETNAM-201804"
+          ],
+          "employeeConflictingProducts": [
+            "BASE-XTRA-201811",
+            "BASE-LIVEALITTLE-201610",
+            "BASE-PLUS-2018",
+            "BASE-OMG-201610",
+            "BASE-TODOYMAS-201802",
+            "BASE-JUSTRIGHT-201610",
+            "BASE-OPTIMOMAS-122018",
+            "BASE-CHOICE-201811",
+            "BASE-ULTIMATE-201811",
+            "BASE-MAX-2018",
+            "BASE-GOBIG-201610",
+            "BASE-ENTERTAINMENT-201811",
+            "STND-BRAZIL-201804",
+            "STND-KOREA-201804",
+            "STND-VIETNAM-201804"
+          ],
+          "isVirtual": false,
+          "flashSaleOffer": false
+        }
+      },
+      {
+        "id": "5646e21a-b244-4729-ba68-ec282a2f9650",
+        "code": "OF_NBASEASONPASS",
+        "status": "live",
+        "name": {
+          "en": "NBA SEASON PASS"
+        },
+        "description": {
+          "en": "NBA SEASON PASS"
+        },
+        "endDate": "9999-12-31T06:00:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductFamily": "OTT",
+          "offerType": "free-trial",
+          "offerActionType": "Retention",
+          "environment": "",
+          "displayName": {
+            "en": "NBA SEASON PASS"
+          },
+          "descriptionsByKey": {
+            "att.com": "NBA SEASON PASS"
+          },
+          "billingId": "7512655096",
+          "billingCode": "OF_NBASEASONPASS",
+          "migratedOffer": true,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "anchor": false,
+                    "dependent": false
+                  },
+                  "products": []
+                }
+              ]
+            }
+          ],
+          "benefits": [
+            {
+              "benefitCategory": "Product",
+              "billingBenefitId": "65445",
+              "billingBenefitCode": "NBASEASONPASS",
+              "benefitName": {
+                "en": "NBASEASONPASS"
+              },
+              "benefitDisplayName": {
+                "en": "NBA SEASON PASS"
+              },
+              "benefitRank": 10,
+              "description": {
+                "en": "NBA SEASON PASS"
+              },
+              "startDate": "2019-11-10T06:00:00.000Z",
+              "endDate": "2019-12-10T06:00:00.000Z",
+              "contractIndicator": "contract",
+              "selfBenefit": false,
+              "duration": 5,
+              "period": "NoOfMonths",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "d78c41fd-9d01-4ba6-80a1-f5a81aa309bb",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "free-promo",
+              "value": {
+                "centAmount": 0,
+                "percentage": 0,
+                "fractionDigits": 0,
+                "dollarAmount": 0
+              },
+              "customerClassification": "NewCustomer",
+              "secondaryBenefitCode": "7512655096",
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "minQuantity": 0,
+              "extPromoType": "Season Pass",
+              "promoPriority": 2,
+              "id": "2ccb1f55-ecbe-46a4-b5d8-ecfb4514aa21",
+              "migrated": false,
+              "contracted": false,
+              "isDependentPromo": false,
+              "isQuotaBased": false
+            }
+          ],
+          "eligibility": {
+            "computedRules": {
+              "predicate": "businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\")",
+              "groupingOperator": "OR",
+              "rules": [
+                {
+                  "predicate": "businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\")"
+                }
+              ]
+            },
+            "constraints": [
+              {
+                "minimumPurchaseAmount": 0,
+                "salesChannel": [
+                  "opus",
+                  "online"
+                ]
+              }
+            ]
+          },
+          "offerPromos": [
+            [
+              {
+                "value": "NBASEASONPASS",
+                "name": "promoId"
+              },
+              {
+                "value": "03/29/2019",
+                "name": "startDateStr"
+              },
+              {
+                "value": "12/31/9999",
+                "name": "endDateStr"
+              }
+            ]
+          ],
+          "leadOffer": false,
+          "contractIndicator": "non-contract",
+          "mobilityConflictingProducts": [
+            "BOLT-NBALP-201912"
+          ],
+          "residentialConflictingProducts": [
+            "BOLT-NBALP-201912"
+          ],
+          "employeeConflictingProducts": [
+            "BOLT-NBALP-201912"
+          ],
+          "isVirtual": false,
+          "flashSaleOffer": false
+        }
+      },
+      {
+        "id": "112eb52e-f9cc-438d-b1b4-ee8e058afa6e",
+        "code": "OF_UMS_15OFFBBTV1M",
+        "status": "live",
+        "name": {
+          "en": "$15Off for 1 Month Offer"
+        },
+        "description": {
+          "en": "$15Off for 1 Month Offer"
+        },
+        "endDate": "9999-12-31T06:00:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductFamily": "OTT",
+          "offerType": "free-promo",
+          "offerActionType": "Retention",
+          "environment": "",
+          "displayName": {
+            "en": "$15Off for 1 Month Offer"
+          },
+          "descriptionsByKey": {
+            "att.com": "$15Off for 1 Month Offer"
+          },
+          "billingId": "7512660434",
+          "billingCode": "OF_UMS_15OFFBBTV1M",
+          "migratedOffer": true,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "anchor": false,
+                    "dependent": false
+                  },
+                  "products": []
+                },
+                {
+                  "constraints": {
+                    "productFamily": "NA",
+                    "anchor": false,
+                    "dependent": false
+                  }
+                },
+                {
+                  "constraints": {
+                    "productFamily": "wireless",
+                    "anchor": false,
+                    "dependent": false
+                  }
+                }
+              ]
+            }
+          ],
+          "benefits": [
+            {
+              "benefitCategory": "Product",
+              "billingBenefitId": "30243",
+              "billingBenefitCode": "UMS_15OFFBBTV1M",
+              "benefitName": {
+                "en": "$15Off for 1 Month Offer-UMS"
+              },
+              "benefitDisplayName": {
+                "en": "$15Off for 1 Month Offer"
+              },
+              "benefitRank": 10,
+              "description": {
+                "en": "$15Off for 1 Month Offer"
+              },
+              "startDate": "2019-08-19T05:00:00.000Z",
+              "contractIndicator": "contract",
+              "selfBenefit": false,
+              "duration": 1,
+              "period": "NoOfMonths",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "b979e218-aec4-40c6-a678-3333b141fb47",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "d611da27-153b-40a8-b824-c05541aa078d",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "b5f6e954-f958-428a-8cdf-34790b7be34f",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "c1053952-f6dd-428c-bd29-406cbbf20826",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "ce6e4352-433b-4466-9d16-b8b6ceb942b9",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "4c2a2ac7-6913-4188-a129-72a9b894b322",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "cb57cdcc-84b1-4bdd-a2c0-0a87365d51ab",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "flat-off",
+              "value": {
+                "centAmount": 1500,
+                "currencyCode": "USD",
+                "percentage": 0,
+                "fractionDigits": 2,
+                "dollarAmount": 15
+              },
+              "customerClassification": "Retention",
+              "secondaryBenefitCode": "7512660434",
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": true,
+              "minQuantity": 0,
+              "extPromoType": "agentRetention",
+              "promoPriority": 4,
+              "id": "83a68411-b207-41db-859e-f8e70e00a605",
+              "migrated": false,
+              "contracted": false,
+              "isDependentPromo": false,
+              "isQuotaBased": false
+            }
+          ],
+          "eligibility": {
+            "computedRules": {
+              "predicate": "businessSegment = \"[object Object]\" AND salesChannel = \"undefined\" AND customerSegments in (\"Residential\",\"Mobility\")",
+              "groupingOperator": "OR",
+              "rules": [
+                {
+                  "predicate": "businessSegment = \"[object Object]\" AND salesChannel = \"undefined\" AND customerSegments in (\"Residential\",\"Mobility\")"
+                }
+              ]
+            },
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Residential",
+                  "Mobility"
+                ],
+                "minimumPurchaseAmount": 0,
+                "salesChannel": []
+              }
+            ]
+          },
+          "offerPromos": [
+            [
+              {
+                "value": "UMS_15OFFBBTV1M",
+                "name": "promoId"
+              },
+              {
+                "value": "03/29/2019",
+                "name": "startDateStr"
+              },
+              {
+                "value": "12/31/9999",
+                "name": "endDateStr"
+              }
+            ]
+          ],
+          "leadOffer": false,
+          "contractIndicator": "non-contract",
+          "employeeConflictingProducts": [
+            "BASE-XTRA-201811",
+            "BASE-PLUS-2018",
+            "BASE-OPTIMOMAS-122018",
+            "BASE-CHOICE-201811",
+            "BASE-ULTIMATE-201811",
+            "BASE-MAX-2018",
+            "BASE-ENTERTAINMENT-201811"
+          ],
+          "isVirtual": false,
+          "flashSaleOffer": false
+        }
+      },
+      {
+        "id": "f5e16d97-dbdf-40ab-a783-76494dd3184c",
+        "code": "OF_UMS_25OFFBBTV1M",
+        "status": "live",
+        "name": {
+          "en": "$25Off for 1 Month Offer"
+        },
+        "description": {
+          "en": "$25Off for 1 Month Offer"
+        },
+        "endDate": "9999-12-31T06:00:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductFamily": "OTT",
+          "offerType": "free-promo",
+          "offerActionType": "Retention",
+          "environment": "",
+          "displayName": {
+            "en": "$25Off for 1 Month Offer"
+          },
+          "descriptionsByKey": {
+            "att.com": "$25Off for 1 Month Offer"
+          },
+          "billingId": "7512660436",
+          "billingCode": "OF_UMS_25OFFBBTV1M",
+          "migratedOffer": true,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "anchor": false,
+                    "dependent": false
+                  },
+                  "products": []
+                },
+                {
+                  "constraints": {
+                    "productFamily": "NA",
+                    "anchor": false,
+                    "dependent": false
+                  }
+                },
+                {
+                  "constraints": {
+                    "productFamily": "wireless",
+                    "anchor": false,
+                    "dependent": false
+                  }
+                }
+              ]
+            }
+          ],
+          "benefits": [
+            {
+              "benefitCategory": "Product",
+              "billingBenefitId": "30241",
+              "billingBenefitCode": "UMS_25OFFBBTV1M",
+              "benefitName": {
+                "en": "$25Off for 1 Month Offer-UMS"
+              },
+              "benefitDisplayName": {
+                "en": "$25Off for 1 Month Offer"
+              },
+              "benefitRank": 10,
+              "description": {
+                "en": "$25Off for 1 Month Offer"
+              },
+              "startDate": "2019-08-19T05:00:00.000Z",
+              "contractIndicator": "contract",
+              "selfBenefit": false,
+              "duration": 1,
+              "period": "NoOfMonths",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "b979e218-aec4-40c6-a678-3333b141fb47",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "d611da27-153b-40a8-b824-c05541aa078d",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "b5f6e954-f958-428a-8cdf-34790b7be34f",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "c1053952-f6dd-428c-bd29-406cbbf20826",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "ce6e4352-433b-4466-9d16-b8b6ceb942b9",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "4c2a2ac7-6913-4188-a129-72a9b894b322",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "cb57cdcc-84b1-4bdd-a2c0-0a87365d51ab",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "flat-off",
+              "value": {
+                "centAmount": 2500,
+                "currencyCode": "USD",
+                "percentage": 0,
+                "fractionDigits": 2,
+                "dollarAmount": 25
+              },
+              "customerClassification": "Retention",
+              "secondaryBenefitCode": "7512660436",
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": true,
+              "minQuantity": 0,
+              "extPromoType": "agentRetention",
+              "promoPriority": 4,
+              "id": "1fb5ca6c-5c7d-4248-8360-6331f78150c1",
+              "migrated": false,
+              "contracted": false,
+              "isDependentPromo": false,
+              "isQuotaBased": false
+            }
+          ],
+          "eligibility": {
+            "computedRules": {
+              "predicate": "businessSegment = \"[object Object]\" AND salesChannel = \"undefined\" AND customerSegments in (\"Residential\",\"Mobility\")",
+              "groupingOperator": "OR",
+              "rules": [
+                {
+                  "predicate": "businessSegment = \"[object Object]\" AND salesChannel = \"undefined\" AND customerSegments in (\"Residential\",\"Mobility\")"
+                }
+              ]
+            },
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Residential",
+                  "Mobility"
+                ],
+                "minimumPurchaseAmount": 0,
+                "salesChannel": []
+              }
+            ]
+          },
+          "offerPromos": [
+            [
+              {
+                "value": "UMS_25OFFBBTV1M",
+                "name": "promoId"
+              },
+              {
+                "value": "03/29/2019",
+                "name": "startDateStr"
+              },
+              {
+                "value": "12/31/9999",
+                "name": "endDateStr"
+              }
+            ]
+          ],
+          "leadOffer": false,
+          "contractIndicator": "non-contract",
+          "employeeConflictingProducts": [
+            "BASE-XTRA-201811",
+            "BASE-PLUS-2018",
+            "BASE-OPTIMOMAS-122018",
+            "BASE-CHOICE-201811",
+            "BASE-ULTIMATE-201811",
+            "BASE-MAX-2018",
+            "BASE-ENTERTAINMENT-201811"
+          ],
+          "isVirtual": false,
+          "flashSaleOffer": false
+        }
+      },
+      {
+        "id": "1ad6578f-d56b-4e89-98bb-27f7d53c3ec8",
+        "code": "OF_UMS_10OFFBBTV1M",
+        "status": "live",
+        "name": {
+          "en": "$10Off for 1 Month Offer"
+        },
+        "description": {
+          "en": "$10Off for 1 Month Offer"
+        },
+        "endDate": "9999-12-31T06:00:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductFamily": "OTT",
+          "offerType": "free-promo",
+          "offerActionType": "Retention",
+          "environment": "",
+          "displayName": {
+            "en": "$10Off for 1 Month Offer"
+          },
+          "descriptionsByKey": {
+            "att.com": "$10Off for 1 Month Offer"
+          },
+          "billingId": "7512660433",
+          "billingCode": "OF_UMS_10OFFBBTV1M",
+          "migratedOffer": true,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "anchor": false,
+                    "dependent": false
+                  },
+                  "products": []
+                },
+                {
+                  "constraints": {
+                    "productFamily": "NA",
+                    "anchor": false,
+                    "dependent": false
+                  }
+                },
+                {
+                  "constraints": {
+                    "productFamily": "wireless",
+                    "anchor": false,
+                    "dependent": false
+                  }
+                }
+              ]
+            }
+          ],
+          "benefits": [
+            {
+              "benefitCategory": "Product",
+              "billingBenefitId": "30244",
+              "billingBenefitCode": "UMS_10OFFBBTV1M",
+              "benefitName": {
+                "en": "$10Off for 1 Month Offer-UMS"
+              },
+              "benefitDisplayName": {
+                "en": "$10Off for 1 Month Offer"
+              },
+              "benefitRank": 10,
+              "description": {
+                "en": "$10Off for 1 Month Offer"
+              },
+              "startDate": "2019-08-19T05:00:00.000Z",
+              "contractIndicator": "contract",
+              "selfBenefit": false,
+              "duration": 1,
+              "period": "NoOfMonths",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "b979e218-aec4-40c6-a678-3333b141fb47",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "d611da27-153b-40a8-b824-c05541aa078d",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "b5f6e954-f958-428a-8cdf-34790b7be34f",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "c1053952-f6dd-428c-bd29-406cbbf20826",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "ce6e4352-433b-4466-9d16-b8b6ceb942b9",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "4c2a2ac7-6913-4188-a129-72a9b894b322",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "cb57cdcc-84b1-4bdd-a2c0-0a87365d51ab",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "flat-off",
+              "value": {
+                "centAmount": 1000,
+                "currencyCode": "USD",
+                "percentage": 0,
+                "fractionDigits": 2,
+                "dollarAmount": 10
+              },
+              "customerClassification": "Retention",
+              "secondaryBenefitCode": "7512660433",
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": true,
+              "minQuantity": 0,
+              "extPromoType": "agentRetention",
+              "promoPriority": 4,
+              "id": "87f24302-5ddd-461f-88a4-6e813dc955bc",
+              "migrated": false,
+              "contracted": false,
+              "isDependentPromo": false,
+              "isQuotaBased": false
+            }
+          ],
+          "eligibility": {
+            "computedRules": {
+              "predicate": "businessSegment = \"[object Object]\" AND salesChannel = \"undefined\" AND customerSegments in (\"Residential\",\"Mobility\")",
+              "groupingOperator": "OR",
+              "rules": [
+                {
+                  "predicate": "businessSegment = \"[object Object]\" AND salesChannel = \"undefined\" AND customerSegments in (\"Residential\",\"Mobility\")"
+                }
+              ]
+            },
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Residential",
+                  "Mobility"
+                ],
+                "minimumPurchaseAmount": 0,
+                "salesChannel": []
+              }
+            ]
+          },
+          "offerPromos": [
+            [
+              {
+                "value": "UMS_10OFFBBTV1M",
+                "name": "promoId"
+              },
+              {
+                "value": "03/29/2019",
+                "name": "startDateStr"
+              },
+              {
+                "value": "12/31/9999",
+                "name": "endDateStr"
+              }
+            ]
+          ],
+          "leadOffer": false,
+          "contractIndicator": "non-contract",
+          "employeeConflictingProducts": [
+            "BASE-XTRA-201811",
+            "BASE-PLUS-2018",
+            "BASE-OPTIMOMAS-122018",
+            "BASE-CHOICE-201811",
+            "BASE-ULTIMATE-201811",
+            "BASE-MAX-2018",
+            "BASE-ENTERTAINMENT-201811"
+          ],
+          "isVirtual": false,
+          "flashSaleOffer": false
+        }
+      }
+    ]
+}

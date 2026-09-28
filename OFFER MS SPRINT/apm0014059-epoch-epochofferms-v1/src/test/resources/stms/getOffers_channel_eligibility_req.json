@@ -1,0 +1,52 @@
+{
+    "customerEligibility": {
+        "zipCode": [
+            "00058"
+        ],
+        "county": [
+            "17000"
+        ]
+    },
+    "salesChannel": [
+        "directIntegrationPartner"
+    ],
+    "marketingSourceCode": [
+        "2547"
+    ],
+    "offerProductTypes": [
+        "video-addon"
+    ],
+    "offerActionType": [
+        "Acquisition"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "billingSystem": "stms",
+    "cartContext": {
+        "epochOfferCodes": [
+            "OF_BASE-PREMIER-ALL-INCLUDED_sales_satellite"
+        ]
+    },
+    "customerContext": {
+        "satellite": {
+			"serviceAddress": {
+                "streetAddress": "2600 CANYON BLVD",
+                "city": "BOULDER",
+                "state": "CO",
+                "zipCode": "80302"
+            },
+            "businessSegment": "REG",
+            "accountStatus": "PEND"
+        }
+    },
+    "channelEligibility": {
+        "salesChannel": "indirectSales",
+        "salesSubChannel": "DTVCALLCTR",
+        "locationId": "118724",
+        "locationTypeId": "4",
+        "dealerCode": "4335U",
+		"dealerId": "1234",
+        "directIntegrationPartnerName": "CHUZO"
+    }
+}

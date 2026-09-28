@@ -1,0 +1,4 @@
+{
+  "query2": "query ($productFilter: String!) {\n products(limit: 500,offset : offsetValue, where: $productFilter) {\n count\n total\n results {\n id\n key\n masterData {\n published\n current {\n nameAllLocales {\n locale\n value\n }\n masterVariant {\n attributesRaw(includeNames: [ requestedAttributes ]) {\n name\n value\n \n }\n }\n }\n }\n }\n }\n}",
+  "productFilter": "masterData(current(masterVariant(attributes(name= \"offerProductFamily\"  and value(key in ( \"OTT\" ))))))"
+}

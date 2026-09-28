@@ -1,0 +1,241 @@
+{
+    "limit": 300,
+    "offset": 0,
+    "count": 2,
+    "total": 2,
+    "facets": {},
+    "products": [
+        {
+            "id": "a8a31441-0416-4588-bd12-13524fd35c88",
+            "code": "BOLT-BASEPP-202309",
+            "version": 111,
+            "createdAt": "2023-07-05T15:23:03.527Z",
+            "lastModifiedAt": "2023-09-07T20:57:58.756Z",
+            "productType": {
+                "typeId": "product-type",
+                "id": "878a29cc-a9de-49ea-96c7-f6fc1b811ccc",
+                "key": "protection-plan"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": 1,
+                    "attributes": {
+                        "clearRejections": false,
+                        "migratedProduct": false,
+                        "productFamily": "OTT",
+                        "displayName": {
+                            "en": "DTVi Protection Plan"
+                        },
+                        "billingProductCode": "BOLT-BASEPP-202309",
+                        "businessSegment": [
+                            "CONS"
+                        ],
+                        "displayType": "optional",
+                        "salesChannel": [
+                            "directvOnline"
+                        ],
+                        "language": "English",
+                        "subCategory": "protectionPlan",
+                        "evergentProdCategory": "Subscription",
+                        "descriptionsByKey": {
+                            "short-services": "<p>DIRECTV TECH PROTECT is an insurance plan provided, via Assurant, for DIRECTV connected via Internet customers.</p><p>Assurant provides coverage for mechanical breakdown of select entertainment products such as audio &amp; streaming devices, TVs, home theater systems, laptops, desktops, tablets, PC peripherals, routers, and modems. Claims for covered products will be fulfilled by Assurant and customers must wait 30 days from plan activation before filing a claim. A Service Fee for claim(s) will be charged directly from Assurant to the customer.</p><p>For information on how to handle DIRECTV device replacements/warranty go to Gemini (Internet) - Warranty and Claims.</p>",
+                            "short-opus": "<p>DIRECTV TECH PROTECT is an insurance plan provided, via Assurant, for DIRECTV connected via Internet customers.</p><p>Assurant provides coverage for mechanical breakdown of select entertainment products such as audio &amp; streaming devices, TVs, home theater systems, laptops, desktops, tablets, PC peripherals, routers, and modems. Claims for covered products will be fulfilled by Assurant and customers must wait 30 days from plan activation before filing a claim. A Service Fee for claim(s) will be charged directly from Assurant to the customer.</p><p>For information on how to handle DIRECTV device replacements/warranty go to Gemini (Internet) - Warranty and Claims.</p>",
+                            "short-myatt": "<p>DIRECTV TECH PROTECT is an insurance plan provided, via Assurant, for DIRECTV connected via Internet customers.</p><p>Assurant provides coverage for mechanical breakdown of select entertainment products such as audio &amp; streaming devices, TVs, home theater systems, laptops, desktops, tablets, PC peripherals, routers, and modems. Claims for covered products will be fulfilled by Assurant and customers must wait 30 days from plan activation before filing a claim. A Service Fee for claim(s) will be charged directly from Assurant to the customer.</p><p>For information on how to handle DIRECTV device replacements/warranty go to Gemini (Internet) - Warranty and Claims.</p>",
+                            "long-services": "<p>DIRECTV TECH PROTECT is an insurance plan provided, via Assurant, for DIRECTV connected via Internet customers.</p><p>Assurant provides coverage for mechanical breakdown of select entertainment products such as audio &amp; streaming devices, TVs, home theater systems, laptops, desktops, tablets, PC peripherals, routers, and modems. Claims for covered products will be fulfilled by Assurant and customers must wait 30 days from plan activation before filing a claim. A Service Fee for claim(s) will be charged directly from Assurant to the customer.</p><p>For information on how to handle DIRECTV device replacements/warranty go to Gemini (Internet) - Warranty and Claims.</p>",
+                            "long-myatt": "<p>DIRECTV TECH PROTECT is an insurance plan provided, via Assurant, for DIRECTV connected via Internet customers.</p><p>Assurant provides coverage for mechanical breakdown of select entertainment products such as audio &amp; streaming devices, TVs, home theater systems, laptops, desktops, tablets, PC peripherals, routers, and modems. Claims for covered products will be fulfilled by Assurant and customers must wait 30 days from plan activation before filing a claim. A Service Fee for claim(s) will be charged directly from Assurant to the customer.</p><p>For information on how to handle DIRECTV device replacements/warranty go to Gemini (Internet) - Warranty and Claims.</p>"
+                        },
+                        "displayNamesByKey": {
+                            "onlineService": "DIRECTV TECH PROTECT",
+                            "services": "DIRECTV TECH PROTECT"
+                        },
+                        "startDate": "2022-06-22T18:30:00.000Z",
+                        "endDate": "9999-12-30T18:30:00.000Z",
+                        "planSubType": "Cross-product",
+                        "dependentPromoStartDate": "2022-07-10T00:00:00.000Z",
+                        "dependentPromoCode": "DPPBASE",
+                        "dependentBillerPromoId": "399645",
+                        "dependentPromoName": "BASE Protection Plan Dependent Promotion",
+                        "removalRuleByChannel": {
+                            "actionRule": [
+                                {
+                                    "salesChannel": "opus",
+                                    "customerSegments": "Residential",
+                                    "businessSegment": "CONS",
+                                    "flowActionType": "change",
+                                    "actionIndicator": false,
+                                    "userType": "Customer",
+                                    "ineligibleAccountStatuses": [
+                                        "Pending Pause",
+                                        "Suspend",
+                                        "Grace Period"
+                                    ]
+                                },
+                                {
+                                    "salesChannel": "directvOnline",
+                                    "customerSegments": "Residential",
+                                    "businessSegment": "CONS",
+                                    "userType": "Customer",
+                                    "flowActionType": "change",
+                                    "actionIndicator": false,
+                                    "ineligibleAccountStatuses": [
+                                        "Pending Pause",
+                                        "Suspend",
+                                        "Grace Period"
+                                    ]
+                                }
+                            ]
+                        },
+                        "contractIndicator": [
+                            "TAZCONTRACT",
+                            "TAZ",
+                            "contract",
+                            "EDSP"
+                        ]
+                    },
+                    "prices": [
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 899,
+                                "fractionDigits": 2,
+                                "dollarAmount": "8.99"
+                            },
+                            "id": "04921ced-df62-4f8b-98cc-951cbd9cd518",
+                            "startDate": "2022-06-21T08:00:00.000Z",
+                            "endDate": "2050-12-31T08:00:00.000Z",
+                            "channel": "EDSP",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "EDSP",
+                            "period": "month",
+                            "proRateFrequency": "Daily",
+                            "isGrandfathered": false
+                        }
+                    ]
+                }
+            ],
+            "name": {
+                "en": "DIRECTV TECH PROTECT"
+            },
+            "description": {
+                "en": "DIRECTV TECH PROTECT is an insurance plan provided, via Assurant, for DIRECTV connected via Internet customers.\n\nAssurant provides coverage for mechanical breakdown of select entertainment products such as audio & streaming devices, TVs, home theater systems, laptops, desktops, tablets, PC peripherals, routers, and modems. Claims for covered products will be fulfilled by Assurant and customers must wait 30 days from plan activation before filing a claim. A Service Fee for claim(s) will be charged directly from Assurant to the customer.\n\nFor information on how to handle DIRECTV device replacements/warranty go to Gemini (Internet) - Warranty and Claims."
+            }
+        },
+        {
+            "id": "db74f14c-5026-4e44-9df5-3472025cb158",
+            "code": "BOLT-PREMIUMPP-202309",
+            "version": 66,
+            "createdAt": "2023-07-05T17:24:55.912Z",
+            "lastModifiedAt": "2023-09-07T21:04:37.496Z",
+            "status": "live",
+            "productType": {
+                "typeId": "product-type",
+                "id": "878a29cc-a9de-49ea-96c7-f6fc1b811ccc",
+                "key": "protection-plan"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": 1,
+                    "attributes": {
+                        "clearRejections": false,
+                        "migratedProduct": false,
+                        "productFamily": "OTT",
+                        "displayName": {
+                            "en": "DTVi Premium Protection Plan"
+                        },
+                        "billingProductCode": "BOLT-PREMIUMPP-202309",
+                        "businessSegment": [
+                            "CONS"
+                        ],
+                        "displayType": "optional",
+                        "salesChannel": [
+                            "directvOnline"
+                        ],
+                        "language": "English",
+                        "subCategory": "protectionPlan",
+                        "evergentProdCategory": "Subscription",
+                        "descriptionsByKey": {
+                            "short-services": "<p>DIRECTV TECH PROTECT PREMIUM is a premium insurance plan provided, via Assurant, for DIRECTV connected via Internet customers.</p><p>Assurant provides coverage for mechanical breakdown of select entertainment products such as audio &amp; streaming devices, TVs, home theater systems, laptops, desktops, tablets, PC peripherals, routers, and modems. Under the Premium Plan, Assurant also provides coverage for accidental damage from handling of laptops, monitors, PC peripherals, tablets, and personal wearables.  Claims for covered products will be fulfilled by Assurant and customers must wait 30 days from plan activation before filing a claim. A Service Fee for claim(s) will be charged directly from Assurant to the customer.</p><p>For information on how to handle DIRECTV device replacements/warranty go to Gemini (Internet) - Warranty and Claims.</p>",
+                            "short-opus": "<p>DIRECTV TECH PROTECT PREMIUM is a premium insurance plan provided, via Assurant, for DIRECTV connected via Internet customers.</p><p>Assurant provides coverage for mechanical breakdown of select entertainment products such as audio &amp; streaming devices, TVs, home theater systems, laptops, desktops, tablets, PC peripherals, routers, and modems. Under the Premium Plan, Assurant also provides coverage for accidental damage from handling of laptops, monitors, PC peripherals, tablets, and personal wearables.  Claims for covered products will be fulfilled by Assurant and customers must wait 30 days from plan activation before filing a claim. A Service Fee for claim(s) will be charged directly from Assurant to the customer.</p><p>For information on how to handle DIRECTV device replacements/warranty go to Gemini (Internet) - Warranty and Claims.</p>",
+                            "short-myatt": "<p>DIRECTV TECH PROTECT PREMIUM is a premium insurance plan provided, via Assurant, for DIRECTV connected via Internet customers.</p><p>Assurant provides coverage for mechanical breakdown of select entertainment products such as audio &amp; streaming devices, TVs, home theater systems, laptops, desktops, tablets, PC peripherals, routers, and modems. Under the Premium Plan, Assurant also provides coverage for accidental damage from handling of laptops, monitors, PC peripherals, tablets, and personal wearables.  Claims for covered products will be fulfilled by Assurant and customers must wait 30 days from plan activation before filing a claim. A Service Fee for claim(s) will be charged directly from Assurant to the customer.</p><p>For information on how to handle DIRECTV device replacements/warranty go to Gemini (Internet) - Warranty and Claims.</p>",
+                            "long-services": "<p>DIRECTV TECH PROTECT PREMIUM is a premium insurance plan provided, via Assurant, for DIRECTV connected via Internet customers.</p><p>Assurant provides coverage for mechanical breakdown of select entertainment products such as audio &amp; streaming devices, TVs, home theater systems, laptops, desktops, tablets, PC peripherals, routers, and modems. Under the Premium Plan, Assurant also provides coverage for accidental damage from handling of laptops, monitors, PC peripherals, tablets, and personal wearables.  Claims for covered products will be fulfilled by Assurant and customers must wait 30 days from plan activation before filing a claim. A Service Fee for claim(s) will be charged directly from Assurant to the customer.</p><p>For information on how to handle DIRECTV device replacements/warranty go to Gemini (Internet) - Warranty and Claims.</p>",
+                            "long-myatt": "<p>DIRECTV TECH PROTECT PREMIUM is a premium insurance plan provided, via Assurant, for DIRECTV connected via Internet customers.</p><p>Assurant provides coverage for mechanical breakdown of select entertainment products such as audio &amp; streaming devices, TVs, home theater systems, laptops, desktops, tablets, PC peripherals, routers, and modems. Under the Premium Plan, Assurant also provides coverage for accidental damage from handling of laptops, monitors, PC peripherals, tablets, and personal wearables.  Claims for covered products will be fulfilled by Assurant and customers must wait 30 days from plan activation before filing a claim. A Service Fee for claim(s) will be charged directly from Assurant to the customer.</p><p>For information on how to handle DIRECTV device replacements/warranty go to Gemini (Internet) - Warranty and Claims.</p>"
+                        },
+                        "displayNamesByKey": {
+                            "onlineService": "DIRECTV TECH PROTECT PREMIUM",
+                            "services": "DIRECTV TECH PROTECT PREMIUM"
+                        },
+                        "startDate": "2022-07-10T18:30:00.000Z",
+                        "endDate": "2050-05-31T18:30:00.000Z",
+                        "planSubType": "Cross-product",
+                        "dependentPromoStartDate": "2022-06-01T00:00:00.000Z",
+                        "dependentPromoCode": "DPPPREMIUM",
+                        "dependentBillerPromoId": "399644",
+                        "dependentPromoName": "PREMIUM Protection Plan Dependent Promotion",
+                        "removalRuleByChannel": {
+                            "actionRule": [
+                                {
+                                    "salesChannel": "opus",
+                                    "customerSegments": "Residential",
+                                    "businessSegment": "CONS",
+                                    "flowActionType": "change",
+                                    "actionIndicator": false,
+                                    "ineligibleAccountStatuses": [
+                                        "Pending Pause",
+                                        "Suspend",
+                                        "Grace Period"
+                                    ],
+                                    "userType": "Customer"
+                                },
+                                {
+                                    "salesChannel": "directvOnline",
+                                    "customerSegments": "Residential",
+                                    "businessSegment": "CONS",
+                                    "userType": "Customer",
+                                    "flowActionType": "change",
+                                    "actionIndicator": false                                    
+                                }
+                            ]
+                        },
+                        "contractIndicator": [
+                            "TAZCONTRACT",
+                            "TAZ",
+                            "contract",
+                            "EDSP"
+                        ]
+                    },
+                    "prices": [
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 1499,
+                                "fractionDigits": 2,
+                                "dollarAmount": "14.99"
+                            },
+                            "id": "f1064bde-dde3-4171-ba67-03b1d97f24f1",
+                            "startDate": "2022-04-14T08:00:00.000Z",
+                            "endDate": "2050-12-31T08:00:00.000Z",
+                            "channel": "EDSP",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "EDSP",
+                            "period": "month",
+                            "proRateFrequency": "Daily",
+                            "isGrandfathered": false
+                        }
+                    ]
+                }
+            ],
+            "name": {
+                "en": "DIRECTV TECH PROTECT PREMIUM"
+            },
+            "description": {
+                "en": "DIRECTV TECH PROTECT PREMIUM is a premium insurance plan provided, via Assurant, for DIRECTV connected via Internet customers.\n\nAssurant provides coverage for mechanical breakdown of select entertainment products such as audio & streaming devices, TVs, home theater systems, laptops, desktops, tablets, PC peripherals, routers, and modems. Under the Premium Plan, Assurant also provides coverage for accidental damage from handling of laptops, monitors, PC peripherals, tablets, and personal wearables.  Claims for covered products will be fulfilled by Assurant and customers must wait 30 days from plan activation before filing a claim. A Service Fee for claim(s) will be charged directly from Assurant to the customer.\n\nFor information on how to handle DIRECTV device replacements/warranty go to Gemini (Internet) - Warranty and Claims."
+            }
+        }
+    ],
+    "partners": [],
+    "productsInCurrentRequest": 2
+}

@@ -1,0 +1,1050 @@
+{
+    "limit": 300,
+    "count": 6,
+    "total": 6,
+    "products": [
+        {
+            "id": "c257f0ac-ec25-4b15-b2e1-c0648d9ee9e8",
+            "code": "BOLTON-PLAYBOY-TV_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                "key": "video-addon"
+            },
+            "name": {
+                "en": "Playboy TV"
+            },
+            "description": {
+                "en": "Playboy TV is your home for the best in steamy adult entertainment. Order today and get Playboy TV HD, Playboy TV 2, Playboy TV en Espanol and Playboy TV On Demand included! It's all for the sexy price of 15.99/month."
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "sku": "R0167",
+                    "key": "R0167",
+                    "prices": [
+                        {
+                            "value": {
+                                "centAmount": 1599.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 15.99
+                            },
+                            "id": "dde59319-f96c-46bd-b799-1f712ded301d",
+                            "startDate": "1990-01-01T00:00:00.000Z",
+                            "endDate": "2049-12-31T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "period": "month",
+                            "billingReferenceId": "1",
+                            "gfVersion": 0,
+                            "businessSegment": "VZN,CenturyLink,QST,BLS,GME,HSP,MBL,ATT,DAE,DTV,FRP,MDL,PTR,SWB,VIP,CSH,JCD,MDU,TCD,LSE,MDD,MTL,PCO,PCR,REG,TMU,TMW,VEN,VPA,HDL,JDU,JMU",
+                            "chargeType": "mrc",
+                            "omsProductId": "2503",
+                            "contracted": false,
+                            "grandfathered": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 0.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0.0
+                            },
+                            "id": "2baae8aa-b479-4d59-86b3-aac0559ed4d9",
+                            "startDate": "2019-08-27T07:00:00.000Z",
+                            "endDate": "2050-12-31T08:00:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 3,
+                            "period": "month",
+                            "billingReferenceId": "41",
+                            "gfVersion": 0,
+                            "businessSegment": "VZN,CenturyLink,QST,BLS,GME,HSP,MBL,ATT,DAE,DTV,FRP,MDL,PTR,SWB,VIP,CSH,JCD,MDU,TCD,LSE,MDD,MTL,PCO,PCR,REG,TMU,TMW,VEN,VPA,HDL,JDU,JMU",
+                            "omsProductId": "1001020",
+                            "contracted": false,
+                            "grandfathered": false
+                        }
+                    ],
+                    "attributes": {
+                        "displayName": {
+                            "en": "Playboy TV"
+                        },
+                        "displayRanking": 280,
+                        "billingProductCode": "R0167",
+                        "billingCode": "R0167",
+                        "startDate": "2019-08-27T07:00:00.000Z",
+                        "endDate": "2050-12-31T08:00:00.000Z",
+                        "businessSegment": [
+                            "MDU",
+                            "CONS"
+                        ],
+                        "salesChannel": [
+                            "opusServices",
+                            "opusSales",
+                            "onlineServices",
+                            "onlineSales",
+                            "opus",
+                            "online"
+                        ],
+                        "productFamily": "satellite",
+                        "planSubType": "Adult",
+                        "language": "English",
+                        "productStatus": "Active",
+                        "contractApplicable": "noncontract",
+                        "contractIndicator": [
+                            "non-contract"
+                        ],
+                        "subCategory": "Adult",
+                        "omsComponentMapping": [
+                            {
+                                "attributes": [
+                                    {
+                                        "attributeCode": "DTgenrePackage",
+                                        "attributeValue": "PlayboyTV"
+                                    }
+                                ],
+                                "componentCode": "PlayboyTV",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV|PlayboyTV"
+                            }
+                        ],
+                        "customerSegments": [
+                            "Residential"
+                        ],
+                        "isPickService": false,
+                        "isAutoRenewable": false,
+                        "termsAndConditions": {
+                            "en": "By subscribing you will receive Playboy TV free for 3 months, and will be billed $15.99/mo. thereafter on a recurring basis (price subject to change). Contact us anytime to cancel service, including by calling 877-384-3503."
+                        },
+                        "migratedProduct": false,
+                        "omsProductCode": "0",
+                        "orderingMethod": "addToCart",
+                        "enablerPricePlanCode": "88986415",
+                        "tokens": "Playboy TV",
+                        "chargeCode": "DVPLBY",
+                        "isWorldDirect": false,
+                        "isETFRequired": false,
+                        "isRemovable": true,
+                        "dollarAmount": 15.99,
+                        "productImages": "/cms2/product_catalog/premiums/Playboy.gif"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "5c010e39-3e81-4501-a46e-1968874d8999",
+            "code": "BASE-FAMILY_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "cb512bc7-05aa-4d02-896c-bcfb3487c5da",
+                "key": "video-plan"
+            },
+            "name": {
+                "en": "FAMILY"
+            },
+            "description": {
+                "en": " Over \"sd_channels\"50 channels | Local channels included at no extra chargeEligibility based on service address. | "
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "sku": "P6030",
+                    "key": "P6030",
+                    "prices": [
+                        {
+                            "value": {
+                                "centAmount": 3099.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 30.99
+                            },
+                            "id": "67b8892b-9887-4f02-a71c-4dc829c47a77",
+                            "startDate": "2022-02-06T00:00:00.000Z",
+                            "endDate": "2050-12-31T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "billingReferenceId": "1",
+                            "gfVersion": 0,
+                            "businessSegment": "residential",
+                            "chargeType": "mrc",
+                            "grandfatherVersion": 0,
+                            "omsFreeSTBPolicyId": "DVANA1",
+                            "omsProductId": "2428",
+                            "contracted": false,
+                            "grandfathered": false
+                        }
+                    ],
+                    "attributes": {
+                        "displayName": {
+                            "en": "FAMILY"
+                        },
+                        "displayRanking": 15,
+                        "billingProductCode": "P6030",
+                        "billingCode": "P6030",
+                        "startDate": "2006-01-05T01:30:00.000Z",
+                        "endDate": "2006-01-05T01:30:00.000Z",
+                        "salesChannel": [
+                            "opusServices",
+                            "opusSales",
+                            "onlineServices",
+                            "onlineSales",
+                            "opus",
+                            "online"
+                        ],
+                        "productFamily": "satellite",
+                        "numberOfChannels": "55+ digital channels",
+                        "language": "English",
+                        "productStatus": "Grandfather",
+                        "downgradeableRule": "1",
+                        "contractApplicable": "noncontract",
+                        "contractIndicator": [
+                            "non-contract"
+                        ],
+                        "omsComponentMapping": [
+                            {
+                                "attributes": [
+                                    {
+                                        "attributeCode": "BasePkg",
+                                        "attributeValue": "Family"
+                                    }
+                                ],
+                                "componentCode": "ATTDTV",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV"
+                            }
+                        ],
+                        "customerSegments": [
+                            "Residential"
+                        ],
+                        "hasLocalChannels": true,
+                        "planType": "Standard",
+                        "migratedProduct": false,
+                        "isChangeable": true,
+                        "omsProductCode": "Family",
+                        "orderingMethod": "addToCart",
+                        "enablerPricePlanCode": "88834804",
+                        "tokens": "FAMILY",
+                        "chargeCode": "DTVFAM",
+                        "isWorldDirect": false,
+                        "maxSTBsWired": 5,
+                        "maxDVRs": 1,
+                        "maxSTBsWIFI": 5,
+                        "maxSTBsWithServer": 8,
+                        "billingParams": [
+                            {
+                                "value": "Family",
+                                "name": "BasePkg"
+                            }
+                        ],
+                        "productImages": "DTV-FAMILY"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "21292029-f11b-4154-bd43-60e460db4b89",
+            "code": "BOLTON-HBO-MAX-STARZ-SHOW-CINE_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                "key": "video-addon"
+            },
+            "name": {
+                "en": "HBO Max, Starz, Showtime and Cinemax"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "sku": "P2165",
+                    "key": "P2165",
+                    "prices": [
+                        {
+                            "value": {
+                                "centAmount": 4796.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 47.96
+                            },
+                            "id": "e1bfd46d-cf02-4e10-bc92-117f189c3194",
+                            "startDate": "2007-02-28T18:30:00.000Z",
+                            "endDate": "2050-12-30T18:30:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "billingReferenceId": "1",
+                            "gfVersion": 0,
+                            "businessSegment": "residential",
+                            "chargeType": "mrc",
+                            "grandfatherVersion": 0,
+                            "omsProductId": "2453",
+                            "contracted": false,
+                            "grandfathered": false
+                        }
+                    ],
+                    "attributes": {
+                        "displayName": {
+                            "en": "HBO Max, Starz, Showtime and Cinemax"
+                        },
+                        "billingProductCode": "P2165",
+                        "billingCode": "P2165",
+                        "startDate": "2007-02-28T18:30:00.000Z",
+                        "endDate": "2050-12-30T18:30:00.000Z",
+                        "businessSegment": [
+                            "CONS"
+                        ],
+                        "salesChannel": [
+                            "onlineServices",
+                            "opusServices",
+                            "opusSales",
+                            "onlineSales",
+                            "opus",
+                            "online"
+                        ],
+                        "productFamily": "satellite",
+                        "planSubType": "Premium",
+                        "language": "English",
+                        "productStatus": "Active",
+                        "includedProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "id": "2866ce11-08df-42a5-af2d-ac7eb3a0705b",
+                                        "typeId": "product",
+                                        "productType": "video-addon",
+                                        "key": "BOLTON-CINEMAX_satellite"
+                                    },
+                                    {
+                                        "id": "d93af126-180b-4e06-b136-b4a486669777",
+                                        "typeId": "product",
+                                        "productType": "video-addon",
+                                        "key": "BOLTON-SHOWTIME_satellite"
+                                    },
+                                    {
+                                        "id": "7a74b437-279c-430f-ab56-3753cd987a15",
+                                        "typeId": "product",
+                                        "productType": "video-addon",
+                                        "key": "BOLTON-STARZ_satellite"
+                                    },
+                                    {
+                                        "id": "aa33dddf-bdf5-4963-bd96-9d28d16beaa5",
+                                        "typeId": "product",
+                                        "productType": "video-addon",
+                                        "key": "BOLTON-HBO-MAX_satellite"
+                                    }
+                                ],
+                                "constraints": {
+                                    "dependent": false,
+                                    "anchor": false
+                                }
+                            }
+                        ],
+                        "contractApplicable": "noncontract",
+                        "contractIndicator": [
+                            "non-contract"
+                        ],
+                        "omsComponentMapping": [
+                            {
+                                "attributes": [
+                                    {
+                                        "attributeCode": "PickCode",
+                                        "attributeValue": "P0023"
+                                    }
+                                ],
+                                "componentCode": "PickDV",
+                                "componentPath": "PickDV"
+                            }
+                        ],
+                        "customerSegments": [
+                            "Residential"
+                        ],
+                        "isPickService": true,
+                        "isAutoRenewable": false,
+                        "migratedProduct": false,
+                        "orderingMethod": "addToCart",
+                        "enablerPricePlanCode": "88830604",
+                        "tokens": "HBO+SHOWTIME+STARZ+Cinemax",
+                        "chargeCode": "DTVPIC",
+                        "isWorldDirect": false,
+                        "isETFRequired": false,
+                        "isRemovable": true,
+                        "heroOfferRanking": 2,
+                        "billingParams": [
+                            {
+                                "value": "P0023",
+                                "name": "PickCode"
+                            }
+                        ],
+                        "pick5Mask": "15",
+                        "dollarAmount": 47.96,
+                        "enablerATGProductId": "prod8610902",
+                        "enablerATGSkuId": "sku7920569",
+                        "productImages": "/cms2/product_catalog/premiums/Sports_Pack.gif",
+                        "incompatibleProducts": [
+                            [
+                                {
+                                    "name": "products",
+                                    "value": [
+                                        {
+                                            "id": "2866ce11-08df-42a5-af2d-ac7eb3a0705b",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "d93af126-180b-4e06-b136-b4a486669777",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "7a74b437-279c-430f-ab56-3753cd987a15",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "aa33dddf-bdf5-4963-bd96-9d28d16beaa5",
+                                            "typeId": "product"
+                                        }
+                                    ]
+                                }
+                            ]
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ac0f53ef-22c6-4952-b58c-16240cb415a0",
+            "code": "BASE-ENTERTAINMENT-ALL-INCLUDED_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "cb512bc7-05aa-4d02-896c-bcfb3487c5da",
+                "key": "video-plan"
+            },
+            "name": {
+                "en": "ENTERTAINMENT ALL INCLUDED"
+            },
+            "description": {
+                "en": "Our basic entertainment package, including movies, sports, family and music channels. Over 150 channels. Local channels included Eligibility based on service address. Now includes live 4K – Enjoy amazing live entertainment in stunning life-like clarity. To view your current package price, including extras and discounts, view your most recent statement "
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "sku": "P103424",
+                    "key": "P103424",
+                    "prices": [
+                        {
+                            "value": {
+                                "centAmount": 12100.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 121.0
+                            },
+                            "id": "c300b70f-c8c2-4c33-bae1-2630f4e84642",
+                            "startDate": "2022-01-23T00:00:00.000Z",
+                            "endDate": "2050-04-28T18:29:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "period": "month",
+                            "proRateFrequency": "monthly",
+                            "contractIndicator": "non-contract",
+                            "billingReferenceId": "1",
+                            "gfVersion": 0,
+                            "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+                            "employeeSegment": "",
+                            "nftvFlag": "Y",
+                            "ftvCount": "4",
+                            "chargeType": "mrc",
+                            "grandfatherVersion": 2,
+                            "omsFreeSTBPolicyId": "DVALL4",
+                            "omsProductId": "10003310",
+                            "contracted": false,
+                            "grandfathered": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 10900.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 109.0
+                            },
+                            "id": "bbf8465a-9775-422a-9147-3fd90db405ce",
+                            "startDate": "2012-12-05T18:30:00.000Z",
+                            "endDate": "2022-01-22T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "period": "month",
+                            "proRateFrequency": "monthly",
+                            "contractIndicator": "non-contract",
+                            "billingReferenceId": "2",
+                            "gfVersion": 0,
+                            "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+                            "employeeSegment": "",
+                            "nftvFlag": "Y",
+                            "ftvCount": "2",
+                            "chargeType": "mrc",
+                            "grandfatherVersion": 2,
+                            "omsFreeSTBPolicyId": "DVALL2DTH,DVALL2",
+                            "omsProductId": "10012198",
+                            "contracted": false,
+                            "grandfathered": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 10200.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 102.0
+                            },
+                            "id": "8bd4088f-2176-4e2a-9c80-bd2b50e4a515",
+                            "startDate": "2012-12-05T18:30:00.000Z",
+                            "endDate": "2022-01-22T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "period": "month",
+                            "proRateFrequency": "monthly",
+                            "contractIndicator": "non-contract",
+                            "billingReferenceId": "3",
+                            "gfVersion": 0,
+                            "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+                            "employeeSegment": "",
+                            "nftvFlag": "Y",
+                            "ftvCount": "1",
+                            "chargeType": "mrc",
+                            "grandfatherVersion": 2,
+                            "omsFreeSTBPolicyId": "DVALL1,NA",
+                            "omsProductId": "10023627",
+                            "contracted": false,
+                            "grandfathered": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 11600.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 116.0
+                            },
+                            "id": "dfe2b2c6-bcc2-467d-8772-cb795387f4cb",
+                            "startDate": "2012-12-05T18:30:00.000Z",
+                            "endDate": "2022-01-22T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "period": "month",
+                            "proRateFrequency": "monthly",
+                            "contractIndicator": "non-contract",
+                            "billingReferenceId": "1",
+                            "gfVersion": 0,
+                            "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+                            "employeeSegment": "",
+                            "nftvFlag": "Y",
+                            "ftvCount": "4",
+                            "chargeType": "mrc",
+                            "grandfatherVersion": 2,
+                            "omsFreeSTBPolicyId": "DVALL4",
+                            "omsProductId": "10003310",
+                            "contracted": false,
+                            "grandfathered": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 10700.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 107.0
+                            },
+                            "id": "7e1d9bb0-9b56-4539-b151-668606662f77",
+                            "startDate": "2022-01-23T00:00:00.000Z",
+                            "endDate": "2050-04-28T18:29:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "period": "month",
+                            "proRateFrequency": "monthly",
+                            "contractIndicator": "non-contract",
+                            "billingReferenceId": "3",
+                            "gfVersion": 0,
+                            "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+                            "employeeSegment": "",
+                            "nftvFlag": "Y",
+                            "ftvCount": "1",
+                            "chargeType": "mrc",
+                            "grandfatherVersion": 2,
+                            "omsFreeSTBPolicyId": "DVALL1,NA",
+                            "omsProductId": "10023627",
+                            "contracted": false,
+                            "grandfathered": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 11400.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 114.0
+                            },
+                            "id": "40c8e677-bfd6-4f56-a6ee-3ae3b596265d",
+                            "startDate": "2022-01-23T00:00:00.000Z",
+                            "endDate": "2050-04-28T18:29:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "period": "month",
+                            "proRateFrequency": "monthly",
+                            "contractIndicator": "non-contract",
+                            "billingReferenceId": "2",
+                            "gfVersion": 0,
+                            "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+                            "employeeSegment": "",
+                            "nftvFlag": "Y",
+                            "ftvCount": "2",
+                            "chargeType": "mrc",
+                            "grandfatherVersion": 2,
+                            "omsFreeSTBPolicyId": "DVALL2DTH,DVALL2",
+                            "omsProductId": "10012198",
+                            "contracted": false,
+                            "grandfathered": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 8025.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 80.25
+                            },
+                            "id": "c88efc14-08b2-43aa-b202-27696abe7277",
+                            "startDate": "2022-03-11T00:00:00.000Z",
+                            "endDate": "2050-12-31T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "period": "month",
+                            "proRateFrequency": "monthly",
+                            "contractIndicator": "non-contract",
+                            "billingReferenceId": "415",
+                            "gfVersion": 0,
+                            "businessSegment": "PTR",
+                            "employeeSegment": "active",
+                            "nftvFlag": "Y",
+                            "ftvCount": "1,2,4",
+                            "chargeType": "mrc",
+                            "omsFreeSTBPolicyId": "",
+                            "omsProductId": "10059341",
+                            "contracted": false,
+                            "grandfathered": false
+                        }
+                    ],
+                    "attributes": {
+                        "displayName": {
+                            "en": "ENTERTAINMENT ALL INCLUDED"
+                        },
+                        "displayRanking": 38,
+                        "billingProductCode": "P103424",
+                        "billingCode": "P103424",
+                        "startDate": "2021-09-30T18:30:00.000Z",
+                        "endDate": "2050-12-31T18:29:00.000Z",
+                        "businessSegment": [
+                            "MDU",
+                            "CONS"
+                        ],
+                        "salesChannel": [
+                            "opusServices",
+                            "opusSales",
+                            "onlineServices",
+                            "onlineSales",
+                            "opus",
+                            "online"
+                        ],
+                        "productFamily": "satellite",
+                        "numberOfChannels": "160+ digital channels",
+                        "language": "English",
+                        "productStatus": "Active",
+                        "downgradeableRule": "1",
+                        "contractApplicable": "noncontract",
+                        "contractIndicator": [
+                            "non-contract"
+                        ],
+                        "omsComponentMapping": [
+                            {
+                                "attributes": [
+                                    {
+                                        "attributeCode": "freeSTBPolicy",
+                                        "attributeValue": "DVALL1"
+                                    },
+                                    {
+                                        "attributeCode": "BasePkg",
+                                        "attributeValue": "EntertainmentAll"
+                                    }
+                                ],
+                                "componentCode": "ATTDTV",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV"
+                            }
+                        ],
+                        "customerSegments": [
+                            "Residential"
+                        ],
+                        "hasLocalChannels": true,
+                        "termsAndConditions": {
+                            "en": "Does this replace my current package? Yes, this will replace your current package. How much will I be charged? On your next bill, you'll see a credit for the package that you're disconnecting today because you paid in advance. You'll also see a partial charge that covers the new package starting today, and the regular monthly charge that we bill in advance for the following month. How long does activation take? 5 minutes."
+                        },
+                        "planType": "AllIn",
+                        "migratedProduct": false,
+                        "isChangeable": true,
+                        "omsProductCode": "EntertainmentAll",
+                        "orderingMethod": "addToCart",
+                        "enablerPricePlanCode": "88849874",
+                        "tokens": "BASE-ENTERTAINMENT-ALL-INCLUDED",
+                        "chargeCode": "DTVEAI",
+                        "isWorldDirect": false,
+                        "maxSTBsWired": 5,
+                        "maxDVRs": 1,
+                        "maxSTBsWIFI": 5,
+                        "maxSTBsWithServer": 7,
+                        "billingParams": [
+                            {
+                                "value": "EntertainmentAll",
+                                "name": "BasePkg"
+                            }
+                        ],
+                        "grandFatherInfo": [
+                            {
+                                "salesEffectiveDate": "2017-11-11T00:00:00.000Z",
+                                "salesExpirationDate": "2049-12-31T23:59:00.000Z",
+                                "version": 2
+                            }
+                        ],
+                        "enablerATGProductId": "prod8330994",
+                        "enablerATGSkuId": "sku7650320",
+                        "productImages": "DTV-ENTERTAINMENT"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "9b29e874-8f6f-4db9-8b8c-8d18930ac386",
+            "code": "BOLTON-NFL-SUNDAY-TICKET-MAX-2021-UPGRADE_Satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                "key": "video-addon"
+            },
+            "name": {
+                "en": "NFL SUNDAY TICKET MAX 2021 Upgrade"
+            },
+            "description": {
+                "en": "Upgrade to NFL SUNDAY TICKET MAX and get every NFL SUNDAY TICKET game on your computer, tablet, and phone&mdash;in addition to every game every Sunday on your TV. Plus, you also get The RED ZONE Channel, Player Tracker, Short Cuts, real-time stats, and more."
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "sku": "R107444",
+                    "key": "R107444",
+                    "prices": [
+                        {
+                            "value": {
+                                "centAmount": 10200.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 102.0
+                            },
+                            "id": "2002a15f-f139-4902-a7bb-16669aeba701",
+                            "startDate": "2021-04-18T00:00:00.000Z",
+                            "endDate": "2021-09-04T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 1,
+                            "period": "month",
+                            "billingReferenceId": "41",
+                            "gfVersion": 0,
+                            "businessSegment": "MDL,PCR,QST,TCD,TMU,VPA,VZN,BLS,FRP,CSH,CenturyLink,GME,HDL,JMU,LSE,MTL,PCO,RVB,SWB,VEN,VIP,HSP,JCD,MDD,MDU,REG,TMW,JDU,ATT,DAE,DTV",
+                            "chargeType": "nrc",
+                            "grandfatherVersion": 0,
+                            "numberOfPayments": 1,
+                            "omsProductId": "10057504",
+                            "contracted": false,
+                            "grandfathered": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 4800.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 48.0
+                            },
+                            "id": "69e93846-4cbb-4e54-bdc9-141fad6bbbac",
+                            "startDate": "2021-10-25T00:00:00.000Z",
+                            "endDate": "2022-01-09T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 1,
+                            "period": "month",
+                            "billingReferenceId": "81",
+                            "gfVersion": 0,
+                            "businessSegment": "MDL,PCR,QST,TCD,TMU,VPA,VZN,BLS,FRP,CSH,CenturyLink,GME,HDL,JMU,LSE,MTL,PCO,RVB,SWB,VEN,VIP,HSP,JCD,MDD,MDU,REG,TMW,JDU,ATT,DAE,DTV",
+                            "chargeType": "nrc",
+                            "grandfatherVersion": 0,
+                            "numberOfPayments": 1,
+                            "omsProductId": "10058235",
+                            "contracted": false,
+                            "grandfathered": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 1700.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 17.0
+                            },
+                            "id": "1cb904be-a672-44ce-bc71-b75654a203dc",
+                            "startDate": "2021-09-05T00:00:00.000Z",
+                            "endDate": "2021-10-24T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 6,
+                            "period": "month",
+                            "billingReferenceId": "46",
+                            "gfVersion": 0,
+                            "businessSegment": "MDL,PCR,QST,TCD,TMU,VPA,VZN,BLS,FRP,CSH,CenturyLink,GME,HDL,JMU,LSE,MTL,PCO,RVB,SWB,VEN,VIP,HSP,JCD,MDD,MDU,REG,TMW,JDU,ATT,DAE,DTV",
+                            "chargeType": "nrc",
+                            "grandfatherVersion": 0,
+                            "numberOfPayments": 6,
+                            "omsProductId": "10057505",
+                            "contracted": false,
+                            "grandfathered": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 1200.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 12.0
+                            },
+                            "id": "d086c654-a802-4ee2-945b-bad1c2567348",
+                            "startDate": "2021-10-25T03:30:00.000Z",
+                            "endDate": "2022-01-09T03:30:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 4,
+                            "period": "month",
+                            "billingReferenceId": "84",
+                            "gfVersion": 0,
+                            "businessSegment": "MDL,PCR,QST,TCD,TMU,VPA,VZN,BLS,FRP,CSH,CenturyLink,GME,HDL,JMU,LSE,MTL,PCO,RVB,SWB,VEN,VIP,HSP,JCD,MDD,MDU,REG,TMW,JDU,ATT,DAE,DTV",
+                            "chargeType": "nrc",
+                            "grandfatherVersion": 0,
+                            "numberOfPayments": 4,
+                            "omsProductId": "10058236",
+                            "contracted": false,
+                            "grandfathered": false
+                        }
+                    ],
+                    "attributes": {
+                        "displayName": {
+                            "en": "NFL SUNDAY TICKET MAX 2021 Upgrade"
+                        },
+                        "displayRanking": 295,
+                        "billingProductCode": "R107444",
+                        "billingCode": "R107444",
+                        "startDate": "2021-04-18T03:30:00.000Z",
+                        "endDate": "2021-09-04T03:30:00.000Z",
+                        "businessSegment": [
+                            "MDU",
+                            "CONS"
+                        ],
+                        "salesChannel": [
+                            "opusServices",
+                            "opusSales",
+                            "onlineServices",
+                            "onlineSales",
+                            "online",
+                            "opus"
+                        ],
+                        "productFamily": "satellite",
+                        "planSubType": "Sports",
+                        "language": "English",
+                        "productStatus": "Active",
+                        "contractApplicable": "noncontract",
+                        "contractIndicator": [
+                            "non-contract"
+                        ],
+                        "omsComponentMapping": [
+                            {
+                                "attributes": [
+                                    {
+                                        "attributeCode": "DTgenrePackage",
+                                        "attributeValue": "DSTU3N"
+                                    }
+                                ],
+                                "componentCode": "DSTU3N",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV|DSTU3N"
+                            }
+                        ],
+                        "customerSegments": [
+                            "Residential"
+                        ],
+                        "isPickService": false,
+                        "isAutoRenewable": true,
+                        "migratedProduct": false,
+                        "orderingMethod": "addToCart",
+                        "enablerPricePlanCode": "89001093",
+                        "tokens": "NFL SUNDAY TICKET™ MAX UPGRADE",
+                        "chargeCode": "DSTU3N",
+                        "isWorldDirect": false,
+                        "isETFRequired": false,
+                        "isRemovable": false,
+                        "billingParams": [
+                            {
+                                "value": "DSTU3N",
+                                "name": "DTgenrePackage"
+                            }
+                        ],
+                        "dollarAmount": 102.0,
+                        "enablerATGProductId": "prod11340261",
+                        "enablerATGSkuId": "sku10800244",
+                        "productImages": "/cms2/product_catalog/sports/NFL_Sunday_Ticket_MAX.gif",
+                        "incompatibleProducts": [
+                            [
+                                {
+                                    "name": "products",
+                                    "value": [
+                                        {
+                                            "id": "035ad810-abe2-4273-be53-95c1ce9cb61e",
+                                            "typeId": "product"
+                                        }
+                                    ]
+                                }
+                            ]
+                        ],
+                        "doNotAutoRenewBillingProductCode": "R6976",
+                        "doNotAutoRenewBillingReferenceId": "2",
+                        "nonRefundDate": "2021-09-26T23:59:00.000Z"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "2d47d3a1-d79a-4d35-8e30-c6b35f4ea4af",
+            "code": "BOLTON-MOVIES-EXTRA-PACK_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                "key": "video-addon"
+            },
+            "name": {
+                "en": "Movies Extra Pack"
+            },
+            "description": {
+                "en": "Get your movie fix with classics and favorites from MGM HD, Sony Movie Channel, and HDNET Movies. Discover new mysteries with Hallmark Movies & Mysteries. And enjoy the latest offerings from Crime & Investigation HD, Smithsonian Channel HD, ShortsTV HD, and MTV Live. All ready to stream on any device.**"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "sku": "P6688",
+                    "key": "P6688",
+                    "prices": [
+                        {
+                            "value": {
+                                "centAmount": 0.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0.0
+                            },
+                            "id": "6193750b-c74d-4954-bf58-09d7ec6fb157",
+                            "startDate": "2007-09-30T18:30:00.000Z",
+                            "endDate": "2020-12-30T18:30:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "period": "month",
+                            "billingReferenceId": "900",
+                            "gfVersion": 0,
+                            "businessSegment": "DTV",
+                            "omsProductId": "29245",
+                            "contracted": false,
+                            "grandfathered": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 499.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 4.99
+                            },
+                            "id": "e40bacd9-359d-4cc1-a895-417997b765ff",
+                            "startDate": "2008-02-18T08:00:00.000Z",
+                            "endDate": "2050-12-31T08:00:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "period": "month",
+                            "billingReferenceId": "1",
+                            "gfVersion": 0,
+                            "businessSegment": "RVB,GME,MDL,VZN,HDL,MDU,SWB,PTR,VEN,FRP,MDD,REG,VPA,MTL,ATT,HSP,TCD,BLS,JCD,PCO,TMU,JMU,CenturyLink,QST,DAE,LSE,VIP,TMW,CSH,JDU,PCR",
+                            "chargeType": "mrc",
+                            "grandfatherVersion": 0,
+                            "omsProductId": "29241",
+                            "contracted": false,
+                            "grandfathered": false
+                        }
+                    ],
+                    "attributes": {
+                        "displayName": {
+                            "en": "Movies Extra Pack"
+                        },
+                        "displayRanking": 260,
+                        "isHDAccessRequired": true,
+                        "billingProductCode": "P6688",
+                        "billingCode": "P6688",
+                        "billingProductId": "P6688",
+                        "startDate": "2008-02-18T08:00:00.000Z",
+                        "endDate": "2050-12-31T08:00:00.000Z",
+                        "businessSegment": [
+                            "MDU",
+                            "CONS"
+                        ],
+                        "salesChannel": [
+                            "opusServices",
+                            "opusSales",
+                            "onlineServices",
+                            "onlineSales",
+                            "opus",
+                            "online"
+                        ],
+                        "productFamily": "satellite",
+                        "planSubType": "Premium",
+                        "language": "English",
+                        "productStatus": "Active",
+                        "contractApplicable": "noncontract",
+                        "contractIndicator": [
+                            "non-contract"
+                        ],
+                        "subCategory": "Premium",
+                        "omsComponentMapping": [
+                            {
+                                "attributes": [
+                                    {
+                                        "attributeCode": "DTgenrePackage",
+                                        "attributeValue": "DIRECTVHDEXTRAPACK"
+                                    }
+                                ],
+                                "componentCode": "DIRECTVHDEXTRAPACK",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV|DIRECTVHDEXTRAPACK"
+                            }
+                        ],
+                        "customerSegments": [
+                            "Residential"
+                        ],
+                        "isPickService": false,
+                        "isAutoRenewable": false,
+                        "termsAndConditions": {
+                            "en": "By subscribing you will be billed $4.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+                        },
+                        "migratedProduct": false,
+                        "orderingMethod": "addToCart",
+                        "enablerPricePlanCode": "88986925",
+                        "tokens": "DIRECTV HD EXTRA PACK",
+                        "chargeCode": "DVHDEX",
+                        "isWorldDirect": false,
+                        "isETFRequired": false,
+                        "isRemovable": false,
+                        "dollarAmount": 4.99,
+                        "enablerATGProductId": "prod9100293",
+                        "enablerATGSkuId": "sku8390281",
+                        "productImages": "/cms2/product_catalog/premiums/MoviesExtraPack_68x38.png"
+                    }
+                }
+            ]
+        }
+    ]
+}

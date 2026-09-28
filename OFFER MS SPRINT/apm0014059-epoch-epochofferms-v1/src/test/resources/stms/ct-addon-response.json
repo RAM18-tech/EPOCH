@@ -1,0 +1,316 @@
+{
+    "limit": 300,
+    "offset": 0,
+    "count": 1,
+    "total": 1,
+    "offers": [
+		{
+			"id": "8097ba07-c539-4339-be32-23492b9a5633",
+			"code": "OF_BOLTON-A-AND-E-CRIME-CENTRAL_satellite",
+			"version": 124,
+			"createdAt": "2021-05-05T00:50:30.283Z",
+			"lastModifiedAt": "2024-09-27T05:23:11.221Z",
+			"status": "live",
+			"productType": {
+				"typeId": "product-type",
+				"id": "1f980710-c1c0-4b05-92b7-dd79f4b1e86b"
+			},
+			"name": {
+				"en": "A&E Crime Central"
+			},
+			"description": {
+				"en": "Watch hundreds of true crime series and documentaries including episodes of A&E’s classic series like 60 Days In, The First 48, Court Cam, and much more, all commercial-free. May only be accessed on internet-connected HD-DVR, DIRECTV.com and the DIRECTV app. Subscription not valid for streaming using the provider app or website."
+			},
+			"categories": [],
+			"startDate": "2020-08-15T19:30:00.000Z",
+			"endDate": "2050-12-30T18:30:00.000Z",
+			"attributes": {
+				"offerType": "multi-benefit",
+				"offerProductFamily": "satellite",
+				"offerProductType": "video-addon",
+				"offerActionType": "Other",
+				"displayName": {
+					"en": "A&E Crime Central"
+				},
+				"migratedOffer": false,
+				"bundleProductIds": [
+					{
+						"id": "19a5dbcd-fa75-40cf-8728-9547920a37b0",
+						"typeId": "offer",
+						"key": "BOLTON-A-AND-E-CRIME-CENTRAL_satellite"
+					}
+				],
+				"contractIndicator": "non-contract",
+				"offerStatus": "Active",
+				"qualifyingProductsBillingProductCode": [
+					"R107364"
+				],
+				"offerIntent": "non-migration",
+				"existingProductFamilies": [
+					"satellite"
+				],
+				"eligibility": {
+					"constraints": [
+						{
+							"existingCustomerType": [
+								"Satellite"
+							],
+							"accountStatus": "active",
+							"customerSegments": [
+								"Residential"
+							],
+							"dma": [
+								"144"
+							],
+							"salesChannel": [
+								"assistedSales",
+								"stb",
+								"ipor",
+								"directIntegrationPartner",
+								"dpp",
+								"salesCRM",
+								"ccap",
+								"opusServices",
+								"opusSales",
+								"onlineServices",
+								"onlineSales",
+								"opus",
+								"online"
+							]
+						}
+					]
+				},
+				"associatedProducts": [
+					{
+						"bundleProducts": [
+							{
+								"constraints": {
+									"productStatus": "Active",
+									"productFamily": "satellite",
+									"productTypes": [
+										"video-addon"
+									],
+									"productState": "New"
+								},
+								"products": [
+									{
+										"typeId": "product",
+										"id": "19a5dbcd-fa75-40cf-8728-9547920a37b0",
+										"productType": "video-addon",
+										"key": "BOLTON-A-AND-E-CRIME-CENTRAL_satellite"
+									}
+								]
+							}
+						],
+						"qualifyingProducts": [
+							{
+								"constraints": {
+									"productFamily": "satellite"
+								}
+							}
+						]
+					}
+				],
+				"rank": 410,
+				"termsAndConditions": {
+					"en": "By selecting ACTIVATE NOW, you agree that your subscription to A&E Crime Central auto-renews monthly at then prevailing rate (Currently $4.99+ taxes) and that DIRECTV will charge the provided method of payment on a monthly basis, unless you cancel your subscription online via DIRECTV.com. May only be accessed on internet-connected DIRECTV device(s), directv.com, and the DIRECTV app. Subscription not valid for streaming using the A&E Crime Central app or aecrimecentral.com."
+				},
+				"billingCode": "R107364",
+				"existingProductCodes": [
+					"R107364"
+				],
+				"qualifyingProductsPlanSubTypes": [
+					"Premium"
+				],
+				"billingId": "1",
+				"isPrimary": true,
+				"longDescription": {
+					"en": "Watch hundreds of episodes of A&E's classic crime series and specials like Dog the Bounty Hunter, 60 Days In and After the First 48, anytime – all commercial-free. May only be accessed on internet-connected HD-DVR, DIRECTV.com and the DIRECTV app. Subscription not valid for streaming using the provider app or website."
+				},
+				"enablerSalesOfferId": "DTV_ADDON_A&ECrimeCentral",
+				"offerProductFamilies": [
+					"satellite"
+				],
+				"offerActionTypes": [
+					"Other",
+					"Downgrade",
+					"Upgrade",
+					"Acquisition",
+					"Cross-sell"
+				],
+				"offerProductTypes": [
+					"video-addon"
+				],
+				"offerIntents": [
+					"non-migration"
+				],
+				"benefits": []
+			}
+		}
+	],
+	"products": [
+		{
+			"id": "19a5dbcd-fa75-40cf-8728-9547920a37b0",
+			"code": "BOLTON-A-AND-E-CRIME-CENTRAL_satellite",
+			"name": {
+				"en": "A&E Crime Central"
+			},
+			"description": {
+				"en": "Watch hundreds of true crime series and documentaries including episodes of A&E’s classic series like 60 Days In, The First 48, Court Cam, and much more, all commercial-free. May only be accessed on internet-connected HD-DVR, DIRECTV.com and the DIRECTV app. Subscription not valid for streaming using the provider app or website."
+			},
+			"version": 124,
+			"createdAt": "2021-05-12T21:15:44.826Z",
+			"createdBy": {
+				"isPlatformClient": true,
+				"user": {
+					"typeId": "user",
+					"id": "73d773fa-4fad-455b-bfde-fc16e14855df"
+				}
+			},
+			"lastModifiedAt": "2024-05-09T10:39:20.483Z",
+			"lastModifiedBy": {
+				"isPlatformClient": true,
+				"user": {
+					"typeId": "user",
+					"id": "704fadf3-855b-49b6-82c4-5022892ee0dc"
+				}
+			},
+			"status": {
+				"typeId": "state",
+				"id": "97da72df-4bdf-482c-a054-936dfb18df63"
+			},
+			"productType": {
+				"typeId": "product-type",
+				"id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+				"key": "video-addon"
+			},
+			"categories": [],
+			"variants": [
+				{
+					"id": 1,
+					"sku": "R107364",
+					"key": "R107364",
+					"attributes": {
+						"migratedProduct": false,
+						"productFamily": "satellite",
+						"productStatus": "Active",
+						"contractApplicable": "non-contract",
+						"customerSegments": [
+							"Residential"
+						],
+						"displayName": {
+							"en": "A&E Crime Central"
+						},
+						"billingProductCode": "R107364",
+						"endDate": "2050-12-30T18:30:00.000Z",
+						"dollarAmount": 4.99,
+						"language": "English",
+						"startDate": "2020-08-15T19:30:00.000Z",
+						"channel": [
+							"opus",
+							"online"
+						],
+						"salesChannel": [
+							"opusServices",
+							"opusSales",
+							"onlineServices",
+							"onlineSales",
+							"opus",
+							"online"
+						],
+						"planSubType": "Premium",
+						"productImages": "/dtvassets/sales/directv/logos/add-ons/aecc-horiz-c.svg",
+						"termsAndConditions": {
+							"en": "By selecting ACTIVATE NOW, you agree that your subscription to A&E Crime Central auto-renews monthly at then prevailing rate (Currently $4.99+ taxes) and that DIRECTV will charge the provided method of payment on a monthly basis, unless you cancel your subscription online via DIRECTV.com. May only be accessed on internet-connected DIRECTV device(s), directv.com, and the DIRECTV app. Subscription not valid for streaming using the A&E Crime Central app or aecrimecentral.com."
+						},
+						"billingCode": "R107364",
+						"isPickService": false,
+						"displayRanking": 410,
+						"subCategory": "TV",
+						"isHDAccessRequired": true,
+						"orderingMethod": "addToCart",
+						"isWorldDirect": false,
+						"enablerPricePlanCode": "88983523",
+						"tokens": "BOLTON-A-AND-E-CRIME-CENTRAL",
+						"billingParams": [
+							{
+								"name": "DTgenrePackage",
+								"value": "DVAECC"
+							}
+						],
+						"businessSegment": [
+							"MDU",
+							"CONS"
+						],
+						"omsComponentMapping": [
+							{
+								"componentPath": "ATTDTV|DVAECC",
+								"operationName": "MOORequest,PUSPO1Request",
+								"componentCode": "DVAECC",
+								"attributes": [
+									{
+										"attributeCode": "DTgenrePackage",
+										"attributeValue": "DVAECC"
+									}
+								]
+							}
+						],
+						"isAutoRenewable": false,
+						"isRemovable": true,
+						"isETFRequired": true,
+						"chargeCode": "DVAECC",
+						"enablerATGProductId": "prod11020230",
+						"enablerATGSkuId": "sku10490236",
+						"contentChannelId": "7315",
+						"contractIndicator": [
+							"non-contract"
+						],
+						"partnerKeys": []
+					},
+					"prices": [
+						{
+							"value": {
+								"type": "centPrecision",
+								"currencyCode": "USD",
+								"centAmount": 499,
+								"fractionDigits": 2,
+								"dollarAmount": "4.99"
+							},
+							"id": "8212502c-7685-4900-816b-2478eb3f822d",
+							"startDate": "2020-08-15T19:30:00.000Z",
+							"endDate": "2050-12-30T18:30:00.000Z",
+							"duration": 0,
+							"period": "month",
+							"billingReferenceId": "1",
+							"businessSegment": "BLS,PTR,DTV,TCD,JCD,QST,FRP,VPA,MDD,SWB,HSP,MTL,CSH,MDL,HDL,VIP,MBL,PCR,DAE,RVB,REG,GME,ATT,TMU,JDU,VEN,LSE,MDU,TMW,JMU,PCO,CenturyLink,VZN",
+							"omsProductId": "10044117",
+							"grandfatherVersion": 0,
+							"chargeType": "mrc"
+						},
+						{
+							"value": {
+								"type": "centPrecision",
+								"currencyCode": "USD",
+								"centAmount": 99,
+								"fractionDigits": 2,
+								"dollarAmount": "0.99"
+							},
+							"id": "e2948550-d91c-4a83-b012-62009c6e1f4c",
+							"startDate": "2024-02-21T08:00:00.000Z",
+							"endDate": "2050-12-31T23:59:00.000Z",
+							"channel": "non-contracted",
+							"customerGroup": "01",
+							"duration": 2,
+							"period": "month",
+							"billingReferenceId": "2",
+							"businessSegment": "BLS,PTR,DTV,TCD,JCD,QST,FRP,VPA,MDD,SWB,HSP,MTL,CSH,MDL,HDL,VIP,MBL,PCR,DAE,RVB,REG,GME,ATT,TMU,JDU,VEN,LSE,MDU,TMW,JMU,PCO,CenturyLink,VZN",
+							"numberOfPayments": 2,
+							"omsProductId": "10072870",
+							"chargeType": "mrc"
+						}
+					]
+				}
+			]
+		}
+	]
+}

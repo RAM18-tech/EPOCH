@@ -1,0 +1,118 @@
+{
+  "addOnType": [],
+  "contractIndicator": [
+    "EDSP"
+  ],
+  "swimlaneSwitchEligible": false,
+  "decisioningFlow": false,
+  "customerContext": {
+    "existingProductFamily": [
+      "OTT"
+    ],
+    "OTT": {
+      "products": [
+        {
+          "basePrice": "149.99",
+          "productCode": "BASE-PREMIER-202004",
+          "productType": "video-plan"
+        },
+        {
+          "basePrice": "11.0",
+          "productCode": "BOLT-STARZ-201610",
+          "productType": "video-addon",
+          "promotions": [
+            {
+              "promotionId": "DSSPF",
+              "promotionStartDate": "01/20/2022",
+              "promotionEndDate": "02/04/2022"
+            },
+            {
+              "promotionId": "EDSPSTZ3MON",
+              "promotionStartDate": "02/04/2022",
+              "promotionEndDate": "05/04/2022"
+            }
+          ]
+        },
+        {
+          "basePrice": "14.99",
+          "productCode": "BOLT-HBO-201610",
+          "productType": "video-addon",
+          "promotions": [
+            {
+              "promotionId": "DHBOF",
+              "promotionStartDate": "01/20/2022",
+              "promotionEndDate": "02/04/2022"
+            },
+            {
+              "promotionId": "EDSPHBOMAX3M",
+              "promotionStartDate": "02/04/2022",
+              "promotionEndDate": "05/04/2022"
+            }
+          ]
+        },
+        {
+          "basePrice": "5.0",
+          "productCode": "BOLT-MVPX-201910",
+          "productType": "video-addon",
+          "promotions": [
+            {
+              "promotionId": "DMEP",
+              "promotionStartDate": "01/20/2022",
+              "promotionEndDate": "02/04/2022"
+            }
+          ]
+        },
+        {
+          "basePrice": "30.0",
+          "productCode": "BOLT-BRAZIL-201810",
+          "productType": "video-addon",
+          "promotions": [
+            {
+              "promotionId": "DBRZFT",
+              "promotionStartDate": "01/20/2022",
+              "promotionEndDate": "02/04/2022"
+            }
+          ]
+        },
+        {
+          "basePrice": "0.0",
+          "productCode": "HARD-PENDANT-052022",
+          "productType": "video-device",
+          "promotions": [
+            {
+              "promotionId": "GEMINIAIRPILOT",
+              "promotionStartDate": "01/19/2022"
+            }
+          ]
+        }
+      ],
+      "accountNumber": "210522148096197",
+      "isActive": true,
+      "retentionPromotionIndicator": false,
+      "freeTrialEligible": false,
+      "nextBillingDate": "03/09/2020"
+    }
+  },
+  "offerActionType": [
+    "Upgrade",
+    "Downgrade",
+    "Cross-sell",
+    "Other"
+  ],
+  "offerProductFamily": [
+    "OTT"
+  ],
+  "salesChannel": [
+    "directvOnline"
+  ],
+  "channelEligibility": {
+    "opusChannel": "ISM",
+    "opusSubChannel": "ISM-CHAT",
+    "opusStoreId": "DMDR",
+    "specialPage" :"ospreyGift"
+  },
+  "creditRisk" : "Low",
+  "offerProductTypes": [
+    "video-device"
+  ]
+}

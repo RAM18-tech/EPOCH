@@ -1,0 +1,620 @@
+{
+        "limit": 0,
+        "offset": 0,
+        "count": 4,
+        "total": 4,
+        "offers": [
+            {
+                "id": "bbbe95ef-7696-4e5b-a954-df1a9f3cc64c",
+                "code": "OF_BOLTON-HALLMARK-MOVIES-NOW_satellite",
+                "status": "live",
+                "name": {
+                    "en": "Hallmark Movies Now"
+                },
+                "description": {
+                    "en": "Featuring feel-good movies and series from "
+                    },
+                "startDate": "2020-04-19T04:00:00.000Z",
+                "endDate": "2050-12-31T18:29:00.000Z",
+                "attributes": {
+                    "offerProductTypes": [
+                        "video-addon"
+                    ],
+                    "offerProductFamilies": [
+                        "satellite"
+                    ],
+                    "offerStatus": "Active",
+                    "offerActionTypes": [
+                        "Cross-sell",
+                        "Other",
+                        "Downgrade",
+                        "Upgrade",
+                        "Acquisition"
+                    ],
+                    "rank": "400",
+                    "displayName": {
+                        "en": "Hallmark Movies Now"
+                    },
+                    "termsAndConditions": {
+                        "en": "By subscribing you will be billed "},
+                    "billingId": "1",
+                    "billingCode": "R107116",
+                    "migratedOffer": false,
+                    "associatedProducts": [
+                        {
+                            "bundleProducts": [
+                                {
+                                    "constraints": {
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "e3d032fc-1bab-4105-b0b4-764958c061da",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "e3d032fc-1bab-4105-b0b4-764958c061da",
+                                                "code": "BOLTON-HALLMARK-MOVIES-NOW_satellite",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+                                                    "key": "video-addon"
+                                                },
+                                                "name": {
+                                                    "en": "Hallmark Movies Now"
+                                                },
+                                                "description": {
+                                                    "en": "Featuring feel-good movies and "
+                                                    },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "key": "R107116",
+                                                        "prices": [
+                                                            {
+                                                                "value": {
+                                                                    "currencyCode": "USD",
+                                                                    "dollarAmount": 5.99
+                                                                },
+                                                                "id": "18efdad3-0a7c-4a8f-bf22-918e5b861fed",
+                                                                "startDate": "2020-04-19T04:00:00.000Z",
+                                                                "endDate": "2050-12-31T05:00:00.000Z",
+                                                                "recurrenceIndicator": false,
+                                                                "duration": 0,
+                                                                "period": "month",
+                                                                "billingReferenceId": "1",
+                                                                "gfVersion": 0,
+                                                                "chargeType": "mrc",
+                                                                "grandfathered": false,
+                                                                "contracted": false
+                                                            }
+                                                        ],
+                                                        "attributes": {
+                                                            "displayName": {
+                                                                "en": "Hallmark Movies Now"
+                                                            },
+                                                            "billingProductCode": "R107116",
+                                                            "billingCode": "R107116",
+                                                            "startDate": "2020-04-19T04:00:00.000Z",
+                                                            "endDate": "2050-12-31T18:29:00.000Z",
+                                                            "planSubType": "Premium",
+                                                            "language": "English",
+                                                            "subCategory": "Premium",
+                                                            "omsComponentMapping": [
+                                                                {
+                                                                    "omsAttributes": [
+                                                                        {
+                                                                            "attributeCode": "DTgenrePackage",
+                                                                            "attributeValue": "DVHLMK"
+                                                                        }
+                                                                    ],
+                                                                    "componentCode": "DVHLMK",
+                                                                    "componentPath": "ATTDTV|DVHLMK",
+                                                                    "operationName": "MOORequest,PUSPO1Request"
+                                                                }
+                                                            ],
+                                                            "customerSegments": [
+                                                                "Residential"
+                                                            ],
+                                                            "isPickService": false,
+                                                            "isAutoRenewable": false,
+                                                            "termsAndConditions": {
+                                                                "en": "By subscribing you will be "},
+                                                            "migratedProduct": false,
+                                                            "orderingMethod": "addToCart",
+                                                            "enablerPricePlanCode": "88935963",
+                                                            "tokens": "Hallmark Movies Now",
+                                                            "chargeCode": "DVHLMK",
+                                                            "isWorldDirect": false,
+                                                            "isETFRequired": true,
+                                                            "isRemovable": true,
+                                                            "billingParams": [
+                                                                {
+                                                                    "value": "DVHLMK",
+                                                                    "name": "DTgenrePackage"
+                                                                }
+                                                            ],
+                                                            "productImages": "/cms2/pepod_new/add_program/sm_programming__Hallmark.png"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "productType": "video-addon",
+                                            "key": "BOLTON-HALLMARK-MOVIES-NOW_satellite"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [],
+                    "eligibility": {
+                        "constraints": [
+                            {
+                                "customerSegments": [
+                                    "Residential"
+                                ],
+                                "minimumPurchaseAmount": 0,
+                                "existingCustomerType": [
+                                    "Satellite"
+                                ]
+                            }
+                        ]
+                    },
+                    "leadOffer": false,
+                    "recommendedOfferOPUS": false,
+                    "recommendedOnline": false,
+                    "isVirtual": false,
+                    "flashSaleOffer": false,
+                    "isSpecialOffer": false
+                }
+            },
+            {
+                "id": "44d34f04-23f2-401e-b68b-d97164814a7d",
+                "code": "OF_BOLTON-PLAYBOY-TV_satellite",
+                "status": "live",
+                "name": {
+                    "en": "Playboy TV"
+                },
+                "description": {
+                    "en": "Playboy TV is your home for the best"
+                    },
+                "startDate": "1990-01-01T00:00:00.000Z",
+                "endDate": "2049-12-31T23:59:00.000Z",
+                "attributes": {
+                    "offerProductTypes": [
+                        "video-addon"
+                    ],
+                    "offerProductFamilies": [
+                        "satellite"
+                    ],
+                    "offerStatus": "Active",
+                    "offerActionTypes": [
+                        "Cross-sell",
+                        "Other",
+                        "Downgrade",
+                        "Upgrade"
+                    ],
+                    "rank": "280",
+                    "displayName": {
+                        "en": "Playboy TV"
+                    },
+                    "termsAndConditions": {
+                        "en": "By subscribing you will receive "},
+                    "billingId": "41",
+                    "billingCode": "R0167",
+                    "migratedOffer": false,
+                    "associatedProducts": [
+                        {
+                            "bundleProducts": [
+                                {
+                                    "constraints": {
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "39fcf1f2-185a-4f72-930c-54e79be37802",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "39fcf1f2-185a-4f72-930c-54e79be37802",
+                                                "code": "BOLTON-PLAYBOY-TV_satellite",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+                                                    "key": "video-addon"
+                                                },
+                                                "name": {
+                                                    "en": "Playboy TV"
+                                                },
+                                                "description": {
+                                                    "en": "Playboy TV is your home for the best in "},
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "key": "R0167",
+                                                        "prices": [
+                                                            {
+                                                                "value": {
+                                                                    "currencyCode": "USD",
+                                                                    "dollarAmount": 15.99
+                                                                },
+                                                                "id": "48c5fa38-3c6e-479b-907b-e6dd9301ea83",
+                                                                "startDate": "1990-01-01T00:00:00.000Z",
+                                                                "endDate": "2049-12-31T23:59:00.000Z",
+                                                                "recurrenceIndicator": false,
+                                                                "duration": 0,
+                                                                "period": "month",
+                                                                "billingReferenceId": "41",
+                                                                "gfVersion": 0,
+                                                                "chargeType": "mrc",
+                                                                "grandfathered": false,
+                                                                "contracted": false
+                                                            }
+                                                        ],
+                                                        "attributes": {
+                                                            "displayName": {
+                                                                "en": "Playboy TV"
+                                                            },
+                                                            "billingProductCode": "R0167",
+                                                            "billingCode": "R0167",
+                                                            "startDate": "2019-08-27T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T08:00:00.000Z",
+                                                            "planSubType": "Adult",
+                                                            "language": "English",
+                                                            "subCategory": "Adult",
+                                                            "customerSegments": [
+                                                                "Residential"
+                                                            ],
+                                                            "isPickService": false,
+                                                            "isAutoRenewable": false,
+                                                            "termsAndConditions": {
+                                                                "en": "By subscribing you will receive"},
+                                                            "migratedProduct": false,
+                                                            "orderingMethod": "addToCart",
+                                                            "enablerPricePlanCode": "88986415",
+                                                            "tokens": "Playboy TV",
+                                                            "chargeCode": "DVPLBY",
+                                                            "isWorldDirect": false,
+                                                            "isETFRequired": false,
+                                                            "isRemovable": true,
+                                                            "productImages": "/cms2/product_catalog/premiums/Playboy.gif"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "productType": "video-addon",
+                                            "key": "BOLTON-PLAYBOY-TV_satellite"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [],
+                    "eligibility": {
+                        "constraints": [
+                            {
+                                "customerSegments": [
+                                    "Residential"
+                                ],
+                                "customerSegment": "Residential",
+                                "minimumPurchaseAmount": 0,
+                                "existingCustomerType": [
+                                    "Satellite"
+                                ]
+                            }
+                        ]
+                    },
+                    "leadOffer": false,
+                    "recommendedOfferOPUS": false,
+                    "recommendedOnline": false,
+                    "isVirtual": false,
+                    "flashSaleOffer": false,
+                    "isSpecialOffer": false
+                }
+            },
+            {
+                "id": "3468c7d3-0321-4c8c-9b77-f1f1c4ccc080",
+                "code": "OF_BOLTON-DIRECTV-DEPORTES_Satellite",
+                "status": "live",
+                "name": {
+                    "en": "DIRECTV&reg; Deportes"
+                },
+                "description": {
+                    "en": "A Spanish-language a la carte package for the ultimate "},
+                "startDate": "2012-02-08T08:00:00.000Z",
+                "endDate": "2050-12-31T08:00:00.000Z",
+                "attributes": {
+                    "offerProductTypes": [
+                        "video-addon"
+                    ],
+                    "offerProductFamilies": [
+                        "satellite"
+                    ],
+                    "offerStatus": "Active",
+                    "offerActionTypes": [
+                        "Cross-sell",
+                        "Other",
+                        "Downgrade",
+                        "Upgrade",
+                        "Acquisition"
+                    ],
+                    "rank": "425",
+                    "displayName": {
+                        "en": "DIRECTV&reg; Deportes"
+                    },
+                    "billingId": "1",
+                    "billingCode": "P102643",
+                    "migratedOffer": false,
+                    "associatedProducts": [
+                        {
+                            "bundleProducts": [
+                                {
+                                    "constraints": {
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "5edd4744-bb0e-498b-85e0-eaedc96cd540",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "5edd4744-bb0e-498b-85e0-eaedc96cd540",
+                                                "code": "BOLTON-DIRECTV-DEPORTES_Satellite",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+                                                    "key": "video-addon"
+                                                },
+                                                "name": {
+                                                    "en": "DIRECTV&reg; Deportes"
+                                                },
+                                                "description": {
+                                                    "en": "A Spanish-language a la carte package for "
+                                                    },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "key": "P102643",
+                                                        "prices": [
+                                                            {
+                                                                "value": {
+                                                                    "currencyCode": "USD",
+                                                                    "dollarAmount": 4.99
+                                                                },
+                                                                "id": "d478f40c-7f59-45f4-a22e-3d8889df898f",
+                                                                "startDate": "2012-02-08T08:00:00.000Z",
+                                                                "endDate": "2050-12-31T08:00:00.000Z",
+                                                                "recurrenceIndicator": false,
+                                                                "duration": 0,
+                                                                "period": "month",
+                                                                "billingReferenceId": "1",
+                                                                "gfVersion": 0,
+                                                                "chargeType": "mrc",
+                                                                "grandfathered": false,
+                                                                "contracted": false
+                                                            }
+                                                        ],
+                                                        "attributes": {
+                                                            "displayName": {
+                                                                "en": "DIRECTV&reg; Deportes"
+                                                            },
+                                                            "billingProductCode": "P102643",
+                                                            "billingCode": "P102643",
+                                                            "startDate": "2012-02-07T08:00:00.000Z",
+                                                            "endDate": "2050-12-31T08:00:00.000Z",
+                                                            "planSubType": "International",
+                                                            "language": "Spanish",
+                                                            "subCategory": "International",
+                                                            "omsComponentMapping": [
+                                                                {
+                                                                    "omsAttributes": [
+                                                                        {
+                                                                            "attributeCode": "DTgenrePackage",
+                                                                            "attributeValue": "DIRECTVDeportes"
+                                                                        }
+                                                                    ],
+                                                                    "componentCode": "DIRECTVDeportes",
+                                                                    "componentPath": "ATTDTV|DIRECTVDeportes",
+                                                                    "operationName": "MOORequest,PUSPO1Request"
+                                                                }
+                                                            ],
+                                                            "customerSegments": [
+                                                                "Residential"
+                                                            ],
+                                                            "isPickService": false,
+                                                            "isAutoRenewable": false,
+                                                            "migratedProduct": false,
+                                                            "orderingMethod": "addToCart",
+                                                            "enablerPricePlanCode": "88987075",
+                                                            "tokens": "DIRECTV Deportes",
+                                                            "chargeCode": "DVDPRT",
+                                                            "isWorldDirect": false,
+                                                            "isETFRequired": false,
+                                                            "isRemovable": true,
+                                                            "productImages": "/cms2/product_catalog/international/international.gif"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "productType": "video-addon",
+                                            "key": "BOLTON-DIRECTV-DEPORTES_Satellite"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [],
+                    "eligibility": {
+                        "constraints": [
+                            {
+                                "customerSegments": [
+                                    "Residential"
+                                ],
+                                "minimumPurchaseAmount": 0,
+                                "existingCustomerType": [
+                                    "Satellite"
+                                ]
+                            }
+                        ]
+                    },
+                    "leadOffer": false,
+                    "recommendedOfferOPUS": false,
+                    "recommendedOnline": false,
+                    "isVirtual": false,
+                    "flashSaleOffer": false,
+                    "isSpecialOffer": false
+                }
+            },
+            {
+                "id": "0eff8b5e-c093-4b5d-b775-4398f8b2cb8f",
+                "code": "OF_BOLTON-PENTHOUSE-TV_satellite",
+                "status": "live",
+                "name": {
+                    "en": "Penthouse TV"
+                },
+                "description": {
+                    "en": "Penthouse TV is the only place to see hot models"},
+                "startDate": "2011-07-01T07:00:00.000Z",
+                "endDate": "2050-12-31T08:00:00.000Z",
+                "attributes": {
+                    "offerProductTypes": [
+                        "video-addon"
+                    ],
+                    "offerProductFamilies": [
+                        "satellite"
+                    ],
+                    "offerStatus": "Active",
+                    "offerActionTypes": [
+                        "Cross-sell",
+                        "Other",
+                        "Downgrade",
+                        "Upgrade"
+                    ],
+                    "rank": "289",
+                    "displayName": {
+                        "en": "Penthouse TV"
+                    },
+                    "termsAndConditions": {
+                        "en": "By subscribing you will be billed "},
+                    "billingId": "1",
+                    "billingCode": "R101432",
+                    "migratedOffer": false,
+                    "associatedProducts": [
+                        {
+                            "bundleProducts": [
+                                {
+                                    "constraints": {
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "2e4344a2-18fa-420e-8053-b62175da723e",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "2e4344a2-18fa-420e-8053-b62175da723e",
+                                                "code": "BOLTON-PENTHOUSE-TV_satellite",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+                                                    "key": "video-addon"
+                                                },
+                                                "name": {
+                                                    "en": "Penthouse TV"
+                                                },
+                                                "description": {
+                                                    "en": "Penthouse TV is the only place to see hot models"},
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "key": "R101432",
+                                                        "prices": [
+                                                            {
+                                                                "value": {
+                                                                    "currencyCode": "USD",
+                                                                    "dollarAmount": 49.99
+                                                                },
+                                                                "id": "895e1ac3-05b7-4d49-8829-f155254ac642",
+                                                                "startDate": "2011-07-01T07:00:00.000Z",
+                                                                "endDate": "2050-07-01T08:00:00.000Z",
+                                                                "recurrenceIndicator": false,
+                                                                "duration": 0,
+                                                                "period": "month",
+                                                                "billingReferenceId": "1",
+                                                                "gfVersion": 0,
+                                                                "chargeType": "mrc",
+                                                                "grandfathered": false,
+                                                                "contracted": false
+                                                            }
+                                                        ],
+                                                        "attributes": {
+                                                            "displayName": {
+                                                                "en": "Penthouse TV"
+                                                            },
+                                                            "billingProductCode": "R101432",
+                                                            "billingCode": "R101432",
+                                                            "startDate": "2011-07-01T07:00:00.000Z",
+                                                            "endDate": "2050-07-01T08:00:00.000Z",
+                                                            "planSubType": "Adult",
+                                                            "language": "English",
+                                                            "subCategory": "Adult",
+                                                            "customerSegments": [
+                                                                "Residential"
+                                                            ],
+                                                            "isPickService": false,
+                                                            "isAutoRenewable": false,
+                                                            "termsAndConditions": {
+                                                                "en": "By subscribing you will be billed "},
+                                                            "migratedProduct": false,
+                                                            "orderingMethod": "addToCart",
+                                                            "enablerPricePlanCode": "88986625",
+                                                            "tokens": "PENTHOUSE TV",
+                                                            "chargeCode": "DPNTHS",
+                                                            "isWorldDirect": false,
+                                                            "isETFRequired": false,
+                                                            "isRemovable": true,
+                                                            "productImages": "/cms2/order_modules/penthouse_logo.jpg"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "productType": "video-addon",
+                                            "key": "BOLTON-PENTHOUSE-TV_satellite"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [],
+                    "eligibility": {
+                        "constraints": [
+                            {
+                                "customerSegments": [
+                                    "Residential"
+                                ],
+                                "customerSegment": "Residential",
+                                "minimumPurchaseAmount": 0,
+                                "existingCustomerType": [
+                                    "Satellite"
+                                ]
+                            }
+                        ]
+                    },
+                    "leadOffer": false,
+                    "recommendedOfferOPUS": false,
+                    "recommendedOnline": false,
+                    "isVirtual": false,
+                    "flashSaleOffer": false,
+                    "isSpecialOffer": false
+                }
+            }
+            ]
+            }

@@ -1,0 +1,83 @@
+{
+    "contractIndicator": [
+        "non-contract"
+    ],
+    "customerEligibility": {
+        "zipCode": [
+            "00053"
+        ],
+        "county": [
+            "36000"
+        ]
+    },
+    "customerContext": {
+        "existingProductFamily": [
+            "satellite"
+        ],
+        "satellite": {
+            "products": [
+                {
+                    "billingProductCode": "P103351",
+                    "billingReferenceID": "1",
+                    "productType": "video-plan"
+                },
+                {
+                    "billingProductCode": "R0167",
+                    "billingReferenceID": "41",
+                    "productType": "video-addon"
+                },
+                {
+                    "billingProductCode": "R120110",
+                    "billingReferenceID": "41",
+                    "productType": "video-addon"
+                },
+                {
+                    "billingProductCode": "R120124",
+                    "billingReferenceID": "41",
+                    "productType": "video-addon"
+                },
+                {
+                    "manufacturer": "DIRECTV",
+                    "modelNumber": "HR44-200",
+                    "accessCardId": "002187890633",
+                    "accessCardStatus": "ACTV",
+                    "equipmentOwnership": "lease"
+                }
+            ],
+            "accountNumber": "171202181454689",
+            "isActive": true,
+            "retentionPromotionIndicator": false,
+            "freeTrialEligible": false,
+            "accountType": "Residential",
+            "nextBillingDate": "2022-08-09",
+            "businessSegment": "REG",
+            "nftvFlag": "Y",
+            "ftvCount": "4",
+			"accountStatus": "ACTV",
+			"customerValue": "2",			
+			"acceptPaperlessBillEnrollment": false,
+			"acceptAutoBillPayEnrollment": true,
+			"activationDate": "2022-07-09",
+			"commissionStartDate": "2022-07-09"
+        }
+    },
+    "offerActionType": [
+        "Upgrade",
+        "Downgrade",
+        "Cross-sell",
+        "Other"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "salesChannel": [       
+        "online"
+    ],
+    "offerProductTypes": [
+		"video-plan",
+		"video-addon",
+        "video-device",
+		"video-accessory",
+		"insurance"
+    ]
+}

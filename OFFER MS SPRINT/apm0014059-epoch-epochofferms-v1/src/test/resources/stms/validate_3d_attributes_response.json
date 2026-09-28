@@ -1,0 +1,741 @@
+{
+    "limit": 300,
+    "offset": 0,
+    "count": 2,
+    "total": 2,
+    "offers": [
+        {
+            "id": "4f5fd038-fcd4-4906-b4ef-434af57cfe95",
+            "code": "OF_BOLTON-DISCOVERY-PLUS_satellite",
+            "status": "live",
+            "name": {
+                "en": "discovery+"
+            },
+            "description": {
+                "en": "discovery+ is the streaming service with something for everyone. Your favorite genres and brands including HGTV, Food Network, TLC, ID, Animal Planet, Discovery Channel, plus exclusive Originals, all in one place. Whatever you’re into, you’ll find it here."
+            },
+            "startDate": "2022-11-13T00:00:00.000Z",
+            "endDate": "2050-12-31T23:59:00.000Z",
+            "attributes": {
+                "offerProductType": "video-addon",
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerProductFamily": "satellite",
+                "offerProductFamilies": [
+                    "satellite"
+                ],
+                "offerStatus": "Active",
+                "offerType": "multi-benefit",
+                "offerActionType": "Other",
+                "offerActionTypes": [
+                    "Other",
+                    "Cross-sell",
+                    "Downgrade",
+                    "Upgrade",
+                    "Acquisition"
+                ],
+                "rank": "397",
+                "displayName": {
+                    "en": "discovery+"
+                },
+                "termsAndConditions": {
+                    "en": "By selecting this offer, you agree that your subscription to discovery+ auto-renews monthly at the prevailing rate (Currently $5.99 + taxes) and that DIRECTV will charge the provided method of payment on a monthly basis, unless you cancel your subscription online via DIRECTV.com. May only be accessed on DIRECTV devices, directv.com, and the DIRECTV app. This offer is subject to discontinuation, change or cancellation at any time."
+                },
+                "billingId": "1",
+                "billingCode": "R120442",
+                "migratedOffer": false,
+                "associatedProducts": [
+                    {
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "dependent": false,
+                                    "anchor": false
+                                }
+                            }
+                        ],
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "productTypes": [
+                                        "video-addon"
+                                    ],
+                                    "productStatus": "Active",
+                                    "productState": "New",
+                                    "dependent": false,
+                                    "anchor": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "d5fe5993-d936-435c-b497-8f74ee9d73b9",
+                                        "typeId": "product",
+                                        "obj": {
+                                            "id": "d5fe5993-d936-435c-b497-8f74ee9d73b9",
+                                            "code": "BOLTON-DISCOVERY-PLUS_satellite",
+                                            "productType": {
+                                                "typeId": "product-type",
+                                                "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                                                "key": "video-addon"
+                                            },
+                                            "name": {
+                                                "en": "discovery+"
+                                            },
+                                            "description": {
+                                                "en": "discovery+ is the streaming service with something for everyone. Your favorite genres and brands including HGTV, Food Network, TLC, ID, Animal Planet, Discovery Channel, plus exclusive Originals, all in one place. Whatever you’re into, you’ll find it here."
+                                            },
+                                            "categories": [],
+                                            "variants": [
+                                                {
+                                                    "id": "1",
+                                                    "sku": "R120442",
+                                                    "key": "R120442",
+                                                    "prices": [
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 399.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 3.99
+                                                            },
+                                                            "id": "6381025a-fa51-4212-a6d0-89a01a014e5e",
+                                                            "startDate": "2022-11-13T00:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "period": "month",
+                                                            "billingReferenceId": "1",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "01",
+                                                            "businessSegment": "CSH,GME,HDL,HSP,LSE,MBL,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDD,MDL,MDU,BLS,DAE,MTL,QST,SWB,VZN,FRP,PTR,JCD,JMU,TCD,TMU,TMW,ATT,CenturyLink,DTV,FRP,Windstream,Fairpoint,Cincinnati Bell",
+                                                            "chargeType": "mrc",
+                                                            "grandfatherVersion": 0,
+                                                            "omsProductId": "10066420",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 599.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 5.99
+                                                            },
+                                                            "id": "539dace0-2bf8-4183-a5e8-0861fd910ff8",
+                                                            "startDate": "2022-11-13T00:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "period": "month",
+                                                            "billingReferenceId": "2",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "02",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "grandfatherVersion": 0,
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        }
+                                                    ],
+                                                    "attributes": {
+                                                        "displayName": {
+                                                            "en": "discovery+"
+                                                        },
+                                                        "displayRanking": 397,
+                                                        "billingProductCode": "R120442",
+                                                        "billingCode": "R120442",
+                                                        "startDate": "2022-11-13T00:00:00.000Z",
+                                                        "endDate": "2050-12-31T23:59:00.000Z",
+                                                        "businessSegment": [
+                                                            "MDU",
+                                                            "CONS"
+                                                        ],
+                                                        "salesChannel": [
+                                                            "opusServices",
+                                                            "opusSales",
+                                                            "onlineSales",
+                                                            "onlineServices",
+                                                            "opus",
+                                                            "online"
+                                                        ],
+                                                        "productFamily": "satellite",
+                                                        "planSubType": "Premium",
+                                                        "language": "English",
+                                                        "productStatus": "Active",
+                                                        "contractApplicable": "noncontract",
+                                                        "contractIndicator": [
+                                                            "non-contract"
+                                                        ],
+                                                        "subCategory": "TV",
+                                                        "omsComponentMapping": [
+                                                            {
+                                                                "attributes": [
+                                                                    {
+                                                                        "attributeCode": "DTgenrePackage",
+                                                                        "attributeValue": "DTVDIS"
+                                                                    }
+                                                                ],
+                                                                "componentCode": "DTVDIS",
+                                                                "operationName": "MOORequest,PUSPO1Request",
+                                                                "componentPath": "ATTDTV|DTVDIS"
+                                                            }
+                                                        ],
+                                                        "customerSegments": [
+                                                            "Residential"
+                                                        ],
+                                                        "isPickService": false,
+                                                        "isAutoRenewable": false,
+                                                        "migratedProduct": false,
+                                                        "orderingMethod": "addToCart",
+                                                        "enablerPricePlanCode": "434732895",
+                                                        "tokens": "BOLTON-DISCOVERY-PLUS",
+                                                        "chargeCode": "DTVDIS",
+                                                        "isWorldDirect": false,
+                                                        "isETFRequired": false,
+                                                        "isRemovable": true,
+                                                        "billingParams": [
+                                                            {
+                                                                "value": "DTVDIS",
+                                                                "name": "DTgenrePackage"
+                                                            }
+                                                        ],
+                                                        "dollarAmount": 5.99,
+                                                        "enablerATGProductId": "prod11770340",
+                                                        "enablerATGSkuId": "sku11270617",
+                                                        "privacyNoticeAgreementRequired": true,
+                                                        "contentChannelId": "7611",
+                                                        "productImages": "/dtvassets/sales/directv/logos/add-ons/discoveryplus-ck.png",
+                                                        "subCategoryByKey": [
+                                                            {
+                                                                "key": "assistedSalesSales",
+                                                                "value": "Popular"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "productType": "video-addon",
+                                        "key": "BOLTON-DISCOVERY-PLUS_satellite"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "benefits": [],
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "customerSegments": [
+                                "Residential"
+                            ],
+                            "customerSegment": "Residential",
+                            "salesChannel": [
+                                "assistedSales",
+                                "ipor",
+                                "directIntegrationPartner",
+                                "dpp",
+                                "ccap",
+                                "salesCRM",
+                                "opusServices",
+                                "opusSales",
+                                "onlineServices",
+                                "onlineSales",
+                                "opus",
+                                "online"
+                            ],
+                            "eligibleAccountStatus": "ACTV,PSUS,PEND,PDIS",
+                            "existingCustomerType": [
+                                "Satellite"
+                            ]
+                        }
+                    ]
+                },
+                "qualifyingProductsPlanSubTypes": [
+                    "Premium"
+                ],
+                "leadOffer": false,
+                "contractIndicator": "non-contract",
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "recommendedOfferOPUS": false,
+                "qualifyingProductsBillingProductCode": [
+                    "R120442"
+                ],
+                "bundleProductIds": [
+                    {
+                        "id": "d5fe5993-d936-435c-b497-8f74ee9d73b9",
+                        "typeId": "offer",
+                        "key": "BOLTON-DISCOVERY-PLUS_satellite"
+                    }
+                ],
+                "billingSystem": "stms",
+                "displayBasePrice": true,
+                "recommendedOnline": false,
+                "isVirtual": false,
+                "flashSaleOffer": false,
+                "isBulkOffer": false,
+                "isSpecialOffer": false,
+                "disclosureMessagesByKey": [
+                    {
+                        "name": "directIntegrationPartnerSalesDisclosure",
+                        "value": "directIntegrationPartnerSalesDisclosure-discovery"
+                    },
+                    {
+                        "name": "defaultSalesDisclosure",
+                        "value": "defaultSalesDisclosure-discovery"
+                    },
+                    {
+                        "name": "directIntegrationPartnerSalesSelectAllDisclosure",
+                        "value": "directIntegrationPartnerSalesSelectAllDisclosure-discovery"
+                    },
+                    {
+                        "name": "defaultSalesSelectAllDisclosure",
+                        "value": "defaultSalesSelectAllDisclosure-discovery"
+                    },					
+					{
+                        "name": "directIntegrationPartnerSalesShortDisclosure",
+                        "value": "directIntegrationPartnerSalesShortDisclosure-discovery"
+                    },
+                    {
+                        "name": "defaultSalesShortDisclosure",
+                        "value": "defaultSalesShortDisclosure-discovery"
+                    },					
+					{
+                        "name": "directIntegrationPartnerSalesLongDisclosure",
+                        "value": "directIntegrationPartnerSalesLongDisclosure-discovery"
+                    },
+                    {
+                        "name": "defaultSalesLongDisclosure",
+                        "value": "defaultSalesLongDisclosure-discovery"
+                    },					
+					{
+                        "name": "directIntegrationPartnerSalesOptIn",
+                        "value": "directIntegrationPartnerSalesOptIn-discovery"
+                    },
+                    {
+                        "name": "defaultSalesOptIn",
+                        "value": "defaultSalesOptIn-discovery"
+                    },					
+					{
+                        "name": "directIntegrationPartnerSalesOptOut",
+                        "value": "directIntegrationPartnerSalesOptOut-discovery"
+                    },
+                    {
+                        "name": "defaultSalesOptOut",
+                        "value": "defaultSalesOptOut-discovery"
+                    },					
+					{
+                        "name": "directIntegrationPartnerSalesAutoRenew",
+                        "value": "directIntegrationPartnerSalesAutoRenew-discovery"
+                    },
+                    {
+                        "name": "defaultSalesAutoRenew",
+                        "value": "defaultSalesAutoRenew-discovery"
+                    }
+                ],
+                "descriptionByKey": [
+                    {
+                        "name": "directIntegrationPartnerSalesShortDescription",
+                        "value": "directIntegrationPartnerSalesShortDescription-discovery"
+                    },
+                    {
+                        "name": "directIntegrationPartnerSalesLongDescription",
+                        "value": "directIntegrationPartnerSalesLongDescription-discovery"
+                    },
+                    {
+                        "name": "defaultSalesShortDescription",
+                        "value": "defaultSalesShortDescription-discovery"
+                    },
+                    {
+                        "name": "defaultSalesLongDescription",
+                        "value": "defaultSalesLongDescription-discovery"
+                    }
+                ],
+                "displayNameByKey": [
+                    {
+                        "name": "directIntegrationPartnerSalesShortDisplayName",
+                        "value": "directIntegrationPartnerSalesShortDisplayName-discovery"
+                    },
+                    {
+                        "name": "directIntegrationPartnerSalesLongDisplayName",
+                        "value": "directIntegrationPartnerSalesLongDisplayName-discovery"
+                    },
+                    {
+                        "name": "defaultSalesShortDisplayName",
+                        "value": "defaultSalesShortDisplayName-discovery"
+                    },
+                    {
+                        "name": "defaultSalesLongDisplayName",
+                        "value": "defaultSalesLongDisplayName-discovery"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "afdf2609-e505-4a89-b9c0-2909f340905d",
+            "code": "OF_BOLTON-ALLBLK_satellite",
+            "status": "live",
+            "name": {
+                "en": "ALLBLK"
+            },
+            "description": {
+                "en": "ALLBLK is the streaming home for Black creators and storytellers with 10-12 original series premiering every year, plus world premiere movies, acclaimed independent films, classic fan-favorites, joyous stage plays, network series, and popular on-air series from sister networks, AMC and WE tv - all commercial-free! "
+            },
+            "startDate": "2022-06-12T00:00:00.000Z",
+            "endDate": "2050-12-31T23:59:00.000Z",
+            "attributes": {
+                "offerProductType": "video-addon",
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerProductFamily": "satellite",
+                "offerProductFamilies": [
+                    "satellite"
+                ],
+                "offerStatus": "Active",
+                "offerType": "multi-benefit",
+                "offerActionType": "Acquisition",
+                "offerActionTypes": [
+                    "Acquisition",
+                    "Upgrade",
+                    "Downgrade",
+                    "Cross-sell",
+                    "Other"
+                ],
+                "rank": "402",
+                "displayName": {
+                    "en": "ALLBLK"
+                },
+                "termsAndConditions": {
+                    "en": "By selecting this offer, you agree that your subscription to ALLBLK auto-renews monthly at the prevailing rate (Currently $6.99 + taxes) and that DIRECTV will charge the provided method of payment on a monthly basis, unless you cancel your subscription online via DIRECTV.com. May only be accessed on DIRECTV devices, directv.com, and the DIRECTV app."
+                },
+                "billingId": "1",
+                "billingCode": "R120300",
+                "migratedOffer": false,
+                "associatedProducts": [
+                    {
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "dependent": false,
+                                    "anchor": false
+                                }
+                            }
+                        ],
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "productTypes": [
+                                        "video-addon"
+                                    ],
+                                    "productStatus": "Active",
+                                    "productState": "New",
+                                    "dependent": false,
+                                    "anchor": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "e84fb4db-c4af-49c6-b2ae-dd981347f1f7",
+                                        "typeId": "product",
+                                        "obj": {
+                                            "id": "e84fb4db-c4af-49c6-b2ae-dd981347f1f7",
+                                            "code": "BOLTON-ALLBLK_satellite",
+                                            "productType": {
+                                                "typeId": "product-type",
+                                                "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                                                "key": "video-addon"
+                                            },
+                                            "name": {
+                                                "en": "ALLBLK"
+                                            },
+                                            "description": {
+                                                "en": "ALLBLK is the streaming home for Black creators and storytellers with 10-12 original series premiering every year, plus world premiere movies, acclaimed independent films, classic fan-favorites, joyous stage plays, network series, and popular on-air series from sister networks, AMC and WE tv - all commercial-free! "
+                                            },
+                                            "categories": [],
+                                            "variants": [
+                                                {
+                                                    "id": "1",
+                                                    "sku": "R120300",
+                                                    "key": "R120300",
+                                                    "prices": [
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 699.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 6.99
+                                                            },
+                                                            "id": "5722280a-d1b4-4b23-8ae7-50418aac6834",
+                                                            "startDate": "2022-06-12T00:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "period": "month",
+                                                            "billingReferenceId": "1",
+                                                            "gfVersion": 0,
+                                                            "businessSegment": "CSH,GME,HDL,HSP,LSE,MBL,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDD,MDL,MDU,BLS,DAE,MTL,QST,SWB,VZN,FRP,PTR,JCD,JMU,TCD,TMU,TMW,DTV,ATT,CenturyLink,residential",
+                                                            "chargeType": "mrc",
+                                                            "grandfatherVersion": 0,
+                                                            "omsProductId": "10064819",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 0.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 0.0
+                                                            },
+                                                            "id": "c05ec28c-e8dc-4255-84f8-c2877a0587a9",
+                                                            "startDate": "2024-11-28T08:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 1,
+                                                            "period": "month",
+                                                            "contractIndicator": "non-contract",
+                                                            "billingReferenceId": "2",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "03",
+                                                            "businessSegment": "CSH,GME,HDL,LSE,MBL,PCO,PCR,REG,RVB,VIP,VPA,HSP,CenturyLink,ATT,QST,VZN,PTR,BLS,DAE,MTL,SWB,FRP,JDU,MDU,MDL,MDD,DTV",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077117",
+                                                            "channel": "non-contracted",
+                                                            "rtpRtcIndicator": "RTC",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 0.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 0.0
+                                                            },
+                                                            "id": "357005c6-d2cf-4c66-8037-585d3e56b88d",
+                                                            "startDate": "2024-11-28T08:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 3,
+                                                            "period": "month",
+                                                            "contractIndicator": "non-contract",
+                                                            "billingReferenceId": "3",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "04",
+                                                            "businessSegment": "CSH,GME,HDL,LSE,MBL,PCO,PCR,REG,RVB,VIP,VPA,HSP,CenturyLink,ATT,QST,VZN,PTR,BLS,DAE,MTL,SWB,FRP,JDU,MDU,MDL,MDD,DTV",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077118",
+                                                            "channel": "non-contracted",
+                                                            "rtpRtcIndicator": "RTC",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 0.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 0.0
+                                                            },
+                                                            "id": "f9d8a7ff-9ba2-4344-8554-70b39670cb2e",
+                                                            "startDate": "2024-12-18T08:00:00.000Z",
+                                                            "endDate": "2025-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 6,
+                                                            "period": "month",
+                                                            "contractIndicator": "non-contract",
+                                                            "billingReferenceId": "4",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "05",
+                                                            "businessSegment": "CSH,GME,HDL,LSE,MBL,PCO,PCR,REG,RVB,VIP,VPA,HSP,CenturyLink,ATT,QST,VZN,PTR,BLS,DAE,MTL,SWB,FRP,JDU,MDU,MDL,MDD",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10078028",
+                                                            "channel": "non-contracted",
+                                                            "isRemovable": false,
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        }
+                                                    ],
+                                                    "attributes": {
+                                                        "displayName": {
+                                                            "en": "ALLBLK"
+                                                        },
+                                                        "displayRanking": 402,
+                                                        "isHDAccessRequired": true,
+                                                        "billingProductCode": "R120300",
+                                                        "billingCode": "R120300",
+                                                        "startDate": "2022-06-12T00:00:00.000Z",
+                                                        "endDate": "2050-12-31T23:59:00.000Z",
+                                                        "businessSegment": [
+                                                            "MDU",
+                                                            "CONS"
+                                                        ],
+                                                        "salesChannel": [
+                                                            "opusServices",
+                                                            "opusSales",
+                                                            "onlineSales",
+                                                            "onlineServices",
+                                                            "opus",
+                                                            "online"
+                                                        ],
+                                                        "productFamily": "satellite",
+                                                        "planSubType": "Premium",
+                                                        "language": "English",
+                                                        "productStatus": "Active",
+                                                        "contractApplicable": "noncontract",
+                                                        "contractIndicator": [
+                                                            "non-contract"
+                                                        ],
+                                                        "subCategory": "TV",
+                                                        "omsComponentMapping": [
+                                                            {
+                                                                "attributes": [
+                                                                    {
+                                                                        "attributeCode": "DTgenrePackage",
+                                                                        "attributeValue": "DALLBK"
+                                                                    }
+                                                                ],
+                                                                "componentCode": "DALLBK",
+                                                                "operationName": "MOORequest,PUSPO1Request",
+                                                                "componentPath": "ATTDTV|DALLBK"
+                                                            }
+                                                        ],
+                                                        "customerSegments": [
+                                                            "Residential"
+                                                        ],
+                                                        "isPickService": false,
+                                                        "isAutoRenewable": false,
+                                                        "termsAndConditions": {
+                                                            "en": "By selecting this offer, you agree that your subscription to ALLBLK auto-renews monthly at the prevailing rate (Currently $6.99 + taxes) and that DIRECTV will charge the provided method of payment on a monthly basis, unless you cancel your subscription online via DIRECTV.com. May only be accessed on DIRECTV devices, directv.com, and the DIRECTV app."
+                                                        },
+                                                        "migratedProduct": false,
+                                                        "orderingMethod": "addToCart",
+                                                        "enablerPricePlanCode": "89034473",
+                                                        "tokens": "BOLTON-ALLBLK",
+                                                        "chargeCode": "DALLBK",
+                                                        "isWorldDirect": false,
+                                                        "isETFRequired": true,
+                                                        "isRemovable": true,
+                                                        "billingParams": [
+                                                            {
+                                                                "value": "DALLBK",
+                                                                "name": "DTgenrePackage"
+                                                            }
+                                                        ],
+                                                        "dollarAmount": 6.99,
+                                                        "enablerATGProductId": "prod11730221",
+                                                        "enablerATGSkuId": "sku11210225",
+                                                        "contentChannelId": "7614",
+                                                        "productImages": "/dtvassets/sales/directv/logos/add-ons/allblk-c.svg",
+                                                        "subCategoryByKey": [
+                                                            {
+                                                                "key": "assistedSalesSales",
+                                                                "value": "Popular"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "productType": "video-addon",
+                                        "key": "BOLTON-ALLBLK_satellite"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "benefits": [],
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "customerSegments": [
+                                "Residential"
+                            ],
+                            "salesChannel": [
+                                "assistedSales",
+                                "stb",
+                                "ipor",
+                                "directIntegrationPartner",
+                                "dpp",
+                                "salesCRM",
+                                "ccap",
+                                "opusSales",
+                                "opusServices",
+                                "onlineServices",
+                                "onlineSales",
+                                "opus",
+                                "online"
+                            ],
+                            "existingCustomerType": [
+                                "Satellite"
+                            ]
+                        }
+                    ]
+                },
+                "qualifyingProductsPlanSubTypes": [
+                    "Premium"
+                ],
+                "leadOffer": false,
+                "contractIndicator": "non-contract",
+                "enablerSalesOfferId": "DTV_ADDON_ALLBLK",
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "recommendedOfferOPUS": false,
+                "qualifyingProductsBillingProductCode": [
+                    "R120300"
+                ],
+                "bundleProductIds": [
+                    {
+                        "id": "e84fb4db-c4af-49c6-b2ae-dd981347f1f7",
+                        "typeId": "offer",
+                        "key": "BOLTON-ALLBLK_satellite"
+                    }
+                ],
+                "recommendedOnline": false,
+                "isVirtual": false,
+                "flashSaleOffer": false,
+                "isBulkOffer": false,
+                "isSpecialOffer": false,
+                "disclosureMessagesByKey": [
+                    {
+                        "name": "defaultSalesDisclosure",
+                        "value": "defaultSalesDisclosure-allblk"
+                    }
+                ],
+                "descriptionByKey": [
+                    {
+                        "name": "defaultSalesShortDescription",
+                        "value": "defaultSalesShortDescription-allblk"
+                    },
+                    {
+                        "name": "defaultSalesLongDescription",
+                        "value": "defaultSalesLongDescription-allblk"
+                    }
+                ],
+                "displayNameByKey": [
+                    {
+                        "name": "defaultSalesShortDisplayName",
+                        "value": "defaultSalesShortDisplayName-allblk"
+                    },
+                    {
+                        "name": "defaultSalesLongDisplayName",
+                        "value": "defaultSalesLongDisplayName-allblk"
+                    }
+                ]
+            }
+        }
+    ],
+    "specialOfferCartModeCodes": []
+}

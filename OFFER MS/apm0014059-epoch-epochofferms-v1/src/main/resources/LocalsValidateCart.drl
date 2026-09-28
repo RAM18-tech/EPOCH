@@ -1,0 +1,807 @@
+import com.dtv.dcp.epoch.model.ct.request.CartOffer;
+import com.dtv.dcp.epoch.model.common.CartProduct;
+import com.dtv.dcp.epoch.model.common.request.CartContexts;
+import com.dtv.dcp.epoch.model.common.CartPromotion;
+import com.dtv.dcp.epoch.model.common.request.CouponOffersRequest;
+import java.util.ArrayList;
+import java.util.List;
+import com.dtv.dcp.epoch.model.ct.response.CTProductResponse;
+import com.dtv.dcp.epoch.model.message.Message;
+import com.dtv.dcp.epoch.model.message.MessageDetail;
+import com.dtv.dcp.epoch.model.common.response.CartItems;
+import com.dtv.dcp.epoch.model.common.Promotion;
+import com.dtv.dcp.epoch.model.common.response.ucc.Offer;
+import java.util.Map;
+import java.util.Set;
+import java.util.HashSet;
+import java.util.stream.Collectors;
+import java.util.*;
+import java.util.Map.Entry;
+import java.util.HashMap;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+
+global java.util.ArrayList cartItems;
+global java.util.ArrayList messageDetails;
+global java.util.ArrayList requestCartOfferCodes;
+global java.util.ArrayList responseLocalsOfferCodes;
+global java.lang.String localsBoltOnProductSKU;
+global java.lang.String filteredLocalBoltOn;
+global java.lang.Boolean currentServedMarket;
+global java.lang.Boolean previousServedMarket;
+global java.lang.Boolean localsZeroDollarBoltOnFlag;
+global java.lang.Boolean isAcquisitionOfferActionType;
+global java.lang.String ctOfferResponseOfferCode;
+global java.util.ArrayList preSelectAndDispIncludedAndFeeTypeCodes;
+global java.util.ArrayList cartCallOfferCodes;
+global java.lang.Boolean genericRulesExecutionFlag;
+global java.util.ArrayList requestCustomerContextOTTProducts;
+global java.util.ArrayList requestCartProductCodes;
+global Logger log;
+
+rule "Generic Rule 1"
+salience 1002
+    when
+       CouponOffersRequest($cartContext: cartContext);
+       CartContexts($cartOffers: cartOffers) from $cartContext;
+       eval($cartOffers != null && !$cartOffers.isEmpty() && genericRulesExecutionFlag)
+    then
+        log.info("Executing Generic Rule 1");
+        List<Offer> $offerList = new ArrayList<>();
+        for (Object obj : $cartOffers) {
+            CartOffer cartOffer = (CartOffer) obj;
+            if(ctOfferResponseOfferCode ==null || (cartOffer.getOfferProductType() != null && cartOffer.getOfferProductType().equalsIgnoreCase("video-plan") && ctOfferResponseOfferCode !=null && ctOfferResponseOfferCode.equalsIgnoreCase(cartOffer.getOfferCode()))){
+              $offerList.add(setOffer(cartOffer.getOfferCode(),"NoChange", null));
+            }else if(cartOffer.getOfferProductType() != null && cartOffer.getOfferProductType().equalsIgnoreCase("video-plan") && ctOfferResponseOfferCode !=null && !ctOfferResponseOfferCode.equalsIgnoreCase(cartOffer.getOfferCode())){
+              $offerList.add(setOffer(cartOffer.getOfferCode(),"Remove", null));
+              $offerList.add(setOffer(ctOfferResponseOfferCode, "Add", null));
+            }
+        }
+    List<Offer> $finalOfferList = new ArrayList<>();
+        log.debug("Cart Items size: " + cartItems.size());
+        log.debug("Offer List size: " + $offerList.size());
+        if (cartItems.size() > 0 && $offerList.size() > 0){
+            for(Object obj : cartItems){
+                CartItems cartItem = (CartItems) obj;
+                if(cartItem.getOffers() != null && !cartItem.getOffers().isEmpty()){
+                    List<Offer> filterOffers = cartItem.getOffers().stream().filter(offerA -> $offerList.stream().noneMatch(offerB -> offerA.getCode().equalsIgnoreCase(offerB.getCode()))).collect(Collectors.toList());
+                    $finalOfferList.addAll(filterOffers);
+                    $finalOfferList.addAll($offerList);
+                    cartItem.setOffers($finalOfferList);
+                }
+            }
+        }else {
+            log.debug("Cart Items size: " + cartItems.size());
+            log.debug("Offer List size: " + $offerList.size());
+            cartItems.add(setCartItemsWithOfferList($offerList));
+        }
+        log.info("Finished executing Generic Rule 1");
+    end;
+
+
+rule "Generic Rule 2"
+salience 1001
+    when
+       CouponOffersRequest($cartContext: cartContext);
+       CartContexts($cartOffers: cartOffers) from $cartContext;
+       eval($cartOffers != null && !$cartOffers.isEmpty() && genericRulesExecutionFlag)
+    then
+        log.info("Executing Generic Rule 2");
+        List<Offer> $offerList = new ArrayList<>();
+        List<Offer> $preSelectOffer = new ArrayList<>();
+        for (Object obj : $cartOffers) {
+            CartOffer cartOffer = (CartOffer) obj;
+            if(cartCallOfferCodes != null && cartCallOfferCodes.contains(cartOffer.getOfferCode()) && cartOffer.getOfferProductType() != null && !cartOffer.getOfferProductType().equalsIgnoreCase("video-plan")){
+              $offerList.add(setOffer(cartOffer.getOfferCode(), "NoChange", null));
+            }else if(cartOffer.getOfferProductType() != null && !cartOffer.getOfferProductType().equalsIgnoreCase("video-plan")){
+              $offerList.add(setOffer(cartOffer.getOfferCode(), "Remove", "Customer is not eligible for this offer"));
+            }
+        }
+        //Adding preSelectAndDispIncludedAndFeeTypeCodes to $preSelectOffer
+        for(Object obj : preSelectAndDispIncludedAndFeeTypeCodes){
+            String preSelect = (String) obj;
+            if($offerList != null && !$offerList.isEmpty()){
+                if($offerList.stream().noneMatch(offer -> offer.getCode().equalsIgnoreCase(preSelect))){
+                    $preSelectOffer.add(setOffer(preSelect, "Add", null));
+                }
+            } else{
+                $preSelectOffer.add(setOffer(preSelect, "Add", null));
+            }
+        }
+        log.debug("Cart Items size: " + cartItems.size());
+        log.debug("Offer List size: " + $offerList.size());
+    List<Offer> $finalOfferList = new ArrayList<>();
+        if (cartItems.size() > 0){
+            for(Object obj : cartItems){
+                CartItems cartItem = (CartItems) obj;
+                if(cartItem.getOffers() != null && !cartItem.getOffers().isEmpty() && $offerList != null && !$offerList.isEmpty()){
+                    List<Offer> filterOffers = cartItem.getOffers().stream().filter(offerA -> $offerList.stream().noneMatch(offerB -> offerA.getCode().equalsIgnoreCase(offerB.getCode()))).collect(Collectors.toList());
+                    $finalOfferList.addAll(filterOffers);
+                    $finalOfferList.addAll($offerList);
+                    if($preSelectOffer != null && !$preSelectOffer.isEmpty()){
+                        $finalOfferList.addAll($preSelectOffer);
+                    }
+                    cartItem.setOffers($finalOfferList);
+                }else if($preSelectOffer != null && !$preSelectOffer.isEmpty()){
+                    log.info("Adding preSelectOffer to CartItems");
+                    cartItem.setOffers($preSelectOffer);
+                }
+            }
+        }else {
+            log.debug("Cart Items size: " + cartItems.size());
+            cartItems.add(setCartItemsWithOfferList($offerList));
+        }
+        log.info("Finished executing Generic Rule 2");
+end;
+
+function MessageDetail createMessageDetail(String messageCode, String messageText, String messageSeverity) {
+    MessageDetail messageDetail = new MessageDetail();
+    messageDetail.setMessageText(messageText);
+    messageDetail.setMessageSeverity(messageSeverity);
+    messageDetail.setMessageCode(messageCode);
+    return messageDetail;
+}
+
+function CartItems setCartItems(String sku, String action, String promoId, String promoAction) {
+    CartItems $cartItem = new CartItems();
+    $cartItem.setProductCode(sku);
+    $cartItem.setAction(action);
+    if(promoId != null && promoAction != null){
+        $cartItem.setPromotions(new ArrayList<>());
+        $cartItem.getPromotions().add(setPromotion(promoId, promoAction));
+    }
+    return $cartItem;
+}
+
+function CartItems setCartItemsWithOffers(String code, String action, String validationMessage) {
+    CartItems $cartItem = new CartItems();
+    if(code != null && action != null){
+        $cartItem.setOffers(new ArrayList<>());
+        $cartItem.getOffers().add(setOffer(code, action, validationMessage));
+    }
+    return $cartItem;
+}
+
+function CartItems setCartItemsWithOfferList(List offerList) {
+    CartItems $cartItem = new CartItems();
+    if(offerList != null && !offerList.isEmpty()){
+    $cartItem.setOffers(offerList);
+    }
+    return $cartItem;
+}
+
+function CartItems setCartItemsWithMultiPromo(String sku, String action, String promoId, String promoAction, String promoId2, String promoAction2) {
+    CartItems $cartItem = new CartItems();
+    $cartItem.setProductCode(sku);
+    $cartItem.setAction(action);
+    if(promoId != null && promoAction != null){
+        $cartItem.setPromotions(new ArrayList<>());
+        $cartItem.getPromotions().add(setPromotion(promoId, promoAction));
+    }
+
+    if(promoId2 != null && promoAction2 != null){
+        $cartItem.getPromotions().add(setPromotion(promoId2, promoAction2));
+    }
+    return $cartItem;
+}
+
+function Promotion setPromotion(String promoId, String action) {
+    Promotion $promo = new Promotion();
+    $promo.setPromotionId(promoId);
+    $promo.setAction(action);
+    return $promo;
+}
+
+function Offer setOffer(String code, String action, String validationMessage) {
+    Offer $offer = new Offer();
+    $offer.setCode(code);
+    $offer.setAction(action);
+    $offer.setValidationMessage(validationMessage);
+    return $offer;
+}
+function Offer setOfferWithoutValidationMessage(String code, String action) {
+    Offer $offer = new Offer();
+    $offer.setCode(code);
+    $offer.setAction(action);
+    return $offer;
+}
+
+rule "LOCALS_SALES_CUSTOMER_REMAINS_IN_SERVED_MARKET"
+salience 986
+when
+    $couponOffersRequest: CouponOffersRequest($cartContext: cartContext);
+    $cartContexts: CartContexts($cartOffers: cartOffers) from $cartContext;
+    eval($cartOffers != null && !$cartOffers.isEmpty() && responseLocalsOfferCodes != null && !responseLocalsOfferCodes.isEmpty() && isAcquisitionOfferActionType && previousServedMarket && currentServedMarket && localsZeroDollarBoltOnFlag)
+then
+    log.info("Executing rule: LOCALS_SALES_CUSTOMER_REMAINS_IN_SERVED_MARKET");
+    log.debug("LOCALS_SALES_CUSTOMER_REMAINS_IN_SERVED_MARKET ::: Cart Offers: " + $cartOffers);
+    log.debug("LOCALS_SALES_CUSTOMER_REMAINS_IN_SERVED_MARKET ::: Response Locals Offer Codes: " + responseLocalsOfferCodes);
+    List<String> $missingOffers = new ArrayList<>();
+    List<Offer> $offerList = new ArrayList<>();
+
+    for (Object objLocalOfferCode : responseLocalsOfferCodes) {
+        String localOfferCode = (String) objLocalOfferCode;
+        log.debug("LOCALS_SALES_CUSTOMER_REMAINS_IN_SERVED_MARKET ::: Checking response local offer code: " + localOfferCode);
+        boolean isOfferPresent = $cartOffers.stream().anyMatch(cartOffer -> localOfferCode.equals(((CartOffer) cartOffer).getOfferCode()));
+        if (!isOfferPresent) {
+            $missingOffers.add(localOfferCode);
+            log.debug("LOCALS_SALES_CUSTOMER_REMAINS_IN_SERVED_MARKET ::: Response local offer code is not present in request cart offers: " + localOfferCode);
+        } else {
+            $offerList.add(setOfferWithoutValidationMessage(localOfferCode, "NoChange"));
+            log.debug("LOCALS_SALES_CUSTOMER_REMAINS_IN_SERVED_MARKET ::: NoChange: " + localOfferCode);
+        }
+    }
+
+    if (!$missingOffers.isEmpty()) {
+        log.debug("LOCALS_SALES_CUSTOMER_REMAINS_IN_SERVED_MARKET ::: Missing Offer Codes: " + $missingOffers.toString());
+        for (String missingOffer : $missingOffers) {
+            $offerList.add(setOfferWithoutValidationMessage(missingOffer, "Add"));
+            log.debug("LOCALS_SALES_CUSTOMER_REMAINS_IN_SERVED_MARKET ::: Adding missing offer to offerList: " + missingOffer);
+        }
+    }
+    List<Offer> $finalOfferList = new ArrayList<>();
+        if (cartItems.size() > 0){
+            for(Object obj : cartItems){
+                CartItems cartItem = (CartItems) obj;
+                if(cartItem.getOffers() != null && !cartItem.getOffers().isEmpty() && $offerList.size() > 0){
+                    List<Offer> filterOffers = cartItem.getOffers().stream().filter(offerA -> $offerList.stream().noneMatch(offerB -> offerA.getCode().equalsIgnoreCase(offerB.getCode()))).collect(Collectors.toList());
+                    System.out.println("Filter Offer List: " + filterOffers);
+                    $finalOfferList.addAll(filterOffers);
+                    $finalOfferList.addAll($offerList);
+                    cartItem.setOffers($finalOfferList);
+                }else{
+                    log.debug("OFFER LIST EMPTY");
+                }
+            }
+        }else {
+            log.debug("Cart Items is empty");
+            cartItems.add(setCartItemsWithOfferList($offerList));
+        }
+        log.info("Finished executing rule: LOCALS_SALES_CUSTOMER_REMAINS_IN_SERVED_MARKET");
+end;
+
+rule "LOCALS_SALES_CUSTOMER_MOVES_FROM_SERVED_TO_UNSERVED_MARKET"
+salience 985
+when
+    $couponOffersRequest: CouponOffersRequest($cartContext: cartContext);
+    $cartContexts: CartContexts($cartOffers: cartOffers) from $cartContext;
+    eval($cartOffers != null && !$cartOffers.isEmpty() && responseLocalsOfferCodes != null && !responseLocalsOfferCodes.isEmpty() && isAcquisitionOfferActionType && previousServedMarket && !currentServedMarket && localsZeroDollarBoltOnFlag && filteredLocalBoltOn != null)
+then
+    log.info("Executing rule: LOCALS_SALES_CUSTOMER_MOVES_FROM_SERVED_TO_UNSERVED_MARKET");
+    log.debug("LOCALS_SALES_CUSTOMER_MOVES_FROM_SERVED_TO_UNSERVED_MARKET ::: Cart Offers: " + $cartOffers);
+    log.debug("LOCALS_SALES_CUSTOMER_MOVES_FROM_SERVED_TO_UNSERVED_MARKET ::: Response Locals Offer Codes: " + responseLocalsOfferCodes);
+    System.out.println("LOCALS_SALES_CUSTOMER_MOVES_FROM_SERVED_TO_UNSERVED_MARKET ::: Cart Offers: " + $cartOffers);
+    List<Offer> $offerList = new ArrayList<>();
+
+    for (Object objLocalOfferCode : responseLocalsOfferCodes) {
+        String localOfferCode = (String) objLocalOfferCode;
+        log.debug("LOCALS_SALES_CUSTOMER_MOVES_FROM_SERVED_TO_UNSERVED_MARKET ::: Checking response local offer code: " + localOfferCode);
+        boolean isOfferPresent = $cartOffers.stream().anyMatch(cartOffer -> localOfferCode.equals(((CartOffer) cartOffer).getOfferCode()));
+        if (isOfferPresent) {
+            if (localOfferCode.equalsIgnoreCase(filteredLocalBoltOn)) {
+                $offerList.add(setOffer(localOfferCode, "Remove", "Customer is not eligible for this offer"));
+                log.debug("LOCALS_SALES_CUSTOMER_MOVES_FROM_SERVED_TO_UNSERVED_MARKET ::: Remove: " + localOfferCode);
+            } else {
+                $offerList.add(setOfferWithoutValidationMessage(localOfferCode, "NoChange"));
+                log.debug("LOCALS_SALES_CUSTOMER_MOVES_FROM_SERVED_TO_UNSERVED_MARKET ::: NoChange: " + localOfferCode);
+            }
+        }
+    }
+    List<Offer> $finalOfferList = new ArrayList<>();
+        if (cartItems.size() > 0){
+            for(Object obj : cartItems){
+                CartItems cartItem = (CartItems) obj;
+                if(cartItem.getOffers() != null && !cartItem.getOffers().isEmpty() && $offerList.size() > 0){
+                    List<Offer> filterOffers = cartItem.getOffers().stream().filter(offerA -> $offerList.stream().noneMatch(offerB -> offerA.getCode().equalsIgnoreCase(offerB.getCode()))).collect(Collectors.toList());
+                    System.out.println("Filter Offer List: " + filterOffers);
+                    $finalOfferList.addAll(filterOffers);
+                    $finalOfferList.addAll($offerList);
+                    cartItem.setOffers($finalOfferList);
+                }else {
+                    System.out.println("OFFER LIST EMPTY");
+                }
+            }
+        }else {
+            log.debug("Cart Items is empty");
+            cartItems.add(setCartItemsWithOfferList($offerList));
+        }
+        log.info("Finished executing rule: LOCALS_SALES_CUSTOMER_MOVES_FROM_SERVED_TO_UNSERVED_MARKET");
+end;
+
+rule "LOCALS_SALES_CUSTOMER_MOVES_FROM_UNSERVED_TO_SERVED_MARKET"
+salience 984
+when
+    $couponOffersRequest: CouponOffersRequest($cartContext: cartContext);
+    $cartContexts: CartContexts($cartOffers: cartOffers) from $cartContext;
+    eval($cartOffers != null && !$cartOffers.isEmpty() && responseLocalsOfferCodes != null && !responseLocalsOfferCodes.isEmpty() && isAcquisitionOfferActionType && !previousServedMarket && currentServedMarket && filteredLocalBoltOn != null)
+then
+    log.info("Executing rule: LOCALS_SALES_CUSTOMER_MOVES_FROM_UNSERVED_TO_SERVED_MARKET");
+    System.out.println("LOCALS_SALES_CUSTOMER_MOVES_FROM_UNSERVED_TO_SERVED_MARKET ::: Cart Offers: " + $cartOffers);
+    log.debug("LOCALS_SALES_CUSTOMER_MOVES_FROM_UNSERVED_TO_SERVED_MARKET ::: Response Locals Offer Codes: " + responseLocalsOfferCodes);
+    List<String> $missingOffers = new ArrayList<>();
+    List<Offer> $offerList = new ArrayList<>();
+
+    for (Object objLocalOfferCode : responseLocalsOfferCodes) {
+        String localOfferCode = (String) objLocalOfferCode;
+        log.debug("LOCALS_SALES_CUSTOMER_MOVES_FROM_UNSERVED_TO_SERVED_MARKET ::: Checking response local offer code: " + localOfferCode);
+        boolean isOfferPresent = $cartOffers.stream().anyMatch(cartOffer -> localOfferCode.equals(((CartOffer) cartOffer).getOfferCode()));
+        CartOffer cartOffer = (CartOffer) $cartOffers.stream().filter(cartOffer1 -> localOfferCode.equals(((CartOffer) cartOffer1).getOfferCode())).findFirst().orElse(null);
+        if (!isOfferPresent) {
+            $missingOffers.add(localOfferCode);
+            log.debug("LOCALS_SALES_CUSTOMER_MOVES_FROM_UNSERVED_TO_SERVED_MARKET ::: Response local offer code is not present in request cart offers: " + localOfferCode);
+        } else {
+            $offerList.add(setOfferWithoutValidationMessage(localOfferCode, "NoChange"));
+            log.debug("LOCALS_SALES_CUSTOMER_MOVES_FROM_UNSERVED_TO_SERVED_MARKET ::: NoChange: " + localOfferCode);
+        }
+    }
+
+    // Additional check for other responseLocalsOfferCodes in $cartOffers
+    for (Object objLocalOfferCode : responseLocalsOfferCodes) {
+        String localOfferCode = (String) objLocalOfferCode;
+        boolean isOfferPresent = $cartOffers.stream().anyMatch(cartOffer -> localOfferCode.equals(((CartOffer) cartOffer).getOfferCode()));
+        if (isOfferPresent && $offerList.stream().noneMatch(offer -> offer.getCode().equals(localOfferCode))) {
+            $offerList.add(setOfferWithoutValidationMessage(localOfferCode, "NoChange"));
+            log.debug("LOCALS_SALES_CUSTOMER_MOVES_FROM_UNSERVED_TO_SERVED_MARKET ::: Additional NoChange: " + localOfferCode);
+        }
+    }
+
+    if (!$missingOffers.isEmpty() && localsZeroDollarBoltOnFlag) {
+        System.out.println("LOCALS_SALES_CUSTOMER_MOVES_FROM_UNSERVED_TO_SERVED_MARKET ::: Missing Offer Codes: " + $missingOffers);
+        for (String missingOffer : $missingOffers) {
+            $offerList.add(setOfferWithoutValidationMessage(missingOffer, "Add"));
+            log.debug("LOCALS_SALES_CUSTOMER_MOVES_FROM_UNSERVED_TO_SERVED_MARKET ::: Adding missing offer to offerList: " + missingOffer);
+        }
+    } else if (!$missingOffers.isEmpty() && !localsZeroDollarBoltOnFlag) {
+        log.debug("LOCALS_SALES_CUSTOMER_MOVES_FROM_UNSERVED_TO_SERVED_MARKET_PHASE2 :::");
+        MessageDetail $messageDetail = createMessageDetail("LOCALS_ELIGIBLE", "Customer is eligible for Locals", "Information");
+        messageDetails.add($messageDetail);
+    }
+    List<Offer> $finalOfferList = new ArrayList<>();
+    if (cartItems.size() > 0) {
+        for (Object obj : cartItems) {
+            CartItems cartItem = (CartItems) obj;
+            if (cartItem.getOffers() != null && !cartItem.getOffers().isEmpty() && $offerList.size() > 0) {
+                List<Offer> filterOffers = cartItem.getOffers().stream().filter(offerA -> $offerList.stream().noneMatch(offerB -> offerA.getCode().equalsIgnoreCase(offerB.getCode()))).collect(Collectors.toList());
+                System.out.println("Filter Offer List: " + filterOffers);
+                $finalOfferList.addAll(filterOffers);
+                $finalOfferList.addAll($offerList);
+                cartItem.setOffers($finalOfferList);
+            } else {
+                log.debug("OFFER LIST EMPTY");
+            }
+        }
+    } else {
+        log.debug("Cart Items is empty");
+        cartItems.add(setCartItemsWithOfferList($offerList));
+    }
+    log.info("Finished executing rule: LOCALS_SALES_CUSTOMER_MOVES_FROM_UNSERVED_TO_SERVED_MARKET");
+end;
+
+rule "LOCALS_SALES_CUSTOMER_REMAINS_IN_UNSERVED_MARKET"
+salience 983
+when
+    $couponOffersRequest: CouponOffersRequest($cartContext: cartContext);
+    $cartContexts: CartContexts($cartOffers: cartOffers) from $cartContext;
+    eval($cartOffers != null && !$cartOffers.isEmpty() && responseLocalsOfferCodes != null && !responseLocalsOfferCodes.isEmpty() && isAcquisitionOfferActionType && !previousServedMarket && !currentServedMarket && localsZeroDollarBoltOnFlag && filteredLocalBoltOn != null)
+then
+    log.info("Executing rule: LOCALS_SALES_CUSTOMER_REMAINS_IN_UNSERVED_MARKET");
+    System.out.println("LOCALS_SALES_CUSTOMER_REMAINS_IN_UNSERVED_MARKET ::: Cart Offers: " + $cartOffers);
+    log.debug("LOCALS_SALES_CUSTOMER_REMAINS_IN_UNSERVED_MARKET ::: Response Locals Offer Codes: " + responseLocalsOfferCodes);
+    List<Offer> $offerList = new ArrayList<>();
+
+    for (Object objLocalOfferCode : responseLocalsOfferCodes) {
+        String localOfferCode = (String) objLocalOfferCode;
+        log.debug("LOCALS_SALES_CUSTOMER_REMAINS_IN_UNSERVED_MARKET ::: Checking response local offer code: " + localOfferCode);
+        boolean isOfferPresent = $cartOffers.stream().anyMatch(cartOffer -> localOfferCode.equals(((CartOffer) cartOffer).getOfferCode()));
+        if (isOfferPresent) {
+            if (localOfferCode.equalsIgnoreCase(filteredLocalBoltOn)) {
+                $offerList.add(setOffer(localOfferCode, "Remove", "Customer is not eligible for this offer"));
+                log.debug("LOCALS_SALES_CUSTOMER_REMAINS_IN_UNSERVED_MARKET ::: Remove: " + localOfferCode);
+            } else {
+                $offerList.add(setOfferWithoutValidationMessage(localOfferCode, "NoChange"));
+                log.debug("LOCALS_SALES_CUSTOMER_REMAINS_IN_UNSERVED_MARKET ::: NoChange: " + localOfferCode);
+            }
+        }
+    }
+    List<Offer> $finalOfferList = new ArrayList<>();
+        if (cartItems.size() > 0){
+            for(Object obj : cartItems){
+                CartItems cartItem = (CartItems) obj;
+                if(cartItem.getOffers() != null && !cartItem.getOffers().isEmpty() && $offerList.size() > 0){
+                    List<Offer> filterOffers = cartItem.getOffers().stream().filter(offerA -> $offerList.stream().noneMatch(offerB -> offerA.getCode().equalsIgnoreCase(offerB.getCode()))).collect(Collectors.toList());
+                    System.out.println("Filter Offer List: " + filterOffers);
+                    $finalOfferList.addAll(filterOffers);
+                    $finalOfferList.addAll($offerList);
+                    cartItem.setOffers($finalOfferList);
+                }else{
+                    log.debug("OFFER LIST EMPTY");
+                }
+            }
+        }else {
+            log.debug("Cart Items is empty");
+            cartItems.add(setCartItemsWithOfferList($offerList));
+        }
+        log.info("Finished executing rule: LOCALS_SALES_CUSTOMER_REMAINS_IN_UNSERVED_MARKET");
+end;
+
+rule "LOCALS_SERVICES_CUSTOMER_REMAINS_IN_SERVED_MARKET"
+salience 982
+when
+    $couponOffersRequest: CouponOffersRequest($cartContext: cartContext);
+    $cartContexts: CartContexts($cartProducts: cartProducts) from $cartContext;
+    eval($cartProducts != null && !$cartProducts.isEmpty() && requestCustomerContextOTTProducts != null && !requestCustomerContextOTTProducts.isEmpty() && !isAcquisitionOfferActionType && previousServedMarket && currentServedMarket)
+then
+    log.info("Executing rule: LOCALS_SERVICES_CUSTOMER_REMAINS_IN_SERVED_MARKET");
+    System.out.println("LOCALS_SERVICES_CUSTOMER_REMAINS_IN_SERVED_MARKET ::: Cart Products: " + $cartProducts);
+    log.debug("LOCALS_SERVICES_CUSTOMER_REMAINS_IN_SERVED_MARKET ::: Cart Products: " + $cartProducts);
+    log.debug("LOCALS_SERVICES_CUSTOMER_REMAINS_IN_SERVED_MARKET ::: Filtered Local Bolt On: " + filteredLocalBoltOn);
+
+    if (localsZeroDollarBoltOnFlag && filteredLocalBoltOn != null) {
+        boolean isBoltOnLocalProductPresent = false;
+        Set<String> existingProductCodes = new HashSet<>();
+
+        for (Object obj : $cartProducts) {
+            CartProduct cartProduct = (CartProduct) obj;
+            existingProductCodes.add(cartProduct.getProductCode());
+
+            CartItems $cartItem = new CartItems();
+            $cartItem.setProductCode(cartProduct.getProductCode());
+            if (cartProduct.getPromotions() != null) {
+                setPromos(cartProduct, $cartItem);
+            }
+            if (filteredLocalBoltOn.equalsIgnoreCase(cartProduct.getProductCode()) && "Remove".equalsIgnoreCase(cartProduct.getAction())) {
+                $cartItem.setAction("Add");
+                isBoltOnLocalProductPresent = true;
+            } else {
+                $cartItem.setAction(cartProduct.getAction());
+            }
+
+            if (!existingProductCodes.contains($cartItem.getProductCode())) {
+                cartItems.add($cartItem);
+                existingProductCodes.add($cartItem.getProductCode());
+                log.debug("Adding product with action '" + $cartItem.getAction() + "': " + cartProduct.getProductCode());
+            } else {
+                // Update the action to "Add" if the product code already exists and the action is "Remove"
+                for (Object itemObj : cartItems) {
+                    CartItems item = (CartItems) itemObj;
+                    if (item.getProductCode().equals($cartItem.getProductCode()) && "Remove".equalsIgnoreCase(item.getAction())) {
+                        item.setAction("Add");
+                        log.debug("Updating product action to 'Add' for product code: " + item.getProductCode());
+                    }
+                }
+            }
+            cartItems.add($cartItem);
+        }
+
+        if (!isBoltOnLocalProductPresent) {
+            CartItems $cartItem = new CartItems();
+            $cartItem.setProductCode(filteredLocalBoltOn);
+            $cartItem.setAction("Add");
+            if (!existingProductCodes.contains(filteredLocalBoltOn)) {
+                cartItems.add($cartItem);
+                existingProductCodes.add(filteredLocalBoltOn);
+                log.debug("Adding missing bolt-on local product with action 'Add': " + filteredLocalBoltOn);
+            }
+        }
+    } else {
+        MessageDetail $messageDetail = createMessageDetail("LOCALS_ELIGIBILITY_CHECK", "No Change to Locals Bolt-On", "Information");
+        messageDetails.add($messageDetail);
+    }
+    log.info("Finished executing rule: LOCALS_SERVICES_CUSTOMER_REMAINS_IN_SERVED_MARKET");
+end;
+
+rule "LOCALS_SERVICES_CUSTOMER_MOVES_FROM_SERVED_TO_UNSERVED_MARKET"
+salience 980
+when
+    $couponOffersRequest: CouponOffersRequest($cartContext: cartContext);
+    $cartContexts: CartContexts($cartProducts: cartProducts) from $cartContext;
+    eval($cartProducts != null && !$cartProducts.isEmpty() && requestCustomerContextOTTProducts != null && !requestCustomerContextOTTProducts.isEmpty() && !isAcquisitionOfferActionType && previousServedMarket && !currentServedMarket && localsZeroDollarBoltOnFlag && filteredLocalBoltOn != null)
+then
+    log.info("Executing rule: LOCALS_SERVICES_CUSTOMER_MOVES_FROM_SERVED_TO_UNSERVED_MARKET");
+    log.debug("LOCALS_SERVICES_CUSTOMER_MOVES_FROM_SERVED_TO_UNSERVED_MARKET ::: Filtered Local Bolt On: " + filteredLocalBoltOn);
+    System.out.println("LOCALS_SERVICES_CUSTOMER_MOVES_FROM_SERVED_TO_UNSERVED_MARKET ::: Cart Products: " + $cartProducts);
+
+    boolean isBoltOnLocalProductPresent = false;
+    Set<String> existingProductCodes = new HashSet<>();
+
+    for (Object obj : $cartProducts) {
+        CartProduct cartProduct = (CartProduct) obj;
+        existingProductCodes.add(cartProduct.getProductCode());
+
+        CartItems $cartItem = new CartItems();
+        $cartItem.setProductCode(cartProduct.getProductCode());
+        if(cartProduct.getPromotions() != null){
+           setPromos(cartProduct, $cartItem);
+        }
+
+        if (filteredLocalBoltOn.equalsIgnoreCase(cartProduct.getProductCode())) {
+            $cartItem.setAction("Remove");
+            $cartItem.setValidationMessage("Customer is not eligible for this offer");
+            isBoltOnLocalProductPresent = true;
+        } else {
+            $cartItem.setAction(cartProduct.getAction());
+        }
+
+        if (!existingProductCodes.contains($cartItem.getProductCode())) {
+            cartItems.add($cartItem);
+            existingProductCodes.add($cartItem.getProductCode());
+            log.debug("Adding product with action '" + $cartItem.getAction() + "': " + cartProduct.getProductCode());
+        } else {
+            // Update the action to "Remove" if the product code already exists and matches filteredLocalBoltOn
+            for (Object itemObj : cartItems) {
+                CartItems item = (CartItems) itemObj;
+                if (item.getProductCode().equals($cartItem.getProductCode()) && filteredLocalBoltOn.equalsIgnoreCase(item.getProductCode()) && !"Remove".equalsIgnoreCase(item.getAction())) {
+                    item.setAction("Remove");
+                    item.setValidationMessage("Customer is not eligible for this offer");
+                    log.debug("Updating product action to 'Remove' for product code: " + item.getProductCode());
+                }
+            }
+        }
+        cartItems.add($cartItem);
+    }
+    log.info("Finished executing rule: LOCALS_SERVICES_CUSTOMER_MOVES_FROM_SERVED_TO_UNSERVED_MARKET");
+end;
+
+rule "LOCALS_SERVICES_CUSTOMER_MOVES_FROM_UNSERVED_TO_SERVED_MARKET"
+salience 979
+when
+    $couponOffersRequest: CouponOffersRequest($cartContext: cartContext);
+    $cartContexts: CartContexts($cartProducts: cartProducts) from $cartContext;
+    eval($cartProducts != null && !$cartProducts.isEmpty() && requestCustomerContextOTTProducts != null && !requestCustomerContextOTTProducts.isEmpty() && !isAcquisitionOfferActionType && !previousServedMarket && currentServedMarket && localsZeroDollarBoltOnFlag && filteredLocalBoltOn != null)
+then
+    log.info("Executing rule: LOCALS_SERVICES_CUSTOMER_MOVES_FROM_UNSERVED_TO_SERVED_MARKET");
+    log.debug("LOCALS_SERVICES_CUSTOMER_MOVES_FROM_UNSERVED_TO_SERVED_MARKET ::: Filtered Local Bolt On: " + filteredLocalBoltOn);
+    System.out.println("LOCALS_SERVICES_CUSTOMER_MOVES_FROM_UNSERVED_TO_SERVED_MARKET ::: Cart Products: " + $cartProducts);
+
+    boolean isBoltOnLocalProductPresent = false;
+    Set<String> existingProductCodes = new HashSet<>();
+
+    for (Object obj : $cartProducts) {
+        CartProduct cartProduct = (CartProduct) obj;
+        existingProductCodes.add(cartProduct.getProductCode());
+
+        CartItems $cartItem = new CartItems();
+        $cartItem.setProductCode(cartProduct.getProductCode());
+        if (cartProduct.getPromotions() != null) {
+                setPromos(cartProduct, $cartItem);
+        }
+        if (filteredLocalBoltOn.equalsIgnoreCase(cartProduct.getProductCode())) {
+            $cartItem.setAction("Add");
+            isBoltOnLocalProductPresent = true;
+        } else {
+            $cartItem.setAction(cartProduct.getAction());
+        }
+
+        if (!existingProductCodes.contains($cartItem.getProductCode())) {
+            cartItems.add($cartItem);
+            existingProductCodes.add($cartItem.getProductCode());
+            log.debug("Adding product with action '" + $cartItem.getAction() + "': " + cartProduct.getProductCode());
+        }
+        cartItems.add($cartItem);
+    }
+
+    // Ensure filteredLocalBoltOn is always added with action "Add"
+    if (!isBoltOnLocalProductPresent) {
+        CartItems $cartItem = new CartItems();
+        $cartItem.setProductCode(filteredLocalBoltOn);
+        $cartItem.setAction("Add");
+        cartItems.add($cartItem);
+        log.debug("Adding missing bolt-on local product with action 'Add': " + filteredLocalBoltOn);
+    } else {
+        // Update the action to "Add" if the product code already exists
+        for (Object itemObj : cartItems) {
+            CartItems item = (CartItems) itemObj;
+            if (item.getProductCode().equals(filteredLocalBoltOn) && "Remove".equalsIgnoreCase(item.getAction())) {
+                item.setAction("Add");
+                log.debug("Updating product action to 'Add' for product code: " + item.getProductCode());
+            }
+        }
+    }
+    log.info("Finished executing rule: LOCALS_SERVICES_CUSTOMER_MOVES_FROM_UNSERVED_TO_SERVED_MARKET");
+end;
+
+rule "LOCALS_SERVICES_REMAINS_IN_UNSERVED_MARKET"
+salience 978
+when
+    $couponOffersRequest: CouponOffersRequest($cartContext: cartContext);
+    $cartContexts: CartContexts($cartProducts: cartProducts) from $cartContext;
+    eval($cartProducts != null && !$cartProducts.isEmpty() && requestCustomerContextOTTProducts != null && !requestCustomerContextOTTProducts.isEmpty() && !isAcquisitionOfferActionType && !previousServedMarket && !currentServedMarket && localsZeroDollarBoltOnFlag && filteredLocalBoltOn != null)
+then
+    log.info("Executing rule: LOCALS_SERVICES_REMAINS_IN_UNSERVED_MARKET");
+    System.out.println("LOCALS_SERVICES_REMAINS_IN_UNSERVED_MARKET ::: Cart Products: " + $cartProducts);
+    log.debug("LOCALS_SERVICES_REMAINS_IN_UNSERVED_MARKET ::: Filtered Local Bolt On: " + filteredLocalBoltOn);
+
+    boolean isBoltOnLocalProductPresent = false;
+    Set<String> existingProductCodes = new HashSet<>();
+
+    for (Object obj : $cartProducts) {
+        CartProduct cartProduct = (CartProduct) obj;
+        existingProductCodes.add(cartProduct.getProductCode());
+
+        CartItems $cartItem = new CartItems();
+        $cartItem.setProductCode(cartProduct.getProductCode());
+         if (cartProduct.getPromotions() != null) {
+                setPromos(cartProduct, $cartItem);
+         }
+        if (filteredLocalBoltOn.equalsIgnoreCase(cartProduct.getProductCode())) {
+            $cartItem.setAction("Remove");
+            $cartItem.setValidationMessage("Customer is not eligible for this offer");
+            isBoltOnLocalProductPresent = true;
+        } else {
+            $cartItem.setAction(cartProduct.getAction());
+        }
+
+        if (!existingProductCodes.contains($cartItem.getProductCode())) {
+            cartItems.add($cartItem);
+            existingProductCodes.add($cartItem.getProductCode());
+            log.debug("Adding product with action '" + $cartItem.getAction() + "': " + cartProduct.getProductCode());
+        } else {
+            // Update the action to "Remove" if the product code already exists and matches filteredLocalBoltOn
+            for (Object itemObj : cartItems) {
+                CartItems item = (CartItems) itemObj;
+                if (item.getProductCode().equals($cartItem.getProductCode()) && filteredLocalBoltOn.equalsIgnoreCase(item.getProductCode())) {
+                    item.setAction("Remove");
+                    item.setValidationMessage("Customer is not eligible for this offer");
+                    log.debug("Updating product action to 'Remove' for product code: " + item.getProductCode());
+                }
+            }
+        }
+        cartItems.add($cartItem);
+    }
+
+    if (isBoltOnLocalProductPresent) {
+        CartItems $cartItem = new CartItems();
+        $cartItem.setProductCode(filteredLocalBoltOn);
+        $cartItem.setAction("Add");
+        if (!existingProductCodes.contains(filteredLocalBoltOn)) {
+            cartItems.add($cartItem);
+            existingProductCodes.add(filteredLocalBoltOn);
+            log.debug("Adding missing bolt-on local product with action 'Add': " + filteredLocalBoltOn);
+        }
+    }
+    log.info("Finished executing rule: LOCALS_SERVICES_REMAINS_IN_UNSERVED_MARKET");
+end;
+
+
+rule "LOCALS_SERVICES_REMAINS_IN_SERVED_MARKET_UNDER_PAYMENT_METHOD"
+salience 977
+when
+    $couponOffersRequest: CouponOffersRequest($cartContext: cartContext);
+    eval(requestCartProductCodes.isEmpty() && requestCustomerContextOTTProducts != null && !requestCustomerContextOTTProducts.isEmpty() && !isAcquisitionOfferActionType && previousServedMarket && currentServedMarket)
+then
+    log.info("Executing rule: LOCALS_SERVICES_REMAINS_IN_SERVED_MARKET_UNDER_PAYMENT_METHOD");
+
+    if(requestCustomerContextOTTProducts.contains(filteredLocalBoltOn) && localsZeroDollarBoltOnFlag){
+        log.debug("Condition met: requestCustomerContextOTTProducts.contains(filteredLocalBoltOn) && localsZeroDollarBoltOnFlag");
+        MessageDetail $messageDetail = createMessageDetail("LOCALS_ELIGIBILITY_CHECK", "No Change to Locals Bolt-On", "Information");
+        messageDetails.add($messageDetail);
+        log.debug("No Change to Locals Bolt-On");
+    } else if(!requestCustomerContextOTTProducts.contains(filteredLocalBoltOn) && localsZeroDollarBoltOnFlag){
+        log.debug("Condition met: !requestCustomerContextOTTProducts.contains(filteredLocalBoltOn) && localsZeroDollarBoltOnFlag");
+        CartItems $cartItem = new CartItems();
+        $cartItem.setProductCode(filteredLocalBoltOn);
+        $cartItem.setAction("Add");
+        cartItems.add($cartItem);
+        log.debug("Adding missing bolt-on local product with action 'Add': " + filteredLocalBoltOn);
+    } else if(!requestCustomerContextOTTProducts.contains(filteredLocalBoltOn) && !localsZeroDollarBoltOnFlag){
+        log.debug("Condition met:  !localsZeroDollarBoltOnFlag");
+        MessageDetail $messageDetail = createMessageDetail("LOCALS_ELIGIBILITY_CHECK", "No Change to Locals Bolt-On", "Information");
+        messageDetails.add($messageDetail);
+        log.debug("No Change to Locals Bolt-On");
+    }
+    log.info("Finished executing rule: LOCALS_SERVICES_REMAINS_IN_SERVED_MARKET_UNDER_PAYMENT_METHOD");
+end;
+
+
+rule "LOCALS_SERVICES_REMAINS_IN_UNSERVED_MARKET_UNDER_PAYMENT_METHOD"
+salience 976
+when
+    $couponOffersRequest: CouponOffersRequest($cartContext: cartContext);
+    eval(requestCartProductCodes.isEmpty() && requestCustomerContextOTTProducts != null && !requestCustomerContextOTTProducts.isEmpty() && !isAcquisitionOfferActionType && previousServedMarket && !currentServedMarket)
+then
+    log.info("Executing rule: LOCALS_SERVICES_REMAINS_IN_UNSERVED_MARKET_UNDER_PAYMENT_METHOD");
+    if(requestCustomerContextOTTProducts.contains(filteredLocalBoltOn)){
+        CartItems $cartItem = new CartItems();
+        $cartItem.setProductCode(filteredLocalBoltOn);
+        $cartItem.setAction("Remove");
+        $cartItem.setValidationMessage("Customer is not eligible for this offer");
+        cartItems.add($cartItem);
+    }else{
+        MessageDetail $messageDetail = createMessageDetail("LOCALS_ELIGIBILITY_CHECK", "No Change to Locals Bolt-On", "Information");
+        messageDetails.add($messageDetail);
+    }
+    log.info("Finished executing rule: LOCALS_SERVICES_REMAINS_IN_UNSERVED_MARKET_UNDER_PAYMENT_METHOD");
+end;
+
+
+
+rule "LOCALS_SERVICES_REMAINS_IN_UNSERVED_TO_SERVED_MARKET_UNDER_PAYMENT_METHOD"
+salience 975
+when
+    $couponOffersRequest: CouponOffersRequest($cartContext: cartContext);
+    eval(requestCartProductCodes.isEmpty() && requestCustomerContextOTTProducts != null && !requestCustomerContextOTTProducts.isEmpty() && !isAcquisitionOfferActionType && !previousServedMarket && currentServedMarket)
+then
+    log.info("Executing rule: LOCALS_SERVICES_REMAINS_IN_UNSERVED_TO_SERVED_MARKET_UNDER_PAYMENT_METHOD");
+    if(!requestCustomerContextOTTProducts.contains(filteredLocalBoltOn) && localsZeroDollarBoltOnFlag){
+        CartItems $cartItem = new CartItems();
+        $cartItem.setProductCode(filteredLocalBoltOn);
+        $cartItem.setAction("Add");
+        cartItems.add($cartItem);
+    }else if(requestCustomerContextOTTProducts.contains(filteredLocalBoltOn) && localsZeroDollarBoltOnFlag){
+        MessageDetail $messageDetail = createMessageDetail("LOCALS_ELIGIBILITY_CHECK", "No Change to Locals Bolt-On", "Information");
+        messageDetails.add($messageDetail);
+    }else if(!localsZeroDollarBoltOnFlag){
+        MessageDetail $messageDetail = createMessageDetail("LOCALS_ELIGIBLE", "Customer is eligible for Locals", "Information");
+        messageDetails.add($messageDetail);
+    }
+    log.info("Finished executing rule: LOCALS_SERVICES_REMAINS_IN_UNSERVED_TO_SERVED_MARKET_UNDER_PAYMENT_METHOD");
+end;
+
+
+rule "LOCALS_SERVICES_REMAINS_IN_UNSERVED_TO_UNSERVED_MARKET_UNDER_PAYMENT_METHOD"
+salience 974
+when
+    $couponOffersRequest: CouponOffersRequest($cartContext: cartContext);
+    eval(requestCartProductCodes.isEmpty() && requestCustomerContextOTTProducts != null && !requestCustomerContextOTTProducts.isEmpty() && !isAcquisitionOfferActionType && !previousServedMarket && !currentServedMarket)
+then
+    log.info("Executing rule: LOCALS_SERVICES_REMAINS_IN_UNSERVED_TO_UNSERVED_MARKET_UNDER_PAYMENT_METHOD");
+    if(requestCustomerContextOTTProducts.contains(filteredLocalBoltOn) && localsZeroDollarBoltOnFlag){
+        CartItems $cartItem = new CartItems();
+        $cartItem.setProductCode(filteredLocalBoltOn);
+        $cartItem.setAction("Remove");
+        $cartItem.setValidationMessage("Customer is not eligible for this offer");
+        cartItems.add($cartItem);
+    }else {
+        MessageDetail $messageDetail = createMessageDetail("LOCALS_ELIGIBILITY_CHECK", "No Change to Locals Bolt-On", "Information");
+        messageDetails.add($messageDetail);
+    }
+    log.info("Finished executing rule: LOCALS_SERVICES_REMAINS_IN_UNSERVED_TO_UNSERVED_MARKET_UNDER_PAYMENT_METHOD");
+end;
+
+rule "LOCALS_SERVICES_CUSTOMER_MOVES_FROM_UNSERVED_TO_SERVED_MARKET_PHASE2"
+salience 973
+when
+    $couponOffersRequest: CouponOffersRequest($cartContext: cartContext);
+    $cartContexts: CartContexts($cartProducts: cartProducts) from $cartContext;
+    eval($cartProducts != null && !$cartProducts.isEmpty() && requestCustomerContextOTTProducts != null && !requestCustomerContextOTTProducts.isEmpty() && !isAcquisitionOfferActionType && !previousServedMarket && currentServedMarket && !localsZeroDollarBoltOnFlag && filteredLocalBoltOn != null)
+then
+    log.info("Executing rule: LOCALS_SERVICES_CUSTOMER_MOVES_FROM_UNSERVED_TO_SERVED_MARKET_PHASE2");
+
+    boolean isBoltOnLocalProductPresent = false;
+
+    for (Object obj : $cartProducts) {
+        CartProduct cartProduct = (CartProduct) obj;
+        CartItems $cartItem = new CartItems();
+        $cartItem.setProductCode(cartProduct.getProductCode());
+        if (cartProduct.getPromotions() != null) {
+            setPromos(cartProduct, $cartItem);
+        }
+        if (filteredLocalBoltOn.equalsIgnoreCase(cartProduct.getProductCode())) {
+            isBoltOnLocalProductPresent = true;
+            $cartItem.setAction(cartProduct.getAction());
+        } else {
+            $cartItem.setAction(cartProduct.getAction());
+        }
+        cartItems.add($cartItem);
+    }
+
+    if(!isBoltOnLocalProductPresent) {
+        MessageDetail $messageDetail = createMessageDetail("LOCALS_ELIGIBLE", "Customer is eligible for Locals", "Information");
+        messageDetails.add($messageDetail);
+    }
+    log.info("Finished executing rule: LOCALS_SERVICES_CUSTOMER_MOVES_FROM_UNSERVED_TO_SERVED_MARKET_PHASE2");
+end;
+
+
+function void setPromos(CartProduct cartProduct, CartItems cartItem){
+    List<Promotion> $promoList = new ArrayList<>();
+    for(Object cartPromo : cartProduct.getPromotions()) {
+        CartPromotion $cartPromotion = (CartPromotion) cartPromo;
+        Promotion $promo = new Promotion();
+        $promo.setPromotionId($cartPromotion.getPromotionId());
+        $promo.setAction($cartPromotion.getAction());
+        $promoList.add($promo);
+    }
+    cartItem.setPromotions($promoList);
+}

@@ -1,0 +1,318 @@
+{
+  "limit": 300,
+  "offset": 0,
+  "count": 2,
+  "total": 2,
+  "offers": [
+    {
+      "id": "e295c635-8574-49f9-b52b-91ca83410f90",
+      "code": "OF_FEE-TV-ACCESS-FEE-V1_satellite",
+      "name": {
+        "en": "TV access fee"
+      },
+      "description": {
+        "en": "This receiver lets you enjoy full HD DVR service on every connected TV.Each additional TV is connected to this receiver using the Genie Mini."
+      },
+      "startDate": "1990-01-01T00:00:00.000Z",
+      "endDate": "2049-12-31T00:00:00.000Z",
+      "attributes": {
+        "billingSystem": "enabler",
+        "offerProductType": "fee",
+        "offerProductTypes": [
+          "fee"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerType": "multi-benefit",
+        "offerActionType": "Acquisition",
+        "offerActionTypes": [
+          "Acquisition"
+        ],
+        "displayName": {
+          "en": "TV access fee"
+        },
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "fee"
+                  ],
+                  "productStatus": "Active",
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "899d58ab-7073-4087-9761-9abda8b15e36",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "899d58ab-7073-4087-9761-9abda8b15e36",
+                      "code": "FEE-TV-ACCESS-FEE-V1_satellite",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "c95f99eb-920a-4d81-8644-2f617d8e31aa",
+                        "key": "fee"
+                      },
+                      "name": {
+                        "en": "TV access fee"
+                      },
+                      "description": {
+                        "en": "This receiver lets you enjoy full HD DVR service on every connected TV.Each additional TV is connected to this receiver using the Genie Mini.\n"
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 700,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 7
+                              },
+                              "id": "7bb89f3a-22ac-48a9-b640-793469763735",
+                              "startDate": "1990-01-01T00:00:00.000Z",
+                              "endDate": "2049-12-31T00:00:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "gfVersion": 0,
+                              "businessSegment": "residential",
+                              "chargeType": "mrc",
+                              "contracted": false,
+                              "grandfathered": false
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "TV access fee"
+                            },
+                            "billingProductCode": "prod8330970",
+                            "billingCode": "prod8330970",
+                            "startDate": "2015-01-08T00:00:00.000Z",
+                            "endDate": "2050-12-31T00:00:00.000Z",
+                            "salesChannel": [
+                              "opusServices",
+                              "opusSales",
+                              "onlineServices",
+                              "onlineSales",
+                              "opus",
+                              "online"
+                            ],
+                            "productFamily": "satellite",
+                            "contractApplicable": "noncontract",
+                            "contractIndicator": [
+                              "non-contract"
+                            ],
+                            "customerSegments": [
+                              "Residential"
+                            ],
+                            "feeType": "HDAccessFee",
+                            "migratedProduct": false,
+                            "orderingMethod": "addToCart",
+                            "enablerPricePlanCode": "422150575",
+                            "tokens": "HD",
+                            "chargeCode": "DVARHD"
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "fee",
+                    "key": "FEE-TV-ACCESS-FEE-V1_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "salesChannel": [
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "chargeType": "chargeable",
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+    {
+      "id": "8f19a0b4-952c-4ac2-afb1-48dddd656160",
+      "code": "OF_FEE-TV-ACCESS-FEE_sales_satellite",
+      "name": {
+        "en": "TV access fee"
+      },
+      "description": {
+        "en": "This receiver lets you enjoy full HD DVR service on every connected TV.Each additional TV is connected to this receiver using the Genie Mini."
+      },
+      "startDate": "1990-01-01T00:00:00.000Z",
+      "endDate": "2049-12-31T00:00:00.000Z",
+      "attributes": {
+        "billingSystem": "enabler",
+        "offerProductType": "fee",
+        "offerProductTypes": [
+          "fee"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerType": "multi-benefit",
+        "offerActionType": "Acquisition",
+        "offerActionTypes": [
+          "Acquisition"
+        ],
+        "displayName": {
+          "en": "TV access fee"
+        },
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "fee"
+                  ],
+                  "productStatus": "Active",
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "21c1808c-5518-46db-a59d-37a7cde7345b",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "21c1808c-5518-46db-a59d-37a7cde7345b",
+                      "code": "FEE-TV-ACCESS-FEE_satellite",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "c95f99eb-920a-4d81-8644-2f617d8e31aa",
+                        "key": "fee"
+                      },
+                      "name": {
+                        "en": "TV access fee"
+                      },
+                      "description": {
+                        "en": "This receiver lets you enjoy full HD DVR service on every connected TV.Each additional TV is connected to this receiver using the Genie Mini.\n"
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "sku": "prod8330970",
+                          "key": "prod8330970",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0
+                              },
+                              "id": "bc12ab1c-3dbc-4f08-bba6-7fac2e5bb018",
+                              "startDate": "1990-01-01T00:00:00.000Z",
+                              "endDate": "2049-12-31T00:00:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "gfVersion": 0,
+                              "businessSegment": "residential",
+                              "chargeType": "mrc",
+                              "contracted": false,
+                              "grandfathered": false
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "TV access fee"
+                            },
+                            "billingProductCode": "prod8330970",
+                            "billingCode": "prod8330970",
+                            "startDate": "2015-01-08T00:00:00.000Z",
+                            "endDate": "2050-12-31T00:00:00.000Z",
+                            "salesChannel": [
+                              "opusServices",
+                              "opusSales",
+                              "onlineServices",
+                              "onlineSales",
+                              "opus",
+                              "online"
+                            ],
+                            "productFamily": "satellite",
+                            "contractApplicable": "noncontract",
+                            "contractIndicator": [
+                              "non-contract"
+                            ],
+                            "customerSegments": [
+                              "Residential"
+                            ],
+                            "feeType": "HDAccessFee",
+                            "migratedProduct": false,
+                            "orderingMethod": "addToCart",
+                            "enablerPricePlanCode": "422150575",
+                            "tokens": "HD",
+                            "chargeCode": "DVARHD"
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "fee",
+                    "key": "FEE-TV-ACCESS-FEE_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "salesChannel": [
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "chargeType": "included",
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    }
+  ]
+}

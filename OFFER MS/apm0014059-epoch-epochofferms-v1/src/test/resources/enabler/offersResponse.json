@@ -1,0 +1,159 @@
+{
+    "content": {
+        "count": 5,
+        "total": 5,
+        "lineItems": [
+            {
+                "action": "remove",
+                "productCode": "BOLTON-HALLMARK-MOVIES-NOW_satellite",
+                "chargeCode": "DVHLMK",
+                "displayName": "Hallmark Movies Now",
+                "billingCode": "88935963",
+                "price": {
+                    "amount": 5.99,
+                    "baseAmount": 5.99,
+                    "priceType": "RC",
+                    "numberOfInstallment": 0,
+                    "installmentEligibility": "N"
+                },
+                "omsComponentMapping": [
+                    {
+                        "omsAttributes": [
+                            {
+                                "attributeCode": "DTgenrePackage",
+                                "attributeValue": "DVHLMK"
+                            }
+                        ],
+                        "componentCode": "DVHLMK",
+                        "componentPath": "ATTDTV|DVHLMK",
+                        "operationName": "MOORequest,PUSPO1Request"
+                    }
+                ],
+                "promotionReferences": []
+            },
+            {
+                "action": "remove",
+                "productCode": "BASE-PREMIER-ALL-INCLUDED_satellite",
+                "chargeCode": "DTVPAI",
+                "displayName": "PREMIER ALL INCLUDED",
+                "billingCode": "88849754",
+                "omsOfferId": "422383389",
+                "price": {
+                    "amount": 213.0,
+                    "baseAmount": 213.0,
+                    "priceType": "RC",
+                    "numberOfInstallment": 0,
+                    "installmentEligibility": "N"
+                },
+                "omsComponentMapping": [
+                    {
+                        "omsAttributes": [
+                            {
+                                "attributeCode": "BasePkg",
+                                "attributeValue": "PremierAll"
+                            },
+                            {
+                                "attributeCode": "freeSTBPolicy",
+                                "attributeValue": "DVALL1"
+                            }
+                        ],
+                        "componentCode": "ATTDTV",
+                        "componentPath": "ATTDTV",
+                        "operationName": "MOORequest,PUSPO1Request"
+                    }
+                ],
+                "promotionReferences": []
+            },
+            {
+                "action": "add",
+                "productCode": "BOLTON-HISTORY-VAULT_satellite",
+                "chargeCode": "NOT_AVAILABLE",
+                "displayName": "HISTORY Vault",
+                "billingCode": "88985153",
+                "price": {
+                    "amount": 4.99,
+                    "baseAmount": 4.99,
+                    "priceType": "RC",
+                    "numberOfInstallment": 0,
+                    "installmentEligibility": "N"
+                },
+                "omsComponentMapping": [
+                    {
+                        "omsAttributes": [
+                            {
+                                "attributeCode": "DTgenrePackage",
+                                "attributeValue": "DVHVLT"
+                            }
+                        ],
+                        "componentCode": "DVHVLT",
+                        "componentPath": "ATTDTV|DVHVLT",
+                        "operationName": "MOORequest,PUSPO1Request"
+                    }
+                ],
+                "promotionReferences": []
+            },
+            {
+                "action": "no-change",
+                "productCode": "BOLTON-HBO-MAX_satellite",
+                "chargeCode": "DTVPIC",
+                "displayName": "HBO Max",
+                "billingCode": "88830604",
+                "price": {
+                    "amount": 14.99,
+                    "baseAmount": 14.99,
+                    "priceType": "RC",
+                    "numberOfInstallment": 0,
+                    "installmentEligibility": "N"
+                },
+                "omsComponentMapping": [
+                    {
+                        "omsAttributes": [
+                            {
+                                "attributeCode": "DTgenrePackage",
+                                "attributeValue": "HBODV"
+                            }
+                        ],
+                        "componentCode": "HBODV",
+                        "componentPath": "ATTDTV|HBODV",
+                        "operationName": "MOORequest,PUSPO1Request"
+                    }
+                ],
+                "promotionReferences": []
+            },
+            {
+                "action": "add",
+                "productCode": "BASE-ULTIMATE-ALL-INCLUDED_satellite",
+                "chargeCode": "DTVULT",
+                "displayName": "ULTIMATE ALL INCLUDED",
+                "billingCode": "88849674",
+                "omsOfferId": "422383389",
+                "price": {
+                    "amount": 165.0,
+                    "baseAmount": 165.0,
+                    "priceType": "RC",
+                    "numberOfInstallment": 0,
+                    "installmentEligibility": "N"
+                },
+                "omsComponentMapping": [
+                    {
+                        "omsAttributes": [
+                            {
+                                "attributeCode": "freeSTBPolicy",
+                                "attributeValue": "DVALL1"
+                            },
+                            {
+                                "attributeCode": "BasePkg",
+                                "attributeValue": "UltimateAll"
+                            }
+                        ],
+                        "componentCode": "ATTDTV",
+                        "componentPath": "ATTDTV",
+                        "operationName": "MOORequest,PUSPO1Request"
+                    }
+                ],
+                "promotionReferences": []
+            }
+        ],
+        "promotions": []
+    }
+}

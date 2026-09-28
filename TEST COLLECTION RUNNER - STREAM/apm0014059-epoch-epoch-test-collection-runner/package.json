@@ -1,0 +1,22 @@
+{
+  "name": "epoch-test-collection-runner",
+  "version": "1.0.0",
+  "description": "Package used to run a set of postman collections ina faster and Parallel Manner.",
+  "main": "RunCollections.js",
+  "dependencies": {
+    "newman": "^5.3.0",
+    "newman-reporter-htmlextra": "^1.22.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "clean": "npx rimraf ./node_modules",
+    "test": "node --max-old-space-size=8192 ./ParallelRunner.js>log.txt",
+    "data": "node --max-old-space-size=8192 ./DataFileParallelRunner.js>log.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@codecloud.web.att.com:7999/st_epoch/epoch-test-collection-runner.git"
+  },
+  "author": "Guddimetla Udaya Teja(ug2589)",
+  "license": "MIT"
+}

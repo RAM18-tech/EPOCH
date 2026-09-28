@@ -1,0 +1,532 @@
+{
+  "limit": 0,
+  "offset": 0,
+  "count": 1,
+  "total": 1,
+  "offers": [
+    {
+      "id": "163a8e03-cb75-436b-8a23-f5089c9c3a40",
+      "code": "OF_HARD-GEMINILEASE-202311_TAZCONTRACT",
+      "status": "live",
+      "name": {
+        "en": "Gemini Air Device(s)"
+      },
+      "description": {
+        "en": "$0 included lease device"
+      },
+      "startDate": "2023-04-20T00:00:00.000Z",
+      "endDate": "9999-04-28T08:00:00.000Z",
+      "attributes": {
+        "offerProductType": "video-device",
+        "offerProductTypes": [
+          "video-device"
+        ],
+        "offerProductFamily": "OTT",
+        "offerProductFamilies": [
+          "OTT"
+        ],
+        "offerType": "multi-benefit",
+        "offerActionType": "Acquisition",
+        "offerActionTypes": [
+          "Acquisition",
+          "Upsell"
+        ],
+        "environment": "",
+        "rank": "30",
+        "descriptionsByKey": {
+          "long-myatt": "Subject to Equipment Lease & Customer Agreement. Taxes, surcharges, add-on programming (including premium channels), protection plan, transactional fees, and Federal Cost Recovery Fee are not included in two-year price guarantee. Visit directv.com/legal/ or call for details. All offers, programming, promotions, pricing, terms, restrictions & conditions subject to change & may be modified, discontinued, or terminated at any time without notice."
+        },
+        "billingCode": "OF_HARD-GEMINILEASE-202311",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "NA",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "OTT",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "cfe809ca-819c-4d30-94e2-44ce26899605",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "cfe809ca-819c-4d30-94e2-44ce26899605",
+                      "code": "HARD-GEMINILEASE-202311",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "60f4091f-8f83-4964-8dc8-0d39a9048a1c",
+                        "key": "video-device"
+                      },
+                      "name": {
+                        "en": "Gemini Air Device(s)"
+                      },
+                      "description": {
+                        "en": "Monthly lease"
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 12000.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 120.0
+                              },
+                              "id": "7b895101-7c23-4715-a70d-279615f07c22",
+                              "startDate": "2019-06-23T18:30:00.000Z",
+                              "endDate": "9999-12-30T18:30:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "contractIndicator": "contract",
+                              "billingReferenceId": "516216",
+                              "gfVersion": 0,
+                              "channel": "contracted",
+                              "contracted": false,
+                              "grandfathered": false
+                            },
+                            {
+                              "value": {
+                                "centAmount": 12000.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 120.0
+                              },
+                              "id": "06e534bc-55a1-4b59-b56d-de5b2240937a",
+                              "startDate": "2020-08-31T18:30:00.000Z",
+                              "endDate": "9999-12-30T18:30:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "contractIndicator": "EDSP",
+                              "billingReferenceId": "516217",
+                              "gfVersion": 0,
+                              "channel": "EDSP",
+                              "contracted": false,
+                              "grandfathered": false
+                            },
+                            {
+                              "value": {
+                                "centAmount": 12000.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 120.0
+                              },
+                              "id": "7177a2ed-7d04-4167-8649-ed4935d093bb",
+                              "startDate": "2022-12-15T08:00:00.000Z",
+                              "endDate": "2050-12-31T08:00:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "proRateFrequency": "daily",
+                              "contractIndicator": "TAZBYOD",
+                              "gfVersion": 0,
+                              "channel": "TAZBYOD",
+                              "contracted": false,
+                              "grandfathered": false
+                            },
+                            {
+                              "value": {
+                                "centAmount": 700.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 7.0
+                              },
+                              "id": "d88935d9-776b-4de3-8fab-3f9310cba33a",
+                              "startDate": "2023-07-19T00:00:00.000Z",
+                              "endDate": "2050-12-31T00:00:00.000Z",
+                              "recurrenceIndicator": true,
+                              "duration": 0,
+                              "period": "month",
+                              "proRateFrequency": "daily",
+                              "contractIndicator": "TAZCONTRACT",
+                              "billingReferenceId": "516217",
+                              "gfVersion": 0,
+                              "channel": "TAZCONTRACT",
+                              "contracted": false,
+                              "grandfathered": false
+                            },
+                            {
+                              "value": {
+                                "centAmount": 1000.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 10.0
+                              },
+                              "id": "4e242efd-7d18-4671-9a73-ca20454c7594",
+                              "startDate": "2023-06-26T07:00:00.000Z",
+                              "endDate": "9999-12-31T07:59:59.000Z",
+                              "recurrenceIndicator": true,
+                              "duration": 0,
+                              "period": "month",
+                              "proRateFrequency": "Daily",
+                              "contractIndicator": "RR",
+                              "billingReferenceId": "323232",
+                              "gfVersion": 0,
+                              "channel": "RR",
+                              "contracted": false,
+                              "grandfathered": false
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "Gemini Air Device(s)"
+                            },
+                            "displayNamesByKey": {
+                              "name-cpc": "Gemini Air Device(s)",
+                              "name-partner": "Gemini Air Device(s)"
+                            },
+                            "descriptionsByKey": {
+                              "short-opus": "Monthly lease fee per device. All leased devices must be returned if services are terminated. Lease is only option for new customers.",
+                              "short-myatt": "Monthly lease fee per device. All leased devices must be returned if services are terminated. Lease is only option for new customers.",
+                              "long-myatt": "Customers who subscribed before 3/18/2025 will be charged $7/month per additional device. Customers who subscribed on or after 3/18/2025 will be charged $10/month per additional device. State and local taxes or other governmental fees and charges may apply including any such taxes, fees or charges assessed against discounted fees or service credits. Equipment Non-Return-Fees If service is cancelled within the first 14 days of ordering, you must return the included and leased device to avoid a $120 non-return of device fee. A full refund of charges will be applied, and when applicable, the early termination fees will be waived. If service is canceled after 14 days, you can continue to access DIRECTV through the end of the bill period, but there is no refund or credit for partial-month or unwatched content.",
+                              "description-cpc": "Monthly lease fee per device. All leased devices must be returned if services are terminated. Lease is only option for new customers.",
+                              "short-partner": "Monthly lease fee per device. All leased devices must be returned if services are terminated. Lease is only option for new customers.",
+                              "long-partner": "Customers who subscribed before 3/18/2025 will be charged $7/month per additional device. Customers who subscribed on or after 3/18/2025 will be charged $10/month per additional device. State and local taxes or other governmental fees and charges may apply including any such taxes, fees or charges assessed against discounted fees or service credits. Equipment Non-Return-Fees If service is cancelled within the first 14 days of ordering, you must return the included and leased device to avoid a $120 non-return of device fee. A full refund of charges will be applied, and when applicable, the early termination fees will be waived. If service is canceled after 14 days, you can continue to access DIRECTV through the end of the bill period, but there is no refund or credit for partial-month or unwatched content."
+                            },
+                            "billingProductCode": "HARD-GEMINILEASE-202311",
+                            "billingProductId": "371099",
+                            "startDate": "2019-04-16T18:30:00.000Z",
+                            "endDate": "9999-12-30T18:30:00.000Z",
+                            "businessSegment": [
+                              "CONS"
+                            ],
+                            "opusDisclosureMessage": "If service is cancelled you must return included and leased device within 14 days to avoid a non-return fee of $120 per device. DIRECTV devices are subject to equipment lease and DIRECTV via Internet Customer agreement. Taxes and any payment of a one-time credit fee, if applicable, are due at time of sale.",
+                            "myAttDisclosureMessage": "If service is cancelled you must return included and leased device within 14 days to avoid a non-return fee of $120 per device. DIRECTV devices are subject to equipment lease and DIRECTV via Internet Customer agreement. Taxes and any payment of a one-time credit fee, if applicable, are due at time of sale.",
+                            "productFamily": "OTT",
+                            "removalRule": {
+                              "channel": [],
+                              "accountType": [
+                                "NONE"
+                              ]
+                            },
+                            "secondaryBillingProductId": "7534713770",
+                            "discountSku": "7088A",
+                            "equipmentSku": "60298",
+                            "contractApplicable": "contract",
+                            "contractIndicator": [
+                              "TAZCONTRACT"
+                            ],
+                            "minQuantity": "1",
+                            "minMaxQuantity": [
+                              {
+                                "maxQuantity": "6",
+                                "minQuantity": "1",
+                                "contractApplicable": [
+                                  "TAZCONTRACT"
+                                ]
+                              }
+                            ],
+                            "customerSegments": [
+                              "Employee"
+                            ],
+                            "deliverymethod": [
+                              "Enjoy",
+                              "DF"
+                            ],
+                            "deviceType": "ATTTV",
+                            "deliveryMethodByChannels": [
+                              {
+                                "salesChannel": [
+                                  "directvOnline"
+                                ],
+                                "customerSegments": [
+                                  "Residential",
+                                  "Mobility"
+                                ],
+                                "deliveryMethod": [
+                                  "DF"
+                                ]
+                              }
+                            ],
+                            "conflictingProducts": [
+                              {
+                                "typeId": "product",
+                                "id": "ea13aebe-ab23-4330-9b12-56389bd97724",
+                                "key": "REFURB-OSPREY-092021"
+                              }
+                            ],
+                            "migratedProduct": true,
+                            "disclosureMessagesByKey": {
+                              "onlineDisclosure": "If service is cancelled you must return included and leased device within 14 days to avoid a non-return fee of $120 per device. DIRECTV devices are subject to equipment lease and DIRECTV via Internet Customer agreement. Taxes and any payment of a one-time credit fee, if applicable, are due at time of sale.",
+                              "opusDisclosure": "If service is cancelled you must return included and leased device within 14 days to avoid a non-return fee of $120 per device. DIRECTV devices are subject to equipment lease and DIRECTV via Internet Customer agreement. Taxes and any payment of a one-time credit fee, if applicable, are due at time of sale.",
+                              "opusDisclosureForServices": "If service is cancelled you must return included and leased device within 14 days to avoid a non-return fee of $120 per device. DIRECTV devices are subject to equipment lease and DIRECTV via Internet Customer agreement. Taxes and any payment of a one-time credit fee, if applicable, are due at time of sale.",
+                              "onlineDisclosureForServices": "If service is cancelled you must return included and leased device within 14 days to avoid a non-return fee of $120 per device. DIRECTV devices are subject to equipment lease and DIRECTV via Internet Customer agreement. Taxes and any payment of a one-time credit fee, if applicable, are due at time of sale."
+                            },
+                            "deviceState": "Lease",
+                            "warrantyDuration": "24"
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "video-device",
+                    "key": "HARD-GEMINILEASE-202311"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [
+          {
+            "benefitCategory": "Dependent",
+            "billingBenefitId": "320045",
+            "id": "408afe12-4a74-4511-83f9-92043a83ecc1",
+            "parentOffers": [
+              {
+                "typeId": "product",
+                "id": "3f77fd67-4c05-4b16-8483-b0c388d123a3"
+              },
+              {
+                "typeId": "product",
+                "id": "23db2e10-ad02-4cf2-a256-616f48ea2f13"
+              },
+              {
+                "typeId": "product",
+                "id": "0bccdb24-c2f1-4915-8297-540f961fc16f"
+              },
+              {
+                "typeId": "product",
+                "id": "163a8e03-cb75-436b-8a23-f5089c9c3a40"
+              }
+            ],
+            "code": "DGEMINILEASE",
+            "billingBenefitCode": "DGEMINILEASE",
+            "benefitName": {
+              "en": "Gemini Air Device(s)"
+            },
+            "benefitDisplayName": {
+              "en": "$0 Gemini Air lease device included  <br></br> <b>Plus taxes and fees. Requires 24 month agreement</b><br></br> <b>Advanced Receiver Service Fee $15/mo. and Regional Sports Fee up to $15.99/mo. (with the selection of Choice or higher) are extra and apply.</b>"
+            },
+            "benefitRank": 10,
+            "description": {
+              "en": "Gemini Air Device(s)"
+            },
+            "startDate": "2023-01-26T08:00:00.000Z",
+            "retIoApplicableProducts": false,
+            "endDate": "2050-12-31T05:00:00.000Z",
+            "contractIndicator": "all",
+            "selfBenefit": false,
+            "duration": 0,
+            "period": "NoOfDays",
+            "billAfterPeriod": false,
+            "applicableProducts": [
+              {
+                "products": [
+                  {
+                    "id": "cfe809ca-819c-4d30-94e2-44ce26899605",
+                    "typeId": "product",
+                    "productType": "video-device",
+                    "key": "HARD-GEMINILEASE-202311"
+                  }
+                ]
+              }
+            ],
+            "maxOccurrence": 0,
+            "benefitType": "free-trial",
+            "value": {
+              "percentage": 0
+            },
+            "freeTrialPromo": false,
+            "ioOffer": true,
+            "freeTrialDuration": 0,
+            "agentOffer": true,
+            "minQuantity": 0,
+            "promoPriority": 0,
+            "salesChannel": "agentNew|selfServiceNew",
+            "benefitLevel": "product",
+            "displayNameforServices": "Gemini Air Device(s)",
+            "notApplibaleForOffer": false,
+            "enableServiceDisconnect": false,
+            "rtpIndicator": false,
+            "portin": false,
+            "quotaBased": false,
+            "migrated": true,
+            "couponPromo": false,
+            "active": true,
+            "isDependentPromo": false,
+            "isMigrated": true,
+            "isQuotaBased": false,
+            "isActive": true
+          },
+          {
+            "benefitCategory": "Product",
+            "id": "be20baba-6878-45ff-a715-a2b9a3cdd4d2",
+            "parentOffers": [
+              {
+                "typeId": "product",
+                "id": "163a8e03-cb75-436b-8a23-f5089c9c3a40"
+              }
+            ],
+            "code": "FREELEASE2023",
+            "billingBenefitCode": "FREELEASE2023",
+            "benefitName": {
+              "en": "$0 included lease device"
+            },
+            "benefitDisplayName": {
+              "en": "$0 Gemini Air lease device included  <br></br> <b>Plus taxes and fees. Requires 24 month agreement</b><br></br> <b>Advanced Receiver Service Fee $15/mo. and Regional Sports Fee up to $15.99/mo. (with the selection of Choice or higher) are extra and apply.</b>"
+            },
+            "benefitRank": 0,
+            "description": {
+              "en": "$0 included lease device"
+            },
+            "opusDisclosureMessage": "<p>Any DIRECTV via Internet leased device along with the $0 included device must be returned within 14 days of service end date to avoid a non-return fee of $120 per device.<br>Leased DIRECTV via Internet devices can be returned within 14 days of purchase for a full refund. Details at directv.com/CancellationPolicyStream.<br>DIRECTV devices are subject to equipment lease and DIRECTV via Internet Customer agreement.<br>Taxes and any payment of a one-time credit fee, if applicable, are due at time of sale.<br></p>",
+            "myAttDisclosureMessage": "<p>$0 included leased device must be returned to avoid a non-return fee of $120.<br> If you cancel your service within the first 14 days of purchasing service: You must return your leased equipment within 14 days from when you received it if in person or it was shipped to you. If you cancel your service after the first 14 days of purchasing service: You have 14 days from the effective date to return your leased equipment. Details at <a href='https: //www.directv.com/CancellationPolicyStream'  target='_blank'>directv.com/CancellationPolicyStream</a><br></p>",
+            "disclosureMessagesByKey": {
+              "opusDisclosure": "<p>Any DIRECTV via Internet leased device along with the $0 included device must be returned within 14 days of service end date to avoid a non-return fee of $120 per device.<br>Leased DIRECTV via Internet devices can be returned within 14 days of purchase for a full refund. Details at directv.com/CancellationPolicyStream.<br>DIRECTV devices are subject to equipment lease and DIRECTV via Internet Customer agreement.<br>Taxes and any payment of a one-time credit fee, if applicable, are due at time of sale.<br></p>",
+              "onlineDisclosure": "<p>$0 included leased device must be returned to avoid a non-return fee of $120.<br> If you cancel your service within the first 14 days of purchasing service: You must return your leased equipment within 14 days from when you received it if in person or it was shipped to you. If you cancel your service after the first 14 days of purchasing service: You have 14 days from the effective date to return your leased equipment. Details at <a href='https://www.directv.com/CancellationPolicyStream'  target='_blank'>directv.com/CancellationPolicyStream</a><br></p>"
+            },
+            "startDate": "2022-07-01T07:00:00.000Z",
+            "retIoApplicableProducts": false,
+            "contractIndicator": "TAZCONTRACT",
+            "selfBenefit": true,
+            "duration": 0,
+            "period": "LifeTime",
+            "billAfterPeriod": false,
+            "applicableProducts": [
+              {
+                "products": [
+                  {
+                    "id": "cfe809ca-819c-4d30-94e2-44ce26899605",
+                    "typeId": "product",
+                    "productType": "video-device",
+                    "key": "HARD-GEMINILEASE-202311"
+                  }
+                ]
+              }
+            ],
+            "maxOccurrence": 1,
+            "benefitType": "free-promo",
+            "value": {
+              "percentage": 0
+            },
+            "customerClassification": "NewCustomer",
+            "freeTrialPromo": false,
+            "ioOffer": true,
+            "freeTrialDuration": 0,
+            "agentOffer": true,
+            "minQuantity": 0,
+            "promoPriority": 0,
+            "longDescriptionforServices": "$0 included leased device is Subject to Equipment Lease Agreement and DIRECTV Residential Terms of Service.$0 included lease device must be returned within 14 days of service cancellation to avoid a nonreturn fee of $120 per device. Visit <a href='https://www.directv.com/legal' target='_blank'> directv.com/legal/</a>or call for details. ",
+            "shortDescriptionforServices": "$0 included lease device",
+            "shortDescriptionforOpus": "$0 included leased device included with the service. Customer must return this device if they terminate their service.",
+            "shortDescription": "$0 included lease device",
+            "displayNameforServices": "$0 included lease device",
+            "notApplibaleForOffer": false,
+            "enableServiceDisconnect": false,
+            "rtpIndicator": false,
+            "portin": false,
+            "quotaBased": false,
+            "migrated": false,
+            "couponPromo": false,
+            "active": true,
+            "isDependentPromo": false,
+            "isMigrated": false,
+            "isQuotaBased": false,
+            "isActive": true
+          }
+        ],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "salesChannel": [
+                "directIntegrationPartner",
+                "opus",
+                "partner",
+                "directvOnline"
+              ],
+              "businessSegment": [
+                "CONS"
+              ]
+            }
+          ]
+        },
+        "offerPromos": [
+          [
+            {
+              "value": "04/30/2019",
+              "name": "startDateStr"
+            },
+            {
+              "value": "04/30/9999",
+              "name": "endDateStr"
+            },
+            {
+              "value": "DGEMINILEASE",
+              "name": "promoId"
+            }
+          ],
+          [
+            {
+              "value": "FREELEASE2023",
+              "name": "promoId"
+            },
+            {
+              "value": "04/30/2019",
+              "name": "startDateStr"
+            },
+            {
+              "value": "12/31/9999",
+              "name": "endDateStr"
+            }
+          ]
+        ],
+        "leadOffer": false,
+        "contractIndicator": "TAZCONTRACT",
+        "directIntegrationPartnerName": [
+          "ENGA-THIRDPARTYSALES",
+          "ENGA-SARAPLUS",
+          "ENGA-CHUZO"
+        ],
+        "offerIntents": [
+          "migration",
+          "non-migration"
+        ],
+        "offerClassificationType": "non-replacement-device",
+        "offerPreselectDesignation": "Optional",
+        "recommendedOfferOPUS": false,
+        "excludedPartners": [
+          "ROKUTV",
+          "FIRETV"
+        ],
+        "qualifyingProductsBillingProductCode": [
+          "HARD-PENDANT-052022"
+        ],
+        "installmentBiller": "DIRECTV",
+        "recommendedOnline": false,
+        "reconnectEligibleOffer": [
+          {
+            "typeId": "offer",
+            "id": "0bccdb24-c2f1-4915-8297-540f961fc16f",
+            "key": "OF_HARD-GEMINILEASE-202311_TAZCONTRACT_RECONN"
+          }
+        ],
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isBulkOffer": false,
+        "isSpecialOffer": false,
+        "eligibilityCreditRisk": [
+          "Unknown",
+          "High",
+          "Medium",
+          "Low"
+        ]
+      }
+    }
+
+  ]
+}

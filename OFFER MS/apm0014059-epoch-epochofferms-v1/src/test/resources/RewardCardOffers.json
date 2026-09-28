@@ -1,0 +1,566 @@
+{
+    "limit": 0,
+    "offset": 0,
+    "count": 2,
+    "total": 2,
+    "offers": [
+      {
+        "id": "52813bb5-c83c-43c7-8080-f676f51c296e",
+        "code": "OF_TESTREWARD",
+        "status": "live",
+        "name": {
+          "en": "OF_TESTREWARD"
+        },
+        "description": {
+          "en": "OF_TESTREWARD."
+        },
+        "startDate": "2022-04-25T05:00:00.000Z",
+        "endDate": "9999-12-31T05:00:00.000Z",
+        "attributes": {
+          "marketingSrcCode" :[ "DIP"],
+          "offerProductType": "reward",
+          "offerProductTypes": [
+            "reward"
+          ],
+          "offerProductFamily": "OTT",
+          "offerProductFamilies": [
+            "OTT"
+          ],
+          "offerType": "multi-benefit",
+          "offerActionType": "Acquisition",
+          "offerActionTypes": [
+            "Acquisition"
+          ],
+          "rank": "10",
+          "displayName": {
+            "en": "TESTREWARD"
+          },
+          "opusDisclosureMessage": "READ TO CUSTOMER TO GAIN CONSENT: $2 off AMC+. Requires account to stay in good standing. If you cancel your service, you will no longer be eligible for this offer. You can go online to directv.com to cancel anytime, or call: 800-531-5000. May I add this offer based on these terms?",
+          "myAttDisclosureMessage": "* Requires account to stay in good standing. If you cancel your service, you will no longer be eligible for this offer.",
+          "billingCode": "OF_TESTREWARD",
+          "migratedOffer": true,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "dependent": false,
+                    "anchor": false
+                  }
+                }
+              ],
+              "bundleProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "dependent": false,
+                    "anchor": false
+                  },
+                  "products": [
+                    {
+                      "id": "913a8974-a8da-40cc-9927-14301e303792",
+                      "typeId": "product",
+                      "obj": {
+                        "id": "913a8974-a8da-40cc-9927-14301e303792",
+                        "code": "REWARD-TEST-202311",
+                        "productType": {
+                          "typeId": "product-type",
+                          "id": "f39b093a-9c9d-4ca4-b4e9-ef83c1995156",
+                          "key": "reward"
+                        },
+                        "name": {
+                          "en": "Test Reward Card"
+                        },
+                        "description": {
+                          "en": "Test Reward Card"
+                        },
+                        "categories": [],
+                        "variants": [
+                          {
+                            "id": "1",
+                            "prices": [
+                              {
+                                "value": {
+                                  "centAmount": 0.0,
+                                  "currencyCode": "USD",
+                                  "fractionDigits": 2,
+                                  "dollarAmount": 0.0
+                                },
+                                "id": "1c6b662d-d282-4f70-ace3-9ae7b11a1f6f",
+                                "startDate": "2023-10-18T07:00:00.000Z",
+                                "endDate": "2050-12-31T08:00:00.000Z",
+                                "recurrenceIndicator": false,
+                                "duration": 0,
+                                "period": "month",
+                                "proRateFrequency": "daily",
+                                "contractIndicator": "TAZCONTRACT",
+                                "billingReferenceId": "123456",
+                                "gfVersion": 0,
+                                "grandfathered": false,
+                                "contracted": false
+                              }
+                            ],
+                            "attributes": {
+                              "displayName": {
+                                "en": "Test Reward Card"
+                              },
+                              "displayNamesByKey": {
+                                "services": "Test Reward Card",
+                                "name-cpc": "Test Reward Card"
+                              },
+                              "descriptionsByKey": {
+                                "short-opus": "Test Reward Card",
+                                "long-services": "Test Reward Card",
+                                "short-services": "Test Reward Card",
+                                "long-myatt": "Test Reward Card",
+                                "description-cpc": "Test Reward Card"
+                              },
+                              "billingProductCode": "REWARD-TEST-202311",
+                              "billingProductId": "896255635",
+                              "startDate": "2023-10-25T18:30:00.000Z",
+                              "endDate": "9999-12-30T18:30:00.000Z",
+                              "businessSegment": [
+                                "CONS"
+                              ],
+                              "salesChannel": [
+                                "directvOnline"
+                              ],
+                              "productFamily": "OTT",
+                              "planSubType": "Cross-product",
+                              "displayType": "optional",
+                              "language": "English",
+                              "contractIndicator": [
+                                "TAZCONTRACT"
+                              ],
+                              "subCategory": "reward",
+                              "migratedProduct": false,
+                              "disclosureMessagesByKey": {}
+                            }
+                          }
+                        ]
+                      },
+                      "productType": "reward",
+                      "key": "REWARD-TEST-202311"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "benefits": [],
+          "eligibility": {
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Residential"
+                ],
+                "customerSegment": "Residential",
+                "minimumPurchaseAmount": 0,
+                "salesChannel": [
+                  "directvOnline"
+                ],
+                "businessSegment": [
+                  "CONS"
+                ]
+              }
+            ]
+          },
+          "leadOffer": false,
+          "offerPrice": {
+            "dollarAmount": 0.0
+          },
+          "contractIndicator": "TAZCONTRACT",
+          "offerIntents": [
+            "non-migration"
+          ],
+          "offerPreselectDesignation": "Optional",
+          "recommendedOfferOPUS": false,
+          "customerTypes": ["acquisition"],
+          "videoOfferCategory": "Acquisition Offer",
+          "recommendedOnline": false,
+          "isVirtual": false,
+          "flashSaleOffer": false,
+          "isBulkOffer": false,
+          "isSpecialOffer": true
+        }
+      },
+      {
+        "id": "d11d8e96-7c24-44f8-9f55-0d8a6c0b4af2",
+        "code": "OF_REWARD-400-202311_TAZCONTRACT",
+        "status": "live",
+        "name": {
+          "en": "$400 VISA Reward Card"
+        },
+        "description": {
+          "en": "$400 VISA Reward Card"
+        },
+        "startDate": "2023-11-01T18:30:00.000Z",
+        "endDate": "2050-12-30T18:30:00.000Z",
+        "attributes": {
+          "marketingSrcCode" :[ "DIP"],
+          "offerProductType": "reward",
+          "offerProductTypes": [
+            "reward"
+          ],
+          "offerProductFamily": "OTT",
+          "offerProductFamilies": [
+            "OTT"
+          ],
+          "offerType": "multi-benefit",
+          "offerActionType": "Acquisition",
+          "offerActionTypes": [
+            "Acquisition"
+          ],
+          "displayName": {
+            "en": "$400 VISA Reward Card (Requires Redemption)"
+          },
+          "migratedOffer": false,
+          "associatedProducts": [
+            {
+              "bundleProducts": [
+                {
+                  "constraints": {
+                    "dependent": false,
+                    "anchor": false
+                  },
+                  "products": [
+                    {
+                      "id": "226b8d78-df84-4f1b-a25b-a0ee514ba84e",
+                      "typeId": "product",
+                      "obj": {
+                        "id": "226b8d78-df84-4f1b-a25b-a0ee514ba84e",
+                        "code": "REWARD-400-202311",
+                        "productType": {
+                          "typeId": "product-type",
+                          "id": "f39b093a-9c9d-4ca4-b4e9-ef83c1995156",
+                          "key": "reward"
+                        },
+                        "name": {
+                          "en": "$400 Reward Card"
+                        },
+                        "description": {
+                          "en": "$400 Reward Card"
+                        },
+                        "categories": [],
+                        "variants": [
+                          {
+                            "id": "1",
+                            "prices": [
+                              {
+                                "value": {
+                                  "centAmount": 0.0,
+                                  "currencyCode": "USD",
+                                  "fractionDigits": 2,
+                                  "dollarAmount": 0.0
+                                },
+                                "id": "cc8d3c53-9559-4193-b4e7-19d5bcd1ac80",
+                                "startDate": "2023-10-18T07:00:00.000Z",
+                                "endDate": "2050-12-31T08:00:00.000Z",
+                                "recurrenceIndicator": false,
+                                "duration": 0,
+                                "period": "month",
+                                "proRateFrequency": "daily",
+                                "contractIndicator": "TAZCONTRACT",
+                                "gfVersion": 0,
+                                "grandfathered": false,
+                                "contracted": false
+                              }
+                            ],
+                            "attributes": {
+                              "displayName": {
+                                "en": "$400 Reward Card"
+                              },
+                              "displayNamesByKey": {
+                                "online": "$400 Reward Card",
+                                "opus": "$400 Reward Card",
+                                "services": "$400 Reward Card",
+                                "onlineService": "$400 Reward Card"
+                              },
+                              "descriptionsByKey": {
+                                "short-opus": "$400 Reward Card",
+                                "long-services": "$400 Reward Card",
+                                "short-services": "$400 Reward Card",
+                                "long-myatt": "$400 Reward Card",
+                                "description-cpc": "$400 Reward Card"
+                              },
+                              "billingProductCode": "REWARD-400-202311",
+                              "startDate": "2023-10-25T18:30:00.000Z",
+                              "endDate": "9999-12-30T18:30:00.000Z",
+                              "businessSegment": [
+                                "CONS"
+                              ],
+                              "salesChannel": [
+                                "directvOnline"
+                              ],
+                              "productFamily": "OTT",
+                              "planSubType": "Cross-product",
+                              "displayType": "optional",
+                              "language": "English",
+                              "contractIndicator": [
+                                "TAZCONTRACT"
+                              ],
+                              "subCategory": "reward",
+                              "migratedProduct": false,
+                              "disclosureMessagesByKey": {}
+                            }
+                          }
+                        ]
+                      },
+                      "productType": "reward",
+                      "key": "REWARD-400-202311"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "benefits": [],
+          "eligibility": {
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Residential"
+                ],
+                "customerSegment": "Residential",
+                "minimumPurchaseAmount": 0,
+                "salesChannel": [
+                  "directvOnline",
+                  "directIntegrationPartner"
+                ],
+                "businessSegment": [
+                  "CONS"
+                ],
+                "existingCustomerType": [
+                  "DTVN"
+                ]
+              }
+            ]
+          },
+          "leadOffer": false,
+          "offerPrice": {
+            "dollarAmount": 0.0
+          },
+          "contractIndicator": "TAZCONTRACT",
+          "offerIntents": [
+            "non-migration"
+          ],
+          "offerPreselectDesignation": "Mandatory",
+          "recommendedOfferOPUS": false,
+          "customerTypes": ["acquisition"],
+          "videoOfferCategory": "Acquisition",
+          "recommendedOnline": false,
+          "isVirtual": false,
+          "flashSaleOffer": false,
+          "isBulkOffer": false,
+          "isSpecialOffer": false
+        }
+      }
+    ],
+    "products": [
+    {
+      "id": "913a8974-a8da-40cc-9927-14301e303792",
+      "code": "REWARD-TEST-202311",
+      "name": {
+        "en": "Test Reward Card"
+      },
+      "description": {
+        "en": "Test Reward Card"
+      },
+      "version": 27,
+      "createdAt": "2023-10-26T17:05:09.527Z",
+      "createdBy": {
+        "clientId": "lom_T-CZu3JA2N3osKYl4g74",
+        "isPlatformClient": false
+      },
+      "lastModifiedAt": "2023-10-26T20:34:33.030Z",
+      "lastModifiedBy": {
+        "isPlatformClient": true,
+        "user": {
+          "typeId": "user",
+          "id": "e2d42858-843a-43d1-b52a-171946cb9bfc"
+        }
+      },
+      "status": {
+        "typeId": "state",
+        "id": "97da72df-4bdf-482c-a054-936dfb18df63"
+      },
+      "productType": {
+        "typeId": "product-type",
+        "id": "f39b093a-9c9d-4ca4-b4e9-ef83c1995156",
+        "key": "reward"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": 1,
+          "attributes": {
+            "clearRejections": false,
+            "migratedProduct": false,
+            "productFamily": "OTT",
+            "displayName": {
+              "en": "Test Reward Card"
+            },
+            "billingProductCode": "REWARD-TEST-202311",
+            "businessSegment": [
+              "CONS"
+            ],
+            "displayType": "optional",
+            "salesChannel": [
+              "directvOnline"
+            ],
+            "language": "English",
+            "subCategory": "reward",
+            "evergentProdCategory": "reward",
+            "descriptionsByKey": {
+              "short-opus": "Test Reward Card",
+              "short-services": "Test Reward Card",
+              "long-services": "Test Reward Card",
+              "long-myatt": "Test Reward Card",
+              "description-cpc": "Test Reward Card"
+            },
+            "displayNamesByKey": {
+              "services": "Test Reward Card",
+              "name-cpc": "Test Reward Card"
+            },
+            "startDate": "2023-10-25T18:30:00.000Z",
+            "endDate": "9999-12-30T18:30:00.000Z",
+            "planSubType": "Cross-product",
+            "billingProductId": "896255635",
+            "contractIndicator": [
+              "TAZCONTRACT"
+            ],
+            "disclosureMessagesByKey": {},
+            "partnerKeys": []
+          },
+          "prices": [
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 0,
+                "fractionDigits": 2,
+                "dollarAmount": "0.00"
+              },
+              "id": "1c6b662d-d282-4f70-ace3-9ae7b11a1f6f",
+              "startDate": "2023-10-18T07:00:00.000Z",
+              "endDate": "2050-12-31T08:00:00.000Z",
+              "channel": "TAZCONTRACT",
+              "recurrenceIndicator": false,
+              "contractIndicator": "TAZCONTRACT",
+              "period": "month",
+              "proRateFrequency": "daily",
+              "isGrandfathered": false,
+              "billingReferenceId": "123456"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "226b8d78-df84-4f1b-a25b-a0ee514ba84e",
+      "code": "REWARD-400-202311",
+      "name": {
+        "en": "$400 Reward Card"
+      },
+      "description": {
+        "en": "$400 Reward Card"
+      },
+      "version": 28,
+      "createdAt": "2023-10-26T18:20:30.907Z",
+      "createdBy": {
+        "clientId": "lom_T-CZu3JA2N3osKYl4g74",
+        "isPlatformClient": false
+      },
+      "lastModifiedAt": "2024-05-02T12:01:49.757Z",
+      "lastModifiedBy": {
+        "isPlatformClient": true,
+        "user": {
+          "typeId": "user",
+          "id": "8b9bf4df-9f2f-4fc7-a68a-7e8ee9f37335"
+        }
+      },
+      "status": {
+        "typeId": "state",
+        "id": "97da72df-4bdf-482c-a054-936dfb18df63"
+      },
+      "productType": {
+        "typeId": "product-type",
+        "id": "f39b093a-9c9d-4ca4-b4e9-ef83c1995156",
+        "key": "reward"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": 1,
+          "attributes": {
+            "clearRejections": false,
+            "migratedProduct": false,
+            "productFamily": "OTT",
+            "displayName": {
+              "en": "$400 Reward Card"
+            },
+            "billingProductCode": "REWARD-400-202311",
+            "businessSegment": [
+              "CONS"
+            ],
+            "displayType": "optional",
+            "salesChannel": [
+              "directvOnline"
+            ],
+            "language": "English",
+            "subCategory": "reward",
+            "evergentProdCategory": "reward",
+            "descriptionsByKey": {
+              "short-opus": "$400 Reward Card",
+              "short-services": "$400 Reward Card",
+              "long-services": "$400 Reward Card",
+              "long-myatt": "$400 Reward Card",
+              "description-cpc": "$400 Reward Card"
+            },
+            "displayNamesByKey": {
+              "OPUS": "$400 Reward Card",
+              "onlineService": "$400 Reward Card",
+              "online": "$400 Reward Card",
+              "services": "$400 Reward Card"
+            },
+            "startDate": "2023-10-25T18:30:00.000Z",
+            "endDate": "9999-12-30T18:30:00.000Z",
+            "planSubType": "Cross-product",
+            "compatibleProducts": [
+              {
+                "constraints": {}
+              }
+            ],
+            "contractIndicator": [
+              "TAZCONTRACT"
+            ],
+            "disclosureMessagesByKey": {},
+            "partnerKeys": []
+          },
+          "prices": [
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 0,
+                "fractionDigits": 2,
+                "dollarAmount": "0.00"
+              },
+              "id": "cc8d3c53-9559-4193-b4e7-19d5bcd1ac80",
+              "startDate": "2023-10-18T07:00:00.000Z",
+              "endDate": "2050-12-31T08:00:00.000Z",
+              "channel": "TAZCONTRACT",
+              "recurrenceIndicator": false,
+              "contractIndicator": "TAZCONTRACT",
+              "period": "month",
+              "proRateFrequency": "daily",
+              "isGrandfathered": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+    "partners": []
+}

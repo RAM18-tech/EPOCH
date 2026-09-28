@@ -1,0 +1,118 @@
+{
+    "limit": 300,
+    "count": 1,
+    "total": 1,
+    "products": [
+        {
+            "id": "5c010e39-3e81-4501-a46e-1968874d8999",
+            "code": "BASE-FAMILY_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "cb512bc7-05aa-4d02-896c-bcfb3487c5da",
+                "key": "video-plan"
+            },
+            "name": {
+                "en": "FAMILY"
+            },
+            "description": {
+                "en": " Over \"sd_channels\"50 channels | Local channels included at no extra chargeEligibility based on service address. | "
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "sku": "P6030",
+                    "key": "P6030",
+                    "prices": [
+                        {
+                            "value": {
+                                "centAmount": 3099.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 30.99
+                            },
+                            "id": "67b8892b-9887-4f02-a71c-4dc829c47a77",
+                            "startDate": "2022-02-06T00:00:00.000Z",
+                            "endDate": "2050-12-31T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "billingReferenceId": "1",
+                            "gfVersion": 0,
+                            "businessSegment": "residential",
+                            "chargeType": "mrc",
+                            "grandfatherVersion": 0,
+                            "omsFreeSTBPolicyId": "DVANA1",
+                            "omsProductId": "2428",
+                            "contracted": false,
+                            "grandfathered": false
+                        }
+                    ],
+                    "attributes": {
+                        "displayName": {
+                            "en": "FAMILY"
+                        },
+                        "displayRanking": 15,
+                        "billingProductCode": "P6030",
+                        "billingCode": "P6030",
+                        "startDate": "2006-01-05T01:30:00.000Z",
+                        "endDate": "2006-01-05T01:30:00.000Z",
+                        "salesChannel": [
+                            "opusServices",
+                            "opusSales",
+                            "onlineServices",
+                            "onlineSales",
+                            "opus",
+                            "online"
+                        ],
+                        "productFamily": "satellite",
+                        "numberOfChannels": "55+ digital channels",
+                        "language": "English",
+                        "productStatus": "Grandfather",
+                        "downgradeableRule": "1",
+                        "contractApplicable": "noncontract",
+                        "contractIndicator": [
+                            "non-contract"
+                        ],
+                        "omsComponentMapping": [
+                            {
+                                "attributes": [
+                                    {
+                                        "attributeCode": "BasePkg",
+                                        "attributeValue": "Family"
+                                    }
+                                ],
+                                "componentCode": "ATTDTV",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV"
+                            }
+                        ],
+                        "customerSegments": [
+                            "Residential"
+                        ],
+                        "hasLocalChannels": true,
+                        "planType": "Standard",
+                        "migratedProduct": false,
+                        "isChangeable": true,
+                        "omsProductCode": "Family",
+                        "orderingMethod": "addToCart",
+                        "enablerPricePlanCode": "88834804",
+                        "tokens": "FAMILY",
+                        "chargeCode": "DTVFAM",
+                        "isWorldDirect": false,
+                        "maxSTBsWired": 5,
+                        "maxDVRs": 1,
+                        "maxSTBsWIFI": 5,
+                        "maxSTBsWithServer": 8,
+                        "billingParams": [
+                            {
+                                "value": "Family",
+                                "name": "BasePkg"
+                            }
+                        ],
+                        "productImages": "DTV-FAMILY"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,606 @@
+import com.dtv.dcp.epoch.model.ct.request.CartOffer;
+import com.dtv.dcp.epoch.model.common.CartProduct;
+import com.dtv.dcp.epoch.model.common.request.CartContexts;
+import com.dtv.dcp.epoch.model.common.CartPromotion;
+import com.dtv.dcp.epoch.model.common.request.CouponOffersRequest;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.HashSet;
+import java.util.stream.Collectors;
+import java.util.*;
+import java.util.Map.Entry;
+import java.util.HashMap;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.apache.commons.collections.CollectionUtils;
+import com.dtv.dcp.epoch.model.ct.response.CTProductResponse;
+import com.dtv.dcp.epoch.model.message.Message;
+import com.dtv.dcp.epoch.model.message.MessageDetail;
+import com.dtv.dcp.epoch.model.common.response.CartItems;
+import com.dtv.dcp.epoch.model.common.Promotion;
+
+global java.util.ArrayList cartItems;
+global java.util.ArrayList compatiblePrdSku1;
+global java.util.ArrayList compatiblePrdSku2;
+global java.util.ArrayList compliancePrdKey;
+global java.util.ArrayList compliancePrdKeyForPromoInRequest;
+global java.lang.String SPACK1SKU;
+global java.lang.String SPACK2SKU;
+global java.lang.String SPACKLTPPROMO;
+global java.lang.String requestSpackSKU;
+global java.lang.String requestSpackAction;
+global java.lang.String requestSpackPromoSKU;
+global java.lang.String requestSpackPromoAction;
+global java.util.HashMap offerOrProductToRemoveList;
+global java.util.Map getGroupingByProductGrpMap;
+global java.util.Map productCodeWithNameMap;
+global Logger log;
+
+
+/**
+ * This rule checks if there are any CartProduct objects in the cartProducts list with a productCode that is not equal to SPACK1SKU and SPACK2SKU.
+ * If such CartProduct objects exist, it prints some information and adds new CartItems objects to the cartItems list for each of these CartProduct objects.
+ */
+rule "Adding other cart Products which is not spack1 and spack2"
+salience 1000
+    when
+        CouponOffersRequest($cartContext: cartContext);
+        CartContexts($cartProducts: cartProducts) from $cartContext;
+        $basicObject: List() from collect(CartProduct(productCode != SPACK1SKU && productCode != SPACK2SKU) from $cartProducts);
+        eval($basicObject.size() > 0)
+    then
+        //System.out.println("RULE 1");
+        //System.out.println($basicObject);
+        for(Object obj : $basicObject) {
+            CartProduct product = (CartProduct) obj;
+            CartItems $cartItem = new CartItems();
+            $cartItem.setProductCode(product.getProductCode());
+            $cartItem.setAction(product.getAction());
+
+            if(product.getPromotions() != null) {
+              List<Promotion> $promoList = new ArrayList<>();
+                for(Object cartPromo : product.getPromotions()) {
+                    CartPromotion $cartPromotion = (CartPromotion) cartPromo;
+                     Promotion $promo = new Promotion();
+                     $promo.setPromotionId($cartPromotion.getPromotionId());
+                     $promo.setAction($cartPromotion.getAction());
+                     $promoList.add($promo);
+                     $cartItem.setPromotions($promoList);
+              }
+            }
+            cartItems.add($cartItem);
+
+        }
+end;
+/**
+ * This rule checks if there is a CartProduct with productCode equal to SPACK1SKU or SPACK2SKU and action "add" in the cartProducts list and if there's a CartProduct object with productCode contained in compatiblePrdSku1.
+ * If these conditions are met, it prints some information, determines the right and wrong SKU, adjusts the promotions, and adds a new CartItems object to the cartItems list.
+ */
+
+rule "Rightsize SKU and promotions When spack1 or spack 2 active on account && request does not contains premier bridge package "
+salience 995
+    when
+        $request: CouponOffersRequest($cartContext: cartContext);
+        $cartContext1: CartContexts($cartProducts: cartProducts) from $cartContext;
+        $requestSKU: CartProduct(productCode == SPACK1SKU || productCode == SPACK2SKU) from $cartProducts;
+        $checkForBasepkg: CartProduct(compatiblePrdSku1.contains(productCode)  || compatiblePrdSku2.contains(productCode))from $cartProducts;
+        $upgradeList: List() from collect(CartProduct(compliancePrdKey.contains(productCode))from $cartProducts);
+        eval($requestSKU != null && $checkForBasepkg != null && $upgradeList.size() ==0)
+    then
+
+    //System.out.println("RULE 2");
+    //System.out.println("Request SKU: " + $requestSKU.getProductCode());
+    //System.out.println("Check for Basepkg: " + $checkForBasepkg.getProductCode());
+        String rightSKU = null;
+        String wrongSKU = null;
+        List<Promotion> promosToAdd = new ArrayList<>();
+        List<Promotion> promosToRemove = new ArrayList<>();
+
+        // rightsize the product SKU
+        if (compatiblePrdSku1.contains($checkForBasepkg.getProductCode())) {
+            //System.out.println("INSIDE FIRST IF");
+            rightSKU = SPACK1SKU;
+            wrongSKU = SPACK2SKU;
+        } else {
+            rightSKU = SPACK2SKU;
+            wrongSKU = SPACK1SKU;
+        }
+
+        //System.out.println("Right SKU: " + rightSKU + "    Wrong SKU: " + wrongSKU);
+        requestSpackSKU = $requestSKU.getProductCode();
+        requestSpackAction = $requestSKU.getAction();
+        if($requestSKU.getPromotions() != null && $requestSKU.getPromotions().size() > 0){
+            for(Object obj : $requestSKU.getPromotions()){
+                CartPromotion cartPromo = (CartPromotion) obj;
+                requestSpackPromoSKU = cartPromo.getPromotionId();
+                requestSpackPromoAction = cartPromo.getAction();
+                }
+        }
+        if(requestSpackAction.equals("Remove")){
+            if(requestSpackPromoSKU == null){
+                 //System.out.println("INSIDE IF -0");
+                cartItems.add(setCartItems(requestSpackSKU, requestSpackAction, null, null));
+            }else{
+                 //System.out.println("INSIDE IF -1");
+                 cartItems.add(setCartItems(requestSpackSKU, requestSpackAction, requestSpackPromoSKU, "Remove"));
+            }
+        }else if(requestSpackPromoSKU == null && requestSpackSKU.equals(rightSKU)){
+                //System.out.println("INSIDE IF -2");
+            cartItems.add(setCartItems(requestSpackSKU, requestSpackAction, null, null));
+        }else if(requestSpackPromoSKU == null && !requestSpackSKU.equals(rightSKU)){
+             //System.out.println("INSIDE IF -3");
+            cartItems.add(setCartItems(rightSKU, "Add", null, null));
+            cartItems.add(setCartItems(requestSpackSKU, "Remove", null, null));
+        }else if(requestSpackPromoSKU != null && requestSpackSKU.equals(rightSKU)){
+            if(compliancePrdKeyForPromoInRequest != null && (compliancePrdKeyForPromoInRequest.contains(rightSKU) || compliancePrdKeyForPromoInRequest.contains($checkForBasepkg.getProductCode()))){
+                 //System.out.println("INSIDE IF -4");
+                 cartItems.add(setCartItems(requestSpackSKU, requestSpackAction, requestSpackPromoSKU, requestSpackPromoAction));
+                }else{
+                    //System.out.println("INSIDE ELSE -5");
+                 cartItems.add(setCartItems(requestSpackSKU, requestSpackAction, requestSpackPromoSKU,"Remove"));
+                }
+        }else if(requestSpackPromoSKU != null && !requestSpackSKU.equals(rightSKU)){
+            if(compliancePrdKeyForPromoInRequest != null && (compliancePrdKeyForPromoInRequest.contains(rightSKU) || compliancePrdKeyForPromoInRequest.contains($checkForBasepkg.getProductCode()))){
+                //System.out.println("INSIDE IF -6");
+                //Purposely adding null to the promos below as Evergent already has rules to carry forward the promos.
+                if(requestSpackAction.equals("NoChange")){
+                    cartItems.add(setCartItems(rightSKU, "Add", null, null));
+                    cartItems.add(setCartItems(requestSpackSKU, "Remove", null, null));
+                }else{
+                    cartItems.add(setCartItems(rightSKU, "Add", requestSpackPromoSKU, "Add"));
+                    cartItems.add(setCartItems(requestSpackSKU, "Remove", requestSpackPromoSKU, "Remove"));
+                }
+            }else{
+                //System.out.println("INSIDE ELSE -7");
+                cartItems.add(setCartItems(rightSKU, "Add", null, null));
+                cartItems.add(setCartItems(requestSpackSKU, "Remove", requestSpackPromoSKU, "Remove"));
+            }
+        }
+
+        //System.out.println("CartItems size: " + cartItems.size());
+
+end;
+
+
+rule "Rightsize SKU and promotions When spack1 or spack 2 active on account && request contains premier bridge package "
+salience 990
+    when
+       $request: CouponOffersRequest($cartContext: cartContext);
+       $cartContext1: CartContexts($cartProducts: cartProducts) from $cartContext;
+       $requestSKU: CartProduct(productCode == SPACK1SKU || productCode == SPACK2SKU) from $cartProducts;
+       $checkForBasepkg: CartProduct(compatiblePrdSku1.contains(productCode)  || compatiblePrdSku2.contains(productCode))from $cartProducts;
+       $upgradeList: List() from collect(CartProduct(compliancePrdKey.contains(productCode))from $cartProducts);
+       eval($requestSKU != null && $checkForBasepkg != null && $upgradeList.size() >0)
+    then
+    //System.out.println("RULE 3");
+    //System.out.println("Request SKU: " + $requestSKU.getProductCode());
+    //System.out.println("Check for Basepkg: " + $checkForBasepkg.getProductCode());
+        String rightSKU = null;
+        String wrongSKU = null;
+        List<Promotion> promosToAdd = new ArrayList<>();
+        List<Promotion> promosToRemove = new ArrayList<>();
+
+        // rightsize the product SKU
+        if (compatiblePrdSku1.contains($checkForBasepkg.getProductCode())) {
+            //System.out.println("INSIDE FIRST IF");
+            rightSKU = SPACK1SKU;
+            wrongSKU = SPACK2SKU;
+        } else {
+            rightSKU = SPACK2SKU;
+            wrongSKU = SPACK1SKU;
+        }
+         //System.out.println("Right SKU: " + rightSKU + "    Wrong SKU: " + wrongSKU);
+
+         requestSpackSKU = $requestSKU.getProductCode();
+         requestSpackAction = $requestSKU.getAction();
+         if($requestSKU.getPromotions() != null && $requestSKU.getPromotions().size() > 0){
+            for(Object obj : $requestSKU.getPromotions()){
+                CartPromotion cartPromo = (CartPromotion) obj;
+                requestSpackPromoSKU = cartPromo.getPromotionId();
+                requestSpackPromoAction = cartPromo.getAction();
+            }
+         }
+
+                if (requestSpackPromoSKU == null && requestSpackSKU.equals(rightSKU)) {
+                    //System.out.println("INSIDE IF -0");
+                    if (SPACKLTPPROMO == null) {
+                        //System.out.println("INSIDE FIRST IF -1");
+                        // Return requestSpackSKU + requestSpackAction
+                        cartItems.add(setCartItems(requestSpackSKU, requestSpackAction, null, null));
+                    } else if (SPACKLTPPROMO != null && requestSpackAction.equals("Remove")) {
+                        // Return requestSpackSKU with action 'NoChange' && SPACKLTPPROMO with action 'add'
+                        //System.out.println("INSIDE ELSE IF -2");
+                        cartItems.add(setCartItems(requestSpackSKU, "NoChange", SPACKLTPPROMO, "Add"));
+                    } else {
+                        // Return requestSpackSKU + requestSpackAction && SPACKLTPPROMO with action 'add'
+                        //System.out.println("INSIDE ELSE -3");
+                        cartItems.add(setCartItems(requestSpackSKU, requestSpackAction, SPACKLTPPROMO, "Add"));
+                    }
+                } else if (requestSpackPromoSKU == null && !requestSpackSKU.equals(rightSKU)) {
+                    if (SPACKLTPPROMO == null && requestSpackAction.equals("Remove")) {
+                        // Return requestSpackSKU + requestSpackAction
+                        //System.out.println("INSIDE IF -4");
+                        cartItems.add(setCartItems(requestSpackSKU, requestSpackAction, null, null));
+                    } else if (SPACKLTPPROMO == null && !requestSpackAction.equals("Remove")) {
+                        //System.out.println("INSIDE ELSE IF -5");
+                        // Return requestSpackSKU with action 'remove'; Return rightSKU + requestSpackAction;
+                        cartItems.add(setCartItems(requestSpackSKU, "Remove", null, null));
+                        cartItems.add(setCartItems(rightSKU, requestSpackAction, null, null));
+
+                    } else {
+                        // Return requestSpackSKU with action 'remove'; Return rightSKU with action 'add' && SPACKLTPPROMO with action 'add'
+                        //System.out.println("INSIDE ELSE -6");
+                        cartItems.add(setCartItems(requestSpackSKU, "Remove", null, null));
+                        cartItems.add(setCartItems(rightSKU, "Add", SPACKLTPPROMO, "Add"));
+                    }
+                } else if (requestSpackPromoSKU != null && requestSpackSKU.equals(rightSKU)) {
+                    //System.out.println("INSIDE IF -7");
+                    if (SPACKLTPPROMO == null) {
+                        if(compliancePrdKeyForPromoInRequest != null && (compliancePrdKeyForPromoInRequest.contains(rightSKU) || compliancePrdKeyForPromoInRequest.contains($checkForBasepkg.getProductCode()))) {
+                        //System.out.println("INSIDE  IF -8");
+                        cartItems.add(setCartItems(requestSpackSKU, requestSpackAction, requestSpackPromoSKU, requestSpackPromoAction));
+                        } else {
+                        //System.out.println("INSIDE ELSE -9");
+                        cartItems.add(setCartItems(requestSpackSKU, requestSpackAction, requestSpackPromoSKU, "Remove"));
+                        }
+                    } else if (SPACKLTPPROMO != null && requestSpackPromoSKU.equals(SPACKLTPPROMO) && requestSpackAction.equals("Remove")) {
+                        // Return (requestSpackSKU with action 'NoChange') + (requestSpackPromoSKU with action "NoChange")
+                        //System.out.println("INSIDE ELSE IF -10");
+                        cartItems.add(setCartItems(requestSpackSKU, "NoChange", requestSpackPromoSKU, "NoChange"));
+                    } else if (SPACKLTPPROMO != null && requestSpackPromoSKU.equals(SPACKLTPPROMO) && !requestSpackAction.equals("Remove")) {
+                        //System.out.println("INSIDE ELSE IF -11");
+                        cartItems.add(setCartItems(requestSpackSKU, requestSpackAction, requestSpackPromoSKU, requestSpackPromoAction));
+                    } else if (SPACKLTPPROMO != null && !requestSpackPromoSKU.equals(SPACKLTPPROMO) && requestSpackAction.equals("Remove")){
+                        //System.out.println("INSIDE ELSE IF -12");
+                        cartItems.add(setCartItemsWithMultiPromo(requestSpackSKU, "NoChange", requestSpackPromoSKU, "Remove", SPACKLTPPROMO, "Add"));
+                    }
+                    else {
+                        //System.out.println("INSIDE IF -13");
+
+                        cartItems.add(setCartItemsWithMultiPromo(requestSpackSKU, requestSpackAction,  SPACKLTPPROMO, "Add",requestSpackPromoSKU, "Remove"));
+                    }
+                } else if (requestSpackPromoSKU != null && !requestSpackSKU.equals(rightSKU)) {
+                    //System.out.println("INSIDE IF -14");
+                    if (SPACKLTPPROMO == null && requestSpackAction.equals("Remove")) {
+                        //System.out.println("INSIDE  IF -15");
+                        // Return (requestSpackSKU + requestSpackAction) + (requestSpackPromoSKU + requestSpackPromoAction)
+                        cartItems.add(setCartItems(requestSpackSKU, requestSpackAction, requestSpackPromoSKU, requestSpackPromoAction));
+                    } else if (SPACKLTPPROMO == null && !requestSpackAction.equals("Remove")) {
+                        //System.out.println("INSIDE ELSE IF -16");
+                        // Return (rightSKU with action 'add') + (requestSpackPromoSKU with action 'Add') && (requestSpackSKU with action 'remove') + (requestSpackPromoSKU with action 'remove')
+                        if(compliancePrdKeyForPromoInRequest != null && (compliancePrdKeyForPromoInRequest.contains(rightSKU) || compliancePrdKeyForPromoInRequest.contains($checkForBasepkg.getProductCode()))) {
+                        cartItems.add(setCartItems(rightSKU, "Add", requestSpackPromoSKU, "Add"));
+                        cartItems.add(setCartItems(requestSpackSKU, "Remove", requestSpackPromoSKU, "Remove"));
+                        } else {
+                            //System.out.println("INSIDE ELSE IF -17");
+                         // Return (rightSKU with action 'add') + (requestSpackPromoSKU with action 'Remove') && (requestSpackSKU with action 'remove') + (requestSpackPromoSKU with action 'remove')
+                         cartItems.add(setCartItems(rightSKU, "Add", null, null));
+                         cartItems.add(setCartItems(requestSpackSKU, "Remove", requestSpackPromoSKU, "Remove"));
+                         }
+                    } else if(SPACKLTPPROMO != null && requestSpackPromoSKU.equals(SPACKLTPPROMO)){
+                        //System.out.println("INSIDE ELSE IF -18");
+                        cartItems.add(setCartItems(rightSKU, "Add", requestSpackPromoSKU, "Add"));
+                        cartItems.add(setCartItems(requestSpackSKU, "Remove", null, null));
+                    } else if(SPACKLTPPROMO != null && !requestSpackPromoSKU.equals(SPACKLTPPROMO)){
+                        //System.out.println("INSIDE ELSE IF -19");
+                        cartItems.add(setCartItems(rightSKU, "Add", SPACKLTPPROMO, "Add"));
+                        cartItems.add(setCartItems(requestSpackSKU, "Remove", requestSpackPromoSKU, "Remove"));
+                    }
+                }
+
+        //System.out.println("CartItems size: " + cartItems.size());
+
+end;
+
+
+rule "Rightsize SKU and promotions When spack1 or spack 2 not active on account && request contains premier bridge package "
+salience 985
+    when
+       $request: CouponOffersRequest($cartContext: cartContext);
+       $cartContext1: CartContexts($cartProducts: cartProducts) from $cartContext;
+       $spackList: List() from collect(CartProduct(productCode == SPACK1SKU || productCode == SPACK2SKU) from $cartProducts);
+       $checkForBasepkg: CartProduct(compatiblePrdSku1.contains(productCode)  || compatiblePrdSku2.contains(productCode))from $cartProducts;
+       $upgradeList: List() from collect(CartProduct(compliancePrdKey.contains(productCode))from $cartProducts);
+       eval($spackList.size() == 0 && $upgradeList.size() >0)
+    then
+        //System.out.println("RULE 4");
+
+        String rightSKU = null;
+        String wrongSKU = null;
+        List<Promotion> promosToAdd = new ArrayList<>();
+        List<Promotion> promosToRemove = new ArrayList<>();
+
+        // rightsize the product SKU
+        if (compatiblePrdSku1.contains($checkForBasepkg.getProductCode())) {
+            //System.out.println("INSIDE FIRST IF");
+            rightSKU = SPACK1SKU;
+            wrongSKU = SPACK2SKU;
+        } else {
+            rightSKU = SPACK2SKU;
+            wrongSKU = SPACK1SKU;
+        }
+         //System.out.println("Right SKU: " + rightSKU + "    Wrong SKU: " + wrongSKU);
+
+        cartItems.add(setCartItems(rightSKU, "Add", SPACKLTPPROMO, "Add"));
+
+end;
+
+rule "Cart Product Services -Remove another product if same product group product is added"
+salience 980
+    when
+        CouponOffersRequest($cartContext: cartContext);
+        CartContexts($cartProducts: cartProducts) from $cartContext;
+        $productList : List() from collect(CartProduct(productCode != null && (action == "Add" || action =="NoChange")) from $cartProducts);
+        eval($productList.size() >1 && getGroupingByProductGrpMap !=null && !getGroupingByProductGrpMap.isEmpty());
+    then
+       log.info("Executing rule:Same Product Group Rule Two Add not allowed");
+        List<String> productCodesInList = (List<String>) cartItems.stream().filter(item -> item instanceof CartItems).map(item -> ((CartItems) item).getProductCode()).collect(Collectors.toList());
+        //System.out.println("productCodesInList: " + productCodesInList);
+        List<CartItems> cartItemsToRemove = new ArrayList<>();
+        Map<String, List<String>> groupingByProductGrpMaps = getGroupingByProductGrpMap;
+        for (Map.Entry<String, List<String>> entry : groupingByProductGrpMaps.entrySet()) {
+            String productGroup = entry.getKey();
+            //System.out.println("productGroup: " + productGroup);
+            List<String> requiredProducts = entry.getValue();
+            //System.out.println("requiredProducts: " + requiredProducts);
+
+            if (productGroup.equalsIgnoreCase("MVPXPEACOCK")) {
+                continue; // Skip this group No Multiple Add Products from same group check required for MVPXPEACOCK
+            }
+            List<String> productCodes = requiredProducts.stream().filter(productCodesInList::contains).collect(Collectors.toList());
+            //System.out.println("productCodes: " + productCodes);
+            if (productCodes.size() >= 2) {
+                for (Object obj : cartItems) {
+                    CartItems cartItem = (CartItems) obj;
+                    if (productCodes.get(1).equalsIgnoreCase(cartItem.getProductCode()) && "Add".equalsIgnoreCase(cartItem.getAction())) {
+                       cartItemsToRemove.add(cartItem);
+                    }else if (productCodes.get(1).equalsIgnoreCase(cartItem.getProductCode()) && "NoChange".equalsIgnoreCase(cartItem.getAction())) {
+                        cartItem.setAction("Remove");
+                        cartItem.setValidationMessage(productCodeWithNameMap.get(cartItem.getProductCode()) + " is removed because another product from same group is added in the cart");
+                    }
+                }
+            }
+
+            if (cartItemsToRemove.size() > 0){
+                for (CartItems itemToRemove : cartItemsToRemove) {
+                    cartItems.remove(itemToRemove);
+                }
+            }
+        }
+        log.info("Finished executing rule:Remove another product if same product group product is added");
+    end;
+
+
+rule "Remove Product Based on Conflicting Products - services rule"
+     salience 975
+
+     when
+            CouponOffersRequest($cartContext: cartContext, $offerActionType: offerActionType);
+            CartContexts($cartProducts: cartProducts) from $cartContext;
+            $product: CartProduct(productCode != null && action != "Remove" && offerOrProductToRemoveList != null && offerOrProductToRemoveList.keySet().contains(productCode)) from $cartProducts;
+            eval(!offerOrProductToRemoveList.isEmpty() && $product !=null);
+     then
+            log.info("Executing rule: Remove Product Based on Conflicting Products - services rule");
+            List<String> relatedProductsToCheck = (List<String>) offerOrProductToRemoveList.get($product.getProductCode());
+            //System.out.println("relatedProductsToCheck: " + relatedProductsToCheck);
+            List<CartItems> itemsToRemove = new ArrayList<>();
+            for (Object obj : cartItems) {
+                  CartItems cartItem = (CartItems) obj;
+                      if(relatedProductsToCheck.contains(cartItem.getProductCode()) && !cartItem.getAction().equalsIgnoreCase("Add")){
+                           cartItem.setAction("Remove");
+                           cartItem.setValidationMessage(productCodeWithNameMap.get(cartItem.getProductCode()) + " conflicts with " + productCodeWithNameMap.get($product.getProductCode()) + " and will be removed.");
+                           if(cartItem.getPromotions() != null && !cartItem.getPromotions().isEmpty()){
+                                for(Object promoObj : cartItem.getPromotions()) {
+                                   Promotion promotion = (Promotion) promoObj;
+                                   promotion.setAction("Remove");
+                                }
+                            }
+                      }else if (relatedProductsToCheck.contains(cartItem.getProductCode()) && cartItem.getAction().equalsIgnoreCase("Add")){
+                            itemsToRemove.add(cartItem);
+                     }
+            }
+            if(itemsToRemove.size() > 0){
+                cartItems.removeAll(itemsToRemove);
+            }
+            log.info("Executing rule: Remove Product Based on Conflicting Products - services rule END");
+    end;
+
+rule "Cart Product Product Group Rule"
+salience 970
+    when
+        CouponOffersRequest($cartContext: cartContext);
+        CartContexts($cartProducts: cartProducts) from $cartContext;
+        $productList : List() from collect(CartProduct(productCode != null) from $cartProducts);
+        eval($cartProducts != null && !$cartProducts.isEmpty() && cartItems.size() > 0 && getGroupingByProductGrpMap !=null && !getGroupingByProductGrpMap.isEmpty());
+    then
+        log.info("Executing rule: Cart Product Product Group Rule");
+        List<String> productCodesInList = (List<String>) cartItems.stream().filter(item -> item instanceof CartItems).map(item -> ((CartItems) item).getProductCode()).collect(Collectors.toList());
+        //System.out.println("productCodesInList: " + productCodesInList);
+        Map<String, List<String>> groupingByProductGrpMaps = getGroupingByProductGrpMap;
+        List<CartItems> cartItemsToRemove = new ArrayList<>();
+        for (Map.Entry<String, List<String>> entry : groupingByProductGrpMaps.entrySet()) {
+            String productGroup = entry.getKey();
+            //System.out.println("productGroup: " + productGroup);
+            List<String> requiredProducts = entry.getValue();
+            //System.out.println("requiredProducts: " + requiredProducts);
+            List<String> productCodes = requiredProducts.stream().filter(productCodesInList::contains).collect(Collectors.toList());
+            //System.out.println("productCodes: " + productCodes);
+            boolean productCodeWithAddPresent = false;
+            boolean productCodeWithChangePresent = false;
+            if(CollectionUtils.isNotEmpty(productCodes)) {
+                 productCodeWithAddPresent  = productCodes.stream().anyMatch(code -> cartItems.stream().anyMatch(item -> item instanceof CartItems &&
+                    code.equalsIgnoreCase(((CartItems) item).getProductCode()) && "Add".equalsIgnoreCase(((CartItems) item).getAction())));
+                 productCodeWithChangePresent = requiredProducts.stream().anyMatch(code -> cartItems.stream().anyMatch(item -> item instanceof CartItems &&
+                    code.equalsIgnoreCase(((CartItems) item).getProductCode()) && "Change".equalsIgnoreCase(((CartItems) item).getAction())));
+                 //System.out.println("productCodeWithAddPresent: " +productCodeWithAddPresent);
+                    //System.out.println("productCodeWithChangePresent: " +productCodeWithChangePresent);
+            }
+            boolean changeDone = false;
+            if (productCodes.size() >= 2  && productCodeWithAddPresent && !isProductCodePresentInConflictingMap(offerOrProductToRemoveList, productCodes, cartItems)) {
+                String product1 = productCodes.get(0);
+                String product2 = productCodes.get(1);
+                for (String productCode : requiredProducts) {
+                    for (Object objCartItem : cartItems) {
+                         if (objCartItem instanceof CartItems) {
+                            CartItems cartItem = (CartItems) objCartItem;
+                                if (productCode.equalsIgnoreCase(cartItem.getProductCode()) && "Add".equalsIgnoreCase(cartItem.getAction()) && !changeDone) {
+                                    changeDone = true;
+                                    cartItem.setAction("Change");
+                                    if (productCode.equalsIgnoreCase(product1)) {
+                                        cartItem.setValidationMessage("The " + productCodeWithNameMap.get(product2)  + "  already on customer account.");
+                                    } else if (productCode.equalsIgnoreCase(product2)) {
+                                         cartItem.setValidationMessage("The " + productCodeWithNameMap.get(product1)  + "  already on customer account.");
+                                    }
+                                } else if (productCode.equalsIgnoreCase(cartItem.getProductCode()) && "NoChange".equalsIgnoreCase(cartItem.getAction())) {
+                                    cartItemsToRemove.add(cartItem);
+                                } else if (productCode.equalsIgnoreCase(cartItem.getProductCode()) && "Remove".equalsIgnoreCase(cartItem.getAction())) {
+                                    cartItemsToRemove.add(cartItem);
+                                } else if(changeDone && productCode.equalsIgnoreCase(cartItem.getProductCode()) && "Add".equalsIgnoreCase(cartItem.getAction())) {
+                                    cartItemsToRemove.add(cartItem);
+                                }
+                         }
+                    }
+                }
+            }else if(productCodeWithChangePresent){
+                for (String productCode : requiredProducts) {
+                    for (Object objCartItem : cartItems) {
+                         if (objCartItem instanceof CartItems) {
+                            CartItems cartItem = (CartItems) objCartItem;
+                                if (productCode.equalsIgnoreCase(cartItem.getProductCode()) && !"Change".equalsIgnoreCase(cartItem.getAction())) {
+                                     cartItemsToRemove.add(cartItem);
+                                }
+                         }
+                    }
+                }
+            }
+        }
+
+        // Remove cart items with "NoChange" action
+        for (CartItems itemToRemove : cartItemsToRemove) {
+            cartItems.remove(itemToRemove);
+        }
+        log.info("Finished executing rule: Cart Product Product Group Rule");
+end;
+
+rule "Cart Product Services -Same Product Group Rule Two Add not allowed"
+salience 990
+    when
+        CouponOffersRequest($cartContext: cartContext);
+        CartContexts($cartProducts: cartProducts) from $cartContext;
+        $productList : List() from collect(CartProduct(productCode != null && (action == "Add" || action =="NoChange")) from $cartProducts);
+        eval($productList.size() >1 && getGroupingByProductGrpMap !=null && !getGroupingByProductGrpMap.isEmpty());
+    then
+       log.info("Executing rule:Same Product Group Rule Two Add not allowed");
+        List<String> productCodesInList = (List<String>) cartItems.stream().filter(item -> item instanceof CartItems).map(item -> ((CartItems) item).getProductCode()).collect(Collectors.toList());
+        //System.out.println("productCodesInList: " + productCodesInList);
+        List<CartItems> cartItemsToRemove = new ArrayList<>();
+        Map<String, List<String>> groupingByProductGrpMaps = getGroupingByProductGrpMap;
+        for (Map.Entry<String, List<String>> entry : groupingByProductGrpMaps.entrySet()) {
+            String productGroup = entry.getKey();
+            //System.out.println("productGroup: " + productGroup);
+            List<String> requiredProducts = entry.getValue();
+            //System.out.println("requiredProducts: " + requiredProducts);
+
+            if (productGroup.equalsIgnoreCase("MVPXPEACOCK")) {
+                continue; // Skip this group No Multiple Add Products from same group check required for MVPXPEACOCK
+            }
+            List<String> productCodes = requiredProducts.stream().filter(productCodesInList::contains).collect(Collectors.toList());
+            //System.out.println("productCodes: " + productCodes);
+            if (productCodes.size() >= 2) {
+                for (Object obj : cartItems) {
+                    CartItems cartItem = (CartItems) obj;
+                    if (productCodes.get(1).equalsIgnoreCase(cartItem.getProductCode()) && "Add".equalsIgnoreCase(cartItem.getAction())) {
+                       cartItemsToRemove.add(cartItem);
+                    }
+                }
+            }
+
+            if (cartItemsToRemove.size() > 0){
+                for (CartItems itemToRemove : cartItemsToRemove) {
+                    cartItems.remove(itemToRemove);
+                }
+            }
+        }
+        log.info("Finished executing rule:Same Product Group Rule Two Add not allowed");
+    end;
+
+function CartItems setCartItems(String sku, String action, String promoId, String promoAction) {
+    CartItems $cartItem = new CartItems();
+    $cartItem.setProductCode(sku);
+    $cartItem.setAction(action);
+    if(promoId != null && promoAction != null){
+        $cartItem.setPromotions(new ArrayList<>());
+        $cartItem.getPromotions().add(setPromotion(promoId, promoAction));
+    }
+    return $cartItem;
+}
+
+function CartItems setCartItemsWithMultiPromo(String sku, String action, String promoId, String promoAction, String promoId2, String promoAction2) {
+    CartItems $cartItem = new CartItems();
+    $cartItem.setProductCode(sku);
+    $cartItem.setAction(action);
+    if(promoId != null && promoAction != null){
+        $cartItem.setPromotions(new ArrayList<>());
+        $cartItem.getPromotions().add(setPromotion(promoId, promoAction));
+    }
+
+    if(promoId2 != null && promoAction2 != null){
+        $cartItem.getPromotions().add(setPromotion(promoId2, promoAction2));
+    }
+    return $cartItem;
+}
+
+function Promotion setPromotion(String promoId, String action) {
+    Promotion $promo = new Promotion();
+    $promo.setPromotionId(promoId);
+    $promo.setAction(action);
+    return $promo;
+}
+
+function boolean isProductCodePresentInConflictingMap(Map offerOrProductToRemoveList, List productCodes, List cartItems) {
+       if (offerOrProductToRemoveList == null || offerOrProductToRemoveList.isEmpty()) {
+            return false;
+       }
+                if (cartItems == null || cartItems.isEmpty() || productCodes == null || productCodes.isEmpty()) {
+                    return false;
+                }
+                for (Object obj : cartItems) {
+                    if (!(obj instanceof CartItems)) continue;
+                    CartItems cartItem = (CartItems) obj;
+                    if (cartItem.getProductCode() == null) continue;
+                    String cartProductCode = cartItem.getProductCode();
+                    String cartAction = cartItem.getAction();
+                    // Only consider cart items that are actively present (not being removed or unchanged)
+                    if ("Remove".equalsIgnoreCase(cartAction) || "NoChange".equalsIgnoreCase(cartAction)) continue;
+                    if (!offerOrProductToRemoveList.containsKey(cartProductCode)) continue;
+                    // Fetch related conflicting products once per cart item, not per productCode iteration
+                    List<String> relatedProducts = (List<String>) offerOrProductToRemoveList.get(cartProductCode);
+                    if (relatedProducts == null || relatedProducts.isEmpty()) continue;
+                    for (Object prodCodesObj : productCodes) {
+                        String prodCode = (String) prodCodesObj;
+                        if (prodCode == null) continue;
+                        if (relatedProducts.contains(prodCode)) {
+                            String actionFromCartItems = getActionForProductCodeFromCartItems(cartItems, prodCode);
+                            if (actionFromCartItems != null && "Add".equalsIgnoreCase(actionFromCartItems)) {
+                                return true;
+                            }
+                        }
+                    }
+                }
+                return false;
+        }
+
+        function String getActionForProductCodeFromCartItems(List cartItems, String productCode) {
+            for (Object obj : cartItems) {
+                if (obj instanceof CartItems) {
+                    CartItems cartItem = (CartItems) obj;
+                    if (cartItem.getProductCode() != null
+                        && cartItem.getProductCode().equalsIgnoreCase(productCode)) {
+                        return cartItem.getAction();
+                    }
+                }
+            }
+            return null;
+        }

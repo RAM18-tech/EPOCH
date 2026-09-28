@@ -1,0 +1,59 @@
+{
+  "accountTypes": [
+    "Courtesy"
+  ],
+  "addOnType": [],
+  "businessSegment": [
+    "MDU"
+  ],
+  "customerSegments": [
+    "Courtesy"
+  ],
+  "contractIndicator": [
+    "EDSP"
+  ],
+  "swimlaneSwitchEligible": false,
+  "decisioningFlow": false,
+  "customerContext": {
+    "existingProductFamily": [
+      "OTT"
+    ],
+    "OTT": {
+      "products": [
+        {
+          "basePrice": "89.99",
+          "productCode": "BASE-ENTERTAINMENT-201811",
+          "productType": "video-plan"
+        }
+      ],
+      "accountNumber": "220324182098606",
+      "isActive": true,
+      "retentionPromotionIndicator": false,
+      "freeTrialEligible": false,
+      "accountType": "{{customerSegment}}",
+      "nextBillingDate": "{{nextBillingDate}}",
+      "parentSubscriptionDate": "09/24/2022",
+      "propertyOwnerActNumber": "TEST-145218"
+    }
+  },
+  "customerEligibility": {
+    "zipCode": [
+      "76131"
+    ]
+  },
+  "offerActionType": [
+    "Upgrade",
+    "Downgrade",
+    "Cross-sell",
+    "Other"
+  ],
+  "offerProductFamily": [
+    "OTT"
+  ],
+  "salesChannel": [
+    "evCRM"
+  ],
+  "offerProductTypes": [
+    "video-plan"
+  ]
+}

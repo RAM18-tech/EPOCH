@@ -1,0 +1,76 @@
+{
+    "contractIndicator": [
+        "non-contract"
+    ],
+    "customerEligibility": {
+        "zipCode": [
+            "00265"
+        ],
+        "county": [
+            "48000"
+        ]
+    },
+    "customerContext": {
+        "existingProductFamily": [
+            "satellite"
+        ],
+        "satellite": {
+            "products": [
+                {
+                    "pricePlanCode": "88849754",
+                    "productType": "video-plan",
+                    "policyID": "DVALL2"
+                },
+                {
+                    "pricePlanCode": "88830604",
+                    "pickCode": "P0030",
+                    "productType": "video-addon"
+                },
+                {
+                   "componentCode": "DTVGenieMini",
+                    "modelNumber": "C41-100",
+                    "productType": "video-device"
+                },
+                {
+                    "componentCode": "DTVWirelessGenie",
+                    "modelNumber": "C41W-100",
+                    "productType": "video-device"
+                }
+            ],
+            "accountNumber": "171202181454689",
+            "isActive": true,
+            "retentionPromotionIndicator": false,
+            "freeTrialEligible": false,
+            "accountType": "Residential",
+            "nextBillingDate": "03/09/2020",
+            "policy": "DVALL2",
+            "serviceOrderDate": "03/09/2020"
+        }
+    },
+    "cartContext": {
+        "cartOffers": [
+            {
+                "offerCode": "OF_BASE-BASIC-CHOICE_satellite",
+                "quantity": "1"
+            },
+            {
+                "offerCode": "OF_DEVICE-HD-DVR_satellite",
+                "quantity": "1"
+            }
+        ]
+    },
+    "offerActionType": [
+        "Upgrade",
+        "Downgrade",
+        "Other"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "salesChannel": [
+        "online"
+    ],
+    "offerProductTypes": [
+        "video-accessory","video-device"
+    ]
+}

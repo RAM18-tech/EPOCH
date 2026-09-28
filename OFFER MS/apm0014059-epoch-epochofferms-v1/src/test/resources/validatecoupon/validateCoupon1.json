@@ -1,0 +1,53 @@
+{
+  "id": "b4e2fbd8-57e5-4ca2-b9ac-92d0172fe51a",
+  "code": "VALUE",
+  "name": "VALUE",
+  "description": "$200 VISA Reward Card (Requires Redemption)",
+  "validationResults": {
+    "status": "Success"
+  },
+  "offers": [
+    {
+      "id": "0b7b5dc7-fc3a-4743-aeea-06d635053025",
+      "code": "OF_VALUE",
+      "offerProductType": "campaign",
+      "offerPreselectDesignation": "Optional",
+      "specialoffer": false,
+      "associatedProducts": {
+        "bundleProducts": [
+          {
+            "id": "e0e26426-bc15-43e6-bd01-d5cb8779b97b",
+            "code": "REWARD-200-202311",
+            "productType": "reward",
+            "billingProductCode": "REWARD-200-202311",
+            "displayType": "optional",
+            "descriptionsByKey": {
+              "onlineShortDescription": "$200 Reward Card",
+              "onlineShortDescForServices": "$200 Reward Card",
+              "opusLongDescription": "VISA REWARD CARD OFFER: Offer Ends X/XX/XX.  Must maintain service through reward fulfillment to remain eligible for offer. Customer must order new DIRECTV via Internet service [min. $69.99/mo. for 24 mos. plus taxes & fees] for $200 VISA Reward Card. Amount of gift card will vary based on package selected ($200 reward card with CHOICE package; $300 reward card with ULTIMATE package, $400 reward card with PREMIER package).  Must select offer at point of sale through the dedicated website, for new residential customers in the U.S. (excludes Puerto Rico and U.S.V.I.).  Pricing for two years. After 2 years, then month to month at then current prevailing prices unless cancelled. Additional Fees & Taxes: Price excludes Advanced Receiver Service Fee of $15/mo. (which is extra and applies to all packages) and Regional Sports Fee of up to $15.99/mo. which is extra & applies to CHOICE pkg or higher.  Residents of select multi-dwelling units are not eligible for these offers. Redemption: Within 6 weeks of activation of qualified service, eligible customers will be sent a Reward Notification email with instructions for claiming the reward on the DIRECTV Reward Center www.directv-rewardcenter.com. Reward must be claimed by the date noted in the email (75 days from the date email was sent). If customer’s email returns as undeliverable, a letter will be mailed via USPS 3rd class mail. Reward invitation expires if not claimed by the date noted in Reward Notification. Customers can track their reward status anytime via the DIRECTV Reward Tracker, which is located on the DIRECTV Reward Center www.directv-rewardcenter.com.  Allow three (3) weeks after receipt and verification of customer’s claim for delivery card. DIRECTV is not responsible for late, lost or misdirected card in mail. Not valid for purchase by groups, clubs, businesses or organizations. Void where prohibited, licensed, taxed or restricted. LIMIT ONE VISA REWARD CARD OFFER PER DIRECTV ACCOUNT. May not be combined with other reward card offers on same services. Card expires at month-end 6 months after issuance. For Cardholder Agreement, go to directv-rewardcenter.com. The DIRECTV Visa Reward Card is issued by The Bancorp Bank N.A. pursuant to a license from Visa U.S.A. Inc. and can be used everywhere Visa debit cards are accepted in the United States, the District of Columbia, US Virgin Islands, and Puerto Rico. No cash access. The Bancorp Bank N.A.; Member FDIC. The Bancorp Bank N.A. does not endorse or sponsor and is not affiliated in any way with any product or service offered by DIRECTV.",
+              "opusLongDescForServices": "VISA REWARD CARD OFFER: Offer Ends X/XX/XX.  Must maintain service through reward fulfillment to remain eligible for offer. Customer must order new DIRECTV via Internet service [min. $69.99/mo. for 24 mos. plus taxes & fees] for $200 VISA Reward Card. Amount of gift card will vary based on package selected ($200 reward card with CHOICE package; $300 reward card with ULTIMATE package, $400 reward card with PREMIER package).  Must select offer at point of sale through the dedicated website, for new residential customers in the U.S. (excludes Puerto Rico and U.S.V.I.).  Pricing for two years. After 2 years, then month to month at then current prevailing prices unless cancelled. Additional Fees & Taxes: Price excludes Advanced Receiver Service Fee of $15/mo. (which is extra and applies to all packages) and Regional Sports Fee of up to $15.99/mo. which is extra & applies to CHOICE pkg or higher.  Residents of select multi-dwelling units are not eligible for these offers. Redemption: Within 6 weeks of activation of qualified service, eligible customers will be sent a Reward Notification email with instructions for claiming the reward on the DIRECTV Reward Center www.directv-rewardcenter.com. Reward must be claimed by the date noted in the email (75 days from the date email was sent). If customer’s email returns as undeliverable, a letter will be mailed via USPS 3rd class mail. Reward invitation expires if not claimed by the date noted in Reward Notification. Customers can track their reward status anytime via the DIRECTV Reward Tracker, which is located on the DIRECTV Reward Center www.directv-rewardcenter.com.  Allow three (3) weeks after receipt and verification of customer’s claim for delivery card. DIRECTV is not responsible for late, lost or misdirected card in mail. Not valid for purchase by groups, clubs, businesses or organizations. Void where prohibited, licensed, taxed or restricted. LIMIT ONE VISA REWARD CARD OFFER PER DIRECTV ACCOUNT. May not be combined with other reward card offers on same services. Card expires at month-end 6 months after issuance. For Cardholder Agreement, go to directv-rewardcenter.com. The DIRECTV Visa Reward Card is issued by The Bancorp Bank N.A. pursuant to a license from Visa U.S.A. Inc. and can be used everywhere Visa debit cards are accepted in the United States, the District of Columbia, US Virgin Islands, and Puerto Rico. No cash access. The Bancorp Bank N.A.; Member FDIC. The Bancorp Bank N.A. does not endorse or sponsor and is not affiliated in any way with any product or service offered by DIRECTV."
+            },
+            "displayNamesByKey": {
+              "onlineDisplayName": "$200 Reward Card",
+              "onlineDisplayNameForServices": "$200 VISA Reward Card (Requires Redemption)",
+              "opusDisplayName": "$200 Reward Card",
+              "opusDisplayNameForServices": "$200 VISA Reward Card (Requires Redemption)"
+            },
+            "price": 0.0,
+            "rewardValue": "200"
+          }
+        ]
+      },
+      "benefits": [],
+      "additionalEligibility": [
+        {
+          "eligibleProductType": "campaign",
+          "eligibilityType": "nonStackable",
+          "offerIds": [
+            "OF_10OFF24MO"
+          ]
+        }
+      ]
+    }
+  ]
+}

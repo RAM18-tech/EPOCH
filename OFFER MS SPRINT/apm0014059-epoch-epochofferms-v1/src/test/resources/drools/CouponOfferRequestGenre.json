@@ -1,0 +1,56 @@
+{
+  "customerSegments": "Residential",
+  "businessSegment": "CONS",
+  "salesChannel": "oemIAPFIRETV",
+  "offerProductFamily": "OTT",
+  "offerActionType": [
+    "Acquisition"
+  ],
+  "contractIndicator": [
+    "GENRE"
+  ],
+  "customerAddress": {
+    "zipCode": "80907",
+    "fipsCode": "08041"
+  },
+  "offerProductTypes": [
+    "video-plan",
+    "video-addon"
+  ],
+  "cartContext": {
+    "cartOffers": [
+      {
+        "offerCode": "OF_BOLT-MYESPANOL-202410_GENRE",
+        "action": "Add",
+        "offerProductType": "video-addon"
+      },
+      {
+        "offerCode": "OF_BOLT-20STREAMS-202010_GENRE",
+        "action": "Add",
+        "offerProductType": "video-addon"
+      },
+      {
+        "offerCode": "OF_BOLT-FAST-202410_GENRE",
+        "action": "Add",
+        "offerProductType": "video-addon"
+      },
+      {
+        "offerCode": "OF_BOLT-MYNEWS-202410_GENRE",
+        "action": "Add",
+        "offerProductType": "video-addon"
+      },
+      {
+        "offerCode": "OF_BASE-GENRE-202410_GENRE",
+        "action": "Add",
+        "offerProductType": "video-plan"
+      }
+    ]
+  },
+  "customerContext": {
+    "existingProductFamily": [
+      {
+        "accountNumber": "231031181329513"
+      }
+    ]
+  }
+}

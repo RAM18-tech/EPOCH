@@ -1,0 +1,50 @@
+{
+    "contractIndicator": [
+        "non-contract"
+    ],
+    "customerContext": {
+        "existingProductFamily": [
+            "satellite"
+        ],
+        "satellite": {
+            "products": [
+                {
+                    "billingProductCode": "P103351",
+                    "productType": "video-addon"
+                },
+                {
+                    "billingProductCode": "P2244",
+                    "productType": "video-addon"
+                }
+            ],
+            "accountNumber": "171202181454689",
+            "isActive": true,
+            "retentionPromotionIndicator": false,
+            "freeTrialEligible": false,
+            "accountType": "Residential",
+            "nextBillingDate": "03/09/2020",
+            "businessSegment": "REG",
+            "employeeSegment": "",
+            "nftvFlag": "",
+            "ftvCount": ""
+        }
+    },
+    "offerActionType": [
+        "Upgrade",
+        "Downgrade",
+        "Cross-sell",
+        "Other",
+        "Acquisition",
+        "retention"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "salesChannel": [
+        "opus",
+        "online"
+    ],
+    "offerProductType": [
+        "video-device"
+    ]
+}

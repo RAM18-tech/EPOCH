@@ -1,0 +1,56 @@
+{
+    "limit": 20,
+    "offset": 0,
+    "count": 1,
+    "total": 1,
+    "results": [
+        {
+            "id": "c638869c-fe9c-4767-b2fb-eadab71677f9",
+            "version": 87,
+            "createdAt": "2020-05-27T17:29:54.843Z",
+            "lastModifiedAt": "2020-06-03T17:28:20.848Z",
+            "lastModifiedBy": {
+                "clientId": "DFxSzyd8Gl3JDxetkUCSjodZ",
+                "isPlatformClient": false
+            },
+            "createdBy": {
+                "clientId": "DFxSzyd8Gl3JDxetkUCSjodZ",
+                "isPlatformClient": false
+            },
+            "code": "TEST_CAM_DISCOUNT_002",
+            "name": {
+                "en": "TEST_CAM_DISCOUNT_002"
+            },
+            "description": {
+                "en": "TEST_CAM_DISCOUNT_001"
+            },
+            "cartDiscounts": [
+                {
+                    "typeId": "cart-discount",
+                    "id": "60f98a67-38eb-4446-a43a-8f9175f55f79"
+                }
+            ],
+            "isActive": true,
+            "maxApplications": 2,
+            "maxApplicationsPerCustomer": 1,
+            "references": [],
+            "attributeTypes": {},
+            "cartFieldTypes": {},
+            "lineItemFieldTypes": {},
+            "customLineItemFieldTypes": {},
+            "custom": {
+                "type": {
+                    "typeId": "type",
+                    "id": "3b57d402-769f-47e4-867d-7b0e7c269cf8"
+                },
+                "fields": {
+                    "campaignCode": "CAMPAIGN_PROD",
+                    "couponStatus": "redeemed"
+                }
+            },
+            "validFrom": "2020-05-05T00:00:00.000Z",
+            "validUntil": "2020-05-31T00:00:00.000Z",
+            "groups": []
+        }
+    ]
+}

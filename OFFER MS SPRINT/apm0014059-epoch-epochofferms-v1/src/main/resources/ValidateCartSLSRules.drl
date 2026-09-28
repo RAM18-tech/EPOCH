@@ -1,0 +1,624 @@
+import com.dtv.dcp.epoch.model.common.CartProduct;
+import com.dtv.dcp.epoch.model.common.request.CartContexts;
+import com.dtv.dcp.epoch.model.common.request.CouponOffersRequest;
+import java.util.ArrayList;
+import java.util.List;
+import com.dtv.dcp.epoch.model.common.response.CartItems;
+import com.dtv.dcp.epoch.model.common.Promotion;
+import java.util.*;
+import java.util.Map;
+import java.util.Set;
+import java.util.HashSet;
+import java.util.stream.Collectors;
+import java.util.Map.Entry;
+import java.util.HashMap;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.apache.commons.collections.CollectionUtils;
+
+global java.util.ArrayList cartItems;
+global java.util.Map benefitsSwimlaneIndicatorMap;
+global java.util.ArrayList compatibleProductSKUForBaseProduct;
+global java.util.ArrayList contractIndicator;
+global java.util.Map promoToProductMapCC;
+global java.util.ArrayList customerContextProductCodes;
+global java.util.ArrayList productToSuppressForSLS;
+global java.util.HashMap svodProductsMaps;
+global java.util.Map productCodeWithNameMap;
+global java.util.ArrayList tempProductCodes;
+global java.util.Map getGroupingByProductGrpMap;
+global java.util.List commonRuleCohortList;
+global java.util.Map slsCommonProductsMap;
+global Logger log;
+
+/**
+ * Classifies non-video-plan, non-device add-on products as Add / Retain / Remove
+ * based on compatibility with the target swimlane.
+ * Common SKU products and devices are skipped — each has its own dedicated rule.
+ */
+rule "SLS Compatible Products Rule"
+salience 905
+    when
+        CouponOffersRequest($cartContext: cartContext);
+        CartContexts($cartProducts: cartProducts) from $cartContext;
+        $addonProductList : List() from collect(CartProduct(productCode != null && productType != "video-plan" && productType != "video-device") from $cartProducts);
+        $deviceProductList : List() from collect(CartProduct(productCode != null && productType == "video-device") from $cartProducts);
+        $swimlaneFlag : CouponOffersRequest(swimlaneSwitchEligible == true);
+        eval($swimlaneFlag.getSwimlaneSwitchEligible() == true && $cartProducts != null && !$cartProducts.isEmpty()
+                && cartItems.size() > 0 && CollectionUtils.containsAny(commonRuleCohortList, contractIndicator));
+    then
+        log.info("START : SLS Compatible Products Rule");
+        log.info("[905] cartItems BEFORE: {}", cartItemsSummary(cartItems));
+
+        List<String> addonProductCodes  = getAllProductCodesFromCart($addonProductList);
+        List<String> deviceProductCodes = getAllProductCodesFromCart($deviceProductList);
+
+        List<String> compatibleAddonsInCart =
+            addonProductCodes.stream().filter(compatibleProductSKUForBaseProduct::contains).collect(Collectors.toList());
+        List<String> incompatibleAddonsInCart =
+            addonProductCodes.stream().filter(code -> !compatibleProductSKUForBaseProduct.contains(code)).collect(Collectors.toList());
+
+        // CC products incompatible with the new swimlane need a Remove entry in cartItems
+        List<String> ccProductsToRemove = new ArrayList<>();
+        for (Object obj : customerContextProductCodes) {
+            String code = (String) obj;
+            if (!compatibleProductSKUForBaseProduct.contains(code)) {
+                ccProductsToRemove.add(code);
+            }
+        }
+
+        // Compatible CC products absent from the cart request — check if they were already added to cartItems
+        List<String> compatibleCCProductsMissingFromCart = new ArrayList<>();
+        for (Object obj : customerContextProductCodes) {
+            String code = (String) obj;
+            if (compatibleProductSKUForBaseProduct.contains(code) && !addonProductCodes.contains(code)) {
+                compatibleCCProductsMissingFromCart.add(code);
+            }
+        }
+
+        List<String> compatibleCCProductsAlreadyInCartItems = new ArrayList<>();
+        for (Object item : cartItems) {
+            if (item instanceof CartItems) {
+                CartItems cartItem = (CartItems) item;
+                if (compatibleCCProductsMissingFromCart.contains(cartItem.getProductCode())
+                        && !"Remove".equalsIgnoreCase(cartItem.getAction())) {
+                    compatibleCCProductsAlreadyInCartItems.add(cartItem.getProductCode());
+                }
+            }
+        }
+
+        // Remaining compatible CC products not in cartItems are treated as missing — add a Remove entry
+        compatibleCCProductsMissingFromCart.removeAll(compatibleCCProductsAlreadyInCartItems);
+        ccProductsToRemove.addAll(compatibleCCProductsMissingFromCart);
+
+        List<CartItems> cartItemsToRemove = new ArrayList<>();
+
+        if (!compatibleAddonsInCart.isEmpty()) {
+            for (Object obj : cartItems) {
+                if (!(obj instanceof CartItems)) continue;
+                CartItems cartItem = (CartItems) obj;
+
+                // Skip products handled by dedicated rules
+                if ((slsCommonProductsMap != null && slsCommonProductsMap.containsKey(cartItem.getProductCode()))
+                        || deviceProductCodes.contains(cartItem.getProductCode())) {
+                    continue;
+                }
+
+                boolean isCompatibleWithTargetSwimlane = compatibleProductSKUForBaseProduct.contains(cartItem.getProductCode());
+                boolean isInCustomerContext = customerContextProductCodes.contains(cartItem.getProductCode());
+
+                if (isCompatibleWithTargetSwimlane && !isInCustomerContext) {
+                    // New product in target swimlane — not currently on customer account
+                    // Business-rule promotions (e.g. DISCOUNTRULES) are preserved; only CC promos get swimlane-checked
+                    if ("Remove".equalsIgnoreCase(cartItem.getAction())) {
+                        cartItemsToRemove.add(cartItem);
+                    } else if (!"Change".equalsIgnoreCase(cartItem.getAction())) {
+                        cartItem.setAction("Add");
+                        log.info("Action=Add for new swimlane product: {}", cartItem.getProductCode());
+                    }
+
+                } else if (!isCompatibleWithTargetSwimlane && isInCustomerContext) {
+                    cartItem.setAction("Remove");
+                    log.info("Action=Remove for CC product incompatible with target swimlane: {}", cartItem.getProductCode());
+
+                } else if (isCompatibleWithTargetSwimlane && isInCustomerContext && !"Remove".equalsIgnoreCase(cartItem.getAction())) {
+                    cartItem.setAction("Retain");
+                    log.info("Action=Retain for CC product: {}", cartItem.getProductCode());
+                    applyPromoActionsForRetainedProduct(cartItem, promoToProductMapCC, benefitsSwimlaneIndicatorMap, contractIndicator);
+                    log.info("Promotions set for retained product {}: {}", cartItem.getProductCode(), cartItem.getPromotions() != null ? cartItem.getPromotions().size() : 0);
+                }
+            }
+        }
+
+        // Ensure incompatible CC products have a Remove entry in cartItems
+        for (String productCode : ccProductsToRemove) {
+            if (slsCommonProductsMap != null && slsCommonProductsMap.containsKey(productCode)) {
+                continue; // delegated to Common Free Products Rule
+            }
+            if (!isProductCodeAlreadyInCartItems(cartItems, productCode)) {
+                CartItems removeEntry = new CartItems();
+                removeEntry.setProductCode(productCode);
+                removeEntry.setAction("Remove");
+                cartItems.add(removeEntry);
+                log.info("Added Remove entry for incompatible CC product: {}", productCode);
+            }
+        }
+
+        for (CartItems itemToRemove : cartItemsToRemove) {
+            cartItems.remove(itemToRemove);
+            log.info("Removed cart item: {}", itemToRemove.getProductCode());
+        }
+
+        log.info("[905] cartItems AFTER: {}", cartItemsSummary(cartItems));
+        log.info("END : SLS Compatible Products Rule");
+    end;
+
+/**
+ * Sets action on SVOD included products when their base plan is present in the cart.
+ * Also removes products listed in SLSDeviceProductsToSuppress config.
+ */
+rule "SLS Compatible Included Products Rule"
+salience 900
+    when
+        CouponOffersRequest($cartContext: cartContext);
+        CartContexts($cartProducts: cartProducts) from $cartContext;
+        $productList : List() from collect(CartProduct(productCode != null && productType != "video-device") from $cartProducts);
+        $swimlaneFlag : CouponOffersRequest(swimlaneSwitchEligible == true);
+        eval($swimlaneFlag.getSwimlaneSwitchEligible() == true && $cartProducts != null && !$cartProducts.isEmpty()
+                && cartItems.size() > 0 && CollectionUtils.containsAny(commonRuleCohortList, contractIndicator));
+    then
+        log.info("START : SLS Compatible Included Products Rule");
+        log.info("[900] cartItems BEFORE: {}", cartItemsSummary(cartItems));
+
+        List<CartItems> cartItemsToRemove = new ArrayList<>();
+
+        for (Map.Entry<String, List<String>> entry : ((Map<String, List<String>>) svodProductsMaps).entrySet()) {
+            String svodBasePlan = entry.getKey();
+            List<String> includedAddons = entry.getValue();
+
+            if (!isProductCodeAlreadyInCartItems(cartItems, svodBasePlan)) continue;
+            log.info("SVOD base plan {} is in cart — evaluating included add-ons: {}", svodBasePlan, includedAddons);
+
+            for (Object obj : cartItems) {
+                if (!(obj instanceof CartItems)) continue;
+                CartItems cartItem = (CartItems) obj;
+                if (includedAddons != null && includedAddons.contains(cartItem.getProductCode())) {
+                    if (customerContextProductCodes.contains(cartItem.getProductCode())) {
+                        cartItem.setAction("Retain");
+                        log.info("Action=Retain for SVOD included product (in CC): {}", cartItem.getProductCode());
+                    } else {
+                        cartItem.setAction("Add");
+                        log.info("Action=Add for SVOD included product (not in CC): {}", cartItem.getProductCode());
+                    }
+                }
+            }
+        }
+
+        for (Object obj : cartItems) {
+            CartItems cartItem = (CartItems) obj;
+            if (productToSuppressForSLS.contains(cartItem.getProductCode())) {
+                cartItemsToRemove.add(cartItem);
+                log.info("Suppressing product: {}", cartItem.getProductCode());
+            }
+        }
+
+        for (CartItems itemToRemove : cartItemsToRemove) {
+            cartItems.remove(itemToRemove);
+        }
+
+        log.info("[900] cartItems AFTER: {}", cartItemsSummary(cartItems));
+        log.info("END : SLS Compatible Included Products Rule");
+    end;
+
+/**
+ * Retains device products added by the SLS preprocessor and evaluates their promotions
+ * against swimlaneContractIndicator — Retain if eligible, Remove otherwise.
+ */
+rule "SLS - Device Promo Check Only"
+salience 895
+    when
+        CouponOffersRequest($cartContext: cartContext);
+        CartContexts($cartProducts: cartProducts) from $cartContext;
+        $swimlaneFlag : CouponOffersRequest(swimlaneSwitchEligible == true);
+        $deviceProductList : List() from collect(CartProduct(productCode != null && productType == "video-device") from $cartProducts);
+        eval($swimlaneFlag.getSwimlaneSwitchEligible() == true && $cartProducts != null && !$cartProducts.isEmpty()
+                && cartItems.size() > 0 && CollectionUtils.containsAny(commonRuleCohortList, contractIndicator));
+    then
+        log.info("START : SLS - Device Promo Check Only");
+        log.info("[895] cartItems BEFORE: {}", cartItemsSummary(cartItems));
+
+        List<String> deviceProductCodes = getAllProductCodesFromCart($deviceProductList);
+        log.info("deviceProductCodes: {}, targetSwimlanes: {}", deviceProductCodes, contractIndicator);
+
+        for (Object obj : cartItems) {
+            CartItems cartItem = (CartItems) obj;
+            if (!deviceProductCodes.contains(cartItem.getProductCode())
+                    || !compatibleProductSKUForBaseProduct.contains(cartItem.getProductCode())) {
+                continue;
+            }
+
+            cartItem.setAction("Retain");
+            log.info("Action=Retain for device product: {}", cartItem.getProductCode());
+
+            if (cartItem.getPromotions() == null || cartItem.getPromotions().isEmpty()) continue;
+
+            for (Object promoObj : cartItem.getPromotions()) {
+                Promotion promo = (Promotion) promoObj;
+                List<String> swimlaneIndicators = (List<String>) benefitsSwimlaneIndicatorMap.get(promo.getPromotionId());
+                promo.setAction(resolveSwimlanePromoAction(swimlaneIndicators, contractIndicator, "Retain"));
+                log.info("Device product {} promo {} resolved action: {}", cartItem.getProductCode(), promo.getPromotionId(), promo.getAction());
+            }
+        }
+
+        log.info("[895] cartItems AFTER: {}", cartItemsSummary(cartItems));
+        log.info("END : SLS - Device Promo Check Only");
+    end;
+
+/**
+ * Handles common free products defined in the SLSCommonProductsSKUs global config.
+ *
+ * Products absent from cartProducts but present in customerContext receive action "Retain"
+ * with CC promotions validated against swimlaneContractIndicator.
+ *
+ * Products absent from both cartProducts and customerContext receive action "Add"
+ * with promotions from slsCommonProductsMap.
+ *
+ * For products present in customerContext (regardless of cartProducts presence, action != Remove):
+ *   action is set to "Retain" and only CC promotions (from promoToProductMapCC) undergo
+ *   swimlaneContractIndicator validation — business-rule promotions are left unchanged.
+ *   Swimlane validation:
+ *     - swimlaneContractIndicator empty or no match  => promo action "Remove"
+ *     - swimlaneContractIndicator matches target      => promo action "Retain"
+ *
+ * Products not in customerContext receive action "Add" with promotions from slsCommonProductsMap.
+ */
+rule "SLS - Common Free Products Rule"
+salience 890
+    when
+        CouponOffersRequest($cartContext: cartContext);
+        CartContexts($cartProducts: cartProducts) from $cartContext;
+        $swimlaneFlag : CouponOffersRequest(swimlaneSwitchEligible == true);
+        eval($swimlaneFlag.getSwimlaneSwitchEligible() == true && $cartProducts != null && !$cartProducts.isEmpty()
+                && cartItems.size() > 0 && slsCommonProductsMap != null && !slsCommonProductsMap.isEmpty()
+                && CollectionUtils.containsAny(commonRuleCohortList, contractIndicator));
+    then
+        log.info("START : SLS - Common Free Products Rule");
+        log.info("[890] cartItems BEFORE: {}", cartItemsSummary(cartItems));
+        log.info("targetSwimlanes: {}, slsCommonProductsMap keys: {}", contractIndicator, slsCommonProductsMap != null ? slsCommonProductsMap.keySet() : null);
+
+        List<String> commonProductCodes = new ArrayList<>(slsCommonProductsMap.keySet());
+        List<String> cartProductCodes   = getAllProductCodesFromCart($cartProducts);
+
+        // Add common products that are absent from the cart request
+        List<String> commonSKUsMissingFromCart = commonProductCodes.stream()
+            .filter(code -> !cartProductCodes.contains(code))
+            .collect(Collectors.toList());
+        log.info("commonSKUsMissingFromCart: {}", commonSKUsMissingFromCart);
+
+        // Step 1: Add common products missing from cart request into cartItems.
+        //         Action is determined by customerContext presence:
+        //           - Present in CC  => "Retain" (product already on account)
+        //           - Absent from CC => "Add"    (new product for customer)
+        //         Promotion logic is handled uniformly in Step 2 below.
+        for (String missingProductCode : commonSKUsMissingFromCart) {
+            CartItems newItem = new CartItems();
+            newItem.setProductCode(missingProductCode);
+
+            boolean existsOnAccount = customerContextProductCodes.contains(missingProductCode);
+            newItem.setAction(existsOnAccount ? "Retain" : "Add");
+            log.info("Added missing common SKU {} with action={} (existsOnAccount={})", missingProductCode, newItem.getAction(), existsOnAccount);
+
+            cartItems.add(newItem);
+        }
+
+        // Step 2: Evaluate action and promotions for ALL common products now in cartItems
+        //         (includes both products from the cart request and those just added in Step 1).
+        for (Object obj : cartItems) {
+            CartItems cartItem = (CartItems) obj;
+            if (!commonProductCodes.contains(cartItem.getProductCode())) continue;
+
+            boolean existsOnAccount = customerContextProductCodes.contains(cartItem.getProductCode());
+            boolean isMarkedRemove = "Remove".equalsIgnoreCase(cartItem.getAction());
+
+            if (existsOnAccount && !isMarkedRemove) {
+                // Product exists on customer account — Retain and validate CC promotions
+                cartItem.setAction("Retain");
+                log.info("Action=Retain for common product: {}", cartItem.getProductCode());
+
+                // Collect CC promotions for this product from promoToProductMapCC
+                List<String> ccPromosForProduct = new ArrayList<>();
+                for (Map.Entry<String, String> entry : ((Map<String, String>) promoToProductMapCC).entrySet()) {
+                    if (entry.getValue() != null && entry.getValue().equalsIgnoreCase(cartItem.getProductCode())) {
+                        ccPromosForProduct.add(entry.getKey());
+                    }
+                }
+
+                if (cartItem.getPromotions() != null && !cartItem.getPromotions().isEmpty()) {
+                    // Apply swimlane check only to CC promos; leave business-rule promos unchanged
+                    for (Object promoObj : cartItem.getPromotions()) {
+                        Promotion promo = (Promotion) promoObj;
+                        if (!ccPromosForProduct.contains(promo.getPromotionId())) continue;
+                        List<String> swimlaneIndicators = (List<String>) benefitsSwimlaneIndicatorMap.get(promo.getPromotionId());
+                        promo.setAction(resolveSwimlanePromoAction(swimlaneIndicators, contractIndicator, "Retain"));
+                        log.info("CC promo {} on {} resolved action: {}", promo.getPromotionId(), cartItem.getProductCode(), promo.getAction());
+                    }
+                    // Add CC promos not yet present on the cart item
+                    for (String ccPromoId : ccPromosForProduct) {
+                        boolean alreadyPresent = false;
+                        for (Object p : cartItem.getPromotions()) {
+                            if (((Promotion) p).getPromotionId().equalsIgnoreCase(ccPromoId)) {
+                                alreadyPresent = true; break;
+                            }
+                        }
+                        if (!alreadyPresent) {
+                            List<String> swimlaneIndicators = (List<String>) benefitsSwimlaneIndicatorMap.get(ccPromoId);
+                            Promotion newPromo = new Promotion();
+                            newPromo.setPromotionId(ccPromoId);
+                            newPromo.setAction(resolveSwimlanePromoAction(swimlaneIndicators, contractIndicator, "Retain"));
+                            cartItem.getPromotions().add(newPromo);
+                            log.info("Added CC promo {} action={} to product {}", ccPromoId, newPromo.getAction(), cartItem.getProductCode());
+                        }
+                    }
+                } else if (!ccPromosForProduct.isEmpty()) {
+                    // No promotions on cart item yet — initialise from CC promos only
+                    List<Promotion> promos = new ArrayList<>();
+                    for (String ccPromoId : ccPromosForProduct) {
+                        List<String> swimlaneIndicators = (List<String>) benefitsSwimlaneIndicatorMap.get(ccPromoId);
+                        Promotion promo = new Promotion();
+                        promo.setPromotionId(ccPromoId);
+                        promo.setAction(resolveSwimlanePromoAction(swimlaneIndicators, contractIndicator, "Retain"));
+                        promos.add(promo);
+                        log.info("Initialised CC promo {} action={} on {}", ccPromoId, promo.getAction(), cartItem.getProductCode());
+                    }
+                    cartItem.setPromotions(promos);
+                }
+
+            } else if (!existsOnAccount) {
+                // Product not on customer account — Add with promotions from slsCommonProductsMap
+                cartItem.setAction("Add");
+                log.info("Action=Add for common product not in CC: {}", cartItem.getProductCode());
+                if (cartItem.getPromotions() != null && !cartItem.getPromotions().isEmpty()) {
+                    for (Object promoObj : cartItem.getPromotions()) {
+                        ((Promotion) promoObj).setAction("Add");
+                    }
+                } else {
+                    List<String> configuredSlsPromos = (List<String>) slsCommonProductsMap.get(cartItem.getProductCode());
+                    if (configuredSlsPromos != null && !configuredSlsPromos.isEmpty()) {
+                        List<Promotion> promos = new ArrayList<>();
+                        for (String promoId : configuredSlsPromos) {
+                            Promotion promo = new Promotion();
+                            promo.setPromotionId(promoId);
+                            promo.setAction("Add");
+                            promos.add(promo);
+                        }
+                        cartItem.setPromotions(promos);
+                    }
+                }
+            }
+        }
+
+        log.info("[890] cartItems AFTER: {}", cartItemsSummary(cartItems));
+        log.info("END : SLS - Common Free Products Rule");
+    end;
+
+/**
+ * Detects conflicting product group combinations (e.g. two competing base plans in cart)
+ * and resolves by marking the first Add as Change with a message, removing the rest.
+ * Also cascades Remove to SVOD included products if their base plan is removed.
+ */
+rule "Cart Product ->Product Group Rule - SLS"
+salience 885
+    when
+        CouponOffersRequest($cartContext: cartContext);
+        CartContexts($cartProducts: cartProducts) from $cartContext;
+        $swimlaneFlag : CouponOffersRequest(swimlaneSwitchEligible == true);
+        $productList : List() from collect(CartProduct(productCode != null && action != "Remove") from $cartProducts);
+        eval($swimlaneFlag.getSwimlaneSwitchEligible() == true && $cartProducts != null && !$cartProducts.isEmpty()
+                && cartItems.size() > 0 && getGroupingByProductGrpMap != null && !getGroupingByProductGrpMap.isEmpty()
+                && CollectionUtils.containsAny(commonRuleCohortList, contractIndicator));
+    then
+        log.info("START : Cart Product Product Group Rule SLS");
+        log.info("[885] cartItems BEFORE: {}", cartItemsSummary(cartItems));
+
+        List<CartItems> cartItemsToRemove = new ArrayList<>();
+        boolean changeDone = false;
+
+        List<String> activeCartProductCodes = getAllProductCodesFromCart($productList);
+        activeCartProductCodes.removeAll(tempProductCodes); // exclude products already scheduled for removal
+        log.info("activeCartProductCodes: {}, ccProductCodes: {}", activeCartProductCodes, customerContextProductCodes);
+
+        for (Map.Entry<String, List<String>> entry : ((Map<String, List<String>>) getGroupingByProductGrpMap).entrySet()) {
+            String groupKey = entry.getKey();
+            List<String> groupProductCodes = entry.getValue();
+
+            // Merge cart products and CC products to detect any conflict
+            List<String> conflictingProductsInCC = groupProductCodes.stream().filter(customerContextProductCodes::contains).collect(Collectors.toList());
+            List<String> conflictingProductsInCart = groupProductCodes.stream().filter(activeCartProductCodes::contains).collect(Collectors.toList());
+            if (!conflictingProductsInCC.isEmpty()) {
+                conflictingProductsInCart.addAll(conflictingProductsInCC);
+                conflictingProductsInCart = conflictingProductsInCart.stream().distinct().collect(Collectors.toList());
+            }
+
+            if (conflictingProductsInCart.size() < 2) continue;
+            log.info("Conflict detected in group {}: {}", groupKey, conflictingProductsInCart);
+
+            String firstProduct = conflictingProductsInCart.get(0);
+            String secondProduct = conflictingProductsInCart.get(1);
+
+            for (String productCode : groupProductCodes) {
+                for (Object obj : cartItems) {
+                    if (!(obj instanceof CartItems)) continue;
+                    CartItems cartItem = (CartItems) obj;
+                    if (!productCode.equalsIgnoreCase(cartItem.getProductCode())) continue;
+
+                    if ("Add".equalsIgnoreCase(cartItem.getAction()) && !changeDone) {
+                        changeDone = true;
+                        cartItem.setAction("Change");
+                        String conflictingWith = productCode.equalsIgnoreCase(firstProduct) ? secondProduct : firstProduct;
+                        cartItem.setValidationMessage("The " + productCodeWithNameMap.get(conflictingWith) + "  already on customer account.");
+                        log.info("Action=Change for {} conflicts with {}", productCode, conflictingWith);
+                    } else if ("NoChange".equalsIgnoreCase(cartItem.getAction())
+                            || "Remove".equalsIgnoreCase(cartItem.getAction())
+                            || (changeDone && "Add".equalsIgnoreCase(cartItem.getAction()))) {
+                        cartItemsToRemove.add(cartItem);
+                        log.info("Queued for removal: {} (action: {})", cartItem.getProductCode(), cartItem.getAction());
+                    }
+                }
+            }
+        }
+
+        // Remove resolved items; cascade Remove to SVOD included products
+        for (CartItems itemToRemove : cartItemsToRemove) {
+            cartItems.remove(itemToRemove);
+            log.info("Removed conflicting cart item: {}", itemToRemove.getProductCode());
+
+            if (svodProductsMaps == null || !svodProductsMaps.containsKey(itemToRemove.getProductCode())) continue;
+
+            List<String> svodIncludedProducts = (List<String>) svodProductsMaps.get(itemToRemove.getProductCode());
+            for (Object obj : cartItems) {
+                if (!(obj instanceof CartItems)) continue;
+                CartItems cartItem = (CartItems) obj;
+                if (svodIncludedProducts.contains(cartItem.getProductCode())) {
+                    cartItem.setAction("Remove");
+                    cartItem.setValidationMessage(productCodeWithNameMap.get(cartItem.getProductCode())
+                        + " is removed because " + productCodeWithNameMap.get(itemToRemove.getProductCode()) + " is removed from the cart");
+                    log.info("Cascaded Remove to SVOD included product: {}", cartItem.getProductCode());
+                }
+            }
+        }
+
+        log.info("[885] cartItems AFTER: {}", cartItemsSummary(cartItems));
+        log.info("END : Cart Product Product Group Rule SLS");
+    end;
+
+/**
+ * Builds a readable summary of cartItems including promotions.
+ * Format: [productCode:action(promoId:promoAction, ...), ...]
+ */
+function String cartItemsSummary(List cartItems) {
+    if (cartItems == null) return "[]";
+    StringBuilder sb = new StringBuilder("[");
+    for (Object obj : cartItems) {
+        if (!(obj instanceof CartItems)) continue;
+        CartItems item = (CartItems) obj;
+        sb.append(item.getProductCode()).append(":").append(item.getAction());
+        if (item.getPromotions() != null && !item.getPromotions().isEmpty()) {
+            sb.append("(");
+            for (Object promoObj : item.getPromotions()) {
+                Promotion promo = (Promotion) promoObj;
+                if (promo.getPromotionId() != null) {
+                    sb.append(promo.getPromotionId()).append(":").append(promo.getAction()).append(",");
+                }
+            }
+            if (sb.charAt(sb.length() - 1) == ',') sb.setLength(sb.length() - 1);
+            sb.append(")");
+        }
+        sb.append(", ");
+    }
+    if (sb.length() > 1) sb.setLength(sb.length() - 2);
+    sb.append("]");
+    return sb.toString();
+}
+
+/**
+ * Extracts productCodes from a list of CartProduct (request model) objects.
+ */
+function List<String> getAllProductCodesFromCart(List cartProducts) {
+    List<String> productCodes = new ArrayList<>();
+    for (Object obj : cartProducts) {
+        CartProduct cartProduct = (CartProduct) obj;
+        if (cartProduct.getProductCode() != null) {
+            productCodes.add(cartProduct.getProductCode());
+        }
+    }
+    return productCodes;
+}
+
+/**
+ * Returns true if a CartItems (response model) entry with the given productCode exists in the list.
+ */
+function boolean isProductCodeAlreadyInCartItems(List cartItems, String productCode) {
+    for (Object obj : cartItems) {
+        if (obj instanceof CartItems) {
+            CartItems cartItem = (CartItems) obj;
+            if (cartItem.getProductCode() != null && cartItem.getProductCode().equalsIgnoreCase(productCode)) {
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
+/**
+ * Resolves the action for a CC promotion based on its swimlaneContractIndicator list.
+ *   - null or empty swimlaneIndicators           => "Remove"
+ *   - swimlaneIndicators contains target swimlane => retainAction ("Retain" or "Add")
+ *   - no match                                    => "Remove"
+ */
+function String resolveSwimlanePromoAction(List swimlaneIndicators, List targetSwimlanes, String retainAction) {
+    if (swimlaneIndicators == null || swimlaneIndicators.isEmpty()) {
+        return "Remove";
+    }
+    return org.apache.commons.collections.CollectionUtils.containsAny(swimlaneIndicators, targetSwimlanes)
+        ? retainAction : "Remove";
+}
+
+/**
+ * Evaluates CC promotions on a retained cart item against swimlaneContractIndicator.
+ *
+ * Only promotions present in promoToProductMapCC (customer context promotions) are evaluated.
+ * Promotions added by business rules (e.g. DISCOUNTRULES) are NOT in promoToProductMapCC
+ * and are left completely unchanged — preserving legitimate discounts like AMCDISC.
+ *
+ * CC promos absent from the cart item are added with the resolved action.
+ */
+function void applyPromoActionsForRetainedProduct(CartItems cartItem, Map ccPromoToProductMap, Map swimlaneIndicatorMap, List targetSwimlanes) {
+    // Collect all CC promotion IDs associated with this product
+    List<String> ccPromosForProduct = new ArrayList<>();
+    for (Object entryObj : ccPromoToProductMap.entrySet()) {
+        Entry entry = (Entry) entryObj;
+        if (entry.getValue() instanceof String
+                && ((String) entry.getValue()).equalsIgnoreCase(cartItem.getProductCode())) {
+            ccPromosForProduct.add((String) entry.getKey());
+        }
+    }
+    // Note: ccPromosForProduct and targetSwimlanes are logged in the rule body before calling this function
+
+    if (cartItem.getPromotions() != null && !cartItem.getPromotions().isEmpty()) {
+        // Evaluate only CC promos — skip business-rule promos (not in CC)
+        for (Object promoObj : cartItem.getPromotions()) {
+            Promotion promo = (Promotion) promoObj;
+            if (!ccPromosForProduct.contains(promo.getPromotionId())) continue;
+            List<String> swimlaneIndicators = (List<String>) swimlaneIndicatorMap.get(promo.getPromotionId());
+            String resolvedAction = resolveSwimlanePromoAction(swimlaneIndicators, targetSwimlanes, "Retain");
+            promo.setAction(resolvedAction);
+        }
+        // Add CC promos that are missing from the cart item
+        for (String ccPromoId : ccPromosForProduct) {
+            boolean alreadyPresent = false;
+            for (Object p : cartItem.getPromotions()) {
+                if (((Promotion) p).getPromotionId().equalsIgnoreCase(ccPromoId)) {
+                    alreadyPresent = true; break;
+                }
+            }
+            if (!alreadyPresent) {
+                List<String> swimlaneIndicators = (List<String>) swimlaneIndicatorMap.get(ccPromoId);
+                Promotion newPromo = new Promotion();
+                newPromo.setPromotionId(ccPromoId);
+                newPromo.setAction(resolveSwimlanePromoAction(swimlaneIndicators, targetSwimlanes, "Retain"));
+                cartItem.getPromotions().add(newPromo);
+            }
+        }
+    } else if (!ccPromosForProduct.isEmpty()) {
+        // No promotions on cart item — initialise from CC promos only
+        List<Promotion> promos = new ArrayList<>();
+        for (String ccPromoId : ccPromosForProduct) {
+            List<String> swimlaneIndicators = (List<String>) swimlaneIndicatorMap.get(ccPromoId);
+            Promotion promo = new Promotion();
+            promo.setPromotionId(ccPromoId);
+            promo.setAction(resolveSwimlanePromoAction(swimlaneIndicators, targetSwimlanes, "Retain"));
+            promos.add(promo);
+        }
+        cartItem.setPromotions(promos);
+    }
+}

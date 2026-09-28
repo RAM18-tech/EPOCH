@@ -1,0 +1,214 @@
+{
+  "accountId": "190708191805151",
+  "status": "current",
+  "lastUpdatedTimeStamp": "2019-10-11T15:45:28.143+0000",
+  "accountInfo": {
+    "accountType": "Residential",
+    "accountStatus": "Active",
+    "verificationStatus": false,
+    "spAccountId": "190708191805151",
+    "accountCreationDate": 1562612572000,
+    "cpCustomerId": "190708191805151",
+    "isIOIndicator": false,
+    "isPremiumCustomer": true
+  },
+  "contactInfo": {
+    "firstName": "Atul",
+    "lastName": "Sharan",
+    "alertNotificationEmail": false,
+    "alertNotificationPush": false,
+    "contactId": "3816191",
+    "parentalControl": false,
+    "isPrimaryContact": true,
+    "email": "as295q@att.com",
+    "mobileNumber": "1234567890",
+    "allowTracking": false,
+    "segmentInfo": [
+      {
+        "description": "TV 1",
+        "segmentType": "ChatToCancel"
+      }
+    ]
+  },
+  "billingInfo": {
+    "nextBillingDateTime": 1573300800000,
+    "nextBillingAmount": 134.08
+  },
+  "serviceInfo": [
+    {
+      "typeOfPlan": "Bolt-on",
+      "supportedLanguages": [
+        "English"
+      ],
+      "serviceName": "HBO",
+      "serviceID": "BOLT-HBO-201610",
+      "startDate": 1562544000000,
+      "retailPrice": 15,
+      "description": "24 access to a huge library of the best entertainment.",
+      "status": "Active",
+      "basicService": false,
+      "cancellable": false,
+      "hasAction": false,
+      "ordProdId": "4158634",
+      "rateType": "Contract Selling Price",
+      "contractPrice": 14.99,
+      "quantity": "1",
+      "allowedRefundDate": -1
+    },
+    {
+      "typeOfPlan": "Bolt-on",
+      "supportedLanguages": [
+        "English"
+      ],
+      "serviceName": "SHOWTIME",
+      "serviceID": "BOLT-SHOWTIME-201707",
+      "startDate": 1562544000000,
+      "retailPrice": 11,
+      "description": "Award-winning original series.",
+      "status": "Active",
+      "basicService": false,
+      "cancellable": false,
+      "hasAction": false,
+      "ordProdId": "4158635",
+      "rateType": "Contract Selling Price",
+      "contractPrice": 10.99,
+      "quantity": "1",
+      "allowedRefundDate": -1
+    },
+    {
+      "typeOfPlan": "Bolt-on",
+      "supportedLanguages": [
+        "English"
+      ],
+      "serviceName": "STARZ",
+      "serviceID": "BOLT-STARZ-201610",
+      "startDate": 1562544000000,
+      "retailPrice": 11,
+      "description": "thousands of movies .",
+      "status": "Active",
+      "basicService": false,
+      "cancellable": false,
+      "hasAction": false,
+      "ordProdId": "4158636",
+      "rateType": "Contract Selling Price",
+      "contractPrice": 10.99,
+      "quantity": "1",
+      "allowedRefundDate": -1
+    },
+    {
+      "typeOfPlan": "Bolt-on",
+      "supportedLanguages": [
+        "English"
+      ],
+      "serviceName": "3 Streams",
+      "serviceID": "BOLT-3RDSTREAMFREE-201804",
+      "startDate": 1562544000000,
+      "retailPrice": 0,
+      "description": "3rd Stream Free",
+      "status": "Active",
+      "basicService": false,
+      "cancellable": false,
+      "hasAction": false,
+      "ordProdId": "4158638",
+      "rateType": "Contract Selling Price",
+      "contractPrice": 0,
+      "quantity": "1",
+      "allowedRefundDate": -1
+    },
+    {
+      "typeOfPlan": "Bolt-on",
+      "supportedLanguages": [
+        "English"
+      ],
+      "serviceName": "CINEMAX",
+      "serviceID": "BOLT-CINEMAX-201610",
+      "startDate": 1562544000000,
+      "retailPrice": 11,
+      "description": "Hit movies every week.",
+      "status": "Active",
+      "basicService": false,
+      "cancellable": false,
+      "hasAction": false,
+      "ordProdId": "4158639",
+      "rateType": "Contract Selling Price",
+      "contractPrice": 10.99,
+      "quantity": "1",
+      "allowedRefundDate": -1
+    },
+    {
+      "typeOfPlan": "RSN",
+      "supportedLanguages": [
+        "English"
+      ],
+      "serviceName": "Regional Sports Fee",
+      "serviceID": "RSN-TIER4-201812",
+      "startDate": 1562544000000,
+      "retailPrice": 0,
+      "description": "TIER4",
+      "status": "Active",
+      "basicService": false,
+      "cancellable": false,
+      "hasAction": false,
+      "ordProdId": "4158641",
+      "rateType": "Contract Selling Price",
+      "contractPrice": 7.13,
+      "quantity": "1",
+      "allowedRefundDate": -1
+    },
+    {
+      "typeOfPlan": "Bolt-on",
+      "supportedLanguages": [
+        "English"
+      ],
+      "serviceName": "500 hours Cloud DVR",
+      "serviceID": "BOLT-CDVR500FREE-201812",
+      "startDate": 1562544000000,
+      "retailPrice": 0,
+      "description": "500 hours Cloud DVR",
+      "status": "Active",
+      "basicService": false,
+      "cancellable": false,
+      "hasAction": false,
+      "ordProdId": "4158642",
+      "rateType": "Contract Selling Price",
+      "contractPrice": 0,
+      "quantity": "1",
+      "allowedRefundDate": -1
+    },
+    {
+      "typeOfPlan": "Basic Service",
+      "supportedLanguages": [
+        "English"
+      ],
+      "serviceName": "XTRA",
+      "serviceID": "BASE-XTRA-201811",
+      "startDate": 1562630400000,
+      "retailPrice": 124,
+      "description": "Xtra must-haves. ##105##+ channels",
+      "status": "Active",
+      "promotion": [
+        {
+          "externalPromoType": "Contract",
+          "promotionName": "12-month promotional pricing(Choice)",
+          "promotionId": "PCHO12MCON",
+          "startDate": 1562716800000,
+          "endDate": 1594339200000,
+          "promotionalAmount": 63.99,
+          "promotionType": "Flat Off",
+          "promotionAmount": 60.01,
+          "isVoucher": false,
+          "promoRanking": 4,
+          "isDefaultPromo": false
+        }
+      ],
+      "basicService": true,
+      "cancellable": false,
+      "hasAction": false,
+      "ordProdId": "4160021",
+      "rateType": "Retail Price",
+      "quantity": "1",
+      "allowedRefundDate": -1
+    }
+  ],
+  "isProjectedBillDate": false
+}

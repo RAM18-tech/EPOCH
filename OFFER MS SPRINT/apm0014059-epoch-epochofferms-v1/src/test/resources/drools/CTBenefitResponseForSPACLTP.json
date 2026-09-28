@@ -1,0 +1,130 @@
+{
+  "limit": 50,
+  "offset": 0,
+  "count": 1,
+  "total": 1,
+  "benefits": [
+    {
+      "opusDisclosureMessage": "New DIRECTV customers connecting via internet who select and maintain PREMIER base package will receive the DIRECTV Sports Pack bolt-on at no additional monthly charge. Blackout restrictions and other conditions apply to all sports programming. Actual number of channels and games varies by market.",
+      "billingBenefitCode": "SPACKLTP",
+      "compliance": {
+        "constraints": [
+          {
+            "productFamily": "OTT",
+            "complianceProducts": [
+              {
+                "productType": "VideoPlan",
+                "products": [
+                  {
+                    "typeId": "product",
+                    "id": "cda38789-8834-4d91-9060-6e3dc67c5ce5",
+                    "name": "PREMIER",
+                    "productType": "video-plan",
+                    "key": "BASE-PREMIER-202004"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "d3914c60-e415-4914-87b7-00e4d17a0a4b",
+                    "name": "Premier Upgrade",
+                    "productType": "VideoPlan",
+                    "key": "BRIDGE-ENTTOPREM-202204"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "ff7e8fa6-1553-4359-ac22-a6844b79f523",
+                    "name": "Premier Upgrade",
+                    "productType": "VideoPlan",
+                    "key": "BRIDGE-CHOTOPREM-202204"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "faeab0aa-adbe-401b-86b0-7b744021a4d1",
+                    "name": "Premier Upgrade",
+                    "productType": "VideoPlan",
+                    "key": "BRIDGE-ULTTOPREM-202204"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "longDescriptionforServices": "New DIRECTV customers connecting via internet who select and maintain PREMIER base package will receive the DIRECTV Sports Pack bolt-on at no additional monthly charge.",
+      "myAttDisclosureMessage": "New DIRECTV customers connecting via internet who select and maintain PREMIER base package will receive the DIRECTV Sports Pack bolt-on at no additional monthly charge.  Blackout restrictions and other conditions apply to all sports programming. Actual number of channels and games varies by market.",
+      "displayNameforServices": "DIRECTV Sports Pack included",
+      "contractIndicator": "all",
+      "salesChannel": "agentNew|selfServiceNew",
+      "parentOffers": [
+        {
+          "typeId": "product",
+          "id": "a598df7a-e48c-40a5-99df-3b70db40f31c"
+        },
+        {
+          "typeId": "product",
+          "id": "13aac5d6-67a9-4cbb-84b6-d14593ac45fb"
+        },
+        {
+          "typeId": "product",
+          "id": "91ce3b8c-79c2-4e44-85ef-464de09e6bac"
+        },
+        {
+          "typeId": "product",
+          "id": "ed1c8e94-91cf-4178-b8f5-f5e06946e2be"
+        },
+        {
+          "typeId": "product",
+          "id": "aae02d64-f558-40ba-9395-b4c4442f7997"
+        },
+        {
+          "typeId": "product",
+          "id": "b1b2e6d3-77e0-4a25-9f46-48e8f7baee71"
+        }
+      ],
+      "period": "LifeTime",
+      "benefitType": "free-promo",
+      "benefitDisplayName": {
+        "en": "DIRECTV Sports Pack included"
+      },
+      "benefitRank": 45,
+      "benefitCategory": "Product",
+      "applicableProducts": [
+        {
+          "products": [
+            {
+              "typeId": "product",
+              "id": "d0f6f80e-da54-4474-a681-3d964cf9451c",
+              "key": "BOLT-SPACK-202222",
+              "productType": "video-addon"
+            },
+            {
+              "typeId": "product",
+              "id": "1fde2995-cd2a-4870-8438-68d57d23ef5c",
+              "key": "BOLT-SPACK2-202209",
+              "productType": "video-addon"
+            }
+          ]
+        }
+      ],
+      "productFamily": [
+        "OTT"
+      ],
+      "id": "2a55d3c6-7e67-4791-a03c-c2d1c9fed591",
+      "version": 55,
+      "code": "SPACKLTP",
+      "rtpIndicator": false,
+      "benefitName": {
+        "en": "DIRECTV Sports Pack included"
+      },
+      "description": {
+        "en": "New DIRECTV customers connecting via internet who select the PREMIER base package will receive the DIRECTV Sports Pack bolt-on at no additional monthly charge as long as they subscribe to the PREMIER base package."
+      },
+      "startDate": "2023-06-27T07:00:00.000Z",
+      "endDate": "2050-12-31T08:00:00.000Z",
+      "value": {
+        "percentage": 0
+      },
+      "isQuotaBased": false,
+      "isActive": true
+    }
+  ]
+}

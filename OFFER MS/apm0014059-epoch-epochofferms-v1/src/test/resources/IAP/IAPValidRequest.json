@@ -1,0 +1,60 @@
+{
+  "accountTypes": [
+    "Residential"
+  ],
+  "customerSegments": [
+    "Residential"
+  ],
+  "addOnType": [],
+  "contractIndicator": [
+    "EDSP"
+  ],
+  "swimlaneSwitchEligible": false,
+  "decisioningFlow": false,
+  "customerContext": {
+    "existingProductFamily": [
+      "OTT"
+    ],
+    "OTT": {
+      "products": [
+        {
+          "basePrice": "149.99",
+          "productCode": "BASE-OPTIMOMAS-122018",
+          "productType": "video-plan"
+        },
+        {
+          "basePrice": "11.0",
+          "productCode": "BOLT-STARZ-201610",
+          "productType": "video-addon"
+        },
+        {
+          "basePrice": "14.99",
+          "productCode": "BOLT-HBO-201610",
+          "productType": "video-addon"
+        }
+      ],
+      "accountNumber": "220121174757314",
+      "isActive": true,
+      "iapPartnerAccountType": "ROKUTV",
+      "retentionPromotionIndicator": false,
+      "freeTrialEligible": false,
+      "accountType": "Residential",
+      "nextBillingDate": "09/28/2024"
+    }
+  },
+  "offerActionType": [
+    "Upgrade",
+    "Downgrade",
+    "Cross-sell",
+    "Other"
+  ],
+  "offerProductFamily": [
+    "OTT"
+  ],
+  "salesChannel": [
+    "oemIAPROKUTV"
+  ],
+  "offerProductTypes": [
+    "video-plan"
+  ]
+}

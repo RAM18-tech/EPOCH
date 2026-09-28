@@ -1,0 +1,54 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module"
+  },
+  "extends": "airbnb-base",
+  "plugins": [
+    "jest"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "no-unused-vars": "warn",
+    "no-await-in-loop": "off",
+    "no-console": "off",
+    "arrow-body-style": "off",
+    "indent": "warn",
+    "consistent-return": "off",
+    "no-else-return": "off",
+    "global-require": "off",
+    "no-param-reassign": [
+      "error",
+      {
+        "props": false
+      }
+    ],
+    "new-cap": "off",
+    "arrow-parens": "off",
+    "no-cond-assign": "off",
+    "no-use-before-define": "off",
+    "import/no-cycle": "off",
+    "max-len": [
+      "error",
+      {
+        "code": 140,
+        "ignoreComments": true,
+        "ignoreStrings": true
+      }
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never",
+        "mjs": "never"
+      }
+    ]
+  },
+  "env": {
+    "jest/globals": true
+  }
+}

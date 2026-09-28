@@ -1,0 +1,67 @@
+{
+    "contractIndicator": [
+        "non-contract"
+    ],
+    "customerEligibility": {
+        "zipCode": [
+            "00265"
+        ],
+        "county": [
+            "48000"
+        ]
+    },
+    "customerContext": {
+        "existingProductFamily": [
+            "satellite"
+        ],
+        "satellite": {
+            "products": [
+                {
+					"componentCode": "DTVGenieMini",
+                    "modelNumber": "C41-100",
+                    "productType": "video-device"
+                },
+                {
+                    "componentCode": "DTVWirelessGenie",
+                    "modelNumber": "C41W-100",
+                    "productType": "video-device"
+                },
+                {
+                    "pricePlanCode": "88834054",
+                    "productType": "video-plan"
+                }
+            ],
+            "accountNumber": "171202181454689",
+            "isActive": true,
+            "retentionPromotionIndicator": false,
+            "freeTrialEligible": false,
+            "accountType": "Residential",
+            "nextBillingDate": "12/04/2024",
+            "policy": "DVALL1",
+            "serviceOrderDate": "03/09/2020"
+        }
+    },
+    "offerActionType": [
+        "Upgrade",
+        "Downgrade",
+        "Other",
+        "Cross-sell",
+        "Retention"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "salesChannel": [
+        "stb"
+    ],
+    "adeOffersLite":true,
+    "offerProductTypes": [
+        "video-accessory",
+        "video-addon",
+        "video-device",
+        "video-plan",
+        "insurance",
+        "fee",
+        "credit"
+    ]
+}

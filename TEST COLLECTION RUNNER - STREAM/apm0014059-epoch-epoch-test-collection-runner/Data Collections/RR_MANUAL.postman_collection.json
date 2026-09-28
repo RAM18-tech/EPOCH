@@ -1,0 +1,2729 @@
+{
+	"info": {
+		"_postman_id": "dab4b938-f94a-420a-860e-fef599deed8b",
+		"name": "RR_MANUAL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26896344",
+		"_collection_link": "https://speeding-satellite-638584.postman.co/workspace/My-Workspace~c7526f72-eaab-41d5-896d-9a9cc5cd778a/collection/26896344-dab4b938-f94a-420a-860e-fef599deed8b?action=share&source=collection_link&creator=26896344"
+	},
+	"item": [
+		{
+			"name": "ISP without Optimomas",
+			"item": [
+				{
+					"name": "DIP - Enga sara",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 100\r\n    },\r\n    \"businessSegment\":[\r\n        \"CONS\"\r\n    ],\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"directIntegrationPartner\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n       \r\n        \"video-plan\"\r\n    ],\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"addOnType\": [\r\n        \"Programming-Bolt-on\",\r\n        \"Bolt-on\",\r\n        \"Standalone\"\r\n    ],\r\n    \"planSubType\": [\r\n        \"cDVR\",\r\n        \"Cross-Product-Mobility\",\r\n        \"Streams\",\r\n        \"CrossProduct-WatchTV\",\r\n        \"Cross-product\",\r\n        \"International\"\r\n    ],\r\n     \"channelEligibility\": {\r\n        \"salesChannel\":\"Indirect\",\r\n         \"dealerCode\": \"{{dealerCode1}}\",\r\n        \"directIntegrationPartnerName\": \"ENGA-SARAPLUS\"\r\n    },\r\n    \"contractIndicator\": [\r\n        \"RR\"\r\n    ],\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"75240\"\r\n        ]\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DIP - Enga chuzo",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 100\r\n    },\r\n    \"businessSegment\":[\r\n        \"CONS\"\r\n    ],\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"directIntegrationPartner\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n       \r\n        \"video-plan\"\r\n    ],\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"addOnType\": [\r\n        \"Programming-Bolt-on\",\r\n        \"Bolt-on\",\r\n        \"Standalone\"\r\n    ],\r\n    \"planSubType\": [\r\n        \"cDVR\",\r\n        \"Cross-Product-Mobility\",\r\n        \"Streams\",\r\n        \"CrossProduct-WatchTV\",\r\n        \"Cross-product\",\r\n        \"International\"\r\n    ],\r\n     \"channelEligibility\": {\r\n         \"dealerCode\":\"{{dealerCode1}}\",\r\n         \"salesChannel\":\"Dap\",\r\n        \"salesSubChannel\": \"distributedEcommerce\",\r\n        \"dealerId\": \"test\",\r\n        \"masterDealerId\": \"test\",\r\n        \"directIntegrationPartnerName\": \"ENGA-CHUZO\"\r\n    },\r\n    \"contractIndicator\": [\r\n        \"RR\"\r\n    ],\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"75240\"\r\n        ]\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							"var jsonData = pm.response.json();\r",
+							"//ISP SAVENOW VIDEO PLAN\r",
+							"pm.test(\"Validate that only 4 BPs are returned\", () => {\r",
+							"    console.log(jsonData.content.count);\r",
+							"    pm.expect(jsonData.content.count).to.eql(4, \"There should only be 4 video plans returned\");\r",
+							"});\r",
+							"pm.test(\"Validating for RR ISP PLAN returned - OF_BASE-PREMIER-202004_RR_INTRO_ISP\", () => {\r",
+							"    const Base = jsonData.content.offers.find(m => m.code === \"OF_BASE-PREMIER-202004_RR_INTRO_ISP\");\r",
+							"    pm.expect(Base).to.be.an(\"object\", \"The OF_BASE-PREMIER-202004_RR_INTRO_ISP offer should be returned\");\r",
+							"});\r",
+							"pm.test(\"Validating for RR ISP PLAN not returned - OF_BASE-OPTIMOMAS-122018_RR_INTRO_ISP\", () => {\r",
+							"    const Base = jsonData.content.offers.find(m => m.code === \"OF_BASE-OPTIMOMAS-122018_RR_INTRO_ISP\");\r",
+							"    pm.expect(Base).to.eql(undefined, \"OF_BASE-OPTIMOMAS-122018_RR_INTRO_ISPoffer should be returned\");\r",
+							"   \r",
+							"});\r",
+							"pm.test(\"Validating for RR ISP PLAN returned -OF_BASE-ULTIMATE-201811_RR_INTRO_ISP\", () => {\r",
+							"    const Base = jsonData.content.offers.find(m => m.code === \"OF_BASE-ULTIMATE-201811_RR_INTRO_ISP\");\r",
+							"    pm.expect(Base).to.be.an(\"object\", \"OF_BASE-ULTIMATE-201811_RR_INTRO_ISPoffer should be returned\");\r",
+							"  \r",
+							"    \r",
+							"});\r",
+							"pm.test(\"Validating for RR_ISP returned - OF_BASE-CHOICE-201811_RR_15OFF_24MO_INTRO_ISP\", () => {\r",
+							"    const choice = jsonData.content.offers.find(m => m.code === \"OF_BASE-CHOICE-201811_RR_INTRO_ISP\");\r",
+							"    pm.expect(choice).to.be.an(\"object\", \"The OF_BASE-CHOICE-201811_RR_INTRO_ISP offer should be returned\");\r",
+							"  \r",
+							"   \r",
+							"    \r",
+							"}); \r",
+							"\r",
+							"pm.test(\"Validating for RR INTRO PLAN returned - OF_BASE-ENTERTAINMENT-201811_RR_INTRO\", () => {\r",
+							"    const Entertainment = jsonData.content.offers.find(m => m.code === \"OF_BASE-ENTERTAINMENT-201811_RR_INTRO\");\r",
+							"    pm.expect(Entertainment).to.be.an(\"object\", \"The OF_BASE-ENTERTAINMENT-201811_RR_INTRO offer should be returned\");\r",
+							"   \r",
+							"    \r",
+							"    \r",
+							"});\r",
+							"\r",
+							"\r",
+							"\r",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "ISP with Optimomas",
+			"item": [
+				{
+					"name": "DIP - Enga sara",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 100\r\n    },\r\n    \"businessSegment\":[\r\n        \"CONS\"\r\n    ],\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"directIntegrationPartner\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n       \r\n        \"video-plan\"\r\n    ],\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"addOnType\": [\r\n        \"Programming-Bolt-on\",\r\n        \"Bolt-on\",\r\n        \"Standalone\"\r\n    ],\r\n    \"planSubType\": [\r\n        \"cDVR\",\r\n        \"Cross-Product-Mobility\",\r\n        \"Streams\",\r\n        \"CrossProduct-WatchTV\",\r\n        \"Cross-product\",\r\n        \"International\"\r\n    ],\r\n     \"channelEligibility\": {\r\n         \"dealerCode\": \"{{dealerCode1}}\",\r\n         \"salesChannel\":\"Indirect\",\r\n        \"directIntegrationPartnerName\": \"ENGA-SARAPLUS\"\r\n    },\r\n    \"contractIndicator\": [\r\n        \"RR\"\r\n    ],\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"75240\"\r\n        ]\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DIP - Enga chuzo",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 100\r\n    },\r\n    \"businessSegment\":[\r\n        \"CONS\"\r\n    ],\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"directIntegrationPartner\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n       \r\n        \"video-plan\"\r\n    ],\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"addOnType\": [\r\n        \"Programming-Bolt-on\",\r\n        \"Bolt-on\",\r\n        \"Standalone\"\r\n    ],\r\n    \"planSubType\": [\r\n        \"cDVR\",\r\n        \"Cross-Product-Mobility\",\r\n        \"Streams\",\r\n        \"CrossProduct-WatchTV\",\r\n        \"Cross-product\",\r\n        \"International\"\r\n    ],\r\n     \"channelEligibility\": {\r\n         \"dealerCode\":\"{{dealerCode1}}\",\r\n          \"salesChannel\":\"Dap\",\r\n        \"salesSubChannel\": \"distributedEcommerce\",\r\n        \"dealerId\": \"test\",\r\n        \"masterDealerId\": \"test\",\r\n        \"directIntegrationPartnerName\": \"ENGA-SARAPLUS\"\r\n    },\r\n    \"contractIndicator\": [\r\n        \"RR\"\r\n    ],\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"75240\"\r\n        ]\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"//ISP SAVENOW VIDEO PLAN",
+							"pm.test(\"Validate that only 5 BPs are returned\", () => {",
+							"    console.log(jsonData.content.count);",
+							"    pm.expect(jsonData.content.count).to.eql(5, \"There should only be 5 video plans returned\");",
+							"});",
+							"pm.test(\"Validating for RR ISP PLAN returned - OF_BASE-PREMIER-202004_RR_INTRO_ISP\", () => {",
+							"    const Base = jsonData.content.offers.find(m => m.code === \"OF_BASE-PREMIER-202004_RR_INTRO_ISP\");",
+							"    pm.expect(Base).to.be.an(\"object\", \"The OF_BASE-PREMIER-202004_RR_INTRO_ISP offer should be returned\");",
+							"});",
+							"pm.test(\"Validating for RR ISP PLAN  returned - OF_BASE-OPTIMOMAS-122018_RR_INTRO_ISP\", () => {",
+							"    const Base = jsonData.content.offers.find(m => m.code === \"OF_BASE-OPTIMOMAS-122018_RR_INTRO_ISP\");",
+							"    pm.expect(Base).to.be.an(\"object\", \"OF_BASE-OPTIMOMAS-122018_RR_INTRO_ISPoffer should be returned\");",
+							"   ",
+							"});",
+							"pm.test(\"Validating for RR ISP PLAN returned -OF_BASE-ULTIMATE-201811_RR_INTRO_ISP\", () => {",
+							"    const Base = jsonData.content.offers.find(m => m.code === \"OF_BASE-ULTIMATE-201811_RR_INTRO_ISP\");",
+							"    pm.expect(Base).to.be.an(\"object\", \"OF_BASE-ULTIMATE-201811_RR_INTRO_ISPoffer should be returned\");",
+							"  ",
+							"    ",
+							"});",
+							"pm.test(\"Validating for RR_ISP returned - OF_BASE-CHOICE-201811_RR_15OFF_24MO_INTRO_ISP\", () => {",
+							"    const choice = jsonData.content.offers.find(m => m.code === \"OF_BASE-CHOICE-201811_RR_INTRO_ISP\");",
+							"    pm.expect(choice).to.be.an(\"object\", \"The OF_BASE-CHOICE-201811_RR_INTRO_ISP offer should be returned\");",
+							"  ",
+							"   ",
+							"    ",
+							"}); ",
+							"",
+							"pm.test(\"Validating for RR INTRO PLAN returned - OF_BASE-ENTERTAINMENT-201811_RR_INTRO\", () => {",
+							"    const Entertainment = jsonData.content.offers.find(m => m.code === \"OF_BASE-ENTERTAINMENT-201811_RR_INTRO\");",
+							"    pm.expect(Entertainment).to.be.an(\"object\", \"The OF_BASE-ENTERTAINMENT-201811_RR_INTRO offer should be returned\");",
+							"   ",
+							"    ",
+							"    ",
+							"});",
+							"",
+							"",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "RR  DTV Affiliates",
+			"item": [
+				{
+					"name": "Directv Online",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.test(\"Validate that only 58 plans are returned\", () => {\r",
+									"    console.log(jsonData.content.count);\r",
+									"    pm.expect(jsonData.content.count).to.eql(58, \"There should only be  58 offer should returned\");\r",
+									"});\r",
+									"\r",
+									"RRPack = [\"OF_BASE-PREMIER-202004_RR_INTRO_SAVENOW_MANUAL\",\r",
+									"    \"OF_BASE-OPTIMOMAS-122018_RR_INTRO_SAVENOW_MANUAL\",\r",
+									"    \"OF_BASE-ENTERTAINMENT-201811_RR_INTRO_SAVENOW_MANUAL\",\r",
+									"    \"OF_BASE-ULTIMATE-201811_RR_INTRO_SAVENOW_MANUAL\",\r",
+									"    \"OF_BASE-CHOICE-201811_RR_INTRO_SAVENOW_MANUAL\",\r",
+									"    \"OF_BOLT-ALLBLK-202222_RR\",\r",
+									"    \"OF_BOLT-APPLETV-202501_RR\",\r",
+									"    \"OF_SPACKLTP_RR\",\r",
+									"    \"OF_2OFFAMCLT_ONLINE_RR\",\r",
+									"    \"OF_EDSPHBOMAX3M_RR\",\r",
+									"    \"OF_EDSPSTZ3MON_RR\",\r",
+									"    \"OF_EDSPEPIX3MON_RR\",\r",
+									"    \"OF_2OFFDISC_ONLINE_RR\",\r",
+									"    \"OF_EDSPMAX3MON_RR\",\r",
+									"    \"OF_EDSPSHO3MON_RR\",\r",
+									"    \"OF_BOLT-HALLMARK-202310_RR\",\r",
+									"    \"OF_BOLT-ENESPANOL-201802_RR\",\r",
+									"    \"OF_BOLT-LIFETIME-201910_RR\",\r",
+									"    \"OF_UNLTDCDVR2021_RR\",\r",
+									"   // \"OF_BOLT-MLSSP-202410_RR\",\r",
+									"    \"OF_BOLT-HISTORY-202310_RR\",\r",
+									"   // \"OF_BOLT-MVPX-201910_RR\",\r",
+									"    \"OF_BOLT-20STREAMS-202010_RR\",\r",
+									"    \"OF_BOLT-KOREA-201812_RR\",\r",
+									"    \"OF_BOLT-BETPLUS-202401_RR\",\r",
+									"    \"OF_BOLT-VIETNAM-201810_RR\",\r",
+									"    \"OF_BOLT-FOXN-202222_RR\",\r",
+									"    \"OF_BOLT-ACORNTV-202401_RR\",\r",
+									"    \"OF_BOLT-AECRIME-202401_RR\",\r",
+									"    \"OF_BOLT-BRAZIL-201810_RR\",\r",
+									"    \"OF_BOLT-DEPORTES-201802_RR\",\r",
+									"    \"OF_BOLT-HBO-201610_RR\",\r",
+									"    \"OF_BOLT-CINEMAX-201610_RR\",\r",
+									"    \"OF_BOLT-SHOWTIME-201707_RR\",\r",
+									"    \"OF_BOLT-STARZ-201610_RR\",\r",
+									"    \"OF_DOGTV1MOOFF_RR\",\r",
+									"    \"OF_BOLT-UPFAITH-202503_RR\",\r",
+									"    \"OF_BOLT-CURIOSITY-202505_RR\",\r",
+									"    //\"OF_PEACOCKPRE_DVCCHOICE_RR\",\r",
+									"    \"OF_BOLT-MVPXPEACOCK-202506_RR\",\r",
+									"    \"OF_BOLT-PEACOCKEMBED-202506_RR\",\r",
+									"    \"OF_BOLT-PEACOCKPRE-202208_RR\",\r",
+									"    \"OF_BOLT-SPACK2-202209_RR\",\r",
+									"    \"OF_BOLT-SPACK-202222_RR\",\r",
+									"    \"OF_BOLT-ESPNPLUS-202411_RR\",\r",
+									"    \"OF_BOLT-DUOBASIC-202411_RR\",\r",
+									"    \"OF_BOLT-NETFLIXSTD-202502_RR\",\r",
+									"    \"OF_BOLT-NETFLIXWADS-202502_RR\",\r",
+									"    \"OF_BOLT-NETFLIXPRE-202304_RR\",\r",
+									"  //  \"OF_1MOSPACKFREE_SPACK1_RR\",\r",
+									"   // \"OF_1MOSPACKFREE_RR\",\r",
+									"    \"OF_HARD-GEMINILEASE-202311_RR\",\r",
+									"    \"OF_RSN-RRTIER1-202505_RR\",\r",
+									"    \"OF_RSN-RRTIER2-202505_RR\",\r",
+									"    \"OF_RSN-RRTIER3-202505_RR\",\r",
+									"    \"OF_RSN-RRTIER4-202505_RR\",\r",
+									"    \"OF_RSN-RRTIER5-202505_RR\",\r",
+									"    \"OF_RSN-RRTIER6-202505_RR\",\r",
+									"    \"OF_RSN-RRTIER7-202505_RR\",\r",
+									"    \"OF_RSN-RRTIER8-202505_RR\",\r",
+									"    \"OF_RSN-RRTIER9-202505_RR\",\r",
+									"    \"OF_BOLT-NBALP-201912_RR\"];\r",
+									"\r",
+									"for (let plan of RRPack) {\r",
+									"    pm.test(plan + \" RR Packs are returned\", function () {\r",
+									"        const RR = jsonData.content.offers.find(m => (m.code === plan));\r",
+									"        pm.expect(RR).to.be.an(\"object\", plan + \"could not find the offers in the response\");\r",
+									"\r",
+									"\r",
+									"    });\r",
+									"}\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {},
+								"requests": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {},
+								"requests": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+								"value": "{{backupFlag}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 100\r\n    },\r\n    \"businessSegment\": [\r\n        \"CONS\"\r\n    ],\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"directvOnline\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-addon\",\r\n        \"fee\",\r\n        \"video-plan\",\r\n        \"video-device\",\r\n        \"protection-plan\",\r\n        \"reward\"\r\n    ],\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"addOnType\": [\r\n        \"Programming-Bolt-on\",\r\n        \"Bolt-on\",\r\n        \"Standalone\",\r\n        \"Subscription\"\r\n    ],\r\n    \"planSubType\": [\r\n        \"cDVR\",\r\n        \"Cross-Product-Mobility\",\r\n        \"Streams\",\r\n        \"CrossProduct-WatchTV\",\r\n        \"Cross-product\",\r\n        \"International\"\r\n    ],\r\n    \"contractIndicator\": [\r\n        \"RR\"\r\n    ],\r\n    \"onlinePartnerDetails\": {\r\n        \"partnerName\": \"{{partnerName}}\",\r\n        \"dealerCode1\": \"{{dealerCode1}}\"\r\n    },\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"75240\"\r\n        ]\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "WESALUTE",
+			"item": [
+				{
+					"name": "DPP",
+					"item": [
+						{
+							"name": "DPP sara",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "{{password}}",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "{{username}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 100\r\n    },\r\n    \"businessSegment\": [\r\n        \"CONS\"\r\n    ],\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"directIntegrationPartner\"\r\n    ],\r\n    \"channelEligibility\": {\r\n         \"dealerCode\": \"{{dealerCode1}}\",\r\n        \"salesSubChannel\": \"distributedEcommerce\",\r\n        \"salesChannel\":\"Indirect\",\r\n        \"dealerId\": \"test\",\r\n        \"masterDealerId\": \"test\",\r\n        \"directIntegrationPartnerName\": \"ENGA-SARAPLUS\"\r\n    },\r\n    \"offerProductTypes\": [\r\n        \r\n        \"video-plan\"\r\n    ],\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"addOnType\": [\r\n        \"Programming-Bolt-on\",\r\n        \"Bolt-on\",\r\n        \"Standalone\"\r\n    ],\r\n    \"planSubType\": [\r\n        \"cDVR\",\r\n        \"Cross-Product-Mobility\",\r\n        \"Streams\",\r\n        \"CrossProduct-WatchTV\",\r\n        \"Cross-product\",\r\n        \"International\"\r\n    ],\r\n    \"contractIndicator\": [\r\n        \"RR\"\r\n    ],\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"75240\"\r\n        ]\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"msapi",
+										"{{offerMs}}",
+										"v2",
+										"getOffers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "DPP Chuzo",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "{{password}}",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "{{username}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+										"value": "{{backupFlag}}",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-feature-svc-epoch-pvtenabled",
+										"value": "{{dcpbackupFlag}}",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-dealer-code1",
+										"value": "{{dealerCode1}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 100\r\n    },\r\n    \"businessSegment\": [\r\n        \"CONS\"\r\n    ],\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"directIntegrationPartner\"\r\n    ],\r\n    \"channelEligibility\": {\r\n         \"dealerCode\": \"{{dealerCode1}}\",\r\n         \"salesChannel\":\"Dap\",\r\n        \"salesSubChannel\": \"distributedEcommerce\",\r\n        \"dealerId\": \"test\",\r\n        \"masterDealerId\": \"test\",\r\n        \"directIntegrationPartnerName\": \"ENGA-CHUZO\"\r\n    },\r\n    \"offerProductTypes\": [\r\n        \r\n        \"video-plan\"\r\n    ],\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"addOnType\": [\r\n        \"Programming-Bolt-on\",\r\n        \"Bolt-on\",\r\n        \"Standalone\"\r\n    ],\r\n    \"planSubType\": [\r\n        \"cDVR\",\r\n        \"Cross-Product-Mobility\",\r\n        \"Streams\",\r\n        \"CrossProduct-WatchTV\",\r\n        \"Cross-product\",\r\n        \"International\"\r\n    ],\r\n    \"contractIndicator\": [\r\n        \"RR\"\r\n    ],\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"75240\"\r\n        ]\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"msapi",
+										"{{offerMs}}",
+										"v2",
+										"getOffers"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					]
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = pm.response.json();\r",
+							" \r",
+							" pm.test(\"Validate that only 4 BPs are returned\", () => {\r",
+							"    pm.expect(jsonData.content.count).to.eql(4, \"There should only be 4 video plans returned\");\r",
+							"    });\r",
+							"\r",
+							"\r",
+							"//video plans\r",
+							"\r",
+							"pm.test(\"Validating for RR INTRO PLAN returned - OF_BASE-PREMIER-202004_RR_INTRO_WESALUTE\", () => {\r",
+							"\r",
+							"    const Base = jsonData.content.offers.find(m => m.code === \"OF_BASE-PREMIER-202004_RR_INTRO_WESALUTE\");\r",
+							"\r",
+							"    pm.expect(Base).to.be.an(\"object\", \"The OF_BASE-PREMIER-202004_RR_INTRO_WESALUTE offer should be returned\"); \r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Validating for RR INTRO PLAN returned -OF_BASE-ULTIMATE-201811_RR_INTRO_WESALUTE\", () => {\r",
+							"\r",
+							"    const Base = jsonData.content.offers.find(m => m.code === \"OF_BASE-ULTIMATE-201811_RR_INTRO_WESALUTE\");\r",
+							"\r",
+							"    pm.expect(Base).to.be.an(\"object\", \"The OF_BASE-ULTIMATE-201811_RR_INTRO_WESALUTE offer should be returned\");\r",
+							"\r",
+							"   \r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Validating for RR_INTRO PLAN returned - OF_BASE-CHOICE-201811_RR_INTRO_WESALUTE\", () => {\r",
+							"\r",
+							"    const choice = jsonData.content.offers.find(m => m.code === \"OF_BASE-CHOICE-201811_RR_INTRO_WESALUTE\");\r",
+							"\r",
+							"    pm.expect(choice).to.be.an(\"object\", \"The OF_BASE-CHOICE-201811_RR_INTRO_WESALUTE offer should be returned\");\r",
+							"\r",
+							"   \r",
+							"}); \r",
+							"\r",
+							"pm.test(\"Validating for RR PLAN returned - OF_BASE-ENTERTAINMENT-201811_RR_INTRO_WESALUTE\", () => {\r",
+							"    const Entertainment = jsonData.content.offers.find(m => m.code === \"OF_BASE-ENTERTAINMENT-201811_RR_INTRO_WESALUTE\");\r",
+							"    pm.expect(Entertainment).to.be.an(\"object\", \"The OF_BASE-ENTERTAINMENT-201811_RR_INTRO offer should be returned\");\r",
+							"   \r",
+							"});\r",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "DirectIntegrationPartner with optimomas -INTRO",
+			"item": [
+				{
+					"name": "DIP -enga chuzo",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+								"value": "{{backupFlag}}"
+							},
+							{
+								"key": "idpctx-feature-svc-epoch-pvtenabled",
+								"value": "{{dcpbackupFlag}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 100\r\n    },\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"directIntegrationPartner\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\"\r\n    ],\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"addOnType\": [\r\n        \"Programming-Bolt-on\",\r\n        \"Bolt-on\",\r\n        \"Standalone\",\r\n        \"Subscription\"\r\n    ],\r\n    \"planSubType\": [\r\n        \"cDVR\",\r\n        \"Cross-Product-Mobility\",\r\n        \"Streams\",\r\n        \"CrossProduct-WatchTV\",\r\n        \"Cross-product\",\r\n        \"International\"\r\n    ],\r\n    \"contractIndicator\": [\r\n        \"RR\"\r\n    ],\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"75254\"\r\n        ]\r\n    },\r\n    \"channelEligibility\": {\r\n        \"salesChannel\": \"Indirect\",\r\n        \"salesSubChannel\": \"LSP\",\r\n        \"dealerCode\": \"{{dealerCode1}}\",\r\n        \"directIntegrationPartnerName\": \"ENGA-CHUZO\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DIP - enga Saraplus",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+								"value": "{{backupFlag}}"
+							},
+							{
+								"key": "idpctx-feature-svc-epoch-pvtenabled",
+								"value": "{{dcpbackupFlag}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 100\r\n    },\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"directIntegrationPartner\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\"\r\n    ],\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"addOnType\": [\r\n        \"Programming-Bolt-on\",\r\n        \"Bolt-on\",\r\n        \"Standalone\",\r\n        \"Subscription\"\r\n    ],\r\n    \"planSubType\": [\r\n        \"cDVR\",\r\n        \"Cross-Product-Mobility\",\r\n        \"Streams\",\r\n        \"CrossProduct-WatchTV\",\r\n        \"Cross-product\",\r\n        \"International\"\r\n    ],\r\n    \"contractIndicator\": [\r\n        \"RR\"\r\n    ],\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"75254\"\r\n        ]\r\n    },\r\n    \"channelEligibility\": {\r\n        \"salesChannel\":\"Indirect\",\r\n        \"dealerCode\": \"{{dealerCode1}}\",\r\n        \"directIntegrationPartnerName\": \"ENGA-CHUZO\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							"var jsonData = pm.response.json();\r",
+							"\r",
+							" let SAVENOW_Plans = [\"OF_BASE-PREMIER-202004_RR_INTRO_SAVENOW\",                \r",
+							"\t\"OF_BASE-ULTIMATE-201811_RR_INTRO_SAVENOW\",\r",
+							"\t\"OF_BASE-CHOICE-201811_RR_INTRO_SAVENOW\",\"OF_BASE-OPTIMOMAS-122018_RR_INTRO_SAVENOW\"\r",
+							"     ]\r",
+							"\r",
+							"for(plan of SAVENOW_Plans){    \r",
+							"        pm.test(\"Validation for SAVENOW PLAN should not be returned-\"+plan, () => {\r",
+							"            const BaseOfferCode = jsonData.content.offers.find(m => (m.code === plan));\r",
+							"            pm.expect(BaseOfferCode).to.eql (undefined, plan + \" should not be returned for this request\");\r",
+							"        });\r",
+							"    } \r",
+							"\r",
+							"    \r",
+							"var jsonData = pm.response.json();\r",
+							"\r",
+							"//video plans\r",
+							"pm.test(\"Validate that only 5 BPs are returned\", () => {\r",
+							"    console.log(jsonData.content.count);\r",
+							"    pm.expect(jsonData.content.count).to.eql(5, \"There should only be 5 video plans returned\");\r",
+							"});\r",
+							"pm.test(\"Validating for RR INTRO PLAN returned - OF_BASE-PREMIER-202004_RR_INTRO\", () => {\r",
+							"\r",
+							"    const Base = jsonData.content.offers.find(m => m.code === \"OF_BASE-PREMIER-202004_RR_INTRO\");\r",
+							"\r",
+							"    pm.expect(Base).to.be.an(\"object\", \"The OF_BASE-PREMIER-202004_RR_INTRO offer should be returned\");\r",
+							"\r",
+							"   \r",
+							"    \r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Validating for RR INTRO PLAN returned - OF_BASE-OPTIMOMAS-122018_RR_INTRO\", () => {\r",
+							"\r",
+							"    const Base = jsonData.content.offers.find(m => m.code === \"OF_BASE-OPTIMOMAS-122018_RR_INTRO\");\r",
+							"\r",
+							"    pm.expect(Base).to.be.an(\"object\", \"The OF_BASE-OPTIMOMAS-122018_RR_INTRO offer should be returned\");\r",
+							"\r",
+							"   \r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Validating for RR INTRO PLAN returned -OF_BASE-ULTIMATE-201811_RR_INTRO\", () => {\r",
+							"\r",
+							"    const Base = jsonData.content.offers.find(m => m.code === \"OF_BASE-ULTIMATE-201811_RR_INTRO\");\r",
+							"\r",
+							"    pm.expect(Base).to.be.an(\"object\", \"The OF_BASE-ULTIMATE-201811_RR_INTRO offer should be returned\");\r",
+							"\r",
+							"   \r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Validating for RR _INTRO PLAN returned - OF_BASE-CHOICE-201811_RR_INTRO\", () => {\r",
+							"\r",
+							"    const choice = jsonData.content.offers.find(m => m.code === \"OF_BASE-CHOICE-201811_RR_INTRO\");\r",
+							"\r",
+							"    pm.expect(choice).to.be.an(\"object\", \"The OF_BASE-CHOICE-201811_RR_INTRO offer should be returned\");\r",
+							"\r",
+							"   \r",
+							"\r",
+							"}); \r",
+							"\r",
+							"pm.test(\"Validating for RR PLAN returned - OF_BASE-ENTERTAINMENT-201811_RR_INTRO\", () => {\r",
+							"    const Entertainment = jsonData.content.offers.find(m => m.code === \"OF_BASE-ENTERTAINMENT-201811_RR_INTRO\");\r",
+							"    pm.expect(Entertainment).to.be.an(\"object\", \"The OF_BASE-ENTERTAINMENT-201811_RR_INTRO offer should be returned\");\r",
+							"   \r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "OPUS -INTRO SAVENOW",
+			"item": [
+				{
+					"name": "opus",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"   \r",
+									"  var jsonData = pm.response.json();\r",
+									"  /*\r",
+									"pm.test(\"Validating for TAZCONTRACT INTRO PLAN returned OF_BASE-ULTIMATE-201811_TAZCONTRACT_INTRO_SAVENOW_10OFF12M\", () => {\r",
+									"\r",
+									"    const ULTIMATE = jsonData.content.offers.find(m => m.code === \"OF_BASE-ULTIMATE-201811_TAZCONTRACT_INTRO_SAVENOW_10OFF12M\");\r",
+									"\r",
+									"    pm.expect(ULTIMATE).to.be.an(\"object\", \"The OF_BASE-ULTIMATE-201811_TAZCONTRACT_INTRO_SAVENOW_10OFF12M offer should be returned\");\r",
+									"\r",
+									"    pm.expect(ULTIMATE).to.eql(\"$10 off for 12 Months SAVE NOW\", \"Offer name is incorrect\");\r",
+									"\r",
+									"    pm.expect(ULTIMATE.description.en).to.eql(\"$10 Off For 12 Months Base Package Promotion \", \"Offer description is incorrect\");\r",
+									"\r",
+									"    pm.expect(ULTIMATE.attributes.rank).to.eql(\"530\", \"Offer rank is incorrect\");\r",
+									"\r",
+									"    pm.expect(ULTIMATE.attributes.billingCode).to.eql(\"OF_BASE-ULTIMATE-201811\", \"Offer level billingCode should be OF_BASE-ULTIMATE-201811\");\r",
+									"\r",
+									"    const product = ULTIMATE.attributes.associatedProducts[0].bundleProducts[0].products.find(m => m.obj.code === \"BASE-ULTIMATE-201811\");\r",
+									"\r",
+									"    pm.expect(product).to.be.an(\"object\", \" product was not found in the response\");\r",
+									"\r",
+									"    pm.expect(product.obj.variants[0].attributes.descriptionsByKey['long-myatt']).to.eql(\"Service subject to DIRECTV delivered via internet terms and conditions (see https://www.directv.com/legal/directv-stream-tos-eula-policy/).DIRECTV is Available only in the U.S. (excludes Puerto Rico and U.S.V.I.) and requires high speed internet. Minimum internet speed of 8Mbps per stream recommended for optimal viewing. Service is subject to 2 years Customer Agreement. After 2 years, continues month to month at then-current prevailing prices unless cancelled. Additional Fees & Taxes: Price excludes Advanced Receiver Service Fee of $15/mo. (which is extra and applies to all packages) and Regional Sports Fee of up to $13.99/mo. (which is extra & applies to CHOICE pkg or higher) and certain other add’l fees & charges. State and local taxes or other governmental fees and charges may apply including any such taxes, fees or charges assessed against discounted fees or service credits. First device included for well-qualified customers; otherwise $120 for new Gemini. Applicable taxes due at sale.  If you cancel your service in the first 14 days of order, you must return the included Gemini within 14 days of order to avoid $120 non-return fee. Once you’ve canceled, you can access DIRECTV through the remaining monthly period. No refunds or credits for any partial-month periods or unwatched content. If you cancel after DIRECTV Service activation, but before you have completed the required Programming Commitment, you will be charged an Early termination fee. The maximum Early termination is $480 for new customers, prorated at $20 per month over 24 months. Gemini purchased on installment agreement subject to additional terms and conditions. Regional Sports & Local Channels: Regional Sports available with CHOICE and above. Not available in select areas. Channels vary by package & billing region. Device may need to be in billing region in order to view.   All offers, programming, promotions, pricing, terms, restrictions & conditions subject to change & may be modified, discontinued, or terminated at any time without notice. See directv.com for details.\",\"long-myatt incorrect\");\r",
+									"\r",
+									" \r",
+									"\r",
+									"   // pm.expect(product.obj.variants[0].attributes.compatibleProducts).to.eql(undefined, \" compatibleProducts should not be there\");\r",
+									"\r",
+									"    pm.expect(ULTIMATE.attributes.offerActionType).contains(\"Acquisition\", \"offerActionType should contain Acquisition\");\r",
+									"\r",
+									"    pm.expect(ULTIMATE.attributes.eligibility.constraints[0].customerSegments).contains(\"Residential\",\"customerSegments should contain Residential\");\r",
+									"\r",
+									"    pm.expect(ULTIMATE.attributes.contractIndicator).to.eql(\"TAZCONTRACT\", \"contractIndicator should be TAZCONTRACT\");\r",
+									"\r",
+									"    pm.expect(ULTIMATE.attributes.offerPrice.dollarAmount).to.eql(114.99,\"offerPrice is invalid\");\r",
+									"\r",
+									"    pm.expect(ULTIMATE.attributes.offerChoiceGroup[0].groupName).to.eql(\"ACQSelectAllGroup_20220702\", \"Invalid groupName \");\r",
+									"\r",
+									"    pm.expect(ULTIMATE.attributes.offerChoiceGroup[0].groupSelection).to.eql(\"Select All\", \"Invalid groupSelection\");\r",
+									"\r",
+									"    pm.expect(ULTIMATE.attributes.offerChoiceGroup[0].groupDesignation).to.eql(\"Optional\",\"groupDesignation should be optional\");\r",
+									"\r",
+									"    pm.expect(ULTIMATE.attributes.offerChoiceGroup[0].disclosureMessagesByKey.opusDisclosure).to.eql(pm.variables.get(\"opusDisclosureSelectAll\"),\"opusDisclosure message are incorrect \");  \r",
+									"\r",
+									"    pm.expect(ULTIMATE.attributes.rsnFeeDetails.sku).to.eql(\"RSN-TCTIER5-202311\",\"rsnFeeDetails should be there\");\r",
+									"\r",
+									"    pm.expect(ULTIMATE.attributes.rsnFeeDetails.displayName).to.eql(\"Regional Sports Fee\",\"rsnFeeDetails displayName should be there\");\r",
+									"\r",
+									"    pm.expect(ULTIMATE).to.eql(\"OF_RSN-TCTIER5-202311_TAZCONTRACT\",\"rsnFeeDetails offerId should be there\");\r",
+									"\r",
+									"    \r",
+									"\r",
+									"    let benefit = ULTIMATE.attributes.benefits.find(b => b.code === \"EDSPDEACT001\");\r",
+									"\r",
+									"    pm.expect(benefit).to.be.an(\"object\", \"benefits should have EDSPDEACT001 code\");\r",
+									"\r",
+									"   pm.expect(benefit.extPromoType).to.eql(\"Device Activation\",\"extPromoType should be incorrect\");\r",
+									"\r",
+									" \r",
+									"\r",
+									"    let benefits = ULTIMATE.attributes.benefits.find(b => b.code === \"TCULT24M\");\r",
+									"\r",
+									"    pm.expect(benefits).to.be.an(\"object\", \"benefits should have TCULT24M code\");\r",
+									"\r",
+									"    pm.expect(benefits.extPromoType).to.eql(\"contract\",\"extPromoType should be incorrect\");\r",
+									"\r",
+									"    pm.expect(benefits.benefitName.en).to.eql(\"Intro Discount $51.01 off for 24 Months ULTIMATE\", \" benefitName is incorrect \") ;\r",
+									"\r",
+									"    pm.expect(benefits.benefitType).to.eql(\"flat-off\", \" benefitType is incorrect \") ;\r",
+									"\r",
+									"    pm.expect(benefits.benefitDisplayName.en).to.eql(\"Intro Discount $51.01 off for 24 Months ULTIMATE\", \" benefitDisplayName is incorrect \") ;\r",
+									"\r",
+									"    pm.expect(benefits.description.en).to.eql(\"Intro Discount $51.01 off for 24 Months ULTIMATE\", \" description is incorrect  \") ;\r",
+									"\r",
+									"    \r",
+									"\r",
+									"    pm.expect(benefits.displayNameforServices).to.eql(\"DIRECTV BUY NOW/ SAVE NOW PROMO\", \"displayNameforServices is incorrect \") ;\r",
+									"\r",
+									"    pm.expect(benefits.duration).to.eql(24,\"duration should be 24\");\r",
+									"\r",
+									"    pm.expect(benefits.value.dollarAmount).to.eql(51.01,\"benefit dollarAmount is incorrect\");\r",
+									"\r",
+									"    \r",
+									"\r",
+									"    \r",
+									"\r",
+									"\r",
+									"   let benefitss = ULTIMATE.attributes.benefits.find(b => b.code === \"SAVENOW10OFF12M\");\r",
+									"\r",
+									"    pm.expect(benefitss).to.be.an(\"object\", \"benefits should have SAVENOW10OFF12M code\");\r",
+									"\t pm.expect(benefitss.benefitName.en).to.eql(\"$10 off for 12 Months SAVE NOW\", \" benefitName is incorrect \") ;\r",
+									"    pm.expect(benefitss.benefitType).to.eql(\"flat-off\", \" benefitType is incorrect \") ;\r",
+									"\r",
+									"    pm.expect(benefitss.benefitDisplayName.en).to.eql(\"$10 OFF FOR 12 MONTHS SAVE NOW\", \" benefitDisplayName is incorrect \") ;\r",
+									"\r",
+									"    pm.expect(benefitss.description.en).to.eql(\"$10 Off For 12 Months Base Package Promotion \", \" description is incorrect\") ;\r",
+									"\r",
+									"    pm.expect(benefitss.displayNameforServices).to.eql(\"DIRECTV BUY NOW/SAVE NOW PROMO\", \"displayNameforServices is incorrect\") ;\r",
+									"\tpm.expect(benefitss.shortDescription).to.eql(\"DIRECTV BUY NOW/SAVE NOW PROMO\", \"shortDescription is incorrect\") ;\r",
+									"    pm.expect(benefitss.opusDisclosureMessage).to.eql(\"$10 off for 12 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining CHOICE and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\", \"opusDisclosureMessage is incorrect\") ;\r",
+									"    pm.expect(benefitss.longDescriptionforServices).to.eql(\"$10 off for 12 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining CHOICE and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\", \"Benefit longDescriptionforServices is incorrect\");\r",
+									"\t\r",
+									"});\r",
+									"pm.test(\"Validating for TAZCONTRACT _INTRO PLAN returned - OF_BASE-CHOICE-201811_TAZCONTRACT_INTRO_SAVENOW_10OFF12M\", () => {\r",
+									"\r",
+									"    const choice = jsonData.content.offers.find(m => m.code === \"OF_BASE-CHOICE-201811_TAZCONTRACT_INTRO_SAVENOW_10OFF12M\");\r",
+									"\r",
+									"    pm.expect(choice).to.be.an(\"object\", \"The OF_BASE-CHOICE-201811_TAZCONTRACT_INTRO_SAVENOW_10OFF12M offer should be returned\");\r",
+									"\r",
+									"    pm.expect(choice.name.en).to.eql(\"$10 off for 12 Months SAVE NOW\", \"Offer name is incorrect\");\r",
+									"\r",
+									"    pm.expect(choice.description.en).to.eql(\"$10 Off For 12 Months Base Package Promotion \", \"Offer description is incorrect\");\r",
+									"\r",
+									"    pm.expect(choice.attributes.billingCode).to.eql(\"OF_BASE-CHOICE-201811\", \"Offer level billingCode should be OF_BASE-CHOICE-201811\");\r",
+									"\r",
+									"    pm.expect(choice.attributes.rank).to.eql(\"510\", \"Offer rank is incorrect\");\r",
+									"\r",
+									"    const product = choice.attributes.associatedProducts[0].bundleProducts[0].products.find(m => m.obj.code === \"BASE-CHOICE-201811\");\r",
+									"\r",
+									"        pm.expect(product).to.be.an(\"object\", \" product was not found in the response\");\r",
+									"\r",
+									"        pm.expect(product.obj.variants[0].attributes.descriptionsByKey['long-myatt']).to.eql(\"VIA INTERNET: Service subject to DIRECTV delivered via internet terms and conditions (see https://www.directv.com/legal/directv-stream-tos-eula-policy/).DIRECTV is Available only in the U.S. (excludes Puerto Rico and U.S.V.I.) and requires high speed internet. Minimum internet speed of 8Mbps per stream recommended for optimal viewing. Service is subject to 2 years Customer Agreement. After 2 years, continues month to month at then-current prevailing prices unless cancelled. Additional Fees & Taxes: Price excludes Advanced Receiver Service Fee of $15/mo. (which is extra and applies to all packages) and Regional Sports Fee of up to $13.99/mo. (which is extra & applies to CHOICE pkg or higher) and certain other add’l fees & charges. State and local taxes or other governmental fees and charges may apply including any such taxes, fees or charges assessed against discounted fees or service credits. First device included for well-qualified customers; otherwise $120 for new Gemini. Applicable taxes due at sale.  If you cancel your service in the first 14 days of order, you must return the included Gemini within 14 days of order to avoid $120 non-return fee. Once you’ve canceled, you can access DIRECTV through the remaining monthly period. No refunds or credits for any partial-month periods or unwatched content. If you cancel after DIRECTV Service activation, but before you have completed the required Programming Commitment, you will be charged an Early termination fee. The maximum Early termination is $480 for new customers, prorated at $20 per month over 24 months. Gemini purchased on installment agreement subject to additional terms and conditions. Regional Sports & Local Channels: Regional Sports available with CHOICE and above. Not available in select areas. Channels vary by package & billing region. Device may need to be in billing region in order to view.   All offers, programming, promotions, pricing, terms, restrictions & conditions subject to change & may be modified, discontinued, or terminated at any time without notice. See directv.com for details.\",\"long-myatt incorrect\");\r",
+									"\r",
+									"       //  pm.expect(product.obj.variants[0].attributes.compatibleProducts).to.eql(undefined,\" compatibleProducts should not be there\");\r",
+									"\r",
+									"    pm.expect(choice.attributes.offerActionType).contains(\"Acquisition\", \"offerActionType should contain Acquisition\");\r",
+									"\r",
+									"    pm.expect(choice.attributes.eligibility.constraints[0].customerSegments).contains(\"Residential\",\"customerSegments should contain Residential\");\r",
+									"\r",
+									"    pm.expect(choice.attributes.contractIndicator).to.eql(\"TAZCONTRACT\", \"contractIndicator should be TAZCONTRACT\");\r",
+									"\r",
+									"    pm.expect(choice.attributes.offerPrice.dollarAmount).to.eql(84.99,\"offerPrice is invalid\");\r",
+									"\r",
+									" \r",
+									"\r",
+									"    pm.expect(choice.attributes.offerChoiceGroup[0].groupName).to.eql(\"ACQSelectAllGroup_20220702\", \"Invalid groupName \");\r",
+									"\r",
+									"    pm.expect(choice.attributes.offerChoiceGroup[0].groupSelection).to.eql(\"Select All\", \"Invalid groupSelection\");\r",
+									"\r",
+									"    pm.expect(choice.attributes.offerChoiceGroup[0].groupDesignation).to.eql(\"Optional\",\"groupDesignation should be optional\");\r",
+									"\r",
+									"    pm.expect(choice.attributes.offerChoiceGroup[0].disclosureMessagesByKey.opusDisclosure).to.eql(pm.variables.get(\"opusDisclosureSelectAll\"),\"opusDisclosure message are incorrect \");\r",
+									"\r",
+									"    \r",
+									"\r",
+									"    pm.expect(choice.attributes.rsnFeeDetails.sku).to.eql(\"RSN-TCTIER5-202311\",\"rsnFeeDetails should be there\");\r",
+									"\r",
+									"    pm.expect(choice.attributes.rsnFeeDetails.displayName).to.eql(\"Regional Sports Fee\",\"rsnFeeDetails displayName should be there\");\r",
+									"\r",
+									"    pm.expect(choice.attributes.rsnFeeDetails.offerId).to.eql(\"OF_RSN-TCTIER5-202311_TAZCONTRACT\",\"rsnFeeDetails offerId should be there\");\r",
+									"\r",
+									"    \r",
+									"\r",
+									"    let benefitss = choice.attributes.benefits.find(b => b.code === \"EDSPDEACT001\");\r",
+									"\r",
+									"    pm.expect(benefitss).to.be.an(\"object\", \"benefits should have EDSPDEACT001 code\");  \r",
+									"\r",
+									"   pm.expect(benefitss.extPromoType).to.eql(\"Device Activation\",\"extPromoType should be incorrect\");\r",
+									"\r",
+									" \r",
+									"\r",
+									"    let benefits = choice.attributes.benefits.find(b => b.code === \"TCCHO24M\");\r",
+									"\r",
+									"    pm.expect(benefits).to.be.an(\"object\", \"benefits should have TCCHO24M code\");\r",
+									"\r",
+									"    pm.expect(benefits.extPromoType).to.eql(\"contract\",\r",
+									"\r",
+									"    \"extPromoType should be incorrect\");\r",
+									"\r",
+									"    pm.expect(benefits.benefitName.en).to.eql(\"Intro Discount $49.01 off for 24 Months CHOICE\", \" benefitName is incorrect \") ;\r",
+									"\r",
+									"    pm.expect(benefits.benefitType).to.eql(\"flat-off\", \" benefitType is incorrect \") ;\r",
+									"\r",
+									"    pm.expect(benefits.benefitDisplayName.en).to.eql(\"Intro Discount $49.01 off for 24 Months CHOICE\", \" benefitDisplayName is incorrect \") ;\r",
+									"\r",
+									"    pm.expect(benefits.description.en).to.eql(\"Intro Discount $49.01 off for 24 Months CHOICE\", \" description is incorrect  \") ;\r",
+									"\r",
+									"   pm.expect(benefits.displayNameforServices).to.eql(\"DIRECTV BUY NOW/ SAVE NOW PROMO\", \"displayNameforServices is incorrect \") ;\r",
+									"\r",
+									"   pm.expect(benefits.duration).to.eql(24,\"duration should be 24\");\r",
+									"\r",
+									"    pm.expect(benefits.value.dollarAmount).to.eql(49.01,\"benefit dollarAmount is incorrect\");\r",
+									"\r",
+									" let benefits1 = ULTIMATE.attributes.benefits.find(b => b.code === \"SAVENOW10OFF12M\");\r",
+									"\r",
+									"    pm.expect(benefits1).to.be.an(\"object\", \"benefits should have SAVENOW10OFF12M code\");\r",
+									"\t pm.expect(benefits1.benefitName.en).to.eql(\"$10 off for 12 Months SAVE NOW\", \" benefitName is incorrect \") ;\r",
+									"    pm.expect(benefits1.benefitType).to.eql(\"flat-off\", \" benefitType is incorrect \") ;\r",
+									"\r",
+									"    pm.expect(benefits1.benefitDisplayName.en).to.eql(\"$10 OFF FOR 12 MONTHS SAVE NOW\", \" benefitDisplayName is incorrect \") ;\r",
+									"\r",
+									"    pm.expect(benefits1.description.en).to.eql(\"$10 Off For 12 Months Base Package Promotion \", \" description is incorrect\") ;\r",
+									"\r",
+									"    pm.expect(benefits1.displayNameforServices).to.eql(\"DIRECTV BUY NOW/SAVE NOW PROMO\", \"displayNameforServices is incorrect\") ;\r",
+									"\tpm.expect(benefits1.shortDescription).to.eql(\"DIRECTV BUY NOW/SAVE NOW PROMO\", \"shortDescription is incorrect\") ;\r",
+									"    pm.expect(benefits1.opusDisclosureMessage).to.eql(\"$10 off for 12 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining CHOICE and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\", \"opusDisclosureMessage is incorrect\") ;\r",
+									"    pm.expect(benefits1.longDescriptionforServices).to.eql(\"$10 off for 12 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining CHOICE and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\", \"Benefit longDescriptionforServices is incorrect\");\r",
+									"\t\r",
+									"\t\r",
+									"}); \r",
+									"pm.test(\"Validating for TAZCONTRACT INTRO PLAN returned - OF_BASE-PREMIER-202004_TAZCONTRACT_INTRO_SAVENOW_10OFF12M\", () => {\r",
+									"\r",
+									"    const PREMIER = jsonData.content.offers.find(m => m.code === \"OF_BASE-PREMIER-202004_TAZCONTRACT_INTRO_SAVENOW_10OFF12M\");\r",
+									"\r",
+									"    pm.expect(PREMIER).to.be.an(\"object\", \"The OF_BASE-PREMIER-202004_TAZCONTRACT_INTRO_SAVENOW_10OFF12M offer should be returned\");\r",
+									"\r",
+									"    pm.expect(PREMIER.name.en).to.eql(\"$10 off for 12 Months SAVE NOW\", \"Offer name is incorrect\");\r",
+									"\r",
+									"    pm.expect(PREMIER.description.en).to.eql(\"$10 Off For 12 Months Base Package Promotion\", \"Offer description is incorrect\");\r",
+									"\r",
+									"    pm.expect(PREMIER.attributes.rank).to.eql(\"535\", \"Offer rank is incorrect\");\r",
+									"\r",
+									"    pm.expect(PREMIER.attributes.billingCode).to.eql(\"OF_BASE-PREMIER-202004\", \"Offer level billingCode should be OF_BASE-PREMIER-202004\");\r",
+									"\r",
+									"    const product = Base.attributes.associatedProducts[0].bundleProducts[0].products.find(m => m.obj.code === \"BASE-PREMIER-202004\");\r",
+									"\r",
+									"    pm.expect(product).to.be.an(\"object\", \" product was not found in the response\");\r",
+									"\r",
+									"    pm.expect(product.obj.variants[0].attributes.descriptionsByKey['long-myatt']).to.eql(\"VIA INTERNET: Service subject to DIRECTV delivered via internet terms and conditions (see https://www.directv.com/legal/directv-stream-tos-eula-policy/).DIRECTV is Available only in the U.S. (excludes Puerto Rico and U.S.V.I.) and requires high speed internet. Minimum internet speed of 8Mbps per stream recommended for optimal viewing. Service is subject to 2 years Customer Agreement. After 2 years, continues month to month at then-current prevailing prices unless cancelled. Additional Fees & Taxes: Price excludes Advanced Receiver Service Fee of $15/mo. (which is extra and applies to all packages) and Regional Sports Fee of up to $13.99/mo. (which is extra & applies to CHOICE pkg or higher) and certain other add’l fees & charges. State and local taxes or other governmental fees and charges may apply including any such taxes, fees or charges assessed against discounted fees or service credits. First device included for well-qualified customers; otherwise $120 for new Gemini. Applicable taxes due at sale.  If you cancel your service in the first 14 days of order, you must return the included Gemini within 14 days of order to avoid $120 non-return fee. Once you’ve canceled, you can access DIRECTV through the remaining monthly period. No refunds or credits for any partial-month periods or unwatched content. If you cancel after DIRECTV Service activation, but before you have completed the required Programming Commitment, you will be charged an Early termination fee. The maximum Early termination is $480 for new customers, prorated at $20 per month over 24 months. Gemini purchased on installment agreement subject to additional terms and conditions. Regional Sports & Local Channels: Regional Sports available with CHOICE and above. Not available in select areas. Channels vary by package & billing region. Device may need to be in billing region in order to view.   All offers, programming, promotions, pricing, terms, restrictions & conditions subject to change & may be modified, discontinued, or terminated at any time without notice. See directv.com for details.\",\"long-myatt incorrect\");\r",
+									"\r",
+									"    //pm.expect(product.obj.variants[0].attributes.compatibleProducts).to.eql(undefined, \" compatibleProducts should not be there\");\r",
+									"\r",
+									"    pm.expect(PREMIER.attributes.offerActionType).contains(\"Acquisition\", \"offerActionType should contain Acquisition\");\r",
+									"\r",
+									"    pm.expect(PREMIER.attributes.eligibility.constraints[0].customerSegments).contains(\"Residential\",\"customerSegments should contain Residential\");\r",
+									"\r",
+									"    pm.expect(PREMIER.attributes.contractIndicator).to.eql(\"TAZCONTRACT\", \"contractIndicator should be TAZCONTRACT\");\r",
+									"\r",
+									"    pm.expect(PREMIER.attributes.offerPrice.dollarAmount).to.eql(159.99,\"offerPrice is invalid\");\r",
+									"\r",
+									"    pm.expect(PREMIER.attributes.offerChoiceGroup).to.eql(undefined, \"offerchoicegroup should not be there \");        \r",
+									"\r",
+									"  //  pm.expect(PREMIER.attributes.rsnFeeDetails.sku).to.eql(\"RSN-TCTIER5-202311\",\"rsnFeeDetails should be there\");\r",
+									"\r",
+									"   // pm.expect(PREMIER.attributes.rsnFeeDetails.displayName).to.eql(\"Regional Sports Fee\",\"rsnFeeDetails displayName should be there\");\r",
+									"\r",
+									"  //  pm.expect(PREMIER.attributes.rsnFeeDetails.offerId).to.eql(\"OF_RSN-TCTIER5-202311_TAZCONTRACT\",\"rsnFeeDetails offerId should be there\");\r",
+									"\r",
+									"    \r",
+									"\r",
+									"   let benefit = PREMIER.attributes.benefits.find(b => b.code === \"EDSPDEACT001\");\r",
+									"\r",
+									"    pm.expect(benefit).to.be.an(\"object\", \"benefits should have EDSPDEACT001 code\");\r",
+									"\r",
+									"    pm.expect(benefit.extPromoType).to.eql(\"Device Activation\",\"extPromoType should be incorrect\");\r",
+									"\r",
+									" \r",
+									"\r",
+									"    let benefits = PREMIER.attributes.benefits.find(b => b.code === \"TCPRE24M\");\r",
+									"\r",
+									"    pm.expect(benefits).to.be.an(\"object\", \"benefits should have TCPRE24M code\");\r",
+									"\r",
+									"    pm.expect(benefits.extPromoType).to.eql(\"contract\",\"extPromoType should be incorrect\");\r",
+									"\r",
+									"    pm.expect(benefits.benefitName.en).to.eql(\"Intro Discount $63.01 off for 24 Months PREMIER\", \" benefitName is incorrect \") ;\r",
+									"\r",
+									"    pm.expect(benefits.benefitType).to.eql(\"flat-off\", \" benefitType is incorrect \") ;\r",
+									"\r",
+									"    pm.expect(benefits.benefitDisplayName.en).to.eql(\"Intro Discount $63.01 off for 24 Months PREMIER\", \" benefitDisplayName is incorrect \") ;\r",
+									"\r",
+									"    pm.expect(benefits.duration).to.eql(24,\"duration should be 24\");\r",
+									"\r",
+									"    pm.expect(benefits.value.dollarAmount).to.eql(63.01,\"benefit dollarAmount is incorrect\");\r",
+									"\r",
+									"    pm.expect(benefits.description.en).to.eql(\"Intro Discount $63.01 off for 24 Months PREMIER\", \" description is incorrect  \") ;\r",
+									"\r",
+									"    pm.expect(benefits.displayNameforServices).to.eql(\"DIRECTV BUY NOW/ SAVE NOW PROMO\", \"displayNameforServices is incorrect \") ;\r",
+									"\r",
+									" \r",
+									"\r",
+									"     \r",
+									"\r",
+									"    \r",
+									"\r",
+									"\r",
+									" let benefits2 = PREMIER.attributes.benefits.find(b => b.code === \"SAVENOW10OFF12M\");\r",
+									"\r",
+									"    pm.expect(benefits2).to.be.an(\"object\", \"benefits should have SAVENOW10OFF12M code\");\r",
+									"\t pm.expect(benefits2.benefitName.en).to.eql(\"$10 off for 12 Months SAVE NOW\", \" benefitName is incorrect \") ;\r",
+									"    pm.expect(benefits2.benefitType).to.eql(\"flat-off\", \" benefitType is incorrect \") ;\r",
+									"\r",
+									"    pm.expect(benefits2.benefitDisplayName.en).to.eql(\"$10 OFF FOR 12 MONTHS SAVE NOW\", \" benefitDisplayName is incorrect \") ;\r",
+									"\r",
+									"    pm.expect(benefits2.description.en).to.eql(\"$10 Off For 12 Months Base Package Promotion \", \" description is incorrect\") ;\r",
+									"\r",
+									"    pm.expect(benefits2.displayNameforServices).to.eql(\"DIRECTV BUY NOW/SAVE NOW PROMO\", \"displayNameforServices is incorrect\") ;\r",
+									"\tpm.expect(benefits2.shortDescription).to.eql(\"DIRECTV BUY NOW/SAVE NOW PROMO\", \"shortDescription is incorrect\") ;\r",
+									"    pm.expect(benefits2.opusDisclosureMessage).to.eql(\"$10 off for 12 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining CHOICE and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\", \"opusDisclosureMessage is incorrect\") ;\r",
+									"    pm.expect(benefits2.longDescriptionforServices).to.eql(\"$10 off for 12 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining CHOICE and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\", \"Benefit longDescriptionforServices is incorrect\");\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Validating for TAZCONTRACT INTRO PLAN returned - OF_BASE-OPTIMOMAS-122018_TAZCONTRACT_INTRO_SAVENOW_10OFF12M\", () => {\r",
+									"\r",
+									"    const OPTIMOMAS = jsonData.content.offers.find(m => m.code === \"OF_BASE-OPTIMOMAS-122018_TAZCONTRACT_INTRO_SAVENOW_10OFF12M\");\r",
+									"\r",
+									"    pm.expect(OPTIMOMAS).to.be.an(\"object\", \"The OF_BASE-OPTIMOMAS-122018_TAZCONTRACT_INTRO_SAVENOW_10OFF12M offer should be returned\");\r",
+									"\r",
+									"    pm.expect(OPTIMOMAS.name.en).to.eql(\"$10 off for 12 Months SAVE NOW\", \"Offer name is incorrect\");\r",
+									"\r",
+									"    pm.expect(OPTIMOMAS.description.en).to.eql(\"$10 Off For 12 Months Base Package Promotion\", \"Offer description is incorrect\");\r",
+									"\r",
+									"    pm.expect(OPTIMOMAS.attributes.rank).to.eql(\"540\", \"Offer rank is incorrect\");\r",
+									"\r",
+									"    pm.expect(OPTIMOMAS.attributes.billingCode).to.eql(\"OF_BASE-OPTIMOMAS-122018\", \"Offer level billingCode should be OF_BASE-OPTIMOMAS-122018\");\r",
+									"\r",
+									"    const product = OPTIMOMAS.attributes.associatedProducts[0].bundleProducts[0].products.find(m => m.obj.code === \"BASE-OPTIMOMAS-122018\");\r",
+									"\r",
+									"    pm.expect(product).to.be.an(\"object\", \" product was not found in the response\");\r",
+									"\r",
+									"    pm.expect(product.obj.variants[0].attributes.descriptionsByKey['long-myatt']).to.eql(\"VIA INTERNET: Service subject to DIRECTV delivered via internet terms and conditions (see https://www.directv.com/legal/directv-stream-tos-eula-policy/).DIRECTV is Available only in the U.S. (excludes Puerto Rico and U.S.V.I.) and requires high speed internet. Minimum internet speed of 8Mbps per stream recommended for optimal viewing. Service is subject to 2 years Customer Agreement. After 2 years, continues month to month at then-current prevailing prices unless cancelled. Additional Fees & Taxes: Price excludes Advanced Receiver Service Fee of $15/mo. (which is extra and applies to all packages) and Regional Sports Fee of up to $13.99/mo. (which is extra & applies to CHOICE pkg or higher) and certain other add’l fees & charges. State and local taxes or other governmental fees and charges may apply including any such taxes, fees or charges assessed against discounted fees or service credits. First device included for well-qualified customers; otherwise $120 for new Gemini. Applicable taxes due at sale.  If you cancel your service in the first 14 days of order, you must return the included Gemini within 14 days of order to avoid $120 non-return fee. Once you’ve canceled, you can access DIRECTV through the remaining monthly period. No refunds or credits for any partial-month periods or unwatched content. If you cancel after DIRECTV Service activation, but before you have completed the required Programming Commitment, you will be charged an Early termination fee. The maximum Early termination is $480 for new customers, prorated at $20 per month over 24 months. Gemini purchased on installment agreement subject to additional terms and conditions. Regional Sports & Local Channels: Regional Sports available with CHOICE and above. Not available in select areas. Channels vary by package & billing region. Device may need to be in billing region in order to view.   All offers, programming, promotions, pricing, terms, restrictions & conditions subject to change & may be modified, discontinued, or terminated at any time without notice. See directv.com for details.\",\"long-myatt incorrect\");\r",
+									"\r",
+									"    //pm.expect(product.obj.variants[0].attributes.compatibleProducts).to.eql(undefined, \" compatibleProducts should not be there\");\r",
+									"\r",
+									"    pm.expect(OPTIMOMAS.attributes.offerActionType).contains(\"Acquisition\", \"offerActionType should contain Acquisition\");\r",
+									"\r",
+									"    pm.expect(OPTIMOMAS).contains(\"Residential\",\"customerSegments should contain Residential\");\r",
+									"\r",
+									"    pm.expect(OPTIMOMAS.attributes.contractIndicator).to.eql(\"TAZCONTRACT\", \"contractIndicator should be TAZCONTRACT\");\r",
+									"\r",
+									"    pm.expect(OPTIMOMAS.attributes.offerPrice.dollarAmount).to.eql(74.99,\"offerPrice is invalid\");\r",
+									"\r",
+									"    pm.expect(OPTIMOMAS.attributes.offerChoiceGroup[0].groupName).to.eql(\"ACQSelectAllGroup_20220702\", \"Invalid groupName \");\r",
+									"\r",
+									"    pm.expect(OPTIMOMAS.attributes.offerChoiceGroup[0].groupSelection).to.eql(\"Select All\", \"Invalid groupSelection\");\r",
+									"\r",
+									"    pm.expect(OPTIMOMAS.attributes.offerChoiceGroup[0].groupDesignation).to.eql(\"Optional\",\"groupDesignation should be optional\");\r",
+									"\r",
+									"    pm.expect(OPTIMOMAS.attributes.offerChoiceGroup[0].disclosureMessagesByKey.opusDisclosure).to.eql(pm.variables.get(\"opusDisclosureSelectAll\"),\"opusDisclosure message are incorrect \");  \r",
+									"\r",
+									"    pm.expect(OPTIMOMAS.attributes.rsnFeeDetails.sku).to.eql(\"RSN-TCTIER1-202311\",\"rsnFeeDetails should be there\");\r",
+									"\r",
+									"    pm.expect(OPTIMOMAS.attributes.rsnFeeDetails.displayName).to.eql(\"Regional Sports Fee\",\"rsnFeeDetails displayName should be there\");\r",
+									"\r",
+									"    pm.expect(OPTIMOMAS.attributes.rsnFeeDetails.offerId).to.eql(\"OF_RSN-TCTIER1-202311_TAZCONTRACT\",\"rsnFeeDetails offerId should be there\");\r",
+									"\r",
+									"    \r",
+									"\r",
+									"    let benefit = OPTIMOMAS.attributes.benefits.find(b => b.code === \"EDSPDEACT001\");\r",
+									"\r",
+									"    pm.expect(benefit).to.be.an(\"object\", \"benefits should have EDSPDEACT001 code\");\r",
+									"\r",
+									"    pm.expect(benefit.extPromoType).to.eql(\"Device Activation\",\"extPromoType should be incorrect\");\r",
+									"\r",
+									" \r",
+									"\r",
+									"   let benefits = OPTIMOMAS.attributes.benefits.find(b => b.code === \"TCOPM24M\");\r",
+									"\r",
+									"    pm.expect(benefits).to.be.an(\"object\", \"benefits should have TCOPM24M code\");\r",
+									"\r",
+									"    pm.expect(benefits.extPromoType).to.eql(\"contract\",\"extPromoType should be incorrect\");\r",
+									"\r",
+									"    pm.expect(benefits.benefitName.en).to.eql(\"Intro Discount $23.01 off for 24 Months OPTIMO MAS\", \" benefitName is incorrect \") ;\r",
+									"\r",
+									"    pm.expect(benefits.benefitType).to.eql(\"flat-off\", \" benefitType is incorrect \") ;\r",
+									"\r",
+									"    pm.expect(benefits.duration).to.eql(24,\"duration should be 24\");\r",
+									"\r",
+									"    pm.expect(benefits.value.dollarAmount).to.eql(23.01,\"benefit dollarAmount is incorrect\");\r",
+									"\r",
+									"    pm.expect(benefits.benefitDisplayName.en).to.eql(\"Intro Discount $23.01 off for 24 Months OPTIMO MAS\", \" benefitDisplayName is incorrect \") ;\r",
+									"\r",
+									"    pm.expect(benefits.description.en).to.eql(\"Intro Discount $23.01 off for 24 Months OPTIMO MAS\", \" description is incorrect  \") ;\r",
+									"\r",
+									"    pm.expect(benefits.displayNameforServices).to.eql(\"DIRECTV BUY NOW/ SAVE NOW PROMO\", \"displayNameforServices is incorrect \") ;\r",
+									"\r",
+									" \r",
+									"\r",
+									"   \r",
+									"\r",
+									"    \r",
+									" let benefitss = OPTIMOMAS.attributes.benefits.find(b => b.code === \"SAVENOW10OFF12M\");\r",
+									"\r",
+									"    pm.expect(benefits3).to.be.an(\"object\", \"benefits should have SAVENOW10OFF12M code\");\r",
+									"\t pm.expect(benefits3.benefitName.en).to.eql(\"$10 off for 12 Months SAVE NOW\", \" benefitName is incorrect \") ;\r",
+									"    pm.expect(benefits3.benefitType).to.eql(\"flat-off\", \" benefitType is incorrect \") ;\r",
+									"\r",
+									"    pm.expect(benefits3.benefitDisplayName.en).to.eql(\"$10 OFF FOR 12 MONTHS SAVE NOW\", \" benefitDisplayName is incorrect \") ;\r",
+									"\r",
+									"    pm.expect(benefits3.description.en).to.eql(\"$10 Off For 12 Months Base Package Promotion \", \" description is incorrect\") ;\r",
+									"\r",
+									"    pm.expect(benefits3.displayNameforServices).to.eql(\"DIRECTV BUY NOW/SAVE NOW PROMO\", \"displayNameforServices is incorrect\") ;\r",
+									"\tpm.expect(benefits3.shortDescription).to.eql(\"DIRECTV BUY NOW/SAVE NOW PROMO\", \"shortDescription is incorrect\") ;\r",
+									"    pm.expect(benefits3.opusDisclosureMessage).to.eql(\"$10 off for 12 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining CHOICE and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\", \"opusDisclosureMessage is incorrect\") ;\r",
+									"    pm.expect(benefits3.longDescriptionforServices).to.eql(\"$10 off for 12 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining CHOICE and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\", \"Benefit longDescriptionforServices is incorrect\");\r",
+									"});\t\r",
+									"\t\t*/\t\r",
+									"\t\t\t\r",
+									"\t\t\t\r",
+									"\t\t"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+								"value": "{{backupFlag}}"
+							},
+							{
+								"key": "idpctx-feature-svc-epoch-pvtenabled",
+								"value": "{{dcpbackupFlag}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 100\r\n    },\r\n    \"businessSegment\": [\r\n        \"CONS\"\r\n    ],\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"opus\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \r\n        \"video-plan\"\r\n    ],\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"addOnType\": [\r\n        \"Programming-Bolt-on\",\r\n        \"Bolt-on\",\r\n        \"Standalone\"\r\n    ],\r\n    \"planSubType\": [\r\n        \"cDVR\",\r\n        \"Cross-Product-Mobility\",\r\n        \"Streams\",\r\n        \"CrossProduct-WatchTV\",\r\n        \"Cross-product\",\r\n        \"International\"\r\n    ],\r\n    \"contractIndicator\": [\r\n        \"RR\"\r\n    ],\r\n    \"channelEligibility\": {\r\n        \"opusChannel\": \"DMDR\",\r\n        \"opusSubChannel\":\"IE-CC\",\r\n        \"opusStoreId\": \"{{StoreId}}\"\r\n    },\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"75240\"\r\n        ]\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"",
+							"var jsonData = pm.response.json();",
+							"",
+							"//video plans",
+							"pm.test(\"Validate that only 5 BPs are returned\", () => {",
+							"    console.log(jsonData.content.count);",
+							"    pm.expect(jsonData.content.count).to.eql(5, \"There should only be 5 video plans returned\");",
+							"});",
+							"",
+							"",
+							"pm.test(\"Validating for RR INTRO PLAN returned - OF_BASE-PREMIER-202004_RR_INTRO_SAVENOW\", () => {",
+							"",
+							"    const Base = jsonData.content.offers.find(m => m.code === \"OF_BASE-PREMIER-202004_RR_INTRO_SAVENOW\");",
+							"",
+							"    pm.expect(Base).to.be.an(\"object\", \"The OF_BASE-PREMIER-202004_RR_INTRO_SAVENOW offer should be returned\");",
+							"",
+							"    const product = Base.attributes.associatedProducts[0].bundleProducts[0].products.find(m => m.obj.code === \"BASE-PREMIER-202004\");",
+							"",
+							"    pm.expect(product).to.be.an(\"object\", \" product was not found in the response\");",
+							"",
+							"});",
+							"",
+							"pm.test(\"Validating for RR returned - OF_BASE-OPTIMOMAS-122018_RR_INTRO_SAVENOW\", () => {",
+							"",
+							"    const Base = jsonData.content.offers.find(m => m.code === \"OF_BASE-OPTIMOMAS-122018_RR_INTRO_SAVENOW\");",
+							"",
+							"    pm.expect(Base).to.be.an(\"object\", \"The OF_BASE-OPTIMOMAS-122018_RR_INTRO_SAVENOW offer should be returned\");",
+							"",
+							"    const product = Base.attributes.associatedProducts[0].bundleProducts[0].products.find(m => m.obj.code === \"BASE-OPTIMOMAS-122018\");",
+							"",
+							"    pm.expect(product).to.be.an(\"object\", \" product was not found in the response\");",
+							"",
+							"  pm.expect(Base.attributes.offerChoiceGroup[1].groupName).to.eql(\"ACQSelectAllGroup_20220702\", \"Invalid groupName \");",
+							"",
+							"    pm.expect(Base.attributes.offerChoiceGroup[1].groupSelection).to.eql(\"Select All\", \"Invalid groupSelection\");",
+							"",
+							"    pm.expect(Base.attributes.offerChoiceGroup[1].groupDesignation).to.eql(\"Optional\",\"groupDesignation should be optional\");",
+							"",
+							"    pm.expect(Base.attributes.offerChoiceGroup[1].disclosureMessagesByKey.opusDisclosure).to.eql(pm.variables.get(\"opusDisclosureSelectAll\"),\"opusDisclosure message are incorrect \");  ",
+							"\t",
+							"});",
+							"",
+							"pm.test(\"Validating for RR INTRO PLAN returned -OF_BASE-ULTIMATE-201811_RR_INTRO_SAVENOW\", () => {",
+							"",
+							"    const Base = jsonData.content.offers.find(m => m.code === \"OF_BASE-ULTIMATE-201811_RR_INTRO_SAVENOW\");",
+							"",
+							"    pm.expect(Base).to.be.an(\"object\", \"The OF_BASE-ULTIMATE-201811_RR_INTRO_SAVENOW offer should be returned\");",
+							"",
+							"    const product = Base.attributes.associatedProducts[0].bundleProducts[0].products.find(m => m.obj.code === \"BASE-ULTIMATE-201811\");",
+							"",
+							"    pm.expect(product).to.be.an(\"object\", \" product was not found in the response\");",
+							"        pm.expect(Base.attributes.offerChoiceGroup[1].groupName).to.eql(\"ACQSelectAllGroup_20220702\", \"Invalid groupName \");",
+							"",
+							"    pm.expect(Base.attributes.offerChoiceGroup[1].groupSelection).to.eql(\"Select All\", \"Invalid groupSelection\");",
+							"",
+							"    pm.expect(Base.attributes.offerChoiceGroup[1].groupDesignation).to.eql(\"Optional\",\"groupDesignation should be optional\");",
+							"",
+							"    pm.expect(Base.attributes.offerChoiceGroup[1].disclosureMessagesByKey.opusDisclosure).to.eql(pm.variables.get(\"opusDisclosureSelectAll\"),\"opusDisclosure message are incorrect \");     ",
+							"",
+							"});",
+							"",
+							"pm.test(\"Validating for RR _INTRO PLAN returned - OF_BASE-CHOICE-201811_RR_INTRO_SAVENOW\", () => {",
+							"",
+							"    const choice = jsonData.content.offers.find(m => m.code === \"OF_BASE-CHOICE-201811_RR_INTRO_SAVENOW\");",
+							"",
+							"    pm.expect(choice).to.be.an(\"object\", \"The OF_BASE-CHOICE-201811_RR_INTRO_SAVENOW offer should be returned\");",
+							"",
+							"  ",
+							"    pm.expect(choice.attributes.contractIndicator).to.eql(\"RR\", \"contractIndicator should be RR\");",
+							"        pm.expect(choice.attributes.offerChoiceGroup[1].groupName).to.eql(\"ACQSelectAllGroup_20220702\", \"Invalid groupName \");",
+							"",
+							"    pm.expect(choice.attributes.offerChoiceGroup[1].groupSelection).to.eql(\"Select All\", \"Invalid groupSelection\");",
+							"",
+							"    pm.expect(choice.attributes.offerChoiceGroup[1].groupDesignation).to.eql(\"Optional\",\"groupDesignation should be optional\");",
+							"",
+							"    pm.expect(choice.attributes.offerChoiceGroup[1].disclosureMessagesByKey.opusDisclosure).to.eql(pm.variables.get(\"opusDisclosureSelectAll\"),\"opusDisclosure message are incorrect \");  ",
+							"",
+							"}); ",
+							"",
+							"pm.test(\"Validating for RR PLAN returned - OF_BASE-ENTERTAINMENT-201811_RR_INTRO_SAVENOW\", () => {",
+							"    const Entertainment = jsonData.content.offers.find(m => m.code === \"OF_BASE-ENTERTAINMENT-201811_RR_INTRO_SAVENOW\");",
+							"    pm.expect(Entertainment).to.be.an(\"object\", \"The OF_BASE-ENTERTAINMENT-201811_RR_INTROoffer should be returned\");",
+							"  ",
+							"    const product = Entertainment.attributes.associatedProducts[0].bundleProducts[0].products.find(m => m.obj.code === \"BASE-ENTERTAINMENT-201811\");",
+							"        pm.expect(product).to.be.an(\"object\", \" product was not found in the response\");",
+							"    pm.expect(Entertainment.attributes.offerChoiceGroup[1].groupName).to.eql(\"ACQSelectAllGroup_20220702\", \"Invalid groupName \");",
+							"",
+							"    pm.expect(Entertainment.attributes.offerChoiceGroup[1].groupSelection).to.eql(\"Select All\", \"Invalid groupSelection\");",
+							"",
+							"    pm.expect(Entertainment.attributes.offerChoiceGroup[1].groupDesignation).to.eql(\"Optional\",\"groupDesignation should be optional\");",
+							"",
+							"    pm.expect(Entertainment.attributes.offerChoiceGroup[1].disclosureMessagesByKey.opusDisclosure).to.eql(pm.variables.get(\"opusDisclosureSelectAll\"),\"opusDisclosure message are incorrect \");  ",
+							"\t",
+							"});",
+							"",
+							"",
+							"\t",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "OPUS - LEASE RR_MD",
+			"item": [
+				{
+					"name": "opus",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+								"value": "{{backupFlag}}"
+							},
+							{
+								"key": "idpctx-feature-svc-epoch-pvtenabled",
+								"value": "{{dcpbackupFlag}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 100\r\n    },\r\n    \"businessSegment\": [\r\n        \"CONS\"\r\n    ],\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"opus\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-device\"\r\n    ],\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"addOnType\": [\r\n        \"Programming-Bolt-on\",\r\n        \"Bolt-on\",\r\n        \"Standalone\"\r\n    ],\r\n    \"planSubType\": [\r\n        \"cDVR\",\r\n        \"Cross-Product-Mobility\",\r\n        \"Streams\",\r\n        \"CrossProduct-WatchTV\",\r\n        \"Cross-product\",\r\n        \"International\"\r\n    ],\r\n    \"contractIndicator\": [\r\n        \"RR\"\r\n    ],\r\n    \"channelEligibility\": {\r\n        \"opusChannel\": \"{{opusChannel}}\",\r\n        \"opusSubChannel\": \"{{opusSubChannel}}\",\r\n        \"opusStoreId\": \"{{storeId}}\"\r\n    },\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"75240\"\r\n        ]\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"",
+							"var jsonData = pm.response.json();",
+							"",
+							"//video plans",
+							"pm.test(\"Validate that only 1 Device are returned\", () => {",
+							"    console.log(jsonData.content.count);",
+							"    pm.expect(jsonData.content.count).to.eql(1, \"There should only be 1 video device returned\");",
+							"});",
+							"",
+							"",
+							"",
+							"pm.test(\"Validating for RR PLAN returned - OF_HARD-GEMINILEASE-202311_RR_MD\", () => {",
+							"    const Device = jsonData.content.offers.find(m => m.code === \"OF_HARD-GEMINILEASE-202311_RR_MD\");",
+							"    pm.expect(Device).to.be.an(\"object\", \"The OF_HARD-GEMINILEASE-202311_RR_MD offer should be returned\");",
+							"  ",
+							"    const product = Device.attributes.associatedProducts[0].bundleProducts[0].products.find(m => m.obj.code === \"HARD-GEMINILEASE-202311\");",
+							"        pm.expect(product).to.be.an(\"object\", \" product was not found in the response\");",
+							"   ",
+							"});",
+							"",
+							"",
+							"\t",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "DIP with RR_MD",
+			"item": [
+				{
+					"name": "DIP - ENGA CHUZO",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+								"value": "{{backupFlag}}"
+							},
+							{
+								"key": "idpctx-feature-svc-epoch-pvtenabled",
+								"value": "{{dcpbackupFlag}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 100\r\n    },\r\n    \"businessSegment\": [\r\n        \"CONS\"\r\n    ],\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"directIntegrationPartner\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-device\"\r\n    ],\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"addOnType\": [\r\n        \"Programming-Bolt-on\",\r\n        \"Bolt-on\",\r\n        \"Standalone\"\r\n    ],\r\n    \"planSubType\": [\r\n        \"cDVR\",\r\n        \"Cross-Product-Mobility\",\r\n        \"Streams\",\r\n        \"CrossProduct-WatchTV\",\r\n        \"Cross-product\",\r\n        \"International\"\r\n    ],\r\n    \"contractIndicator\": [\r\n        \"RR\"\r\n    ],\r\n    \"channelEligibility\": {\r\n        \"salesChannel\": \"directvCenters\",\r\n        \"salesSubChannel\": \"{{SubChannel}}\",\r\n        \"locationId\": \"118732\",\r\n        \"locationTypeId\": \"4\",\r\n        \"dealerCode\": \"HUATB\",\r\n        \"directIntegrationPartnerName\": \"ENGA-CHUZO\",\r\n        \"masterDealerId\": \"NA\",\r\n        \"dealerId\": \"1823223\",\r\n        \"fulfillmentDealer\": false\r\n    },\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"75240\"\r\n        ]\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DIP - ENGA SARAPLUS",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+								"value": "{{backupFlag}}"
+							},
+							{
+								"key": "idpctx-feature-svc-epoch-pvtenabled",
+								"value": "{{dcpbackupFlag}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 100\r\n    },\r\n    \"businessSegment\": [\r\n        \"CONS\"\r\n    ],\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"directIntegrationPartner\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-device\"\r\n    ],\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"addOnType\": [\r\n        \"Programming-Bolt-on\",\r\n        \"Bolt-on\",\r\n        \"Standalone\"\r\n    ],\r\n    \"planSubType\": [\r\n        \"cDVR\",\r\n        \"Cross-Product-Mobility\",\r\n        \"Streams\",\r\n        \"CrossProduct-WatchTV\",\r\n        \"Cross-product\",\r\n        \"International\"\r\n    ],\r\n    \"contractIndicator\": [\r\n        \"RR\"\r\n    ],\r\n    \"channelEligibility\": {\r\n        \"salesChannel\": \"directvCenters\",\r\n        \"salesSubChannel\": \"{{SubChannel}}\",\r\n        \"locationId\": \"118732\",\r\n        \"locationTypeId\": \"4\",\r\n        \"dealerCode\": \"HUATB\",\r\n        \"directIntegrationPartnerName\": \"ENGA-SARAPLUS\",\r\n        \"masterDealerId\": \"NA\",\r\n        \"dealerId\": \"1823223\",\r\n        \"fulfillmentDealer\": false\r\n    },\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"75240\"\r\n        ]\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"",
+							"var jsonData = pm.response.json();",
+							"",
+							"//video plans",
+							"pm.test(\"Validate that only 1 Device are returned\", () => {",
+							"    console.log(jsonData.content.count);",
+							"    pm.expect(jsonData.content.count).to.eql(1, \"There should only be 1 video device returned\");",
+							"});",
+							"",
+							"",
+							"",
+							"pm.test(\"Validating for RR PLAN returned - OF_HARD-GEMINILEASE-202311_RR_MD\", () => {",
+							"    const Device = jsonData.content.offers.find(m => m.code === \"OF_HARD-GEMINILEASE-202311_RR_MD\");",
+							"    pm.expect(Device).to.be.an(\"object\", \"The OF_HARD-GEMINILEASE-202311_RR_MD offer should be returned\");",
+							"  ",
+							"    const product = Device.attributes.associatedProducts[0].bundleProducts[0].products.find(m => m.obj.code === \"HARD-GEMINILEASE-202311\");",
+							"        pm.expect(product).to.be.an(\"object\", \" product was not found in the response\");",
+							"   ",
+							"});",
+							"",
+							"",
+							"\t",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "DIP with RR DAP_MD",
+			"item": [
+				{
+					"name": "DIP - ENGA CHUZO",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+								"value": "{{backupFlag}}"
+							},
+							{
+								"key": "idpctx-feature-svc-epoch-pvtenabled",
+								"value": "{{dcpbackupFlag}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 100\r\n    },\r\n    \"businessSegment\": [\r\n        \"CONS\"\r\n    ],\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"directIntegrationPartner\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-device\"\r\n    ],\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"addOnType\": [\r\n        \"Programming-Bolt-on\",\r\n        \"Bolt-on\",\r\n        \"Standalone\"\r\n    ],\r\n    \"planSubType\": [\r\n        \"cDVR\",\r\n        \"Cross-Product-Mobility\",\r\n        \"Streams\",\r\n        \"CrossProduct-WatchTV\",\r\n        \"Cross-product\",\r\n        \"International\"\r\n    ],\r\n    \"contractIndicator\": [\r\n        \"RR\"\r\n    ],\r\n    \"channelEligibility\": {\r\n        \"salesChannel\": \"directvCenters\",\r\n        \"salesSubChannel\": \"COR\",\r\n        \"locationId\": \"118732\",\r\n        \"locationTypeId\": \"4\",\r\n        \"dealerCode\": \"{{dealerCode1}}\",\r\n        \"directIntegrationPartnerName\": \"ENGA-CHUZO\",\r\n        \"masterDealerId\": \"NA\",\r\n        \"dealerId\": \"1823223\",\r\n        \"fulfillmentDealer\": false\r\n    },\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"75240\"\r\n        ]\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DIP - ENGA SARAPLUS",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+								"value": "{{backupFlag}}"
+							},
+							{
+								"key": "idpctx-feature-svc-epoch-pvtenabled",
+								"value": "{{dcpbackupFlag}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 100\r\n    },\r\n    \"businessSegment\": [\r\n        \"CONS\"\r\n    ],\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"directIntegrationPartner\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-device\"\r\n    ],\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"addOnType\": [\r\n        \"Programming-Bolt-on\",\r\n        \"Bolt-on\",\r\n        \"Standalone\"\r\n    ],\r\n    \"planSubType\": [\r\n        \"cDVR\",\r\n        \"Cross-Product-Mobility\",\r\n        \"Streams\",\r\n        \"CrossProduct-WatchTV\",\r\n        \"Cross-product\",\r\n        \"International\"\r\n    ],\r\n    \"contractIndicator\": [\r\n        \"RR\"\r\n    ],\r\n    \"channelEligibility\": {\r\n        \"salesChannel\": \"directvCenters\",\r\n        \"salesSubChannel\": \"COR\",\r\n        \"locationId\": \"118732\",\r\n        \"locationTypeId\": \"4\",\r\n        \"dealerCode\": \"{{dealerCode1}}\",\r\n        \"directIntegrationPartnerName\": \"ENGA-SARAPLUS\",\r\n        \"masterDealerId\": \"NA\",\r\n        \"dealerId\": \"1823223\",\r\n        \"fulfillmentDealer\": false\r\n    },\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"75240\"\r\n        ]\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"",
+							"var jsonData = pm.response.json();",
+							"",
+							"//video plans",
+							"pm.test(\"Validate that only 1 Device are returned\", () => {",
+							"    console.log(jsonData.content.count);",
+							"    pm.expect(jsonData.content.count).to.eql(1, \"There should only be 1 video device returned\");",
+							"});",
+							"",
+							"",
+							"",
+							"pm.test(\"Validating for RR PLAN returned - OF_HARD-GEMINILEASE-202311_RR_DAP_MD\", () => {",
+							"    const Device = jsonData.content.offers.find(m => m.code === \"OF_HARD-GEMINILEASE-202311_RR_DAP_MD\");",
+							"    pm.expect(Device).to.be.an(\"object\", \"The OF_HARD-GEMINILEASE-202311_RR_MD offer should be returned\");",
+							"  ",
+							"    const product = Device.attributes.associatedProducts[0].bundleProducts[0].products.find(m => m.obj.code === \"HARD-GEMINILEASE-202311\");",
+							"        pm.expect(product).to.be.an(\"object\", \" product was not found in the response\");",
+							"   ",
+							"});",
+							"",
+							"",
+							"\t",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "OPUS - LEASE RR_DAP_MD",
+			"item": [
+				{
+					"name": "opus",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+								"value": "{{backupFlag}}"
+							},
+							{
+								"key": "idpctx-feature-svc-epoch-pvtenabled",
+								"value": "{{dcpbackupFlag}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 100\r\n    },\r\n    \"businessSegment\": [\r\n        \"CONS\"\r\n    ],\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"opus\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-device\"\r\n    ],\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"addOnType\": [\r\n        \"Programming-Bolt-on\",\r\n        \"Bolt-on\",\r\n        \"Standalone\"\r\n    ],\r\n    \"planSubType\": [\r\n        \"cDVR\",\r\n        \"Cross-Product-Mobility\",\r\n        \"Streams\",\r\n        \"CrossProduct-WatchTV\",\r\n        \"Cross-product\",\r\n        \"International\"\r\n    ],\r\n    \"contractIndicator\": [\r\n        \"RR\"\r\n    ],\r\n    \"channelEligibility\": {\r\n        \"opusChannel\": \"ATTR\",\r\n        \"opusSubChannel\": \"COR\",\r\n        \"opusStoreId\": \"{{StoreId}}\"\r\n    },\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"75240\"\r\n        ]\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"var jsonData = pm.response.json();",
+							"pm.test(\"Validate the count of offers\", () => {",
+							"    pm.expect(jsonData.content.count).to.eql(1, \" offer should return\");",
+							"});",
+							"",
+							"pm.test(\"Test Gemini Lease Plan\", () => {",
+							"    const GeminiLease = jsonData.content.offers.find",
+							"        (m => m.code === \"OF_HARD-GEMINILEASE-202311_RR_DAP_MD\");",
+							"    pm.expect(GeminiLease).to.be.an(\"Object\", \"Gemini LEASE  Offer should be returned\");",
+							"",
+							"    const product = GeminiLease.attributes.associatedProducts[0].bundleProducts[0].products.find(p => p.obj.code === \"HARD-GEMINILEASE-202311\");",
+							"",
+							"    pm.expect(product).to.be.an(\"object\", \"Product is incorrect\");",
+							"",
+							"    const benefits = GeminiLease.attributes.benefits.find(b => b.billingBenefitCode === \"DGEMINILEASE\");",
+							"",
+							"    pm.expect(benefits.value.percentage).to.eql(0, \"dollarAmount should be 0\");",
+							"",
+							"",
+							"});"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "DirectIntegration Partnerwith optimomas - INTRO SAVENOW",
+			"item": [
+				{
+					"name": "DIP -enga sara",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+								"value": "{{backupFlag}}"
+							},
+							{
+								"key": "idpctx-feature-svc-epoch-pvtenabled",
+								"value": "{{dcpbackupFlag}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 100\r\n    },\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"directIntegrationPartner\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\"\r\n    ],\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"addOnType\": [\r\n        \"Programming-Bolt-on\",\r\n        \"Bolt-on\",\r\n        \"Standalone\",\r\n        \"Subscription\"\r\n    ],\r\n    \"planSubType\": [\r\n        \"cDVR\",\r\n        \"Cross-Product-Mobility\",\r\n        \"Streams\",\r\n        \"CrossProduct-WatchTV\",\r\n        \"Cross-product\",\r\n        \"International\"\r\n    ],\r\n    \"contractIndicator\": [\r\n        \"RR\"\r\n    ],\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"75254\"\r\n        ]\r\n    },\r\n    \"channelEligibility\": {\r\n        \"salesChannel\":\"directvCenters\",\r\n        \"dealerCode\": \"{{dealerCode1}}\",\r\n        \"directIntegrationPartnerName\": \"ENGA-SARAPLUS\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"",
+							"var jsonData = pm.response.json();",
+							"",
+							"//video plans",
+							"pm.test(\"Validate that only 5 BPs are returned\", () => {",
+							"    console.log(jsonData.content.count);",
+							"    pm.expect(jsonData.content.count).to.eql(5, \"There should only be 5 video plans returned\");",
+							"});",
+							"",
+							"",
+							"pm.test(\"Validating for RR INTRO PLAN returned - OF_BASE-PREMIER-202004_RR_INTRO_SAVENOW_MANUAL\", () => {",
+							"",
+							"    const Base = jsonData.content.offers.find(m => m.code === \"OF_BASE-PREMIER-202004_RR_INTRO_SAVENOW_MANUAL\");",
+							"",
+							"    pm.expect(Base).to.be.an(\"object\", \"The OF_BASE-PREMIER-202004_RR_INTRO_SAVENOW_MANUAL offer should be returned\");",
+							"",
+							"    const product = Base.attributes.associatedProducts[0].bundleProducts[0].products.find(m => m.obj.code === \"BASE-PREMIER-202004\");",
+							"",
+							"    pm.expect(product).to.be.an(\"object\", \" product was not found in the response\");",
+							"",
+							"   ",
+							"});",
+							"",
+							"pm.test(\"Validating for RR returned - OF_BASE-OPTIMOMAS-122018_RR_INTRO_SAVENOW_MANUAL\", () => {",
+							"",
+							"    const Base = jsonData.content.offers.find(m => m.code === \"OF_BASE-OPTIMOMAS-122018_RR_INTRO_SAVENOW_MANUAL\");",
+							"",
+							"    pm.expect(Base).to.be.an(\"object\", \"The OF_BASE-OPTIMOMAS-122018_RR_INTRO_SAVENOW_MANUAL offer should be returned\");",
+							"",
+							"    const product = Base.attributes.associatedProducts[0].bundleProducts[0].products.find(m => m.obj.code === \"BASE-OPTIMOMAS-122018\");",
+							"",
+							"    pm.expect(product).to.be.an(\"object\", \" product was not found in the response\");",
+							"",
+							"  ",
+							"\t",
+							"});",
+							"",
+							"pm.test(\"Validating for RR INTRO PLAN returned -OF_BASE-ULTIMATE-201811_RR_INTRO_SAVENOW_MANUAL\", () => {",
+							"",
+							"    const Base = jsonData.content.offers.find(m => m.code === \"OF_BASE-ULTIMATE-201811_RR_INTRO_SAVENOW_MANUAL\");",
+							"",
+							"    pm.expect(Base).to.be.an(\"object\", \"The OF_BASE-ULTIMATE-201811_RR_INTRO_SAVENOW_MANUAL offer should be returned\");",
+							"",
+							"    const product = Base.attributes.associatedProducts[0].bundleProducts[0].products.find(m => m.obj.code === \"BASE-ULTIMATE-201811\");",
+							"",
+							"    pm.expect(product).to.be.an(\"object\", \" product was not found in the response\");",
+							"   ",
+							"",
+							"});",
+							"",
+							"pm.test(\"Validating for RR _INTRO PLAN returned - OF_BASE-CHOICE-201811_RR_INTRO_SAVENOW_MANUAL\", () => {",
+							"",
+							"    const choice = jsonData.content.offers.find(m => m.code === \"OF_BASE-CHOICE-201811_RR_INTRO_SAVENOW_MANUAL\");",
+							"",
+							"    pm.expect(choice).to.be.an(\"object\", \"The OF_BASE-CHOICE-201811_RR_INTRO_SAVENOW_MANUAL offer should be returned\");",
+							"",
+							"  ",
+							"    pm.expect(choice.attributes.contractIndicator).to.eql(\"RR\", \"contractIndicator should be RR\");",
+							"",
+							"",
+							"}); ",
+							"",
+							"pm.test(\"Validating for RR PLAN returned - OF_BASE-ENTERTAINMENT-201811_RR_INTRO_SAVENOW_MANUAL\", () => {",
+							"    const Entertainment = jsonData.content.offers.find(m => m.code === \"OF_BASE-ENTERTAINMENT-201811_RR_INTRO_SAVENOW_MANUAL\");",
+							"    pm.expect(Entertainment).to.be.an(\"object\", \"The OF_BASE-ENTERTAINMENT-201811_RR_INTRO_SAVENOW_MANUAL offer should be returned\");",
+							"  ",
+							"    const product = Entertainment.attributes.associatedProducts[0].bundleProducts[0].products.find(m => m.obj.code === \"BASE-ENTERTAINMENT-201811\");",
+							"        pm.expect(product).to.be.an(\"object\", \" product was not found in the response\");",
+							"  ",
+							"\t",
+							"});",
+							"",
+							"",
+							"\t",
+							"",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "DirectIntegrationPartner without optimomas - INTRO",
+			"item": [
+				{
+					"name": "DIP -enga chuzo",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+								"value": "{{backupFlag}}"
+							},
+							{
+								"key": "idpctx-feature-svc-epoch-pvtenabled",
+								"value": "{{dcpbackupFlag}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 100\r\n    },\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"directIntegrationPartner\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\"\r\n    ],\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"addOnType\": [\r\n        \"Programming-Bolt-on\",\r\n        \"Bolt-on\",\r\n        \"Standalone\",\r\n        \"Subscription\"\r\n    ],\r\n    \"planSubType\": [\r\n        \"cDVR\",\r\n        \"Cross-Product-Mobility\",\r\n        \"Streams\",\r\n        \"CrossProduct-WatchTV\",\r\n        \"Cross-product\",\r\n        \"International\"\r\n    ],\r\n    \"contractIndicator\": [\r\n        \"RR\"\r\n    ],\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"75254\"\r\n        ]\r\n    },\r\n    \"channelEligibility\": {\r\n        \"salesChannel\":\"Indirect\",\r\n        \"dealerCode\":\"{{dealerCode1}}\",\r\n        \"directIntegrationPartnerName\": \"ENGA-CHUZO\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DIP - enga Saraplus",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+								"value": "{{backupFlag}}"
+							},
+							{
+								"key": "idpctx-feature-svc-epoch-pvtenabled",
+								"value": "{{dcpbackupFlag}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 100\r\n    },\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"directIntegrationPartner\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\"\r\n    ],\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"addOnType\": [\r\n        \"Programming-Bolt-on\",\r\n        \"Bolt-on\",\r\n        \"Standalone\",\r\n        \"Subscription\"\r\n    ],\r\n    \"planSubType\": [\r\n        \"cDVR\",\r\n        \"Cross-Product-Mobility\",\r\n        \"Streams\",\r\n        \"CrossProduct-WatchTV\",\r\n        \"Cross-product\",\r\n        \"International\"\r\n    ],\r\n    \"contractIndicator\": [\r\n        \"RR\"\r\n    ],\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"75254\"\r\n        ]\r\n    },\r\n    \"channelEligibility\": {\r\n        \"salesChannel\":\"Indirect\",\r\n        \"dealerCode\": \"{{dealerCode1}}\",\r\n        \"directIntegrationPartnerName\": \"ENGA-CHUZO\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							"  \r",
+							"var jsonData = pm.response.json();\r",
+							"\r",
+							"//video plans\r",
+							"pm.test(\"Validate that only 4 BPs are returned\", () => {\r",
+							"    console.log(jsonData.content.count);\r",
+							"    pm.expect(jsonData.content.count).to.eql(4, \"There should only be 5 video plans returned\");\r",
+							"});\r",
+							"pm.test(\"Validating for RR INTRO PLAN returned - OF_BASE-PREMIER-202004_RR_INTRO\", () => {\r",
+							"\r",
+							"    const Base = jsonData.content.offers.find(m => m.code === \"OF_BASE-PREMIER-202004_RR_INTRO\");\r",
+							"\r",
+							"    pm.expect(Base).to.be.an(\"object\", \"The OF_BASE-PREMIER-202004_RR_INTRO offer should be returned\");\r",
+							"\r",
+							"   \r",
+							"    \r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Validating for RR INTRO PLAN not returned - OF_BASE-OPTIMOMAS-122018_RR_INTRO\", () => {\r",
+							"\r",
+							"    const Base = jsonData.content.offers.find(m => m.code === \"OF_BASE-OPTIMOMAS-122018_RR_INTRO\");\r",
+							"\r",
+							"    pm.expect(Base).to.eql(undefined, \"The OF_BASE-OPTIMOMAS-122018_RR_INTRO offer should be returned\");\r",
+							"\r",
+							"   \r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Validating for RR INTRO PLAN returned -OF_BASE-ULTIMATE-201811_RR_INTRO\", () => {\r",
+							"\r",
+							"    const Base = jsonData.content.offers.find(m => m.code === \"OF_BASE-ULTIMATE-201811_RR_INTRO\");\r",
+							"\r",
+							"    pm.expect(Base).to.be.an(\"object\", \"The OF_BASE-ULTIMATE-201811_RR_INTRO offer should be returned\");\r",
+							"\r",
+							"   \r",
+							"\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Validating for RR _INTRO PLAN returned - OF_BASE-CHOICE-201811_RR_INTRO\", () => {\r",
+							"\r",
+							"    const choice = jsonData.content.offers.find(m => m.code === \"OF_BASE-CHOICE-201811_RR_INTRO\");\r",
+							"\r",
+							"    pm.expect(choice).to.be.an(\"object\", \"The OF_BASE-CHOICE-201811_RR_INTRO offer should be returned\");\r",
+							"\r",
+							"   \r",
+							"\r",
+							"}); \r",
+							"\r",
+							"pm.test(\"Validating for RR PLAN returned - OF_BASE-ENTERTAINMENT-201811_RR_INTRO\", () => {\r",
+							"    const Entertainment = jsonData.content.offers.find(m => m.code === \"OF_BASE-ENTERTAINMENT-201811_RR_INTRO\");\r",
+							"    pm.expect(Entertainment).to.be.an(\"object\", \"The OF_BASE-ENTERTAINMENT-201811_RR_INTRO offer should be returned\");\r",
+							"   \r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						]
+					}
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"requests": {},
+				"exec": [
+					"var moment = require('moment');",
+					"",
+					"let currentTimeStamp = moment();",
+					"let billingDate= currentTimeStamp.add(2,'days').format(\"MM/DD/YYYY\")",
+					"pm.variables.set(\"nextBillingDate\", billingDate);",
+					"if(pm.variables.get(\"devmode\")==\"false\"){",
+					"    pm.request.headers.remove('idpctx-feature-svc-epochofferv2enabled-ctenv-backup')",
+					"    pm.request.headers.remove('idpctx-feature-svc-epoch-pvtenabled')",
+					"    pm.request.headers.remove('idpctx-feature-svc-epoch-dcp-offerms-enabled')",
+					"    pm.request.headers.remove('dcp-canary')",
+					"    pm.request.headers.remove('idpctx-feature-svc-middlewarecache-enabled')",
+					"}",
+					"else if(pm.variables.get(\"devmode\")==\"true\"){",
+					"    pm.request.headers.add({",
+					"    'key': \"idpctx-feature-svc-epoch-dcp-offerms-enabled\",",
+					"    'value': pm.environment.get(\"dcpOffermsFlag\")   ",
+					"    });",
+					"",
+					"    pm.request.headers.add({",
+					"    'key': \"idpctx-feature-svc-epochofferv2enabled-ctenv-backup\",",
+					"    'value': pm.environment.get(\"backupFlag\")    ",
+					"   });",
+					"}",
+					"if(pm.variables.get(\"dcpCanaryFlag\") == \"true\"){",
+					"        ",
+					"pm.request.headers.add({",
+					"    'key': \"dcp-canary\",",
+					"    'value': pm.environment.get(\"dcpCanaryFlag\")    ",
+					"});",
+					"pm.request.headers.add({",
+					"    'key': \"idpctx-feature-svc-epochofferv2enabled-ctenv-backup\",",
+					"    'value': pm.environment.get(\"backupFlag\")    ",
+					"   });",
+					"",
+					"}",
+					"if(pm.variables.get(\"liveMode\") == \"true\")",
+					"{",
+					"      pm.request.headers.add({",
+					"    'key': \"idpctx-feature-svc-epoch-dcp-offerms-enabled\",",
+					"    'value': pm.environment.get(\"dcpOffermsFlag\")   ",
+					"    });",
+					"}"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "opusDisclosureMessage",
+			"value": "By subscribing you will be billed $6.99 per month on a recurring basis (price subject to change). Cancel service anytime by managing your subscription online or calling 800-531-5000"
+		},
+		{
+			"key": "myAttDisclosureMessage",
+			"value": "By subscribing you will be billed $6.99 per month on a recurring basis (price subject to change). Cancel service anytime by managing your subscription online or calling 800-531-5000"
+		},
+		{
+			"key": "descriptionsByKey['long-services']",
+			"value": "ALLBLK is the streaming home for Black creators and storytellers with 10-12 original series premiering every year, plus world premiere movies, acclaimed independent films, classic fan-favorites, joyous stage plays, network series, and popular on-air series from sister networks, AMC and WE tv - all commercial-free!"
+		},
+		{
+			"key": "descriptionsByKey['short-services']",
+			"value": "ALLBLK is the streaming home for Black creators and storytellers with 10-12 original series premiering every year, plus world premiere movies, acclaimed independent films, classic fan-favorites, joyous stage plays, network series, and popular on-air series from sister networks, AMC and WE tv - all commercial-free!"
+		},
+		{
+			"key": "descriptionsByKey['long-myatt']",
+			"value": "ALLBLK is the streaming home for Black creators and storytellers with 10-12 original series premiering every year, plus world premiere movies, acclaimed independent films, classic fan-favorites, joyous stage plays, network series, and popular on-air series from sister networks, AMC and WE tv - all commercial-free!"
+		},
+		{
+			"key": "descriptionsByKey['short-opus']",
+			"value": "ALLBLK is the streaming home for Black creators and storytellers with 10-12 original series premiering every year, plus world premiere movies, acclaimed independent films, classic fan-favorites, joyous stage plays, network series, and popular on-air series from sister networks, AMC and WE tv - all commercial-free!"
+		},
+		{
+			"key": "shortDescription",
+			"value": "<p>DIRECTV Sports Pack gives access to diverse sports coverage from the U.S. and around the world, with over 40 regional and specialty sports networks (RSNs require Choice pkg and above).* DIRECTV Sports Pack provides a content offering that is strong and competitive in market that will now include in-demand sports content, like NFL REDZONE and NFL Network, ESPNews, college sports networks and more. </p><p>*Some channels may be incl. in base pkg. Visit directv.com/NFL for more info.</p>"
+		},
+		{
+			"key": "opusDisclosureMessageSports",
+			"value": "READ TO CUSTOMER TO GAIN CONSENT: Sports Pack at no add'l cost for 1-month. By selecting this Sports Pack offer, you agree that after the 1-month promotional period ends, your payment method on file will be charged the full price then in effect (currently $11/mo.) on a monthly basis unless you call to cancel before the end of the promotional period or any later monthly billing period. You can go online to directv.com to cancel anytime, or call: 800-531-5000. May I add this offer based on these terms?"
+		},
+		{
+			"key": "myAttDisclosureMessageSports",
+			"value": "By selecting this offer for 1 month of DIRECTV STREAM Sports Pack, you agree that after the promotional period ends, your payment method on file will be charged the full price then in effect (currently $11.00/mo.) monthly unless you cancel before the end of the promotional period or any later monthly billing period. You can go online to directv.com to cancel anytime, or call: 800-531-5000."
+		},
+		{
+			"key": "opusDisclosureSports",
+			"value": "READ TO CUSTOMER TO GAIN CONSENT: DIRECTV STREAM Sports Pack at no additional cost for 1 month. By selecting this DIRECTV STREAM Sports Pack offer, you agree that after the 1-month promotional period ends, your payment method on file will be charged the full price then in effect (currently $11.00/mo.) monthly unless you call to cancel before the end of the promotional period or any later monthly billing period. You can go online to directv.com to cancel anytime, or call: 800-531-5000. May I add this offer based on these terms?"
+		},
+		{
+			"key": "onlineDisclosureSports",
+			"value": "By selecting this offer for 1 month of DIRECTV STREAM Sports Pack, you agree that after the promotional period ends, your payment method on file will be charged the full price then in effect (currently $11.00/mo.) monthly unless you cancel before the end of the promotional period or any later monthly billing period. You can go online to directv.com to cancel anytime, or call: 800-531-5000."
+		},
+		{
+			"key": "HBOMaxOpusDisclosure",
+			"value": "READ TO CUSTOMER TO GAIN CONSENT:  Max<sup>&#8482;</sup> at no add&#39;l cost for 3 months. By selecting this Max offer, you agree that after the 3 month promotional period ends, you&#39;ll be charged the full price then in effect (currently &#36;16.99/mo.) on a monthly basis unless you call to cancel before the end of the promotional period or any later monthly billing period. You can go online to directv.com to cancel anytime, or call: 800-531-5000. May I add this offer based on these terms?"
+		},
+		{
+			"key": "CinemaxOpusDisclosure",
+			"value": "READ TO CUSTOMER TO GAIN CONSENT: Cinemax at no add&#39;l cost for 3 months. By selecting this Cinemax offer, you agree that after the 3 month promotional period ends, you&#39;ll be charged the full price then in effect (currently &#36;10.99/mo.) on a monthly basis unless you call to cancel before the end of the promotional period or any later monthly billing period. You can go online to directv.com to cancel anytime, or call: 800-531-5000. May I add this offer based on these terms?"
+		},
+		{
+			"key": "EpixOpusDisclosure",
+			"value": "READ TO CUSTOMER TO GAIN CONSENT: EPIX at no add&#39;l cost for 3 months. By selecting this EPIX offer, you agree that after the 3 month promotional period ends, you&#39;ll be charged the full price then in effect (currently &#36;5.99/mo.) on a monthly basis unless you call to cancel before the end of the promotional period or any later monthly billing period. You can go online to directv.com to cancel anytime, or call: 800-531-5000. May I add this offer based on these terms?"
+		},
+		{
+			"key": "ShowtimeOpusDisclosure",
+			"value": "READ TO CUSTOMER TO GAIN CONSENT: Showtime at no add&#39;l cost for 3 months. By selecting this Showtime offer, you agree that after the 3 month promotional period ends, you&#39;ll be charged the full price then in effect (currently &#36;11.99/mo.) on a monthly basis unless you call to cancel before the end of the promotional period or any later monthly billing period. You can go online to directv.com to cancel anytime, or call: 800-531-5000. May I add this offer based on these terms?"
+		},
+		{
+			"key": "StarzOpusDisclosure",
+			"value": "READ TO CUSTOMER TO GAIN CONSENT: Starz at no add&#39;l cost for 3 months. By selecting this Starz offer, you agree that after the 3 month promotional period ends, you&#39;ll be charged the full price then in effect (currently &#36;10.99/mo.) on a monthly basis unless you call to cancel before the end of the promotional period or any later monthly billing period. You can go online to directv.com to cancel anytime, or call: 800-531-5000. May I add this offer based on these terms?"
+		},
+		{
+			"key": "opusDisclosureForServices",
+			"value": "READ TO CUSTOMER TO GAIN CONSENT: $2.99 offer price incl. $2/mo. off discovery+ reg. price (currently $4.99/mo.). By subscribing, you will be billed $2.99/mo. (subj. to change) on a recurring basis which will be charged to the payment method on file. May only be accessed on internet-connected HD DVR, directv.com, and DIRECTV app. Subscription not valid for streaming using the discovery+ app or discoveryplus.com. Cancel service anytime by managing your subscription online or calling 844-673-2391."
+		},
+		{
+			"key": "onlineDisclosureForServices",
+			"value": "* Requires account to stay in good standing. If you cancel your service, you will no longer be eligible for this offer."
+		},
+		{
+			"key": "opusDisclosureSelectAll",
+			"value": "READ TO CUSTOMER TO GAIN CONSENT: At no add'l cost for first 3 months. By selecting any of the following offers: Max<sup>&#8482;</sup>, Cinemax<sup>&#174;</sup>, SHOWTIME<sup>&#174;</sup>, STARZ<sup>&#174;</sup>, and EPIX<sup>&#174;</sup> you agree that after the 3-month promotional period ends, each channel auto-renews at then prevailing rates (currently $16.99/mo Max<sup>&#8482;</sup>, $12.99/mo. for SHOWTIME<sup>&#174;</sup>, $10.99/mo. each for Cinemax<sup>&#174;</sup>  and STARZ<sup>&#174;</sup> and $7.99/mo. for EPIX<sup>&#174;</sup>), and that your payment method on file will be charged on a monthly basis, unless you cancel before the end of the promotional period or any later monthly billing period. You can go online to directv.com to cancel anytime, or call: 800-531-5000. May I add these offers based on these terms?"
+		},
+		{
+			"key": "RefurbDisclosure",
+			"value": "<p>Any Gemini Certified Restored device purchased must be returned within 14 days of purchase to avoid a non-return fee of $49.99.<br>Purchased Gemini Certified Restored devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Certified Restored Gemini device has a Limited 1-year Warranty; term details can be found at directv.com/WarrantyInformation<br>Taxes are due at time of sale.</p>"
+		},
+		{
+			"key": "longDescription",
+			"value": "<p>DIRECTV Sports Pack gives access to diverse sports coverage from the U.S. and around the world, with over 40 regional and specialty sports networks (RSNs require Choice pkg and above).* DIRECTV Sports Pack provides a content offering that is strong and competitive in market that will now include in-demand sports content, like NFL REDZONE and NFL Network, ESPNews, college sports networks and more.</p><p>*Some channels may be incl. in base pkg. Visit directv.com/NFL for more info.</p><p>Channel highlights include:</p><ul><li>NFL RedZone and NFL Network – with NFL RedZone from NFL Network, catch every scoring play from every game, every Sunday afternoon during the regular season and with NFL Network, enjoy year-round news, video highlights, fantasy football, game-day coverage and schedules</li><li>MLB Network, Golf Channel, NBA TV, NHL Network, and Tennis Channel – dedicated networks for some of the top pro sports that includes live games, tournaments, matches, and specialty programming</li><li>ACC, Big Ten, Longhorn, and SEC Networks – live games and programs dedicated to some of the top college conferences and teams. (Longhorn Network not available in TX.)</li><li>CBS Sports Network and TUDN – the best soccer games from around the world, plus pre- and post-game commentary & analysis</li><li>Outdoor and Sportsman Channels – specialty programming that includes hunting, fishing, Western lifestyle, off-road motorsports, and adventure.</li><li>Out-of-Market Regional Sports Networks – Access select live collegiate and high school games, as well as pre- and post-game commentary for select pro teams around the country [Choice and above base packages]</li></ul>"
+		},
+		{
+			"key": "longDescription2",
+			"value": "<p>DIRECTV Sports Pack gives access to diverse sports coverage from the U.S. and around the world, with over 40 regional and specialty sports networks (RSNs require Choice pkg and above).* DIRECTV Sports Pack provides a content offering that is strong and competitive in market that will now include in-demand sports content, like NFL REDZONE and NFL Network, ESPNews, college sports networks and more.</p><p>*Some channels may be incl. in base pkg. Visit directv.com/NFL for more info.</p><p>Channel highlights include:</p><ul><li>NFL RedZone and NFL Network – with NFL RedZone from NFL Network, catch every scoring play from every game, every Sunday afternoon during the regular season and with NFL Network, enjoy year-round news, video highlights, fantasy football, game-day coverage and schedules</li><li>MLB Network, Golf Channel, NBA TV, NHL Network, and Tennis Channel – dedicated networks for some of the top pro sports that includes live games, tournaments, matches, and specialty programming</li><li>ACC, Big Ten, Longhorn, and SEC Networks – live games and programs dedicated to some of the top college conferences and teams. (Longhorn Network not available in TX.)</li><li>CBS Sports Network and TUDN – the best soccer games from around the world, plus pre- and post-game commentary & analysis</li><li>Outdoor and Sportsman Channels – specialty programming that includes hunting, fishing, Western lifestyle, off-road motorsports, and adventure.</li><li>Out-of-Market Regional Sports Networks – Access select live collegiate and high school games, as well as pre- and post-game commentary for select pro teams around the country [Choice and above base packages]</li></ul>"
+		},
+		{
+			"key": "shortDescription2",
+			"value": "<p>DIRECTV Sports Pack gives access to diverse sports coverage from the U.S. and around the world, with over 40 regional and specialty sports networks (RSNs require Choice pkg and above).* DIRECTV Sports Pack provides a content offering that is strong and competitive in market that will now include in-demand sports content, like NFL REDZONE and NFL Network, ESPNews, college sports networks and more. </p><p>*Some channels may be incl. in base pkg. Visit directv.com/NFL for more info.</p>"
+		},
+		{
+			"key": "opusDisclosureSelectALL",
+			"value": "READ TO CUSTOMER TO GAIN CONSENT: At no add'l cost for first 3 months. By selecting any of the following offers: Max<sup>&#8482;</sup>, Cinemax<sup>&#174;</sup>, SHOWTIME<sup>&#174;</sup>, STARZ<sup>&#174;</sup>, and EPIX<sup>&#174;</sup> you agree that after the 3-month promotional period ends, each channel auto-renews at then prevailing rates (currently $16.99/mo Max<sup>&#8482;</sup>, $12.99/mo. for SHOWTIME<sup>&#174;</sup>, $10.99/mo. each for Cinemax<sup>&#174;</sup>  and STARZ<sup>&#174;</sup> and $7.99/mo. for EPIX<sup>&#174;</sup>), and that your payment method on file will be charged on a monthly basis, unless you cancel before the end of the promotional period or any later monthly billing period. You can go online to directv.com to cancel anytime, or call: 800-531-5000. May I add these offers based on these terms?"
+		},
+		{
+			"key": "longservices",
+			"value": "Includes live, out-of-market, regular-season games only. Blackout restrictions & other conditions apply. NBA League Pass subscription auto-renews monthly during 2023-2024 regular season, then ends. Monthly charges will be made to your payment method on file. Cancel anytime online or by calling 1-800-531-5000. Out-of-market game availability is based on billing zip code.  New DIRECTV customers connecting via internet or DIRECTV STREAM customers who cancel service within 14 days of purchase receive a full refund for all services, including NBA League Pass Premium. Otherwise, no refunds or credits for any partial-month periods or unwatched NBA League Pass Premium content. Existing DIRECTV customers connecting via internet and DIRECTV STREAM customers: Cancellation is effective on the last day of the billing cycle in which you cancel, and you will not receive a refund or credit. Service remains available through the effective date of cancellation. NBA, the NBA logo and team identifications are the exclusive intellectual property of NBA Properties, Inc. and the respective member teams. &#169;2023 NBA Properties, Inc. All Rights"
+		},
+		{
+			"key": "shortservices",
+			"value": "With DIRECTV via internet or DIRECTV STREAM and NBA League Pass Premium get a courtside experience to live out-of-market NBA games. Enjoy commercial-free games with continuous in-arena coverage during breaks. Plus, stream on all your compatible devices in the U.S. (Excl. U.S.V.I. and Puerto Rico). Watch home, away and mobile feeds. Blackout restrictions and other conditions apply. Data connection required.  Limited to 3 concurrent out-of-home streams."
+		},
+		{
+			"value": ""
+		}
+	]
+}

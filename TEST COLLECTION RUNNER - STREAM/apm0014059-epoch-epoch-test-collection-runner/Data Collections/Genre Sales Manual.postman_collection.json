@@ -1,0 +1,485 @@
+{
+	"info": {
+		"_postman_id": "94e20921-fbdd-43a1-8d07-16bda1817a1f",
+		"name": "Genre Sales Manual",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26896344",
+		"_collection_link": "https://speeding-satellite-638584.postman.co/workspace/My-Workspace~c7526f72-eaab-41d5-896d-9a9cc5cd778a/collection/26896344-94e20921-fbdd-43a1-8d07-16bda1817a1f?action=share&source=collection_link&creator=26896344"
+	},
+	"item": [
+		{
+			"name": "Opus Store",
+			"item": [
+				{
+					"name": "opus",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.test(\"Validate that only 33 plans are returned\", () => {\r",
+									"    console.log(jsonData.content.count);\r",
+									"    pm.expect(jsonData.content.count).to.eql(33, \"There should only be  33 offer should returned\");\r",
+									"});\r",
+									"\r",
+									"GenrePack = [\"OF_BOLT-FAST-202410_GENRE\",\r",
+									"    \"OF_BOLT-AECRIME-202401_GENRE\",\r",
+									"    \"OF_BOLT-20STREAMS-202010_GENRE\",\r",
+									"    \"OF_BOLT-EPIX-201907_GENRE\",\r",
+									"    \"OF_BOLT-MYSPORTSEXTRA-202410_GENRE\",\r",
+									"    \"OF_BOLT-MAXWADS-202502_GENRE\",\r",
+									"    \"OF_BOLT-MYSPORTS-202410_GENRE\",\r",
+									"    \"OF_BOLT-CINEMAX-201610_GENRE\",\r",
+									"    \"OF_BOLT-HISTORY-202310_GENRE\",\r",
+									"    \"OF_BOLT-FOXN-202222_GENRE\",\r",
+									"    \"OF_HARD-GEMINILEASE-202311_GENRE\",\r",
+									"    \"OF_BASE-GENRE-202410_GENRE_DVC\",\r",
+									"    \"OF_FEE-DO-202311_GENRE\",\r",
+									"    \"OF_BOLT-STARZ-201610_GENRE\",\r",
+									"    \"OF_BOLT-MYHOME-202502_GENRE\",\r",
+									"    \"OF_BOLT-MYCINEMA-202410_GENRE\",\r",
+									"    \"OF_BOLT-LIFETIME-201910_GENRE\",\r",
+									"    \"OF_UNLTDCDVR2021_GENRE\",\r",
+									"    \"OF_BOLT-HBO-201610_GENRE\",\r",
+									"    \"OF_BOLT-DISNEYBASIC-202411_GENRE\",\r",
+									"    \"OF_BOLT-MYNEWS-202410_GENRE\",\r",
+									"    \"OF_BOLT-MYESPANOL-202410_GENRE\",\r",
+									"    \"OF_BOLT-HALLMARK-202310_GENRE\",\r",
+									"    \"OF_BOLT-ESPNPLUS-202411_GENRE\",\r",
+									"    \"OF_BOLT-MYENTERTAINMENT-202410_GENRE\",\r",
+									"    \"OF_BOLT-DUOBASIC-202411_GENRE\",\r",
+									"    \"OF_BOLT-MYKIDS-202410_GENRE\",\r",
+									"    \"OF_BOLT-VIXPREWADS-202504_GENRE\",\r",
+									"    \"OF_BOLT-PREMIUMPP-202309_GENRE\",\r",
+									"    \"OF_BOLT-BASEPP-202309_GENRE\",\t\r",
+									"\t\"OF_BOLT-UPFAITH-202503_GENRE\",\r",
+									"\t\"OF_BOLT-CURIOSITY-202505_GENRE\",\r",
+									"    \"OF_BOLT-NBALP-201912_GENRE\"];\r",
+									"\r",
+									"for (let plan of GenrePack) {\r",
+									"    pm.test(plan + \" Genre Packs are returned\", function () {\r",
+									"        const RR = jsonData.content.offers.find(m => (m.code === plan));\r",
+									"        pm.expect(RR).to.be.an(\"object\", plan + \"could not find the offers in the response\");\r",
+									"\r",
+									"\r",
+									"    });\r",
+									"}\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {},
+								"requests": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {},
+								"requests": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+								"value": "{{backupFlag}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 100\r\n    },\r\n    \"businessSegment\": [\r\n        \"CONS\"\r\n    ],\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"opus\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\",\r\n        \"video-addon\",\r\n        \"video-device\",\r\n        \"protection-plan\",\r\n        \"fee\"\r\n    ],\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"addOnType\": [\r\n        \"Programming-Bolt-on\",\r\n        \"Bolt-on\",\r\n        \"Standalone\",\r\n        \"Subscription\"\r\n    ],\r\n    \"planSubType\": [\r\n        \"cDVR\",\r\n        \"Cross-Product-Mobility\",\r\n        \"Streams\",\r\n        \"CrossProduct-WatchTV\",\r\n        \"Cross-product\",\r\n        \"International\"\r\n    ],\r\n    \"contractIndicator\": [\r\n        \"GENRE\"\r\n    ],\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"81045\"\r\n        ],\r\n        \"fipsCode\": [\r\n            \"08061\"\r\n        ]\r\n    },\r\n    \"creditRisk\": \"Medium\",\r\n    \"channelEligibility\": {\r\n        \"opusChannel\": \"{{opusChannel}}\",\r\n        \"opusSubChannel\": \"{{opusSubChannel}}\",\r\n        \"opusStoreId\": \"{{storeId}}\"\r\n\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "opus -Reconnect < 12months",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.test(\"Validate that only 33 plans are returned\", () => {\r",
+									"    console.log(jsonData.content.count);\r",
+									"    pm.expect(jsonData.content.count).to.eql(33, \"There should only be  33 offer should returned\");\r",
+									"});\r",
+									"\r",
+									"GenrePack = [\"OF_BOLT-FAST-202410_GENRE\",\r",
+									"\"OF_BOLT-NBALP-201912_GENRE\",\r",
+									"\"OF_BOLT-CURIOSITY-202505_GENRE\",\r",
+									"  \"OF_BOLT-UPFAITH-202503_GENRE\",\r",
+									"    \"OF_BOLT-AECRIME-202401_GENRE\",\r",
+									"    \"OF_BOLT-20STREAMS-202010_GENRE\",\r",
+									"    \"OF_BOLT-EPIX-201907_GENRE\",\r",
+									"    \"OF_BOLT-MYSPORTSEXTRA-202410_GENRE\",\r",
+									"    \"OF_BOLT-MAXWADS-202502_GENRE\",\r",
+									"    \"OF_BOLT-MYSPORTS-202410_GENRE\",\r",
+									"    \"OF_BOLT-CINEMAX-201610_GENRE\",\r",
+									"    \"OF_BOLT-HISTORY-202310_GENRE\",\r",
+									"    \"OF_BOLT-FOXN-202222_GENRE\",\r",
+									"    \"OF_HARD-GEMINILEASE-202311_GENRE\",\r",
+									"    \"OF_BASE-GENRE-202410_GENRE_RECONN_DVC\",\r",
+									"    \"OF_FEE-DO-202311_GENRE\",\r",
+									"    \"OF_BOLT-STARZ-201610_GENRE\",\r",
+									"    \"OF_BOLT-MYHOME-202502_GENRE\",\r",
+									"    \"OF_BOLT-MYCINEMA-202410_GENRE\",\r",
+									"    \"OF_BOLT-LIFETIME-201910_GENRE\",\r",
+									"    \"OF_UNLTDCDVR2021_GENRE\",\r",
+									"    \"OF_BOLT-HBO-201610_GENRE\",\r",
+									"    \"OF_BOLT-DISNEYBASIC-202411_GENRE\",\r",
+									"    \"OF_BOLT-MYNEWS-202410_GENRE\",\r",
+									"    \"OF_BOLT-MYESPANOL-202410_GENRE\",\r",
+									"    \"OF_BOLT-HALLMARK-202310_GENRE\",\r",
+									"    \"OF_BOLT-ESPNPLUS-202411_GENRE\",\r",
+									"    \"OF_BOLT-MYENTERTAINMENT-202410_GENRE\",\r",
+									"    \"OF_BOLT-DUOBASIC-202411_GENRE\",\r",
+									"    \"OF_BOLT-MYKIDS-202410_GENRE\",\r",
+									"    \"OF_BOLT-VIXPREWADS-202504_GENRE\",\r",
+									"    \"OF_BOLT-PREMIUMPP-202309_GENRE\",\r",
+									"    \"OF_BOLT-BASEPP-202309_GENRE\"];\r",
+									"\r",
+									"for (let plan of GenrePack) {\r",
+									"    pm.test(plan + \" RR Packs are returned\", function () {\r",
+									"        const RR = jsonData.content.offers.find(m => (m.code === plan));\r",
+									"        pm.expect(RR).to.be.an(\"object\", plan + \"could not find the offers in the response\");\r",
+									"\r",
+									"\r",
+									"    });\r",
+									"}\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {},
+								"requests": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"var moment = require('moment')\r",
+									"let currentTimestamp = moment();\r",
+									"let within12Mo = currentTimestamp.subtract(7, 'day').format(\"MM/DD/YYYY\");\r",
+									"pm.environment.set(\"within12Mo\", \"\\\"\" + within12Mo + \"\\\"\");\r",
+									"console.log(\"within12Mo = \" + within12Mo);"
+								],
+								"type": "text/javascript",
+								"packages": {},
+								"requests": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+								"value": "{{backupFlag}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"salesChannel\": [\r\n        \"opus\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\",\r\n        \"video-device\",\r\n        \"video-addon\",\r\n        \"protection-plan\",\r\n        \"fee\"\r\n    ],\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"reconnectCustomer\": true,\r\n    \"serviceEndDate\": {{within12Mo}},\r\n    \"addOnType\": [],\r\n    \"planSubType\": [],\r\n    \"contractIndicator\": [\r\n        \"GENRE\"\r\n    ],\r\n    \"state\": \"staged\",\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 300\r\n    },\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"63031\"\r\n        ]\r\n    },\r\n    \"creditRisk\": \"Medium\",\r\n    \"channelEligibility\": {\r\n        \"opusChannel\": \"{{opusChannel}}\",\r\n        \"opusSubChannel\": \"{{opusSubChannel}}\",\r\n        \"opusStoreId\": \"{{storeId}}\"\r\n    },\r\n    \"migrationIndicator\": false,\r\n    \"existingAccountSubscriberType\": \"GENRE\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Opus Store Migration",
+			"item": [
+				{
+					"name": "opus_Migration",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.test(\"Validate that only 30 plans are returned\", () => {\r",
+									"    console.log(jsonData.content.count);\r",
+									"    pm.expect(jsonData.content.count).to.eql(30, \"There should only be  30 offer should returned\");\r",
+									"});\r",
+									"\r",
+									"GenrePack = [\"OF_BOLT-HALLMARK-202310_GENRE_MIGR\",\r",
+									"\"OF_HARD-GEMINILEASE-202311_GENRE_MIGR\",\r",
+									"\"OF_BOLT-NBALP-201912_GENRE_MIGR\",\r",
+									"\"OF_BOLT-MYESPANOL-202410_GENRE_MIGR\",\r",
+									"\"OF_BOLT-BASEPP-202309_GENRE_MIGR\",\r",
+									"\"OF_BOLT-HISTORY-202310_GENRE_MIGR\",\r",
+									"\"OF_BOLT-STARZ-201610_GENRE_MIGR\",\r",
+									"\"OF_BOLT-FAST-202410_GENRE_MIGR\",\r",
+									"\"OF_BOLT-MYSPORTSEXTRA-202410_GENRE_MIGR\",\r",
+									"\"OF_BOLT-MYNEWS-202410_GENRE_MIGR\",\r",
+									"\"OF_UNLTDCDVR2021_GENRE_MIGR\",\r",
+									"\"OF_BOLT-FOXN-202222_GENRE_MIGR\",\r",
+									"\"OF_BASE-GENRE-202410_GENRE_MIGR\",\r",
+									"\"OF_BOLT-AECRIME-202401_GENRE_MIGR\",\r",
+									"\"OF_BOLT-PREMIUMPP-202309_GENRE_MIGR\",\r",
+									"\"OF_BOLT-MYSPORTS-202410_GENRE_MIGR\",\r",
+									"\"OF_BOLT-CINEMAX-201610_GENRE_MIGR\",\r",
+									"\"OF_BOLT-MYENTERTAINMENT-202410_GENRE_MIGR\",\r",
+									"\"OF_BOLT-LIFETIME-201910_GENRE_MIGR\",\r",
+									"\"OF_BOLT-MYHOME-202502_GENRE_MIGR\",\r",
+									"\"OF_BOLT-EPIX-201907_GENRE_MIGR\",\r",
+									"\"OF_BOLT-DISNEYBASIC-202411_GENRE_MIGR\",\r",
+									"\"OF_BOLT-DUOBASIC-202411_GENRE_MIGR\",\r",
+									"\"OF_BOLT-MAXWADS-202502_GENRE_MIGR\",\r",
+									"\"OF_BOLT-HBO-201610_GENRE_MIGR\",\r",
+									"\"OF_BOLT-VIXPREWADS-202504_GENRE_MIGR\",\r",
+									"\"OF_BOLT-ESPNPLUS-202411_GENRE_MIGR\",\r",
+									"\"OF_BOLT-MYCINEMA-202410_GENRE_MIGR\",\r",
+									"\"OF_BOLT-20STREAMS-202010_GENRE_MIGR\",\r",
+									"\"OF_BOLT-MYKIDS-202410_GENRE_MIGR\"];\r",
+									"\r",
+									"for (let plan of GenrePack) {\r",
+									"    pm.test(plan + \" Genre Packs are returned\", function () {\r",
+									"        const RR = jsonData.content.offers.find(m => (m.code === plan));\r",
+									"        pm.expect(RR).to.be.an(\"object\", plan + \"could not find the offers in the response\");\r",
+									"\r",
+									"\r",
+									"    });\r",
+									"}\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {},
+								"requests": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {},
+								"requests": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+								"value": "{{backupFlag}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"addOnType\": [\r\n        \"Programming-Bolt-on\",\r\n        \"Bolt-on\",\r\n        \"Standalone\",\r\n        \"Subscription\"\r\n    ],\r\n    \"contractIndicator\": [\r\n        \"GENRE\"\r\n    ],\r\n    \"customerContext\": {\r\n        \"existingProductFamily\": [\r\n            \"IPTV\"\r\n        ],\r\n        \"IPTV\": {\r\n            \"accountNumber\": \"9999\",\r\n            \"isActive\": true,\r\n            \"sunsetDate\": \"02012020\",\r\n            \"products\": [\r\n                {\r\n                    \"productCode\": \"u300\",\r\n                    \"productType\": \"video-plan\"\r\n                }\r\n            ]\r\n        }\r\n    },\r\n    \"customerEligibility\": {\r\n        \"zipCode\": [\r\n            \"70806\"\r\n        ]\r\n    },\r\n    \"offerActionType\": [\r\n        \"Acquisition\"\r\n    ],\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"pagination\": {\r\n        \"page\": 1,\r\n        \"limit\": 100\r\n    },\r\n    \"planSubType\": [\r\n        \"cDVR\",\r\n        \"Cross-Product-Mobility\",\r\n        \"Streams\",\r\n        \"CrossProduct-WatchTV\",\r\n        \"Cross-product\",\r\n        \"International\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"opus\"\r\n    ],\r\n     \"channelEligibility\": {\r\n        \"opusChannel\": \"{{opusChannel}}\",\r\n        \"opusSubChannel\": \"{{opusSubChannel}}\",\r\n        \"opusStoreId\": \"{{storeId}}\"\r\n    },\r\n    \"migrationServiceType\": [\r\n        \"IPTV\"\r\n    ],\r\n    \"creditRisk\": \"Low\",\r\n    \"migrationIndicator\": true,\r\n    \"reconnectCustomer\": false,\r\n    \"decisioningFlow\": false,\r\n    \"swimlaneSwitchEligible\": false,\r\n    \"offerProductTypes\": [\r\n        \"video-addon\",\r\n         \"video-plan\",\r\n        \"video-device\",\r\n        \"fee\",\r\n        \"protection-plan\"\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					"\r",
+					"if(pm.variables.get(\"devmode\")==\"false\"){\r",
+					"    pm.request.headers.remove('idpctx-feature-svc-epochofferv2enabled-ctenv-backup')\r",
+					"    pm.request.headers.remove('idpctx-feature-svc-epoch-pvtenabled')\r",
+					"    pm.request.headers.remove('idpctx-feature-svc-epoch-dcp-offerms-enabled')\r",
+					"    pm.request.headers.remove('dcp-canary')\r",
+					"    pm.request.headers.remove('idpctx-feature-svc-middlewarecache-enabled')\r",
+					"}\r",
+					"else if(pm.variables.get(\"devmode\")==\"true\"){\r",
+					"    pm.request.headers.add({\r",
+					"    'key': \"idpctx-feature-svc-epoch-dcp-offerms-enabled\",\r",
+					"    'value': pm.environment.get(\"dcpOffermsFlag\")   \r",
+					"    });\r",
+					"\r",
+					"    pm.request.headers.add({\r",
+					"    'key': \"idpctx-feature-svc-epochofferv2enabled-ctenv-backup\",\r",
+					"    'value': pm.environment.get(\"backupFlag\")    \r",
+					"   });\r",
+					"}\r",
+					"if(pm.variables.get(\"dcpCanaryFlag\") == \"true\"){\r",
+					"        \r",
+					"pm.request.headers.add({\r",
+					"    'key': \"dcp-canary\",\r",
+					"    'value': pm.environment.get(\"dcpCanaryFlag\")    \r",
+					"});\r",
+					"pm.request.headers.add({\r",
+					"    'key': \"idpctx-feature-svc-epochofferv2enabled-ctenv-backup\",\r",
+					"    'value': pm.environment.get(\"backupFlag\")    \r",
+					"   });\r",
+					"\r",
+					"}\r",
+					"if(pm.variables.get(\"liveMode\") == \"true\")\r",
+					"{\r",
+					"      pm.request.headers.add({\r",
+					"    'key': \"idpctx-feature-svc-epoch-dcp-offerms-enabled\",\r",
+					"    'value': pm.environment.get(\"dcpOffermsFlag\")   \r",
+					"    });\r",
+					"}\r",
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

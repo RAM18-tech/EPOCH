@@ -1,0 +1,80 @@
+{
+    "contractIndicator": [
+        "non-contract"
+    ],
+    "customerEligibility": {
+        "zipCode": [
+            "75240"
+        ],
+        "county": [
+            "48113"
+        ]
+    },
+    "customerContext": {
+        "existingProductFamily": [
+            "satellite"
+        ],
+        "satellite": {
+            "products": [
+                {
+                    "componentCode": "DTVHDonly",
+                    "modelNumber": "H25-500",
+                    "productType": "video-device"
+                },
+                {
+                    "pricePlanCode": "88830604",
+                    "productType": "video-addon",
+                    "pickCode": "P0031"
+                },
+                {
+                    "pricePlanCode": "88996413",
+                    "productType": "video-addon"
+                },
+                {
+                    "pricePlanCode": "88835404",
+                    "productType": "video-addon"
+                },
+                {
+                    "pricePlanCode": "88849754",
+                    "productType": "video-plan",
+                    "priceCode": "DVALL2"
+                },
+                {
+                    "pricePlanCode": "88841514",
+                    "productType": "insurance"
+                },
+                {
+                    "pricePlanCode": "88846084",
+                    "productType": "video-addon"
+                }
+            ],
+            "accountNumber": "638043191",
+            "isActive": true,
+            "retentionPromotionIndicator": false,
+            "freeTrialEligible": false,
+            "accountType": "Residential",
+            "serviceOrderDate": "03/25/2023",
+            "nextBillingDate": "11/25/2023",
+            "policy": "DVALL2",
+            "priceProtection": {
+                "startDate": "03/25/2023",
+                "endDate": "03/24/2025"
+            }
+        }
+    },
+    "offerActionType": [
+        "Upgrade",
+        "Downgrade",
+        "Cross-sell",
+        "Other"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "salesChannel": [
+        "online"
+    ],
+    "offerProductTypes": [
+        "video-plan"
+    ]
+}

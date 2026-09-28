@@ -1,0 +1,516 @@
+{
+  "limit": 0,
+  "offset": 0,
+  "count": 2,
+  "total": 2,
+  "offers": [ {
+    "id": "85c59abc-0b5f-406b-a193-cef0eddd291b",
+    "code": "OF_BASE-FFP-202404_FRONTPORCH_OV",
+    "status": "live",
+    "name": {
+      "en": "FFP Base Package"
+    },
+    "description": {
+      "en": "FFP Base Package"
+    },
+    "startDate": "2020-07-30T18:30:00.000Z",
+    "endDate": "2050-12-30T18:30:00.000Z",
+    "attributes": {
+      "offerProductType": "video-plan",
+      "offerProductTypes": [
+        "video-plan"
+      ],
+      "offerProductFamily": "OTT",
+      "offerProductFamilies": [
+        "OTT"
+      ],
+      "offerType": "multi-benefit",
+      "offerActionType": "Acquisition",
+      "offerActionTypes": [
+        "Acquisition"
+      ],
+      "environment": "",
+      "rank": "500",
+      "displayName": {
+        "en": "FFP Base Package"
+      },
+      "billingCode": "OF_BASE-FFP-202404",
+      "migratedOffer": false,
+      "associatedProducts": [
+        {
+          "qualifyingProducts": [
+            {
+              "constraints": {
+                "productFamily": "NA",
+                "anchor": false,
+                "dependent": false
+              }
+            }
+          ],
+          "bundleProducts": [
+            {
+              "constraints": {
+                "productFamily": "OTT",
+                "productStatus": "Active",
+                "productState": "New",
+                "anchor": false,
+                "dependent": false
+              },
+              "products": [
+                {
+                  "id": "09cd2aca-7f39-43ae-bb05-ffb25d617fb6",
+                  "typeId": "product",
+                  "obj": {
+                    "id": "09cd2aca-7f39-43ae-bb05-ffb25d617fb6",
+                    "code": "BOLT-20STREAMS-202010",
+                    "productType": {
+                      "typeId": "product-type",
+                      "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                      "key": "video-addon"
+                    },
+                    "name": {
+                      "en": "Unlimited Streams"
+                    },
+                    "description": {
+                      "en": "Unlimited Streams"
+                    },
+                    "categories": [],
+                    "variants": [
+                      {
+                        "id": "1",
+                        "prices": [
+                          {
+                            "value": {
+                              "centAmount": 0.0,
+                              "currencyCode": "USD",
+                              "fractionDigits": 2,
+                              "dollarAmount": 0.0
+                            },
+                            "id": "5e7a9e18-2a72-4cc2-b3c9-73617569a8d3",
+                            "startDate": "2023-09-01T07:00:00.000Z",
+                            "endDate": "9999-04-12T08:00:00.000Z",
+                            "recurrenceIndicator": true,
+                            "duration": 0,
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "contractIndicator": "FRONTPORCH",
+                            "gfVersion": 0,
+                            "grandfathered": false,
+                            "contracted": false
+                          }
+                        ],
+                        "attributes": {
+                          "displayName": {
+                            "en": "Unlimited Streams"
+                          },
+                          "displayNamesByKey": {
+                            "services": "Unlimited Streams",
+                            "name-cpc": "Unlimited Streams",
+                            "name-partner": "Unlimited Streams"
+                          },
+                          "descriptionsByKey": {
+                            "short-opus": "Included <ul><li style=\"list-style-type: disc;\">Stream on all the screens in your house simultaneously. </li>   <li style=\"list-style-type: disc;\">All DIRECTV streams must be on the same home network and compatible device(s) required. </li><li style=\"list-style-type: disc;\">Limit 3 concurrent out-of-home DIRECTV streams.</li></ul> Certain networks limit total number of simultaneous streams.Restrictions apply. See directv.com/<br>unlimitedstreams for details.",
+                            "long-services": "Included <ul><li style=\"list-style-type: disc;\">Stream on all the screens in your house simultaneously. </li>   <li style=\"list-style-type: disc;\">All DIRECTV streams must be on the same home network and compatible device(s) required. </li><li style=\"list-style-type: disc;\">Limit 3 concurrent out-of-home DIRECTV streams.</li></ul> Certain networks limit total number of simultaneous streams.Restrictions apply. See directv.com/<br>unlimitedstreams for details.",
+                            "short-services": "Included <ul><li style=\"list-style-type: disc;\">Stream on all the screens in your house simultaneously. </li>   <li style=\"list-style-type: disc;\">All DIRECTV streams must be on the same home network and compatible device(s) required. </li><li style=\"list-style-type: disc;\">Limit 3 concurrent out-of-home DIRECTV streams.</li></ul> Certain networks limit total number of simultaneous streams.Restrictions apply. See directv.com/<br>unlimitedstreams for details.",
+                            "long-myatt": "All DIRECTV streams must be on the same home network and compatible device(s) required. Limit 3 concurrent out-of-home DIRECTV streams. Certain networks limit total number of simultaneous streams. Restrictions apply. See directv.com/unlimitedstreams for details.",
+                            "description-cpc": "Unlimited Streams",
+                            "short-partner": "Included <ul><li style=\"list-style-type: disc;\">Stream on all the screens in your house simultaneously. </li>   <li style=\"list-style-type: disc;\">All DIRECTV streams must be on the same home network and compatible device(s) required. </li><li style=\"list-style-type: disc;\">Limit 3 concurrent out-of-home DIRECTV streams.</li></ul> Certain networks limit total number of simultaneous streams.Restrictions apply. See directv.com/<br>unlimitedstreams for details.",
+                            "long-partner": "All DIRECTV streams must be on the same home network and compatible device(s) required. Limit 3 concurrent out-of-home DIRECTV streams. Certain networks limit total number of simultaneous streams. Restrictions apply. See directv.com/unlimitedstreams for details."
+                          },
+                          "billingProductCode": "BOLT-20STREAMS-202010",
+                          "billingProductId": "13448",
+                          "startDate": "2021-01-31T18:30:00.000Z",
+                          "endDate": "9999-12-30T18:30:00.000Z",
+                          "businessSegment": [
+                            "CONS"
+                          ],
+                          "productFamily": "OTT",
+                          "removalRule": {
+                            "accountType": [
+                              "NONE"
+                            ]
+                          },
+                          "addOnType": "Bolt-on",
+                          "planSubType": "Streams",
+                          "displayType": "included",
+                          "language": "English",
+                          "secondaryBillingProductId": "871586468",
+                          "contractApplicable": "contract",
+                          "contractIndicator": [
+                            "TAZBYOD",
+                            "TAZ",
+                            "contract"
+                          ],
+                          "subCategory": "Concurrent Streams",
+                          "customerSegments": [
+                            "Employee"
+                          ],
+                          "migratedProduct": true
+                        }
+                      }
+                    ]
+                  },
+                  "productType": "video-addon",
+                  "key": "BOLT-20STREAMS-202010"
+                },
+                {
+                  "id": "e8593345-19d0-4f14-9e87-ff5a91d9c820",
+                  "typeId": "product",
+                  "obj": {
+                    "id": "e8593345-19d0-4f14-9e87-ff5a91d9c820",
+                    "code": "BASE-FFP-202404",
+                    "productType": {
+                      "typeId": "product-type",
+                      "id": "cb512bc7-05aa-4d02-896c-bcfb3487c5da",
+                      "key": "video-plan"
+                    },
+                    "name": {
+                      "en": "FFP Base Package"
+                    },
+                    "description": {
+                      "en": "FFP Base Package"
+                    },
+                    "categories": [],
+                    "variants": [
+                      {
+                        "id": "1",
+                        "prices": [
+                          {
+                            "value": {
+                              "centAmount": 0.0,
+                              "currencyCode": "USD",
+                              "fractionDigits": 2,
+                              "dollarAmount": 0.0
+                            },
+                            "id": "205531cb-3190-4f1e-a1f8-d7ba7b3e2a2c",
+                            "startDate": "2024-04-18T07:00:00.000Z",
+                            "endDate": "9999-10-06T08:00:00.000Z",
+                            "recurrenceIndicator": true,
+                            "duration": 0,
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "contractIndicator": "FRONTPORCH",
+                            "gfVersion": 0,
+                            "grandfathered": false,
+                            "contracted": false
+                          }
+                        ],
+                        "attributes": {
+                          "displayName": {
+                            "en": "FFP Base Package"
+                          },
+                          "displayNamesByKey": {
+                            "onlineService": "FFP Base Package"
+                          },
+                          "billingProductCode": "BASE-FFP-202404",
+                          "startDate": "2018-11-25T06:30:00.000Z",
+                          "endDate": "9999-12-30T18:30:00.000Z",
+                          "businessSegment": [
+                            "CONS"
+                          ],
+                          "congratsMessage": "Great choice!",
+                          "salesChannel": [
+                            "evCRM",
+                            "directvOnline",
+                            "oemAPPLE",
+                            "oemTIZEN",
+                            "oemGOOGLE",
+                            "oemIAPFIRETV",
+                            "oemIAPROKUTV"
+                          ],
+                          "productFamily": "OTT",
+                          "packageGroup": "20000",
+                          "removalRule": {
+                            "accountType": [
+                              "ALL"
+                            ]
+                          },
+                          "language": "English",
+                          "serviceFlag": true,
+                          "productStatus": "Active",
+                          "compatibleProducts": [
+                            {
+                              "constraints": {
+                                "anchor": false,
+                                "dependent": false
+                              },
+                              "products": [
+                                {
+                                  "id": "09cd2aca-7f39-43ae-bb05-ffb25d617fb6",
+                                  "typeId": "product",
+                                  "productType": "video-addon",
+                                  "key": "BOLT-20STREAMS-202010"
+                                }
+                              ]
+                            }
+                          ],
+                          "contractApplicable": "FRONTPORCH",
+                          "contractIndicator": [
+                            "FRONTPORCH"
+                          ],
+                          "migratedProduct": true,
+                          "tokens": "BASE-FFP-202404"
+                        }
+                      }
+                    ]
+                  },
+                  "productType": "video-plan",
+                  "key": "BASE-FFP-202404"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefits": [],
+      "eligibility": {
+        "constraints": [
+          {
+            "customerSegments": [
+              "Residential"
+            ],
+            "customerSegment": "Residential",
+            "minimumPurchaseAmount": 0,
+            "salesChannel": [
+              "oemGOOGLE",
+              "oemTIZEN",
+              "oemAPPLE",
+              "oemIAPROKUTV",
+              "oemIAPFIRETV"
+            ],
+            "businessSegment": [
+              "CONS"
+            ]
+          }
+        ]
+      },
+      "leadOffer": false,
+      "offerPrice": {
+        "dollarAmount": 0.0
+      },
+      "contractIndicator": "FRONTPORCH",
+      "offerIntents": [
+        "migration",
+        "non-migration"
+      ],
+      "migrationServiceType": [
+        "legacySatellite",
+        "satellite",
+        "IPTV"
+      ],
+      "recommendedOfferOPUS": false,
+      "recommendedOnline": false,
+      "isVirtual": false,
+      "flashSaleOffer": false,
+      "isBulkOffer": false,
+      "isSpecialOffer": false
+    }
+  },
+    {
+      "id": "0e11ae05-e7ea-478c-ba66-a81377d260fe",
+      "code": "OF_BASE-FFP-202404_FRONTPORCH",
+      "status": "live",
+      "name": {
+        "en": "FFP Base Package"
+      },
+      "description": {
+        "en": "FFP Base Package"
+      },
+      "startDate": "2020-07-30T18:30:00.000Z",
+      "endDate": "2050-12-30T18:30:00.000Z",
+      "attributes": {
+        "offerProductType": "video-plan",
+        "offerProductTypes": [
+          "video-plan"
+        ],
+        "offerProductFamily": "OTT",
+        "offerProductFamilies": [
+          "OTT"
+        ],
+        "offerType": "multi-benefit",
+        "offerActionType": "Acquisition",
+        "offerActionTypes": [
+          "Acquisition"
+        ],
+        "environment": "",
+        "rank": "500",
+        "displayName": {
+          "en": "FFP Base Package"
+        },
+        "billingId": "889253523",
+        "billingCode": "OF_BASE-FFP-202404",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "NA",
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "OTT",
+                  "productStatus": "Active",
+                  "productState": "New",
+                  "anchor": false,
+                  "dependent": false
+                },
+                "products": [
+                  {
+                    "id": "e8593345-19d0-4f14-9e87-ff5a91d9c820",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "e8593345-19d0-4f14-9e87-ff5a91d9c820",
+                      "code": "BASE-FFP-202404",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "cb512bc7-05aa-4d02-896c-bcfb3487c5da",
+                        "key": "video-plan"
+                      },
+                      "name": {
+                        "en": "FFP Base Package"
+                      },
+                      "description": {
+                        "en": "FFP Base Package"
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 0.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0.0
+                              },
+                              "id": "205531cb-3190-4f1e-a1f8-d7ba7b3e2a2c",
+                              "startDate": "2024-04-18T07:00:00.000Z",
+                              "endDate": "9999-10-06T08:00:00.000Z",
+                              "recurrenceIndicator": true,
+                              "duration": 0,
+                              "period": "month",
+                              "proRateFrequency": "daily",
+                              "contractIndicator": "FRONTPORCH",
+                              "gfVersion": 0,
+                              "grandfathered": false,
+                              "contracted": false
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "FFP Base Package"
+                            },
+                            "displayNamesByKey": {
+                              "onlineService": "FFP Base Package"
+                            },
+                            "billingProductCode": "BASE-FFP-202404",
+                            "startDate": "2018-11-25T06:30:00.000Z",
+                            "endDate": "9999-12-30T18:30:00.000Z",
+                            "businessSegment": [
+                              "CONS"
+                            ],
+                            "congratsMessage": "Great choice!",
+                            "salesChannel": [
+                              "evCRM",
+                              "directvOnline",
+                              "oemAPPLE",
+                              "oemTIZEN",
+                              "oemGOOGLE",
+                              "oemIAPFIRETV",
+                              "oemIAPROKUTV"
+                            ],
+                            "productFamily": "OTT",
+                            "packageGroup": "20000",
+                            "removalRule": {
+                              "accountType": [
+                                "ALL"
+                              ]
+                            },
+                            "language": "English",
+                            "serviceFlag": true,
+                            "productStatus": "Active",
+                            "compatibleProducts": [
+                              {
+                                "constraints": {
+                                  "anchor": false,
+                                  "dependent": false
+                                },
+                                "products": [
+                                  {
+                                    "id": "09cd2aca-7f39-43ae-bb05-ffb25d617fb6",
+                                    "typeId": "product",
+                                    "productType": "video-addon",
+                                    "key": "BOLT-20STREAMS-202010"
+                                  }
+                                ]
+                              }
+                            ],
+                            "contractApplicable": "FRONTPORCH",
+                            "contractIndicator": [
+                              "FRONTPORCH"
+                            ],
+                            "migratedProduct": true,
+                            "tokens": "BASE-FFP-202404"
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "video-plan",
+                    "key": "BASE-FFP-202404"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "customerSegment": "Residential",
+              "minimumPurchaseAmount": 0,
+              "salesChannel": [
+                "evCRM",
+                "directvOnline"
+              ],
+              "businessSegment": [
+                "CONS"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "offerPrice": {
+          "dollarAmount": 0.0
+        },
+        "contractIndicator": "FRONTPORCH",
+        "offerIntents": [
+          "migration",
+          "non-migration"
+        ],
+        "migrationServiceType": [
+          "legacySatellite",
+          "satellite",
+          "IPTV"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isBulkOffer": false,
+        "isSpecialOffer": false
+      }
+    }
+  ]
+
+}

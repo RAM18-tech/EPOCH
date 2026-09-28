@@ -1,0 +1,216 @@
+{
+    "limit": 20,
+    "offset": 0,
+    "count": 18,
+    "total": 18,
+    "offers": [
+        {
+            "id": "cd00ca36-782e-40da-9876-cdd060262581",
+            "code": "OF_FEE-ETF-201902_contract_01",
+            "version": 243,
+            "createdAt": "2019-10-27T14:35:13.764Z",
+            "lastModifiedAt": "2020-10-15T08:08:19.183Z",
+            "status": "live",
+            "productType": {
+                "typeId": "product-type",
+                "id": "79f11259-37b7-4aa0-898d-4c7d6059a02c"
+            },
+            "name": {
+                "en": "Early Termination Fee"
+            },
+            "description": {
+                "en": "Early Termination Fee"
+            },
+            "categories": [],
+            "startDate": "2019-04-07T18:30:00.000Z",
+            "endDate": "9999-12-30T18:30:00.000Z",
+            "attributes": {
+                "billingId": "7523830988",
+                "productsOnAccountToSuppressOffer":["BOLT-HBO-201610"],
+                "displayName": {
+                    "en": "Early Termination Fee"
+                },
+                "descriptionsByKey": {
+                    "att.com": "Early Termination Fee"
+                },
+                "clearRejections": false,
+                "billingCode": "OF_FEE-ETF-201902",
+                "rank": 20,
+                "environment": "",
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "businessSegment": [
+                                "CONS"
+                            ],
+                            "existingCustomerType": [
+                                "DTVN"
+                            ],
+                            "salesChannel": [
+                                "opusServices",
+                                "opus",
+                                "onlineServices",
+                                "online"
+                            ]
+                        }
+                    ]
+                },
+                "offerPromos": [],
+                "associatedProducts": [
+                    {
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "OTT"
+                                },
+                                "products": [
+                                    {
+                                        "typeId": "product",
+                                        "id": "ad7b4c2e-e221-4ce7-8ffa-be74646915bf",
+                                        "productType": "fee",
+                                        "key": "FEE-ETF-201902",
+                                        "obj": {
+                                            "id": "ad7b4c2e-e221-4ce7-8ffa-be74646915bf",
+                                            "code": "FEE-ETF-201902",
+                                            "name": {
+                                                "en": "Early Termination Fee"
+                                            },
+                                            "description": {
+                                                "en": ""
+                                            },
+                                            "version": 171,
+                                            "createdAt": "2019-10-14T21:58:38.488Z",
+                                            "createdBy": {
+                                                "clientId": "LH-YOABCHzQ9IZix5qtjCF5n",
+                                                "isPlatformClient": false
+                                            },
+                                            "lastModifiedAt": "2020-10-09T20:42:36.650Z",
+                                            "lastModifiedBy": {
+                                                "clientId": "LH-YOABCHzQ9IZix5qtjCF5n",
+                                                "isPlatformClient": false
+                                            },
+                                            "status": {
+                                                "typeId": "state",
+                                                "id": "8fb20b3c-fde9-4073-ba6c-1c1c0211c577"
+                                            },
+                                            "productType": {
+                                                "typeId": "product-type",
+                                                "id": "bcaf98f9-ef60-4c64-9f23-f9d2bccb1236",
+                                                "key": "fee"
+                                            },
+                                            "categories": [],
+                                            "variants": [
+                                                {
+                                                    "id": 1,
+                                                    "attributes": {
+                                                        "productFamily": "OTT",
+                                                        "displayNamesByKey": {
+                                                            "name-cpc": "Early Termination Fee"
+                                                        },
+                                                        "descriptionsByKey": {
+                                                            "description-cpc": "Early Termination Fee"
+                                                        },
+                                                        "secondaryBillingProductId": "7523830987",
+                                                        "clearRejections": false,
+                                                        "contractApplicable": "contract",
+                                                        "feeType": "EarlyTerminationFee",
+                                                        "migratedProduct": true,
+                                                        "billingProductCode": "FEE-ETF-201902",
+                                                        "billingProductId": "18699",
+                                                        "endDate": "9999-12-30T18:30:00.000Z",
+                                                        "removalRule": {
+                                                            "channel": [],
+                                                            "customerSegments": [
+                                                                "None"
+                                                            ],
+                                                            "accountType": [
+                                                                "NONE"
+                                                            ]
+                                                        },
+                                                        "evergentProdCategory": "Fee",
+                                                        "firstPublishedAt": "2020-03-13T21:15:46.599Z",
+                                                        "lastUpdatedState": "live",
+                                                        "salesChannel": [
+                                                            "onlineSales",
+                                                            "onlineServices",
+                                                            "opusSales",
+                                                            "opusServices",
+                                                            "partnerSales",
+                                                            "partnerServices"
+                                                        ],
+                                                        "contractIndicator1": [
+                                                            "contract"
+                                                        ],
+                                                        "partnerKeys": []
+                                                    },
+                                                    "prices": [
+                                                        {
+                                                            "value": {
+                                                                "type": "centPrecision",
+                                                                "currencyCode": "USD",
+                                                                "centAmount": 0,
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": "0.00"
+                                                            },
+                                                            "id": "9c0ed258-093f-470f-9360-47b43a08ef19",
+                                                            "startDate": "2019-01-31T18:30:00.000Z",
+                                                            "endDate": "9999-12-30T18:30:00.000Z",
+                                                            "channel": "contracted",
+                                                            "recurrenceIndicator": false,
+                                                            "contractIndicator": "contract",
+                                                            "isGrandfathered": false,
+                                                            "billingReferenceId": "20831"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "NA"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "compliance": {
+                    "constraints": [
+                        {}
+                    ]
+                },
+                "migratedOffer": true,
+                "isPrimary": true,
+                "conflictingOffers": [],
+                "offerProductFamily": "OTT",
+                "firstPublishedAt": "2020-01-03T22:04:48.278Z",
+                "lastUpdatedState": "live",
+                "qualifyingProductsBillingProductCode": [
+                    "FEE-ETF-201902"
+                ],
+                "offerActionType": "Other",
+                "offerProductType": "fee",
+                "contractIndicator": "contract",
+                "offerIntent": "migration",
+                "offerProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionTypes": [
+                    "Other"
+                ],
+                "offerProductTypes": [
+                    "fee"
+                ],
+                "offerIntents": [
+                    "migration",
+                    "non-migration"
+                ],
+                "benefits": []
+            }
+        }
+     ]
+}

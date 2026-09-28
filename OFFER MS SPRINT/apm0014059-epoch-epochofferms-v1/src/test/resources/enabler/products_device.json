@@ -1,0 +1,1171 @@
+{
+    "limit": 300,
+    "count": 6,
+    "total": 6,
+    "products": [
+        {
+            "id": "6180b381-c9be-4f1f-9ec1-0640841a31cb",
+            "code": "DEVICE-GENIE-MINI-WIRELESS_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "52293f6a-b51e-4cd0-8538-a0555aa34f5c",
+                "key": "video-device"
+            },
+            "name": {
+                "en": "Genie Mini"
+            },
+            "description": {
+                "en": "Enjoy Genie HD DVRs amazing"},
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "sku": "prod8370286",
+                    "key": "prod8370286",
+                    "prices": [
+                        {
+                            "value": {
+                                "centAmount": 9900.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 99.0
+                            },
+                            "id": "2fd8437c-6bef-4073-ac85-93b75a64c527",
+                            "startDate": "1990-01-01T00:00:00.000Z",
+                            "endDate": "2049-12-31T00:00:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "gfVersion": 0,
+                            "businessSegment": "residential",
+                            "chargeType": "nrc",
+                            "grandfatherVersion": 0,
+                            "grandfathered": false,
+                            "contracted": false
+                        }
+                    ],
+                    "attributes": {
+                        "displayName": {
+                            "en": "Genie Mini"
+                        },
+                        "billingProductCode": "prod8370286",
+                        "billingCode": "prod8370286",
+                        "startDate": "2015-10-01T00:00:00.000Z",
+                        "endDate": "2050-12-31T00:00:00.000Z",
+                        "businessSegment": [
+                            "MDU",
+                            "CONS"
+                        ],
+                        "salesChannel": [
+                            "opusServices",
+                            "opusSales",
+                            "onlineServices",
+                            "onlineSales",
+                            "opus",
+                            "online"
+                        ],
+                        "productFamily": "satellite",
+                        "productStatus": "Active",
+                        "contractApplicable": "noncontract",
+                        "contractIndicator": [
+                            "non-contract"
+                        ],
+                        "omsComponentMapping": [
+                            {
+                                "omsAttributes": [
+                                    {
+                                        "attributeCode": "numberOfTvs",
+                                        "attributeValue": "@QUANTITY@"
+                                    },
+                                    {
+                                        "attributeCode": "DTVWGenieMini",
+                                        "attributeValue": "@QUANTITY@"
+                                    }
+                                ],
+                                "componentCode": "ATTDTVCPE",
+                                "componentPath": "ATTDTVCPE",
+                                "operationName": "MOORequest,PUSPO1Request"
+                            },
+                            {
+                                "componentCode": "DTVWirelessGenie",
+                                "componentPath": "ATTDTVCPE|DTVWirelessGenie",
+                                "operationName": "MOORequest,PUSPO1Request"
+                            }
+                        ],
+                        "customerSegments": [
+                            "Residential"
+                        ],
+                        "selfInstallAvailability": "optional",
+                        "deviceType": "genieMiniWireless",
+                        "deviceCategory": "stb",
+                        "isWirelessCapable": true,
+                        "migratedProduct": false,
+                        "enablerPricePlanCode": "88855464",
+                        "chargeCode": "DTVWGO",
+                        "billingParams": [
+                            {
+                                "value": "FALSE",
+                                "name": "includedSTB"
+                            },
+                            {
+                                "value": "DTVWirelessGenie",
+                                "name": "STBName"
+                            }
+                        ],
+                        "productImages": "DTV-GENIE-MINI-WIRELESS"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "45af0c29-9e18-434f-a387-2cdec679b266",
+            "code": "DEVICE-GENIE-MINI-4K_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "52293f6a-b51e-4cd0-8538-a0555aa34f5c",
+                "key": "video-device"
+            },
+            "name": {
+                "en": "Genie Mini 4k"
+            },
+            "description": {
+                "en": "Allows 4K programming on your 4K TV with your existing Genie setup."
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "sku": "prod8930259",
+                    "key": "prod8930259",
+                    "prices": [
+                        {
+                            "value": {
+                                "centAmount": 700.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 7.0
+                            },
+                            "id": "c45c014c-4e8c-484c-a1a3-968cd0b54b29",
+                            "startDate": "1990-01-01T00:00:00.000Z",
+                            "endDate": "2049-12-31T00:00:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "gfVersion": 0,
+                            "businessSegment": "residential",
+                            "chargeType": "mrc",
+                            "grandfatherVersion": 0,
+                            "grandfathered": false,
+                            "contracted": false
+                        }
+                    ],
+                    "attributes": {
+                        "displayName": {
+                            "en": "Genie Mini 4k"
+                        },
+                        "billingProductCode": "prod8930259",
+                        "billingCode": "prod8930259",
+                        "startDate": "2017-03-10T00:00:00.000Z",
+                        "endDate": "2049-12-31T00:00:00.000Z",
+                        "businessSegment": [
+                            "MDU",
+                            "CONS"
+                        ],
+                        "salesChannel": [
+                            "opusServices",
+                            "opusSales",
+                            "onlineServices",
+                            "onlineSales",
+                            "opus",
+                            "online"
+                        ],
+                        "productFamily": "satellite",
+                        "productStatus": "Active",
+                        "compatibleProducts": [
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "6b040149-4b63-4a8b-9e36-b8f982898d76",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-HD-DVR_satellite"
+                                    }
+                                ]
+                            },
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "6180b381-c9be-4f1f-9ec1-0640841a31cb",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-GENIE-MINI-WIRELESS_satellite"
+                                    }
+                                ]
+                            },
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "45af0c29-9e18-434f-a387-2cdec679b266",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-GENIE-MINI-4K_satellite"
+                                    }
+                                ]
+                            },
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "44750eb0-3b68-4e43-a7d0-5e7c838f4160",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-GENIE-MINI_satellite"
+                                    }
+                                ]
+                            },
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "b60f7fdc-4b4d-4e2c-9e4f-dcb5f04e0055",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-GENIE-HD-DVR_satellite"
+                                    }
+                                ]
+                            }
+                        ],
+                        "contractApplicable": "noncontract",
+                        "contractIndicator": [
+                            "non-contract"
+                        ],
+                        "omsComponentMapping": [
+                            {
+                                "omsAttributes": [
+                                    {
+                                        "attributeCode": "numberOfTvs",
+                                        "attributeValue": "@QUANTITY@"
+                                    },
+                                    {
+                                        "attributeCode": "DTV4kGenieMini",
+                                        "attributeValue": "@QUANTITY@"
+                                    }
+                                ],
+                                "componentCode": "ATTDTVCPE",
+                                "componentPath": "ATTDTVCPE",
+                                "operationName": "MOORequest,PUSPO1Request"
+                            },
+                            {
+                                "componentCode": "DTV4KGenie",
+                                "componentPath": "ATTDTVCPE|DTV4KGenie",
+                                "operationName": "MOORequest,PUSPO1Request"
+                            }
+                        ],
+                        "customerSegments": [
+                            "Residential"
+                        ],
+                        "selfInstallAvailability": "notAllowed",
+                        "specifications": [
+                            {
+                                "0": {
+                                    "0": {
+                                        "specificationsId": "171",
+                                        "text": "Enjoy programs in 4K HD resolution, the best picture available ",
+                                        "category": "feature"
+                                    },
+                                    "specificationsId": "161",
+                                    "category": "feature",
+                                    "text": "Watch recorded or live TV on up to 4 TVs at once"
+                                },
+                                "category": "feature",
+                                "text": "Enjoy full DVR functionality on every connected TV: Record shows; watch, rewind, fast-forward, and delete record shows; pause and rewind live TV ",
+                                "specificationsId": "160"
+                            }
+                        ],
+                        "deviceType": "genieMini4k",
+                        "deviceCategory": "stb",
+                        "maxAccountLimit": 6,
+                        "migratedProduct": false,
+                        "orderingMethod": "addtoCart",
+                        "enablerPricePlanCode": "88834924",
+                        "tokens": "compatibleGenieMini4k",
+                        "chargeCode": "DTVLRR",
+                        "billingParams": [
+                            {
+                                "value": "DTV4KGenie",
+                                "name": "STBName"
+                            },
+                            {
+                                "value": "FALSE",
+                                "name": "includedSTB"
+                            }
+                        ],
+                        "productImages": "DTV-GENIE-MINI-4K"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ae8170d9-26e9-48f9-b694-614bd430d646",
+            "code": "DEVICE-GENIE-LITE_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "52293f6a-b51e-4cd0-8538-a0555aa34f5c",
+                "key": "video-device"
+            },
+            "name": {
+                "en": "Genie Lite"
+            },
+            "description": {
+                "en": "Allows Genie-quality HD picture and sound on a connected TV."
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "sku": "prod8930258",
+                    "key": "prod8930258",
+                    "prices": [
+                        {
+                            "value": {
+                                "centAmount": 700.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 7.0
+                            },
+                            "id": "25bdf384-298e-4419-8868-116c962bcea0",
+                            "startDate": "1990-01-01T00:00:00.000Z",
+                            "endDate": "2049-12-31T00:00:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "gfVersion": 0,
+                            "businessSegment": "residential",
+                            "chargeType": "mrc",
+                            "grandfatherVersion": 0,
+                            "grandfathered": false,
+                            "contracted": false
+                        }
+                    ],
+                    "attributes": {
+                        "displayName": {
+                            "en": "Genie Lite"
+                        },
+                        "billingProductCode": "prod8930258",
+                        "billingCode": "prod8930258",
+                        "startDate": "2017-03-10T00:00:00.000Z",
+                        "endDate": "2049-12-31T00:00:00.000Z",
+                        "businessSegment": [
+                            "MDU",
+                            "CONS"
+                        ],
+                        "salesChannel": [
+                            "opusServices",
+                            "opusSales",
+                            "onlineServices",
+                            "onlineSales",
+                            "opus",
+                            "online"
+                        ],
+                        "productFamily": "satellite",
+                        "productStatus": "Active",
+                        "compatibleProducts": [
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "45af0c29-9e18-434f-a387-2cdec679b266",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-GENIE-MINI-4K_satellite"
+                                    }
+                                ]
+                            },
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "44750eb0-3b68-4e43-a7d0-5e7c838f4160",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-GENIE-MINI_satellite"
+                                    }
+                                ]
+                            },
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "b60f7fdc-4b4d-4e2c-9e4f-dcb5f04e0055",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-GENIE-HD-DVR_satellite"
+                                    }
+                                ]
+                            },
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "6b040149-4b63-4a8b-9e36-b8f982898d76",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-HD-DVR_satellite"
+                                    }
+                                ]
+                            },
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "6180b381-c9be-4f1f-9ec1-0640841a31cb",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-GENIE-MINI-WIRELESS_satellite"
+                                    }
+                                ]
+                            }
+                        ],
+                        "contractApplicable": "noncontract",
+                        "contractIndicator": [
+                            "non-contract"
+                        ],
+                        "omsComponentMapping": [
+                            {
+                                "omsAttributes": [
+                                    {
+                                        "attributeCode": "numberOfTvs",
+                                        "attributeValue": "@QUANTITY@"
+                                    },
+                                    {
+                                        "attributeCode": "DTVGenieLite",
+                                        "attributeValue": "@QUANTITY@"
+                                    }
+                                ],
+                                "componentCode": "ATTDTVCPE",
+                                "componentPath": "ATTDTVCPE"
+                            },
+                            {
+                                "componentCode": "DTVGenieLite",
+                                "componentPath": "ATTDTVCPE|DTVGenieLite"
+                            }
+                        ],
+                        "customerSegments": [
+                            "Residential"
+                        ],
+                        "selfInstallAvailability": "notAllowed",
+                        "specifications": [
+                            {
+                                "0": {
+                                    "0": {
+                                        "specificationsId": "170",
+                                        "text": "Enjoy TV Apps like Pandora and ScoreGuide",
+                                        "category": "feature"
+                                    },
+                                    "specificationsId": "168",
+                                    "category": "feature",
+                                    "text": "Experience amazing Genie-quality HD picture and sound on every connected TV"
+                                },
+                                "category": "feature",
+                                "text": "Transform your Genie Lite into a full-featured Genie HD DVR later with the Genie Lite HD DVR Kit (sold separately). Please note: If you want full HD DVR capabilities now, please order the Genie HD DVR.",
+                                "specificationsId": "169"
+                            }
+                        ],
+                        "deviceType": "genieLite",
+                        "deviceCategory": "stb",
+                        "maxAccountLimit": 1,
+                        "migratedProduct": false,
+                        "orderingMethod": "addtoCart",
+                        "enablerPricePlanCode": "88834924",
+                        "tokens": "compatibleGenieLite",
+                        "chargeCode": "DTVLRR",
+                        "billingParams": [
+                            {
+                                "value": "DTVGenieLite",
+                                "name": "STBName"
+                            },
+                            {
+                                "value": "FALSE",
+                                "name": "includedSTB"
+                            }
+                        ],
+                        "productImages": "DTV-GENIE-LITE"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "b60f7fdc-4b4d-4e2c-9e4f-dcb5f04e0055",
+            "code": "DEVICE-GENIE-HD-DVR_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "52293f6a-b51e-4cd0-8538-a0555aa34f5c",
+                "key": "video-device"
+            },
+            "name": {
+                "en": "Genie HD DVR"
+            },
+            "description": {
+                "en": "Enjoy HD DVR service on all the TVs in your home. After selecting this receiver, select the Genie Mini for each additional TV.\n"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "prices": [
+                        {
+                            "value": {
+                                "centAmount": 29900.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 299.0
+                            },
+                            "id": "22297961-2ec9-4b70-a4bf-1d29619485e3",
+                            "startDate": "2012-11-19T18:30:00.000Z",
+                            "endDate": "2050-12-30T18:30:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "gfVersion": 0,
+                            "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+                            "chargeType": "mrc",
+                            "grandfatherVersion": 0,
+                            "grandfathered": false,
+                            "contracted": false
+                        }
+                    ],
+                    "attributes": {
+                        "displayName": {
+                            "en": "Genie HD DVR"
+                        },
+                        "billingProductCode": "prod3470006",
+                        "billingCode": "prod3470006",
+                        "startDate": "2012-11-19T18:30:00.000Z",
+                        "endDate": "2050-12-30T18:30:00.000Z",
+                        "businessSegment": [
+                            "MDU",
+                            "CONS"
+                        ],
+                        "salesChannel": [
+                            "opusServices",
+                            "opusSales",
+                            "onlineServices",
+                            "onlineSales",
+                            "opus",
+                            "online"
+                        ],
+                        "productFamily": "satellite",
+                        "productStatus": "Active",
+                        "compatibleProducts": [
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "45af0c29-9e18-434f-a387-2cdec679b266",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-GENIE-MINI-4K_satellite"
+                                    }
+                                ]
+                            },
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "757d96ca-1eb4-46aa-9f3a-9e950f126c72",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-HD-DVR-RECEIVER_satellite"
+                                    }
+                                ]
+                            },
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "44750eb0-3b68-4e43-a7d0-5e7c838f4160",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-GENIE-MINI_satellite"
+                                    }
+                                ]
+                            },
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "6180b381-c9be-4f1f-9ec1-0640841a31cb",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-GENIE-MINI-WIRELESS_satellite"
+                                    }
+                                ]
+                            },
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "b60f7fdc-4b4d-4e2c-9e4f-dcb5f04e0055",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-GENIE-HD-DVR_satellite"
+                                    }
+                                ]
+                            }
+                        ],
+                        "contractApplicable": "noncontract",
+                        "contractIndicator": [
+                            "non-contract"
+                        ],
+                        "omsComponentMapping": [
+                            {
+                                "omsAttributes": [
+                                    {
+                                        "attributeCode": "numberOfTvs",
+                                        "attributeValue": "@QUANTITY@"
+                                    },
+                                    {
+                                        "attributeCode": "DTVGenie",
+                                        "attributeValue": "@QUANTITY@"
+                                    }
+                                ],
+                                "componentCode": "ATTDTVCPE",
+                                "componentPath": "ATTDTVCPE",
+                                "operationName": "MOORequest,PUSPO1Request"
+                            },
+                            {
+                                "componentCode": "DTVGenie",
+                                "componentPath": "ATTDTVCPE|DTVGenie",
+                                "operationName": "MOORequest,PUSPO1Request"
+                            }
+                        ],
+                        "customerSegments": [
+                            "Residential"
+                        ],
+                        "selfInstallAvailability": "notAllowed",
+                        "termsAndConditions": {
+                            "en": "All equipment is leased."},
+                        "deviceType": "genieHDDVR",
+                        "deviceCategory": "dvr",
+                        "maxOrderLimit": 1,
+                        "maxAccountLimit": 1,
+                        "migratedProduct": false,
+                        "orderingMethod": "addtoCart",
+                        "enablerPricePlanCode": "88855444",
+                        "chargeCode": "DTVGRO",
+                        "billingParams": [
+                            {
+                                "value": "DTVGenie",
+                                "name": "STBName"
+                            }
+                        ],
+                        "productImages": "/cms2/product_catalog/equipment/HMC_Receiver_OM.png",
+                        "productHighlights": "This receiver lets you record up to 5 shows at once, store up to 800 hours of favorite programs, and watch <br />your DVR recordings in any room. All in crystal-clear HD.\n",
+                        "description": {
+                            "en": "Enjoy full HD DVR service on all the TVs in your home. Select one Genie HD DVR for your 1st TV and then select a Genie Mini for each additional TV. This setup lets you enjoy the following features: Experience breathtaking HD on every connected TV | Enjoy full DVR functionality on every connected TV | Watch recorded or live TV on up to 4 TVs at once | Record any 5 shows at the same time, all in HD | Store all your favorite shows with up to 3x more recording capacity than cable | Enjoy thousands of shows and movies On Demand (Genie HD DVR must be connected to the Internet) | And much more."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "44750eb0-3b68-4e43-a7d0-5e7c838f4160",
+            "code": "DEVICE-GENIE-MINI_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "52293f6a-b51e-4cd0-8538-a0555aa34f5c",
+                "key": "video-device"
+            },
+            "name": {
+                "en": "Genie Mini "
+            },
+            "description": {
+                "en": "Select one Genie Mini for each additional TV to be included with your Genie HD DVR setup. You'll enjoy full HD DVR service on every TV included in this setup. \n"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "sku": "prod3380002",
+                    "key": "prod3380002",
+                    "prices": [
+                        {
+                            "value": {
+                                "centAmount": 9900.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 99.0
+                            },
+                            "id": "a8dcb287-e1d1-4b7f-a5c2-804b3802e45d",
+                            "startDate": "2012-08-21T18:30:00.000Z",
+                            "endDate": "2050-12-30T18:30:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "gfVersion": 0,
+                            "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+                            "chargeType": "mrc",
+                            "grandfatherVersion": 0,
+                            "grandfathered": false,
+                            "contracted": false
+                        }
+                    ],
+                    "attributes": {
+                        "displayName": {
+                            "en": "Genie Mini"
+                        },
+                        "billingProductCode": "prod3380002",
+                        "billingCode": "prod3380002",
+                        "startDate": "2012-08-21T18:30:00.000Z",
+                        "endDate": "2050-12-30T18:30:00.000Z",
+                        "businessSegment": [
+                            "MDU",
+                            "CONS"
+                        ],
+                        "salesChannel": [
+                            "opusServices",
+                            "opusSales",
+                            "onlineServices",
+                            "onlineSales",
+                            "opus",
+                            "online"
+                        ],
+                        "productFamily": "satellite",
+                        "productStatus": "Active",
+                        "compatibleProducts": [
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "757d96ca-1eb4-46aa-9f3a-9e950f126c72",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-HD-DVR-RECEIVER_satellite"
+                                    }
+                                ]
+                            },
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "45af0c29-9e18-434f-a387-2cdec679b266",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-GENIE-MINI-4K_satellite"
+                                    }
+                                ]
+                            },
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "44750eb0-3b68-4e43-a7d0-5e7c838f4160",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-GENIE-MINI_satellite"
+                                    }
+                                ]
+                            },
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "6180b381-c9be-4f1f-9ec1-0640841a31cb",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-GENIE-MINI-WIRELESS_satellite"
+                                    }
+                                ]
+                            },
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "b60f7fdc-4b4d-4e2c-9e4f-dcb5f04e0055",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-GENIE-HD-DVR_satellite"
+                                    }
+                                ]
+                            }
+                        ],
+                        "contractApplicable": "noncontract",
+                        "contractIndicator": [
+                            "non-contract"
+                        ],
+                        "omsComponentMapping": [
+                            {
+                                "omsAttributes": [
+                                    {
+                                        "attributeCode": "numberOfTvs",
+                                        "attributeValue": "@QUANTITY@"
+                                    },
+                                    {
+                                        "attributeCode": "DTVGenieMini",
+                                        "attributeValue": "@QUANTITY@"
+                                    }
+                                ],
+                                "componentCode": "ATTDTVCPE",
+                                "componentPath": "ATTDTVCPE",
+                                "operationName": "MOORequest,PUSPO1Request"
+                            },
+                            {
+                                "componentCode": "DTVGenieMini",
+                                "componentPath": "ATTDTVCPE|DTVGenieMini",
+                                "operationName": "MOORequest,PUSPO1Request"
+                            }
+                        ],
+                        "customerSegments": [
+                            "Residential"
+                        ],
+                        "selfInstallAvailability": "notAllowed",
+                        "termsAndConditions": {
+                            "en": "All equipment is leased. Advanced Receiver Service ($15/mo). A monthly fee of $7.00 applies for each receiver and/or Genie Mini/DIRECTV Ready TV on your account. Features Experience breathtaking HD on every connected TV Access to programming based on package selection. Blackout restrictions apply to sports programming. Program must air in HD to record in HD. | Enjoy full DVR functionality on every connected TV: Record shows; watch, rewind, fast-forward, and delete record shows; pause and rewind live TV Requires C31 Genie Mini or an RVU-enabled TV/device for each additional room. Additional fees apply. | Watch recorded or live TV on up to 4 TVs at once | Record any 5 shows at the same time, all in HD Access to programming based on package selection. Blackout restrictions apply to sports programming. Program must air in HD to record in HD. | Store all your favorite shows with up to 3x more recording capacity than cable, so you don't have to delete shows you wanted to keep to make room for new ones Based on one Genie HD DVR setup (model HR34 Advanced Whole-Home DVR only). Actual recording capacity varies based on type of programming being recorded. Program must air in HD to record in HD. Remote viewing requires a model C31 Genie Mini, H25 HD Receiver(s) or RVU-enabled TV/device in each additional room, a SWiM network and Advanced Receiver Service ($25/mo.). Visit directv.com/genie for complete details. To access HD programming, HD television equipment also required. Number of HD channels varies by package. Limit three remote viewings per Genie HD DVR (model HR34 Advanced Whole-Home DVR) at a time. | Enjoy thousands of shows and movies On Demand Actual number of TV shows and movies will vary. Additional fees required for new titles. | Watch live TV on your iPad Browsing, watching live TV, recording and remote control functionality are available to DIRECTV customers only. DIRECTV customers must have a residential home account registered on directv.com to access application. | Set your DVR from anywhere with your cell phone, iPad&reg;, or computer DVR Scheduler requires Internet access via computer or cell phone to directv.com. Remote connections may vary. In rare instances, scheduled recording(s) may not be recognized. | "
+                        },
+                        "deviceType": "genieMini",
+                        "deviceCategory": "stb",
+                        "maxOrderLimit": 6,
+                        "maxAccountLimit": 6,
+                        "migratedProduct": false,
+                        "orderingMethod": "addtoCart",
+                        "enablerPricePlanCode": "88855474",
+                        "chargeCode": "DTVGMO",
+                        "billingParams": [
+                            {
+                                "value": "FALSE",
+                                "name": "includedSTB"
+                            },
+                            {
+                                "value": "DTVGenieMini",
+                                "name": "STBName"
+                            }
+                        ],
+                        "productImages": "/cms2/product_catalog/equipment/Genie_Mini_Client.png",
+                        "productHighlights": "\"This compact box lets you connect an additional TV to the Genie HD DVR.<br />You can enjoy full HD DVR service on every connected TV.\n\"\n",
+                        "description": {
+                            "en": "Connect an additional TV to your Genie HD DVR. This compact, easy-to-hide device lets you connect an additional TV to your Genie HD DVR. Select one Genie Mini for each additional TV you want to include in your Genie HD DVR setup. You'll enjoy full HD DVR functionality on every TV connected to your Genie HD DVR with a Genie Mini."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "4f713f4b-f0da-450d-8f7d-a4be87eae194",
+            "code": "DEVICE-RVU-RECEIVER_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "52293f6a-b51e-4cd0-8538-a0555aa34f5c",
+                "key": "video-device"
+            },
+            "name": {
+                "en": "RVU Receiver"
+            },
+            "description": {
+                "en": "RVU Receiver"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "sku": "prod8930260",
+                    "key": "prod8930260",
+                    "prices": [
+                        {
+                            "value": {
+                                "centAmount": 700.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 7.0
+                            },
+                            "id": "5777bd2e-dd0f-4f31-9ef5-9e4002decc04",
+                            "startDate": "1990-01-01T00:00:00.000Z",
+                            "endDate": "2049-12-31T00:00:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "gfVersion": 0,
+                            "businessSegment": "residential",
+                            "chargeType": "mrc",
+                            "grandfatherVersion": 0,
+                            "grandfathered": false,
+                            "contracted": false
+                        }
+                    ],
+                    "attributes": {
+                        "displayName": {
+                            "en": "RVU Receiver"
+                        },
+                        "billingProductCode": "prod8930260",
+                        "billingCode": "prod8930260",
+                        "startDate": "2017-03-10T00:00:00.000Z",
+                        "endDate": "2049-12-31T00:00:00.000Z",
+                        "businessSegment": [
+                            "MDU",
+                            "CONS"
+                        ],
+                        "salesChannel": [
+                            "opusServices",
+                            "opusSales",
+                            "onlineServices",
+                            "onlineSales",
+                            "opus",
+                            "online"
+                        ],
+                        "productFamily": "satellite",
+                        "productStatus": "Active",
+                        "compatibleProducts": [
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "45af0c29-9e18-434f-a387-2cdec679b266",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-GENIE-MINI-4K_satellite"
+                                    }
+                                ]
+                            },
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "6b040149-4b63-4a8b-9e36-b8f982898d76",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-HD-DVR_satellite"
+                                    }
+                                ]
+                            },
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "6180b381-c9be-4f1f-9ec1-0640841a31cb",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-GENIE-MINI-WIRELESS_satellite"
+                                    }
+                                ]
+                            },
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "44750eb0-3b68-4e43-a7d0-5e7c838f4160",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-GENIE-MINI_satellite"
+                                    }
+                                ]
+                            },
+                            {
+                                "constraints": {
+                                    "productTypes": [
+                                        "video-device"
+                                    ],
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "b60f7fdc-4b4d-4e2c-9e4f-dcb5f04e0055",
+                                        "typeId": "product",
+                                        "productType": "video-device",
+                                        "key": "DEVICE-GENIE-HD-DVR_satellite"
+                                    }
+                                ]
+                            }
+                        ],
+                        "contractApplicable": "noncontract",
+                        "contractIndicator": [
+                            "non-contract"
+                        ],
+                        "omsComponentMapping": [
+                            {
+                                "omsAttributes": [
+                                    {
+                                        "attributeCode": "numberOfTvs",
+                                        "attributeValue": "@QUANTITY@"
+                                    },
+                                    {
+                                        "attributeCode": "DTVRVU",
+                                        "attributeValue": "@QUANTITY@"
+                                    }
+                                ],
+                                "componentCode": "ATTDTVCPE",
+                                "componentPath": "ATTDTVCPE"
+                            },
+                            {
+                                "componentCode": "DTVRVU",
+                                "componentPath": "ATTDTVCPE|DTVRVU"
+                            }
+                        ],
+                        "customerSegments": [
+                            "Residential"
+                        ],
+                        "selfInstallAvailability": "notAllowed",
+                        "deviceType": "rvu",
+                        "deviceCategory": "stb",
+                        "maxAccountLimit": 6,
+                        "migratedProduct": false,
+                        "orderingMethod": "addtoCart",
+                        "enablerPricePlanCode": "88834924",
+                        "tokens": "compatibleRVU",
+                        "chargeCode": "DTVLRR",
+                        "billingParams": [
+                            {
+                                "value": "DTVRVU",
+                                "name": "STBName"
+                            }
+                        ],
+                        "productImages": "DTV-RVU",
+                        "description": {
+                            "en": "RVU Receiver"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

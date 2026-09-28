@@ -1,0 +1,58 @@
+{
+    "contractIndicator": [
+        "non-contract"
+    ],
+    "customerEligibility": {
+        "zipCode": [
+            "00265"
+        ],
+        "county": [
+            "48000"
+        ]
+    },
+   
+    "customerContext": {
+        "existingProductFamily": [
+            "satellite"
+        ],
+        "satellite": {
+            "products": [
+                {
+                    "billingProductCode": "P100626",
+                    "billingReferenceID": "1",
+                    "productType": "video-plan"
+                },
+                {
+                    "billingProductCode": "R0167",
+                    "billingReferenceID": "41",
+                    "productType": "video-addon"
+                }
+            ],
+            "accountNumber": "171202181454689",
+            "isActive": true,
+            "retentionPromotionIndicator": false,
+            "freeTrialEligible": false,
+            "accountType": "Residential",
+            "nextBillingDate": "{{nextBillingDate}}",
+            "businessSegment": "REG",
+            "accountStatus":"ACTV",
+            "nftvFlag": "Y",
+            "ftvCount": "1"
+        }
+    },
+    "offerActionType": [
+        "Upgrade",
+        "Downgrade",
+        "Cross-sell",
+        "Other"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "salesChannel": [
+        "ipor"
+    ],
+    "offerProductTypes": [
+        "video-addon"
+    ]
+}

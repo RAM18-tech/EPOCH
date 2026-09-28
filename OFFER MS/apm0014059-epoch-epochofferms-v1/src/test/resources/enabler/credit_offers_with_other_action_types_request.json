@@ -1,0 +1,68 @@
+{
+    "contractIndicator": [
+        "non-contract"
+    ],
+    "customerEligibility": {
+        "zipCode": [
+            "00265"
+        ],
+        "county": [
+            "48000"
+        ]
+    },
+    "customerContext": {
+        "existingProductFamily": [
+            "satellite"
+        ],
+        "satellite": {
+            "products": [
+                {
+                    "pricePlanCode": "88890345",
+                    "productType": "video-plan"
+                },
+                {
+                    "pricePlanCode": "88986925",
+                    "productType": "video-addon"
+                },
+                {
+                    "pricePlanCode": "88893983",
+                    "productType": "video-addon"
+                },
+                {
+                    "componentCode": "DTVGenie",
+                    "productType": "video-device"
+                }
+            ],
+            "accountNumber": "171202181454689",
+            "isActive": true,
+            "retentionPromotionIndicator": false,
+            "freeTrialEligible": false,
+            "accountType": "Residential",
+            "nextBillingDate": "{{currentDate}}",
+            "policy": "NA",
+            "serviceOrderDate": "03/09/2010"
+        }
+    },
+    "offerActionType": [
+        "Retention",
+        "Other",
+        "Upgrade",
+        "Downgrade",
+        "Cross-sell"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "salesChannel": [
+        "online"
+    ],
+    "offerProductTypes": [
+        "credit",
+        "video-accessory",
+        "video-addon",
+        "video-device",
+        "fee",
+        "video-plan",
+        "insurance"
+    ]
+}

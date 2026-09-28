@@ -1,0 +1,70 @@
+{
+  "limit": 50,
+  "offset": 0,
+  "count": 1,
+  "total": 1,
+  "benefits": [
+    {
+      "benefitCategory": "Product",
+      "id": "23d00b53-19cd-4101-96f1-171f691aa0b3",
+      "code": "88736253",
+      "billingBenefitCode": "88736253",
+      "benefitName": {
+        "en": "DOGTV - First 1 Month Free"
+      },
+      "benefitDisplayName": {
+        "en": "$4.99 off for 1 month"
+      },
+      "benefitRank": 0,
+      "description": {
+        "en": "$4.99 off for 1 month"
+      },
+      "startDate": "1990-01-01T09:28:28.143Z",
+      "retIoApplicableProducts": false,
+      "endDate": "2049-12-31T09:30:28.143Z",
+      "contractIndicator": "contract",
+      "selfBenefit": false,
+      "duration": 1,
+      "period": "NoOfMonths",
+      "billAfterPeriod": false,
+      "applicableProducts": [
+        {
+          "products": [
+            {
+              "id": "8ce2e863-c5a5-4bd6-a40a-2d39e1fa72f4",
+              "typeId": "product",
+              "productType": "video-addon",
+              "key": "88986885"
+            }
+          ]
+        }
+      ],
+      "maxOccurrence": 0,
+      "benefitType": "flat-off",
+      "value": {
+        "centAmount": 0,
+        "currencyCode": "USD",
+        "fractionDigits": 2
+      },
+      "freeTrialPromo": false,
+      "ioOffer": false,
+      "freeTrialDuration": 0,
+      "agentOffer": false,
+      "minQuantity": 0,
+      "promoPriority": 4,
+      "benefitLevel": "product",
+      "notApplibaleForOffer": false,
+      "enableServiceDisconnect": false,
+      "rtpIndicator": false,
+      "portin": false,
+      "active": false,
+      "quotaBased": false,
+      "migrated": false,
+      "couponPromo": false,
+      "isDependentPromo": false,
+      "isMigrated": false,
+      "isQuotaBased": false,
+      "isActive": false
+    }
+  ]
+}

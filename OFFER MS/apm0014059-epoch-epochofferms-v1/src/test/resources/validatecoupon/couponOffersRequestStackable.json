@@ -1,0 +1,36 @@
+{
+  "customerSegments": "Residential",
+  "businessSegment": "CONS",
+  "salesChannel": "directvOnline",
+  "offerProductFamily": "OTT",
+  "offerActionType": [
+    "Acquisition"
+  ],
+  "contractIndicator": [
+    "TAZCONTRACT"
+  ],
+  "reconnectCustomer": true,
+  "serviceEndDate": "07/13/2023",
+  "customerContext": {
+    "existingProductFamily": [
+      {
+        "accountNumber": "593010485123"
+      }
+    ]
+  },
+  "cartContext": {
+    "cartOffers": [
+      {
+        "offerCode": "OF_BASE-CHOICE-201811_TAZCONTRACT_INTRO_SAVENOW_2024",
+        "action": "add"
+      },
+      {
+        "offerCode": "OF_VALUE",
+        "action": "add"
+      }
+    ]
+  },
+  "couponCodes": [
+    "RUSH"
+  ]
+}

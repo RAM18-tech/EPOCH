@@ -1,0 +1,65 @@
+{
+    "contractIndicator": [
+        "non-contract"
+    ],
+    "customerEligibility": {
+        "zipCode": [
+            "00265"
+        ],
+        "county": [
+            "48000"
+        ]
+    },
+    "customerContext": {
+        "existingProductFamily": [
+            "satellite"
+        ],
+        "satellite": {
+            "products": [
+                {
+                    "billingProductCode": "P100626",
+                    "billingReferenceID": "1",
+                    "productType": "video-plan"
+                },
+                {
+                    "billingProductCode": "R0167",
+                    "billingReferenceID": "41",
+                    "productType": "video-addon"
+                },
+                {
+                    "billingProductCode": "P6688",
+                    "billingReferenceID": "1",
+                    "productType": "video-addon"
+                },
+                {
+                    "billingProductCode": "P5739",
+                    "billingReferenceID": "1",
+                    "productType": "video-addon"
+                }  
+            ],
+            "accountNumber": "171202181454689",
+            "isActive": true,
+            "retentionPromotionIndicator": false,
+            "freeTrialEligible": false,
+            "accountType": "Residential",
+            "nextBillingDate": "{{nextBillingDate}}",
+            "businessSegment": "PTR",
+            "partnerName": "ATT",
+            "nftvFlag": "Y",
+            "ftvCount": "1"
+        }
+    },
+    "offerActionType": [
+        "Upgrade"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "salesChannel": [
+        "online"
+    ],
+    "offerProductTypes": [
+        "video-addon"
+        
+    ]
+}

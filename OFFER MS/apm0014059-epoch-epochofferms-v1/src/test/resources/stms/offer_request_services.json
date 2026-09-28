@@ -1,0 +1,62 @@
+{
+    "contractIndicator": [
+        "non-contract"
+    ],
+    "customerEligibility": {
+        "zipCode": [
+            "00058"
+        ],
+        "county": [
+            "17000"
+        ]
+    },
+    "customerContext": {
+        "existingProductFamily": [
+            "satellite"
+        ],
+        "satellite": {
+            "products": [
+                {
+                    "billingProductCode": "P121334",
+                    "billingReferenceID": "1",
+                    "productType": "video-plan"
+                }
+            ],
+            "accountNumber": "171202181454689",
+            "isActive": true,
+            "retentionPromotionIndicator": false,
+            "freeTrialEligible": false,
+            "accountType": "Residential",
+            "nextBillingDate": "05/25/2026",
+            "businessSegment": "REG",
+            "nftvFlag": "Y",
+            "ftvCount": "0",
+            "accountStatus": "ACTV",
+            "activationDate": "05/25/2025",
+            "commissionStartDate": "05/25/2025"
+        }
+    },
+    "offerActionType": [
+        "Upgrade",
+        "Downgrade",
+        "Cross-sell",
+        "Other",
+        "Retention"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "salesChannel": [
+        "stb"
+    ],
+    "offerProductTypes": [
+        "video-accessory",
+        "video-addon",
+        "video-device",
+        "video-plan",
+        "insurance",
+        "fee",
+        "credit"
+    ],
+   "serverDate": "05/25/2026"
+}

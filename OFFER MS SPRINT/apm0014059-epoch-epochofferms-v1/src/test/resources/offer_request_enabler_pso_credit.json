@@ -1,0 +1,69 @@
+{
+    "contractIndicator": [
+        "non-contract"
+    ],
+    "customerEligibility": {
+        "zipCode": [
+            "00265"
+        ],
+        "county": [
+            "48000"
+        ]
+    },
+    "customerContext": {
+        "existingProductFamily": [
+            "satellite"
+        ],
+        "satellite": {
+            "products": [
+                {
+                    "pricePlanCode": "88890345",
+                    "productType": "video-plan"
+                },
+                {
+                    "pricePlanCode": "8898625",
+                    "productType": "video-addon"
+                },
+                {
+                    "pricePlanCode": "88830604",
+                    "pickCode": "P0027",
+                    "productType": "video-addon"
+                }
+            ],
+            "existingPromotions": [
+                {
+                    "products": [
+                        {
+                            "pricePlanCode": "88830604"
+                        }
+                    ],
+                    "benefitCode": "89026503",
+                    "startDate": "04/01/2022",
+                    "endDate": "06/01/2022"
+                }
+            ],
+            "accountNumber": "171202181454689",
+            "isActive": true,
+            "retentionPromotionIndicator": false,
+            "freeTrialEligible": false,
+            "accountType": "Residential",
+            "nextBillingDate": "10/30/2022",
+            "policy": "NA"
+        }
+    },
+    "offerActionType": [
+        "Retention"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "salesChannel": [
+        "online"
+    ],
+    "offerProductTypes": [
+        "credit"
+    ],
+    "billingProductCodes": [
+        "P0027"
+    ]
+}

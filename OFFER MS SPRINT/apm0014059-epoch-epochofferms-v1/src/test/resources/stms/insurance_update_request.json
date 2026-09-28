@@ -1,0 +1,83 @@
+{
+    "contractIndicator": [
+        "non-contract"
+    ],
+    "customerEligibility": {
+        "zipCode": [
+            "88005"
+        ],
+        "county": [
+            "35013"
+        ]
+    },
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "salesChannel": [
+        "online"
+    ],
+    "offerActionType": [
+        "Upgrade",
+        "Downgrade",
+        "Cross-sell",
+        "Other"
+    ],
+    "cartContext": {
+        "cartOffers": [
+            {
+                "offerCode": "OF_INSURANCE-PROTECTION-PLAN-V4_satellite",
+                "quantity": "1",
+                "action": "add"
+            }
+        ],
+        "cartProducts": [
+            {
+                "action": "remove",
+                "priceCode": "201",
+                "productType": "insurance",
+                "billingProductCode": "B2072"
+            }
+        ]
+    },
+    "customerContext": {
+        "existingProductFamily": [
+            "satellite"
+        ],
+        "satellite": {
+            "products": [
+                {
+                    "billingProductCode": "P6352",
+                    "productType": "video-plan",
+                    "priceCode": "1",
+                    "productStatus": "ACTV"
+                },
+                {
+                    "productStatus": "ACTV",
+                    "priceCode": "1",
+                    "productType": "video-addon",
+                    "billingProductCode": "P2162"
+                },
+                {
+                    "productStatus": "ACTV",
+                    "priceCode": "1",
+                    "productType": "video-addon",
+                    "billingProductCode": "P6688"
+                },
+                {
+                    "billingProductCode": "B2072",
+                    "productType": "insurance",
+                    "priceCode": "201",
+                    "productStatus": "ACTV"
+                }
+            ],
+            "accountNumber": "68002554",
+            "isActive": true,
+            "accountType": "REG",
+            "nextBillingDate": "2021-10-05",
+            "businessSegment": "REG",
+            "nftvflag": "N",
+            "ftvCount": "0",
+            "remoteReplacementType": null
+        }
+    }
+}

@@ -1,0 +1,84 @@
+/**
+ * 
+ */
+package com.dtv.dcp.epoch.integration.common.oauthtoken;
+
+import java.util.Map;
+import java.util.Optional;
+import java.util.concurrent.ConcurrentHashMap;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+import com.fasterxml.jackson.databind.JsonNode;
+
+/**
+ * @author nf2008
+ *
+ */
+@Component
+public class OAuthUCCPrimaryTokenServiceImpl  implements OAuthUCCPrimaryTokenService{
+	
+	/** The log. */
+	private static final Logger log = LoggerFactory.getLogger(OAuthUCCPrimaryTokenServiceImpl.class);
+
+	private static final String TOKEN_KEY = "CT_ACCESS_TOKEN";
+	
+	
+	/** The rest request. */
+	@Value("${apiclient.rest.uccprimarytokenservice.request}")
+	private String request;
+	
+	/** The oAuthUCCPrimaryTokenClient. */
+	@Autowired
+	private OAuthUCCPrimaryTokenClient oAuthUCCPrimaryTokenClient;
+
+	/** The map to have token as local. */
+	private Map<String, String> accessTokenMap = new ConcurrentHashMap<>();
+
+	
+	
+
+	/**
+	 * accessToken(). if not in cache then make a call to server
+	 *
+	 * @return  String accessToken
+	 * @throws ServiceException
+	 */
+	@Override
+	public String getAccessToken() {
+		log.debug("Start of OAuthUCCPrimaryTokenServiceImpl.getAccessToken() method..");
+		String accessToken;
+
+		if (isTokenAvailableInCache()) {
+			accessToken = accessTokenMap.get(TOKEN_KEY);
+		} else {
+			accessToken = getAccessTokenFromServer();
+		}
+		log.debug("End of OAuthUCCPrimaryTokenServiceImpl.getAccessToken() method..");
+		return accessToken;
+	}
+
+	@Override
+	public String getAccessTokenFromServer() {
+		
+		log.debug("Start of OAuthUCCPrimaryTokenServiceImpl.getAccessTokenFromServer() method..");
+		String accessToken;
+
+		JsonNode response = oAuthUCCPrimaryTokenClient.getAccessToken(request);
+
+		accessToken = Optional.ofNullable(response).map(j -> j.get("access_token")).map(JsonNode::asText).orElse(null);
+
+		accessTokenMap.put(TOKEN_KEY, accessToken);
+		log.debug("End of OAuthUCCPrimaryTokenServiceImpl.getAccessTokenFromServer() method..");
+		return accessToken;
+	}
+
+	private boolean isTokenAvailableInCache() {
+		return accessTokenMap.containsKey(TOKEN_KEY);
+	}
+
+}

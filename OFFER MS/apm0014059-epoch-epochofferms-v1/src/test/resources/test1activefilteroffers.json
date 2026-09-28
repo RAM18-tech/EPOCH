@@ -1,0 +1,3108 @@
+{
+    "limit": 0,
+    "offset": 0,
+    "count": 3,
+    "total": 3,
+    "offers": [
+        {
+            "id": "0b365e95-313e-456f-8588-5dc23b92af7f",
+            "code": "OF_STND-BRAZIL-201804",
+            "status": "live",
+            "name": {
+                "en": "Brazilian"
+            },
+            "description": {
+                "en": "Brazilian"
+            },
+            "startDate": "2018-10-01T05:00:00.000Z",
+            "endDate": "9999-12-31T06:00:00.000Z",
+            "attributes": {
+                "offerProductType": "video-addon",
+                "offerProductFamily": "OTT",
+                "offerType": "multi-benefit",
+                "offerActionType": "Acquisition",
+                "environment": "",
+                "rank": "560",
+                "displayName": {
+                    "en": "Brazilian"
+                },
+                "descriptionsByKey": {
+                    "att.com": "Worldwide entertainment is here!"
+                },
+                "billingId": "746839864",
+                "billingCode": "OF_STND-BRAZIL-201804",
+                "migratedOffer": true,
+                "associatedProducts": [
+                    {
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "NA",
+                                    "dependent": false,
+                                    "anchor": false
+                                }
+                            }
+                        ],
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "OTT",
+                                    "productStatus": "Active",
+                                    "dependent": false,
+                                    "anchor": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "f26361bb-b220-4285-b182-205991aa2f5a",
+                                        "typeId": "product",
+                                        "obj": {
+                                            "id": "f26361bb-b220-4285-b182-205991aa2f5a",
+                                            "code": "STND-BRAZIL-201804",
+                                            "productType": {
+                                                "typeId": "product-type",
+                                                "id": "f6d9dc0c-8df5-43e6-bfd5-ddd296537369",
+                                                "key": "video-addon"
+                                            },
+                                            "name": {
+                                                "en": "Brazilian"
+                                            },
+                                            "description": {
+                                                "en": "##2##PFC||TV Globo"
+                                            },
+                                            "categories": [],
+                                            "variants": [
+                                                {
+                                                    "id": "1",
+                                                    "prices": [
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 3000,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 30
+                                                            },
+                                                            "id": "a4bbab53-1f7b-441d-98de-6e8d989be2e6",
+                                                            "startDate": "2019-03-13T05:00:00.000Z",
+                                                            "endDate": "9999-12-31T06:00:00.000Z",
+                                                            "recurrenceIndicator": true,
+                                                            "period": "month",
+                                                            "proRateFrequency": "daily",
+                                                            "contractIndicator": "non-contract"
+                                                        }
+                                                    ],
+                                                    "attributes": {
+                                                        "displayName": {
+                                                            "en": "Brazilian"
+                                                        },
+                                                        "displayNamesByKey": {
+                                                            "services": "BRAZILIAN",
+                                                            "name-cpc": "Brazilian"
+                                                        },
+                                                        "descriptionsByKey": {
+                                                            "short-opus": "Worldwide entertainment is here!",
+                                                            "short-myatt": "Worldwide entertainment is here!",
+                                                            "long-services": "<ul>   <li>TV Globo</li>   <li>PFC</li> </ul>",
+                                                            "short-services": "2 channels",
+                                                            "long-myatt": "You can change or cancel your subscription at any time at atttvnow.com. There are no refunds or credits for any partial-month periods or unwatched content.",
+                                                            "description-cpc": "##2##PFC||TV Globo"
+                                                        },
+                                                        "billingProductCode": "STND-BRAZIL-201804",
+                                                        "billingProductId": "5950",
+                                                        "startDate": "2018-09-20T05:00:00.000Z",
+                                                        "endDate": "9999-12-31T06:00:00.000Z",
+                                                        "congratsMessage": "Great choice!",
+                                                        "productFamily": "OTT",
+                                                        "packageGroup": "50000",
+                                                        "removalRule": {
+                                                            "channel": [
+                                                                "online"
+                                                            ]
+                                                        },
+                                                        "numberOfChannels": "2 live channels",
+                                                        "addOnType": "Standalone",
+                                                        "planSubType": "International",
+                                                        "language": "Portuguese",
+                                                        "secondaryBillingProductId": "746839868",
+                                                        "productStatus": "Active",
+                                                        "numberOfSpanishChannels": "Includes 2 Brazilian-language channels",
+                                                        "compatibleProducts": [
+                                                            {
+                                                                "constraints": {
+                                                                    "dependent": false,
+                                                                    "anchor": false
+                                                                },
+                                                                "products": [
+                                                                    {
+                                                                        "id": "b5e31a6a-7aa6-439d-9f80-16d5f1a1fce8",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "65349a6f-a0f3-443c-b9ee-5629b21e450c",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "6ad0311a-3854-4c80-894c-bb753dc2b90f",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "4600b315-5d99-4a58-925d-e23175ae489b",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "c7745259-23e7-48c8-87ab-5b13d5ed3992",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "07797348-a102-472e-8bd6-b82dfc22ae98",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "42b6c25c-c289-4e69-ad4d-493a1270ff5f",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "8190c325-3475-4a6c-82a5-096b8468152d",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "c66fef93-a411-4563-ae5e-c07cf539a59e",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "de06ff1b-25ef-4947-8879-7e42e40d2fcf",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "cdf50d81-4a30-444c-be10-8803fb43c20b",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "e4129e62-5159-4685-b98c-6214f2677b5b",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "c893226f-75ab-487c-8e16-7b485875b2b4",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "86c91288-42b5-45ca-ac4f-2ba2446f5b7e",
+                                                                        "typeId": "product"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "contractApplicable": "non-contract"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "benefits": [
+                    {
+                        "benefitCategory": "Product",
+                        "billingBenefitId": "2076",
+                        "billingBenefitCode": "1MFALLNEW",
+                        "benefitName": {
+                            "en": "1MFALLNEW"
+                        },
+                        "benefitDisplayName": {
+                            "en": "1MFALLNEW"
+                        },
+                        "benefitRank": 2,
+                        "description": {
+                            "en": "1MFALLNEW"
+                        },
+                        "startDate": "2017-01-01T06:00:00.000Z",
+                        "contractIndicator": "non-contract",
+                        "selfBenefit": false,
+                        "duration": 1,
+                        "period": "NoOfMonths",
+                        "billAfterPeriod": false,
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "id": "42b6c25c-c289-4e69-ad4d-493a1270ff5f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "b5e31a6a-7aa6-439d-9f80-16d5f1a1fce8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "3e87eaaa-6865-4f03-9cc3-548a94aa5676",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "6ad0311a-3854-4c80-894c-bb753dc2b90f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "de06ff1b-25ef-4947-8879-7e42e40d2fcf",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "4600b315-5d99-4a58-925d-e23175ae489b",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c7745259-23e7-48c8-87ab-5b13d5ed3992",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "35a7ee76-923d-4855-876d-c00ff68ce281",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "855e5078-e224-4e12-a02e-7eb2c2463c4d",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "65c1a34f-6ae4-4e83-9ccb-fd82040cad72",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "1865f69c-4748-4953-a5cc-6841de414acb",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "072bd2b1-cba3-4b21-8b85-89fc42cd1fa8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "f26361bb-b220-4285-b182-205991aa2f5a",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c66fef93-a411-4563-ae5e-c07cf539a59e",
+                                        "typeId": "product"
+                                    }
+                                ]
+                            }
+                        ],
+                        "maxOccurrence": 0,
+                        "benefitType": "free-promo",
+                        "value": {},
+                        "secondaryBenefitCode": "751871896",
+                        "freeTrialPromo": false,
+                        "ioOffer": false,
+                        "freeTrialDuration": 0,
+                        "agentOffer": false,
+                        "minQuantity": 0,
+                        "promoPriority": 2,
+                        "id": "de5bafa6-b0cd-4af0-bf8f-c011214d9851",
+                        "migrated": false,
+                        "contracted": false,
+                        "isDependentPromo": false,
+                        "isQuotaBased": false
+                    },
+                    {
+                        "benefitCategory": "Product",
+                        "billingBenefitId": "2021",
+                        "billingBenefitCode": "50%OFFPROD",
+                        "benefitName": {
+                            "en": "50%OFFPRODNEW"
+                        },
+                        "benefitDisplayName": {
+                            "en": "50%OFFPRODNEW"
+                        },
+                        "benefitRank": 5,
+                        "description": {
+                            "en": "50%OFFPRODNEW"
+                        },
+                        "startDate": "2016-11-20T18:59:59.000Z",
+                        "contractIndicator": "non-contract",
+                        "selfBenefit": false,
+                        "duration": 2,
+                        "period": "NoOfMonths",
+                        "billAfterPeriod": false,
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "id": "b5e31a6a-7aa6-439d-9f80-16d5f1a1fce8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "4600b315-5d99-4a58-925d-e23175ae489b",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c7745259-23e7-48c8-87ab-5b13d5ed3992",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "35a7ee76-923d-4855-876d-c00ff68ce281",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "855e5078-e224-4e12-a02e-7eb2c2463c4d",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "65c1a34f-6ae4-4e83-9ccb-fd82040cad72",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "072bd2b1-cba3-4b21-8b85-89fc42cd1fa8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "f26361bb-b220-4285-b182-205991aa2f5a",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "3a6a3cb0-2ee9-47b4-86ff-3d4fc1b59d30",
+                                        "typeId": "product"
+                                    }
+                                ]
+                            }
+                        ],
+                        "maxOccurrence": 0,
+                        "benefitType": "percent-off",
+                        "value": {
+                            "percentage": 50
+                        },
+                        "secondaryBenefitCode": "751871926",
+                        "freeTrialPromo": false,
+                        "ioOffer": false,
+                        "freeTrialDuration": 0,
+                        "agentOffer": false,
+                        "minQuantity": 0,
+                        "promoPriority": 6,
+                        "id": "40c54478-7d76-4ad4-8386-944c88fe6ee6",
+                        "migrated": false,
+                        "contracted": false,
+                        "isDependentPromo": false,
+                        "isQuotaBased": false
+                    },
+                    {
+                        "benefitCategory": "Product",
+                        "billingBenefitId": "2075",
+                        "billingBenefitCode": "1MPOFFNEW",
+                        "benefitName": {
+                            "en": "1MPOFFNEW"
+                        },
+                        "benefitDisplayName": {
+                            "en": "1MPOFFNEW"
+                        },
+                        "benefitRank": 5,
+                        "description": {
+                            "en": "1MPOFFNEW"
+                        },
+                        "startDate": "2017-01-01T06:00:00.000Z",
+                        "contractIndicator": "non-contract",
+                        "selfBenefit": false,
+                        "duration": 1,
+                        "period": "NoOfMonths",
+                        "billAfterPeriod": false,
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "id": "42b6c25c-c289-4e69-ad4d-493a1270ff5f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "b5e31a6a-7aa6-439d-9f80-16d5f1a1fce8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "6ad0311a-3854-4c80-894c-bb753dc2b90f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "de06ff1b-25ef-4947-8879-7e42e40d2fcf",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "4600b315-5d99-4a58-925d-e23175ae489b",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c66fef93-a411-4563-ae5e-c07cf539a59e",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c7745259-23e7-48c8-87ab-5b13d5ed3992",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "35a7ee76-923d-4855-876d-c00ff68ce281",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "855e5078-e224-4e12-a02e-7eb2c2463c4d",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "65c1a34f-6ae4-4e83-9ccb-fd82040cad72",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "1865f69c-4748-4953-a5cc-6841de414acb",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "072bd2b1-cba3-4b21-8b85-89fc42cd1fa8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "f26361bb-b220-4285-b182-205991aa2f5a",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "3a6a3cb0-2ee9-47b4-86ff-3d4fc1b59d30",
+                                        "typeId": "product"
+                                    }
+                                ]
+                            }
+                        ],
+                        "maxOccurrence": 0,
+                        "benefitType": "percent-off",
+                        "value": {
+                            "percentage": 50
+                        },
+                        "secondaryBenefitCode": "751871900",
+                        "freeTrialPromo": false,
+                        "ioOffer": false,
+                        "freeTrialDuration": 0,
+                        "agentOffer": false,
+                        "minQuantity": 0,
+                        "promoPriority": 6,
+                        "id": "c5beac48-ec02-4a73-87b9-3ceb9fbd27ea",
+                        "migrated": false,
+                        "contracted": false,
+                        "isDependentPromo": false,
+                        "isQuotaBased": false
+                    },
+                    {
+                        "benefitCategory": "Product",
+                        "billingBenefitId": "2027",
+                        "billingBenefitCode": "NWBRAZ07",
+                        "benefitName": {
+                            "en": "NOW Brazilian Free For 7 Days"
+                        },
+                        "benefitDisplayName": {
+                            "en": "Free For 7 Days"
+                        },
+                        "benefitRank": 1,
+                        "description": {
+                            "en": "Free For 7 Days"
+                        },
+                        "startDate": "2018-09-20T05:00:00.000Z",
+                        "contractIndicator": "non-contract",
+                        "selfBenefit": false,
+                        "duration": 8,
+                        "period": "NoOfDays",
+                        "billAfterPeriod": true,
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "id": "f26361bb-b220-4285-b182-205991aa2f5a",
+                                        "typeId": "product"
+                                    }
+                                ]
+                            }
+                        ],
+                        "maxOccurrence": 0,
+                        "benefitType": "free-trial",
+                        "value": {},
+                        "secondaryBenefitCode": "746839862",
+                        "freeTrialPromo": true,
+                        "ioOffer": false,
+                        "freeTrialDuration": 0,
+                        "agentOffer": false,
+                        "minQuantity": 0,
+                        "promoPriority": 2,
+                        "id": "aa79fe3a-d1c6-411e-917a-436a81512288",
+                        "migrated": false,
+                        "contracted": false,
+                        "isDependentPromo": true,
+                        "isQuotaBased": false
+                    },
+                    {
+                        "benefitCategory": "Product",
+                        "billingBenefitId": "324",
+                        "billingBenefitCode": "2MONFALL",
+                        "benefitName": {
+                            "en": "2MonthsFreeAll"
+                        },
+                        "benefitDisplayName": {
+                            "en": "2MonthsFreeAll"
+                        },
+                        "benefitRank": 2,
+                        "description": {
+                            "en": "2 Months Free Promotion on All Services"
+                        },
+                        "startDate": "2017-01-01T06:00:00.000Z",
+                        "contractIndicator": "non-contract",
+                        "selfBenefit": false,
+                        "duration": 3,
+                        "period": "NoOfMonths",
+                        "billAfterPeriod": false,
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "id": "42b6c25c-c289-4e69-ad4d-493a1270ff5f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "b5e31a6a-7aa6-439d-9f80-16d5f1a1fce8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "6ad0311a-3854-4c80-894c-bb753dc2b90f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "de06ff1b-25ef-4947-8879-7e42e40d2fcf",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "4600b315-5d99-4a58-925d-e23175ae489b",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c66fef93-a411-4563-ae5e-c07cf539a59e",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c7745259-23e7-48c8-87ab-5b13d5ed3992",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "35a7ee76-923d-4855-876d-c00ff68ce281",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "855e5078-e224-4e12-a02e-7eb2c2463c4d",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "65c1a34f-6ae4-4e83-9ccb-fd82040cad72",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "1865f69c-4748-4953-a5cc-6841de414acb",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "072bd2b1-cba3-4b21-8b85-89fc42cd1fa8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "f26361bb-b220-4285-b182-205991aa2f5a",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "3a6a3cb0-2ee9-47b4-86ff-3d4fc1b59d30",
+                                        "typeId": "product"
+                                    }
+                                ]
+                            }
+                        ],
+                        "maxOccurrence": 0,
+                        "benefitType": "free-promo",
+                        "value": {},
+                        "secondaryBenefitCode": "751871905",
+                        "freeTrialPromo": false,
+                        "ioOffer": false,
+                        "freeTrialDuration": 0,
+                        "agentOffer": false,
+                        "minQuantity": 0,
+                        "promoPriority": 2,
+                        "id": "c124b370-d926-44bc-aa78-92b63d4b89cf",
+                        "migrated": false,
+                        "contracted": false,
+                        "isDependentPromo": true,
+                        "isQuotaBased": false
+                    },
+                    {
+                        "benefitCategory": "Product",
+                        "billingBenefitId": "823",
+                        "billingBenefitCode": "50%2MONAL",
+                        "benefitName": {
+                            "en": "50%OFF2MONALL"
+                        },
+                        "benefitDisplayName": {
+                            "en": "50%OFF2MONALL"
+                        },
+                        "benefitRank": 5,
+                        "description": {
+                            "en": "50% off for 2 months on All Services"
+                        },
+                        "startDate": "2017-01-01T06:00:00.000Z",
+                        "contractIndicator": "non-contract",
+                        "selfBenefit": false,
+                        "duration": 2,
+                        "period": "NoOfMonths",
+                        "billAfterPeriod": false,
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "id": "42b6c25c-c289-4e69-ad4d-493a1270ff5f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "b5e31a6a-7aa6-439d-9f80-16d5f1a1fce8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "6ad0311a-3854-4c80-894c-bb753dc2b90f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "de06ff1b-25ef-4947-8879-7e42e40d2fcf",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "4600b315-5d99-4a58-925d-e23175ae489b",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c66fef93-a411-4563-ae5e-c07cf539a59e",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c7745259-23e7-48c8-87ab-5b13d5ed3992",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "35a7ee76-923d-4855-876d-c00ff68ce281",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "855e5078-e224-4e12-a02e-7eb2c2463c4d",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "65c1a34f-6ae4-4e83-9ccb-fd82040cad72",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "1865f69c-4748-4953-a5cc-6841de414acb",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "072bd2b1-cba3-4b21-8b85-89fc42cd1fa8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "f26361bb-b220-4285-b182-205991aa2f5a",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "3a6a3cb0-2ee9-47b4-86ff-3d4fc1b59d30",
+                                        "typeId": "product"
+                                    }
+                                ]
+                            }
+                        ],
+                        "maxOccurrence": 0,
+                        "benefitType": "percent-off",
+                        "value": {
+                            "percentage": 50
+                        },
+                        "secondaryBenefitCode": "751871921",
+                        "freeTrialPromo": false,
+                        "ioOffer": false,
+                        "freeTrialDuration": 0,
+                        "agentOffer": false,
+                        "minQuantity": 0,
+                        "promoPriority": 6,
+                        "id": "2fd6aede-d509-476d-8f6e-7a33784e2f06",
+                        "migrated": false,
+                        "contracted": false,
+                        "isDependentPromo": false,
+                        "isQuotaBased": false
+                    },
+                    {
+                        "benefitCategory": "Product",
+                        "billingBenefitId": "237",
+                        "billingBenefitCode": "50OFF",
+                        "benefitName": {
+                            "en": "50%OffOn All Base And BoltOn"
+                        },
+                        "benefitDisplayName": {
+                            "en": "50%OffOn All Base And BoltOn"
+                        },
+                        "benefitRank": 5,
+                        "description": {
+                            "en": "50%OffOn All Base And BoltOn"
+                        },
+                        "startDate": "2017-05-18T05:00:00.000Z",
+                        "contractIndicator": "non-contract",
+                        "selfBenefit": false,
+                        "duration": 1,
+                        "period": "NoOfMonths",
+                        "billAfterPeriod": false,
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "id": "42b6c25c-c289-4e69-ad4d-493a1270ff5f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "b5e31a6a-7aa6-439d-9f80-16d5f1a1fce8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "3e87eaaa-6865-4f03-9cc3-548a94aa5676",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "6ad0311a-3854-4c80-894c-bb753dc2b90f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "de06ff1b-25ef-4947-8879-7e42e40d2fcf",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "4600b315-5d99-4a58-925d-e23175ae489b",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c66fef93-a411-4563-ae5e-c07cf539a59e",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c7745259-23e7-48c8-87ab-5b13d5ed3992",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "35a7ee76-923d-4855-876d-c00ff68ce281",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "855e5078-e224-4e12-a02e-7eb2c2463c4d",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "65c1a34f-6ae4-4e83-9ccb-fd82040cad72",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "1865f69c-4748-4953-a5cc-6841de414acb",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "072bd2b1-cba3-4b21-8b85-89fc42cd1fa8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "f26361bb-b220-4285-b182-205991aa2f5a",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "3a6a3cb0-2ee9-47b4-86ff-3d4fc1b59d30",
+                                        "typeId": "product"
+                                    }
+                                ]
+                            }
+                        ],
+                        "maxOccurrence": 0,
+                        "benefitType": "percent-off",
+                        "value": {
+                            "percentage": 50
+                        },
+                        "secondaryBenefitCode": "718118326",
+                        "freeTrialPromo": false,
+                        "ioOffer": false,
+                        "freeTrialDuration": 0,
+                        "agentOffer": false,
+                        "minQuantity": 0,
+                        "promoPriority": 6,
+                        "id": "7c5d32af-d060-45cf-9e23-0bd2941cd55f",
+                        "migrated": false,
+                        "contracted": false,
+                        "isDependentPromo": true,
+                        "isQuotaBased": false
+                    },
+                    {
+                        "benefitCategory": "Product",
+                        "billingBenefitId": "202",
+                        "billingBenefitCode": "GP3MON",
+                        "benefitName": {
+                            "en": "3MPromo"
+                        },
+                        "benefitDisplayName": {
+                            "en": "3MPromo"
+                        },
+                        "benefitRank": 2,
+                        "description": {
+                            "en": "3 Month Free Promotion"
+                        },
+                        "startDate": "2016-01-01T06:00:00.000Z",
+                        "contractIndicator": "non-contract",
+                        "selfBenefit": false,
+                        "duration": 3,
+                        "period": "NoOfMonths",
+                        "billAfterPeriod": false,
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "id": "42b6c25c-c289-4e69-ad4d-493a1270ff5f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "b5e31a6a-7aa6-439d-9f80-16d5f1a1fce8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "3e87eaaa-6865-4f03-9cc3-548a94aa5676",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "6ad0311a-3854-4c80-894c-bb753dc2b90f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "de06ff1b-25ef-4947-8879-7e42e40d2fcf",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "4600b315-5d99-4a58-925d-e23175ae489b",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "f2144005-aece-4287-9e5f-7a34eb9544bb",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c66fef93-a411-4563-ae5e-c07cf539a59e",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c7745259-23e7-48c8-87ab-5b13d5ed3992",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "35a7ee76-923d-4855-876d-c00ff68ce281",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "855e5078-e224-4e12-a02e-7eb2c2463c4d",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "65c1a34f-6ae4-4e83-9ccb-fd82040cad72",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "1865f69c-4748-4953-a5cc-6841de414acb",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "072bd2b1-cba3-4b21-8b85-89fc42cd1fa8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "f26361bb-b220-4285-b182-205991aa2f5a",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "5a755e9f-ead3-4df5-bade-4d70a5e42bbf",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "3a6a3cb0-2ee9-47b4-86ff-3d4fc1b59d30",
+                                        "typeId": "product"
+                                    }
+                                ]
+                            }
+                        ],
+                        "maxOccurrence": 0,
+                        "benefitType": "free-promo",
+                        "value": {},
+                        "secondaryBenefitCode": "718118337",
+                        "freeTrialPromo": false,
+                        "ioOffer": false,
+                        "freeTrialDuration": 0,
+                        "agentOffer": false,
+                        "minQuantity": 0,
+                        "promoPriority": 2,
+                        "id": "7c80702f-a756-47b9-9c07-b8b7b7961c49",
+                        "migrated": false,
+                        "contracted": false,
+                        "isDependentPromo": true,
+                        "isQuotaBased": false
+                    }
+                ],
+                "eligibility": {
+                    "computedRules": {
+                        "predicate": "businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\") AND customerSegments = \"Residential\"",
+                        "groupingOperator": "OR",
+                        "rules": [
+                            {
+                                "predicate": "businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\") AND customerSegments = \"Residential\""
+                            }
+                        ]
+                    },
+                    "constraints": [
+                        {
+                            "customerSegments": [
+                                "Residential"
+                            ],
+                            "customerSegment": "Residential",
+                            "minimumPurchaseAmount": 0,
+                            "salesChannel": [
+                                "opus",
+                                "online"
+                            ]
+                        }
+                    ]
+                },
+                "conflictingOffers": [
+                    {
+                        "typeId": "offer",
+                        "id": "ec795d77-9d2a-4660-9f13-5df5845ba561",
+                        "key": "OF_BASE-XTRA-201811"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "2e8bf08d-bc7f-4a8c-8d5c-9161c852d593",
+                        "key": "OF_BASE-XTRA-201811-UN-PLAN_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "e890526a-20c1-4538-b0bd-b9af1306d9ec",
+                        "key": "OF_BASE-XTRA-201811-UN-PLAN"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "0dd67257-e98c-48f3-b053-29a2bf33e449",
+                        "key": "OF_BASE-XTRA-201811_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "0cfe1fe8-afb6-4e79-8cca-2e68fde178b2",
+                        "key": "OF_BASE-OPTIMOMAS-122018"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "52d12518-fe55-4306-a212-ee213cdf5b67",
+                        "key": "OF_BASE-OPTIMOMAS-122018_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "e7885b62-556e-453d-a593-7bbc3966e542",
+                        "key": "OF_BASE-ENTERTAINMENT-201811-UN-PLAN_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "b3f206aa-8bdc-4f25-adcb-0ccea27d69af",
+                        "key": "OF_BASE-ENTERTAINMENT-201811-UN-PLAN_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "02512350-295d-4f99-a837-b10bef3e988c",
+                        "key": "OF_BASE-ULTIMATE-201811_EMPLOYEE_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "9d507205-2f89-4314-9825-005711078914",
+                        "key": "OF_BASE-ULTIMATE-201811_EMPLOYEE_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "4bf7d600-0224-4431-bedb-470937f6830f",
+                        "key": "OF_BASE-ULTIMATE-201811-UN-PLAN_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "600cca38-0d83-4825-b7b7-7291e703cc1f",
+                        "key": "OF_BASE-ULTIMATE-201811-UN-PLAN_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "c53ac210-a179-4226-ad34-34a03b7881c8",
+                        "key": "OF_BASE-CHOICE-201811-UN-PLAN_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "8b95568f-456f-4b32-9ce8-70684e8564e1",
+                        "key": "OF_BASE-CHOICE-201811-UN-PLAN_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "89f0350e-8374-4daf-9b94-c0c6e2c85da9",
+                        "key": "OF_BASE-OPTIMOMAS-122018-UN-PLAN_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "f450fcc0-3890-4c84-9e28-19eb92900086",
+                        "key": "OF_BASE-OPTIMOMAS-122018-UN-PLAN_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "662e952f-af9d-4b2d-a848-6a8e407b95a6",
+                        "key": "OF_BASE-XTRA-201811-UN-PLAN_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "87dae60c-2e45-4742-809d-566a82e271fb",
+                        "key": "OF_BASE-ENTERTAINMENT-201811_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "6b4d9456-54df-49d3-9b68-7d1128aa7a4a",
+                        "key": "OF_BASE-ENTERTAINMENT-201811"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "decb8c9e-348a-4170-b08a-8a7e4a475488",
+                        "key": "OF_BASE-ENTERTAINMENT-201811-UN-PLAN_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "359ea985-2a28-43e8-ab99-188d89252303",
+                        "key": "OF_BASE-ENTERTAINMENT-201811-UN-PLAN"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "27c8f9f4-8348-49a5-b830-ac2bff1fd240",
+                        "key": "OF_BASE-ULTIMATE-201811_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "6ba20f0a-c98b-4ec8-8450-187b83f61be5",
+                        "key": "OF_BASE-ULTIMATE-201811"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "6b5ed771-f05b-4bde-9faf-07202aebd700",
+                        "key": "OF_BASE-ULTIMATE-201811-UN-PLAN_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "6a69fd21-91e1-4ee9-aa52-768cc0a8ec5c",
+                        "key": "OF_BASE-ULTIMATE-201811-UN-PLAN"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "827261aa-d880-4f64-9c9d-add8635df493",
+                        "key": "OF_BASE-CHOICE-201811-UN-PLAN_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "34e14900-f771-439e-8804-e20eecaade3f",
+                        "key": "OF_BASE-CHOICE-201811-UN-PLAN"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "6e50103a-963a-42e3-b434-a63e55d25213",
+                        "key": "OF_BASE-CHOICE-201811_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "01c40f71-ca87-4ae3-a628-15fc0e789ab1",
+                        "key": "OF_BASE-CHOICE-201811"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "eecda8f8-55e1-4586-9028-b6837faf6d31",
+                        "key": "OF_BASE-OPTIMOMAS-122018-UN-PLAN_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "fa4d6d4a-956a-4f18-9496-4ec1f15e7134",
+                        "key": "OF_BASE-OPTIMOMAS-122018-UN-PLAN"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "d95e449d-1662-402a-ae68-125a98cab523",
+                        "key": "OF_BASE-ULTIMATE-201811_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "1b9b2f2b-4d59-4997-8b6a-fcdfc1b3d742",
+                        "key": "OF_BASE-XTRA-201811-UN-PLAN_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "f6bbace9-ac02-4498-a73f-eb9845d230d5",
+                        "key": "OF_BASE-ENTERTAINMENT-201811_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "ef806a8b-6e60-40af-903a-b7ad83b9f1c2",
+                        "key": "OF_BASE-OPTIMOMAS-122018_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "2852f823-7ec2-4f67-a1f2-eb3f51af38b4",
+                        "key": "OF_BASE-OPTIMOMAS-122018_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "6431cb90-b6e9-4f8e-83c9-fecc7aff9aef",
+                        "key": "OF_BASE-CHOICE-201811_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "08e1b697-1474-4c92-8c07-80823ee26420",
+                        "key": "OF_BASE-ULTIMATE-201811_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "30ccb709-0850-45ea-8934-2239323417cd",
+                        "key": "OF_BASE-XTRA-201811_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "a6e4482e-80e6-4650-a63b-2156dac50abf",
+                        "key": "OF_BASE-ENTERTAINMENT-201811_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "465977bc-96b3-491b-9b82-97bd05d21f91",
+                        "key": "OF_BASE-XTRA-201811_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "c58df5bd-653f-4233-8b65-4053429d6e7d",
+                        "key": "OF_BASE-CHOICE-201811_contract_01"
+                    }
+                ],
+                "offerPromos": [
+                    [
+                        {
+                            "value": "2MONFALL",
+                            "name": "promoId"
+                        },
+                        {
+                            "value": "10/10/2018",
+                            "name": "startDateStr"
+                        },
+                        {
+                            "value": "10/27/2018",
+                            "name": "endDateStr"
+                        }
+                    ],
+                    [
+                        {
+                            "value": "NWBRAZ07",
+                            "name": "promoId"
+                        },
+                        {
+                            "value": "09/26/2018",
+                            "name": "startDateStr"
+                        },
+                        {
+                            "value": "12/31/9999",
+                            "name": "endDateStr"
+                        }
+                    ],
+                    [
+                        {
+                            "value": "50OFF",
+                            "name": "promoId"
+                        },
+                        {
+                            "value": "10/10/2018",
+                            "name": "startDateStr"
+                        },
+                        {
+                            "value": "10/27/2018",
+                            "name": "endDateStr"
+                        }
+                    ],
+                    [
+                        {
+                            "value": "GP3MON",
+                            "name": "promoId"
+                        },
+                        {
+                            "value": "10/10/2018",
+                            "name": "startDateStr"
+                        },
+                        {
+                            "value": "10/27/2018",
+                            "name": "endDateStr"
+                        }
+                    ],
+                    [
+                        {
+                            "value": "50%2MONAL",
+                            "name": "promoId"
+                        },
+                        {
+                            "value": "10/10/2018",
+                            "name": "startDateStr"
+                        },
+                        {
+                            "value": "10/27/2018",
+                            "name": "endDateStr"
+                        }
+                    ],
+                    [
+                        {
+                            "value": "50%OFFPROD",
+                            "name": "promoId"
+                        },
+                        {
+                            "value": "10/10/2018",
+                            "name": "startDateStr"
+                        },
+                        {
+                            "value": "10/27/2018",
+                            "name": "endDateStr"
+                        }
+                    ],
+                    [
+                        {
+                            "value": "1MFALLNEW",
+                            "name": "promoId"
+                        },
+                        {
+                            "value": "10/10/2018",
+                            "name": "startDateStr"
+                        },
+                        {
+                            "value": "10/27/2018",
+                            "name": "endDateStr"
+                        }
+                    ],
+                    [
+                        {
+                            "value": "1MPOFFNEW",
+                            "name": "promoId"
+                        },
+                        {
+                            "value": "10/10/2018",
+                            "name": "startDateStr"
+                        },
+                        {
+                            "value": "10/27/2018",
+                            "name": "endDateStr"
+                        }
+                    ]
+                ],
+                "leadOffer": false,
+                "contractIndicator": "non-contract",
+                "isVirtual": false,
+                "flashSaleOffer": false
+            }
+        },
+        {
+            "id": "aef24efc-8d13-4e10-95a7-788d47aadd6e",
+            "code": "OF_STND-KOREA-201804",
+            "status": "live",
+            "name": {
+                "en": "Korean"
+            },
+            "description": {
+                "en": "Korean"
+            },
+            "startDate": "2018-12-14T06:00:00.000Z",
+            "endDate": "9999-12-31T06:00:00.000Z",
+            "attributes": {
+                "offerProductType": "video-addon",
+                "offerProductFamily": "OTT",
+                "offerType": "multi-benefit",
+                "offerActionType": "Acquisition",
+                "environment": "",
+                "rank": "570",
+                "displayName": {
+                    "en": "Korean"
+                },
+                "descriptionsByKey": {
+                    "att.com": "Worldwide entertainment is here!"
+                },
+                "billingId": "755781156",
+                "billingCode": "OF_STND-KOREA-201804",
+                "migratedOffer": true,
+                "associatedProducts": [
+                    {
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "NA",
+                                    "dependent": false,
+                                    "anchor": false
+                                }
+                            }
+                        ],
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "OTT",
+                                    "productStatus": "Active",
+                                    "dependent": false,
+                                    "anchor": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "5a755e9f-ead3-4df5-bade-4d70a5e42bbf",
+                                        "typeId": "product",
+                                        "obj": {
+                                            "id": "5a755e9f-ead3-4df5-bade-4d70a5e42bbf",
+                                            "code": "STND-KOREA-201804",
+                                            "productType": {
+                                                "typeId": "product-type",
+                                                "id": "f6d9dc0c-8df5-43e6-bfd5-ddd296537369",
+                                                "key": "video-addon"
+                                            },
+                                            "name": {
+                                                "en": "Korean"
+                                            },
+                                            "description": {
+                                                "en": "##12##SBS (Seoul Broadcasting System)||SBS Plus||YTN||MBC||MBN||EBS||National Geographic Korea||TAN||CTS||TVN||Arirang||KBS World"
+                                            },
+                                            "categories": [],
+                                            "variants": [
+                                                {
+                                                    "id": "1",
+                                                    "prices": [
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 3000,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 30
+                                                            },
+                                                            "id": "98f3482d-b0f2-475c-b081-3b3061433dda",
+                                                            "startDate": "2018-11-30T06:00:00.000Z",
+                                                            "endDate": "9999-12-31T06:00:00.000Z",
+                                                            "recurrenceIndicator": true,
+                                                            "period": "month",
+                                                            "proRateFrequency": "daily",
+                                                            "contractIndicator": "non-contract"
+                                                        }
+                                                    ],
+                                                    "attributes": {
+                                                        "displayName": {
+                                                            "en": "Korean"
+                                                        },
+                                                        "displayNamesByKey": {
+                                                            "services": "KOREAN",
+                                                            "name-cpc": "Korean"
+                                                        },
+                                                        "descriptionsByKey": {
+                                                            "short-opus": "Worldwide entertainment is here!",
+                                                            "short-myatt": "Worldwide entertainment is here!",
+                                                            "long-services": "<ul>\\t<li>SBS (Seoul Broadcasting System)</li>  <li>SBS Plus</li>  <li>YTN</li>  <li>MBC America HD</li>  <li>MBN</li>  <li>EBS</li>\\t<li>National Geographic Korea</li>  <li>TAN</li>  <li>CTS</li>\\t<li>TVN</li>  <li>Arirang</li>\\t<li>KBS World</li> </ul>",
+                                                            "short-services": "12 channels",
+                                                            "long-myatt": "You can change or cancel your subscription at any time at atttvnow.com. There are no refunds or credits for any partial-month periods or unwatched content.",
+                                                            "description-cpc": "##12##SBS (Seoul Broadcasting System)||SBS Plus||YTN||MBC||MBN||EBS||National Geographic Korea||TAN||CTS||TVN||Arirang||KBS World"
+                                                        },
+                                                        "billingProductCode": "STND-KOREA-201804",
+                                                        "billingProductId": "6402",
+                                                        "startDate": "2018-04-01T05:00:00.000Z",
+                                                        "endDate": "9999-12-31T06:00:00.000Z",
+                                                        "congratsMessage": "Great choice!",
+                                                        "productFamily": "OTT",
+                                                        "packageGroup": "50000",
+                                                        "removalRule": {
+                                                            "channel": [
+                                                                "online"
+                                                            ]
+                                                        },
+                                                        "numberOfChannels": "12 live channels",
+                                                        "addOnType": "Standalone",
+                                                        "planSubType": "International",
+                                                        "language": "Korean",
+                                                        "secondaryBillingProductId": "755780969",
+                                                        "productStatus": "Active",
+                                                        "numberOfSpanishChannels": "Includes 12 Korean-language channels",
+                                                        "compatibleProducts": [
+                                                            {
+                                                                "constraints": {
+                                                                    "dependent": false,
+                                                                    "anchor": false
+                                                                },
+                                                                "products": [
+                                                                    {
+                                                                        "id": "de06ff1b-25ef-4947-8879-7e42e40d2fcf",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "4600b315-5d99-4a58-925d-e23175ae489b",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "6ad0311a-3854-4c80-894c-bb753dc2b90f",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "c7745259-23e7-48c8-87ab-5b13d5ed3992",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "b5e31a6a-7aa6-439d-9f80-16d5f1a1fce8",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "8190c325-3475-4a6c-82a5-096b8468152d",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "07797348-a102-472e-8bd6-b82dfc22ae98",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "42b6c25c-c289-4e69-ad4d-493a1270ff5f",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "c66fef93-a411-4563-ae5e-c07cf539a59e",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "65349a6f-a0f3-443c-b9ee-5629b21e450c",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "cdf50d81-4a30-444c-be10-8803fb43c20b",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "e4129e62-5159-4685-b98c-6214f2677b5b",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "c893226f-75ab-487c-8e16-7b485875b2b4",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "86c91288-42b5-45ca-ac4f-2ba2446f5b7e",
+                                                                        "typeId": "product"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "contractApplicable": "non-contract"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "benefits": [
+                    {
+                        "benefitCategory": "Product",
+                        "billingBenefitId": "2577",
+                        "billingBenefitCode": "NWKOR07",
+                        "benefitName": {
+                            "en": "NOW Korean Free For 7 Days"
+                        },
+                        "benefitDisplayName": {
+                            "en": "Free For 7 Days"
+                        },
+                        "benefitRank": 2,
+                        "description": {
+                            "en": "Free For 7 Days"
+                        },
+                        "startDate": "2018-11-29T06:00:00.000Z",
+                        "contractIndicator": "non-contract",
+                        "selfBenefit": false,
+                        "duration": 8,
+                        "period": "NoOfDays",
+                        "billAfterPeriod": true,
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "id": "5a755e9f-ead3-4df5-bade-4d70a5e42bbf",
+                                        "typeId": "product"
+                                    }
+                                ]
+                            }
+                        ],
+                        "maxOccurrence": 0,
+                        "benefitType": "free-trial",
+                        "value": {},
+                        "secondaryBenefitCode": "755780967",
+                        "freeTrialPromo": true,
+                        "ioOffer": false,
+                        "freeTrialDuration": 0,
+                        "agentOffer": false,
+                        "minQuantity": 0,
+                        "promoPriority": 2,
+                        "id": "1186cd68-e4c4-405d-8434-b7a18fb98c95",
+                        "migrated": false,
+                        "contracted": false,
+                        "isDependentPromo": true,
+                        "isQuotaBased": false
+                    },
+                    {
+                        "benefitCategory": "Product",
+                        "billingBenefitId": "202",
+                        "billingBenefitCode": "GP3MON",
+                        "benefitName": {
+                            "en": "3MPromo"
+                        },
+                        "benefitDisplayName": {
+                            "en": "3MPromo"
+                        },
+                        "benefitRank": 2,
+                        "description": {
+                            "en": "3 Month Free Promotion"
+                        },
+                        "startDate": "2016-01-01T06:00:00.000Z",
+                        "contractIndicator": "non-contract",
+                        "selfBenefit": false,
+                        "duration": 3,
+                        "period": "NoOfMonths",
+                        "billAfterPeriod": false,
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "id": "42b6c25c-c289-4e69-ad4d-493a1270ff5f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "b5e31a6a-7aa6-439d-9f80-16d5f1a1fce8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "3e87eaaa-6865-4f03-9cc3-548a94aa5676",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "6ad0311a-3854-4c80-894c-bb753dc2b90f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "de06ff1b-25ef-4947-8879-7e42e40d2fcf",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "4600b315-5d99-4a58-925d-e23175ae489b",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "f2144005-aece-4287-9e5f-7a34eb9544bb",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c66fef93-a411-4563-ae5e-c07cf539a59e",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c7745259-23e7-48c8-87ab-5b13d5ed3992",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "35a7ee76-923d-4855-876d-c00ff68ce281",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "855e5078-e224-4e12-a02e-7eb2c2463c4d",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "65c1a34f-6ae4-4e83-9ccb-fd82040cad72",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "1865f69c-4748-4953-a5cc-6841de414acb",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "072bd2b1-cba3-4b21-8b85-89fc42cd1fa8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "f26361bb-b220-4285-b182-205991aa2f5a",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "5a755e9f-ead3-4df5-bade-4d70a5e42bbf",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "3a6a3cb0-2ee9-47b4-86ff-3d4fc1b59d30",
+                                        "typeId": "product"
+                                    }
+                                ]
+                            }
+                        ],
+                        "maxOccurrence": 0,
+                        "benefitType": "free-promo",
+                        "value": {},
+                        "secondaryBenefitCode": "718118337",
+                        "freeTrialPromo": false,
+                        "ioOffer": false,
+                        "freeTrialDuration": 0,
+                        "agentOffer": false,
+                        "minQuantity": 0,
+                        "promoPriority": 2,
+                        "id": "7c80702f-a756-47b9-9c07-b8b7b7961c49",
+                        "migrated": false,
+                        "contracted": false,
+                        "isDependentPromo": true,
+                        "isQuotaBased": false
+                    }
+                ],
+                "eligibility": {
+                    "computedRules": {
+                        "predicate": "businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\") AND customerSegments = \"Residential\"",
+                        "groupingOperator": "OR",
+                        "rules": [
+                            {
+                                "predicate": "businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\") AND customerSegments = \"Residential\""
+                            }
+                        ]
+                    },
+                    "constraints": [
+                        {
+                            "customerSegments": [
+                                "Residential"
+                            ],
+                            "customerSegment": "Residential",
+                            "minimumPurchaseAmount": 0,
+                            "salesChannel": [
+                                "opus",
+                                "online"
+                            ]
+                        }
+                    ]
+                },
+                "conflictingOffers": [
+                    {
+                        "typeId": "offer",
+                        "id": "ec795d77-9d2a-4660-9f13-5df5845ba561",
+                        "key": "OF_BASE-XTRA-201811"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "2e8bf08d-bc7f-4a8c-8d5c-9161c852d593",
+                        "key": "OF_BASE-XTRA-201811-UN-PLAN_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "e890526a-20c1-4538-b0bd-b9af1306d9ec",
+                        "key": "OF_BASE-XTRA-201811-UN-PLAN"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "0dd67257-e98c-48f3-b053-29a2bf33e449",
+                        "key": "OF_BASE-XTRA-201811_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "0cfe1fe8-afb6-4e79-8cca-2e68fde178b2",
+                        "key": "OF_BASE-OPTIMOMAS-122018"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "52d12518-fe55-4306-a212-ee213cdf5b67",
+                        "key": "OF_BASE-OPTIMOMAS-122018_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "e7885b62-556e-453d-a593-7bbc3966e542",
+                        "key": "OF_BASE-ENTERTAINMENT-201811-UN-PLAN_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "b3f206aa-8bdc-4f25-adcb-0ccea27d69af",
+                        "key": "OF_BASE-ENTERTAINMENT-201811-UN-PLAN_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "02512350-295d-4f99-a837-b10bef3e988c",
+                        "key": "OF_BASE-ULTIMATE-201811_EMPLOYEE_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "9d507205-2f89-4314-9825-005711078914",
+                        "key": "OF_BASE-ULTIMATE-201811_EMPLOYEE_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "4bf7d600-0224-4431-bedb-470937f6830f",
+                        "key": "OF_BASE-ULTIMATE-201811-UN-PLAN_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "600cca38-0d83-4825-b7b7-7291e703cc1f",
+                        "key": "OF_BASE-ULTIMATE-201811-UN-PLAN_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "c53ac210-a179-4226-ad34-34a03b7881c8",
+                        "key": "OF_BASE-CHOICE-201811-UN-PLAN_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "8b95568f-456f-4b32-9ce8-70684e8564e1",
+                        "key": "OF_BASE-CHOICE-201811-UN-PLAN_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "89f0350e-8374-4daf-9b94-c0c6e2c85da9",
+                        "key": "OF_BASE-OPTIMOMAS-122018-UN-PLAN_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "f450fcc0-3890-4c84-9e28-19eb92900086",
+                        "key": "OF_BASE-OPTIMOMAS-122018-UN-PLAN_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "662e952f-af9d-4b2d-a848-6a8e407b95a6",
+                        "key": "OF_BASE-XTRA-201811-UN-PLAN_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "87dae60c-2e45-4742-809d-566a82e271fb",
+                        "key": "OF_BASE-ENTERTAINMENT-201811_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "6b4d9456-54df-49d3-9b68-7d1128aa7a4a",
+                        "key": "OF_BASE-ENTERTAINMENT-201811"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "decb8c9e-348a-4170-b08a-8a7e4a475488",
+                        "key": "OF_BASE-ENTERTAINMENT-201811-UN-PLAN_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "359ea985-2a28-43e8-ab99-188d89252303",
+                        "key": "OF_BASE-ENTERTAINMENT-201811-UN-PLAN"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "27c8f9f4-8348-49a5-b830-ac2bff1fd240",
+                        "key": "OF_BASE-ULTIMATE-201811_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "6ba20f0a-c98b-4ec8-8450-187b83f61be5",
+                        "key": "OF_BASE-ULTIMATE-201811"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "6b5ed771-f05b-4bde-9faf-07202aebd700",
+                        "key": "OF_BASE-ULTIMATE-201811-UN-PLAN_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "6a69fd21-91e1-4ee9-aa52-768cc0a8ec5c",
+                        "key": "OF_BASE-ULTIMATE-201811-UN-PLAN"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "827261aa-d880-4f64-9c9d-add8635df493",
+                        "key": "OF_BASE-CHOICE-201811-UN-PLAN_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "34e14900-f771-439e-8804-e20eecaade3f",
+                        "key": "OF_BASE-CHOICE-201811-UN-PLAN"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "6e50103a-963a-42e3-b434-a63e55d25213",
+                        "key": "OF_BASE-CHOICE-201811_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "01c40f71-ca87-4ae3-a628-15fc0e789ab1",
+                        "key": "OF_BASE-CHOICE-201811"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "eecda8f8-55e1-4586-9028-b6837faf6d31",
+                        "key": "OF_BASE-OPTIMOMAS-122018-UN-PLAN_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "fa4d6d4a-956a-4f18-9496-4ec1f15e7134",
+                        "key": "OF_BASE-OPTIMOMAS-122018-UN-PLAN"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "d95e449d-1662-402a-ae68-125a98cab523",
+                        "key": "OF_BASE-ULTIMATE-201811_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "1b9b2f2b-4d59-4997-8b6a-fcdfc1b3d742",
+                        "key": "OF_BASE-XTRA-201811-UN-PLAN_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "f6bbace9-ac02-4498-a73f-eb9845d230d5",
+                        "key": "OF_BASE-ENTERTAINMENT-201811_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "ef806a8b-6e60-40af-903a-b7ad83b9f1c2",
+                        "key": "OF_BASE-OPTIMOMAS-122018_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "2852f823-7ec2-4f67-a1f2-eb3f51af38b4",
+                        "key": "OF_BASE-OPTIMOMAS-122018_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "6431cb90-b6e9-4f8e-83c9-fecc7aff9aef",
+                        "key": "OF_BASE-CHOICE-201811_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "08e1b697-1474-4c92-8c07-80823ee26420",
+                        "key": "OF_BASE-ULTIMATE-201811_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "30ccb709-0850-45ea-8934-2239323417cd",
+                        "key": "OF_BASE-XTRA-201811_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "a6e4482e-80e6-4650-a63b-2156dac50abf",
+                        "key": "OF_BASE-ENTERTAINMENT-201811_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "465977bc-96b3-491b-9b82-97bd05d21f91",
+                        "key": "OF_BASE-XTRA-201811_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "c58df5bd-653f-4233-8b65-4053429d6e7d",
+                        "key": "OF_BASE-CHOICE-201811_contract_01"
+                    }
+                ],
+                "offerPromos": [
+                    [
+                        {
+                            "value": "GP3MON",
+                            "name": "promoId"
+                        },
+                        {
+                            "value": "12/12/2018",
+                            "name": "startDateStr"
+                        },
+                        {
+                            "value": "12/12/2018",
+                            "name": "endDateStr"
+                        }
+                    ],
+                    [
+                        {
+                            "value": "NWKOR07",
+                            "name": "promoId"
+                        },
+                        {
+                            "value": "12/11/2018",
+                            "name": "startDateStr"
+                        },
+                        {
+                            "value": "12/31/9999",
+                            "name": "endDateStr"
+                        }
+                    ]
+                ],
+                "leadOffer": false,
+                "contractIndicator": "non-contract",
+                "isVirtual": false,
+                "flashSaleOffer": false
+            }
+        },
+        {
+            "id": "6c079741-1a7a-441f-aa6e-87ca2cb7b070",
+            "code": "OF_STND-VIETNAM-201804",
+            "status": "live",
+            "name": {
+                "en": "Vietnamese"
+            },
+            "description": {
+                "en": "Vietnamese"
+            },
+            "startDate": "2018-10-11T05:00:00.000Z",
+            "endDate": "9999-12-31T06:00:00.000Z",
+            "attributes": {
+                "offerProductType": "video-addon",
+                "offerProductFamily": "OTT",
+                "offerType": "multi-benefit",
+                "offerActionType": "Acquisition",
+                "environment": "",
+                "rank": "550",
+                "displayName": {
+                    "en": "Vietnamese"
+                },
+                "descriptionsByKey": {
+                    "att.com": "Worldwide entertainment is here!"
+                },
+                "billingId": "746839866",
+                "billingCode": "OF_STND-VIETNAM-201804",
+                "migratedOffer": true,
+                "associatedProducts": [
+                    {
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "NA",
+                                    "dependent": false,
+                                    "anchor": false
+                                }
+                            }
+                        ],
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "OTT",
+                                    "productStatus": "Active",
+                                    "dependent": false,
+                                    "anchor": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "3a6a3cb0-2ee9-47b4-86ff-3d4fc1b59d30",
+                                        "typeId": "product",
+                                        "obj": {
+                                            "id": "3a6a3cb0-2ee9-47b4-86ff-3d4fc1b59d30",
+                                            "code": "STND-VIETNAM-201804",
+                                            "productType": {
+                                                "typeId": "product-type",
+                                                "id": "f6d9dc0c-8df5-43e6-bfd5-ddd296537369",
+                                                "key": "video-addon"
+                                            },
+                                            "name": {
+                                                "en": "Vietnamese"
+                                            },
+                                            "description": {
+                                                "en": "##9##Vien Thao TV||Vietface TV||S Channel||VIETV||VGN||Tviet Network||SBTN||HONVIETV||Film 24H"
+                                            },
+                                            "categories": [],
+                                            "variants": [
+                                                {
+                                                    "id": "1",
+                                                    "prices": [
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 2000,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 20
+                                                            },
+                                                            "id": "c17a6b90-ad16-4a9b-a4bc-240b2c5617d5",
+                                                            "startDate": "2018-01-01T06:00:00.000Z",
+                                                            "endDate": "9999-12-31T06:00:00.000Z",
+                                                            "recurrenceIndicator": true,
+                                                            "period": "month",
+                                                            "proRateFrequency": "daily",
+                                                            "contractIndicator": "non-contract"
+                                                        }
+                                                    ],
+                                                    "attributes": {
+                                                        "displayName": {
+                                                            "en": "Vietnamese"
+                                                        },
+                                                        "displayNamesByKey": {
+                                                            "services": "VIETNAMESE",
+                                                            "name-cpc": "Vietnamese"
+                                                        },
+                                                        "descriptionsByKey": {
+                                                            "short-opus": "Worldwide entertainment is here!",
+                                                            "short-myatt": "Worldwide entertainment is here!",
+                                                            "long-services": "<ul>  <li>SBTN</li>  <li>VIETV</li>  <li>Vietface TV</li>  <li>S Channel</li>  <li>Film 24H</li>  <li>Vien Thao TV</li>  <li>VGN</li>  <li>Tviet Network</li>  <li>HONVIETV</li> </ul>",
+                                                            "short-services": "9 channels",
+                                                            "long-myatt": "You can change or cancel your subscription at any time at atttvnow.com. There are no refunds or credits for any partial-month periods or unwatched content.",
+                                                            "description-cpc": "##9##Vien Thao TV||Vietface TV||S Channel||VIETV||VGN||Tviet Network||SBTN||HONVIETV||Film 24H"
+                                                        },
+                                                        "billingProductCode": "STND-VIETNAM-201804",
+                                                        "billingProductId": "5951",
+                                                        "startDate": "2018-09-20T05:00:00.000Z",
+                                                        "endDate": "9999-12-31T06:00:00.000Z",
+                                                        "congratsMessage": "Great choice!",
+                                                        "productFamily": "OTT",
+                                                        "packageGroup": "50000",
+                                                        "removalRule": {
+                                                            "channel": [
+                                                                "online"
+                                                            ]
+                                                        },
+                                                        "numberOfChannels": "9 live channels",
+                                                        "addOnType": "Standalone",
+                                                        "planSubType": "International",
+                                                        "language": "Vietnamese",
+                                                        "secondaryBillingProductId": "746839869",
+                                                        "productStatus": "Active",
+                                                        "numberOfSpanishChannels": "Includes 9 Vietnamese-language channels",
+                                                        "compatibleProducts": [
+                                                            {
+                                                                "constraints": {
+                                                                    "dependent": false,
+                                                                    "anchor": false
+                                                                },
+                                                                "products": [
+                                                                    {
+                                                                        "id": "8190c325-3475-4a6c-82a5-096b8468152d",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "c66fef93-a411-4563-ae5e-c07cf539a59e",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "b5e31a6a-7aa6-439d-9f80-16d5f1a1fce8",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "07797348-a102-472e-8bd6-b82dfc22ae98",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "c7745259-23e7-48c8-87ab-5b13d5ed3992",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "6ad0311a-3854-4c80-894c-bb753dc2b90f",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "4600b315-5d99-4a58-925d-e23175ae489b",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "42b6c25c-c289-4e69-ad4d-493a1270ff5f",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "65349a6f-a0f3-443c-b9ee-5629b21e450c",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "de06ff1b-25ef-4947-8879-7e42e40d2fcf",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "cdf50d81-4a30-444c-be10-8803fb43c20b",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "e4129e62-5159-4685-b98c-6214f2677b5b",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "c893226f-75ab-487c-8e16-7b485875b2b4",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "86c91288-42b5-45ca-ac4f-2ba2446f5b7e",
+                                                                        "typeId": "product"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "contractApplicable": "non-contract"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "benefits": [
+                    {
+                        "benefitCategory": "Product",
+                        "billingBenefitId": "2026",
+                        "billingBenefitCode": "NWVIET07",
+                        "benefitName": {
+                            "en": "NOW Vietnamese Free For 7 Days"
+                        },
+                        "benefitDisplayName": {
+                            "en": "Free For 7 Days"
+                        },
+                        "benefitRank": 3,
+                        "description": {
+                            "en": "Free For 7 Days"
+                        },
+                        "startDate": "2018-09-20T05:00:00.000Z",
+                        "contractIndicator": "non-contract",
+                        "selfBenefit": false,
+                        "duration": 8,
+                        "period": "NoOfDays",
+                        "billAfterPeriod": true,
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "id": "3a6a3cb0-2ee9-47b4-86ff-3d4fc1b59d30",
+                                        "typeId": "product"
+                                    }
+                                ]
+                            }
+                        ],
+                        "maxOccurrence": 0,
+                        "benefitType": "free-trial",
+                        "value": {},
+                        "secondaryBenefitCode": "746839863",
+                        "freeTrialPromo": true,
+                        "ioOffer": false,
+                        "freeTrialDuration": 0,
+                        "agentOffer": false,
+                        "minQuantity": 0,
+                        "promoPriority": 2,
+                        "id": "76b8030a-4994-471e-956a-9847e097aa44",
+                        "migrated": false,
+                        "contracted": false,
+                        "isDependentPromo": true,
+                        "isQuotaBased": false
+                    },
+                    {
+                        "benefitCategory": "Product",
+                        "billingBenefitId": "2021",
+                        "billingBenefitCode": "50%OFFPROD",
+                        "benefitName": {
+                            "en": "50%OFFPRODNEW"
+                        },
+                        "benefitDisplayName": {
+                            "en": "50%OFFPRODNEW"
+                        },
+                        "benefitRank": 5,
+                        "description": {
+                            "en": "50%OFFPRODNEW"
+                        },
+                        "startDate": "2016-11-20T18:59:59.000Z",
+                        "contractIndicator": "non-contract",
+                        "selfBenefit": false,
+                        "duration": 2,
+                        "period": "NoOfMonths",
+                        "billAfterPeriod": false,
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "id": "b5e31a6a-7aa6-439d-9f80-16d5f1a1fce8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "4600b315-5d99-4a58-925d-e23175ae489b",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c7745259-23e7-48c8-87ab-5b13d5ed3992",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "35a7ee76-923d-4855-876d-c00ff68ce281",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "855e5078-e224-4e12-a02e-7eb2c2463c4d",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "65c1a34f-6ae4-4e83-9ccb-fd82040cad72",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "072bd2b1-cba3-4b21-8b85-89fc42cd1fa8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "f26361bb-b220-4285-b182-205991aa2f5a",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "3a6a3cb0-2ee9-47b4-86ff-3d4fc1b59d30",
+                                        "typeId": "product"
+                                    }
+                                ]
+                            }
+                        ],
+                        "maxOccurrence": 0,
+                        "benefitType": "percent-off",
+                        "value": {
+                            "percentage": 50
+                        },
+                        "secondaryBenefitCode": "751871926",
+                        "freeTrialPromo": false,
+                        "ioOffer": false,
+                        "freeTrialDuration": 0,
+                        "agentOffer": false,
+                        "minQuantity": 0,
+                        "promoPriority": 6,
+                        "id": "40c54478-7d76-4ad4-8386-944c88fe6ee6",
+                        "migrated": false,
+                        "contracted": false,
+                        "isDependentPromo": false,
+                        "isQuotaBased": false
+                    },
+                    {
+                        "benefitCategory": "Product",
+                        "billingBenefitId": "2075",
+                        "billingBenefitCode": "1MPOFFNEW",
+                        "benefitName": {
+                            "en": "1MPOFFNEW"
+                        },
+                        "benefitDisplayName": {
+                            "en": "1MPOFFNEW"
+                        },
+                        "benefitRank": 5,
+                        "description": {
+                            "en": "1MPOFFNEW"
+                        },
+                        "startDate": "2017-01-01T06:00:00.000Z",
+                        "contractIndicator": "non-contract",
+                        "selfBenefit": false,
+                        "duration": 1,
+                        "period": "NoOfMonths",
+                        "billAfterPeriod": false,
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "id": "42b6c25c-c289-4e69-ad4d-493a1270ff5f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "b5e31a6a-7aa6-439d-9f80-16d5f1a1fce8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "6ad0311a-3854-4c80-894c-bb753dc2b90f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "de06ff1b-25ef-4947-8879-7e42e40d2fcf",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "4600b315-5d99-4a58-925d-e23175ae489b",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c66fef93-a411-4563-ae5e-c07cf539a59e",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c7745259-23e7-48c8-87ab-5b13d5ed3992",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "35a7ee76-923d-4855-876d-c00ff68ce281",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "855e5078-e224-4e12-a02e-7eb2c2463c4d",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "65c1a34f-6ae4-4e83-9ccb-fd82040cad72",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "1865f69c-4748-4953-a5cc-6841de414acb",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "072bd2b1-cba3-4b21-8b85-89fc42cd1fa8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "f26361bb-b220-4285-b182-205991aa2f5a",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "3a6a3cb0-2ee9-47b4-86ff-3d4fc1b59d30",
+                                        "typeId": "product"
+                                    }
+                                ]
+                            }
+                        ],
+                        "maxOccurrence": 0,
+                        "benefitType": "percent-off",
+                        "value": {
+                            "percentage": 50
+                        },
+                        "secondaryBenefitCode": "751871900",
+                        "freeTrialPromo": false,
+                        "ioOffer": false,
+                        "freeTrialDuration": 0,
+                        "agentOffer": false,
+                        "minQuantity": 0,
+                        "promoPriority": 6,
+                        "id": "c5beac48-ec02-4a73-87b9-3ceb9fbd27ea",
+                        "migrated": false,
+                        "contracted": false,
+                        "isDependentPromo": false,
+                        "isQuotaBased": false
+                    },
+                    {
+                        "benefitCategory": "Product",
+                        "billingBenefitId": "324",
+                        "billingBenefitCode": "2MONFALL",
+                        "benefitName": {
+                            "en": "2MonthsFreeAll"
+                        },
+                        "benefitDisplayName": {
+                            "en": "2MonthsFreeAll"
+                        },
+                        "benefitRank": 2,
+                        "description": {
+                            "en": "2 Months Free Promotion on All Services"
+                        },
+                        "startDate": "2017-01-01T06:00:00.000Z",
+                        "contractIndicator": "non-contract",
+                        "selfBenefit": false,
+                        "duration": 3,
+                        "period": "NoOfMonths",
+                        "billAfterPeriod": false,
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "id": "42b6c25c-c289-4e69-ad4d-493a1270ff5f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "b5e31a6a-7aa6-439d-9f80-16d5f1a1fce8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "6ad0311a-3854-4c80-894c-bb753dc2b90f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "de06ff1b-25ef-4947-8879-7e42e40d2fcf",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "4600b315-5d99-4a58-925d-e23175ae489b",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c66fef93-a411-4563-ae5e-c07cf539a59e",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c7745259-23e7-48c8-87ab-5b13d5ed3992",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "35a7ee76-923d-4855-876d-c00ff68ce281",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "855e5078-e224-4e12-a02e-7eb2c2463c4d",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "65c1a34f-6ae4-4e83-9ccb-fd82040cad72",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "1865f69c-4748-4953-a5cc-6841de414acb",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "072bd2b1-cba3-4b21-8b85-89fc42cd1fa8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "f26361bb-b220-4285-b182-205991aa2f5a",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "3a6a3cb0-2ee9-47b4-86ff-3d4fc1b59d30",
+                                        "typeId": "product"
+                                    }
+                                ]
+                            }
+                        ],
+                        "maxOccurrence": 0,
+                        "benefitType": "free-promo",
+                        "value": {},
+                        "secondaryBenefitCode": "751871905",
+                        "freeTrialPromo": false,
+                        "ioOffer": false,
+                        "freeTrialDuration": 0,
+                        "agentOffer": false,
+                        "minQuantity": 0,
+                        "promoPriority": 2,
+                        "id": "c124b370-d926-44bc-aa78-92b63d4b89cf",
+                        "migrated": false,
+                        "contracted": false,
+                        "isDependentPromo": true,
+                        "isQuotaBased": false
+                    },
+                    {
+                        "benefitCategory": "Product",
+                        "billingBenefitId": "823",
+                        "billingBenefitCode": "50%2MONAL",
+                        "benefitName": {
+                            "en": "50%OFF2MONALL"
+                        },
+                        "benefitDisplayName": {
+                            "en": "50%OFF2MONALL"
+                        },
+                        "benefitRank": 5,
+                        "description": {
+                            "en": "50% off for 2 months on All Services"
+                        },
+                        "startDate": "2017-01-01T06:00:00.000Z",
+                        "contractIndicator": "non-contract",
+                        "selfBenefit": false,
+                        "duration": 2,
+                        "period": "NoOfMonths",
+                        "billAfterPeriod": false,
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "id": "42b6c25c-c289-4e69-ad4d-493a1270ff5f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "b5e31a6a-7aa6-439d-9f80-16d5f1a1fce8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "6ad0311a-3854-4c80-894c-bb753dc2b90f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "de06ff1b-25ef-4947-8879-7e42e40d2fcf",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "4600b315-5d99-4a58-925d-e23175ae489b",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c66fef93-a411-4563-ae5e-c07cf539a59e",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c7745259-23e7-48c8-87ab-5b13d5ed3992",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "35a7ee76-923d-4855-876d-c00ff68ce281",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "855e5078-e224-4e12-a02e-7eb2c2463c4d",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "65c1a34f-6ae4-4e83-9ccb-fd82040cad72",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "1865f69c-4748-4953-a5cc-6841de414acb",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "072bd2b1-cba3-4b21-8b85-89fc42cd1fa8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "f26361bb-b220-4285-b182-205991aa2f5a",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "3a6a3cb0-2ee9-47b4-86ff-3d4fc1b59d30",
+                                        "typeId": "product"
+                                    }
+                                ]
+                            }
+                        ],
+                        "maxOccurrence": 0,
+                        "benefitType": "percent-off",
+                        "value": {
+                            "percentage": 50
+                        },
+                        "secondaryBenefitCode": "751871921",
+                        "freeTrialPromo": false,
+                        "ioOffer": false,
+                        "freeTrialDuration": 0,
+                        "agentOffer": false,
+                        "minQuantity": 0,
+                        "promoPriority": 6,
+                        "id": "2fd6aede-d509-476d-8f6e-7a33784e2f06",
+                        "migrated": false,
+                        "contracted": false,
+                        "isDependentPromo": false,
+                        "isQuotaBased": false
+                    },
+                    {
+                        "benefitCategory": "Product",
+                        "billingBenefitId": "237",
+                        "billingBenefitCode": "50OFF",
+                        "benefitName": {
+                            "en": "50%OffOn All Base And BoltOn"
+                        },
+                        "benefitDisplayName": {
+                            "en": "50%OffOn All Base And BoltOn"
+                        },
+                        "benefitRank": 5,
+                        "description": {
+                            "en": "50%OffOn All Base And BoltOn"
+                        },
+                        "startDate": "2017-05-18T05:00:00.000Z",
+                        "contractIndicator": "non-contract",
+                        "selfBenefit": false,
+                        "duration": 1,
+                        "period": "NoOfMonths",
+                        "billAfterPeriod": false,
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "id": "42b6c25c-c289-4e69-ad4d-493a1270ff5f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "b5e31a6a-7aa6-439d-9f80-16d5f1a1fce8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "3e87eaaa-6865-4f03-9cc3-548a94aa5676",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "6ad0311a-3854-4c80-894c-bb753dc2b90f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "de06ff1b-25ef-4947-8879-7e42e40d2fcf",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "4600b315-5d99-4a58-925d-e23175ae489b",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c66fef93-a411-4563-ae5e-c07cf539a59e",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c7745259-23e7-48c8-87ab-5b13d5ed3992",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "35a7ee76-923d-4855-876d-c00ff68ce281",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "855e5078-e224-4e12-a02e-7eb2c2463c4d",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "65c1a34f-6ae4-4e83-9ccb-fd82040cad72",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "1865f69c-4748-4953-a5cc-6841de414acb",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "072bd2b1-cba3-4b21-8b85-89fc42cd1fa8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "f26361bb-b220-4285-b182-205991aa2f5a",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "3a6a3cb0-2ee9-47b4-86ff-3d4fc1b59d30",
+                                        "typeId": "product"
+                                    }
+                                ]
+                            }
+                        ],
+                        "maxOccurrence": 0,
+                        "benefitType": "percent-off",
+                        "value": {
+                            "percentage": 50
+                        },
+                        "secondaryBenefitCode": "718118326",
+                        "freeTrialPromo": false,
+                        "ioOffer": false,
+                        "freeTrialDuration": 0,
+                        "agentOffer": false,
+                        "minQuantity": 0,
+                        "promoPriority": 6,
+                        "id": "7c5d32af-d060-45cf-9e23-0bd2941cd55f",
+                        "migrated": false,
+                        "contracted": false,
+                        "isDependentPromo": true,
+                        "isQuotaBased": false
+                    },
+                    {
+                        "benefitCategory": "Product",
+                        "billingBenefitId": "202",
+                        "billingBenefitCode": "GP3MON",
+                        "benefitName": {
+                            "en": "3MPromo"
+                        },
+                        "benefitDisplayName": {
+                            "en": "3MPromo"
+                        },
+                        "benefitRank": 2,
+                        "description": {
+                            "en": "3 Month Free Promotion"
+                        },
+                        "startDate": "2016-01-01T06:00:00.000Z",
+                        "contractIndicator": "non-contract",
+                        "selfBenefit": false,
+                        "duration": 3,
+                        "period": "NoOfMonths",
+                        "billAfterPeriod": false,
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "id": "42b6c25c-c289-4e69-ad4d-493a1270ff5f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "b5e31a6a-7aa6-439d-9f80-16d5f1a1fce8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "3e87eaaa-6865-4f03-9cc3-548a94aa5676",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "6ad0311a-3854-4c80-894c-bb753dc2b90f",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "de06ff1b-25ef-4947-8879-7e42e40d2fcf",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "4600b315-5d99-4a58-925d-e23175ae489b",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "f2144005-aece-4287-9e5f-7a34eb9544bb",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c66fef93-a411-4563-ae5e-c07cf539a59e",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "c7745259-23e7-48c8-87ab-5b13d5ed3992",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "35a7ee76-923d-4855-876d-c00ff68ce281",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "855e5078-e224-4e12-a02e-7eb2c2463c4d",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "65c1a34f-6ae4-4e83-9ccb-fd82040cad72",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "1865f69c-4748-4953-a5cc-6841de414acb",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "072bd2b1-cba3-4b21-8b85-89fc42cd1fa8",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "f26361bb-b220-4285-b182-205991aa2f5a",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "5a755e9f-ead3-4df5-bade-4d70a5e42bbf",
+                                        "typeId": "product"
+                                    },
+                                    {
+                                        "id": "3a6a3cb0-2ee9-47b4-86ff-3d4fc1b59d30",
+                                        "typeId": "product"
+                                    }
+                                ]
+                            }
+                        ],
+                        "maxOccurrence": 0,
+                        "benefitType": "free-promo",
+                        "value": {},
+                        "secondaryBenefitCode": "718118337",
+                        "freeTrialPromo": false,
+                        "ioOffer": false,
+                        "freeTrialDuration": 0,
+                        "agentOffer": false,
+                        "minQuantity": 0,
+                        "promoPriority": 2,
+                        "id": "7c80702f-a756-47b9-9c07-b8b7b7961c49",
+                        "migrated": false,
+                        "contracted": false,
+                        "isDependentPromo": true,
+                        "isQuotaBased": false
+                    }
+                ],
+                "eligibility": {
+                    "computedRules": {
+                        "predicate": "businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\") AND customerSegments = \"Residential\"",
+                        "groupingOperator": "OR",
+                        "rules": [
+                            {
+                                "predicate": "businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\") AND customerSegments = \"Residential\""
+                            }
+                        ]
+                    },
+                    "constraints": [
+                        {
+                            "customerSegments": [
+                                "Residential"
+                            ],
+                            "customerSegment": "Residential",
+                            "minimumPurchaseAmount": 0,
+                            "salesChannel": [
+                                "opus",
+                                "online"
+                            ]
+                        }
+                    ]
+                },
+                "conflictingOffers": [
+                    {
+                        "typeId": "offer",
+                        "id": "ec795d77-9d2a-4660-9f13-5df5845ba561",
+                        "key": "OF_BASE-XTRA-201811"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "2e8bf08d-bc7f-4a8c-8d5c-9161c852d593",
+                        "key": "OF_BASE-XTRA-201811-UN-PLAN_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "e890526a-20c1-4538-b0bd-b9af1306d9ec",
+                        "key": "OF_BASE-XTRA-201811-UN-PLAN"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "0dd67257-e98c-48f3-b053-29a2bf33e449",
+                        "key": "OF_BASE-XTRA-201811_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "0cfe1fe8-afb6-4e79-8cca-2e68fde178b2",
+                        "key": "OF_BASE-OPTIMOMAS-122018"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "52d12518-fe55-4306-a212-ee213cdf5b67",
+                        "key": "OF_BASE-OPTIMOMAS-122018_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "e7885b62-556e-453d-a593-7bbc3966e542",
+                        "key": "OF_BASE-ENTERTAINMENT-201811-UN-PLAN_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "b3f206aa-8bdc-4f25-adcb-0ccea27d69af",
+                        "key": "OF_BASE-ENTERTAINMENT-201811-UN-PLAN_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "02512350-295d-4f99-a837-b10bef3e988c",
+                        "key": "OF_BASE-ULTIMATE-201811_EMPLOYEE_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "9d507205-2f89-4314-9825-005711078914",
+                        "key": "OF_BASE-ULTIMATE-201811_EMPLOYEE_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "4bf7d600-0224-4431-bedb-470937f6830f",
+                        "key": "OF_BASE-ULTIMATE-201811-UN-PLAN_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "600cca38-0d83-4825-b7b7-7291e703cc1f",
+                        "key": "OF_BASE-ULTIMATE-201811-UN-PLAN_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "c53ac210-a179-4226-ad34-34a03b7881c8",
+                        "key": "OF_BASE-CHOICE-201811-UN-PLAN_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "8b95568f-456f-4b32-9ce8-70684e8564e1",
+                        "key": "OF_BASE-CHOICE-201811-UN-PLAN_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "89f0350e-8374-4daf-9b94-c0c6e2c85da9",
+                        "key": "OF_BASE-OPTIMOMAS-122018-UN-PLAN_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "f450fcc0-3890-4c84-9e28-19eb92900086",
+                        "key": "OF_BASE-OPTIMOMAS-122018-UN-PLAN_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "662e952f-af9d-4b2d-a848-6a8e407b95a6",
+                        "key": "OF_BASE-XTRA-201811-UN-PLAN_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "87dae60c-2e45-4742-809d-566a82e271fb",
+                        "key": "OF_BASE-ENTERTAINMENT-201811_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "6b4d9456-54df-49d3-9b68-7d1128aa7a4a",
+                        "key": "OF_BASE-ENTERTAINMENT-201811"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "decb8c9e-348a-4170-b08a-8a7e4a475488",
+                        "key": "OF_BASE-ENTERTAINMENT-201811-UN-PLAN_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "359ea985-2a28-43e8-ab99-188d89252303",
+                        "key": "OF_BASE-ENTERTAINMENT-201811-UN-PLAN"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "27c8f9f4-8348-49a5-b830-ac2bff1fd240",
+                        "key": "OF_BASE-ULTIMATE-201811_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "6ba20f0a-c98b-4ec8-8450-187b83f61be5",
+                        "key": "OF_BASE-ULTIMATE-201811"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "6b5ed771-f05b-4bde-9faf-07202aebd700",
+                        "key": "OF_BASE-ULTIMATE-201811-UN-PLAN_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "6a69fd21-91e1-4ee9-aa52-768cc0a8ec5c",
+                        "key": "OF_BASE-ULTIMATE-201811-UN-PLAN"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "827261aa-d880-4f64-9c9d-add8635df493",
+                        "key": "OF_BASE-CHOICE-201811-UN-PLAN_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "34e14900-f771-439e-8804-e20eecaade3f",
+                        "key": "OF_BASE-CHOICE-201811-UN-PLAN"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "6e50103a-963a-42e3-b434-a63e55d25213",
+                        "key": "OF_BASE-CHOICE-201811_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "01c40f71-ca87-4ae3-a628-15fc0e789ab1",
+                        "key": "OF_BASE-CHOICE-201811"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "eecda8f8-55e1-4586-9028-b6837faf6d31",
+                        "key": "OF_BASE-OPTIMOMAS-122018-UN-PLAN_contract"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "fa4d6d4a-956a-4f18-9496-4ec1f15e7134",
+                        "key": "OF_BASE-OPTIMOMAS-122018-UN-PLAN"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "d95e449d-1662-402a-ae68-125a98cab523",
+                        "key": "OF_BASE-ULTIMATE-201811_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "1b9b2f2b-4d59-4997-8b6a-fcdfc1b3d742",
+                        "key": "OF_BASE-XTRA-201811-UN-PLAN_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "f6bbace9-ac02-4498-a73f-eb9845d230d5",
+                        "key": "OF_BASE-ENTERTAINMENT-201811_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "ef806a8b-6e60-40af-903a-b7ad83b9f1c2",
+                        "key": "OF_BASE-OPTIMOMAS-122018_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "2852f823-7ec2-4f67-a1f2-eb3f51af38b4",
+                        "key": "OF_BASE-OPTIMOMAS-122018_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "6431cb90-b6e9-4f8e-83c9-fecc7aff9aef",
+                        "key": "OF_BASE-CHOICE-201811_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "08e1b697-1474-4c92-8c07-80823ee26420",
+                        "key": "OF_BASE-ULTIMATE-201811_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "30ccb709-0850-45ea-8934-2239323417cd",
+                        "key": "OF_BASE-XTRA-201811_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "a6e4482e-80e6-4650-a63b-2156dac50abf",
+                        "key": "OF_BASE-ENTERTAINMENT-201811_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "465977bc-96b3-491b-9b82-97bd05d21f91",
+                        "key": "OF_BASE-XTRA-201811_contract_01"
+                    },
+                    {
+                        "typeId": "offer",
+                        "id": "c58df5bd-653f-4233-8b65-4053429d6e7d",
+                        "key": "OF_BASE-CHOICE-201811_contract_01"
+                    }
+                ],
+                "offerPromos": [
+                    [
+                        {
+                            "value": "50%OFFPROD",
+                            "name": "promoId"
+                        },
+                        {
+                            "value": "10/10/2018",
+                            "name": "startDateStr"
+                        },
+                        {
+                            "value": "10/27/2018",
+                            "name": "endDateStr"
+                        }
+                    ],
+                    [
+                        {
+                            "value": "50OFF",
+                            "name": "promoId"
+                        },
+                        {
+                            "value": "10/10/2018",
+                            "name": "startDateStr"
+                        },
+                        {
+                            "value": "10/27/2018",
+                            "name": "endDateStr"
+                        }
+                    ],
+                    [
+                        {
+                            "value": "50%2MONAL",
+                            "name": "promoId"
+                        },
+                        {
+                            "value": "10/10/2018",
+                            "name": "startDateStr"
+                        },
+                        {
+                            "value": "10/27/2018",
+                            "name": "endDateStr"
+                        }
+                    ],
+                    [
+                        {
+                            "value": "1MPOFFNEW",
+                            "name": "promoId"
+                        },
+                        {
+                            "value": "10/10/2018",
+                            "name": "startDateStr"
+                        },
+                        {
+                            "value": "10/27/2018",
+                            "name": "endDateStr"
+                        }
+                    ],
+                    [
+                        {
+                            "value": "2MONFALL",
+                            "name": "promoId"
+                        },
+                        {
+                            "value": "10/10/2018",
+                            "name": "startDateStr"
+                        },
+                        {
+                            "value": "10/27/2018",
+                            "name": "endDateStr"
+                        }
+                    ],
+                    [
+                        {
+                            "value": "NWVIET07",
+                            "name": "promoId"
+                        },
+                        {
+                            "value": "09/26/2018",
+                            "name": "startDateStr"
+                        },
+                        {
+                            "value": "12/31/9999",
+                            "name": "endDateStr"
+                        }
+                    ],
+                    [
+                        {
+                            "value": "GP3MON",
+                            "name": "promoId"
+                        },
+                        {
+                            "value": "10/10/2018",
+                            "name": "startDateStr"
+                        },
+                        {
+                            "value": "10/27/2018",
+                            "name": "endDateStr"
+                        }
+                    ]
+                ],
+                "leadOffer": false,
+                "contractIndicator": "non-contract",
+                "isVirtual": false,
+                "flashSaleOffer": false
+            }
+        }
+    ]
+}

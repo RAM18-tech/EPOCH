@@ -1,0 +1,57 @@
+{
+    "limit": 50,
+    "offset": 0,
+    "count": 1,
+    "total": 1,
+    "benefits": [
+        {
+            "billingBenefitCode": "DIRECTV100",
+            "beneficiaryProductFamily": "satellite",
+            "contractIndicator": "non-contract",
+            "saleschannels": [
+                "online"
+            ],
+            "benefitDisplayName": {
+                "en": "$100 VISA Reward Card (Requires Redemption)"
+            },
+            "isCouponPromo": true,
+            "period": "LifeTime",
+            "benefitCategory": "Product",
+            "customerClassification": "New Customer",
+            "isMigrated": false,
+            "benefitType": "reward",
+            "parentOffers": [
+                {
+                    "typeId": "product",
+                    "id": "975386a9-c294-4e53-8d61-af103efabb2b",
+                    "key": "OF_REWARD-DIRECTV100_satellite",
+                    "productType": "campaign"
+                }
+            ],
+            "benefitLevel": "product",
+            "id": "7b2c9ef0-5213-4638-aab3-1b265312ee3c",
+            "version": 18,
+            "code": "DIRECTV100",
+            "rtpIndicator": false,
+            "benefitName": {
+                "en": "$100 VISA Reward Card (Requires Redemption)"
+            },
+            "description": {
+                "en": "$100 VISA Reward Card (Requires Redemption)"
+            },
+            "startDate": "2024-08-01T07:00:00.000Z",
+            "endDate": "2050-12-31T23:59:00.000Z",
+            "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 0,
+                "fractionDigits": 2
+            },
+            "isQuotaBased": false,
+            "isActive": false,
+            "applicableProducts": [
+                {}
+            ]
+        }
+    ]
+}

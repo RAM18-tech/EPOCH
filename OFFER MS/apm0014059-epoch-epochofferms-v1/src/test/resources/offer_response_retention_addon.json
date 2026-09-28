@@ -1,0 +1,1303 @@
+{
+    "limit": 150,
+    "offset": 0,
+    "count": 1,
+    "total": 1,
+    "offers": [
+        {
+            "id": "599e6abf-0ae8-4e4c-b051-05eedb2c2092",
+            "code": "OF_BOLTON-MLB-EXTRA-INNINGS-2024-V12_satellite",
+            "name": {
+                "en": "2024 MLB Extra Innings Loyalty Gift"
+            },
+            "description": {
+                "en": "2024 MLB Extra Innings Loyalty Gift"
+            },
+            "startDate": "2024-06-09T07:00:00.000Z",
+            "endDate": "2050-12-31T00:00:00.000Z",
+            "attributes": {
+                "offerProductType": "video-addon",
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerProductFamily": "satellite",
+                "offerProductFamilies": [
+                    "satellite"
+                ],
+                "offerStatus": "Active",
+                "offerType": "multi-benefit",
+                "offerActionType": "Retention",
+                "offerActionTypes": [
+                    "Retention"
+                ],
+                "rank": "300",
+                "displayName": {
+                    "en": "2024 MLB Extra Innings Loyalty Gift"
+                },
+                "termsAndConditions": {
+                    "en": "Offers available to select customers only and is non-transferable. Customer must be an active DIRECTV account holder in good standing. Accounts placed on hold at the request of the account holder and accounts which are suspended are ineligible for offers during hold or suspend period. Any offers made ineligible during hold or suspend period will not be applied to future bills."
+                },
+                "billingId": "36",
+                "billingCode": "R121194",
+                "migratedOffer": false,
+                "associatedProducts": [
+                    {
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "productTypes": [
+                                        "video-addon"
+                                    ],
+                                    "productStatus": "Active",
+                                    "productState": "New",
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "70161d7b-7a39-4bba-ac9e-2e9f11673efa",
+                                        "typeId": "product",
+                                        "obj": {
+                                            "id": "70161d7b-7a39-4bba-ac9e-2e9f11673efa",
+                                            "code": "BOLTON-MLB-EXTRA-INNINGS-2024_satellite",
+                                            "productType": {
+                                                "typeId": "product-type",
+                                                "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                                                "key": "video-addon"
+                                            },
+                                            "name": {
+                                                "en": "MLB EXTRA INNINGS 2024"
+                                            },
+                                            "description": {
+                                                "en": "Enjoy up to 90 out-of-market games a week, including up to 99% of those in HD. Plus, you also get access to games on your phone, tablet or computer through MLB.tv, now included in your subscription."
+                                            },
+                                            "categories": [],
+                                            "variants": [
+                                                {
+                                                    "id": "1",
+                                                    "sku": "R121194",
+                                                    "key": "R121194",
+                                                    "prices": [
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 15000,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 150
+                                                            },
+                                                            "id": "42eafd17-6257-409d-96eb-7150f7eecbc3",
+                                                            "startDate": "2024-02-07T08:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 1,
+                                                            "period": "month",
+                                                            "billingReferenceId": "41",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "01",
+                                                            "fullSeasonValue": {
+                                                                "centAmount": 15000,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 150
+                                                            },
+                                                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDU,MDD,MDL,JCD,TCD,TMU,TMW,JMU,QST,VZN,BLS,DAE,MTL,PTR,SWB,ATT,CenturyLink,residential",
+                                                            "chargeType": "nrc",
+                                                            "numberOfPayments": 1,
+                                                            "omsProductId": "10072110",
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 2500,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 25
+                                                            },
+                                                            "id": "7ee9f224-600f-406f-852f-f14314612665",
+                                                            "startDate": "2024-02-07T08:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 6,
+                                                            "period": "month",
+                                                            "billingReferenceId": "46",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "02",
+                                                            "fullSeasonValue": {
+                                                                "centAmount": 15000,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 150
+                                                            },
+                                                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDU,MDD,MDL,JCD,TCD,TMU,TMW,JMU,QST,VZN,BLS,DAE,MTL,PTR,SWB,ATT,CenturyLink,residential",
+                                                            "chargeType": "nrc",
+                                                            "numberOfPayments": 6,
+                                                            "omsProductId": "10072111",
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 9500,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 95
+                                                            },
+                                                            "id": "cf40f352-65b9-4a17-aab3-594b15f6a6d2",
+                                                            "startDate": "2024-07-01T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 1,
+                                                            "period": "month",
+                                                            "billingReferenceId": "61",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "03",
+                                                            "midSeasonValue": {
+                                                                "centAmount": 9500,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 95
+                                                            },
+                                                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDU,MDD,MDL,JCD,TCD,TMU,TMW,JMU,QST,VZN,BLS,DAE,MTL,PTR,SWB,ATT,CenturyLink,residential",
+                                                            "chargeType": "nrc",
+                                                            "numberOfPayments": 1,
+                                                            "omsProductId": "10072114",
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 2375,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 23.75
+                                                            },
+                                                            "id": "4fd0e607-9a53-4101-9fa4-9ca49a842a27",
+                                                            "startDate": "2024-07-01T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 4,
+                                                            "period": "month",
+                                                            "billingReferenceId": "64",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "04",
+                                                            "midSeasonValue": {
+                                                                "centAmount": 9500,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 95
+                                                            },
+                                                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDU,MDD,MDL,JCD,TCD,TMU,TMW,JMU,QST,VZN,BLS,DAE,MTL,PTR,SWB,ATT,CenturyLink,residential",
+                                                            "chargeType": "nrc",
+                                                            "numberOfPayments": 4,
+                                                            "omsProductId": "10072115",
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 12000,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 120
+                                                            },
+                                                            "id": "a06ab8e5-0ff1-4b41-bd85-7b117efd7900",
+                                                            "startDate": "2023-06-01T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 1,
+                                                            "period": "month",
+                                                            "billingReferenceId": "51",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "05",
+                                                            "fullSeasonValue": {
+                                                                "centAmount": 12000,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 120
+                                                            },
+                                                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDU,MDD,MDL,JCD,TCD,TMU,TMW,JMU,QST,VZN,BLS,DAE,MTL,PTR,SWB,ATT,CenturyLink",
+                                                            "chargeType": "nrc",
+                                                            "numberOfPayments": 1,
+                                                            "omsProductId": "10072112",
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 2400,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 24
+                                                            },
+                                                            "id": "76032df7-c5b1-4a12-b95c-6c47f8189028",
+                                                            "startDate": "2023-06-01T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 5,
+                                                            "period": "month",
+                                                            "billingReferenceId": "55",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "06",
+                                                            "fullSeasonValue": {
+                                                                "centAmount": 12000,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 120
+                                                            },
+                                                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDU,MDD,MDL,JCD,TCD,TMU,TMW,JMU,QST,VZN,BLS,DAE,MTL,PTR,SWB,ATT,CenturyLink",
+                                                            "chargeType": "nrc",
+                                                            "numberOfPayments": 5,
+                                                            "omsProductId": "10072872",
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 15000,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 150
+                                                            },
+                                                            "id": "6fdfdfcd-201b-419d-9edc-7e4011dab53b",
+                                                            "startDate": "2024-02-07T08:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 1,
+                                                            "period": "month",
+                                                            "billingReferenceId": "11",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "07",
+                                                            "fullSeasonValue": {
+                                                                "centAmount": 15000,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 150
+                                                            },
+                                                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDU,MDD,MDL,JCD,TCD,TMU,TMW,JMU,QST,VZN,BLS,DAE,MTL,PTR,SWB,ATT,CenturyLink,residential",
+                                                            "chargeType": "nrc",
+                                                            "numberOfPayments": 1,
+                                                            "omsProductId": "10072572",
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 2500,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 25
+                                                            },
+                                                            "id": "768ab6f0-9212-4cee-b384-163a56974a5f",
+                                                            "startDate": "2024-02-07T08:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 6,
+                                                            "period": "month",
+                                                            "billingReferenceId": "16",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "08",
+                                                            "fullSeasonValue": {
+                                                                "centAmount": 15000,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 150
+                                                            },
+                                                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDU,MDD,MDL,JCD,TCD,TMU,TMW,JMU,QST,VZN,BLS,DAE,MTL,PTR,SWB,ATT,CenturyLink,residential",
+                                                            "chargeType": "nrc",
+                                                            "numberOfPayments": 6,
+                                                            "omsProductId": "10072573",
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 0
+                                                            },
+                                                            "id": "69377564-ee1b-43e9-a68a-7416ef47a450",
+                                                            "startDate": "2024-02-07T08:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 1,
+                                                            "period": "month",
+                                                            "billingReferenceId": "900",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "09",
+                                                            "fullSeasonValue": {
+                                                                "centAmount": 0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 0
+                                                            },
+                                                            "chargeType": "nrc",
+                                                            "numberOfPayments": 1,
+                                                            "omsProductId": "10072574",
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 0
+                                                            },
+                                                            "id": "d983ff48-4aa7-42be-80bb-f4b61b6c7e04",
+                                                            "startDate": "2024-02-07T08:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 1,
+                                                            "period": "month",
+                                                            "billingReferenceId": "990",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "10",
+                                                            "fullSeasonValue": {
+                                                                "centAmount": 0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 0
+                                                            },
+                                                            "businessSegment": "AIR,BAR,BLK,BLS,FIR,HOS,MDU,MTL,PCO,PCR,POL,PTR,QST,REG,STA,SWB,TMU,VIE,VIP,VPA,VZN",
+                                                            "chargeType": "nrc",
+                                                            "numberOfPayments": 1,
+                                                            "omsProductId": "10072575",
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 0
+                                                            },
+                                                            "id": "712ae4d8-e64d-43e0-9aba-1b25bdf3a91a",
+                                                            "startDate": "2024-02-07T08:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 1,
+                                                            "period": "month",
+                                                            "billingReferenceId": "102",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "11",
+                                                            "fullSeasonValue": {
+                                                                "centAmount": 0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 0
+                                                            },
+                                                            "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,JDU,MDU,MDD,MDL,QST,VZN,BLS,DAE,MTL,PTR,SWB,ATT,CenturyLink",
+                                                            "chargeType": "nrc",
+                                                            "numberOfPayments": 1,
+                                                            "omsProductId": "10072873",
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 2333,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 23.33
+                                                            },
+                                                            "id": "b402fcfe-c5a5-4afb-bcfb-afa2623a5cd1",
+                                                            "startDate": "2024-05-01T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 3,
+                                                            "period": "month",
+                                                            "billingReferenceId": "83",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "12",
+                                                            "fullSeasonValue": {
+                                                                "centAmount": 6999,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 69.99
+                                                            },
+                                                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,JDU,MDU,MDD,MDL,JCD,TCD,TMU,TMW,QST,VZN,BLS,DAE,MTL,PTR,SWB,FRP,ATT,CenturyLink",
+                                                            "chargeType": "nrc",
+                                                            "numberOfPayments": 3,
+                                                            "omsProductId": "10073609",
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 0
+                                                            },
+                                                            "id": "08b26113-6dc8-4051-98c8-d1f8e9c1036a",
+                                                            "startDate": "2024-05-24T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 5,
+                                                            "period": "month",
+                                                            "billingReferenceId": "35",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "13",
+                                                            "midSeasonValue": {
+                                                                "centAmount": 0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 0
+                                                            },
+                                                            "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,MBL,JDU,MDU,MDD,MDL,QST,VZN,BLS,DAE,MTL,PTR,SWB,FRP,ATT,CenturyLink",
+                                                            "chargeType": "nrc",
+                                                            "numberOfPayments": 1,
+                                                            "omsProductId": "10073985",
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 0
+                                                            },
+                                                            "id": "60618709-ba9c-4a9c-82e8-f41e9197da03",
+                                                            "startDate": "2024-06-09T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "period": "month",
+                                                            "billingReferenceId": "36",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "14",
+                                                            "midSeasonValue": {
+                                                                "centAmount": 0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 0
+                                                            },
+                                                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,MBL,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,VEN,JCD,JDU,JMU,MDD,MDL,MDU,TCD,TMU,TMW",
+                                                            "chargeType": "nrc",
+                                                            "numberOfPayments": 1,
+                                                            "omsProductId": "10074321",
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        }
+                                                    ],
+                                                    "attributes": {
+                                                        "displayName": {
+                                                            "en": "2024 MLB EXTRA INNINGS"
+                                                        },
+                                                        "displayRanking": 300,
+                                                        "displayNamesByKey": {},
+                                                        "descriptionsByKey": {},
+                                                        "billingProductCode": "R121194",
+                                                        "billingCode": "R121194",
+                                                        "startDate": "2024-02-07T08:00:00.000Z",
+                                                        "endDate": "2024-09-30T06:59:00.000Z",
+                                                        "businessSegment": [
+                                                            "MDU",
+                                                            "CONS"
+                                                        ],
+                                                        "salesChannel": [
+                                                            "opusServices",
+                                                            "opusSales",
+                                                            "onlineServices",
+                                                            "onlineSales",
+                                                            "opus",
+                                                            "online"
+                                                        ],
+                                                        "productFamily": "satellite",
+                                                        "planSubType": "Sports",
+                                                        "language": "English",
+                                                        "productStatus": "Active",
+                                                        "contractApplicable": "noncontract",
+                                                        "contractIndicator": [
+                                                            "non-contract"
+                                                        ],
+                                                        "subCategory": "Sports",
+                                                        "omsComponentMapping": [
+                                                            {
+                                                                "attributes": [
+                                                                    {
+                                                                        "attributeCode": "DTgenrePackage",
+                                                                        "attributeValue": "DME24N"
+                                                                    }
+                                                                ],
+                                                                "componentCode": "DME24N",
+                                                                "operationName": "MOORequest,PUSPO1Request",
+                                                                "componentPath": "ATTDTV|DME24N"
+                                                            }
+                                                        ],
+                                                        "customerSegments": [
+                                                            "Residential"
+                                                        ],
+                                                        "isPickService": false,
+                                                        "isAutoRenewable": true,
+                                                        "migratedProduct": false,
+                                                        "orderingMethod": "addToCart",
+                                                        "enablerPricePlanCode": "89074743",
+                                                        "tokens": "BOLTON-MLB-EXTRA-INNINGS",
+                                                        "chargeCode": "DME24N",
+                                                        "isWorldDirect": false,
+                                                        "isETFRequired": false,
+                                                        "isRemovable": true,
+                                                        "billingParams": [
+                                                            {
+                                                                "value": "DME24N",
+                                                                "name": "DTgenrePackage"
+                                                            }
+                                                        ],
+                                                        "enablerATGProductId": "prod12030224",
+                                                        "enablerATGSkuId": "sku11610226",
+                                                        "disclosureMessagesByKey": {},
+                                                        "contentChannelId": "5721",
+                                                        "productImages": "/dtvassets/sales/directv/logos/add-ons/mlbextrainnings-c.svg",
+                                                        "incompatibleProducts": [
+                                                            [
+                                                                {
+                                                                    "name": "products",
+                                                                    "value": [
+                                                                        {
+                                                                            "id": "bc703a92-66ef-4800-bd38-a3b2ff0c4a3b",
+                                                                            "typeId": "product"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        ],
+                                                        "doNotAutoRenewBillingProductCode": "R1154",
+                                                        "doNotAutoRenewBillingReferenceId": "14",
+                                                        "nonRefundDate": "2024-04-03T23:59:00.000Z"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "productType": "video-addon",
+                                        "key": "BOLTON-MLB-EXTRA-INNINGS-2024_satellite"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "benefits": [],
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "salesChannel": [
+                                "opusServices",
+                                "opusSales",
+                                "opus",
+                                "onlineServices",
+                                "onlineSales",
+                                "online"
+                            ],
+                            "eligibleAccountStatus": "ACTV,PSUS,PDIS",
+                            "existingCustomerType": [
+                                "Satellite"
+                            ]
+                        }
+                    ]
+                },
+                "leadOffer": false,
+                "contractIndicator": "non-contract",
+                "nonStackableCodes": "R121194",
+                "rtpRtcIndicator": "RTC",
+                "c3OfferId": "VRTN-MLB-FREE-2024-V2",
+                "enablerSalesOfferId": "DTV_2024_MLB_EXTRA_INNINGS_ONLINE_LOYALTY_GIFT_OC",
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "recommendedOfferOPUS": false,
+                "billingSystem": "stms",
+                "recommendedOnline": false,
+                "isVirtual": false,
+                "flashSaleOffer": false,
+                "isBulkOffer": false,
+                "isSpecialOffer": false
+            }
+        }        
+    ],
+    "products": [
+        {
+            "id": "70161d7b-7a39-4bba-ac9e-2e9f11673efa",
+            "code": "BOLTON-MLB-EXTRA-INNINGS-2024_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                "key": "video-addon"
+            },
+            "name": {
+                "en": "MLB EXTRA INNINGS 2024"
+            },
+            "description": {
+                "en": "Enjoy up to 90 out-of-market games a week, including up to 99% of those in HD. Plus, you also get access to games on your phone, tablet or computer through MLB.tv, now included in your subscription."
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "sku": "R121194",
+                    "key": "R121194",
+                    "prices": [
+                        {
+                            "value": {
+                                "centAmount": 15000,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 150
+                            },
+                            "id": "42eafd17-6257-409d-96eb-7150f7eecbc3",
+                            "startDate": "2024-02-07T08:00:00.000Z",
+                            "endDate": "2050-12-31T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 1,
+                            "period": "month",
+                            "billingReferenceId": "41",
+                            "gfVersion": 0,
+                            "customerGroup": "01",
+                            "fullSeasonValue": {
+                                "centAmount": 15000,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 150
+                            },
+                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDU,MDD,MDL,JCD,TCD,TMU,TMW,JMU,QST,VZN,BLS,DAE,MTL,PTR,SWB,ATT,CenturyLink,residential",
+                            "chargeType": "nrc",
+                            "numberOfPayments": 1,
+                            "omsProductId": "10072110",
+                            "channel": "non-contracted",
+                            "grandfathered": false,
+                            "contracted": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 2500,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 25
+                            },
+                            "id": "7ee9f224-600f-406f-852f-f14314612665",
+                            "startDate": "2024-02-07T08:00:00.000Z",
+                            "endDate": "2050-12-31T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 6,
+                            "period": "month",
+                            "billingReferenceId": "46",
+                            "gfVersion": 0,
+                            "customerGroup": "02",
+                            "fullSeasonValue": {
+                                "centAmount": 15000,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 150
+                            },
+                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDU,MDD,MDL,JCD,TCD,TMU,TMW,JMU,QST,VZN,BLS,DAE,MTL,PTR,SWB,ATT,CenturyLink,residential",
+                            "chargeType": "nrc",
+                            "numberOfPayments": 6,
+                            "omsProductId": "10072111",
+                            "channel": "non-contracted",
+                            "grandfathered": false,
+                            "contracted": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 9500,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 95
+                            },
+                            "id": "cf40f352-65b9-4a17-aab3-594b15f6a6d2",
+                            "startDate": "2024-07-01T07:00:00.000Z",
+                            "endDate": "2050-12-31T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 1,
+                            "period": "month",
+                            "billingReferenceId": "61",
+                            "gfVersion": 0,
+                            "customerGroup": "03",
+                            "midSeasonValue": {
+                                "centAmount": 9500,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 95
+                            },
+                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDU,MDD,MDL,JCD,TCD,TMU,TMW,JMU,QST,VZN,BLS,DAE,MTL,PTR,SWB,ATT,CenturyLink,residential",
+                            "chargeType": "nrc",
+                            "numberOfPayments": 1,
+                            "omsProductId": "10072114",
+                            "channel": "non-contracted",
+                            "grandfathered": false,
+                            "contracted": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 2375,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 23.75
+                            },
+                            "id": "4fd0e607-9a53-4101-9fa4-9ca49a842a27",
+                            "startDate": "2024-07-01T07:00:00.000Z",
+                            "endDate": "2050-12-31T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 4,
+                            "period": "month",
+                            "billingReferenceId": "64",
+                            "gfVersion": 0,
+                            "customerGroup": "04",
+                            "midSeasonValue": {
+                                "centAmount": 9500,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 95
+                            },
+                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDU,MDD,MDL,JCD,TCD,TMU,TMW,JMU,QST,VZN,BLS,DAE,MTL,PTR,SWB,ATT,CenturyLink,residential",
+                            "chargeType": "nrc",
+                            "numberOfPayments": 4,
+                            "omsProductId": "10072115",
+                            "channel": "non-contracted",
+                            "grandfathered": false,
+                            "contracted": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 12000,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 120
+                            },
+                            "id": "a06ab8e5-0ff1-4b41-bd85-7b117efd7900",
+                            "startDate": "2023-06-01T07:00:00.000Z",
+                            "endDate": "2050-12-31T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 1,
+                            "period": "month",
+                            "billingReferenceId": "51",
+                            "gfVersion": 0,
+                            "customerGroup": "05",
+                            "fullSeasonValue": {
+                                "centAmount": 12000,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 120
+                            },
+                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDU,MDD,MDL,JCD,TCD,TMU,TMW,JMU,QST,VZN,BLS,DAE,MTL,PTR,SWB,ATT,CenturyLink",
+                            "chargeType": "nrc",
+                            "numberOfPayments": 1,
+                            "omsProductId": "10072112",
+                            "channel": "non-contracted",
+                            "grandfathered": false,
+                            "contracted": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 2400,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 24
+                            },
+                            "id": "76032df7-c5b1-4a12-b95c-6c47f8189028",
+                            "startDate": "2023-06-01T07:00:00.000Z",
+                            "endDate": "2050-12-31T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 5,
+                            "period": "month",
+                            "billingReferenceId": "55",
+                            "gfVersion": 0,
+                            "customerGroup": "06",
+                            "fullSeasonValue": {
+                                "centAmount": 12000,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 120
+                            },
+                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDU,MDD,MDL,JCD,TCD,TMU,TMW,JMU,QST,VZN,BLS,DAE,MTL,PTR,SWB,ATT,CenturyLink",
+                            "chargeType": "nrc",
+                            "numberOfPayments": 5,
+                            "omsProductId": "10072872",
+                            "channel": "non-contracted",
+                            "grandfathered": false,
+                            "contracted": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 15000,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 150
+                            },
+                            "id": "6fdfdfcd-201b-419d-9edc-7e4011dab53b",
+                            "startDate": "2024-02-07T08:00:00.000Z",
+                            "endDate": "2050-12-31T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 1,
+                            "period": "month",
+                            "billingReferenceId": "11",
+                            "gfVersion": 0,
+                            "customerGroup": "07",
+                            "fullSeasonValue": {
+                                "centAmount": 15000,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 150
+                            },
+                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDU,MDD,MDL,JCD,TCD,TMU,TMW,JMU,QST,VZN,BLS,DAE,MTL,PTR,SWB,ATT,CenturyLink,residential",
+                            "chargeType": "nrc",
+                            "numberOfPayments": 1,
+                            "omsProductId": "10072572",
+                            "channel": "non-contracted",
+                            "grandfathered": false,
+                            "contracted": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 2500,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 25
+                            },
+                            "id": "768ab6f0-9212-4cee-b384-163a56974a5f",
+                            "startDate": "2024-02-07T08:00:00.000Z",
+                            "endDate": "2050-12-31T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 6,
+                            "period": "month",
+                            "billingReferenceId": "16",
+                            "gfVersion": 0,
+                            "customerGroup": "08",
+                            "fullSeasonValue": {
+                                "centAmount": 15000,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 150
+                            },
+                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDU,MDD,MDL,JCD,TCD,TMU,TMW,JMU,QST,VZN,BLS,DAE,MTL,PTR,SWB,ATT,CenturyLink,residential",
+                            "chargeType": "nrc",
+                            "numberOfPayments": 6,
+                            "omsProductId": "10072573",
+                            "channel": "non-contracted",
+                            "grandfathered": false,
+                            "contracted": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0
+                            },
+                            "id": "69377564-ee1b-43e9-a68a-7416ef47a450",
+                            "startDate": "2024-02-07T08:00:00.000Z",
+                            "endDate": "2050-12-31T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 1,
+                            "period": "month",
+                            "billingReferenceId": "900",
+                            "gfVersion": 0,
+                            "customerGroup": "09",
+                            "fullSeasonValue": {
+                                "centAmount": 0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0
+                            },
+                            "chargeType": "nrc",
+                            "numberOfPayments": 1,
+                            "omsProductId": "10072574",
+                            "channel": "non-contracted",
+                            "grandfathered": false,
+                            "contracted": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0
+                            },
+                            "id": "d983ff48-4aa7-42be-80bb-f4b61b6c7e04",
+                            "startDate": "2024-02-07T08:00:00.000Z",
+                            "endDate": "2050-12-31T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 1,
+                            "period": "month",
+                            "billingReferenceId": "990",
+                            "gfVersion": 0,
+                            "customerGroup": "10",
+                            "fullSeasonValue": {
+                                "centAmount": 0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0
+                            },
+                            "businessSegment": "AIR,BAR,BLK,BLS,FIR,HOS,MDU,MTL,PCO,PCR,POL,PTR,QST,REG,STA,SWB,TMU,VIE,VIP,VPA,VZN",
+                            "chargeType": "nrc",
+                            "numberOfPayments": 1,
+                            "omsProductId": "10072575",
+                            "channel": "non-contracted",
+                            "grandfathered": false,
+                            "contracted": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0
+                            },
+                            "id": "712ae4d8-e64d-43e0-9aba-1b25bdf3a91a",
+                            "startDate": "2024-02-07T08:00:00.000Z",
+                            "endDate": "2050-12-31T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 1,
+                            "period": "month",
+                            "billingReferenceId": "102",
+                            "gfVersion": 0,
+                            "customerGroup": "11",
+                            "fullSeasonValue": {
+                                "centAmount": 0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0
+                            },
+                            "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,JDU,MDU,MDD,MDL,QST,VZN,BLS,DAE,MTL,PTR,SWB,ATT,CenturyLink",
+                            "chargeType": "nrc",
+                            "numberOfPayments": 1,
+                            "omsProductId": "10072873",
+                            "channel": "non-contracted",
+                            "grandfathered": false,
+                            "contracted": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 2333,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 23.33
+                            },
+                            "id": "b402fcfe-c5a5-4afb-bcfb-afa2623a5cd1",
+                            "startDate": "2024-05-01T07:00:00.000Z",
+                            "endDate": "2050-12-31T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 3,
+                            "period": "month",
+                            "billingReferenceId": "83",
+                            "gfVersion": 0,
+                            "customerGroup": "12",
+                            "fullSeasonValue": {
+                                "centAmount": 6999,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 69.99
+                            },
+                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,JDU,MDU,MDD,MDL,JCD,TCD,TMU,TMW,QST,VZN,BLS,DAE,MTL,PTR,SWB,FRP,ATT,CenturyLink",
+                            "chargeType": "nrc",
+                            "numberOfPayments": 3,
+                            "omsProductId": "10073609",
+                            "channel": "non-contracted",
+                            "grandfathered": false,
+                            "contracted": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0
+                            },
+                            "id": "08b26113-6dc8-4051-98c8-d1f8e9c1036a",
+                            "startDate": "2024-05-24T07:00:00.000Z",
+                            "endDate": "2050-12-31T00:00:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 5,
+                            "period": "month",
+                            "billingReferenceId": "35",
+                            "gfVersion": 0,
+                            "customerGroup": "13",
+                            "midSeasonValue": {
+                                "centAmount": 0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0
+                            },
+                            "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,MBL,JDU,MDU,MDD,MDL,QST,VZN,BLS,DAE,MTL,PTR,SWB,FRP,ATT,CenturyLink",
+                            "chargeType": "nrc",
+                            "numberOfPayments": 1,
+                            "omsProductId": "10073985",
+                            "channel": "non-contracted",
+                            "grandfathered": false,
+                            "contracted": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0
+                            },
+                            "id": "60618709-ba9c-4a9c-82e8-f41e9197da03",
+                            "startDate": "2024-06-09T07:00:00.000Z",
+                            "endDate": "2050-12-31T00:00:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "period": "month",
+                            "billingReferenceId": "36",
+                            "gfVersion": 0,
+                            "customerGroup": "14",
+                            "midSeasonValue": {
+                                "centAmount": 0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0
+                            },
+                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,MBL,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,VEN,JCD,JDU,JMU,MDD,MDL,MDU,TCD,TMU,TMW",
+                            "chargeType": "nrc",
+                            "numberOfPayments": 1,
+                            "omsProductId": "10074321",
+                            "channel": "non-contracted",
+                            "grandfathered": false,
+                            "contracted": false
+                        }
+                    ],
+                    "attributes": {
+                        "displayName": {
+                            "en": "2024 MLB EXTRA INNINGS"
+                        },
+                        "displayRanking": 300,
+                        "displayNamesByKey": {},
+                        "descriptionsByKey": {},
+                        "billingProductCode": "R121194",
+                        "billingCode": "R121194",
+                        "startDate": "2024-02-07T08:00:00.000Z",
+                        "endDate": "2024-09-30T06:59:00.000Z",
+                        "businessSegment": [
+                            "MDU",
+                            "CONS"
+                        ],
+                        "salesChannel": [
+                            "opusServices",
+                            "opusSales",
+                            "onlineServices",
+                            "onlineSales",
+                            "opus",
+                            "online"
+                        ],
+                        "productFamily": "satellite",
+                        "planSubType": "Sports",
+                        "language": "English",
+                        "productStatus": "Active",
+                        "contractApplicable": "noncontract",
+                        "contractIndicator": [
+                            "non-contract"
+                        ],
+                        "subCategory": "Sports",
+                        "omsComponentMapping": [
+                            {
+                                "attributes": [
+                                    {
+                                        "attributeCode": "DTgenrePackage",
+                                        "attributeValue": "DME24N"
+                                    }
+                                ],
+                                "componentCode": "DME24N",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV|DME24N"
+                            }
+                        ],
+                        "customerSegments": [
+                            "Residential"
+                        ],
+                        "isPickService": false,
+                        "isAutoRenewable": true,
+                        "migratedProduct": false,
+                        "orderingMethod": "addToCart",
+                        "enablerPricePlanCode": "89074743",
+                        "tokens": "BOLTON-MLB-EXTRA-INNINGS",
+                        "chargeCode": "DME24N",
+                        "isWorldDirect": false,
+                        "isETFRequired": false,
+                        "isRemovable": true,
+                        "billingParams": [
+                            {
+                                "value": "DME24N",
+                                "name": "DTgenrePackage"
+                            }
+                        ],
+                        "enablerATGProductId": "prod12030224",
+                        "enablerATGSkuId": "sku11610226",
+                        "disclosureMessagesByKey": {},
+                        "contentChannelId": "5721",
+                        "productImages": "/dtvassets/sales/directv/logos/add-ons/mlbextrainnings-c.svg",
+                        "incompatibleProducts": [
+                            [
+                                {
+                                    "name": "products",
+                                    "value": [
+                                        {
+                                            "id": "bc703a92-66ef-4800-bd38-a3b2ff0c4a3b",
+                                            "typeId": "product"
+                                        }
+                                    ]
+                                }
+                            ]
+                        ],
+                        "doNotAutoRenewBillingProductCode": "R1154",
+                        "doNotAutoRenewBillingReferenceId": "14",
+                        "nonRefundDate": "2024-04-03T23:59:00.000Z"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "bc703a92-66ef-4800-bd38-a3b2ff0c4a3b",
+            "code": "BOLTON-MLB-EXTRA-INNINGS-2024-V3_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                "key": "video-addon"
+            },
+            "name": {
+                "en": "2024 MLB EXTRA INNINGS - Online Loyalty Gift"
+            },
+            "description": {
+                "en": "Enjoy up to 90 out-of-market games a week, including up to 99% of those in HD. Plus, you also get access to games on your phone, tablet or computer through MLB.tv, now included in your subscription."
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "sku": "89078033",
+                    "key": "89078033",
+                    "prices": [
+                        {
+                            "value": {
+                                "centAmount": 0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0
+                            },
+                            "id": "f56e560d-1d1c-44b7-818f-393e8ef062cc",
+                            "startDate": "2024-03-17T07:00:00.000Z",
+                            "endDate": "2050-12-31T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 1,
+                            "period": "month",
+                            "billingReferenceId": "41",
+                            "gfVersion": 0,
+                            "customerGroup": "01",
+                            "fullSeasonValue": {
+                                "centAmount": 0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0
+                            },
+                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDU,MDD,MDL,JCD,TCD,TMU,TMW,JMU,QST,VZN,BLS,DAE,MTL,PTR,SWB,ATT,CenturyLink,residential",
+                            "chargeType": "nrc",
+                            "numberOfPayments": 1,
+                            "channel": "non-contracted",
+                            "grandfathered": false,
+                            "contracted": false
+                        }
+                    ],
+                    "attributes": {
+                        "displayName": {
+                            "en": "2024 MLB EXTRA INNINGS - Online Loyalty Gift"
+                        },
+                        "displayRanking": 300,
+                        "displayNamesByKey": {},
+                        "descriptionsByKey": {},
+                        "billingProductCode": "89078033",
+                        "billingCode": "89078033",
+                        "startDate": "2024-03-17T07:00:00.000Z",
+                        "endDate": "2024-10-01T06:59:00.000Z",
+                        "businessSegment": [
+                            "CONS",
+                            "MDU"
+                        ],
+                        "salesChannel": [
+                            "opusServices",
+                            "opusSales",
+                            "onlineServices",
+                            "onlineSales",
+                            "opus",
+                            "online"
+                        ],
+                        "productFamily": "satellite",
+                        "planSubType": "Sports",
+                        "language": "English",
+                        "productStatus": "Active",
+                        "contractApplicable": "noncontract",
+                        "contractIndicator": [
+                            "non-contract"
+                        ],
+                        "subCategory": "Sports",
+                        "omsComponentMapping": [
+                            {
+                                "attributes": [
+                                    {
+                                        "attributeCode": "DTgenrePackage",
+                                        "attributeValue": "DMEO4N"
+                                    }
+                                ],
+                                "componentCode": "DMEO4N",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV|DMEO4N"
+                            }
+                        ],
+                        "customerSegments": [
+                            "Residential"
+                        ],
+                        "isPickService": false,
+                        "isAutoRenewable": true,
+                        "migratedProduct": false,
+                        "orderingMethod": "addToCart",
+                        "enablerPricePlanCode": "89078033",
+                        "tokens": "BOLTON-MLB-EXTRA-INNINGS",
+                        "chargeCode": "DMEO4N",
+                        "isWorldDirect": false,
+                        "isETFRequired": false,
+                        "isRemovable": true,
+                        "billingParams": [
+                            {
+                                "value": "DMEO4N",
+                                "name": "DTgenrePackage"
+                            }
+                        ],
+                        "disclosureMessagesByKey": {},
+                        "productImages": "/dtvassets/sales/directv/logos/add-ons/mlbextrainnings-c.svg",
+                        "incompatibleProducts": [
+                            [
+                                {
+                                    "name": "products",
+                                    "value": [
+                                        {
+                                            "id": "70161d7b-7a39-4bba-ac9e-2e9f11673efa",
+                                            "typeId": "product"
+                                        }
+                                    ]
+                                }
+                            ]
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

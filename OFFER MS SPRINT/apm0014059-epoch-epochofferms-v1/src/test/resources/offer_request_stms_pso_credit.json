@@ -1,0 +1,111 @@
+{
+    "contractIndicator": [
+        "non-contract"
+    ],
+    "customerEligibility": {
+        "zipCode": [
+            "00162"
+        ],
+        "county": [
+            "19000"
+        ]
+    },
+    "customerContext": {
+        "existingProductFamily": [
+            "satellite"
+        ],
+        "satellite": {
+            "products": [
+                {
+                    "billingProductCode": "P103351",
+                    "billingReferenceID": "1",
+                    "productType": "video-plan"
+                },
+                {
+                    "billingProductCode": "R0167",
+                    "billingReferenceID": "41",
+                    "productType": "video-addon"
+                },
+                {
+                    "billingProductCode": "R107436",
+                    "billingReferenceID": "41",
+                    "productType": "video-addon"
+                },
+                {
+                    "billingProductCode": "P2141",
+                    "billingReferenceID": "1",
+                    "productType": "video-addon"
+                },
+                {
+                    "manufacturer": "DIRECTV",
+                    "modelNumber": "HR44-200",
+                    "accessCardId": "002187890633",
+                    "accessCardStatus": "ACTV",
+                    "equipmentOwnership": "lease"
+                }
+            ],
+	    "existingPromotions": [
+                {
+                    "agreementId": "VAGR-STARZ-3MO-V13",
+                    "agreementPriceCode": 1,
+                    "offerId": "OF_PROMO_STARZ-3-MO-PICK_satellite",
+                    "offerType": "Retention",
+                    "status": "ACTIVE",
+                    "agreementStartDate": "09/13/2022",
+                    "agreementEndDate": "03/12/2023",
+					"recurringCreditAmount": 4,
+                    "products": [
+                        {
+                            "billingProductCode": "P2156"
+                        }
+                    ]
+                },
+                {
+                    "agreementId": "VAGR-CINEMAX-3MO-V13",
+                    "agreementPriceCode": 1,
+                    "offerId": "OF_PROMO_CINEMAX-3-MO-PICK_satellite",
+                    "offerType": "Retention",
+                    "status": "ACTIVE",
+                    "agreementStartDate": "08/29/2022",
+                    "agreementEndDate": "02/26/2023",
+					"recurringCreditAmount": 4,
+                    "products": [
+                        {
+                            "billingProductCode": "P2143"
+                        }
+                    ]
+                }
+            ],
+            "accountNumber": "171202181454689",
+            "isActive": true,
+            "retentionPromotionIndicator": false,
+            "freeTrialEligible": false,
+            "accountType": "Residential",
+            "nextBillingDate": "2022-10-30",
+            "businessSegment": "REG",
+            "nftvFlag": "Y",
+            "ftvCount": "4",			
+			"accountStatus": "ACTV",
+			"customerValue": "2",			
+			"acceptPaperlessBillEnrollment": false,
+			"acceptAutoBillPayEnrollment": false,
+			"activationDate": "2021-06-21",
+            "commissionStartDate": "2021-06-21"
+        }
+    },
+    "offerActionType": [
+        "Retention"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "salesChannel": [        
+        "online"
+    ],
+    "offerProductTypes": [
+        "credit"
+    ],
+    "billingProductCodes": [
+        "P2141"
+    ]
+}

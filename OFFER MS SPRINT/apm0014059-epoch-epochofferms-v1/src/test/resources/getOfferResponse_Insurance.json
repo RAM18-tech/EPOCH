@@ -1,0 +1,762 @@
+{
+    "content": {
+        "limit": 0,
+        "offset": 0,
+        "count": 4,
+        "total": 4,
+        "offers": [
+            {
+                "id": "fc8fd895-5728-4b1f-a49a-3e32ce36fd4b",
+                "code": "OF_INSURANCE-PROTECTION-PLAN-V1_satellite",
+                "status": "live",
+                "name": {
+                    "en": "PROTECTION PLAN"
+                },
+                "description": {
+                    "en": "Choose from three Protection Plans: With the DIRECTV&trade; PROTECTION PLAN you may be able to receive an upgrade to our latest technology every two years. We will also repair or replace the components of your DIRECTV System&reg; – from the dish to the receiver – that fail as a result of accidental damage from handling DIRECTV&trade; PROTECTION PLAN PREMIER covers everything in the basic plan plus your TVs, computers, and tablets. DIRECTV&trade; PROTECTION PLAN PREMIER with ADH includes everything in DIRECTV&trade; PROTECTION PLAN PREMIER plus additional protection against accidental damage and handling for your laptops and tablets."
+                },
+                "startDate": "2003-08-25T18:30:00.000Z",
+                "endDate": "2050-12-31T08:00:00.000Z",
+                "attributes": {
+                    "offerProductType": "insurance",
+                    "offerProductTypes": [
+                        "insurance"
+                    ],
+                    "offerProductFamily": "satellite",
+                    "offerProductFamilies": [
+                        "satellite"
+                    ],
+                    "offerStatus": "Active",
+                    "offerType": "multi-benefit",
+                    "offerActionType": "Other",
+                    "offerActionTypes": [
+                        "Other",
+                        "Downgrade",
+                        "Upgrade",
+                        "Acquisition"
+                    ],
+                    "rank": "510",
+                    "displayName": {
+                        "en": "PROTECTION PLAN"
+                    },
+                    "disclaimer": {
+                        "en": "Are you sure you want to activate (coverage and billing will be begin after 30 days)?"
+                    },
+                    "termsAndConditions": {
+                        "en": "By subscribing you will be billed $8.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+                    },
+                    "billingId": "106",
+                    "billingCode": "B2072",
+                    "migratedOffer": false,
+                    "associatedProducts": [
+                        {
+                            "qualifyingProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "satellite",
+                                        "dependent": false,
+                                        "anchor": false
+                                    }
+                                }
+                            ],
+                            "bundleProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "satellite",
+                                        "productTypes": [
+                                            "insurance"
+                                        ],
+                                        "productState": "New",
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "371f9b94-c985-40ec-ba9a-6e2d0b276d96",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "371f9b94-c985-40ec-ba9a-6e2d0b276d96",
+                                                "code": "INSURANCE-PROTECTION-PLAN_satellite",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "b724f25f-eed5-41b8-9723-595f25ca5012",
+                                                    "key": "insurance"
+                                                },
+                                                "name": {
+                                                    "en": "PROTECTION PLAN"
+                                                },
+                                                "description": {
+                                                    "en": "Get protection for all your DIRECTV&trade; devices plus an equipment upgrade every 2 years (with a renewed 24-month agreement). You'll also get access to 24/7 phone support and convenient repair service."
+                                                },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "sku": "B2072_1",
+                                                        "key": "B2072_1",
+                                                        "prices": [
+                                                            {
+                                                                "value": {
+                                                                    "centAmount": 899.0,
+                                                                    "currencyCode": "USD",
+                                                                    "fractionDigits": 2,
+                                                                    "dollarAmount": 8.99
+                                                                },
+                                                                "id": "ea6a92da-2af0-4ba8-b765-539a257a0a4c",
+                                                                "startDate": "2003-08-25T18:30:00.000Z",
+                                                                "endDate": "2050-12-31T18:29:00.000Z",
+                                                                "recurrenceIndicator": false,
+                                                                "duration": 0,
+                                                                "period": "month",
+                                                                "billingReferenceId": "106",
+                                                                "gfVersion": 0,
+                                                                "businessSegment": "VPA,RVB,DAE,VIP,PTR,FRP,GME,SWB,BLS,QST,PCR,CSH,PCO,REG,VZN",
+                                                                "contracted": false,
+                                                                "grandfathered": false
+                                                            }
+                                                        ],
+                                                        "attributes": {
+                                                            "displayName": {
+                                                                "en": "PROTECTION PLAN"
+                                                            },
+                                                            "displayRanking": 510,
+                                                            "billingProductCode": "B2072",
+                                                            "billingCode": "B2072",
+                                                            "productFamily": "satellite",
+                                                            "productStatus": "Active",
+                                                            "customerSegments": [
+                                                                "Residential"
+                                                            ],
+                                                            "termsAndConditions": {
+                                                                "en": "By subscribing you will be billed $8.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+                                                            },
+                                                            "planType": "direcTVProtectionPlan",
+                                                            "migratedProduct": false,
+                                                            "productImages": "/cms2/product_catalog/services/protection_plan_shield.gif",
+                                                            "incompatibleProducts": [
+                                                                [
+                                                                    {
+                                                                        "name": "products",
+                                                                        "value": [
+                                                                            {
+                                                                                "id": "2e36daf4-5d94-4b0b-bafc-9363ec9d1200",
+                                                                                "typeId": "product"
+                                                                            },
+                                                                            {
+                                                                                "id": "a65408e3-723a-4b0b-9f00-4e7886f09887",
+                                                                                "typeId": "product"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "productType": "insurance",
+                                            "key": "INSURANCE-PROTECTION-PLAN_satellite"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [],
+                    "eligibility": {
+                        "constraints": [
+                            {
+                                "customerSegments": [
+                                    "Residential"
+                                ],
+                                "customerSegment": "Residential",
+                                "minimumPurchaseAmount": 0,
+                                "salesChannel": [
+                                    "opusServices",
+                                    "opusSales",
+                                    "onlineServices",
+                                    "onlineSales",
+                                    "opus",
+                                    "online"
+                                ],
+                                "existingCustomerType": [
+                                    "Satellite"
+                                ]
+                            }
+                        ]
+                    },
+                    "leadOffer": false,
+                    "contractIndicator": "non-contract",
+                    "offerIntents": [
+                        "non-migration"
+                    ],
+                    "recommendedOfferOPUS": false,
+                    "recommendedOnline": false,
+                    "isVirtual": false,
+                    "flashSaleOffer": false,
+                    "isSpecialOffer": false
+                }
+            },
+            {
+                "id": "7515e3c9-b31a-4989-97a4-a16cc894aa61",
+                "code": "OF_INSURANCE-PROTECTION-PLAN-V2_satellite",
+                "status": "live",
+                "name": {
+                    "en": "PROTECTION PLAN PREMIER"
+                },
+                "description": {
+                    "en": "Choose from three Protection Plans: With the DIRECTV&trade; PROTECTION PLAN you may be able to receive an upgrade to our latest technology every two years. We will also repair or replace the components of your DIRECTV System&reg; – from the dish to the receiver – that fail as a result of accidental damage from handling DIRECTV&trade; PROTECTION PLAN PREMIER covers everything in the basic plan plus your TVs, computers, and tablets. DIRECTV&trade; PROTECTION PLAN PREMIER with ADH includes everything in DIRECTV&trade; PROTECTION PLAN PREMIER plus additional protection against accidental damage and handling for your laptops and tablets."
+                },
+                "startDate": "2012-01-31T18:30:00.000Z",
+                "endDate": "2050-12-31T08:00:00.000Z",
+                "attributes": {
+                    "offerProductType": "insurance",
+                    "offerProductTypes": [
+                        "insurance"
+                    ],
+                    "offerProductFamily": "satellite",
+                    "offerProductFamilies": [
+                        "satellite"
+                    ],
+                    "offerStatus": "Active",
+                    "offerType": "multi-benefit",
+                    "offerActionType": "Other",
+                    "offerActionTypes": [
+                        "Other",
+                        "Downgrade",
+                        "Upgrade",
+                        "Acquisition"
+                    ],
+                    "rank": "510",
+                    "displayName": {
+                        "en": "PROTECTION PLAN PREMIER"
+                    },
+                    "disclaimer": {
+                        "en": "Are you sure you want to activate (coverage and billing will be begin after 30 days)?"
+                    },
+                    "termsAndConditions": {
+                        "en": "By subscribing you will be billed $20.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+                    },
+                    "billingId": "201",
+                    "billingCode": "B2072",
+                    "migratedOffer": false,
+                    "associatedProducts": [
+                        {
+                            "qualifyingProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "satellite",
+                                        "dependent": false,
+                                        "anchor": false
+                                    }
+                                }
+                            ],
+                            "bundleProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "satellite",
+                                        "productTypes": [
+                                            "insurance"
+                                        ],
+                                        "productState": "New",
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "a65408e3-723a-4b0b-9f00-4e7886f09887",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "a65408e3-723a-4b0b-9f00-4e7886f09887",
+                                                "code": "INSURANCE-PROTECTION-PLAN-PREMIER_satellite",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "b724f25f-eed5-41b8-9723-595f25ca5012",
+                                                    "key": "insurance"
+                                                },
+                                                "name": {
+                                                    "en": "PROTECTION PLAN PREMIER"
+                                                },
+                                                "description": {
+                                                    "en": "Includes everything in the DIRECTV&trade; PROTECTION PLAN plus protection for your favorite entertainment devices, such as TVs, tablets, and computers."
+                                                },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "sku": "B2072_2",
+                                                        "key": "B2072_2",
+                                                        "prices": [
+                                                            {
+                                                                "value": {
+                                                                    "centAmount": 2099.0,
+                                                                    "currencyCode": "USD",
+                                                                    "fractionDigits": 2,
+                                                                    "dollarAmount": 20.99
+                                                                },
+                                                                "id": "d75a3beb-a2ad-4f3f-8c91-b6f693d53e1e",
+                                                                "startDate": "2012-01-31T18:30:00.000Z",
+                                                                "endDate": "2050-12-31T18:29:00.000Z",
+                                                                "recurrenceIndicator": false,
+                                                                "duration": 0,
+                                                                "period": "month",
+                                                                "billingReferenceId": "201",
+                                                                "gfVersion": 0,
+                                                                "businessSegment": "VPA,RVB,DAE,VIP,PTR,FRP,GME,SWB,BLS,QST,PCR,CSH,PCO,REG,VZN",
+                                                                "contracted": false,
+                                                                "grandfathered": false
+                                                            }
+                                                        ],
+                                                        "attributes": {
+                                                            "displayName": {
+                                                                "en": "PROTECTION PLAN PREMIER"
+                                                            },
+                                                            "displayRanking": 510,
+                                                            "billingProductCode": "B2072",
+                                                            "billingCode": "B2072",
+                                                            "productFamily": "satellite",
+                                                            "productStatus": "Active",
+                                                            "customerSegments": [
+                                                                "Residential"
+                                                            ],
+                                                            "termsAndConditions": {
+                                                                "en": "By subscribing you will be billed $20.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+                                                            },
+                                                            "planType": "direcTVProtectionPlan",
+                                                            "migratedProduct": false,
+                                                            "productImages": "/cms2/product_catalog/services/protection_plan_shield.gif",
+                                                            "incompatibleProducts": [
+                                                                [
+                                                                    {
+                                                                        "name": "products",
+                                                                        "value": [
+                                                                            {
+                                                                                "id": "2e36daf4-5d94-4b0b-bafc-9363ec9d1200",
+                                                                                "typeId": "product"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "productType": "insurance",
+                                            "key": "INSURANCE-PROTECTION-PLAN-PREMIER_satellite"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [],
+                    "eligibility": {
+                        "constraints": [
+                            {
+                                "customerSegments": [
+                                    "Residential"
+                                ],
+                                "customerSegment": "Residential",
+                                "minimumPurchaseAmount": 0,
+                                "salesChannel": [
+                                    "onlineServices",
+                                    "opusServices",
+                                    "opusSales",
+                                    "onlineSales",
+                                    "opus",
+                                    "online"
+                                ],
+                                "existingCustomerType": [
+                                    "Satellite"
+                                ]
+                            }
+                        ]
+                    },
+                    "leadOffer": false,
+                    "contractIndicator": "non-contract",
+                    "offerIntents": [
+                        "non-migration"
+                    ],
+                    "recommendedOfferOPUS": false,
+                    "recommendedOnline": false,
+                    "isVirtual": false,
+                    "flashSaleOffer": false,
+                    "isSpecialOffer": false
+                }
+            },
+            {
+                "id": "0be116df-988b-49a8-90fa-442672185157",
+                "code": "OF_INSURANCE-PROTECTION-PLAN-V8_satellite",
+                "status": "live",
+                "name": {
+                    "en": "PROTECTION PLAN PREMIER"
+                },
+                "description": {
+                    "en": "Choose from three Protection Plans: With the DIRECTV&trade; PROTECTION PLAN you may be able to receive an upgrade to our latest technology every two years. We will also repair or replace the components of your DIRECTV System&reg; – from the dish to the receiver – that fail as a result of accidental damage from handling DIRECTV&trade; PROTECTION PLAN PREMIER covers everything in the basic plan plus your TVs, computers, and tablets. DIRECTV&trade; PROTECTION PLAN PREMIER with ADH includes everything in DIRECTV&trade; PROTECTION PLAN PREMIER plus additional protection against accidental damage and handling for your laptops and tablets."
+                },
+                "startDate": "2012-03-10T18:30:00.000Z",
+                "endDate": "2050-12-31T08:00:00.000Z",
+                "attributes": {
+                    "offerProductType": "insurance",
+                    "offerProductTypes": [
+                        "insurance"
+                    ],
+                    "offerProductFamily": "satellite",
+                    "offerProductFamilies": [
+                        "satellite"
+                    ],
+                    "offerStatus": "Active",
+                    "offerType": "multi-benefit",
+                    "offerActionType": "Other",
+                    "offerActionTypes": [
+                        "Other",
+                        "Downgrade",
+                        "Upgrade",
+                        "Acquisition"
+                    ],
+                    "rank": "510",
+                    "displayName": {
+                        "en": "PROTECTION PLAN PREMIER"
+                    },
+                    "disclaimer": {
+                        "en": "Are you sure you want to activate (coverage and billing will be begin after 30 days)?"
+                    },
+                    "termsAndConditions": {
+                        "en": "By subscribing you will be billed $10.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+                    },
+                    "billingId": "900",
+                    "billingCode": "B2072",
+                    "migratedOffer": false,
+                    "associatedProducts": [
+                        {
+                            "qualifyingProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "satellite",
+                                        "dependent": false,
+                                        "anchor": false
+                                    }
+                                }
+                            ],
+                            "bundleProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "satellite",
+                                        "productTypes": [
+                                            "insurance"
+                                        ],
+                                        "productState": "New",
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "34e9fda4-65a5-4324-9b6b-bbca1dca67bb",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "34e9fda4-65a5-4324-9b6b-bbca1dca67bb",
+                                                "code": "INSURANCE-EMPLOYEE-PROTECTION-PLAN-PREMIER_satellite",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "b724f25f-eed5-41b8-9723-595f25ca5012",
+                                                    "key": "insurance"
+                                                },
+                                                "name": {
+                                                    "en": "PROTECTION PLAN PREMIER"
+                                                },
+                                                "description": {
+                                                    "en": "Includes everything in the DIRECTV&trade; PROTECTION PLAN plus protection for your favorite entertainment devices, such as TVs, tablets, and computers."
+                                                },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "sku": "B2072_7",
+                                                        "key": "B2072_7",
+                                                        "prices": [
+                                                            {
+                                                                "value": {
+                                                                    "centAmount": 1099.0,
+                                                                    "currencyCode": "USD",
+                                                                    "fractionDigits": 2,
+                                                                    "dollarAmount": 10.99
+                                                                },
+                                                                "id": "451c6aba-1867-4f4a-ab62-89383653f8ec",
+                                                                "startDate": "2012-03-11T17:59:00.000Z",
+                                                                "endDate": "2050-12-31T17:29:00.000Z",
+                                                                "recurrenceIndicator": false,
+                                                                "duration": 0,
+                                                                "period": "month",
+                                                                "billingReferenceId": "900",
+                                                                "gfVersion": 0,
+                                                                "businessSegment": "DTV,VEN,HSP,PTR",
+                                                                "employeeSegment": "active,retiree",
+                                                                "nftvFlag": "Y",
+                                                                "ftvCount": "1,2,4",
+                                                                "contracted": false,
+                                                                "grandfathered": false
+                                                            }
+                                                        ],
+                                                        "attributes": {
+                                                            "displayName": {
+                                                                "en": "PROTECTION PLAN PREMIER"
+                                                            },
+                                                            "displayRanking": 510,
+                                                            "billingProductCode": "B2072",
+                                                            "billingCode": "B2072",
+                                                            "productFamily": "satellite",
+                                                            "productStatus": "Active",
+                                                            "customerSegments": [
+                                                                "Residential"
+                                                            ],
+                                                            "termsAndConditions": {
+                                                                "en": "By subscribing you will be billed $10.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+                                                            },
+                                                            "planType": "direcTVProtectionPlan",
+                                                            "migratedProduct": false,
+                                                            "productImages": "/cms2/product_catalog/services/protection_plan_shield.gif",
+                                                            "incompatibleProducts": [
+                                                                [
+                                                                    {
+                                                                        "name": "products",
+                                                                        "value": [
+                                                                            {
+                                                                                "id": "5560a396-8e86-4f6b-b801-63f7e135f1d7",
+                                                                                "typeId": "product"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "productType": "insurance",
+                                            "key": "INSURANCE-EMPLOYEE-PROTECTION-PLAN-PREMIER_satellite"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [],
+                    "eligibility": {
+                        "constraints": [
+                            {
+                                "customerSegments": [
+                                    "Residential"
+                                ],
+                                "customerSegment": "Residential",
+                                "minimumPurchaseAmount": 0,
+                                "salesChannel": [
+                                    "opusServices",
+                                    "opusSales",
+                                    "onlineServices",
+                                    "onlineSales",
+                                    "online",
+                                    "opus"
+                                ],
+                                "existingCustomerType": [
+                                    "Satellite"
+                                ]
+                            }
+                        ]
+                    },
+                    "leadOffer": false,
+                    "contractIndicator": "non-contract",
+                    "offerIntents": [
+                        "non-migration"
+                    ],
+                    "recommendedOfferOPUS": false,
+                    "recommendedOnline": false,
+                    "isVirtual": false,
+                    "flashSaleOffer": false,
+                    "isSpecialOffer": false
+                }
+            },
+            {
+                "id": "d2860a2f-28a4-48cf-b3c1-67536c0ef2de",
+                "code": "OF_INSURANCE-PROTECTION-PLAN-V9_satellite",
+                "status": "live",
+                "name": {
+                    "en": "PROTECTION PLAN PREMIER with Accidental Damage from Handling"
+                },
+                "description": {
+                    "en": "Choose from three Protection Plans: With the DIRECTV&trade; PROTECTION PLAN you may be able to receive an upgrade to our latest technology every two years. We will also repair or replace the components of your DIRECTV System&reg; – from the dish to the receiver – that fail as a result of accidental damage from handling DIRECTV&trade; PROTECTION PLAN PREMIER covers everything in the basic plan plus your TVs, computers, and tablets. DIRECTV&trade; PROTECTION PLAN PREMIER with ADH includes everything in DIRECTV&trade; PROTECTION PLAN PREMIER plus additional protection against accidental damage and handling for your laptops and tablets."
+                },
+                "startDate": "2012-03-10T18:30:00.000Z",
+                "endDate": "2050-12-31T08:00:00.000Z",
+                "attributes": {
+                    "offerProductType": "insurance",
+                    "offerProductTypes": [
+                        "insurance"
+                    ],
+                    "offerProductFamily": "satellite",
+                    "offerProductFamilies": [
+                        "satellite"
+                    ],
+                    "offerStatus": "Active",
+                    "offerType": "multi-benefit",
+                    "offerActionType": "Other",
+                    "offerActionTypes": [
+                        "Other",
+                        "Downgrade",
+                        "Upgrade",
+                        "Acquisition"
+                    ],
+                    "rank": "510",
+                    "displayName": {
+                        "en": "PROTECTION PLAN PREMIER with Accidental Damage from Handling"
+                    },
+                    "disclaimer": {
+                        "en": "Are you sure you want to activate (coverage and billing will be begin after 30 days)?"
+                    },
+                    "termsAndConditions": {
+                        "en": "By subscribing you will be billed $15.98 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+                    },
+                    "billingId": "902",
+                    "billingCode": "B2072",
+                    "migratedOffer": false,
+                    "associatedProducts": [
+                        {
+                            "qualifyingProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "satellite",
+                                        "dependent": false,
+                                        "anchor": false
+                                    }
+                                }
+                            ],
+                            "bundleProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "satellite",
+                                        "productTypes": [
+                                            "insurance"
+                                        ],
+                                        "productState": "New",
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "5560a396-8e86-4f6b-b801-63f7e135f1d7",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "5560a396-8e86-4f6b-b801-63f7e135f1d7",
+                                                "code": "INSURANCE-EMPLOYEE-PROTECTION-PLAN-PREMIER-WITH-ADH_satellite",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "b724f25f-eed5-41b8-9723-595f25ca5012",
+                                                    "key": "insurance"
+                                                },
+                                                "name": {
+                                                    "en": "PROTECTION PLAN PREMIER with Accidental Damage from Handling"
+                                                },
+                                                "description": {
+                                                    "en": "Includes everything in the DIRECTV™ PROTECTION PLAN PREMIER plus protection against accidental damage such as drops, spills, and cracked screens for your entertainment devices."
+                                                },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "sku": "B2072_8",
+                                                        "key": "B2072_8",
+                                                        "prices": [
+                                                            {
+                                                                "value": {
+                                                                    "centAmount": 1598.0,
+                                                                    "currencyCode": "USD",
+                                                                    "fractionDigits": 2,
+                                                                    "dollarAmount": 15.98
+                                                                },
+                                                                "id": "170f38ef-f545-45d3-aafd-d4ffd5647c26",
+                                                                "startDate": "2012-03-11T18:08:00.000Z",
+                                                                "endDate": "2050-12-31T17:08:00.000Z",
+                                                                "recurrenceIndicator": false,
+                                                                "duration": 0,
+                                                                "period": "month",
+                                                                "billingReferenceId": "902",
+                                                                "gfVersion": 0,
+                                                                "businessSegment": "DTV,VEN,HSP,PTR",
+                                                                "employeeSegment": "active,retiree",
+                                                                "nftvFlag": "Y",
+                                                                "ftvCount": "1,2,4",
+                                                                "contracted": false,
+                                                                "grandfathered": false
+                                                            }
+                                                        ],
+                                                        "attributes": {
+                                                            "displayName": {
+                                                                "en": "PROTECTION PLAN PREMIER with Accidental Damage from Handling"
+                                                            },
+                                                            "displayRanking": 510,
+                                                            "billingProductCode": "B2072",
+                                                            "billingCode": "B2072",
+                                                            "productFamily": "satellite",
+                                                            "productStatus": "Active",
+                                                            "customerSegments": [
+                                                                "Residential"
+                                                            ],
+                                                            "termsAndConditions": {
+                                                                "en": "By subscribing you will be billed $15.98 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+                                                            },
+                                                            "planType": "direcTVProtectionPlan",
+                                                            "migratedProduct": false,
+                                                            "productImages": "/cms2/product_catalog/services/protection_plan_shield.gif",
+                                                            "incompatibleProducts": [
+                                                                []
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "productType": "insurance",
+                                            "key": "INSURANCE-EMPLOYEE-PROTECTION-PLAN-PREMIER-WITH-ADH_satellite"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [],
+                    "eligibility": {
+                        "constraints": [
+                            {
+                                "customerSegments": [
+                                    "Residential"
+                                ],
+                                "customerSegment": "Residential",
+                                "minimumPurchaseAmount": 0,
+                                "salesChannel": [
+                                    "opusServices",
+                                    "opusSales",
+                                    "onlineServices",
+                                    "onlineSales",
+                                    "opus",
+                                    "online"
+                                ],
+                                "existingCustomerType": [
+                                    "Satellite"
+                                ]
+                            }
+                        ]
+                    },
+                    "leadOffer": false,
+                    "contractIndicator": "non-contract",
+                    "offerIntents": [
+                        "non-migration"
+                    ],
+                    "recommendedOfferOPUS": false,
+                    "recommendedOnline": false,
+                    "isVirtual": false,
+                    "flashSaleOffer": false,
+                    "isSpecialOffer": false
+                }
+            }
+        ]
+    }
+}

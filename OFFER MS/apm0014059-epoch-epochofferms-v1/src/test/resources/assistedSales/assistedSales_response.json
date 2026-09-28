@@ -1,0 +1,2736 @@
+{
+    "limit": 0,
+    "offset": 0,
+    "count": 5,
+    "total": 5,
+    "offers": [
+      {
+        "id": "bc80a7ba-b39e-4a14-b13a-d5d24bcf2ca5",
+        "code": "OF_BASE-PREMIER-202004_TAZCONTRACT_INTRO_SAVENOW_2024",
+        "status": "live",
+        "name": {
+          "en": "Premier"
+        },
+        "description": {
+          "en": "150+ channels"
+        },
+        "startDate": "2024-04-01T05:00:00.000Z",
+        "endDate": "2050-12-30T18:30:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductTypes": [
+            "video-plan"
+          ],
+          "offerProductFamily": "OTT",
+          "offerProductFamilies": [
+            "OTT"
+          ],
+          "offerType": "multi-benefit",
+          "offerActionType": "Acquisition",
+          "offerActionTypes": [
+            "Acquisition",
+            "Upsell"
+          ],
+          "environment": "",
+          "rank": "535",
+          "displayName": {
+            "en": "PREMIER"
+          },
+          "descriptionsByKey": {
+            "long-myatt": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time."
+          },
+          "opusDisclosureMessage": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.",
+          "myAttDisclosureMessage": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.",
+          "billingId": "7524127870",
+          "billingCode": "OF_BASE-PREMIER-202004",
+          "migratedOffer": true,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "NA",
+                    "dependent": false,
+                    "anchor": false
+                  }
+                }
+              ],
+              "bundleProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "productStatus": "Active",
+                    "productState": "New",
+                    "dependent": false,
+                    "anchor": false
+                  },
+                  "products": [
+                    {
+                      "id": "cda38789-8834-4d91-9060-6e3dc67c5ce5",
+                      "typeId": "product",
+                      "obj": {
+                        "id": "cda38789-8834-4d91-9060-6e3dc67c5ce5",
+                        "code": "BASE-PREMIER-202004",
+                        "productType": {
+                          "typeId": "product-type",
+                          "id": "cb512bc7-05aa-4d02-896c-bcfb3487c5da",
+                          "key": "video-plan"
+                        },
+                        "name": {
+                          "en": "Premier"
+                        },
+                        "description": {
+                          "en": "Premier must-haves. ##150##+ channels"
+                        },
+                        "categories": [],
+                        "variants": [
+                          {
+                            "id": "1",
+                            "prices": [
+                              {
+                                "value": {
+                                  "centAmount": 23200.0,
+                                  "currencyCode": "USD",
+                                  "fractionDigits": 2,
+                                  "dollarAmount": 232.0
+                                },
+                                "id": "8e2dd230-acc0-4eb9-95fd-62a5d3cae296",
+                                "startDate": "2024-04-29T18:30:00.000Z",
+                                "endDate": "9999-12-31T18:29:00.000Z",
+                                "recurrenceIndicator": true,
+                                "duration": 0,
+                                "period": "month",
+                                "proRateFrequency": "daily",
+                                "contractIndicator": "TAZCONTRACT",
+                                "billingReferenceId": "221870",
+                                "gfVersion": 0,
+                                "grandfathered": false,
+                                "contracted": false
+                              }
+                            ],
+                            "attributes": {
+                              "displayName": {
+                                "en": "PREMIER"
+                              },
+                              "displayNamesByKey": {
+                                "services": "PREMIER",
+                                "name-cpc": "PREMIER",
+                                "name-partner": "PREMIER",
+                                "shortDisplayName": "Default Short Display Name for Sales",
+                                "longDisplayName": "Default Long Display Name for Sales"
+                              },
+                              "descriptionsByKey": {
+                                "short-opus": "150+ channels",
+                                "long-services": "150+ channels",
+                                "short-services": "150+",
+                                "long-myatt": "<p><b><u>DIRECTV:</u></b> Compatible device req&#39;d. Residential U.S. customers only (excludes Puerto Rico and U.S. Virgin Islands). Your DIRECTV service renews monthly at the prevailing rate, charged to your payment method on file unless you cancel. Once you&#39;ve canceled, you can access DIRECTV through the remaining monthly period. New customers who cancel service in the first 14 days will receive a full refund. <b>Otherwise, no refunds or credits for any partial&#8208;month periods or unwatched content. Returning customers who disconnected service within the previous 12 months are not eligible for a refund. <b><u>Regional Sports &#38; Local Channels:</b></u> Regional Sports available with CHOICE and above. Not available in select areas. Channels vary by package &#38; billing region. Device may need to be in billing region in order to view. <b><u>Limits:</b></u> Offers may not be available through all channels and in select areas. Programming subject to blackout restrictions. Subject to DIRECTV terms and conditions (see directv.com/LegalStream). <b>Pricing, channels, features, and terms are subject to change &#38; may be modified or discontinued at any time without notice.</b> See directv.com/stream/ for details.</p>",
+                                "description-cpc": "Premier must-haves. ##150##+ channels",
+                                "short-partner": "150+ channels",
+                                "long-partner": "<p>A TV lover's paradise, with premium networks included- 150+ channels, Stream on unlimited devices in your home, Cloud DVR storage included. Includes Max™, Paramount+ with SHOWTIME®, STARZ®, Cinemax®, and DIRECTV Sports Pack.</p><p><i>Plus Tax. Price for 24 months plus taxes and fees with 24-month agreement. Advanced Receiver Service Fee $15/mo. and Regional Sports Fee up to $17.99/mo. are extra &amp; apply.</i></p>"
+                              },
+                              "billingProductCode": "BASE-PREMIER-202004",
+                              "billingProductId": "41499",
+                              "startDate": "2020-07-19T18:30:00.000Z",
+                              "endDate": "9999-12-30T18:30:00.000Z",
+                              "businessSegment": [
+                                "CONS"
+                              ],
+                              "congratsMessage": "Great choice!",
+                              "salesChannel": [
+                                "onlineSales",
+                                "onlineServices",
+                                "opusSales",
+                                "opusServices",
+                                "partnerSales",
+                                "partnerServices"
+                              ],
+                              "productFamily": "OTT",
+                              "packageGroup": "20000",
+                              "removalRule": {
+                                "accountType": [
+                                  "ALL"
+                                ]
+                              },
+                              "numberOfChannels": "150+ live channels",
+                              "language": "English",
+                              "serviceFlag": true,
+                              "secondaryBillingProductId": "7534713085",
+                              "productStatus": "Active",
+                              "includedProducts": [
+                                {
+                                  "products": [
+                                    {
+                                      "id": "adff648a-0db9-4934-9a86-2fddd363840d",
+                                      "typeId": "product",
+                                      "productType": "video-addon",
+                                      "key": "BOLT-CINEMAX-201610"
+                                    },
+                                    {
+                                      "id": "d54b9253-695c-443c-9117-7b6d74876801",
+                                      "typeId": "product",
+                                      "productType": "video-addon",
+                                      "key": "BOLT-HBO-201610"
+                                    },
+                                    {
+                                      "id": "d7a05882-4296-4c97-baac-01e0228c5f21",
+                                      "typeId": "product",
+                                      "productType": "video-addon",
+                                      "key": "BOLT-STARZ-201610"
+                                    },
+                                    {
+                                      "id": "f1578557-8c43-4ccb-bfef-bb9988fae63a",
+                                      "typeId": "product",
+                                      "productType": "video-addon",
+                                      "key": "BOLT-SHOWTIME-201707"
+                                    }
+                                  ],
+                                  "constraints": {
+                                    "dependent": false,
+                                    "anchor": false
+                                  }
+                                }
+                              ],
+                              "contractApplicable": "all",
+                              "contractIndicator": [
+                                "TAZCONTRACT",
+                                "TAZBYOD",
+                                "TAZ",
+                                "contract",
+                                "non-contract",
+                                "EDSP",
+                                "RR"
+                              ],
+                              "customerSegments": [
+                                "Residential"
+                              ],
+                              "conflictingProducts": [
+                                {
+                                  "typeId": "product",
+                                  "id": "d54b9253-695c-443c-9117-7b6d74876801",
+                                  "key": "BOLT-HBO-201610"
+                                },
+                                {
+                                  "typeId": "product",
+                                  "id": "d7a05882-4296-4c97-baac-01e0228c5f21",
+                                  "key": "BOLT-STARZ-201610"
+                                },
+                                {
+                                  "typeId": "product",
+                                  "id": "adff648a-0db9-4934-9a86-2fddd363840d",
+                                  "key": "BOLT-CINEMAX-201610"
+                                },
+                                {
+                                  "typeId": "product",
+                                  "id": "f1578557-8c43-4ccb-bfef-bb9988fae63a",
+                                  "key": "BOLT-SHOWTIME-201707"
+                                }
+                              ],
+                              "migratedProduct": true,
+                              "disclosureMessagesByKey": {
+                                "disclosure": "Default Sales Disclosure",
+                                "opt-in": "Default Sales Opt In",
+                                "opt-out": "Default Sales OptOut",
+                                "auto-renew": "Default Sales Auto Renew"
+                              },
+                              "incompatibleProducts": [
+                                [
+                                  {
+                                    "name": "products",
+                                    "value": [
+                                      {
+                                        "id": "1fde2995-cd2a-4870-8438-68d57d23ef5c",
+                                        "typeId": "product"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              ],
+                              "includedEmployeeProducts": [
+                                {
+                                  "products": [
+                                    {
+                                      "id": "09cd2aca-7f39-43ae-bb05-ffb25d617fb6",
+                                      "typeId": "product",
+                                      "productType": "video-addon",
+                                      "key": "BOLT-20STREAMS-202010"
+                                    },
+                                    {
+                                      "id": "d2b34c87-3c76-4942-807c-4b3204da3355",
+                                      "typeId": "product",
+                                      "productType": "video-addon",
+                                      "key": "BOLT-CDVRUNLIMITED-202101"
+                                    },
+                                    {
+                                      "id": "f1578557-8c43-4ccb-bfef-bb9988fae63a",
+                                      "typeId": "product",
+                                      "productType": "video-addon",
+                                      "key": "BOLT-SHOWTIME-201707"
+                                    },
+                                    {
+                                      "id": "d7a05882-4296-4c97-baac-01e0228c5f21",
+                                      "typeId": "product",
+                                      "productType": "video-addon",
+                                      "key": "BOLT-STARZ-201610"
+                                    },
+                                    {
+                                      "id": "adff648a-0db9-4934-9a86-2fddd363840d",
+                                      "typeId": "product",
+                                      "productType": "video-addon",
+                                      "key": "BOLT-CINEMAX-201610"
+                                    },
+                                    {
+                                      "id": "d54b9253-695c-443c-9117-7b6d74876801",
+                                      "typeId": "product",
+                                      "productType": "video-addon",
+                                      "key": "BOLT-HBO-201610"
+                                    }
+                                  ],
+                                  "constraints": {
+                                    "dependent": false,
+                                    "anchor": false
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      },
+                      "productType": "video-plan",
+                      "key": "BASE-PREMIER-202004"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "benefits": [
+            {
+              "benefitCategory": "Product",
+              "id": "82765f18-53af-4f08-aea6-6852ede3030a",
+              "code": "TLPRE24M",
+              "billingBenefitCode": "TLPRE24M",
+              "benefitName": {
+                "en": "Intro Discount $67.01 off for 24 Months PREMIER"
+              },
+              "benefitDisplayName": {
+                "en": "Intro Discount $67.01 off for 24 Months PREMIER"
+              },
+              "benefitRank": 0,
+              "description": {
+                "en": "Intro Discount $67.01 off for 24 Months PREMIER"
+              },
+              "opusDisclosureMessage": "OPUS Disclosure Message",
+              "disclosure": "Default Sales Disclosure",
+              "displayNamesByKey": {
+                "shortDisplayName": "Default Short Display Name for Sales",
+                "longDisplayName": "Default Long Display Name for Sales"
+              },
+              "descriptionsByKey": {
+                "shortDesc": "Default Short Description for Sales",
+                "longDesc": "Default Long Description for Sales"
+              },
+              "disclosureMessagesByKey": {
+                "opusDisclosure": "OPUS Disclosure Message",
+                "disclosure": "Default Sales Disclosure"
+              },
+              "startDate": "2024-04-01T07:00:00.000Z",
+              "retIoApplicableProducts": false,
+              "endDate": "2050-12-31T00:00:00.000Z",
+              "contractIndicator": "all",
+              "selfBenefit": false,
+              "duration": 24,
+              "period": "NoOfMonths",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "cda38789-8834-4d91-9060-6e3dc67c5ce5",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-PREMIER-202004"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "flat-off",
+              "value": {
+                "centAmount": 6701.0,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 67.01
+              },
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "minQuantity": 0,
+              "extPromoType": "contract",
+              "promoPriority": 0,
+              "salesChannel": "agentNew|selfServiceNew|partner",
+              "shortDescriptionforOpus": "Intro Discount $67.01 off for 24 Months PREMIER",
+              "displayNameforServices": "DIRECTV BUY NOW/ SAVE NOW PROMO",
+              "notApplibaleForOffer": false,
+              "enableServiceDisconnect": false,
+              "rtpIndicator": false,
+              "portin": false,
+              "active": true,
+              "migrated": false,
+              "quotaBased": false,
+              "couponPromo": false,
+              "isDependentPromo": false,
+              "isMigrated": false,
+              "isQuotaBased": false,
+              "isActive": true
+            },
+            {
+              "benefitCategory": "Product",
+              "id": "1c368dd6-588d-4f66-bc4f-38d87e3ecf23",
+              "code": "SAVENOW10OFF24M",
+              "billingBenefitCode": "SAVENOW10OFF24M",
+              "benefitName": {
+                "en": "$10 off for 24 Months SAVE NOW"
+              },
+              "benefitDisplayName": {
+                "en": "$10 OFF FOR 24 MONTHS SAVE NOW"
+              },
+              "benefitRank": 0,
+              "description": {
+                "en": "$10 Off For 24 Months Base Package Promotion"
+              },
+              "opusDisclosureMessage": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+              "myAttDisclosureMessage": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+              "disclosure": "Benefit Disclosure Place-Holder",
+              "displayNamesByKey": {
+                "shortDisplayName": "Benefit Short Display Name Place-Holder",
+                "longDisplayName": "Benefit Long Display Name Place-Holder"
+              },
+              "descriptionsByKey": {
+                "shortDesc": "Benefit Short Description Place-Holder",
+                "longDesc": "Benefit Long Description Place-Holder"
+              },
+              "disclosureMessagesByKey": {
+                "opusDisclosure": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+                "onlineDisclosure": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+                "disclosure": "Benefit Disclosure Place-Holder"
+              },
+              "startDate": "2023-06-06T00:00:00.000Z",
+              "retIoApplicableProducts": false,
+              "endDate": "2050-12-31T00:00:00.000Z",
+              "contractIndicator": "all",
+              "selfBenefit": false,
+              "duration": 24,
+              "period": "NoOfMonths",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "0e796d14-487b-4058-8fe5-0b1dae7f231e",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ENTERTAINMENT-201811"
+                    },
+                    {
+                      "id": "cda38789-8834-4d91-9060-6e3dc67c5ce5",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-PREMIER-202004"
+                    },
+                    {
+                      "id": "acaafa61-a5ef-4584-b7fa-6b81045d3f06",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ULTIMATE-201811"
+                    },
+                    {
+                      "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-CHOICE-201811"
+                    },
+                    {
+                      "id": "17409ef2-12e9-48a3-85c0-0e52d21be60c",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-OPTIMOMAS-122018"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "flat-off",
+              "value": {
+                "centAmount": 1000.0,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 10.0
+              },
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "minQuantity": 0,
+              "extPromoType": "saveNow",
+              "promoPriority": 0,
+              "salesChannel": "agentNew|selfServiceNew",
+              "longDescriptionforServices": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+              "shortDescriptionforOpus": "$10 OFF FOR 24 MONTHS PROMO",
+              "displayNameforServices": "DIRECTV BUY NOW/SAVE NOW PROMO",
+              "notApplibaleForOffer": false,
+              "enableServiceDisconnect": false,
+              "rtpIndicator": false,
+              "portin": false,
+              "active": true,
+              "migrated": false,
+              "quotaBased": false,
+              "couponPromo": false,
+              "isDependentPromo": false,
+              "isMigrated": false,
+              "isQuotaBased": false,
+              "isActive": true
+            },
+            {
+              "benefitCategory": "Product",
+              "billingBenefitId": "9407",
+              "id": "31f5e7ad-38e7-40d9-94e0-66f6de69b8c3",
+              "code": "EDSPDEACT001",
+              "billingBenefitCode": "EDSPDEACT001",
+              "benefitName": {
+                "en": "Device Activation"
+              },
+              "benefitDisplayName": {
+                "en": "14 days service BRE"
+              },
+              "benefitRank": 10,
+              "description": {
+                "en": "Device Activation"
+              },
+              "opusDisclosureMessage": "You may cancel service within the first 14 days of purchase to avoid charges.",
+              "disclosureMessagesByKey": {
+                "opusDisclosure": "You may cancel service within the first 14 days of purchase to avoid charges."
+              },
+              "startDate": "2020-11-27T18:30:00.000Z",
+              "retIoApplicableProducts": false,
+              "contractIndicator": "all",
+              "selfBenefit": false,
+              "duration": 15,
+              "period": "NoOfDays",
+              "billAfterPeriod": true,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "17409ef2-12e9-48a3-85c0-0e52d21be60c",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-OPTIMOMAS-122018"
+                    },
+                    {
+                      "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-CHOICE-201811"
+                    },
+                    {
+                      "id": "cda38789-8834-4d91-9060-6e3dc67c5ce5",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-PREMIER-202004"
+                    },
+                    {
+                      "id": "acaafa61-a5ef-4584-b7fa-6b81045d3f06",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ULTIMATE-201811"
+                    },
+                    {
+                      "id": "0e796d14-487b-4058-8fe5-0b1dae7f231e",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ENTERTAINMENT-201811"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "free-promo",
+              "value": {
+                "percentage": 0
+              },
+              "customerClassification": "New Customer",
+              "secondaryBenefitCode": "860346961",
+              "freeTrialPromo": true,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "minQuantity": 0,
+              "extPromoType": "Device Activation",
+              "promoPriority": 2,
+              "salesChannel": "agentNew|selfServiceNew",
+              "benefitLevel": "product",
+              "displayNameforServices": "Device Activation",
+              "notApplibaleForOffer": false,
+              "enableServiceDisconnect": false,
+              "rtpIndicator": false,
+              "portin": false,
+              "active": true,
+              "migrated": true,
+              "quotaBased": false,
+              "couponPromo": false,
+              "isDependentPromo": true,
+              "isMigrated": true,
+              "isQuotaBased": false,
+              "isActive": true
+            }
+          ],
+          "eligibility": {
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Residential"
+                ],
+                "customerSegment": "Residential",
+                "minimumPurchaseAmount": 0,
+                "salesChannel": [
+                  "assistedSales",
+                  "opus",
+                  "directvOnline",
+                  "directIntegrationPartner"
+                ],
+                "businessSegment": [
+                  "CONS"
+                ],
+                "existingCustomerType": [
+                  "DTVN"
+                ]
+              }
+            ]
+          },
+          "leadOffer": true,
+          "offerPrice": {
+            "dollarAmount": 164.99
+          },
+          "contractIndicator": "TAZCONTRACT",
+          "salesChannel": [
+            "directvCenters",
+            "DAP"
+          ],
+          "offerIntents": [
+            "non-migration"
+          ],
+          "migrationServiceType": [
+            "legacySatellite",
+            "satellite",
+            "IPTV"
+          ],
+          "recommendedOfferOPUS": false,
+          "recommendedOnline": false,
+          "isVirtual": false,
+          "flashSaleOffer": false,
+          "isBulkOffer": false,
+          "isSpecialOffer": false,
+          "rsnFeeDetails": {
+            "sku": "RSN-TCTIER5-202404",
+            "amount": 9.99,
+            "visible": true
+          }
+        }
+      },
+      {
+        "id": "52066be8-def6-4d99-9426-08e093ea883e",
+        "code": "OF_BASE-OPTIMOMAS-122018_TAZCONTRACT_INTRO_SAVENOW_DSALES_2024",
+        "status": "live",
+        "name": {
+          "en": "Optimo Mas"
+        },
+        "description": {
+          "en": "90+ channels"
+        },
+        "startDate": "2024-04-01T07:00:00.000Z",
+        "endDate": "2050-12-31T08:00:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductTypes": [
+            "video-plan"
+          ],
+          "offerProductFamily": "OTT",
+          "offerProductFamilies": [
+            "OTT"
+          ],
+          "offerType": "multi-benefit",
+          "offerActionType": "Acquisition",
+          "offerActionTypes": [
+            "Acquisition"
+          ],
+          "rank": "540",
+          "displayName": {
+            "en": "Optimo Mas"
+          },
+          "descriptionsByKey": {
+            "long-myatt": "VIA INTERNET: Service subject to DIRECTV delivered via internet terms and conditions (see https://www.directv.com/legal/directv-stream-tos-eula-policy/).DIRECTV is Available only in the U.S. (excludes Puerto Rico and U.S.V.I.) and requires high speed internet. Minimum internet speed of 8Mbps per stream recommended for optimal viewing. Service is subject to 2 years Customer Agreement. After 2 years, continues month to month at then-current prevailing prices unless cancelled. Additional Fees & Taxes: Price excludes Advanced Receiver Service Fee of $15/mo. (which is extra and applies to all packages) and Regional Sports Fee of up to $13.99/mo. (which is extra & applies to CHOICE pkg or higher) and certain other add’l fees & charges. State and local taxes or other governmental fees and charges may apply including any such taxes, fees or charges assessed against discounted fees or service credits. First device included for well-qualified customers; otherwise $120 for new Gemini. Applicable taxes due at sale.  If you cancel your service in the first 14 days of order, you must return the included Gemini within 14 days of order to avoid $120 non-return fee. Once you’ve canceled, you can access DIRECTV through the remaining monthly period. No refunds or credits for any partial-month periods or unwatched content. If you cancel after DIRECTV Service activation, but before you have completed the required Programming Commitment, you will be charged an Early termination fee. The maximum Early termination is $480 for new customers, prorated at $20 per month over 24 months. Gemini purchased on installment agreement subject to additional terms and conditions. Regional Sports & Local Channels: Regional Sports available with CHOICE and above. Not available in select areas. Channels vary by package & billing region. Device may need to be in billing region in order to view.   All offers, programming, promotions, pricing, terms, restrictions & conditions subject to change & may be modified, discontinued, or terminated at any time without notice. See directv.com for details.",
+            "att.com": "90+ channels"
+          },
+          "billingId": "7534713445",
+          "billingCode": "OF_BASE-OPTIMOMAS-122018",
+          "migratedOffer": true,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "NA",
+                    "dependent": false,
+                    "anchor": false
+                  }
+                }
+              ],
+              "bundleProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "productStatus": "Active",
+                    "productState": "New",
+                    "dependent": false,
+                    "anchor": false
+                  },
+                  "products": [
+                    {
+                      "id": "17409ef2-12e9-48a3-85c0-0e52d21be60c",
+                      "typeId": "product",
+                      "obj": {
+                        "id": "17409ef2-12e9-48a3-85c0-0e52d21be60c",
+                        "code": "BASE-OPTIMOMAS-122018",
+                        "productType": {
+                          "typeId": "product-type",
+                          "id": "cb512bc7-05aa-4d02-896c-bcfb3487c5da",
+                          "key": "video-plan"
+                        },
+                        "name": {
+                          "en": "Optimo Mas"
+                        },
+                        "description": {
+                          "en": "Optimo mas must-haves. ##100##+ channels"
+                        },
+                        "categories": [],
+                        "variants": [
+                          {
+                            "id": "1",
+                            "prices": [
+                              {
+                                "value": {
+                                  "centAmount": 10500.0,
+                                  "currencyCode": "USD",
+                                  "fractionDigits": 2,
+                                  "dollarAmount": 105.0
+                                },
+                                "id": "58a74a09-0df1-48b2-9a81-0ada8d1cd8da",
+                                "startDate": "2024-04-29T18:30:00.000Z",
+                                "endDate": "9999-12-31T18:00:00.000Z",
+                                "recurrenceIndicator": true,
+                                "duration": 0,
+                                "period": "month",
+                                "proRateFrequency": "daily",
+                                "contractIndicator": "TAZCONTRACT",
+                                "billingReferenceId": "221867",
+                                "gfVersion": 0,
+                                "grandfathered": false,
+                                "contracted": false
+                              }
+                            ],
+                            "attributes": {
+                              "displayName": {
+                                "en": "OPTIMO M&#193;S"
+                              },
+                              "displayNamesByKey": {
+                                "services": "OPTIMO M&Aacute;S",
+                                "name-cpc": "OPTIMO M&#193;S",
+                                "name-partner": "OPTIMO M&#193;S"
+                              },
+                              "descriptionsByKey": {
+                                "short-opus": "100+ channels",
+                                "long-services": "100+ channels",
+                                "short-services": "100+",
+                                "long-myatt": "<p><b><u>DIRECTV:</u></b> Compatible device req&#39;d. Residential U.S. customers only (excludes Puerto Rico and U.S. Virgin Islands). Your DIRECTV service renews monthly at the prevailing rate, charged to your payment method on file unless you cancel. Once you&#39;ve canceled, you can access DIRECTV through the remaining monthly period. New customers who cancel service in the first 14 days will receive a full refund. <b>Otherwise, no refunds or credits for any partial&#8208;month periods or unwatched content. Returning customers who disconnected service within the previous 12 months are not eligible for a refund. <b><u>Regional Sports &#38; Local Channels:</b></u> Regional Sports available with CHOICE and above. Not available in select areas. Channels vary by package &#38; billing region. Device may need to be in billing region in order to view. <b><u>Limits:</b></u> Offers may not be available through all channels and in select areas. Programming subject to blackout restrictions. Subject to DIRECTV terms and conditions (see directv.com/LegalStream). <b>Pricing, channels, features, and terms are subject to change &#38; may be modified or discontinued at any time without notice.</b> See directv.com/stream/ for details.</p>",
+                                "description-cpc": "Optimo mas must-haves. ##100##+ channels",
+                                "short-partner": "100+ channels",
+                                "long-partner": "<p>The English And Spanish channels you love in one package-100+ live TV channels, including 55+ in Spanish, And 40+ in English. Get robust Spanish-language And English programming for the whole family. Watch news, movies, live entertainment, sports, music, And children’s programming.</p><p><i>Plus Tax. Price for 24 months plus taxes and fees with 24-month agreement. Advanced Receiver Service Fee $15/mo. is extra &amp; applies.</i></p>"
+                              },
+                              "billingProductCode": "BASE-OPTIMOMAS-122018",
+                              "billingProductId": "6650",
+                              "startDate": "2019-02-28T18:30:00.000Z",
+                              "endDate": "9999-12-30T18:30:00.000Z",
+                              "businessSegment": [
+                                "CONS"
+                              ],
+                              "congratsMessage": "Great choice!",
+                              "productFamily": "OTT",
+                              "packageGroup": "20000",
+                              "removalRule": {
+                                "accountType": [
+                                  "ALL"
+                                ]
+                              },
+                              "numberOfChannels": "100+ live channels",
+                              "language": "Spanish",
+                              "serviceFlag": true,
+                              "secondaryBillingProductId": "768336609",
+                              "productStatus": "Active",
+                              "numberOfSpanishChannels": "Includes 50+ Spanish-language channels",
+                              "includedProducts": [
+                                {
+                                  "products": [
+                                    {
+                                      "id": "3b00e93d-e89a-4833-9937-79286c64dc76",
+                                      "typeId": "product",
+                                      "productType": "video-addon",
+                                      "key": "BOLT-ENESPANOL-201802"
+                                    },
+                                    {
+                                      "id": "99d6d8de-7797-46cd-bd3b-a6357888c3a9",
+                                      "typeId": "product",
+                                      "productType": "video-addon",
+                                      "key": "BOLT-DEPORTES-201802"
+                                    }
+                                  ],
+                                  "constraints": {
+                                    "dependent": false,
+                                    "anchor": false
+                                  }
+                                }
+                              ],
+                              "contractApplicable": "all",
+                              "contractIndicator": [
+                                "TAZCONTRACT",
+                                "TAZBYOD",
+                                "TAZ",
+                                "contract",
+                                "non-contract",
+                                "RR"
+                              ],
+                              "conflictingProducts": [
+                                {
+                                  "typeId": "product",
+                                  "id": "3b00e93d-e89a-4833-9937-79286c64dc76",
+                                  "key": "BOLT-ENESPANOL-201802"
+                                },
+                                {
+                                  "typeId": "product",
+                                  "id": "99d6d8de-7797-46cd-bd3b-a6357888c3a9",
+                                  "key": "BOLT-DEPORTES-201802"
+                                }
+                              ],
+                              "migratedProduct": true,
+                              "tokens": "BASE-OPTIMOMAS-122018"
+                            }
+                          }
+                        ]
+                      },
+                      "productType": "video-plan",
+                      "key": "BASE-OPTIMOMAS-122018"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "benefits": [
+            {
+              "benefitCategory": "Product",
+              "id": "ee20f744-8857-43c5-b49b-7e4746562301",
+              "code": "TLOPM24M",
+              "billingBenefitCode": "TLOPM24M",
+              "benefitName": {
+                "en": "Intro Discount $25.01 off for 24 Months OPTIMO MAS"
+              },
+              "benefitDisplayName": {
+                "en": "Intro Discount $25.01 off for 24 Months OPTIMO MAS"
+              },
+              "benefitRank": 0,
+              "description": {
+                "en": "Intro Discount $25.01 off for 24 Months OPTIMO MAS"
+              },
+              "startDate": "2024-04-01T07:00:00.000Z",
+              "retIoApplicableProducts": false,
+              "endDate": "2050-12-31T00:00:00.000Z",
+              "contractIndicator": "all",
+              "selfBenefit": false,
+              "duration": 24,
+              "period": "NoOfMonths",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "cda38789-8834-4d91-9060-6e3dc67c5ce5",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-PREMIER-202004"
+                    },
+                    {
+                      "id": "acaafa61-a5ef-4584-b7fa-6b81045d3f06",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ULTIMATE-201811"
+                    },
+                    {
+                      "id": "0e796d14-487b-4058-8fe5-0b1dae7f231e",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ENTERTAINMENT-201811"
+                    },
+                    {
+                      "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-CHOICE-201811"
+                    },
+                    {
+                      "id": "17409ef2-12e9-48a3-85c0-0e52d21be60c",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-OPTIMOMAS-122018"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "flat-off",
+              "value": {
+                "centAmount": 2501.0,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 25.01
+              },
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "minQuantity": 0,
+              "extPromoType": "contract",
+              "promoPriority": 0,
+              "salesChannel": "agentNew|selfServiceNew|partner",
+              "shortDescriptionforServices": "Intro Discount $25.01 off for 24 Months OPTIMO MAS",
+              "displayNameforServices": "DIRECTV BUY NOW/ SAVE NOW PROMO",
+              "notApplibaleForOffer": false,
+              "enableServiceDisconnect": false,
+              "rtpIndicator": false,
+              "portin": false,
+              "active": true,
+              "migrated": false,
+              "quotaBased": false,
+              "couponPromo": false,
+              "isDependentPromo": false,
+              "isMigrated": false,
+              "isQuotaBased": false,
+              "isActive": true
+            },
+            {
+              "benefitCategory": "Product",
+              "billingBenefitId": "9407",
+              "id": "31f5e7ad-38e7-40d9-94e0-66f6de69b8c3",
+              "code": "EDSPDEACT001",
+              "billingBenefitCode": "EDSPDEACT001",
+              "benefitName": {
+                "en": "Device Activation"
+              },
+              "benefitDisplayName": {
+                "en": "14 days service BRE"
+              },
+              "benefitRank": 10,
+              "description": {
+                "en": "Device Activation"
+              },
+              "opusDisclosureMessage": "You may cancel service within the first 14 days of purchase to avoid charges.",
+              "disclosureMessagesByKey": {
+                "opusDisclosure": "You may cancel service within the first 14 days of purchase to avoid charges."
+              },
+              "startDate": "2020-11-27T18:30:00.000Z",
+              "retIoApplicableProducts": false,
+              "contractIndicator": "all",
+              "selfBenefit": false,
+              "duration": 15,
+              "period": "NoOfDays",
+              "billAfterPeriod": true,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "17409ef2-12e9-48a3-85c0-0e52d21be60c",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-OPTIMOMAS-122018"
+                    },
+                    {
+                      "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-CHOICE-201811"
+                    },
+                    {
+                      "id": "cda38789-8834-4d91-9060-6e3dc67c5ce5",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-PREMIER-202004"
+                    },
+                    {
+                      "id": "acaafa61-a5ef-4584-b7fa-6b81045d3f06",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ULTIMATE-201811"
+                    },
+                    {
+                      "id": "0e796d14-487b-4058-8fe5-0b1dae7f231e",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ENTERTAINMENT-201811"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "free-promo",
+              "value": {
+                "percentage": 0
+              },
+              "customerClassification": "New Customer",
+              "secondaryBenefitCode": "860346961",
+              "freeTrialPromo": true,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "minQuantity": 0,
+              "extPromoType": "Device Activation",
+              "promoPriority": 2,
+              "salesChannel": "agentNew|selfServiceNew",
+              "benefitLevel": "product",
+              "displayNameforServices": "Device Activation",
+              "notApplibaleForOffer": false,
+              "enableServiceDisconnect": false,
+              "rtpIndicator": false,
+              "portin": false,
+              "active": true,
+              "migrated": true,
+              "quotaBased": false,
+              "couponPromo": false,
+              "isDependentPromo": true,
+              "isMigrated": true,
+              "isQuotaBased": false,
+              "isActive": true
+            },
+            {
+              "benefitCategory": "Product",
+              "id": "1c368dd6-588d-4f66-bc4f-38d87e3ecf23",
+              "code": "SAVENOW10OFF24M",
+              "billingBenefitCode": "SAVENOW10OFF24M",
+              "benefitName": {
+                "en": "$10 off for 24 Months SAVE NOW"
+              },
+              "benefitDisplayName": {
+                "en": "$10 OFF FOR 24 MONTHS SAVE NOW"
+              },
+              "benefitRank": 0,
+              "description": {
+                "en": "$10 Off For 24 Months Base Package Promotion"
+              },
+              "opusDisclosureMessage": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+              "myAttDisclosureMessage": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+              "disclosure": "Benefit Disclosure Place-Holder",
+              "displayNamesByKey": {
+                "shortDisplayName": "Benefit Short Display Name Place-Holder",
+                "longDisplayName": "Benefit Long Display Name Place-Holder"
+              },
+              "descriptionsByKey": {
+                "shortDesc": "Benefit Short Description Place-Holder",
+                "longDesc": "Benefit Long Description Place-Holder"
+              },
+              "disclosureMessagesByKey": {
+                "opusDisclosure": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+                "onlineDisclosure": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+                "disclosure": "Benefit Disclosure Place-Holder"
+              },
+              "startDate": "2023-06-06T00:00:00.000Z",
+              "retIoApplicableProducts": false,
+              "endDate": "2050-12-31T00:00:00.000Z",
+              "contractIndicator": "all",
+              "selfBenefit": false,
+              "duration": 24,
+              "period": "NoOfMonths",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "0e796d14-487b-4058-8fe5-0b1dae7f231e",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ENTERTAINMENT-201811"
+                    },
+                    {
+                      "id": "cda38789-8834-4d91-9060-6e3dc67c5ce5",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-PREMIER-202004"
+                    },
+                    {
+                      "id": "acaafa61-a5ef-4584-b7fa-6b81045d3f06",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ULTIMATE-201811"
+                    },
+                    {
+                      "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-CHOICE-201811"
+                    },
+                    {
+                      "id": "17409ef2-12e9-48a3-85c0-0e52d21be60c",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-OPTIMOMAS-122018"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "flat-off",
+              "value": {
+                "centAmount": 1000.0,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 10.0
+              },
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "minQuantity": 0,
+              "extPromoType": "saveNow",
+              "promoPriority": 0,
+              "salesChannel": "agentNew|selfServiceNew",
+              "longDescriptionforServices": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+              "shortDescriptionforOpus": "$10 OFF FOR 24 MONTHS PROMO",
+              "displayNameforServices": "DIRECTV BUY NOW/SAVE NOW PROMO",
+              "notApplibaleForOffer": false,
+              "enableServiceDisconnect": false,
+              "rtpIndicator": false,
+              "portin": false,
+              "active": true,
+              "migrated": false,
+              "quotaBased": false,
+              "couponPromo": false,
+              "isDependentPromo": false,
+              "isMigrated": false,
+              "isQuotaBased": false,
+              "isActive": true
+            }
+          ],
+          "eligibility": {
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Residential"
+                ],
+                "customerSegment": "Residential",
+                "minimumPurchaseAmount": 0,
+                "salesChannel": [
+                  "assistedSales",
+                  "directIntegrationPartner"
+                ],
+                "businessSegment": [
+                  "CONS"
+                ]
+              }
+            ]
+          },
+          "leadOffer": true,
+          "offerPrice": {
+            "dollarAmount": 79.99
+          },
+          "contractIndicator": "TAZCONTRACT",
+          "salesChannel": [
+            "directvCenters"
+          ],
+          "offerIntents": [
+            "non-migration",
+            "migration"
+          ],
+          "migrationServiceType": [
+            "legacySatellite",
+            "satellite",
+            "IPTV"
+          ],
+          "recommendedOfferOPUS": false,
+          "recommendedOnline": false,
+          "isVirtual": false,
+          "flashSaleOffer": false,
+          "isBulkOffer": false,
+          "isSpecialOffer": false,
+          "rsnFeeDetails": {
+            "sku": "RSN-TCTIER1-202404",
+            "amount": 0.0,
+            "visible": false
+          }
+        }
+      },
+      {
+        "id": "82791c6e-b9d6-43e3-b9a7-9b495e4775f5",
+        "code": "OF_BASE-ENTERTAINMENT-201811_TAZCONTRACT_INTRO_SAVENOW_2024",
+        "status": "live",
+        "name": {
+          "en": "Entertainment"
+        },
+        "description": {
+          "en": "75+ channels"
+        },
+        "startDate": "2024-07-11T18:30:00.000Z",
+        "endDate": "2050-12-30T18:30:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductTypes": [
+            "video-plan"
+          ],
+          "offerProductFamily": "OTT",
+          "offerProductFamilies": [
+            "OTT"
+          ],
+          "offerType": "multi-benefit",
+          "offerActionType": "Acquisition",
+          "offerActionTypes": [
+            "Acquisition"
+          ],
+          "environment": "",
+          "rank": "500",
+          "displayName": {
+            "en": "Entertainment"
+          },
+          "descriptionsByKey": {
+            "long-myatt": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time."
+          },
+          "opusDisclosureMessage": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.",
+          "myAttDisclosureMessage": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.",
+          "billingId": "889253523",
+          "billingCode": "OF_BASE-ENTERTAINMENT-201811",
+          "migratedOffer": true,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "NA",
+                    "dependent": false,
+                    "anchor": false
+                  }
+                }
+              ],
+              "bundleProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "productStatus": "Active",
+                    "productState": "New",
+                    "dependent": false,
+                    "anchor": false
+                  },
+                  "products": [
+                    {
+                      "id": "0e796d14-487b-4058-8fe5-0b1dae7f231e",
+                      "typeId": "product",
+                      "obj": {
+                        "id": "0e796d14-487b-4058-8fe5-0b1dae7f231e",
+                        "code": "BASE-ENTERTAINMENT-201811",
+                        "productType": {
+                          "typeId": "product-type",
+                          "id": "cb512bc7-05aa-4d02-896c-bcfb3487c5da",
+                          "key": "video-plan"
+                        },
+                        "name": {
+                          "en": "Entertainment"
+                        },
+                        "description": {
+                          "en": "Entertainment must-haves. ##75##+ channels"
+                        },
+                        "categories": [],
+                        "variants": [
+                          {
+                            "id": "1",
+                            "prices": [
+                              {
+                                "value": {
+                                  "centAmount": 11200.0,
+                                  "currencyCode": "USD",
+                                  "fractionDigits": 2,
+                                  "dollarAmount": 112.0
+                                },
+                                "id": "1928ba99-b0d7-4c49-a7c8-143c3e43b448",
+                                "startDate": "2024-04-29T18:30:00.000Z",
+                                "endDate": "9999-12-31T18:29:00.000Z",
+                                "recurrenceIndicator": true,
+                                "duration": 0,
+                                "period": "month",
+                                "proRateFrequency": "daily",
+                                "contractIndicator": "TAZCONTRACT",
+                                "billingReferenceId": "221866",
+                                "gfVersion": 0,
+                                "grandfathered": false,
+                                "contracted": false
+                              }
+                            ],
+                            "attributes": {
+                              "displayName": {
+                                "en": "ENTERTAINMENT"
+                              },
+                              "displayNamesByKey": {
+                                "services": "ENTERTAINMENT",
+                                "name-cpc": "ENTERTAINMENT",
+                                "name-partner": "ENTERTAINMENT",
+                                "shortDisplayName": "ENTERTAINMENT",
+                                "longDisplayName": "Long Display Name Placeholder"
+                              },
+                              "descriptionsByKey": {
+                                "short-opus": "75+ channels",
+                                "long-services": "75+ channels",
+                                "short-services": "75+",
+                                "long-myatt": "<p><b><u>DIRECTV:</u></b> Compatible device req&#39;d. Residential U.S. customers only (excludes Puerto Rico and U.S. Virgin Islands). Your DIRECTV service renews monthly at the prevailing rate, charged to your payment method on file unless you cancel. Once you&#39;ve canceled, you can access DIRECTV through the remaining monthly period. New customers who cancel service in the first 14 days will receive a full refund. <b>Otherwise, no refunds or credits for any partial&#8208;month periods or unwatched content. Returning customers who disconnected service within the previous 12 months are not eligible for a refund. <b><u>Regional Sports &#38; Local Channels:</b></u> Regional Sports available with CHOICE and above. Not available in select areas. Channels vary by package &#38; billing region. Device may need to be in billing region in order to view. <b><u>Limits:</b></u> Offers may not be available through all channels and in select areas. Programming subject to blackout restrictions. Subject to DIRECTV terms and conditions (see directv.com/LegalStream). <b>Pricing, channels, features, and terms are subject to change &#38; may be modified or discontinued at any time without notice.</b> See directv.com/stream/ for details.</p>",
+                                "description-cpc": "Entertainment must-haves. ##75##+ channels",
+                                "short-partner": "75+ channels",
+                                "shortDesc": "75+ channels",
+                                "longDesc": "<p><b><u>DIRECTV:</u></b> Compatible device req&#39;d. Residential U.S. customers only (excludes Puerto Rico and U.S. Virgin Islands). Your DIRECTV service renews monthly at the prevailing rate, charged to your payment method on file unless you cancel. Once you&#39;ve canceled, you can access DIRECTV through the remaining monthly period. New customers who cancel service in the first 14 days will receive a full refund. <b>Otherwise, no refunds or credits for any partial&#8208;month periods or unwatched content. Returning customers who disconnected service within the previous 12 months are not eligible for a refund. <b><u>Regional Sports &#38; Local Channels:</b></u> Regional Sports available with CHOICE and above. Not available in select areas. Channels vary by package &#38; billing region. Device may need to be in billing region in order to view. <b><u>Limits:</b></u> Offers may not be available through all channels and in select areas. Programming subject to blackout restrictions. Subject to DIRECTV terms and conditions (see directv.com/LegalStream). <b>Pricing, channels, features, and terms are subject to change &#38; may be modified or discontinued at any time without notice.</b> See directv.com/stream/ for details.</p>",
+                                "long-partner": "<p>Must-have Sports, News, &amp; Entertainment- 75+ channels, Stream on unlimited devices in your home, Cloud DVR storage included.</p><p><i>Plus Tax. Price for 24 months plus taxes and fees with 24-month agreement. Advanced Receiver Service Fee $15/mo. is extra &amp; applies.</i></p>"
+                              },
+                              "billingProductCode": "BASE-ENTERTAINMENT-201811",
+                              "billingProductId": "13840",
+                              "startDate": "2018-11-25T06:30:00.000Z",
+                              "endDate": "9999-12-30T18:30:00.000Z",
+                              "businessSegment": [
+                                "CONS"
+                              ],
+                              "congratsMessage": "Great choice!",
+                              "salesChannel": [
+                                "partnerServices",
+                                "partnerSales",
+                                "opusServices",
+                                "opusSales",
+                                "onlineServices",
+                                "onlineSales"
+                              ],
+                              "productFamily": "OTT",
+                              "packageGroup": "20000",
+                              "removalRule": {
+                                "accountType": [
+                                  "ALL"
+                                ]
+                              },
+                              "numberOfChannels": "75+ live channels",
+                              "language": "English",
+                              "serviceFlag": true,
+                              "secondaryBillingProductId": "7545579314",
+                              "productStatus": "Active",
+                              "contractApplicable": "all",
+                              "contractIndicator": [
+                                "TAZCONTRACT",
+                                "TAZBYOD",
+                                "TAZ",
+                                "contract",
+                                "non-contract",
+                                "EDSP",
+                                "RR"
+                              ],
+                              "migratedProduct": true,
+                              "disclosureMessagesByKey": {
+                                "disclosure": "Disclosure Placeholder",
+                                "opt-in": "Opt-in Disclosure Placeholder",
+                                "opt-out": "Opt-out Disclosure Placeholder",
+                                "auto-renew": "Auto-renew Disclosure Placeholder"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "productType": "video-plan",
+                      "key": "BASE-ENTERTAINMENT-201811"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "benefits": [
+            {
+              "benefitCategory": "Product",
+              "id": "1c368dd6-588d-4f66-bc4f-38d87e3ecf23",
+              "code": "SAVENOW10OFF24M",
+              "billingBenefitCode": "SAVENOW10OFF24M",
+              "benefitName": {
+                "en": "$10 off for 24 Months SAVE NOW"
+              },
+              "benefitDisplayName": {
+                "en": "$10 OFF FOR 24 MONTHS SAVE NOW"
+              },
+              "benefitRank": 0,
+              "description": {
+                "en": "$10 Off For 24 Months Base Package Promotion"
+              },
+              "opusDisclosureMessage": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+              "myAttDisclosureMessage": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+              "disclosure": "Benefit Disclosure Place-Holder",
+              "displayNamesByKey": {
+                "shortDisplayName": "Benefit Short Display Name Place-Holder",
+                "longDisplayName": "Benefit Long Display Name Place-Holder"
+              },
+              "descriptionsByKey": {
+                "shortDesc": "Benefit Short Description Place-Holder",
+                "longDesc": "Benefit Long Description Place-Holder"
+              },
+              "disclosureMessagesByKey": {
+                "opusDisclosure": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+                "onlineDisclosure": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+                "disclosure": "Benefit Disclosure Place-Holder"
+              },
+              "startDate": "2023-06-06T00:00:00.000Z",
+              "retIoApplicableProducts": false,
+              "endDate": "2050-12-31T00:00:00.000Z",
+              "contractIndicator": "all",
+              "selfBenefit": false,
+              "duration": 24,
+              "period": "NoOfMonths",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "0e796d14-487b-4058-8fe5-0b1dae7f231e",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ENTERTAINMENT-201811"
+                    },
+                    {
+                      "id": "cda38789-8834-4d91-9060-6e3dc67c5ce5",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-PREMIER-202004"
+                    },
+                    {
+                      "id": "acaafa61-a5ef-4584-b7fa-6b81045d3f06",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ULTIMATE-201811"
+                    },
+                    {
+                      "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-CHOICE-201811"
+                    },
+                    {
+                      "id": "17409ef2-12e9-48a3-85c0-0e52d21be60c",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-OPTIMOMAS-122018"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "flat-off",
+              "value": {
+                "centAmount": 1000.0,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 10.0
+              },
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "minQuantity": 0,
+              "extPromoType": "saveNow",
+              "promoPriority": 0,
+              "salesChannel": "agentNew|selfServiceNew",
+              "longDescriptionforServices": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+              "shortDescriptionforOpus": "$10 OFF FOR 24 MONTHS PROMO",
+              "displayNameforServices": "DIRECTV BUY NOW/SAVE NOW PROMO",
+              "notApplibaleForOffer": false,
+              "enableServiceDisconnect": false,
+              "rtpIndicator": false,
+              "portin": false,
+              "active": true,
+              "migrated": false,
+              "quotaBased": false,
+              "couponPromo": false,
+              "isDependentPromo": false,
+              "isMigrated": false,
+              "isQuotaBased": false,
+              "isActive": true
+            },
+            {
+              "benefitCategory": "Product",
+              "id": "1e6445a2-878c-4534-b227-a3b0c410f393",
+              "code": "TLENT24M",
+              "billingBenefitCode": "TLENT24M",
+              "benefitName": {
+                "en": "Intro Discount $37.01 off for 24 Months ENTERTAINMENT"
+              },
+              "benefitDisplayName": {
+                "en": "Intro Discount $37.01 off for 24 Months ENTERTAINMENT"
+              },
+              "benefitRank": 0,
+              "description": {
+                "en": "Intro Discount $37.01 off for 24 Months ENTERTAINMENT"
+              },
+              "startDate": "2024-04-01T07:00:00.000Z",
+              "retIoApplicableProducts": false,
+              "endDate": "2050-12-31T00:00:00.000Z",
+              "contractIndicator": "TAZCONTRACT",
+              "selfBenefit": false,
+              "duration": 24,
+              "period": "NoOfMonths",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "cda38789-8834-4d91-9060-6e3dc67c5ce5",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-PREMIER-202004"
+                    },
+                    {
+                      "id": "acaafa61-a5ef-4584-b7fa-6b81045d3f06",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ULTIMATE-201811"
+                    },
+                    {
+                      "id": "0e796d14-487b-4058-8fe5-0b1dae7f231e",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ENTERTAINMENT-201811"
+                    },
+                    {
+                      "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-CHOICE-201811"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "flat-off",
+              "value": {
+                "centAmount": 3701.0,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 37.01
+              },
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "minQuantity": 0,
+              "extPromoType": "contract",
+              "promoPriority": 0,
+              "salesChannel": "agentNew|selfServiceNew",
+              "shortDescriptionforOpus": "Intro Discount $37.01 off for 24 Months ENTERTAINMENT",
+              "displayNameforServices": "DIRECTV BUY NOW/ SAVE NOW PROMO",
+              "notApplibaleForOffer": false,
+              "enableServiceDisconnect": false,
+              "rtpIndicator": false,
+              "portin": false,
+              "active": true,
+              "migrated": false,
+              "quotaBased": false,
+              "couponPromo": false,
+              "isDependentPromo": false,
+              "isMigrated": false,
+              "isQuotaBased": false,
+              "isActive": true
+            },
+            {
+              "benefitCategory": "Product",
+              "billingBenefitId": "9407",
+              "id": "31f5e7ad-38e7-40d9-94e0-66f6de69b8c3",
+              "code": "EDSPDEACT001",
+              "billingBenefitCode": "EDSPDEACT001",
+              "benefitName": {
+                "en": "Device Activation"
+              },
+              "benefitDisplayName": {
+                "en": "14 days service BRE"
+              },
+              "benefitRank": 10,
+              "description": {
+                "en": "Device Activation"
+              },
+              "opusDisclosureMessage": "You may cancel service within the first 14 days of purchase to avoid charges.",
+              "disclosureMessagesByKey": {
+                "opusDisclosure": "You may cancel service within the first 14 days of purchase to avoid charges."
+              },
+              "startDate": "2020-11-27T18:30:00.000Z",
+              "retIoApplicableProducts": false,
+              "contractIndicator": "all",
+              "selfBenefit": false,
+              "duration": 15,
+              "period": "NoOfDays",
+              "billAfterPeriod": true,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "17409ef2-12e9-48a3-85c0-0e52d21be60c",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-OPTIMOMAS-122018"
+                    },
+                    {
+                      "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-CHOICE-201811"
+                    },
+                    {
+                      "id": "cda38789-8834-4d91-9060-6e3dc67c5ce5",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-PREMIER-202004"
+                    },
+                    {
+                      "id": "acaafa61-a5ef-4584-b7fa-6b81045d3f06",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ULTIMATE-201811"
+                    },
+                    {
+                      "id": "0e796d14-487b-4058-8fe5-0b1dae7f231e",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ENTERTAINMENT-201811"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "free-promo",
+              "value": {
+                "percentage": 0
+              },
+              "customerClassification": "New Customer",
+              "secondaryBenefitCode": "860346961",
+              "freeTrialPromo": true,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "minQuantity": 0,
+              "extPromoType": "Device Activation",
+              "promoPriority": 2,
+              "salesChannel": "agentNew|selfServiceNew",
+              "benefitLevel": "product",
+              "displayNameforServices": "Device Activation",
+              "notApplibaleForOffer": false,
+              "enableServiceDisconnect": false,
+              "rtpIndicator": false,
+              "portin": false,
+              "active": true,
+              "migrated": true,
+              "quotaBased": false,
+              "couponPromo": false,
+              "isDependentPromo": true,
+              "isMigrated": true,
+              "isQuotaBased": false,
+              "isActive": true
+            }
+          ],
+          "eligibility": {
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Residential"
+                ],
+                "customerSegment": "Residential",
+                "minimumPurchaseAmount": 0,
+                "salesChannel": [
+                  "assistedSales",
+                  "directvOnline",
+                  "directIntegrationPartner",
+                  "opus"
+                ],
+                "businessSegment": [
+                  "CONS"
+                ],
+                "existingCustomerType": [
+                  "DTVN"
+                ]
+              }
+            ]
+          },
+          "leadOffer": true,
+          "offerPrice": {
+            "dollarAmount": 74.99
+          },
+          "contractIndicator": "TAZCONTRACT",
+          "salesChannel": [
+            "directvCenters",
+            "DAP"
+          ],
+          "offerIntents": [
+            "non-migration"
+          ],
+          "recommendedOfferOPUS": false,
+          "customerType": "acquisition",
+          "recommendedOnline": false,
+          "isVirtual": false,
+          "flashSaleOffer": false,
+          "isBulkOffer": false,
+          "mandatoryOfferGroups": [
+            "DVR"
+          ],
+          "isSpecialOffer": false,
+          "rsnFeeDetails": {
+            "sku": "RSN-TCTIER1-202404",
+            "amount": 0.0,
+            "visible": false
+          }
+        }
+      },
+      {
+        "id": "48b11ce6-7cf7-456f-a167-ec9c74408832",
+        "code": "OF_BASE-ULTIMATE-201811_TAZCONTRACT_INTRO_SAVENOW_2024",
+        "status": "live",
+        "name": {
+          "en": "Ultimate"
+        },
+        "description": {
+          "en": "140+ channels"
+        },
+        "startDate": "2024-04-01T05:00:00.000Z",
+        "endDate": "2050-12-30T18:30:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductTypes": [
+            "video-plan"
+          ],
+          "offerProductFamily": "OTT",
+          "offerProductFamilies": [
+            "OTT"
+          ],
+          "offerType": "multi-benefit",
+          "offerActionType": "Acquisition",
+          "offerActionTypes": [
+            "Acquisition",
+            "Upsell"
+          ],
+          "environment": "",
+          "rank": "530",
+          "displayName": {
+            "en": "Ultimate"
+          },
+          "descriptionsByKey": {
+            "long-myatt": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time."
+          },
+          "opusDisclosureMessage": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.",
+          "myAttDisclosureMessage": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.",
+          "billingId": "7523831766",
+          "billingCode": "OF_BASE-ULTIMATE-201811",
+          "migratedOffer": true,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "NA",
+                    "dependent": false,
+                    "anchor": false
+                  }
+                }
+              ],
+              "bundleProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "productStatus": "Active",
+                    "productState": "New",
+                    "dependent": false,
+                    "anchor": false
+                  },
+                  "products": [
+                    {
+                      "id": "acaafa61-a5ef-4584-b7fa-6b81045d3f06",
+                      "typeId": "product",
+                      "obj": {
+                        "id": "acaafa61-a5ef-4584-b7fa-6b81045d3f06",
+                        "code": "BASE-ULTIMATE-201811",
+                        "productType": {
+                          "typeId": "product-type",
+                          "id": "cb512bc7-05aa-4d02-896c-bcfb3487c5da",
+                          "key": "video-plan"
+                        },
+                        "name": {
+                          "en": "Ultimate"
+                        },
+                        "description": {
+                          "en": "Ultimate must-haves. ##140##+ channels"
+                        },
+                        "categories": [],
+                        "variants": [
+                          {
+                            "id": "1",
+                            "prices": [
+                              {
+                                "value": {
+                                  "centAmount": 17500.0,
+                                  "currencyCode": "USD",
+                                  "fractionDigits": 2,
+                                  "dollarAmount": 175.0
+                                },
+                                "id": "11ad8d99-01cd-462f-a664-ef24b6537635",
+                                "startDate": "2024-04-29T19:00:00.000Z",
+                                "endDate": "9999-12-31T08:00:00.000Z",
+                                "recurrenceIndicator": true,
+                                "duration": 0,
+                                "period": "month",
+                                "proRateFrequency": "daily",
+                                "contractIndicator": "TAZCONTRACT",
+                                "billingReferenceId": "221869",
+                                "gfVersion": 0,
+                                "grandfathered": false,
+                                "contracted": false
+                              }
+                            ],
+                            "attributes": {
+                              "displayName": {
+                                "en": "ULTIMATE"
+                              },
+                              "displayNamesByKey": {
+                                "services": "ULTIMATE",
+                                "name-cpc": "ULTIMATE",
+                                "name-partner": "ULTIMATE"
+                              },
+                              "descriptionsByKey": {
+                                "short-opus": "140+ channels",
+                                "long-services": "140+ channels",
+                                "short-services": "140+",
+                                "long-myatt": "<p><b><u>DIRECTV:</u></b> Compatible device req&#39;d. Residential U.S. customers only (excludes Puerto Rico and U.S. Virgin Islands). Your DIRECTV  service renews monthly at the prevailing rate, charged to your payment method on file unless you cancel. Once you&#39;ve canceled, you can access DIRECTV through the remaining monthly period. New customers who cancel service in the first 14 days will receive a full refund. <b>Otherwise, no refunds or credits for any partial&#8208;month periods or unwatched content. Returning customers who disconnected service within the previous 12 months are not eligible for a refund. <b><u>Regional Sports &#38; Local Channels:</b></u> Regional Sports available with CHOICE and above. Not available in select areas. Channels vary by package &#38; billing region. Device may need to be in billing region in order to view. <b><u>Limits:</b></u> Offers may not be available through all channels and in select areas. Programming subject to blackout restrictions. Subject to DIRECTV terms and conditions (see directv.com/LegalStream). <b>Pricing, channels, features, and terms are subject to change &#38; may be modified or discontinued at any time without notice.</b> See directv.com/stream/ for details.</p>",
+                                "description-cpc": "Ultimate must-haves. ##140##+ channels",
+                                "short-partner": "140+ channels",
+                                "long-partner": "<p>Perfect for Family And Movie Lovers, including STARZ Encore-140+ channels, Stream on unlimited devices in your home, Cloud DVR storage included.</p><p><i>Plus Tax. Price for 24 months plus taxes and fees with 24-month agreement. Advanced Receiver Service Fee $15/mo. and Regional Sports Fee up to $17.99/mo. are extra &amp; apply.</i></p>"
+                              },
+                              "billingProductCode": "BASE-ULTIMATE-201811",
+                              "billingProductId": "13841",
+                              "startDate": "2019-02-28T18:30:00.000Z",
+                              "endDate": "9999-12-30T18:30:00.000Z",
+                              "businessSegment": [
+                                "CONS"
+                              ],
+                              "congratsMessage": "Great choice!",
+                              "salesChannel": [
+                                "online",
+                                "directvOnline",
+                                "partnerServices",
+                                "partnerSales",
+                                "opusServices",
+                                "opusSales",
+                                "onlineServices",
+                                "onlineSales"
+                              ],
+                              "productFamily": "OTT",
+                              "packageGroup": "20000",
+                              "removalRule": {
+                                "accountType": [
+                                  "ALL"
+                                ]
+                              },
+                              "numberOfChannels": "140+ live channels",
+                              "language": "English",
+                              "serviceFlag": true,
+                              "secondaryBillingProductId": "7545579315",
+                              "productStatus": "Active",
+                              "contractApplicable": "all",
+                              "contractIndicator": [
+                                "TAZCONTRACT",
+                                "TAZBYOD",
+                                "TAZ",
+                                "bulk-price",
+                                "contract",
+                                "non-contract",
+                                "EDSP",
+                                "RR"
+                              ],
+                              "customerSegments": [
+                                "Employee"
+                              ],
+                              "migratedProduct": true,
+                              "includedEmployeeProducts": [
+                                {
+                                  "products": [
+                                    {
+                                      "id": "b4f91c96-60b2-4474-acb0-9fa063f71285",
+                                      "typeId": "product",
+                                      "productType": "video-addon",
+                                      "key": "BOLT-EPIX-201907"
+                                    },
+                                    {
+                                      "id": "d7a05882-4296-4c97-baac-01e0228c5f21",
+                                      "typeId": "product",
+                                      "productType": "video-addon",
+                                      "key": "BOLT-STARZ-201610"
+                                    },
+                                    {
+                                      "id": "d54b9253-695c-443c-9117-7b6d74876801",
+                                      "typeId": "product",
+                                      "productType": "video-addon",
+                                      "key": "BOLT-HBO-201610"
+                                    }
+                                  ],
+                                  "constraints": {
+                                    "productTypes": [
+                                      "video-addon"
+                                    ],
+                                    "dependent": false,
+                                    "anchor": false
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      },
+                      "productType": "video-plan",
+                      "key": "BASE-ULTIMATE-201811"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "benefits": [
+            {
+              "benefitCategory": "Product",
+              "id": "a2323960-ad3d-41ec-9555-129a22018349",
+              "code": "TLULT24M",
+              "billingBenefitCode": "TLULT24M",
+              "benefitName": {
+                "en": "Intro Discount $55.01 off for 24 Months ULTIMATE"
+              },
+              "benefitDisplayName": {
+                "en": "Intro Discount $55.01 off for 24 Months ULTIMATE"
+              },
+              "benefitRank": 0,
+              "description": {
+                "en": "Intro Discount $55.01 off for 24 Months ULTIMATE"
+              },
+              "startDate": "2024-04-01T07:00:00.000Z",
+              "retIoApplicableProducts": false,
+              "endDate": "2050-12-31T00:00:00.000Z",
+              "contractIndicator": "all",
+              "selfBenefit": false,
+              "duration": 24,
+              "period": "NoOfMonths",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "cda38789-8834-4d91-9060-6e3dc67c5ce5",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-PREMIER-202004"
+                    },
+                    {
+                      "id": "acaafa61-a5ef-4584-b7fa-6b81045d3f06",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ULTIMATE-201811"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "flat-off",
+              "value": {
+                "centAmount": 5501.0,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 55.01
+              },
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "minQuantity": 0,
+              "extPromoType": "contract",
+              "promoPriority": 0,
+              "salesChannel": "agentNew|selfServiceNew|partner",
+              "shortDescriptionforOpus": " Intro Discount $55.01 off for 24 Months ULTIMATE",
+              "displayNameforServices": "DIRECTV BUY NOW/ SAVE NOW PROMO",
+              "notApplibaleForOffer": false,
+              "enableServiceDisconnect": false,
+              "rtpIndicator": false,
+              "portin": false,
+              "active": true,
+              "migrated": false,
+              "quotaBased": false,
+              "couponPromo": false,
+              "isDependentPromo": false,
+              "isMigrated": false,
+              "isQuotaBased": false,
+              "isActive": true
+            },
+            {
+              "benefitCategory": "Product",
+              "id": "1c368dd6-588d-4f66-bc4f-38d87e3ecf23",
+              "code": "SAVENOW10OFF24M",
+              "billingBenefitCode": "SAVENOW10OFF24M",
+              "benefitName": {
+                "en": "$10 off for 24 Months SAVE NOW"
+              },
+              "benefitDisplayName": {
+                "en": "$10 OFF FOR 24 MONTHS SAVE NOW"
+              },
+              "benefitRank": 0,
+              "description": {
+                "en": "$10 Off For 24 Months Base Package Promotion"
+              },
+              "opusDisclosureMessage": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+              "myAttDisclosureMessage": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+              "disclosure": "Benefit Disclosure Place-Holder",
+              "displayNamesByKey": {
+                "shortDisplayName": "Benefit Short Display Name Place-Holder",
+                "longDisplayName": "Benefit Long Display Name Place-Holder"
+              },
+              "descriptionsByKey": {
+                "shortDesc": "Benefit Short Description Place-Holder",
+                "longDesc": "Benefit Long Description Place-Holder"
+              },
+              "disclosureMessagesByKey": {
+                "opusDisclosure": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+                "onlineDisclosure": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+                "disclosure": "Benefit Disclosure Place-Holder"
+              },
+              "startDate": "2023-06-06T00:00:00.000Z",
+              "retIoApplicableProducts": false,
+              "endDate": "2050-12-31T00:00:00.000Z",
+              "contractIndicator": "all",
+              "selfBenefit": false,
+              "duration": 24,
+              "period": "NoOfMonths",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "0e796d14-487b-4058-8fe5-0b1dae7f231e",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ENTERTAINMENT-201811"
+                    },
+                    {
+                      "id": "cda38789-8834-4d91-9060-6e3dc67c5ce5",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-PREMIER-202004"
+                    },
+                    {
+                      "id": "acaafa61-a5ef-4584-b7fa-6b81045d3f06",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ULTIMATE-201811"
+                    },
+                    {
+                      "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-CHOICE-201811"
+                    },
+                    {
+                      "id": "17409ef2-12e9-48a3-85c0-0e52d21be60c",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-OPTIMOMAS-122018"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "flat-off",
+              "value": {
+                "centAmount": 1000.0,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 10.0
+              },
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "minQuantity": 0,
+              "extPromoType": "saveNow",
+              "promoPriority": 0,
+              "salesChannel": "agentNew|selfServiceNew",
+              "longDescriptionforServices": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+              "shortDescriptionforOpus": "$10 OFF FOR 24 MONTHS PROMO",
+              "displayNameforServices": "DIRECTV BUY NOW/SAVE NOW PROMO",
+              "notApplibaleForOffer": false,
+              "enableServiceDisconnect": false,
+              "rtpIndicator": false,
+              "portin": false,
+              "active": true,
+              "migrated": false,
+              "quotaBased": false,
+              "couponPromo": false,
+              "isDependentPromo": false,
+              "isMigrated": false,
+              "isQuotaBased": false,
+              "isActive": true
+            },
+            {
+              "benefitCategory": "Product",
+              "billingBenefitId": "9407",
+              "id": "31f5e7ad-38e7-40d9-94e0-66f6de69b8c3",
+              "code": "EDSPDEACT001",
+              "billingBenefitCode": "EDSPDEACT001",
+              "benefitName": {
+                "en": "Device Activation"
+              },
+              "benefitDisplayName": {
+                "en": "14 days service BRE"
+              },
+              "benefitRank": 10,
+              "description": {
+                "en": "Device Activation"
+              },
+              "opusDisclosureMessage": "You may cancel service within the first 14 days of purchase to avoid charges.",
+              "disclosureMessagesByKey": {
+                "opusDisclosure": "You may cancel service within the first 14 days of purchase to avoid charges."
+              },
+              "startDate": "2020-11-27T18:30:00.000Z",
+              "retIoApplicableProducts": false,
+              "contractIndicator": "all",
+              "selfBenefit": false,
+              "duration": 15,
+              "period": "NoOfDays",
+              "billAfterPeriod": true,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "17409ef2-12e9-48a3-85c0-0e52d21be60c",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-OPTIMOMAS-122018"
+                    },
+                    {
+                      "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-CHOICE-201811"
+                    },
+                    {
+                      "id": "cda38789-8834-4d91-9060-6e3dc67c5ce5",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-PREMIER-202004"
+                    },
+                    {
+                      "id": "acaafa61-a5ef-4584-b7fa-6b81045d3f06",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ULTIMATE-201811"
+                    },
+                    {
+                      "id": "0e796d14-487b-4058-8fe5-0b1dae7f231e",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ENTERTAINMENT-201811"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "free-promo",
+              "value": {
+                "percentage": 0
+              },
+              "customerClassification": "New Customer",
+              "secondaryBenefitCode": "860346961",
+              "freeTrialPromo": true,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "minQuantity": 0,
+              "extPromoType": "Device Activation",
+              "promoPriority": 2,
+              "salesChannel": "agentNew|selfServiceNew",
+              "benefitLevel": "product",
+              "displayNameforServices": "Device Activation",
+              "notApplibaleForOffer": false,
+              "enableServiceDisconnect": false,
+              "rtpIndicator": false,
+              "portin": false,
+              "active": true,
+              "migrated": true,
+              "quotaBased": false,
+              "couponPromo": false,
+              "isDependentPromo": true,
+              "isMigrated": true,
+              "isQuotaBased": false,
+              "isActive": true
+            }
+          ],
+          "eligibility": {
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Residential"
+                ],
+                "customerSegment": "Residential",
+                "minimumPurchaseAmount": 0,
+                "salesChannel": [
+                  "assistedSales",
+                  "opus",
+                  "directvOnline",
+                  "directIntegrationPartner"
+                ],
+                "businessSegment": [
+                  "CONS"
+                ],
+                "existingCustomerType": [
+                  "DTVN"
+                ]
+              }
+            ]
+          },
+          "leadOffer": true,
+          "offerPrice": {
+            "dollarAmount": 119.99
+          },
+          "contractIndicator": "TAZCONTRACT",
+          "salesChannel": [
+            "directvCenters",
+            "DAP"
+          ],
+          "offerIntents": [
+            "non-migration"
+          ],
+          "migrationServiceType": [
+            "legacySatellite",
+            "satellite",
+            "IPTV"
+          ],
+          "recommendedOfferOPUS": false,
+          "recommendedOnline": false,
+          "isVirtual": false,
+          "flashSaleOffer": false,
+          "isBulkOffer": false,
+          "isSpecialOffer": false,
+          "rsnFeeDetails": {
+            "sku": "RSN-TCTIER5-202404",
+            "amount": 9.99,
+            "visible": true
+          }
+        }
+      },
+      {
+        "id": "4fe7e6b2-85f0-4c48-bb7b-459cbe67baf1",
+        "code": "OF_BASE-CHOICE-201811_TAZCONTRACT_INTRO_SAVENOW_2024",
+        "status": "live",
+        "name": {
+          "en": "Choice"
+        },
+        "description": {
+          "en": "85+ channels"
+        },
+        "startDate": "2024-04-01T05:00:00.000Z",
+        "endDate": "2050-12-30T18:30:00.000Z",
+        "attributes": {
+          "offerProductType": "video-plan",
+          "offerProductTypes": [
+            "video-plan"
+          ],
+          "offerProductFamily": "OTT",
+          "offerProductFamilies": [
+            "OTT"
+          ],
+          "offerType": "multi-benefit",
+          "offerActionType": "Acquisition",
+          "offerActionTypes": [
+            "Acquisition",
+            "Upsell"
+          ],
+          "environment": "",
+          "rank": "510",
+          "displayName": {
+            "en": "Choice"
+          },
+          "descriptionsByKey": {
+            "long-myatt": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.",
+            "att.com": "85+ channels"
+          },
+          "opusDisclosureMessage": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.",
+          "myAttDisclosureMessage": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.",
+          "billingId": "889252719",
+          "billingCode": "OF_BASE-CHOICE-201811",
+          "migratedOffer": true,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "NA",
+                    "dependent": false,
+                    "anchor": false
+                  }
+                }
+              ],
+              "bundleProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "productStatus": "Active",
+                    "productState": "New",
+                    "dependent": false,
+                    "anchor": false
+                  },
+                  "products": [
+                    {
+                      "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                      "typeId": "product",
+                      "obj": {
+                        "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                        "code": "BASE-CHOICE-201811",
+                        "productType": {
+                          "typeId": "product-type",
+                          "id": "cb512bc7-05aa-4d02-896c-bcfb3487c5da",
+                          "key": "video-plan"
+                        },
+                        "name": {
+                          "en": "Choice"
+                        },
+                        "description": {
+                          "en": "Choice must-haves. ##105##+ channels"
+                        },
+                        "categories": [],
+                        "variants": [
+                          {
+                            "id": "1",
+                            "prices": [
+                              {
+                                "value": {
+                                  "centAmount": 14200.0,
+                                  "currencyCode": "USD",
+                                  "fractionDigits": 2,
+                                  "dollarAmount": 142.0
+                                },
+                                "id": "66e5f903-f2df-4746-b27f-41dc1e3d30dd",
+                                "startDate": "2024-04-30T07:00:00.000Z",
+                                "endDate": "9999-04-15T08:00:00.000Z",
+                                "recurrenceIndicator": true,
+                                "duration": 0,
+                                "period": "month",
+                                "proRateFrequency": "daily",
+                                "contractIndicator": "TAZCONTRACT",
+                                "billingReferenceId": "221868",
+                                "gfVersion": 0,
+                                "grandfathered": false,
+                                "contracted": false
+                              }
+                            ],
+                            "attributes": {
+                              "displayName": {
+                                "en": "CHOICE"
+                              },
+                              "displayNamesByKey": {
+                                "services": "CHOICE",
+                                "name-cpc": "CHOICE",
+                                "name-partner": "CHOICE"
+                              },
+                              "descriptionsByKey": {
+                                "short-opus": "105+ channels",
+                                "long-services": "105+ channels",
+                                "short-services": "105+",
+                                "long-myatt": "<p><b><u>DIRECTV:</u></b> Compatible device req&#39;d. Residential U.S. customers only (excludes Puerto Rico and U.S. Virgin Islands). Your DIRECTV service renews monthly at the prevailing rate, charged to your payment method on file unless you cancel. Once you&#39;ve canceled, you can access DIRECTV through the remaining monthly period. New customers who cancel service in the first 14 days will receive a full refund. <b>Otherwise, no refunds or credits for any partial&#8208;month periods or unwatched content. Returning customers who disconnected service within the previous 12 months are not eligible for a refund. <b><u>Regional Sports &#38; Local Channels:</b></u> Regional Sports available with CHOICE and above. Not available in select areas. Channels vary by package &#38; billing region. Device may need to be in billing region in order to view. <b><u>Limits:</b></u> Offers may not be available through all channels and in select areas. Programming subject to blackout restrictions. Subject to DIRECTV terms and conditions (see directv.com/LegalStream). <b>Pricing, channels, features, and terms are subject to change &#38; may be modified or discontinued at any time without notice.</b> See directv.com/stream/ for details.</p>",
+                                "description-cpc": "Choice must-haves. ##105##+ channels",
+                                "short-partner": "105+ channels",
+                                "long-partner": "<p>Best for Sports, with NBA, MLB, college Networks &amp; more-105+ channels, Stream on unlimited devices in your home, Cloud DVR storage included.</p><p><i>Plus Tax. Price for 24 months plus taxes and fees with 24-month agreement. Advanced Receiver Service Fee $15/mo. and Regional Sports Fee up to $17.99/mo. are extra &amp; apply.</i></p>"
+                              },
+                              "billingProductCode": "BASE-CHOICE-201811",
+                              "billingProductId": "13843",
+                              "startDate": "2019-02-28T18:30:00.000Z",
+                              "endDate": "9999-12-30T18:30:00.000Z",
+                              "businessSegment": [
+                                "CONS"
+                              ],
+                              "congratsMessage": "Great choice!",
+                              "productFamily": "OTT",
+                              "packageGroup": "20000",
+                              "removalRule": {
+                                "accountType": [
+                                  "ALL"
+                                ]
+                              },
+                              "numberOfChannels": "105+ live channels",
+                              "skipAdsIndicator": true,
+                              "language": "English",
+                              "serviceFlag": true,
+                              "secondaryBillingProductId": "7545579313",
+                              "productStatus": "Active",
+                              "contractApplicable": "all",
+                              "contractIndicator": [
+                                "TAZCONTRACT",
+                                "TAZBYOD",
+                                "TAZ",
+                                "contract",
+                                "non-contract",
+                                "EDSP"
+                              ],
+                              "conflictingProducts": [],
+                              "migratedProduct": true,
+                              "tokens": "BASE-CHOICE-201811"
+                            }
+                          }
+                        ]
+                      },
+                      "productType": "video-plan",
+                      "key": "BASE-CHOICE-201811"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "benefits": [
+            {
+              "benefitCategory": "Product",
+              "id": "f11dd0d1-7c3f-4208-8279-acef01ee7c1e",
+              "code": "TLCHO24M",
+              "billingBenefitCode": "TLCHO24M",
+              "benefitName": {
+                "en": "Intro Discount $52.01 off for 24 Months CHOICE"
+              },
+              "benefitDisplayName": {
+                "en": "Intro Discount $52.01 off for 24 Months CHOICE"
+              },
+              "benefitRank": 0,
+              "description": {
+                "en": "Intro Discount $52.01 off for 24 Months CHOICE"
+              },
+              "startDate": "2024-04-01T07:00:00.000Z",
+              "retIoApplicableProducts": false,
+              "endDate": "2050-12-31T00:00:00.000Z",
+              "contractIndicator": "all",
+              "selfBenefit": false,
+              "duration": 24,
+              "period": "NoOfMonths",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "cda38789-8834-4d91-9060-6e3dc67c5ce5",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-PREMIER-202004"
+                    },
+                    {
+                      "id": "acaafa61-a5ef-4584-b7fa-6b81045d3f06",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ULTIMATE-201811"
+                    },
+                    {
+                      "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-CHOICE-201811"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "flat-off",
+              "value": {
+                "centAmount": 5201.0,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 52.01
+              },
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "minQuantity": 0,
+              "extPromoType": "contract",
+              "promoPriority": 0,
+              "salesChannel": "agentNew|selfServiceNew|partner",
+              "displayNameforServices": "DIRECTV BUY NOW/ SAVE NOW PROMO",
+              "notApplibaleForOffer": false,
+              "enableServiceDisconnect": false,
+              "rtpIndicator": false,
+              "portin": false,
+              "active": true,
+              "migrated": false,
+              "quotaBased": false,
+              "couponPromo": false,
+              "isDependentPromo": false,
+              "isMigrated": false,
+              "isQuotaBased": false,
+              "isActive": true
+            },
+            {
+              "benefitCategory": "Product",
+              "id": "1c368dd6-588d-4f66-bc4f-38d87e3ecf23",
+              "code": "SAVENOW10OFF24M",
+              "billingBenefitCode": "SAVENOW10OFF24M",
+              "benefitName": {
+                "en": "$10 off for 24 Months SAVE NOW"
+              },
+              "benefitDisplayName": {
+                "en": "$10 OFF FOR 24 MONTHS SAVE NOW"
+              },
+              "benefitRank": 0,
+              "description": {
+                "en": "$10 Off For 24 Months Base Package Promotion"
+              },
+              "opusDisclosureMessage": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+              "myAttDisclosureMessage": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+              "disclosure": "Benefit Disclosure Place-Holder",
+              "displayNamesByKey": {
+                "shortDisplayName": "Benefit Short Display Name Place-Holder",
+                "longDisplayName": "Benefit Long Display Name Place-Holder"
+              },
+              "descriptionsByKey": {
+                "shortDesc": "Benefit Short Description Place-Holder",
+                "longDesc": "Benefit Long Description Place-Holder"
+              },
+              "disclosureMessagesByKey": {
+                "opusDisclosure": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+                "onlineDisclosure": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+                "disclosure": "Benefit Disclosure Place-Holder"
+              },
+              "startDate": "2023-06-06T00:00:00.000Z",
+              "retIoApplicableProducts": false,
+              "endDate": "2050-12-31T00:00:00.000Z",
+              "contractIndicator": "all",
+              "selfBenefit": false,
+              "duration": 24,
+              "period": "NoOfMonths",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "0e796d14-487b-4058-8fe5-0b1dae7f231e",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ENTERTAINMENT-201811"
+                    },
+                    {
+                      "id": "cda38789-8834-4d91-9060-6e3dc67c5ce5",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-PREMIER-202004"
+                    },
+                    {
+                      "id": "acaafa61-a5ef-4584-b7fa-6b81045d3f06",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ULTIMATE-201811"
+                    },
+                    {
+                      "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-CHOICE-201811"
+                    },
+                    {
+                      "id": "17409ef2-12e9-48a3-85c0-0e52d21be60c",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-OPTIMOMAS-122018"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "flat-off",
+              "value": {
+                "centAmount": 1000.0,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 10.0
+              },
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "minQuantity": 0,
+              "extPromoType": "saveNow",
+              "promoPriority": 0,
+              "salesChannel": "agentNew|selfServiceNew",
+              "longDescriptionforServices": "$10 off for 24 Months: New customers only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via Internet. Requires purchase and maintaining ENTERTAINMENT and above. Customer must activate service and account must remain in good standing to receive all credits. You will lose this offer and/or any portion of this offer if you cancel your service. Returning customers who disconnected service within previous 12 months are not eligible for this offer. LIMIT ONE OFFER PER DIRECTV CONNECT VIA INTERNET ACCOUNT. May not be combined with certain offers. Offer may be changed or discontinued at any time.\n",
+              "shortDescriptionforOpus": "$10 OFF FOR 24 MONTHS PROMO",
+              "displayNameforServices": "DIRECTV BUY NOW/SAVE NOW PROMO",
+              "notApplibaleForOffer": false,
+              "enableServiceDisconnect": false,
+              "rtpIndicator": false,
+              "portin": false,
+              "active": true,
+              "migrated": false,
+              "quotaBased": false,
+              "couponPromo": false,
+              "isDependentPromo": false,
+              "isMigrated": false,
+              "isQuotaBased": false,
+              "isActive": true
+            },
+            {
+              "benefitCategory": "Product",
+              "billingBenefitId": "9407",
+              "id": "31f5e7ad-38e7-40d9-94e0-66f6de69b8c3",
+              "code": "EDSPDEACT001",
+              "billingBenefitCode": "EDSPDEACT001",
+              "benefitName": {
+                "en": "Device Activation"
+              },
+              "benefitDisplayName": {
+                "en": "14 days service BRE"
+              },
+              "benefitRank": 10,
+              "description": {
+                "en": "Device Activation"
+              },
+              "opusDisclosureMessage": "You may cancel service within the first 14 days of purchase to avoid charges.",
+              "disclosureMessagesByKey": {
+                "opusDisclosure": "You may cancel service within the first 14 days of purchase to avoid charges."
+              },
+              "startDate": "2020-11-27T18:30:00.000Z",
+              "retIoApplicableProducts": false,
+              "contractIndicator": "all",
+              "selfBenefit": false,
+              "duration": 15,
+              "period": "NoOfDays",
+              "billAfterPeriod": true,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "17409ef2-12e9-48a3-85c0-0e52d21be60c",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-OPTIMOMAS-122018"
+                    },
+                    {
+                      "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-CHOICE-201811"
+                    },
+                    {
+                      "id": "cda38789-8834-4d91-9060-6e3dc67c5ce5",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-PREMIER-202004"
+                    },
+                    {
+                      "id": "acaafa61-a5ef-4584-b7fa-6b81045d3f06",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ULTIMATE-201811"
+                    },
+                    {
+                      "id": "0e796d14-487b-4058-8fe5-0b1dae7f231e",
+                      "typeId": "product",
+                      "productType": "video-plan",
+                      "key": "BASE-ENTERTAINMENT-201811"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 0,
+              "benefitType": "free-promo",
+              "value": {
+                "percentage": 0
+              },
+              "customerClassification": "New Customer",
+              "secondaryBenefitCode": "860346961",
+              "freeTrialPromo": true,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "minQuantity": 0,
+              "extPromoType": "Device Activation",
+              "promoPriority": 2,
+              "salesChannel": "agentNew|selfServiceNew",
+              "benefitLevel": "product",
+              "displayNameforServices": "Device Activation",
+              "notApplibaleForOffer": false,
+              "enableServiceDisconnect": false,
+              "rtpIndicator": false,
+              "portin": false,
+              "active": true,
+              "migrated": true,
+              "quotaBased": false,
+              "couponPromo": false,
+              "isDependentPromo": true,
+              "isMigrated": true,
+              "isQuotaBased": false,
+              "isActive": true
+            }
+          ],
+          "eligibility": {
+            "constraints": [
+              {
+                "customerSegments": [
+                  "Residential"
+                ],
+                "customerSegment": "Residential",
+                "minimumPurchaseAmount": 0,
+                "salesChannel": [
+                  "assistedSales",
+                  "opus",
+                  "directvOnline",
+                  "directIntegrationPartner"
+                ],
+                "businessSegment": [
+                  "CONS"
+                ]
+              }
+            ]
+          },
+          "leadOffer": true,
+          "offerPrice": {
+            "dollarAmount": 89.99
+          },
+          "contractIndicator": "TAZCONTRACT",
+          "salesChannel": [
+            "directvCenters",
+            "DAP"
+          ],
+          "offerIntents": [
+            "non-migration"
+          ],
+          "migrationServiceType": [
+            "legacySatellite",
+            "satellite",
+            "IPTV"
+          ],
+          "recommendedOfferOPUS": false,
+          "recommendedOnline": false,
+          "isVirtual": false,
+          "flashSaleOffer": false,
+          "isBulkOffer": false,
+          "mandatoryOfferGroups": [
+            "DVR"
+          ],
+          "isSpecialOffer": false,
+          "rsnFeeDetails": {
+            "sku": "RSN-TCTIER5-202404",
+            "amount": 9.99,
+            "visible": true
+          }
+        }
+      }
+    ]
+}

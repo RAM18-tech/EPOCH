@@ -1,0 +1,421 @@
+{
+  "limit": 300,
+  "offset": 0,
+  "count": 1,
+  "total": 1,
+  "offers": [
+    {
+      "id": "df684c2a-4618-4c3e-9822-949877887b5b",
+      "code": "OF_PROMO-PROACTIVE-CREDIT-5-OFF-12-MO_satellite",
+      "status": "live",
+      "name": {
+        "en": "$5 Off for 12 Months ($60 Value) Loyalty Offer"
+      },
+      "description": {
+        "en": "$5 Off for 12 Months ($60 Value) Loyalty Offer"
+      },
+      "startDate": "2022-07-01T00:00:00.000Z",
+      "endDate": "2050-12-31T23:59:00.000Z",
+      "attributes": {
+        "offerProductType": "credit",
+        "offerProductTypes": [
+          "credit"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Retention",
+        "offerActionTypes": [
+          "Retention"
+        ],
+        "displayName": {
+          "en": "$5 Off for 12 Months ($60 Value) Loyalty Offer"
+        },
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-plan"
+                  ],
+                  "productState": "New",
+                  "anchor": false,
+                  "dependent": false
+                          }
+                        }
+                      ]
+          }
+        ],
+        "benefits": [
+          {
+            "benefitCategory": "Product",
+            "billingBenefitId": "B106000/001",
+            "id": "be9af26d-2b97-4c17-9072-a5f8cda90623",
+            "parentOffers": [
+              {
+                "typeId": "product",
+                "id": "df684c2a-4618-4c3e-9822-949877887b5b"
+              }
+            ],
+            "code": "PROMO_BASE_PC_5-OFF-12-MO_satellite",
+            "billingBenefitCode": "VRTN-PROACTIVE-CREDIT-5-12MO-V1",
+            "benefitName": {
+              "en": "$5 Off for 12 Months"
+            },
+            "benefitDisplayName": {
+              "en": "$5 off for 12 months"
+            },
+            "benefitRank": 0,
+            "description": {
+              "en": "$5 Off for 12 Months"
+            },
+            "startDate": "2022-07-13T00:00:00.000Z",
+            "retIoApplicableProducts": false,
+            "endDate": "2050-12-31T00:00:00.000Z",
+            "contractIndicator": "contract",
+            "selfBenefit": false,
+            "duration": 12,
+            "period": "NoOfMonths",
+            "billAfterPeriod": false,
+            "applicableProducts": [
+              {
+                "products": [
+                  {
+                    "id": "cd68156d-098f-49c9-be27-28ceb1cc80ce",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-XTRA-ALL-INCLUDED-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "00d18566-af01-434e-9f0d-5b92cf277fc3",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-XTRA-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "9f13ab75-a63a-4451-a800-7ab0e15db903",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-XTRA-ALL-INCLUDED_satellite"
+                  },
+                  {
+                    "id": "d19098b5-393f-434d-9e49-34f54dc223b9",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-XTRA_satellite"
+                  },
+                  {
+                    "id": "41cec82e-3eee-46bf-8b65-f058a0bc36b4",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-PREFERRED-XTRA_satellite"
+                  },
+                  {
+                    "id": "be34900e-97bb-440c-b60d-9dd62315417f",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-PREFERRED-XTRA-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "04cc6339-ed8a-4ecd-99e2-0ed9df19ac4c",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-PREFERRED-XTRA-ALL-INCLUDED_satellite"
+                  },
+                  {
+                    "id": "4b86e86d-11bf-4617-95a7-5f68236513bc",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-PREFERRED-XTRA-ALL-INCLUDED-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "0e55ccdc-ffdd-4532-9455-2dcaaf8149fe",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-PREFERRED-CHOICE-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "6c0de4f9-9678-4db4-b8be-a794720179fe",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-PREFERRED-CHOICE_satellite"
+                  },
+                  {
+                    "id": "b15d22d0-8c04-4521-a879-587aa3d0f521",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-PREFERRED-CHOICE-ALL-INCLUDED-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "19088468-7fd7-453c-abb8-47b70c02bd9d",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-PREFERRED-CHOICE-ALL-INCLUDED_satellite"
+                  },
+                  {
+                    "id": "38b2fbf0-2c80-4382-afe0-f06b683411ff",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-SELECT-ALL-INCLUDED-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "864578b4-c489-4f47-b4c5-8f58cfd86ef6",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-SELECT-ALL-INCLUDED_satellite"
+                  },
+                  {
+                    "id": "9204d029-34d8-43bc-86cf-29091a5bccf8",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-SELECT-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "4ad8e048-9a62-4784-bc05-8800752c9d17",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-SELECT_satellite"
+                  },
+                  {
+                    "id": "11bc2507-a96c-4dc2-beed-034e16d73fa8",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-LO-MAXIMO-ALL-INCLUDED-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "0ece68ec-ce18-42fa-84be-99cbf894dc13",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-LO-MAXIMO-ALL-INCLUDED_satellite"
+                  },
+                  {
+                    "id": "a2b69acd-e11e-4303-851b-76a5031dcdf1",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-LO-MAXIMO-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "e7ad450e-c7d4-4a98-978c-dd86ae5e773d",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-LO-MAXIMO_satellite"
+                  },
+                  {
+                    "id": "9a4a8541-f9e8-44ee-bba4-20f8a389703f",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-PREMIER-ALL-INCLUDED-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "d13d8f8a-5927-42ad-8d15-ff517dabc947",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-PREMIER-ALL-INCLUDED_satellite"
+                  },
+                  {
+                    "id": "3fa04de4-bd3d-40bd-9284-07e8808eb79d",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-PREMIER-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "81ca6726-dd88-43e9-946e-7b2e9b3badf2",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-PREMIER_satellite"
+                  },
+                  {
+                    "id": "543da8fa-3b8e-4447-8afc-c820dbadb261",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-CHOICE-ALL-INCLUDED-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "ddebb535-e660-46d9-ac88-4a83efc9f182",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-CHOICE-ALL-INCLUDED_satellite"
+                  },
+                  {
+                    "id": "37ee4612-c83c-4df9-84e4-ee8e24cf82e1",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-CHOICE-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "8922cc94-0df5-40d3-a630-fea421b442a3",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-CHOICE_satellite"
+                  },
+                  {
+                    "id": "cc5a81fe-f49d-4ff3-bf82-9793a69e2044",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-ULTIMATE-ALL-INCLUDED_satellite"
+                  },
+                  {
+                    "id": "e0f2e79f-703c-43b3-8715-004beb74e125",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-ULTIMATE-ALL-INCLUDED-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "8c093cfb-3877-4d84-834d-27462466b4cd",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-ULTIMATE-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "aff04b2d-8a67-4506-9460-2dc4652d82cd",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-ULTIMATE_satellite"
+                  },
+                  {
+                    "id": "b8effa3b-f866-4a84-be2a-41ec3852e945",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-MAS-ULTRA-ALL-INCLUDED_satellite"
+                  },
+                  {
+                    "id": "93af62fa-5618-4485-8543-d9398accca6e",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-MAS-ULTRA-ALL-INCLUDED-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "20b5bbdc-35a8-4e00-9cce-49202b6e99c3",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-MAS-ULTRA-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "0a0855d2-4010-4f0c-a2cd-06b76e1b9875",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-MAS-ULTRA_satellite"
+                  },
+                  {
+                    "id": "ed77ab50-b816-4eb1-b4a9-48015325fafe",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-OPTIMO-MAS-ALL-INCLUDED_satellite"
+                  },
+                  {
+                    "id": "19d329b4-3adc-421b-a9aa-76ffba882c60",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-OPTIMO-MAS-ALL-INCLUDED-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "2af5fc47-f403-4575-a981-aae2c26091f1",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-OPTIMO-MAS-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "56702d59-6701-46f4-aba9-6a86fbebdca5",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-OPTIMO-MAS_satellite"
+                  },
+                  {
+                    "id": "ac0f53ef-22c6-4952-b58c-16240cb415a0",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-ENTERTAINMENT-ALL-INCLUDED_satellite"
+                  },
+                  {
+                    "id": "ae97cee0-6ad1-4c73-88ff-90aa179e08aa",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-ENTERTAINMENT-ALL-INCLUDED-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "591f27f5-c26c-4438-8dff-9c4b0f785b2b",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-ENTERTAINMENT-NO-LOCALS_satellite"
+                  },
+                  {
+                    "id": "9c12ed9b-2ab8-4f0f-a76f-a709114ca54b",
+                    "typeId": "product",
+                    "productType": "video-plan",
+                    "key": "BASE-ENTERTAINMENT_satellite"
+                  }
+                ]
+              }
+            ],
+            "maxOccurrence": 0,
+            "benefitType": "flat-off",
+            "value": {
+              "centAmount": 500,
+              "currencyCode": "USD",
+              "fractionDigits": 2,
+              "dollarAmount": 5
+            },
+            "secondaryBenefitCode": "VRTN-PROACTIVE-CREDIT-5-12MO-V1",
+            "freeTrialPromo": false,
+            "ioOffer": false,
+            "freeTrialDuration": 0,
+            "agentOffer": false,
+            "minQuantity": 0,
+            "promoPriority": 0,
+            "benefitLevel": "product",
+            "notApplibaleForOffer": false,
+            "enableServiceDisconnect": false,
+            "rtpIndicator": false,
+            "portin": false,
+            "segment": [
+              "residential"
+            ],
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "locationType": "nation",
+            "location": "US",
+            "rebateID": "300111",
+            "billingReasonCode": "4668",
+            "omsProductId": "10043485",
+            "numberOfCredits": 12,
+            "recurringBillingReasonCode": "4668",
+            "agreementID": "VRTN-PROACTIVE-CREDIT-5-12MO-V1",
+            "agreementPriceCode": "1",
+            "active": true,
+            "quotaBased": false,
+            "migrated": false,
+            "couponPromo": false,
+            "isDependentPromo": false,
+            "isMigrated": false,
+            "isQuotaBased": false,
+            "isActive": true
+          }
+        ],
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "nonStackableCodes": "B106000",
+		"requiredProducts": "P103351",
+        "rtpRtcIndicator": "RTP",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "billingSystem": "stms",
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    }
+  ],
+  "products": [
+  ]
+}

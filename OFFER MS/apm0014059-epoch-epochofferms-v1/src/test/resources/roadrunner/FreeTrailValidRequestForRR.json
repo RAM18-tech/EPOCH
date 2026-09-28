@@ -1,0 +1,106 @@
+{
+  "accountTypes": [
+    "Residential"
+  ],
+  "addOnType": [],
+  "contractIndicator": [
+    "RR"
+  ],
+  "swimlaneSwitchEligible": false,
+  "decisioningFlow": false,
+  "customerContext": {
+    "existingProductFamily": [
+      "OTT"
+    ],
+    "OTT": {
+      "products": [
+        {
+          "basePrice": "89.99",
+          "productCode": "BASE-CHOICE-201811",
+          "productType": "video-plan"
+        },
+        {
+          "basePrice": "0.0",
+          "productCode": "BOLT-20STREAMS-202010",
+          "productType": "video-addon"
+        },
+        {
+          "basePrice": "49.99",
+          "productCode": "REFURB-OSPREY-092021",
+          "productType": "video-device"
+        },
+        {
+          "basePrice": "120.0",
+          "productCode": "HARD-OSPREY-042019",
+          "productType": "video-device"
+        },
+        {
+          "basePrice": "12.0",
+          "productCode": "RSN-TAZTIER1-202212",
+          "productType": "fee"
+        }
+      ],
+      "accountNumber": "211220188167750",
+      "isActive": true,
+      "retentionPromotionIndicator": false,
+      "freeTrialEligible": false,
+      "accountType": "Residential",
+      "nextBillingDate": "08/08/2024",
+      "parentSubscriptionDate": "08/08/2024"
+},
+"additionalAccountDetails": {
+"additonalInfo": [
+{
+"name": "FREE_TRIAL_DETAILS",
+"params": [
+{
+"paramName": "promotionCode",
+"paramValue": "DTVSTREAMFT"
+},
+{
+"paramName": "promotionType",
+"paramValue": "Free"
+},
+{
+"paramName": "startDate",
+"paramValue": "1717113600000"
+},
+{
+"paramName": "endDate",
+"paramValue": "1717372800000"
+},
+{
+"paramName": "status",
+"paramValue": "Active"
+},
+{
+"paramName": "duration",
+"paramValue": "3"
+}
+]
+}
+]
+}
+},
+"customerEligibility": {
+"zipCode": [
+"63031"
+]
+},
+"offerActionType": [
+"Upgrade",
+"Downgrade",
+"Cross-sell",
+"Other"
+],
+"offerProductFamily": [
+"OTT"
+],
+"salesChannel": [
+"directvOnline"
+],
+"creditRisk": "Low",
+"offerProductTypes": [
+"video-device"
+]
+}

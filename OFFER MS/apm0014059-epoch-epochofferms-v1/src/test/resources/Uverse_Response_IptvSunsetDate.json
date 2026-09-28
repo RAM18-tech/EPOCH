@@ -1,0 +1,113 @@
+{
+    "customer": {
+        "profile": {
+            "firstName": "Jane",
+            "lastName": "Doe",
+            "emailAddress": "Jane.Doe@yahoo.com",
+            "customerType": "Consumer",
+            "phoneNumber": "2104947788",
+            "customerSubType": "Consumer",
+            "creditRisk": "Low",
+            "productTypes": [
+                "UMC",
+                "ACCS",
+                "FL",
+                "HSIA",
+                "PLST",
+                "RG",
+                "WSPBAN",
+                "CWSCTN",
+                "WSPMC"
+            ],
+            "birthDate": "{xW<-IL-ll"
+        },
+        "accounts": [
+            {
+                "accountStatus": "O",
+                "addresses": [
+                    {
+                        "zip": "91911",
+                        "country": "USA",
+                        "city": "CHLA VSTA",
+                        "addressType": "ServiceSAG",
+                        "hsiaLowFlag": "FALSE",
+                        "hsiaHighFlag": "FALSE",
+                        "unitNumber": "646",
+                        "zip4": "1655",
+                        "unitType": "APT",
+                        "hsiaMedFlag": "FALSE",
+                        "streetName": "MOSS",
+                        "iptvFlag": "FALSE",
+                        "addressLine1": "646 MOSS",
+                        "voipFlag": "FALSE",
+                        "state": "CA",
+                        "unitValue": "38"
+                    },
+                    {
+                        "zip": "91911",
+                        "country": "USA",
+                        "city": "CHULA VISTA",
+                        "addressType": "Billing",
+                        "hsiaLowFlag": "FALSE",
+                        "hsiaHighFlag": "FALSE",
+                        "county": "SAN DIEGO",
+                        "unitNumber": "646",
+                        "zip4": "1657",
+                        "thoroughfare": "ST",
+                        "unitType": "APT",
+                        "hsiaMedFlag": "FALSE",
+                        "streetName": "MOSS",
+                        "iptvFlag": "FALSE",
+                        "addressLine1": "646 MOSS ST APT 38",
+                        "voipFlag": "FALSE",
+                        "state": "CA",
+                        "unitValue": "38"
+                    },
+                    {
+                        "zip": "91911",
+                        "country": "USA",
+                        "city": "CHULA VISTA",
+                        "addressType": "ServiceUSPS",
+                        "hsiaLowFlag": "FALSE",
+                        "hsiaHighFlag": "FALSE",
+                        "unitNumber": "646",
+                        "zip4": "1657",
+                        "thoroughfare": "ST",
+                        "unitType": "APT",
+                        "hsiaMedFlag": "FALSE",
+                        "streetName": "MOSS",
+                        "iptvFlag": "FALSE",
+                        "addressLine1": "646 MOSS ST APT 38",
+                        "voipFlag": "FALSE",
+                        "state": "CA",
+                        "unitValue": "38"
+                    },
+                    {
+                        "zip": "91911",
+                        "country": "USA",
+                        "dmaCode": "825",
+                        "city": "CHLA VSTA",
+                        "addressType": "ServiceFSP",
+                        "hsiaLowFlag": "FALSE",
+                        "hsiaHighFlag": "FALSE",
+                        "unitNumber": "646",
+                        "zip4": "1655",
+                        "unitType": "APT",
+                        "hsiaMedFlag": "FALSE",
+                        "streetName": "MOSS",
+                        "iptvFlag": "FALSE",
+                        "addressLine1": "646 MOSS",
+                        "voipFlag": "FALSE",
+                        "state": "CA",
+                        "unitValue": "38"
+                    }
+                ],
+                "startServiceDate": 1579182411000,
+                "accountType": "UVERSEDTV",
+                "systemOfRecord": "LS-CRM",
+                "iptvSunsetDate": "2050-12-31 00:00:00",
+                "ban": "630012224"
+            }
+        ]
+    }
+}

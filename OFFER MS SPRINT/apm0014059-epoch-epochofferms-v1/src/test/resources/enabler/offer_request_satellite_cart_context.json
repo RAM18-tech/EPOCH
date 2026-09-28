@@ -1,0 +1,83 @@
+{
+    "contractIndicator": [
+        "non-contract"
+    ],
+    "customerEligibility": {
+        "zipCode": [
+            "00265"
+        ],
+        "county": [
+            "48000"
+        ]
+    },
+    "cartContext": {
+	"cartOffers": [ 
+            {
+                "offerCode": "OF_BASE-ULTIMATE-ALL-INCLUDED-NO-LOCALS_satellite", 
+                "quantity": "1"
+            },
+			{
+                "offerCode": "OF_BOLTON-MEDIASET-ITALIA_satellite", 
+                "quantity": "1"
+            }
+        ],
+
+        "cartProducts": [
+		    {
+                    "pricePlanCode": "88890325",
+                    "productType": "video-plan"
+            },
+            {
+                "pricePlanCode": "88830604",
+                "productType": "video-addon",
+                "pickCode": "P0006"
+            }
+        ]
+    },
+    "customerContext": {
+        "existingProductFamily": [
+            "satellite"
+        ],
+        "satellite": {
+            "products": [
+                {
+                    "pricePlanCode": "88890325",
+                    "productType": "video-plan"
+                },
+                {
+                    "pricePlanCode": "88830604",
+                    "productType": "video-addon",
+                    "pickCode": "P0006"
+                },
+                {
+                    "pricePlanCode": "88986625",
+                    "productType": "video-addon"
+                }
+            ],
+            "accountNumber": "171202181454689",
+            "isActive": true,
+            "retentionPromotionIndicator": false,
+            "freeTrialEligible": false,
+            "accountType": "Residential",
+            "nextBillingDate": "03/09/2020",
+            "policy": "DVALL4"
+        }
+    },
+    "offerActionType": [
+        "Upgrade",
+        "Downgrade",
+        "Cross-sell",
+        "Other"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "salesChannel": [
+        "opus",
+        "online"
+    ],
+    "offerProductTypes": [
+		"video-plan",
+        "video-addon"
+    ]
+}

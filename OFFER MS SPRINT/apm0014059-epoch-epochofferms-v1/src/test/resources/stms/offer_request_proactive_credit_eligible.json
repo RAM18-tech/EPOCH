@@ -1,0 +1,82 @@
+{
+    "contractIndicator": [
+        "non-contract"
+    ],
+    "customerEligibility": {
+        "zipCode": [
+            "80302"
+        ],
+        "county": [
+            "08013"
+        ]
+    },
+    "customerContext": {
+        "existingProductFamily": [
+            "satellite"
+        ],
+        "satellite": {
+            "products": [
+                {
+                    "billingProductCode": "P103351",
+                    "billingReferenceID": "1",
+                    "productType": "video-plan"
+                },
+                {
+                    "billingProductCode": "R0167",
+                    "billingReferenceID": "41",
+                    "productType": "video-addon"
+                },
+                {
+                    "billingProductCode": "R120110",
+                    "billingReferenceID": "41",
+                    "productType": "video-addon"
+                },
+                {
+                    "billingProductCode": "R120124",
+                    "billingReferenceID": "41",
+                    "productType": "video-addon"
+                },
+                {
+                    "manufacturer": "DIRECTV",
+                    "modelNumber": "HR44-200",
+                    "accessCardId": "002187890633",
+                    "accessCardStatus": "ACTV",
+                    "equipmentOwnership": "lease"
+                }
+            ],
+			"serviceAddress": {
+                "streetAddress": "2600 CANYON BLVD",
+                "city": "BOULDER",
+                "state": "CO",
+                "zipCode": "80302"
+            },
+            "accountNumber": "1234567890",
+            "isActive": true,
+            "retentionPromotionIndicator": false,
+            "freeTrialEligible": false,
+            "accountType": "Residential",
+            "nextBillingDate": "2022-08-05",
+            "businessSegment": "REG",
+            "nftvFlag": "Y",
+            "ftvCount": "4",
+			"accountStatus": "ACTV",
+			"customerValue": "2",			
+			"acceptPaperlessBillEnrollment": true,
+			"acceptAutoBillPayEnrollment": true,
+			"activationDate": "2022-06-21",
+			"commissionStartDate": "2022-06-21"
+        }
+    },
+    "offerActionType": [
+        "Retention"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "salesChannel": [       
+        "tactical"
+    ],
+    "offerProductTypes": [
+		"credit"
+    ]
+}

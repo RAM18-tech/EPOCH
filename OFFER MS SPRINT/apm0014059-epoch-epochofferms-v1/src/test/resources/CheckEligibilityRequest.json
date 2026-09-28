@@ -1,0 +1,96 @@
+{
+    "offerActionType": [
+        "Upgrade",
+        "Downgrade",
+        "Cross-sell",
+        "Other"
+    ],
+    "salesChannel": "opus",
+    "offerProductFamily": "OTT",
+    "customerSegments": "Mobility",
+    "contractIndicator": [
+        "TAZ"
+    ],
+    "customerAddress": {
+        "zipCode": "21212",
+        "state": "MD",
+        "city": "Baltimore"
+    },
+    "customerContext": {
+        "existingProductFamily": [
+            {
+                "productFamily": "OTT",
+                "accountNumber": "210403145168126",
+                "segmentDescription": "TV 1",
+                "accountStatus": "ACTIVE",
+                "accountCreationDate": "04/03/2021",
+                 "parentSubscriptionDate": "04/03/2021",
+                "installmentsAvailed": false,
+                "scheduledDisconnection": false,
+                "complimentary": false,
+                "additionalDetails": [
+                    {
+                        "additionalInfoName": "breDetails",
+                        "params": [
+                            {
+                                "paramName": "startDate",
+                                "paramValue": "04/03/2021"
+                            },
+                            {
+                                "paramName": "endDate",
+                                "paramValue": "04/17/2021"
+                            },
+                            {
+                                "paramName": "status",
+                                "paramValue": "InActive"
+                            },
+                            {
+                                "paramName": "duration",
+                                "paramValue": "14"
+                            }
+                        ]
+                    },
+                    {
+                        "additionalInfoName": "freeTrialDetails",
+                        "params": [
+                            {
+                                "paramName": "promotionCode",
+                                "paramValue": "DEACT001"
+                            },
+                            {
+                                "paramName": "promotionType",
+                                "paramValue": "Free"
+                            },
+                            {
+                                "paramName": "startDate",
+                                "paramValue": "04/02/2021"
+                            },
+                            {
+                                "paramName": "endDate",
+                                "paramValue": "04/17/2021"
+                            },
+                            {
+                                "paramName": "status",
+                                "paramValue": "InActive"
+                            },
+                            {
+                                "paramName": "duration",
+                                "paramValue": "15"
+                            }
+                        ]
+                    },
+                    {
+                        "additionalInfoName": "hasAffirmPurchase",
+                        "params": [
+                            {
+                                "paramName": "HasAffirmPurchases",
+                                "paramValue": "F"
+                            }
+                        ]
+                    }
+                ],
+                "hasActiveInstallments": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,1319 @@
+{
+  "limit": 300,
+  "offset": 0,
+  "count": 3,
+  "total": 3,
+  "offers": [
+  {
+            "id": "1f72e08c-0ab2-44a7-bf03-b77c640a0034",
+            "code": "OF_FEE-TV-ACCESS-FEE-V29_satellite",
+            "name": {
+                "en": "TV access fee"
+            },
+            "description": {
+                "en": "Allows programming to appear on any additional TVs"
+            },
+            "startDate": "2024-12-05T07:00:00.000Z",
+            "endDate": "2050-12-31T00:00:00.000Z",
+            "attributes": {
+                "offerProductType": "fee",
+                "offerProductTypes": [
+                    "fee"
+                ],
+                "offerProductFamily": "satellite",
+                "offerProductFamilies": [
+                    "satellite"
+                ],
+                "offerType": "multi-benefit",
+                "offerActionType": "Upgrade",
+                "offerActionTypes": [
+                    "Upgrade",
+                    "Downgrade",
+                    "Cross-sell",
+                    "Acquisition"
+                ],
+                "displayName": {
+                    "en": "TV access fee"
+                },
+                "migratedOffer": false,
+                "associatedProducts": [
+                    {
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "productTypes": [
+                                        "fee"
+                                    ],
+                                    "productStatus": "Active",
+                                    "productState": "New",
+                                    "dependent": false,
+                                    "anchor": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "76c66513-5073-42fc-ba9e-78a1daf88c25",
+                                        "typeId": "product",
+                                        "obj": {
+                                            "id": "76c66513-5073-42fc-ba9e-78a1daf88c25",
+                                            "code": "FEE-TV-ACCESS-FEE-V29_satellite",
+                                            "productType": {
+                                                "typeId": "product-type",
+                                                "id": "b1fbfd1e-1324-49f0-a498-8d38c53090c9",
+                                                "key": "fee"
+                                            },
+                                            "name": {
+                                                "en": "TV access fee"
+                                            },
+                                            "description": {
+                                                "en": "Allows programming to appear on any additional TVs"
+                                            },
+                                            "categories": [],
+                                            "variants": [
+                                                {
+                                                    "id": "1",
+                                                    "sku": "B121470",
+                                                    "key": "B121470",
+                                                    "prices": [
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 1000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 10.0
+                                                            },
+                                                            "id": "4e461152-16b6-42d9-b4c7-9601e57c7f44",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "1",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "01",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077382",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 2000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 20.0
+                                                            },
+                                                            "id": "9a18b608-a432-44c3-aabf-150d00c321e9",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "2",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "02",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077383",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 3000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 30.0
+                                                            },
+                                                            "id": "72e2c85f-bfc1-4074-b928-8994bd4381fc",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "3",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "03",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077384",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 4000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 40.0
+                                                            },
+                                                            "id": "4abbf95a-2f42-486a-a010-3f74c847edf2",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "4",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "04",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077385",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 5000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 50.0
+                                                            },
+                                                            "id": "14169ee9-95fb-43df-af2c-8ee3eb8e09d8",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "5",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "05",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077386",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 6000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 60.0
+                                                            },
+                                                            "id": "305fbdf5-b541-4194-8a4e-aaa7139941f6",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "6",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "06",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077387",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 7000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 70.0
+                                                            },
+                                                            "id": "c4950c57-9ebf-40ad-9067-6a89f32de997",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "7",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "07",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077388",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 8000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 80.0
+                                                            },
+                                                            "id": "2bf03cba-3f08-4de4-b16f-4eb5c6a9a5c0",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "8",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "08",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077389",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 9000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 90.0
+                                                            },
+                                                            "id": "591872d6-5807-4fbe-8f1c-c8b6bbcbd1ec",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "9",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "09",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077390",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 10000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 100.0
+                                                            },
+                                                            "id": "782e8809-9147-4727-ac03-fec10d565d99",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "10",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "10",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077391",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 11000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 110.0
+                                                            },
+                                                            "id": "f0b9d3ff-a23b-43ec-9ad2-5da12430ed5f",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "11",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "11",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077392",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 12000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 120.0
+                                                            },
+                                                            "id": "f9314a06-3f15-4169-9039-483fc3695403",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "12",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "12",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077393",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 13000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 130.0
+                                                            },
+                                                            "id": "eb02d695-8c63-4faa-91f1-e2eee10adfea",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "13",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "13",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077394",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 14000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 140.0
+                                                            },
+                                                            "id": "68bd5df8-8dc0-4f27-9741-ec2f193d456f",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "14",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "14",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077395",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 15000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 150.0
+                                                            },
+                                                            "id": "b5a3dea8-c457-4466-b6e1-38f49c1f3a01",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "15",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "15",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077396",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 16000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 160.0
+                                                            },
+                                                            "id": "8d440059-73a4-4f9a-b1db-38eb5019f3e8",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "16",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "16",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077397",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 17000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 170.0
+                                                            },
+                                                            "id": "bd7a2ce2-6414-48c0-8c95-aeeb54031397",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "17",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "17",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077398",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 18000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 180.0
+                                                            },
+                                                            "id": "9bc45af5-68f2-4a44-a6f5-995a8555e320",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "18",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "18",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077399",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 19000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 190.0
+                                                            },
+                                                            "id": "3c20b3eb-8002-4a5a-b9fb-fdfe985c4fa7",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "19",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "19",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077400",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 20000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 200.0
+                                                            },
+                                                            "id": "ebf3c669-7fbb-43ec-be1c-dcb375e632e2",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "20",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "20",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077401",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 21000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 210.0
+                                                            },
+                                                            "id": "79df8e69-3884-4276-a88d-4226f7196bbd",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "21",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "21",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077402",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 22000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 220.0
+                                                            },
+                                                            "id": "12a57a4c-1cec-4765-8248-3adb375331c3",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "22",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "22",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077403",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 23000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 230.0
+                                                            },
+                                                            "id": "b2c024bb-efb8-4e4d-8993-0f663b975486",
+                                                            "startDate": "2024-12-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "23",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "23",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10077404",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        }
+                                                    ],
+                                                    "attributes": {
+                                                        "displayName": {
+                                                            "en": "TV access fee"
+                                                        },
+                                                        "billingProductCode": "B121470",
+                                                        "billingCode": "B121470",
+                                                        "startDate": "2024-12-05T07:00:00.000Z",
+                                                        "endDate": "2050-12-31T00:00:00.000Z",
+                                                        "salesChannel": [
+                                                            "onlineServices",
+                                                            "onlineSales",
+                                                            "opusServices",
+                                                            "opusSales",
+                                                            "online",
+                                                            "opus"
+                                                        ],
+                                                        "productFamily": "satellite",
+                                                        "contractApplicable": "noncontract",
+                                                        "contractIndicator": [
+                                                            "non-contract"
+                                                        ],
+                                                        "customerSegments": [
+                                                            "Residential"
+                                                        ],
+                                                        "feeType": "HDAccessFee",
+                                                        "migratedProduct": false,
+                                                        "tokens": "FEE-TV-ACCESS-FEE",
+                                                        "billingParams": [
+                                                            {
+                                                                "value": "hd,hd-dvr,dvr,STD",
+                                                                "name": "equipmentType"
+                                                            },
+                                                            {
+                                                                "value": "0",
+                                                                "name": "FTVCount"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "productType": "fee",
+                                        "key": "FEE-TV-ACCESS-FEE-V29_satellite"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "benefits": [],
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "customerSegments": [
+                                "Residential"
+                            ],
+                            "salesChannel": [
+                                "online"
+                            ],
+                            "existingCustomerType": [
+                                "Satellite"
+                            ]
+                        }
+                    ]
+                },
+                "leadOffer": false,
+                "contractIndicator": "RR",
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "recommendedOfferOPUS": false,
+                "qualifyingProductsBillingProductCode": [
+                    "B121470"
+                ],
+                "chargeType": "chargeable",
+                "billingSystem": "stms",
+                "recommendedOnline": false,
+                "isVirtual": false,
+                "flashSaleOffer": false,
+                "isBulkOffer": false,
+                "isSpecialOffer": false
+            }
+        },
+  {
+            "id": "a097175a-8814-4b13-85e8-eda857c34ead",
+            "code": "OF_FEE-TV-ACCESS-FEE-V4_satellite",
+            "status": "live",
+            "name": {
+                "en": "TV access fee"
+            },
+            "description": {
+                "en": "Watch DIRECTV on 1 TV - $0.00"
+            },
+            "startDate": "1990-01-01T00:00:00.000Z",
+            "endDate": "2049-12-31T00:00:00.000Z",
+            "attributes": {
+                "offerProductType": "fee",
+                "offerProductTypes": [
+                    "fee"
+                ],
+                "offerProductFamily": "satellite",
+                "offerProductFamilies": [
+                    "satellite"
+                ],
+                "offerType": "multi-benefit",
+                "offerActionType": "Acquisition",
+                "offerActionTypes": [
+                    "Acquisition",
+                    "Other",
+                    "Cross-sell",
+                    "Downgrade",
+                    "Upgrade"
+                ],
+                "displayName": {
+                    "en": "TV access fee"
+                },
+                "migratedOffer": false,
+                "associatedProducts": [
+                    {
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "productTypes": [
+                                        "fee"
+                                    ],
+                                    "productStatus": "Active",
+                                    "productState": "New",
+                                    "dependent": false,
+                                    "anchor": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "fa0add54-336c-4853-ab64-695917aec19f",
+                                        "typeId": "product",
+                                        "obj": {
+                                            "id": "fa0add54-336c-4853-ab64-695917aec19f",
+                                            "code": "FEE-TV-ACCESS-FEE-V4_satellite",
+                                            "productType": {
+                                                "typeId": "product-type",
+                                                "id": "b1fbfd1e-1324-49f0-a498-8d38c53090c9",
+                                                "key": "fee"
+                                            },
+                                            "name": {
+                                                "en": "TV access fee"
+                                            },
+                                            "description": {
+                                                "en": "Allows programming to appear on any additional TVs"
+                                            },
+                                            "categories": [],
+                                            "variants": [
+                                                {
+                                                    "id": "1",
+                                                    "sku": "B105964",
+                                                    "key": "B105964",
+                                                    "prices": [
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 0.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 0.0
+                                                            },
+                                                            "id": "924de381-17ef-43a7-906f-d1c3b4ae2a0a",
+                                                            "startDate": "1990-01-01T00:00:00.000Z",
+                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "1",
+                                                            "gfVersion": 0,
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10023537",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        }
+                                                    ],
+                                                    "attributes": {
+                                                        "displayName": {
+                                                            "en": "TV access fee"
+                                                        },
+                                                        "billingProductCode": "B105964",
+                                                        "billingCode": "B105964",
+                                                        "startDate": "2015-01-08T00:00:00.000Z",
+                                                        "endDate": "2050-12-31T00:00:00.000Z",
+                                                        "salesChannel": [
+                                                            "opusServices",
+                                                            "onlineServices",
+                                                            "opusSales",
+                                                            "onlineSales",
+                                                            "opus",
+                                                            "online"
+                                                        ],
+                                                        "productFamily": "satellite",
+                                                        "contractApplicable": "noncontract",
+                                                        "contractIndicator": [
+                                                            "non-contract"
+                                                        ],
+                                                        "subCategory": "TVACCESSFEES",
+                                                        "customerSegments": [
+                                                            "Residential"
+                                                        ],
+                                                        "feeType": "HDAccessFee",
+                                                        "migratedProduct": false,
+                                                        "tokens": "FEE-TV-ACCESS-FEE",
+                                                        "billingParams": [
+                                                            {
+                                                                "value": "1",
+                                                                "name": "FTVCount"
+                                                            },
+                                                            {
+                                                                "value": "hd,hd-dvr,dvr,STD",
+                                                                "name": "equipmentType"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "productType": "fee",
+                                        "key": "FEE-TV-ACCESS-FEE-V4_satellite"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "benefits": [],
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "customerSegments": [
+                                "Residential"
+                            ],
+                            "salesChannel": [
+                                "directIntegrationPartner",
+                                "dpp",
+                                "salesCRM",
+                                "ccap",
+                                "online"
+                            ],
+                            "existingCustomerType": [
+                                "Satellite"
+                            ]
+                        }
+                    ]
+                },
+                "leadOffer": false,
+                "contractIndicator": "non-contract",
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "recommendedOfferOPUS": false,
+                "qualifyingProductsBillingProductCode": [
+                    "B105964"
+                ],
+                "chargeType": "included",
+                "billingSystem": "stms",
+                "recommendedOnline": false,
+                "isVirtual": false,
+                "flashSaleOffer": false,
+                "isBulkOffer": false,
+                "isSpecialOffer": false
+            }
+        },
+		{
+            "id": "8debc63e-fc02-487f-9160-eb29097865c6",
+            "code": "OF_FEE-TV-ACCESS-FEE-V5_satellite",
+            "status": "live",
+            "name": {
+                "en": "TV access fee"
+            },
+            "description": {
+                "en": "Watch DIRECTV on 1 TV additional TVs at $7.00 each"
+            },
+            "startDate": "1990-01-01T00:00:00.000Z",
+            "endDate": "2049-12-31T00:00:00.000Z",
+            "attributes": {
+                "offerProductType": "fee",
+                "offerProductTypes": [
+                    "fee"
+                ],
+                "offerProductFamily": "satellite",
+                "offerProductFamilies": [
+                    "satellite"
+                ],
+                "offerType": "multi-benefit",
+                "offerActionType": "Acquisition",
+                "offerActionTypes": [
+                    "Acquisition",
+                    "Other",
+                    "Cross-sell",
+                    "Downgrade",
+                    "Upgrade"
+                ],
+                "displayName": {
+                    "en": "TV access fee"
+                },
+                "migratedOffer": false,
+                "associatedProducts": [
+                    {
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "productTypes": [
+                                        "fee"
+                                    ],
+                                    "productStatus": "Active",
+                                    "productState": "New",
+                                    "dependent": false,
+                                    "anchor": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "3bbb61ad-cd7a-4358-bdf4-3126ecef0f44",
+                                        "typeId": "product",
+                                        "obj": {
+                                            "id": "3bbb61ad-cd7a-4358-bdf4-3126ecef0f44",
+                                            "code": "FEE-TV-ACCESS-FEE-V5_satellite",
+                                            "productType": {
+                                                "typeId": "product-type",
+                                                "id": "b1fbfd1e-1324-49f0-a498-8d38c53090c9",
+                                                "key": "fee"
+                                            },
+                                            "name": {
+                                                "en": "TV access fee"
+                                            },
+                                            "description": {
+                                                "en": "Allows programming to appear on any additional TVs"
+                                            },
+                                            "categories": [],
+                                            "variants": [
+                                                {
+                                                    "id": "1",
+                                                    "sku": "B105966",
+                                                    "key": "B105966",
+                                                    "prices": [
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 700.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 7.0
+                                                            },
+                                                            "id": "f87bb877-2920-48a7-be78-ec82b30e790e",
+                                                            "startDate": "1990-01-01T00:00:00.000Z",
+                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "1",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "01",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10023538",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 1400.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 14.0
+                                                            },
+                                                            "id": "8daa7e86-a9c3-42f3-9e57-9a3df63b97ca",
+                                                            "startDate": "1990-01-01T00:00:00.000Z",
+                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "2",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "02",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10023539",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 2100.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 21.0
+                                                            },
+                                                            "id": "f4b0da6d-02d2-470b-94c7-f26264cde167",
+                                                            "startDate": "1990-01-01T00:00:00.000Z",
+                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "3",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "03",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10023540",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 2800.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 28.0
+                                                            },
+                                                            "id": "21e77647-c083-404b-a54d-a0938b4bb0ba",
+                                                            "startDate": "1990-01-01T00:00:00.000Z",
+                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "4",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "04",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10023541",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 3500.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 35.0
+                                                            },
+                                                            "id": "6b7e9bef-70af-4dad-825b-fbd96fcab441",
+                                                            "startDate": "1990-01-01T00:00:00.000Z",
+                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "5",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "05",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10023542",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 4200.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 42.0
+                                                            },
+                                                            "id": "300f1550-2cb9-4ea4-b433-7c32f4812195",
+                                                            "startDate": "1990-01-01T00:00:00.000Z",
+                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "6",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "06",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10023543",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 4900.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 49.0
+                                                            },
+                                                            "id": "581f9a99-c82a-4bc9-929b-1ea07477504a",
+                                                            "startDate": "1990-01-01T00:00:00.000Z",
+                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "7",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "07",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10023544",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 5600.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 56.0
+                                                            },
+                                                            "id": "46d406f9-6f93-41d8-8676-7506e72dabb9",
+                                                            "startDate": "1990-01-01T00:00:00.000Z",
+                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "8",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "08",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10023545",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 6300.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 63.0
+                                                            },
+                                                            "id": "a48ab7f9-5f4c-4fea-883a-e7297d10c601",
+                                                            "startDate": "1990-01-01T00:00:00.000Z",
+                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "9",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "09",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10023546",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 7000.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 70.0
+                                                            },
+                                                            "id": "3a783486-f8bc-46ed-8030-419f9bfe6efc",
+                                                            "startDate": "1990-01-01T00:00:00.000Z",
+                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "10",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "10",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10023547",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 7700.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 77.0
+                                                            },
+                                                            "id": "75652598-3fde-4839-b41e-fe981043d6ab",
+                                                            "startDate": "1990-01-01T00:00:00.000Z",
+                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "11",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "11",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10023548",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 8400.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 84.0
+                                                            },
+                                                            "id": "8a960b93-7172-46bc-b98b-f86891feee53",
+                                                            "startDate": "1990-01-01T00:00:00.000Z",
+                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "12",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "12",
+                                                            "businessSegment": "residential",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10023549",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 9100.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 91.0
+                                                            },
+                                                            "id": "d3263fc0-a342-488f-acab-05ad0d1ac835",
+                                                            "startDate": "1990-01-01T00:00:00.000Z",
+                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "13",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "13",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10023550",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 9800.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 98.0
+                                                            },
+                                                            "id": "bd8626e7-4bfa-451b-8c8c-af06dd01ec96",
+                                                            "startDate": "1990-01-01T00:00:00.000Z",
+                                                            "endDate": "2049-12-31T00:00:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "14",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "14",
+                                                            "omsProductId": "10023551",
+                                                            "channel": "non-contracted",
+                                                            "contracted": false,
+                                                            "grandfathered": false
+                                                        }
+                                                    ],
+                                                    "attributes": {
+                                                        "displayName": {
+                                                            "en": "TV access fee"
+                                                        },
+                                                        "billingProductCode": "B105966",
+                                                        "billingCode": "B105966",
+                                                        "startDate": "2015-01-08T00:00:00.000Z",
+                                                        "endDate": "2050-12-31T00:00:00.000Z",
+                                                        "salesChannel": [
+                                                            "opusServices",
+                                                            "opusSales",
+                                                            "opus",
+                                                            "onlineServices",
+                                                            "onlineSales",
+                                                            "online"
+                                                        ],
+                                                        "productFamily": "satellite",
+                                                        "contractApplicable": "noncontract",
+                                                        "contractIndicator": [
+                                                            "non-contract"
+                                                        ],
+                                                        "subCategory": "TVACCESSFEES",
+                                                        "customerSegments": [
+                                                            "Residential"
+                                                        ],
+                                                        "feeType": "HDAccessFee",
+                                                        "migratedProduct": false,
+                                                        "tokens": "FEE-TV-ACCESS-FEE",
+                                                        "billingParams": [
+                                                            {
+                                                                "value": "1",
+                                                                "name": "FTVCount"
+                                                            },
+                                                            {
+                                                                "value": "hd,hd-dvr,dvr,STD",
+                                                                "name": "equipmentType"
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "productType": "fee",
+                                        "key": "FEE-TV-ACCESS-FEE-V5_satellite"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "benefits": [],
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "customerSegments": [
+                                "Residential"
+                            ],
+                            "salesChannel": [
+                                "directIntegrationPartner",
+                                "dpp",
+                                "salesCRM",
+                                "ccap",
+                                "online"
+                            ],
+                            "existingCustomerType": [
+                                "Satellite"
+                            ]
+                        }
+                    ]
+                },
+                "leadOffer": false,
+                "contractIndicator": "non-contract",
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "recommendedOfferOPUS": false,
+                "qualifyingProductsBillingProductCode": [
+                    "B105966"
+                ],
+                "chargeType": "chargeable",
+                "billingSystem": "stms",
+                "recommendedOnline": false,
+                "isVirtual": false,
+                "flashSaleOffer": false,
+                "isBulkOffer": false,
+                "isSpecialOffer": false
+            }
+        }  
+   ]
+}

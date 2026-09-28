@@ -1,0 +1,67 @@
+{
+    "customerContext": [
+        {
+            "productFamily": "satellite",
+            "products": [
+                {
+                    "productType": "video-plan",
+                    "billingProductCode": "P100626",
+                    "billingReferenceID": "1"
+                },
+                {
+                    "productType": "video-addon",
+                    "billingProductCode": "P6688",
+                    "billingReferenceID": "1"
+                }
+            ],
+            "businessSegment": "REG",
+            "nftvFlag": "Y",
+            "ftvCount": "4"
+        }
+    ],
+    "customerEligibility": {
+        "dma": [
+            "682"
+        ],
+        "county": [
+            "17000"
+        ],
+        "zipCode": [
+            "00058"
+        ]
+    },
+    "offerActionType": [
+        "Upgrade",
+        "Downgrade",
+        "Cross-sell",
+        "Other",
+        "Retention"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "offerProductType": [
+        "video-accessory",
+        "video-addon",
+        "video-device",
+        "video-plan",
+        "insurance",
+        "fee",
+        "credit"
+    ],
+    "pagination": {
+        "page": 1,
+        "limit": 300
+    },
+    "salesChannel": [
+        "stb"
+    ],
+    "state": "staged",
+    "expandProductRefs": true,
+    "migrationIndicator": false,
+    "hasLocalChannels": true,
+    "partnerDealerDetails": {},
+    "reconnectOfferFlag": true,
+    "decisioningFlow": false,
+    "isExpiredOffers": true
+}

@@ -1,0 +1,4399 @@
+{
+  "limit": 300,
+  "count": 33,
+  "total": 33,
+  "products": [
+	{
+                "id": "e9e1fdac-a003-45fe-bfda-4450b021f804",
+                "code": "BASE-ENTERTAINMENT-NO-LOCALS_satellite",
+                "productType": {
+                    "typeId": "product-type",
+                    "id": "eddcf245-874d-4cca-b069-8ada224b1d1a",
+                    "key": "video-plan"
+                },
+                "name": {
+                    "en": "ENTERTAINMENT - No Locals"
+                },
+                "description": {
+                    "en": " Our basic entertainment package, including movies, sports, family and music channels. Over 155 channels. Now includes live 4K – Enjoy amazing live entertainment in stunning life-like clarity. To view your current package price, including extras and discounts, view your most recent statement ."
+                },
+                "categories": [],
+                "variants": [
+                    {
+                        "id": "1",
+                        "key": "P102775",
+                        "prices": [
+                            {
+                                "value": {
+                                    "currencyCode": "USD",
+                                    "dollarAmount": 76.99
+                                },
+                                "id": "59ae3c0d-a74e-4138-9924-803f38cc8ca3",
+                                "startDate": "2011-12-01T05:00:00.000Z",
+                                "endDate": "2050-12-01T05:00:00.000Z",
+                                "recurrenceIndicator": false,
+                                "duration": 0,
+                                "period": "month",
+                                "billingReferenceId": "1",
+                                "gfVersion": 0,
+                                "chargeType": "mrc",
+                                "omsFreeSTBPolicyId": "DVANA1",
+                                "contracted": false,
+                                "grandfathered": false
+                            }
+                        ],
+                        "attributes": {
+                            "displayName": {
+                                "en": "ENTERTAINMENT - No Locals"
+                            },
+                            "billingProductCode": "P102775",
+                            "billingCode": "P102775",
+                            "startDate": "2011-12-01T05:00:00.000Z",
+                            "endDate": "2050-12-01T05:00:00.000Z",
+                            "numberOfChannels": "155+ digital channels",
+                            "language": "English",
+                            "downgradeableRule": "1",
+                            "customerSegments": [
+                                "Residential"
+                            ],
+                            "hasLocalChannels": false,
+                            "termsAndConditions": {
+                                "en": "Does this replace my current package? Yes, this will replace your current package. How much will I be charged? On your next bill, you'll see a credit for the package that you're disconnecting today because you paid in advance. You'll also see a partial charge that covers the new package starting today, and the regular monthly charge that we bill in advance for the following month. How long does activation take? 5 minutes."
+                            },
+                            "planType": "Standard",
+                            "migratedProduct": false,
+                            "isChangeable": true,
+                            "omsProductCode": "EntertainmentNoLocals",
+                            "orderingMethod": "addToCart",
+                            "enablerPricePlanCode": "88890395",
+                            "tokens": "ENTERTAINMENT-NoLocals",
+                            "chargeCode": "DTVELR",
+                            "isWorldDirect": false,
+                            "maxSTBsWired": 5,
+                            "maxDVRs": 1,
+                            "maxSTBsWIFI": 5,
+                            "maxSTBsWithServer": 8,
+                            "billingParams": [
+                                {
+                                    "value": "EntertainmentNoLocals",
+                                    "name": "BasePkg"
+                                }
+                            ],
+                            "grandFatherInfo": [
+                                {
+                                    "salesEffectiveDate": "2017-01-22T00:00:00.000Z",
+                                    "salesExpirationDate": "2049-12-31T23:59:00.000Z",
+                                    "version": 1
+                                }
+                            ],
+                            "productImages": "DTV-ENTERTAINMENT"
+                        }
+                    }
+                ]
+            },
+    {
+      "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+      "code": "BOLTON-HBO-MAX_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "HBO Max"
+      },
+      "description": {
+        "en": "HBO Max. All of HBO together with the greatest collection of movies, shows and new Max Originals. Includes HBO channels and HBO on Demand. Access HBO Max only through HBO Max app or hbomax.com. HBO Max also includes HBO channels and HBO On Demand on DIRECTV.\n"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2140",
+          "key": "P2140",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 1499,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 14.99
+              },
+              "id": "931c4953-801d-4c66-9dfd-044052ab6f3d",
+              "startDate": "2021-04-02T00:00:00.000Z",
+              "endDate": "2023-04-02T00:00:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "period": "month",
+              "billingReferenceId": "1",
+              "gfVersion": 0,
+              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "HBO Max"
+            },
+            "displayNamesByKey": {
+              "name-cpc": "HBO Max <sup>&#8482;</sup>"
+            },
+            "billingProductCode": "P2140",
+            "billingCode": "P2140",
+            "startDate": "2007-03-01T05:00:00.000Z",
+            "endDate": "2050-12-31T05:00:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "onlineSales",
+              "onlineServices",
+              "opusSales",
+              "opusServices",
+              "partnerSales",
+              "partnerServices"
+            ],
+            "productFamily": "satellite",
+            "removalRule": {
+              "channel": [],
+              "accountType": [
+                "NONE"
+              ]
+            },
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "subCategory": "Premium",
+            "omsComponentMapping": [
+              {
+                "omsAttributes": [
+                  {
+                    "attributeCode": "DTgenrePackage",
+                    "attributeValue": "HBODV"
+                  }
+                ],
+                "componentCode": "HBODV",
+                "componentPath": "ATTDTV|HBODV",
+                "operationName": "MOORequest,PUSPO1Request"
+              }
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "termsAndConditions": {
+              "en": "By subscribing you will be billed $14.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+            },
+            "conflictingProducts": [],
+            "migratedProduct": false,
+            "omsProductCode": "HBODV",
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "hbo",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": false,
+            "billingParams": [
+              {
+                "value": "P0030",
+                "name": "PickCode"
+              }
+            ],
+            "productImages": "/cms2/product_catalog/premiums/HBOmax_logo.gif"
+          }
+        }
+      ]
+    },
+    {
+      "id": "647c5095-6a69-4d04-a27e-dc6b8c2c7b21",
+      "code": "BOLTON-HBO-MAX-SHOW_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "HBO Max and Showtime"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2146",
+          "key": "P2146",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 2598,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 25.98
+              },
+              "id": "993164e9-bb45-4556-a52c-80a3d0a13a87",
+              "startDate": "2007-02-28T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "HBO Max and Showtime"
+            },
+            "billingProductCode": "P2146",
+            "billingCode": "P2146",
+            "startDate": "2007-02-28T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-SHOWTIME_satellite"
+                  },
+                  {
+                    "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "subCategory": "Premium",
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "HBO, Showtime",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+      "code": "BOLTON-SHOWTIME_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "SHOWTIME"
+      },
+      "description": {
+        "en": "Experience entertainment like never before with bold original films and series you won't see on any other premium networks. SHOWTIME® is also America's #1 boxing network. SHOWTIME UNLIMITED includes 13 channels, 10 in HD. \n"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2142",
+          "key": "P2142",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 1099,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 10.99
+              },
+              "id": "94a96587-73be-46ef-a335-1e61177993ad",
+              "startDate": "2021-04-02T00:00:00.000Z",
+              "endDate": "2023-04-02T00:00:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "period": "month",
+              "billingReferenceId": "1",
+              "gfVersion": 0,
+              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            },
+            {
+              "value": {
+                "centAmount": 1100,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 11
+              },
+              "id": "27e8646c-596a-4de1-984a-789e365803e4",
+              "startDate": "2049-12-31T00:00:00.000Z",
+              "endDate": "2049-12-31T23:59:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "period": "month",
+              "billingReferenceId": "2",
+              "gfVersion": 0,
+              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 1,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "SHOWTIME"
+            },
+            "displayNamesByKey": {
+              "name-cpc": "SHOWTIME"
+            },
+            "descriptionsByKey": {
+              "short-myatt": "test"
+            },
+            "billingProductCode": "P2142",
+            "billingCode": "P2142",
+            "startDate": "2016-03-18T05:00:00.000Z",
+            "endDate": "9999-12-31T06:00:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "onlineSales",
+              "onlineServices",
+              "opusSales",
+              "opusServices",
+              "partnerSales",
+              "partnerServices"
+            ],
+            "productFamily": "satellite",
+            "removalRule": {
+              "channel": [],
+              "accountType": [
+                "ALL"
+              ]
+            },
+            "addOnType": "Programming-Bolt-on",
+            "planSubType": "Premium",
+            "displayType": "optional",
+            "language": "English",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "subCategory": "Premium",
+            "omsComponentMapping": [
+              {
+                "omsAttributes": [
+                  {
+                    "attributeCode": "DTgenrePackage",
+                    "attributeValue": "SHOWTIMEDV"
+                  }
+                ],
+                "componentCode": "SHOWTIMEDV",
+                "componentPath": "ATTDTV|SHOWTIMEDV",
+                "operationName": "MOORequest,PUSPO1Request"
+              }
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "termsAndConditions": {
+              "en": "By subscribing you will be billed $10.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+            },
+            "specifications": [
+              {
+                "text": "custom",
+                "displayRank": 1
+              }
+            ],
+            "evergentProdCategory": "Subscription",
+            "conflictingProducts": [],
+            "migratedProduct": false,
+            "omsProductCode": "SHOWTIMEDV",
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "showtime",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": false,
+            "billingParams": [
+              {
+                "value": "P0029",
+                "name": "PickCode"
+              }
+            ],
+            "productImages": "/cms2/product_catalog/premiums/Showtime.gif"
+          }
+        }
+      ]
+    },
+    {
+      "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+      "code": "BOLTON-DIRECTV-SPORTS-PACK_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "DirecTV Sports Pack"
+      },
+      "description": {
+        "en": "Feed your sports obsession. From professional and college sports to international soccer to fly-fishing &#151; SPORTS PACK has you covered with specialty sports networks, as well as over 20 regional sports networks.\n"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2144",
+          "key": "P2144",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 1399,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 13.99
+              },
+              "id": "9ad60921-1b53-44bb-8a53-b3482007f937",
+              "startDate": "1990-01-01T18:30:00.000Z",
+              "endDate": "2049-12-31T00:00:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "period": "month",
+              "billingReferenceId": "1",
+              "gfVersion": 0,
+              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            },
+            {
+              "value": {
+                "centAmount": 1399,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 13.99
+              },
+              "id": "00f04391-ebe4-42e1-93ad-191237d0c297",
+              "startDate": "2049-12-31T00:00:00.000Z",
+              "endDate": "2049-12-31T23:59:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "period": "month",
+              "billingReferenceId": "2",
+              "gfVersion": 0,
+              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 1,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "DIRECTV SPORTS PACK"
+            },
+            "billingProductCode": "P2144",
+            "billingCode": "P2144",
+            "startDate": "2002-01-29T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Sports",
+            "language": "English",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "subCategory": "Sports",
+            "omsComponentMapping": [
+              {
+                "omsAttributes": [
+                  {
+                    "attributeCode": "DTgenrePackage",
+                    "attributeValue": "SPORTSDV"
+                  }
+                ],
+                "componentCode": "SPORTSDV",
+                "componentPath": "ATTDTV|SPORTSDV",
+                "operationName": "MOORequest,PUSPO1Request"
+              }
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "termsAndConditions": {
+              "en": "By subscribing you will be billed $13.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+            },
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": false,
+            "billingParams": [
+              {
+                "value": "P0028",
+                "name": "PickCode"
+              }
+            ],
+            "productImages": "/cms2/product_catalog/premiums/Sports_Pack.gif"
+          }
+        }
+      ]
+    },
+    {
+      "id": "a410976d-cd97-4c70-975f-b841c7da3c7c",
+      "code": "BOLTON-HBO-MAX-STARZ-SHOW-CINE_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "HBO Max, Starz, Showtime and Cinemax"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2165",
+          "key": "P2165",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 4796,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 47.96
+              },
+              "id": "65921f97-e1f0-409d-a34f-18026e787a9c",
+              "startDate": "2007-02-28T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "billingReferenceId": "1",
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            },
+            {
+              "value": {
+                "centAmount": 5399,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 53.99
+              },
+              "id": "34ab444e-f669-474b-88fe-c7682bc31637",
+              "startDate": "2049-12-31T00:00:00.000Z",
+              "endDate": "2049-12-31T23:59:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "billingReferenceId": "2",
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 1,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "HBO Max, Starz, Showtime and Cinemax"
+            },
+            "billingProductCode": "P2165",
+            "billingCode": "P2165",
+            "startDate": "2007-02-28T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "CONS"
+            ],
+            "salesChannel": [
+              "onlineServices",
+              "opusServices",
+              "opusSales",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-CINEMAX_satellite"
+                  },
+                  {
+                    "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-SHOWTIME_satellite"
+                  },
+                  {
+                    "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ_satellite"
+                  },
+                  {
+                    "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "omsComponentMapping": [
+              {
+                "omsAttributes": [
+                  {
+                    "attributeCode": "DTgenrePackage",
+                    "attributeValue": "CINEMAXDV"
+                  }
+                ],
+                "componentCode": "CINEMAXDV",
+                "componentPath": "ATTDTV|CINEMAXDV",
+                "operationName": "MOORequest,PUSPO1Request"
+              },
+              {
+                "omsAttributes": [
+                  {
+                    "attributeCode": "DTgenrePackage",
+                    "attributeValue": "STARZDV"
+                  }
+                ],
+                "componentCode": "STARZDV",
+                "componentPath": "ATTDTV|STARZDV",
+                "operationName": "MOORequest,PUSPO1Request"
+              },
+              {
+                "omsAttributes": [
+                  {
+                    "attributeCode": "DTgenrePackage",
+                    "attributeValue": "SHOWTIMEDV"
+                  }
+                ],
+                "componentCode": "SHOWTIMEDV",
+                "componentPath": "ATTDTV|SHOWTIMEDV",
+                "operationName": "MOORequest,PUSPO1Request"
+              },
+              {
+                "omsAttributes": [
+                  {
+                    "attributeCode": "DTgenrePackage",
+                    "attributeValue": "HBODV"
+                  }
+                ],
+                "componentCode": "HBODV",
+                "componentPath": "ATTDTV|HBODV",
+                "operationName": "MOORequest,PUSPO1Request"
+              }
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "HBO+SHOWTIME+STARZ+Cinemax",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "heroOfferRanking": 2,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+      "code": "BOLTON-CINEMAX_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "Cinemax"
+      },
+      "description": {
+        "en": "With over 1,600 different movies a year, Cinemax features the fewest repeats of any premium service and a new movie premiere every Saturday night. \n"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2143",
+          "key": "P2143",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 1099,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 10.99
+              },
+              "id": "cfdb2a13-086f-4035-95ae-74e31e4c6b28",
+              "startDate": "2021-04-02T00:00:00.000Z",
+              "endDate": "2022-04-03T00:00:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "period": "month",
+              "billingReferenceId": "1",
+              "gfVersion": 0,
+              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            },
+            {
+              "value": {
+                "centAmount": 1100,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 11
+              },
+              "id": "f28a72b1-d148-4244-907f-773fbeb20163",
+              "startDate": "2049-12-31T00:00:00.000Z",
+              "endDate": "2049-12-31T23:59:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "period": "month",
+              "billingReferenceId": "2",
+              "gfVersion": 0,
+              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 1,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "CINEMAX"
+            },
+            "displayNamesByKey": {
+              "services": "Cinemax<sup>&#174;</sup>",
+              "name-cpc": "CINEMAX"
+            },
+            "billingProductCode": "P2143",
+            "billingCode": "P2143",
+            "startDate": "2002-01-30T05:00:00.000Z",
+            "endDate": "2050-12-31T05:00:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opus",
+              "online",
+              "onlineSales",
+              "onlineServices",
+              "opusSales",
+              "opusServices"
+            ],
+            "productFamily": "satellite",
+            "removalRule": {
+              "channel": [],
+              "accountType": [
+                "ALL"
+              ]
+            },
+            "planSubType": "Premium",
+            "displayType": "optional",
+            "language": "English",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "subCategory": "Premium",
+            "omsComponentMapping": [
+              {
+                "omsAttributes": [
+                  {
+                    "attributeCode": "DTgenrePackage",
+                    "attributeValue": "CINEMAXDV"
+                  }
+                ],
+                "componentCode": "CINEMAXDV",
+                "componentPath": "ATTDTV|CINEMAXDV",
+                "operationName": "MOORequest,PUSPO1Request"
+              }
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "termsAndConditions": {
+              "en": "By subscribing you will be billed $10.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+            },
+            "conflictingProducts": [],
+            "migratedProduct": false,
+            "omsProductCode": "CINEMAXDV",
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "Cinemax",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": false,
+            "billingParams": [
+              {
+                "value": "P0031",
+                "name": "PickCode"
+              }
+            ],
+            "productImages": "/cms2/product_catalog/premiums/Cinemax.gif"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+      "code": "BOLTON-STARZ_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "STARZ"
+      },
+      "description": {
+        "en": "Over 1,000 different movies a month playing on 15 different STARZ&reg; and STARZENCORESM channels. ObsessableSM TV, movies and more, STARZ&reg; has it all. DIRECTV has the entire STARZ&reg; lineup, including new HD channels.\n"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2141",
+          "key": "P2141",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 1099,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 10.99
+              },
+              "id": "1f14f0da-3cd1-41a8-8ddf-629d560bc2ed",
+              "startDate": "2021-04-02T00:00:00.000Z",
+              "endDate": "2023-04-02T00:00:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "period": "month",
+              "billingReferenceId": "1",
+              "gfVersion": 0,
+              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            },
+            {
+              "value": {
+                "centAmount": 1100,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 11
+              },
+              "id": "f8e098e3-299d-4de4-84e5-9575856fe511",
+              "startDate": "2049-12-31T00:00:00.000Z",
+              "endDate": "2049-12-31T23:59:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "period": "month",
+              "billingReferenceId": "2",
+              "gfVersion": 0,
+              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 1,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "STARZ"
+            },
+            "displayNamesByKey": {
+              "services": "STARZ<sup>&#174;</sup>"
+            },
+            "billingProductCode": "P2141",
+            "billingCode": "P2141",
+            "startDate": "2002-01-30T05:00:00.000Z",
+            "endDate": "2050-12-31T05:00:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opus",
+              "online",
+              "onlineSales",
+              "onlineServices",
+              "opusSales",
+              "opusServices"
+            ],
+            "productFamily": "satellite",
+            "removalRule": {
+              "channel": [],
+              "accountType": [
+                "ALL"
+              ]
+            },
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "subCategory": "Premium",
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "termsAndConditions": {
+              "en": "By subscribing you will be billed $10.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+            },
+            "removalRuleByChannel": {
+              "actionRule": [
+                {
+                  "salesChannel": "onlineServices",
+                  "businessSegment": "CONS",
+                  "customerSegments": "Employee",
+                  "userType": "Customer",
+                  "flowActionType": "change",
+                  "actionIndicator": false
+                }
+              ]
+            },
+            "conflictingProducts": [],
+            "migratedProduct": false,
+            "omsProductCode": "STARZDV",
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "starz",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": false,
+            "billingParams": [
+              {
+                "value": "P0027",
+                "name": "PickCode"
+              }
+            ],
+            "productImages": "/content/dam/dtv/directv_entertainment/premiums/starz_logo.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": "59a433a8-7560-413a-a8c7-5fb9ce511a40",
+      "code": "BOLTON-HBO-MAX-STARZ-SHOW-SPORTS_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "HBO Max, Starz, Showtime and Sports"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2166",
+          "key": "P2166",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 5096,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 50.96
+              },
+              "id": "0ed33383-fcb4-4503-94dd-3ddb3d26cec5",
+              "startDate": "2007-02-28T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "HBO Max, Starz, Showtime and Sports"
+            },
+            "billingProductCode": "P2166",
+            "billingCode": "P2166",
+            "startDate": "2007-02-28T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-DIRECTV-SPORTS-PACK_satellite"
+                  },
+                  {
+                    "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-SHOWTIME_satellite"
+                  },
+                  {
+                    "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ_satellite"
+                  },
+                  {
+                    "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "HBO, Showtime, Starz, Sports Pack",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "90688e3b-0105-4186-ab32-a11f99d8d7a0",
+      "code": "BOLTON-STARZ-SHOW-SPORTS_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "Starz, Showtime and Sports"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2162",
+          "key": "P2162",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 3597,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 35.97
+              },
+              "id": "3455db43-5f68-4734-9067-c80198e2bae0",
+              "startDate": "2003-03-17T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Starz, Showtime and Sports"
+            },
+            "billingProductCode": "P2162",
+            "billingCode": "P2162",
+            "startDate": "2003-03-17T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-DIRECTV-SPORTS-PACK_satellite"
+                  },
+                  {
+                    "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-SHOWTIME_satellite"
+                  },
+                  {
+                    "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "Showtime, Starz, Sports Pack",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "2318ef04-f4cc-4b84-bb0a-5d49fd87c2cf",
+      "code": "BOLTON-HBO-MAX-SHOW-CINE_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "HBO Max, Showtime and Cinemax"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2158",
+          "key": "P2158",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 3697,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 36.97
+              },
+              "id": "b8271b26-431a-46f9-b328-4002ca453802",
+              "startDate": "2007-02-28T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "HBO Max, Showtime and Cinemax"
+            },
+            "billingProductCode": "P2158",
+            "billingCode": "P2158",
+            "startDate": "2007-02-28T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-CINEMAX_satellite"
+                  },
+                  {
+                    "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-SHOWTIME_satellite"
+                  },
+                  {
+                    "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "HBO, Showtime, Cinemax",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "3c6fb45e-bcaa-4867-9fc8-b318a6730f69",
+      "code": "BOLTON-STARZ-SPORTS_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "Starz and Sports"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2151",
+          "key": "P2151",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 2498,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 24.98
+              },
+              "id": "3ca8a612-d862-489a-98fa-992a9083bfc7",
+              "startDate": "2003-03-17T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "billingReferenceId": "1",
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Starz and Sports"
+            },
+            "billingProductCode": "P2151",
+            "billingCode": "P2151",
+            "startDate": "2003-03-17T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-DIRECTV-SPORTS-PACK_satellite"
+                  },
+                  {
+                    "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "Starz, Sports Pack",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "0fc1b481-0b0f-4bde-8b11-9f0c16ac4158",
+      "code": "BOLTON-HBO-MAX-STARZ-SPORTS_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "HBO Max, Starz and Sports"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2157",
+          "key": "P2157",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 3997,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 39.97
+              },
+              "id": "f39bca21-c895-4a1f-b3e0-2dc3b2375186",
+              "startDate": "2007-02-28T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "HBO Max, Starz and Sports"
+            },
+            "billingProductCode": "P2157",
+            "billingCode": "P2157",
+            "startDate": "2007-02-28T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-DIRECTV-SPORTS-PACK_satellite"
+                  },
+                  {
+                    "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ_satellite"
+                  },
+                  {
+                    "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "HBO, Starz, Sports Pack",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "dd5e3343-d8ec-4662-8b53-a3d662fe383b",
+      "code": "BOLTON-SHOW-CINE-SPORTS_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "Showtime, Cinemax and Sports"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2164",
+          "key": "P2164",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 3597,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 35.97
+              },
+              "id": "4285d024-52da-4187-8aaa-f9aab5503c7f",
+              "startDate": "2003-03-17T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Showtime, Cinemax and Sports"
+            },
+            "billingProductCode": "P2164",
+            "billingCode": "P2164",
+            "startDate": "2003-03-17T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-DIRECTV-SPORTS-PACK_satellite"
+                  },
+                  {
+                    "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-CINEMAX_satellite"
+                  },
+                  {
+                    "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-SHOWTIME_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "Showtime, Cinemax, Sports Pack",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "4cce7e6e-db08-4d8b-91a5-b969a0ef4903",
+      "code": "BOLTON-HBO-MAX-SPORTS_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "HBO Max and Sports"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2148",
+          "key": "P2148",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 2898,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 28.98
+              },
+              "id": "c4be9d62-b5e8-4de8-9399-8472f4cbd9b8",
+              "startDate": "2007-02-28T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "HBO Max and Sports"
+            },
+            "billingProductCode": "P2148",
+            "billingCode": "P2148",
+            "startDate": "2007-02-28T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-DIRECTV-SPORTS-PACK_satellite"
+                  },
+                  {
+                    "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "HBO, Sports Pack",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "c57e3782-c437-464a-9ed9-fef2891a4033",
+      "code": "BOLTON-HBO-MAX-STARZ-CINE_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "HBO Max, Starz and Cinemax"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2156",
+          "key": "P2156",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 3697,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 36.97
+              },
+              "id": "47a9c42d-f80f-4c74-bfeb-5a69365131d2",
+              "startDate": "2008-02-26T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "HBO Max, Starz and Cinemax"
+            },
+            "billingProductCode": "P2156",
+            "billingCode": "P2156",
+            "startDate": "2008-02-26T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-CINEMAX_satellite"
+                  },
+                  {
+                    "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ_satellite"
+                  },
+                  {
+                    "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "HBO,Cinemax,Starz",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "c685c192-cb10-4ae0-80cf-b9dd624baa93",
+      "code": "BOLTON-HBO-MAX-STARZ-SHOW_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "HBO Max, Starz and Showtime"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2155",
+          "key": "P2155",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 3697,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 36.97
+              },
+              "id": "e5930c68-8b63-4ac8-b8e7-393cd680d22c",
+              "startDate": "2007-02-28T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "HBO Max, Starz and Showtime"
+            },
+            "billingProductCode": "P2155",
+            "billingCode": "P2155",
+            "startDate": "2007-02-28T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "opus",
+              "onlineServices",
+              "onlineSales",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-SHOWTIME_satellite"
+                  },
+                  {
+                    "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ_satellite"
+                  },
+                  {
+                    "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "HBO, Showtime, Starz",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "bab25bf9-6c85-4817-98b7-79cd55ec118d",
+      "code": "BOLTON-STARZ-SHOW-CINE_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "Starz, Showtime and Cinemax"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2161",
+          "key": "P2161",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 3297,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 32.97
+              },
+              "id": "0c9cc30c-b2cb-44c8-8c72-583f6654fa7f",
+              "startDate": "2003-03-17T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Starz, Showtime and Cinemax"
+            },
+            "billingProductCode": "P2161",
+            "billingCode": "P2161",
+            "startDate": "2003-03-17T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-CINEMAX_satellite"
+                  },
+                  {
+                    "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-SHOWTIME_satellite"
+                  },
+                  {
+                    "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "Showtime, Cinemax, Starz",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "6c376779-fbfe-469e-8fa6-521c16ffa75f",
+      "code": "BOLTON-STARZ-SHOW-CINE-SPORTS_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "Starz, Showtime, Cinemax and Sports"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2169",
+          "key": "P2169",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 4696,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 46.96
+              },
+              "id": "f09fd5fa-87d0-4071-9bf5-48e89ba21b0c",
+              "startDate": "2003-03-17T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Starz, Showtime, Cinemax and Sports"
+            },
+            "billingProductCode": "P2169",
+            "billingCode": "P2169",
+            "startDate": "2003-03-17T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-DIRECTV-SPORTS-PACK_satellite"
+                  },
+                  {
+                    "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-CINEMAX_satellite"
+                  },
+                  {
+                    "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-SHOWTIME_satellite"
+                  },
+                  {
+                    "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "Showtime, Cinemax, Starz, Sports Pack",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "f7245091-ddd1-4cd1-96f1-3c51c19b83b1",
+      "code": "BOLTON-SHOW-CINE_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "Showtime and Cinemax"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2152",
+          "key": "P2152",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 2198,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 21.98
+              },
+              "id": "6c482e47-9caa-43dc-863d-2b9e42f8af4f",
+              "startDate": "2003-03-17T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Showtime and Cinemax"
+            },
+            "billingProductCode": "P2152",
+            "billingCode": "P2152",
+            "startDate": "2003-03-17T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-CINEMAX_satellite"
+                  },
+                  {
+                    "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-SHOWTIME_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "Showtime, Cinemax",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": false,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "f1273b56-10b8-444d-940b-196a42724228",
+      "code": "BOLTON-HBO-MAX-STARZ-CINE-SPORTS_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "HBO Max, Starz, Cinemax and Sports"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2167",
+          "key": "P2167",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 5096,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 50.96
+              },
+              "id": "f3180665-abb4-4664-9952-49d8527aa9ae",
+              "startDate": "2007-02-28T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "HBO Max, Starz, Cinemax and Sports"
+            },
+            "billingProductCode": "P2167",
+            "billingCode": "P2167",
+            "startDate": "2007-02-28T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-DIRECTV-SPORTS-PACK_satellite"
+                  },
+                  {
+                    "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-CINEMAX_satellite"
+                  },
+                  {
+                    "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ_satellite"
+                  },
+                  {
+                    "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "HBO,Cinemax,Starz, Sports Pack",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "dfffa60a-e6b5-42a8-b0d9-89bd5242f9b1",
+      "code": "BOLTON-STARZ-CINE-SPORTS_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "Starz, Cinemax and Sports"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2163",
+          "key": "P2163",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 3597,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 35.97
+              },
+              "id": "69d0b896-c064-44ac-bedb-c468545f5536",
+              "startDate": "2003-03-17T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Starz, Cinemax and Sports"
+            },
+            "billingProductCode": "P2163",
+            "billingCode": "P2163",
+            "startDate": "2003-03-17T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-DIRECTV-SPORTS-PACK_satellite"
+                  },
+                  {
+                    "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-CINEMAX_satellite"
+                  },
+                  {
+                    "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "Cinemax, Starz, Sports Pack",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "5a6cae6a-d2f5-4211-bf81-b41b0c9ba2ac",
+      "code": "BOLTON-HBO-MAX-STARZ_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "HBO Max and Starz"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2145",
+          "key": "P2145",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 2598,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 25.98
+              },
+              "id": "6877f145-4b1f-4a3c-b240-e9d7fab59166",
+              "startDate": "2007-02-28T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "billingReferenceId": "1",
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "HBO Max and Starz"
+            },
+            "billingProductCode": "P2145",
+            "billingCode": "P2145",
+            "startDate": "2007-02-28T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ_satellite"
+                  },
+                  {
+                    "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX_satellite"
+                  }
+                ],
+                "constraints": {
+                  "productTypes": [
+                    "video-addon"
+                  ],
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "subCategory": "Premium",
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "HBO, Starz",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "04b1b78a-6e9e-46f5-9310-6bf1c152a824",
+      "code": "BOLTON-STARZ-CINE_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "Starz and Cinemax"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2150",
+          "key": "P2150",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 2198,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 21.98
+              },
+              "id": "c56bd6db-16ca-4690-87bd-bc3675a13f67",
+              "startDate": "2003-03-17T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Starz and Cinemax"
+            },
+            "billingProductCode": "P2150",
+            "billingCode": "P2150",
+            "startDate": "2003-03-17T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ_satellite"
+                  },
+                  {
+                    "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-CINEMAX_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "Starz, Cinemax",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "58df69fe-778b-4826-9194-449c424d4314",
+      "code": "BOLTON-HBO-MAX-SHOW-CINE-SPORTS_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "HBO Max, Showtime, Cinemax and Sports"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2168",
+          "key": "P2168",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 5096,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 50.96
+              },
+              "id": "c8e89395-5b4e-4216-a965-46ef7252461f",
+              "startDate": "2007-02-28T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "HBO Max, Showtime, Cinemax and Sports"
+            },
+            "billingProductCode": "P2168",
+            "billingCode": "P2168",
+            "startDate": "2007-02-28T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "onlineServices",
+              "opusServices",
+              "opusSales",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-DIRECTV-SPORTS-PACK_satellite"
+                  },
+                  {
+                    "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-CINEMAX_satellite"
+                  },
+                  {
+                    "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-SHOWTIME_satellite"
+                  },
+                  {
+                    "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "HBO, Showtime, Cinemax, Sports Pack",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cee02fe3-721e-4ff2-a51d-3f370da416b4",
+      "code": "BOLTON-HBO-MAX-CINE_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "HBO Max and Cinemax"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2147",
+          "key": "P2147",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 2598,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 25.98
+              },
+              "id": "d14171af-b12d-4f78-8eb2-4ef9ce560161",
+              "startDate": "2007-02-28T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "HBO Max and Cinemax"
+            },
+            "billingProductCode": "P2147",
+            "billingCode": "P2147",
+            "startDate": "2007-02-28T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "onlineServices",
+              "opusSales",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-CINEMAX_satellite"
+                  },
+                  {
+                    "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "HBO, Cinemax",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "92133fb0-2146-43e0-aea2-8a6988246cca",
+      "code": "BOLTON-STARZ-SHOW_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "Starz and Showtime"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2149",
+          "key": "P2149",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 2198,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 21.98
+              },
+              "id": "e126ba13-17f0-47d4-a25e-877ba54f744f",
+              "startDate": "2003-03-17T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Starz and Showtime"
+            },
+            "billingProductCode": "P2149",
+            "billingCode": "P2149",
+            "startDate": "2003-03-17T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-SHOWTIME_satellite"
+                  },
+                  {
+                    "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "Showtime, Starz",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "bec0b60a-5850-4bcb-a943-d98c6cee49bb",
+      "code": "BOLTON-HBO-MAX-SHOW-SPORTS_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "HBO Max, Showtime and Sports"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2159",
+          "key": "P2159",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 3997,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 39.97
+              },
+              "id": "0cfc895d-f80d-4056-9efa-6a7963ddc851",
+              "startDate": "2007-02-28T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "HBO Max, Showtime and Sports"
+            },
+            "billingProductCode": "P2159",
+            "billingCode": "P2159",
+            "startDate": "2007-02-28T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-DIRECTV-SPORTS-PACK_satellite"
+                  },
+                  {
+                    "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-SHOWTIME_satellite"
+                  },
+                  {
+                    "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "HBO, Showtime, Sports Pack",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "c4341c7d-4dec-4e75-bab6-d71a1b5bd7d3",
+      "code": "BOLTON-SHOW-SPORTS_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "Showtime and Sports"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2153",
+          "key": "P2153",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 2498,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 24.98
+              },
+              "id": "b3fa0ec4-f6ce-4aab-8592-92716a83b52c",
+              "startDate": "2003-03-17T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Showtime and Sports"
+            },
+            "billingProductCode": "P2153",
+            "billingCode": "P2153",
+            "startDate": "2003-03-17T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-DIRECTV-SPORTS-PACK_satellite"
+                  },
+                  {
+                    "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-SHOWTIME_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "Showtime, Sports Pack",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "70bb469e-6027-42f2-8895-fd6f58d48d11",
+      "code": "BOLTON-HBO-MAX-CINE-SPORTS_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "HBO Max, Cinemax and Sports"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2160",
+          "key": "P2160",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 3997,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 39.97
+              },
+              "id": "c6f9996f-86cf-4128-a1bb-62a0b7b8212c",
+              "startDate": "2007-02-28T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "HBO Max, Cinemax and Sports"
+            },
+            "billingProductCode": "P2160",
+            "billingCode": "P2160",
+            "startDate": "2007-02-28T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "onlineSales",
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-DIRECTV-SPORTS-PACK_satellite"
+                  },
+                  {
+                    "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-CINEMAX_satellite"
+                  },
+                  {
+                    "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "HBO,Cinemax, Sports Pack",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ce34b7ab-d80f-43ff-8e40-f27db667e4ae",
+      "code": "BOLTON-CINE-SPORTS_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "Cinemax and Sports"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2154",
+          "key": "P2154",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 2498,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 24.98
+              },
+              "id": "27bc4016-9a92-4bfd-9bc3-b7ab62de69e1",
+              "startDate": "2003-03-17T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Cinemax and Sports"
+            },
+            "billingProductCode": "P2154",
+            "billingCode": "P2154",
+            "startDate": "2003-03-17T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "onlineServices",
+              "opusSales",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-DIRECTV-SPORTS-PACK_satellite"
+                  },
+                  {
+                    "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-CINEMAX_satellite"
+                  }
+                ],
+                "constraints": {
+                  "anchor": false,
+                  "dependent": false
+                }
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "subCategory": "Premium",
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "Cinemax, Sports Pack",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                      "typeId": "product"
+                    },
+                    {
+                      "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "7d866003-a622-48c3-beeb-d38ee62383ef",
+      "code": "BOLTON-HBO-STARZ-SP-SHOW-CINE-SPORTS_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "HBO Max™, Starz, Showtime, Cinemax and Sports Pack"
+      },
+      "description": {
+        "en": "HBO Max™, Starz, Showtime, Cinemax and Sports Pack"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "prod8590628",
+          "key": "prod8590628",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 6195,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 61.95
+              },
+              "id": "7031040c-6d8d-4ac5-9931-dd6286c9ee4d",
+              "startDate": "2021-01-10T00:00:00.000Z",
+              "endDate": "2049-12-31T23:59:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "HBO Max™, Starz, Showtime, Cinemax and Sports Pack"
+            },
+            "billingProductCode": "prod8590628",
+            "billingCode": "prod8590628",
+            "startDate": "2016-05-01T00:00:00.000Z",
+            "endDate": "2049-12-31T00:00:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "HBO, Starz Super Pack, Showtime, Cinemax and Sports Pack",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "productImages": "HBO-Starz-Super-Pack-Showtime-Cinemax-and-Sports-Pack"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9a898082-1640-4991-bbdb-cedf7f5fc1ba",
+      "code": "BOLTON-HBO-STARZ-SP-SHOW-CINE_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "HBO Max™, Starz, Showtime and Cinemax"
+      },
+      "description": {
+        "en": "HBO Max™, Starz, Showtime and Cinemax"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "prod8610902",
+          "key": "prod8610902",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 4796,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 47.96
+              },
+              "id": "b16090db-42fa-4e67-93e5-72b741c860a6",
+              "startDate": "2021-01-10T00:00:00.000Z",
+              "endDate": "2049-12-31T23:59:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "HBO Max™, Starz, Showtime and Cinemax"
+            },
+            "billingProductCode": "prod8610902",
+            "billingCode": "prod8610902",
+            "startDate": "2016-05-01T00:00:00.000Z",
+            "endDate": "2049-12-31T00:00:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "HBO, Starz Super Pack, Showtime and Cinemax",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": true,
+            "heroOfferRanking": 2,
+            "productImages": "HBO-Starz-Super-Pack-Showtime-and-Cinemax"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8234da83-5fad-4ddb-a879-93fafbabc2db",
+      "code": "BOLTON-PANTAYA_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "Pantaya"
+      },
+      "description": {
+        "en": "Pantaya offers a selection of today's Spanish-language blockbusters, fan favorites, beloved classics, and exclusive and original series - all commercial-free. May only be accessed on internet-connected HD-DVR, DIRECTV.com and the DIRECTV app. Subscription not valid for streaming using the provider app or website."
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "R107114",
+          "key": "R107114",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 599,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 5.99
+              },
+              "id": "94d48882-a47b-40f3-8a85-783ddcb18c43",
+              "startDate": "2020-04-19T04:00:00.000Z",
+              "endDate": "2050-12-31T05:00:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "period": "month",
+              "billingReferenceId": "1",
+              "gfVersion": 0,
+              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "grandfathered": false,
+              "contracted": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Pantaya"
+            },
+            "billingProductCode": "R107114",
+            "billingCode": "R107114",
+            "startDate": "2020-04-19T04:00:00.000Z",
+            "endDate": "2050-12-31T05:00:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusSales",
+              "opusServices",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "subCategory": "Premium",
+            "omsComponentMapping": [
+              {
+                "omsAttributes": [
+                  {
+                    "attributeCode": "DTgenrePackage",
+                    "attributeValue": "DVPTYA"
+                  }
+                ],
+                "componentCode": "DVPTYA",
+                "componentPath": "ATTDTV|DVPTYA",
+                "operationName": "MOORequest,PUSPO1Request"
+              }
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": false,
+            "isAutoRenewable": false,
+            "termsAndConditions": {
+              "en": "By subscribing you will be billed $5.99 per month on a recurring basis."
+            },
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88952763",
+            "tokens": "Pantaya",
+            "chargeCode": "DVPTYA",
+            "isWorldDirect": false,
+            "isETFRequired": true,
+            "isRemovable": true,
+            "billingParams": [
+              {
+                "value": "DVPTYA",
+                "name": "DTgenrePackage"
+              }
+            ],
+            "productImages": "/cms2/pepod_new/add_program/sm_programming__Pantaya.png"
+          }
+        }
+      ]
+    }
+  ]
+}

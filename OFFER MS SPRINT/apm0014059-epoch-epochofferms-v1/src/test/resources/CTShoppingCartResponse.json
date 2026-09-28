@@ -1,0 +1,92 @@
+{ 
+    "messages": [ 
+        { 
+            "messageCode": "eV8373", 
+            "messageType": "ERROR", 
+            "messageDescription": "The Customer business Segment is not matching with business Segment of the offer", 
+            "offerCode": "REWARD_OFFER", 
+            "billingProductCode": "REWARD_OFFER_PR" 
+        } 
+    ], 
+    "cartContext": { 
+        "salesChannel": "online", 
+        "validateOnlyReward": false, 
+        "validateAvailableQuota": true, 
+        "location": { 
+            "zipCode": "75093", 
+            "dma": "sanantonio", 
+            "city": "sanantonio", 
+            "state": "TX", 
+            "county": "bexar", 
+            "region": "central" 
+        }, 
+        "lobDetails": [ 
+            { 
+                "businessSegment": "CRU", 
+                "customerSegement": "Residential", 
+                "offerActionType": "Acquisition", 
+                "productFamily": "OTT", 
+                "lobType": "OTT", 
+                "losgs": [ 
+                    { 
+                        "lineItems": [ 
+                            { 
+                                "offerCodes": [ 
+                                    "REWARD_OFFER" 
+                                ], 
+                                "billingProductCode": "REWARD_OFFER_PR", 
+                                "productType": "video-plan", 
+                                "benefits": [ 
+                                    { 
+                                        "billingBenefitId": "23645", 
+                                        "billingBenefitCode": "REWARD_BENEFIT", 
+                                        "promotionType": "PROMOTION", 
+                                        "offerCode": "REWARD_OFFER" 
+                                    } 
+                                ], 
+                                "contractIndicator": "contract", 
+                                "benefitCodesToSuppressOffers": [ 
+                                    { 
+                                        "billingBenefitId": "23645", 
+                                        "billingBenefitCode": "LAL14", 
+                                        "promotionType": "PROMOTION", 
+                                        "startDate": "2019-12-12", 
+                                        "endDate": "2020-12-12" 
+                                    } 
+                                ] 
+                            } 
+                        ] 
+                    } 
+                ] 
+            } 
+        ] 
+    }, 
+    "customerContext": { 
+        "existingAccounts": [ 
+            "DTVNOW" 
+        ], 
+        "OTT": { 
+            "accountNumber": "123456789", 
+            "productFamily": "OTT", 
+            "products": [ 
+                { 
+                    "billingProductCode": "test_internetPlan456", 
+                    "productType": "video-plan", 
+                    "productId": "id1", 
+                    "streamType": "two_stream" 
+                } 
+            ], 
+            "isContracted": true, 
+            "benefits": [ 
+                { 
+                    "billingBenefitId": "23645", 
+                    "billingBenefitCode": "LAL14", 
+                    "promotionType": "PROMOTION", 
+                    "startDate": "2019-12-12", 
+                    "endDate": "2020-12-12" 
+                } 
+            ], 
+            "accountStatus": "active" 
+        } 
+    } 
+}

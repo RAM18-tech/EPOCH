@@ -1,0 +1,1112 @@
+{
+    "limit": 300,
+    "offset": 0,
+    "count": 3,
+    "total": 3,
+    "offers": [
+        {
+            "id": "010a7b8a-89ff-453e-a3d6-b3720463b0b6",
+            "code": "OF_BOLTON-HISTORY-VAULT_satellite",
+            "status": "live",
+            "name": {
+                "en": "HISTORY Vault"
+            },
+            "description": {
+                "en": "Watch thousands of HISTORY Channel’s fascinating documentaries and hit series like History’s Greatest Mysteries, The UnXplained, Pawn Stars, and much more, all commercial-free. May only be accessed on internet-connected HD-DVR, DIRECTV.com and the DIRECTV app. Subscription not valid for streaming using the provider app or website."
+            },
+            "startDate": "2020-10-03T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "attributes": {
+                "offerProductType": "video-addon",
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerProductFamily": "satellite",
+                "offerProductFamilies": [
+                    "satellite"
+                ],
+                "offerStatus": "Active",
+                "offerType": "multi-benefit",
+                "offerActionType": "Other",
+                "offerActionTypes": [
+                    "Other",
+                    "Downgrade",
+                    "Upgrade",
+                    "Acquisition",
+                    "Cross-sell"
+                ],
+                "rank": "415",
+                "displayName": {
+                    "en": "HISTORY Vault"
+                },
+                "termsAndConditions": {
+                    "en": "By subscribing you will be billed $4.99 per month on a recurring basis (price subject to change). On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance. Cancel service anytime by managing your subscription online. May only be accessed on internet-connected HD DVR, directv.com, and the DIRECTV app. Subscription not valid for streaming using the History Vault app or historyvault.com."
+                },
+                "billingId": "1",
+                "billingCode": "R107366",
+                "migratedOffer": false,
+                "associatedProducts": [
+                    {
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "dependent": false,
+                                    "anchor": false
+                                }
+                            }
+                        ],
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "productTypes": [
+                                        "video-addon"
+                                    ],
+                                    "productStatus": "Active",
+                                    "productState": "New",
+                                    "dependent": false,
+                                    "anchor": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "24597734-d184-44a3-ae8f-cfd36f951862",
+                                        "typeId": "product",
+                                        "obj": {
+                                            "id": "24597734-d184-44a3-ae8f-cfd36f951862",
+                                            "code": "BOLTON-HISTORY-VAULT_satellite",
+                                            "productType": {
+                                                "typeId": "product-type",
+                                                "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                                                "key": "video-addon"
+                                            },
+                                            "name": {
+                                                "en": "HISTORY Vault"
+                                            },
+                                            "description": {
+                                                "en": "Watch thousands of HISTORY Channel’s fascinating documentaries and hit series like History’s Greatest Mysteries, The UnXplained, Pawn Stars, and much more, all commercial-free. May only be accessed on internet-connected HD-DVR, DIRECTV.com and the DIRECTV app. Subscription not valid for streaming using the provider app or website."
+                                            },
+                                            "categories": [],
+                                            "variants": [
+                                                {
+                                                    "id": "1",
+                                                    "sku": "R107366",
+                                                    "key": "R107366",
+                                                    "prices": [
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 499.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 4.99
+                                                            },
+                                                            "id": "280d7b61-fd1d-4259-92ab-2931d8a9d244",
+                                                            "startDate": "2020-10-03T18:30:00.000Z",
+                                                            "endDate": "2050-12-30T18:30:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "period": "month",
+                                                            "contractIndicator": "non-contract",
+                                                            "billingReferenceId": "1",
+                                                            "gfVersion": 0,
+                                                            "businessSegment": "BLS,PCO,JMU,VEN,TMU,JCD,PTR,CenturyLink,HSP,TCD,DAE,QST,TMW,MDU,MTL,ATT,LSE,VIP,JDU,VPA,MBL,CSH,PCR,GME,RVB,FRP,REG,MDD,VZN,SWB,HDL,MDL,DTV",
+                                                            "chargeType": "mrc",
+                                                            "grandfatherVersion": 0,
+                                                            "omsProductId": "10044865",
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 99.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 0.99
+                                                            },
+                                                            "id": "db9eef5b-dadd-4091-88ca-9af47fa60ab8",
+                                                            "startDate": "2024-02-21T08:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 2,
+                                                            "period": "month",
+                                                            "billingReferenceId": "2",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "01",
+                                                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,MBL,JDU,MDU,MDD,MDL,BLS,DAE,MTL,QST,SWB,VZN,PTR,FRP,ATT,Centurylink",
+                                                            "chargeType": "mrc",
+                                                            "numberOfPayments": 2,
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        }
+                                                    ],
+                                                    "attributes": {
+                                                        "displayName": {
+                                                            "en": "HISTORY Vault"
+                                                        },
+                                                        "displayRanking": 415,
+                                                        "isHDAccessRequired": true,
+                                                        "billingProductCode": "R107366",
+                                                        "billingCode": "R107366",
+                                                        "startDate": "2020-10-03T18:30:00.000Z",
+                                                        "endDate": "2050-12-30T18:30:00.000Z",
+                                                        "businessSegment": [
+                                                            "MDU",
+                                                            "CONS"
+                                                        ],
+                                                        "salesChannel": [
+                                                            "opusServices",
+                                                            "opusSales",
+                                                            "onlineServices",
+                                                            "onlineSales",
+                                                            "opus",
+                                                            "online"
+                                                        ],
+                                                        "productFamily": "satellite",
+                                                        "planSubType": "Premium",
+                                                        "language": "English",
+                                                        "productStatus": "Active",
+                                                        "contractApplicable": "noncontract",
+                                                        "contractIndicator": [
+                                                            "non-contract"
+                                                        ],
+                                                        "subCategory": "TV",
+                                                        "omsComponentMapping": [
+                                                            {
+                                                                "attributes": [
+                                                                    {
+                                                                        "attributeCode": "DTgenrePackage",
+                                                                        "attributeValue": "DVHVLT"
+                                                                    }
+                                                                ],
+                                                                "componentCode": "DVHVLT",
+                                                                "operationName": "MOORequest,PUSPO1Request",
+                                                                "componentPath": "ATTDTV|DVHVLT"
+                                                            }
+                                                        ],
+                                                        "customerSegments": [
+                                                            "Residential"
+                                                        ],
+                                                        "isPickService": false,
+                                                        "isAutoRenewable": false,
+                                                        "termsAndConditions": {
+                                                            "en": "By subscribing you will be billed $4.99 per month on a recurring basis (price subject to change). On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance. Cancel service anytime by managing your subscription online. May only be accessed on internet-connected HD DVR, directv.com, and the DIRECTV app. Subscription not valid for streaming using the History Vault app or historyvault.com."
+                                                        },
+                                                        "migratedProduct": false,
+                                                        "orderingMethod": "addToCart",
+                                                        "enablerPricePlanCode": "88985153",
+                                                        "tokens": "BOLTON-HISTORY-VAULT",
+                                                        "chargeCode": "DVHVLT",
+                                                        "isWorldDirect": false,
+                                                        "isETFRequired": true,
+                                                        "isRemovable": true,
+                                                        "billingParams": [
+                                                            {
+                                                                "value": "DVHVLT",
+                                                                "name": "DTgenrePackage"
+                                                            }
+                                                        ],
+                                                        "dollarAmount": 4.99,
+                                                        "enablerATGProductId": "prod11110229",
+                                                        "enablerATGSkuId": "sku10580228",
+                                                        "contentChannelId": "7316",
+                                                        "productImages": "/cms2/pepod_new/add_program/sm_programming_historyvault.png"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "productType": "video-addon",
+                                        "key": "BOLTON-HISTORY-VAULT_satellite"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "benefits": [],
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "customerSegments": [
+                                "Residential"
+                            ],
+                            "salesChannel": [
+                                "ipor",
+                                "directIntegrationPartner",
+                                "dpp",
+                                "salesCRM",
+                                "ccap",
+                                "opusServices",
+                                "opusSales",
+                                "onlineServices",
+                                "onlineSales",
+                                "opus",
+                                "online"
+                            ],
+                            "existingCustomerType": [
+                                "Satellite"
+                            ]
+                        }
+                    ]
+                },
+                "leadOffer": false,
+                "contractIndicator": "non-contract",
+                "enablerSalesOfferId": "DTV_ADDON_HistoryVault",
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "recommendedOfferOPUS": false,
+                "recommendedOnline": false,
+                "isVirtual": false,
+                "flashSaleOffer": false,
+                "isBulkOffer": false,
+                "isSpecialOffer": false
+            }
+        },
+        {
+            "id": "afdf2609-e505-4a89-b9c0-2909f340905d",
+            "code": "OF_BOLTON-ALLBLK_satellite",
+            "status": "live",
+            "name": {
+                "en": "ALLBLK"
+            },
+            "description": {
+                "en": "ALLBLK is the streaming home for Black creators and storytellers with 10-12 original series premiering every year, plus world premiere movies, acclaimed independent films, classic fan-favorites, joyous stage plays, network series, and popular on-air series from sister networks, AMC and WE tv - all commercial-free! "
+            },
+            "startDate": "2022-06-12T00:00:00.000Z",
+            "endDate": "2050-12-31T23:59:00.000Z",
+            "attributes": {
+                "offerProductType": "video-addon",
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerProductFamily": "satellite",
+                "offerProductFamilies": [
+                    "satellite"
+                ],
+                "offerStatus": "Active",
+                "offerType": "multi-benefit",
+                "offerActionType": "Acquisition",
+                "offerActionTypes": [
+                    "Acquisition",
+                    "Upgrade",
+                    "Downgrade",
+                    "Cross-sell",
+                    "Other"
+                ],
+                "rank": "402",
+                "displayName": {
+                    "en": "ALLBLK"
+                },
+                "termsAndConditions": {
+                    "en": "By subscribing you will be billed $5.99 per month on a recurring basis (price subject to change). On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance. Cancel service anytime by managing your subscription online. "
+                },
+                "billingId": "1",
+                "billingCode": "R120300",
+                "migratedOffer": false,
+                "associatedProducts": [
+                    {
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "dependent": false,
+                                    "anchor": false
+                                }
+                            }
+                        ],
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "productTypes": [
+                                        "video-addon"
+                                    ],
+                                    "productStatus": "Active",
+                                    "productState": "New",
+                                    "dependent": false,
+                                    "anchor": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "e84fb4db-c4af-49c6-b2ae-dd981347f1f7",
+                                        "typeId": "product",
+                                        "obj": {
+                                            "id": "e84fb4db-c4af-49c6-b2ae-dd981347f1f7",
+                                            "code": "BOLTON-ALLBLK_satellite",
+                                            "productType": {
+                                                "typeId": "product-type",
+                                                "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                                                "key": "video-addon"
+                                            },
+                                            "name": {
+                                                "en": "ALLBLK"
+                                            },
+                                            "description": {
+                                                "en": "ALLBLK is the streaming home for Black creators and storytellers with 10-12 original series premiering every year, plus world premiere movies, acclaimed independent films, classic fan-favorites, joyous stage plays, network series, and popular on-air series from sister networks, AMC and WE tv - all commercial-free! "
+                                            },
+                                            "categories": [],
+                                            "variants": [
+                                                {
+                                                    "id": "1",
+                                                    "sku": "R120300",
+                                                    "key": "R120300",
+                                                    "prices": [
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 599.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 5.99
+                                                            },
+                                                            "id": "5722280a-d1b4-4b23-8ae7-50418aac6834",
+                                                            "startDate": "2022-06-12T00:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "period": "month",
+                                                            "billingReferenceId": "1",
+                                                            "gfVersion": 0,
+                                                            "businessSegment": "CSH,GME,HDL,HSP,LSE,MBL,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDD,MDL,MDU,BLS,DAE,MTL,QST,SWB,VZN,FRP,PTR,JCD,JMU,TCD,TMU,TMW,DTV,ATT,CenturyLink,residential",
+                                                            "chargeType": "mrc",
+                                                            "grandfatherVersion": 0,
+                                                            "omsProductId": "10064819",
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        }
+                                                    ],
+                                                    "attributes": {
+                                                        "displayName": {
+                                                            "en": "ALLBLK"
+                                                        },
+                                                        "displayRanking": 402,
+                                                        "isHDAccessRequired": true,
+                                                        "billingProductCode": "R120300",
+                                                        "billingCode": "R120300",
+                                                        "startDate": "2022-06-12T00:00:00.000Z",
+                                                        "endDate": "2050-12-31T23:59:00.000Z",
+                                                        "businessSegment": [
+                                                            "MDU",
+                                                            "CONS"
+                                                        ],
+                                                        "salesChannel": [
+                                                            "opusServices",
+                                                            "opusSales",
+                                                            "onlineSales",
+                                                            "onlineServices",
+                                                            "opus",
+                                                            "online"
+                                                        ],
+                                                        "productFamily": "satellite",
+                                                        "planSubType": "Premium",
+                                                        "language": "English",
+                                                        "productStatus": "Active",
+                                                        "contractApplicable": "noncontract",
+                                                        "contractIndicator": [
+                                                            "non-contract"
+                                                        ],
+                                                        "subCategory": "TV",
+                                                        "omsComponentMapping": [
+                                                            {
+                                                                "attributes": [
+                                                                    {
+                                                                        "attributeCode": "DTgenrePackage",
+                                                                        "attributeValue": "DALLBK"
+                                                                    }
+                                                                ],
+                                                                "componentCode": "DALLBK",
+                                                                "operationName": "MOORequest,PUSPO1Request",
+                                                                "componentPath": "ATTDTV|DALLBK"
+                                                            }
+                                                        ],
+                                                        "customerSegments": [
+                                                            "Residential"
+                                                        ],
+                                                        "isPickService": false,
+                                                        "isAutoRenewable": false,
+                                                        "termsAndConditions": {
+                                                            "en": "By subscribing you will be billed $5.99 per month on a recurring basis (price subject to change). On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance. Cancel service anytime by managing your subscription online or calling 844-673-2391."
+                                                        },
+                                                        "migratedProduct": false,
+                                                        "orderingMethod": "addToCart",
+                                                        "enablerPricePlanCode": "89034473",
+                                                        "tokens": "BOLTON-ALLBLK",
+                                                        "chargeCode": "DALLBK",
+                                                        "isWorldDirect": false,
+                                                        "isETFRequired": true,
+                                                        "isRemovable": true,
+                                                        "billingParams": [
+                                                            {
+                                                                "value": "DALLBK",
+                                                                "name": "DTgenrePackage"
+                                                            }
+                                                        ],
+                                                        "dollarAmount": 5.99,
+                                                        "enablerATGProductId": "prod11730221",
+                                                        "enablerATGSkuId": "sku11210225"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "productType": "video-addon",
+                                        "key": "BOLTON-ALLBLK_satellite"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "benefits": [],
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "customerSegments": [
+                                "Residential"
+                            ],
+                            "salesChannel": [
+                                "directIntegrationPartner",
+                                "dpp",
+                                "salesCRM",
+                                "ccap",
+                                "opusSales",
+                                "opusServices",
+                                "onlineServices",
+                                "onlineSales",
+                                "opus",
+                                "online"
+                            ],
+                            "existingCustomerType": [
+                                "Satellite"
+                            ]
+                        }
+                    ]
+                },
+                "leadOffer": false,
+                "contractIndicator": "non-contract",
+                "enablerSalesOfferId": "DTV_ADDON_ALLBLK",
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "recommendedOfferOPUS": false,
+                "recommendedOnline": false,
+                "isVirtual": false,
+                "flashSaleOffer": false,
+                "isBulkOffer": false,
+                "isSpecialOffer": false
+            }
+        },
+        {
+            "id": "3742d4b8-37ac-4185-80ec-8a6f24d87c02",
+            "code": "OF_BOLTON-ACORN-TV_satellite",
+            "status": "live",
+            "name": {
+                "en": "Acorn TV"
+            },
+            "description": {
+                "en": "Hailed as \"Netflix for the Anglophile\" by NPR, Acorn TV offers hit series and exclusive premieres you won’t see anywhere else. Stream addictive dramas, thrilling mysteries, and warm-hearted comedies from Britain, Ireland, Australia and beyond - all commercial-free!"
+            },
+            "startDate": "2022-07-17T00:00:00.000Z",
+            "endDate": "2050-12-31T23:59:00.000Z",
+            "attributes": {
+                "offerProductType": "video-addon",
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerProductFamily": "satellite",
+                "offerProductFamilies": [
+                    "satellite"
+                ],
+                "offerStatus": "Active",
+                "offerType": "multi-benefit",
+                "offerActionType": "Other",
+                "offerActionTypes": [
+                    "Other",
+                    "Cross-sell",
+                    "Downgrade",
+                    "Upgrade",
+                    "Acquisition"
+                ],
+                "rank": "401",
+                "displayName": {
+                    "en": "Acorn TV"
+                },
+                "termsAndConditions": {
+                    "en": "By subscribing you will be billed $6.99 per month on a recurring basis (price subject to change). On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance. Cancel service anytime by managing your subscription online or calling 844-673-2391."
+                },
+                "billingId": "1",
+                "billingCode": "R120302",
+                "migratedOffer": false,
+                "associatedProducts": [
+                    {
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "dependent": false,
+                                    "anchor": false
+                                }
+                            }
+                        ],
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "productTypes": [
+                                        "video-addon"
+                                    ],
+                                    "productStatus": "Active",
+                                    "productState": "New",
+                                    "dependent": false,
+                                    "anchor": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "56948bfc-4627-4d2e-88cb-025524e45bce",
+                                        "typeId": "product",
+                                        "obj": {
+                                            "id": "56948bfc-4627-4d2e-88cb-025524e45bce",
+                                            "code": "BOLTON-ACORN-TV_satellite",
+                                            "productType": {
+                                                "typeId": "product-type",
+                                                "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                                                "key": "video-addon"
+                                            },
+                                            "name": {
+                                                "en": "Acorn TV"
+                                            },
+                                            "description": {
+                                                "en": "Hailed as \"Netflix for the Anglophile\" by NPR, Acorn TV offers hit series and exclusive premieres you won’t see anywhere else. Stream addictive dramas, thrilling mysteries, and warm-hearted comedies from Britain, Ireland, Australia and beyond - all commercial-free!"
+                                            },
+                                            "categories": [],
+                                            "variants": [
+                                                {
+                                                    "id": "1",
+                                                    "sku": "R120302",
+                                                    "key": "R120302",
+                                                    "prices": [
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 699.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 6.99
+                                                            },
+                                                            "id": "96929109-aea1-4df5-9840-da3c95219e5f",
+                                                            "startDate": "2022-07-17T00:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "period": "month",
+                                                            "billingReferenceId": "1",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "01",
+                                                            "businessSegment": "DTV,CSH,GME,HDL,HSP,LSE,MBL,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDD,MDL,MDU,BLS,DAE,MTL,QST,SWB,VZN,FRP,PTR,JCD,JMU,TCD,TMU,TMW,ATT,CenturyLink,residential",
+                                                            "chargeType": "mrc",
+                                                            "grandfatherVersion": 0,
+                                                            "omsProductId": "10065048",
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        }
+                                                    ],
+                                                    "attributes": {
+                                                        "displayName": {
+                                                            "en": "Acorn TV"
+                                                        },
+                                                        "displayRanking": 401,
+                                                        "isHDAccessRequired": true,
+                                                        "billingProductCode": "R120302",
+                                                        "billingCode": "R120302",
+                                                        "startDate": "2022-07-17T00:00:00.000Z",
+                                                        "endDate": "2050-12-31T23:59:00.000Z",
+                                                        "businessSegment": [
+                                                            "CONS",
+                                                            "MDU"
+                                                        ],
+                                                        "salesChannel": [
+                                                            "opusServices",
+                                                            "opusSales",
+                                                            "onlineServices",
+                                                            "onlineSales",
+                                                            "opus",
+                                                            "online"
+                                                        ],
+                                                        "productFamily": "satellite",
+                                                        "planSubType": "Premium",
+                                                        "language": "English",
+                                                        "productStatus": "Active",
+                                                        "contractApplicable": "noncontract",
+                                                        "contractIndicator": [
+                                                            "non-contract"
+                                                        ],
+                                                        "subCategory": "TV",
+                                                        "omsComponentMapping": [
+                                                            {
+                                                                "attributes": [
+                                                                    {
+                                                                        "attributeCode": "DTgenrePackage",
+                                                                        "attributeValue": "DACRNR"
+                                                                    }
+                                                                ],
+                                                                "componentCode": "DACRNR",
+                                                                "operationName": "MOORequest,PUSPO1Request",
+                                                                "componentPath": "ATTDTV|DACRNR"
+                                                            }
+                                                        ],
+                                                        "customerSegments": [
+                                                            "Residential"
+                                                        ],
+                                                        "isPickService": false,
+                                                        "isAutoRenewable": false,
+                                                        "migratedProduct": false,
+                                                        "orderingMethod": "addToCart",
+                                                        "enablerPricePlanCode": "89036263",
+                                                        "tokens": "BOLTON-ACORN-TV",
+                                                        "chargeCode": "DACRNR",
+                                                        "isWorldDirect": false,
+                                                        "isETFRequired": false,
+                                                        "isRemovable": true,
+                                                        "billingParams": [
+                                                            {
+                                                                "value": "DACRNR",
+                                                                "name": "DTgenrePackage"
+                                                            }
+                                                        ],
+                                                        "dollarAmount": 6.99,
+                                                        "enablerATGProductId": "prod11730254",
+                                                        "enablerATGSkuId": "sku11210344"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "productType": "video-addon",
+                                        "key": "BOLTON-ACORN-TV_satellite"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "benefits": [],
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "customerSegments": [
+                                "Residential"
+                            ],
+                            "salesChannel": [
+                                "directIntegrationPartner",
+                                "dpp",
+                                "salesCRM",
+                                "ccap",
+                                "opusServices",
+                                "opusSales",
+                                "onlineServices",
+                                "onlineSales",
+                                "opus",
+                                "online"
+                            ],
+                            "existingCustomerType": [
+                                "Satellite"
+                            ]
+                        }
+                    ]
+                },
+                "leadOffer": false,
+                "contractIndicator": "non-contract",
+                "enablerSalesOfferId": "DTV_ADDON_AcornTV",
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "recommendedOfferOPUS": false,
+                "recommendedOnline": false,
+                "isVirtual": false,
+                "flashSaleOffer": false,
+                "isBulkOffer": false,
+                "isSpecialOffer": false
+            }
+        }
+    ],
+    "products": [
+        {
+            "id": "24597734-d184-44a3-ae8f-cfd36f951862",
+            "code": "BOLTON-HISTORY-VAULT_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                "key": "video-addon"
+            },
+            "name": {
+                "en": "HISTORY Vault"
+            },
+            "description": {
+                "en": "Watch thousands of HISTORY Channel’s fascinating documentaries and hit series like History’s Greatest Mysteries, The UnXplained, Pawn Stars, and much more, all commercial-free. May only be accessed on internet-connected HD-DVR, DIRECTV.com and the DIRECTV app. Subscription not valid for streaming using the provider app or website."
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "sku": "R107366",
+                    "key": "R107366",
+                    "prices": [
+                        {
+                            "value": {
+                                "centAmount": 499.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 4.99
+                            },
+                            "id": "280d7b61-fd1d-4259-92ab-2931d8a9d244",
+                            "startDate": "2020-10-03T18:30:00.000Z",
+                            "endDate": "2050-12-30T18:30:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "period": "month",
+                            "contractIndicator": "non-contract",
+                            "billingReferenceId": "1",
+                            "gfVersion": 0,
+                            "businessSegment": "BLS,PCO,JMU,VEN,TMU,JCD,PTR,CenturyLink,HSP,TCD,DAE,QST,TMW,MDU,MTL,ATT,LSE,VIP,JDU,VPA,MBL,CSH,PCR,GME,RVB,FRP,REG,MDD,VZN,SWB,HDL,MDL,DTV",
+                            "chargeType": "mrc",
+                            "grandfatherVersion": 0,
+                            "omsProductId": "10044865",
+                            "channel": "non-contracted",
+                            "grandfathered": false,
+                            "contracted": false
+                        },
+                        {
+                            "value": {
+                                "centAmount": 99.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0.99
+                            },
+                            "id": "db9eef5b-dadd-4091-88ca-9af47fa60ab8",
+                            "startDate": "2024-02-21T08:00:00.000Z",
+                            "endDate": "2050-12-31T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 2,
+                            "period": "month",
+                            "billingReferenceId": "2",
+                            "gfVersion": 0,
+                            "customerGroup": "01",
+                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,MBL,JDU,MDU,MDD,MDL,BLS,DAE,MTL,QST,SWB,VZN,PTR,FRP,ATT,Centurylink",
+                            "chargeType": "mrc",
+                            "numberOfPayments": 2,
+                            "channel": "non-contracted",
+                            "grandfathered": false,
+                            "contracted": false
+                        }
+                    ],
+                    "attributes": {
+                        "displayName": {
+                            "en": "HISTORY Vault"
+                        },
+                        "displayRanking": 415,
+                        "isHDAccessRequired": true,
+                        "billingProductCode": "R107366",
+                        "billingCode": "R107366",
+                        "startDate": "2020-10-03T18:30:00.000Z",
+                        "endDate": "2050-12-30T18:30:00.000Z",
+                        "businessSegment": [
+                            "MDU",
+                            "CONS"
+                        ],
+                        "salesChannel": [
+                            "opusServices",
+                            "opusSales",
+                            "onlineServices",
+                            "onlineSales",
+                            "opus",
+                            "online"
+                        ],
+                        "productFamily": "satellite",
+                        "planSubType": "Premium",
+                        "language": "English",
+                        "productStatus": "Active",
+                        "contractApplicable": "noncontract",
+                        "contractIndicator": [
+                            "non-contract"
+                        ],
+                        "subCategory": "TV",
+                        "omsComponentMapping": [
+                            {
+                                "attributes": [
+                                    {
+                                        "attributeCode": "DTgenrePackage",
+                                        "attributeValue": "DVHVLT"
+                                    }
+                                ],
+                                "componentCode": "DVHVLT",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV|DVHVLT"
+                            }
+                        ],
+                        "customerSegments": [
+                            "Residential"
+                        ],
+                        "isPickService": false,
+                        "isAutoRenewable": false,
+                        "termsAndConditions": {
+                            "en": "By subscribing you will be billed $4.99 per month on a recurring basis (price subject to change). On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance. Cancel service anytime by managing your subscription online. May only be accessed on internet-connected HD DVR, directv.com, and the DIRECTV app. Subscription not valid for streaming using the History Vault app or historyvault.com."
+                        },
+                        "migratedProduct": false,
+                        "orderingMethod": "addToCart",
+                        "enablerPricePlanCode": "88985153",
+                        "tokens": "BOLTON-HISTORY-VAULT",
+                        "chargeCode": "DVHVLT",
+                        "isWorldDirect": false,
+                        "isETFRequired": true,
+                        "isRemovable": true,
+                        "billingParams": [
+                            {
+                                "value": "DVHVLT",
+                                "name": "DTgenrePackage"
+                            }
+                        ],
+                        "dollarAmount": 4.99,
+                        "enablerATGProductId": "prod11110229",
+                        "enablerATGSkuId": "sku10580228",
+                        "contentChannelId": "7316",
+                        "productImages": "/cms2/pepod_new/add_program/sm_programming_historyvault.png"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "e84fb4db-c4af-49c6-b2ae-dd981347f1f7",
+            "code": "BOLTON-ALLBLK_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                "key": "video-addon"
+            },
+            "name": {
+                "en": "ALLBLK"
+            },
+            "description": {
+                "en": "ALLBLK is the streaming home for Black creators and storytellers with 10-12 original series premiering every year, plus world premiere movies, acclaimed independent films, classic fan-favorites, joyous stage plays, network series, and popular on-air series from sister networks, AMC and WE tv - all commercial-free! "
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "sku": "R120300",
+                    "key": "R120300",
+                    "prices": [
+                        {
+                            "value": {
+                                "centAmount": 599.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 5.99
+                            },
+                            "id": "5722280a-d1b4-4b23-8ae7-50418aac6834",
+                            "startDate": "2022-06-12T00:00:00.000Z",
+                            "endDate": "2050-12-31T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "period": "month",
+                            "billingReferenceId": "1",
+                            "gfVersion": 0,
+                            "businessSegment": "CSH,GME,HDL,HSP,LSE,MBL,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDD,MDL,MDU,BLS,DAE,MTL,QST,SWB,VZN,FRP,PTR,JCD,JMU,TCD,TMU,TMW,DTV,ATT,CenturyLink,residential",
+                            "chargeType": "mrc",
+                            "grandfatherVersion": 0,
+                            "omsProductId": "10064819",
+                            "channel": "non-contracted",
+                            "grandfathered": false,
+                            "contracted": false
+                        }
+                    ],
+                    "attributes": {
+                        "displayName": {
+                            "en": "ALLBLK"
+                        },
+                        "displayRanking": 402,
+                        "isHDAccessRequired": true,
+                        "billingProductCode": "R120300",
+                        "billingCode": "R120300",
+                        "startDate": "2022-06-12T00:00:00.000Z",
+                        "endDate": "2050-12-31T23:59:00.000Z",
+                        "businessSegment": [
+                            "MDU",
+                            "CONS"
+                        ],
+                        "salesChannel": [
+                            "opusServices",
+                            "opusSales",
+                            "onlineSales",
+                            "onlineServices",
+                            "opus",
+                            "online"
+                        ],
+                        "productFamily": "satellite",
+                        "planSubType": "Premium",
+                        "language": "English",
+                        "productStatus": "Active",
+                        "contractApplicable": "noncontract",
+                        "contractIndicator": [
+                            "non-contract"
+                        ],
+                        "subCategory": "TV",
+                        "omsComponentMapping": [
+                            {
+                                "attributes": [
+                                    {
+                                        "attributeCode": "DTgenrePackage",
+                                        "attributeValue": "DALLBK"
+                                    }
+                                ],
+                                "componentCode": "DALLBK",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV|DALLBK"
+                            }
+                        ],
+                        "customerSegments": [
+                            "Residential"
+                        ],
+                        "isPickService": false,
+                        "isAutoRenewable": false,
+                        "termsAndConditions": {
+                            "en": "By subscribing you will be billed $5.99 per month on a recurring basis (price subject to change). On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance. Cancel service anytime by managing your subscription online or calling 844-673-2391."
+                        },
+                        "migratedProduct": false,
+                        "orderingMethod": "addToCart",
+                        "enablerPricePlanCode": "89034473",
+                        "tokens": "BOLTON-ALLBLK",
+                        "chargeCode": "DALLBK",
+                        "isWorldDirect": false,
+                        "isETFRequired": true,
+                        "isRemovable": true,
+                        "billingParams": [
+                            {
+                                "value": "DALLBK",
+                                "name": "DTgenrePackage"
+                            }
+                        ],
+                        "dollarAmount": 5.99,
+                        "enablerATGProductId": "prod11730221",
+                        "enablerATGSkuId": "sku11210225"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "56948bfc-4627-4d2e-88cb-025524e45bce",
+            "code": "BOLTON-ACORN-TV_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                "key": "video-addon"
+            },
+            "name": {
+                "en": "Acorn TV"
+            },
+            "description": {
+                "en": "Hailed as \"Netflix for the Anglophile\" by NPR, Acorn TV offers hit series and exclusive premieres you won’t see anywhere else. Stream addictive dramas, thrilling mysteries, and warm-hearted comedies from Britain, Ireland, Australia and beyond - all commercial-free!"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "sku": "R120302",
+                    "key": "R120302",
+                    "prices": [
+                        {
+                            "value": {
+                                "centAmount": 699.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 6.99
+                            },
+                            "id": "96929109-aea1-4df5-9840-da3c95219e5f",
+                            "startDate": "2022-07-17T00:00:00.000Z",
+                            "endDate": "2050-12-31T23:59:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "period": "month",
+                            "billingReferenceId": "1",
+                            "gfVersion": 0,
+                            "customerGroup": "01",
+                            "businessSegment": "DTV,CSH,GME,HDL,HSP,LSE,MBL,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDD,MDL,MDU,BLS,DAE,MTL,QST,SWB,VZN,FRP,PTR,JCD,JMU,TCD,TMU,TMW,ATT,CenturyLink,residential",
+                            "chargeType": "mrc",
+                            "grandfatherVersion": 0,
+                            "omsProductId": "10065048",
+                            "channel": "non-contracted",
+                            "grandfathered": false,
+                            "contracted": false
+                        }
+                    ],
+                    "attributes": {
+                        "displayName": {
+                            "en": "Acorn TV"
+                        },
+                        "displayRanking": 401,
+                        "isHDAccessRequired": true,
+                        "billingProductCode": "R120302",
+                        "billingCode": "R120302",
+                        "startDate": "2022-07-17T00:00:00.000Z",
+                        "endDate": "2050-12-31T23:59:00.000Z",
+                        "businessSegment": [
+                            "CONS",
+                            "MDU"
+                        ],
+                        "salesChannel": [
+                            "opusServices",
+                            "opusSales",
+                            "onlineServices",
+                            "onlineSales",
+                            "opus",
+                            "online"
+                        ],
+                        "productFamily": "satellite",
+                        "planSubType": "Premium",
+                        "language": "English",
+                        "productStatus": "Active",
+                        "contractApplicable": "noncontract",
+                        "contractIndicator": [
+                            "non-contract"
+                        ],
+                        "subCategory": "TV",
+                        "omsComponentMapping": [
+                            {
+                                "attributes": [
+                                    {
+                                        "attributeCode": "DTgenrePackage",
+                                        "attributeValue": "DACRNR"
+                                    }
+                                ],
+                                "componentCode": "DACRNR",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV|DACRNR"
+                            }
+                        ],
+                        "customerSegments": [
+                            "Residential"
+                        ],
+                        "isPickService": false,
+                        "isAutoRenewable": false,
+                        "migratedProduct": false,
+                        "orderingMethod": "addToCart",
+                        "enablerPricePlanCode": "89036263",
+                        "tokens": "BOLTON-ACORN-TV",
+                        "chargeCode": "DACRNR",
+                        "isWorldDirect": false,
+                        "isETFRequired": false,
+                        "isRemovable": true,
+                        "billingParams": [
+                            {
+                                "value": "DACRNR",
+                                "name": "DTgenrePackage"
+                            }
+                        ],
+                        "dollarAmount": 6.99,
+                        "enablerATGProductId": "prod11730254",
+                        "enablerATGSkuId": "sku11210344"
+                    }
+                }
+            ]
+        }
+    ]
+}

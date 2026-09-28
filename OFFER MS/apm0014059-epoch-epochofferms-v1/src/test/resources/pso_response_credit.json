@@ -1,0 +1,749 @@
+{
+  "limit": 300,
+  "offset": 0,
+  "count": 1,
+  "total": 1,
+  "offers": [
+    {
+      "id": "8a69cbdd-6ecb-4a46-a8ea-11e5d6c713b6",
+      "code": "OF_PROMO_STARZ-3-MO-PICK_satellite",
+      "status": "live",
+      "name": {
+        "en": "DTV_$4 off Starz for 3 months_PICK_DS2051"
+      },
+      "description": {
+        "en": "$4.00 off Starz for 3 months"
+      },
+      "startDate": "2020-06-23T07:00:00.000Z",
+      "endDate": "2050-12-31T08:00:00.000Z",
+      "attributes": {
+        "offerProductType": "credit",
+        "offerProductTypes": [
+          "credit"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerType": "flat-off",
+        "offerActionType": "Retention",
+        "offerActionTypes": [
+          "Retention"
+        ],
+        "rank": "5000",
+        "displayName": {
+          "en": "Save Offer - $4.00 off Starz for 3 months"
+        },
+        "termsAndConditions": {
+          "en": "You have selected Starz at $3.99 for 3 months. After the promotional period, you will be billed each month the price then in effect (currently $7.99/mo.) unless you cancel before the end of the promotional period or any later monthly billing period. You may cancel by calling [[callCenterPhoneNumberText]] or online at [[cancelLink]]. "
+        },
+        "migratedOffer": true,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "7a74b437-279c-430f-ab56-3753cd987a15",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "7a74b437-279c-430f-ab56-3753cd987a15",
+                      "code": "BOLTON-STARZ_satellite",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                        "key": "video-addon"
+                      },
+                      "name": {
+                        "en": "STARZ"
+                      },
+                      "description": {
+                        "en": "Over 1,000 different movies a month playing on 15 different STARZ&reg; and STARZENCORESM channels. ObsessableSM TV, movies and more, STARZ&reg; has it all. DIRECTV has the entire STARZ&reg; lineup, including new HD channels.\\n"
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "sku": "P2141",
+                          "key": "P2141",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 1099,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 10.99
+                              },
+                              "id": "036011a1-8e01-4d6b-a5fc-6b0138b608e8",
+                              "startDate": "2021-04-02T00:00:00.000Z",
+                              "endDate": "2050-12-31T23:59:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "period": "month",
+                              "billingReferenceId": "1",
+                              "gfVersion": 0,
+                              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+                              "chargeType": "mrc",
+                              "grandfatherVersion": 0,
+                              "omsProductId": "2439",
+                              "contracted": false,
+                              "grandfathered": false
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "STARZ"
+                            },
+                            "displayRanking": 230,
+                            "displayNamesByKey": {
+                              "services": "STARZ<sup>&#174;</sup>"
+                            },
+                            "billingProductCode": "P2141",
+                            "billingCode": "P2141",
+                            "startDate": "2002-01-30T05:00:00.000Z",
+                            "endDate": "2050-12-31T05:00:00.000Z",
+                            "businessSegment": [
+                              "MDU",
+                              "CONS"
+                            ],
+                            "salesChannel": [
+                              "opus",
+                              "online",
+                              "onlineSales",
+                              "onlineServices",
+                              "opusSales",
+                              "opusServices"
+                            ],
+                            "productFamily": "satellite",
+                            "removalRule": {
+                              "channel": [],
+                              "accountType": [
+                                "ALL"
+                              ]
+                            },
+                            "planSubType": "Premium",
+                            "language": "English",
+                            "productStatus": "Active",
+                            "contractApplicable": "noncontract",
+                            "contractIndicator": [
+                              "non-contract"
+                            ],
+                            "subCategory": "Premium",
+                            "omsComponentMapping": [
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "PickCode",
+                                    "attributeValue": "P0027"
+                                  }
+                                ],
+                                "componentCode": "PickDV",
+                                "componentPath": "PickDV"
+                              },
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "DTgenrePackage",
+                                    "attributeValue": "STARZDV"
+                                  }
+                                ],
+                                "componentCode": "STARZDV",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV|STARZDV"
+                              }
+                            ],
+                            "customerSegments": [
+                              "Residential"
+                            ],
+                            "isPickService": true,
+                            "isAutoRenewable": false,
+                            "termsAndConditions": {
+                              "en": "By subscribing you will be billed $10.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+                            },
+                            "removalRuleByChannel": {
+                              "actionRule": [
+                                {
+                                  "salesChannel": "onlineServices",
+                                  "businessSegment": "CONS",
+                                  "customerSegments": "Employee",
+                                  "userType": "Customer",
+                                  "flowActionType": "change",
+                                  "actionIndicator": false
+                                }
+                              ]
+                            },
+                            "conflictingProducts": [],
+                            "migratedProduct": false,
+                            "omsProductCode": "STARZDV",
+                            "orderingMethod": "addToCart",
+                            "enablerPricePlanCode": "88830604",
+                            "tokens": "BOLTON-STARZ",
+                            "chargeCode": "DTVPIC",
+                            "isWorldDirect": false,
+                            "isETFRequired": false,
+                            "isRemovable": false,
+                            "billingParams": [
+                              {
+                                "value": "P0027",
+                                "name": "PickCode"
+                              }
+                            ],
+                            "pick5Mask": "2",
+                            "dollarAmount": 10.99,
+                            "enablerATGProductId": "prod8370239",
+                            "enablerATGSkuId": "sku7680289",
+                            "productImages": "/content/dam/dtv/directv_entertainment/premiums/starz_logo.png",
+                            "incompatibleProducts": [
+                              [
+                                {
+                                  "name": "products",
+                                  "value": [
+                                    {
+                                      "id": "6dfc96d6-b65f-4ab3-ba8f-d14697e7df9e",
+                                      "typeId": "product"
+                                    }
+                                  ]
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ_satellite"
+                  },
+                  {
+                    "id": "a7dad39c-de00-41c7-b840-6f12b17497fa",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "a7dad39c-de00-41c7-b840-6f12b17497fa",
+                      "code": "P0027",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                        "key": "video-addon"
+                      },
+                      "name": {
+                        "en": "Starz Super Pack Pick"
+                      },
+                      "description": {
+                        "en": "Starz Super Pack Pick"
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "sku": "P0027",
+                          "key": "P0027",
+                          "prices": [],
+                          "attributes": {
+                            "displayName": {
+                              "en": "Starz Super Pack Pick"
+                            },
+                            "billingProductCode": "P0027",
+                            "billingCode": "88830604",
+                            "startDate": "1990-01-01T10:35:03.769Z",
+                            "endDate": "2049-12-31T10:37:03.769Z",
+                            "businessSegment": [
+                              "CONS"
+                            ],
+                            "productFamily": "satellite",
+                            "packageGroup": "10000",
+                            "addOnType": "Programming-Bolt-on",
+                            "planSubType": "Premium",
+                            "includedProducts": [
+                              {
+                                "products": [
+                                  {
+                                    "id": "58628789-09f4-4516-8af9-df71f1507069",
+                                    "typeId": "product",
+                                    "productType": "video-addon",
+                                    "key": "89335154"
+                                  }
+                                ],
+                                "constraints": {
+                                  "dependent": false,
+                                  "anchor": false
+                                }
+                              }
+                            ],
+                            "contractApplicable": "contract",
+                            "customerSegments": [
+                              "Residential"
+                            ],
+                            "migratedProduct": true
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "video-addon",
+                    "key": "P0027"
+                  }
+                ]
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-addon"
+                  ],
+                  "productStatus": "Active",
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ]
+          }
+        ],
+        "benefits": [
+          {
+            "benefitCategory": "Product",
+            "billingBenefitId": "B106946/002",
+            "id": "dfe23a5f-6a26-42dc-bfe4-f5d99d96c34c",
+            "parentOffers": [
+              {
+                "typeId": "product",
+                "id": "8a69cbdd-6ecb-4a46-a8ea-11e5d6c713b6"
+              }
+            ],
+            "code": "PROMO_STARZ-3-MO-PICK_satellite",
+            "billingBenefitCode": "88996593",
+            "benefitName": {
+              "en": "DTV_$4 off Starz for 3 months_PICK_DS2051"
+            },
+            "benefitDisplayName": {
+              "en": "Save Offer - $4.00 off STARZ for 3 months"
+            },
+            "benefitRank": 0,
+            "description": {
+              "en": "$4.00 off Starz for 3 months"
+            },
+            "startDate": "2021-06-24T00:00:00.000Z",
+            "retIoApplicableProducts": false,
+            "endDate": "2050-12-31T08:00:00.000Z",
+            "contractIndicator": "contract",
+            "selfBenefit": false,
+            "duration": 3,
+            "period": "NoOfMonths",
+            "billAfterPeriod": false,
+            "applicableProducts": [
+              {
+                "products": [
+                  {
+                    "id": "7da5ca61-0b02-4950-8d5b-118708bbae26",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ_satellite"
+                  },
+                  {
+                    "id": "21292029-f11b-4154-bd43-60e460db4b89",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ-SHOW-CINE_satellite"
+                  },
+                  {
+                    "id": "67555d24-fc3f-4365-b456-1b4724833de9",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ-SHOW-SPORTS_satellite"
+                  },
+                  {
+                    "id": "a49ba388-2a31-4a44-8756-1829ba436125",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ-CINE-SPORTS_satellite"
+                  },
+                  {
+                    "id": "8c298a73-bc97-49d8-8e0b-00b011069b2b",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ-SHOW-CINE-SPORTS_satellite"
+                  },
+                  {
+                    "id": "0d721dff-8856-4331-9ab1-4fc301d5783e",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ-SHOW_satellite"
+                  },
+                  {
+                    "id": "aa39b40b-9cb7-4528-8eb0-f8133b8d2857",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ-CINE_satellite"
+                  },
+                  {
+                    "id": "8cb3129f-a716-469e-b128-351a7e1babf3",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ-SPORTS_satellite"
+                  },
+                  {
+                    "id": "a05c6a13-c8f7-46d2-991d-500ba5e9dd7b",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ-SHOW_satellite"
+                  },
+                  {
+                    "id": "2594b105-0137-4096-bb7a-c0bfb63b4b27",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ-SPORTS_satellite"
+                  },
+                  {
+                    "id": "bb10065b-da6f-4452-bee9-029bbfe869a0",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ-CINE_satellite"
+                  },
+                  {
+                    "id": "f56164b5-e322-4745-9cf1-fcd2d3150b04",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ-CINE-SPORTS_satellite"
+                  },
+                  {
+                    "id": "8aae412e-3a42-493b-ab04-a4cb498e01ec",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ-SHOW-CINE-SPORTS_satellite"
+                  },
+                  {
+                    "id": "d6aeb564-f7ca-4e33-b803-1d8deddfcc45",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ-SHOW-CINE_satellite"
+                  },
+                  {
+                    "id": "bec6b202-e00f-480d-8972-3054f67a550d",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ-SHOW-SPORTS_satellite"
+                  },
+                  {
+                    "id": "7a74b437-279c-430f-ab56-3753cd987a15",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ_satellite"
+                  },
+                  {
+                    "id": "a7dad39c-de00-41c7-b840-6f12b17497fa",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "P0027"
+                  },
+                  {
+                    "id": "216229e2-3e51-4dbb-9294-a8602be5fe78",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "88830604"
+                  }
+                ]
+              }
+            ],
+            "maxOccurrence": 0,
+            "benefitType": "flat-off",
+            "value": {
+              "centAmount": 400,
+              "currencyCode": "USD",
+              "fractionDigits": 2,
+              "dollarAmount": 4
+            },
+            "secondaryBenefitCode": "VAGR-STARZ-3MO-V13",
+            "freeTrialPromo": false,
+            "ioOffer": false,
+            "freeTrialDuration": 0,
+            "agentOffer": false,
+            "minQuantity": 0,
+            "promoPriority": 4,
+            "benefitLevel": "product",
+            "notApplibaleForOffer": false,
+            "enableServiceDisconnect": false,
+            "rtpIndicator": false,
+            "portin": false,
+            "rebateID": "300111",
+            "billingReasonCode": "5541",
+            "omsProductId": "10045680",
+            "numberOfCredits": 3,
+            "recurringBillingReasonCode": "SAJ5542",
+            "agreementID": "VAGR-STARZ-3MO-V13",
+            "agreementPriceCode": "1",
+            "active": true,
+            "migrated": false,
+            "quotaBased": false,
+            "couponPromo": false,
+            "isDependentPromo": false,
+            "isMigrated": false,
+            "isQuotaBased": false,
+            "isActive": true
+          }
+        ],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "minimumPurchaseAmount": 0,
+              "salesChannel": [
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "rtpRtcIndicator": "RTP",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "retentionOfferSubType": [
+          "PremiumSaveOffer"
+        ],
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "7a74b437-279c-430f-ab56-3753cd987a15",
+      "code": "BOLTON-STARZ_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "STARZ"
+      },
+      "description": {
+        "en": "Over 1,000 different movies a month playing on 15 different STARZ&reg; and STARZENCORESM channels. ObsessableSM TV, movies and more, STARZ&reg; has it all. DIRECTV has the entire STARZ&reg; lineup, including new HD channels.\\n"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2141",
+          "key": "P2141",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 1099,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 10.99
+              },
+              "id": "036011a1-8e01-4d6b-a5fc-6b0138b608e8",
+              "startDate": "2021-04-02T00:00:00.000Z",
+              "endDate": "2050-12-31T23:59:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "period": "month",
+              "billingReferenceId": "1",
+              "gfVersion": 0,
+              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "omsProductId": "2439",
+              "contracted": false,
+              "grandfathered": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "STARZ"
+            },
+            "displayRanking": 230,
+            "displayNamesByKey": {
+              "services": "STARZ<sup>&#174;</sup>"
+            },
+            "billingProductCode": "P2141",
+            "billingCode": "P2141",
+            "startDate": "2002-01-30T05:00:00.000Z",
+            "endDate": "2050-12-31T05:00:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opus",
+              "online",
+              "onlineSales",
+              "onlineServices",
+              "opusSales",
+              "opusServices"
+            ],
+            "productFamily": "satellite",
+            "removalRule": {
+              "channel": [],
+              "accountType": [
+                "ALL"
+              ]
+            },
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "subCategory": "Premium",
+            "omsComponentMapping": [
+              {
+                "attributes": [
+                  {
+                    "attributeCode": "PickCode",
+                    "attributeValue": "P0027"
+                  }
+                ],
+                "componentCode": "PickDV",
+                "componentPath": "PickDV"
+              },
+              {
+                "attributes": [
+                  {
+                    "attributeCode": "DTgenrePackage",
+                    "attributeValue": "STARZDV"
+                  }
+                ],
+                "componentCode": "STARZDV",
+                "operationName": "MOORequest,PUSPO1Request",
+                "componentPath": "ATTDTV|STARZDV"
+              }
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "termsAndConditions": {
+              "en": "By subscribing you will be billed $10.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+            },
+            "removalRuleByChannel": {
+              "actionRule": [
+                {
+                  "salesChannel": "onlineServices",
+                  "businessSegment": "CONS",
+                  "customerSegments": "Employee",
+                  "userType": "Customer",
+                  "flowActionType": "change",
+                  "actionIndicator": false
+                }
+              ]
+            },
+            "conflictingProducts": [],
+            "migratedProduct": false,
+            "omsProductCode": "STARZDV",
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "BOLTON-STARZ",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": false,
+            "billingParams": [
+              {
+                "value": "P0027",
+                "name": "PickCode"
+              }
+            ],
+            "pick5Mask": "2",
+            "dollarAmount": 10.99,
+            "enablerATGProductId": "prod8370239",
+            "enablerATGSkuId": "sku7680289",
+            "productImages": "/content/dam/dtv/directv_entertainment/premiums/starz_logo.png",
+            "incompatibleProducts": [
+              [
+                {
+                  "name": "products",
+                  "value": [
+                    {
+                      "id": "6dfc96d6-b65f-4ab3-ba8f-d14697e7df9e",
+                      "typeId": "product"
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "a7dad39c-de00-41c7-b840-6f12b17497fa",
+      "code": "P0027",
+      "productType": {
+        "typeId": "product-type",
+        "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "Starz Super Pack Pick"
+      },
+      "description": {
+        "en": "Starz Super Pack Pick"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P0027",
+          "key": "P0027",
+          "prices": [],
+          "attributes": {
+            "displayName": {
+              "en": "Starz Super Pack Pick"
+            },
+            "billingProductCode": "P0027",
+            "billingCode": "88830604",
+            "startDate": "1990-01-01T10:35:03.769Z",
+            "endDate": "2049-12-31T10:37:03.769Z",
+            "businessSegment": [
+              "CONS"
+            ],
+            "productFamily": "satellite",
+            "packageGroup": "10000",
+            "addOnType": "Programming-Bolt-on",
+            "planSubType": "Premium",
+            "includedProducts": [
+              {
+                "products": [
+                  {
+                    "id": "58628789-09f4-4516-8af9-df71f1507069",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "89335154"
+                  }
+                ],
+                "constraints": {
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "contractApplicable": "contract",
+            "customerSegments": [
+              "Residential"
+            ],
+            "migratedProduct": true
+          }
+        }
+      ]
+    }
+  ]
+}

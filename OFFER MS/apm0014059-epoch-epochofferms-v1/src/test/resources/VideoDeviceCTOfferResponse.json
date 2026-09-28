@@ -1,0 +1,2477 @@
+{
+        "limit": 0,
+        "offset": 0,
+        "count": 6,
+        "total": 6,
+        "offers": [
+            {
+                "id": "7ed7983b-74a9-452e-a5c3-bd2b49dea6b0",
+                "code": "Flatoff_device",
+                "status": "production_ready",
+                "name": {
+                    "en": "Flatoff_device"
+                },
+                "description": {
+                    "en": "Flatoff_device"
+                },
+                "startDate": "2019-09-18T00:00:00.000Z",
+                "endDate": "2020-09-26T00:00:00.000Z",
+                "attributes": {
+                    "offerProductType": "video-device",
+                    "offerProductFamily": "OTT",
+                    "offerType": "flat-off",
+                    "offerActionType": "Acquisition",
+                    "rank": "1",
+                    "displayName": {
+                        "en": "Flatoff_device"
+                    },
+                    "displayNamesByKey": {},
+                    "descriptionsByKey": {},
+                    "migratedOffer": false,
+                    "associatedProducts": [
+                        {
+                            "qualifyingProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "OTT",
+                                        "productStatus": "Active",
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "f818f15b-0156-40ce-9b03-4788bcce6328",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "f818f15b-0156-40ce-9b03-4788bcce6328",
+                                                "code": "HARDWARE_VIDEODEVICE_UATE2E",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "60f4091f-8f83-4964-8dc8-0d39a9048a1c",
+                                                    "key": "video-device"
+                                                },
+                                                "name": {
+                                                    "en": "HARDWARE_VIDEODEVICE_UATE2E"
+                                                },
+                                                "description": {
+                                                    "en": "HARDWARE_VIDEODEVICE_UATE2E"
+                                                },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "sku": "HARDWARE_VIDEODEVICE_UATE2E_SKU",
+                                                        "prices": [
+                                                            {
+                                                                "value": {
+                                                                    "centAmount": 300000.0,
+                                                                    "currencyCode": "USD",
+                                                                    "fractionDigits": 2,
+                                                                    "dollarAmount": 3000.0
+                                                                },
+                                                                "id": "c378bb5b-adaa-4f23-ae3f-f8452e2e96f4",
+                                                                "startDate": "2019-09-15T00:00:00.000Z",
+                                                                "endDate": "9999-12-31T00:00:00.000Z",
+                                                                "period": "day"
+                                                            }
+                                                        ],
+                                                        "attributes": {
+                                                            "displayName": {
+                                                                "en": "HARDWARE_VIDEODEVICE_UATE2E_DN"
+                                                            },
+                                                            "descriptionsByKey": {
+                                                                "short-opus": "HARDWARE_VIDEODEVICE_UATE2E"
+                                                            },
+                                                            "billingProductCode": "HARDWARE_VIDEODEVICE_UATE2E",
+                                                            "billingProductId": "29899",
+                                                            "startDate": "2019-09-14T00:00:00.000Z",
+                                                            "endDate": "2020-09-26T00:00:00.000Z",
+                                                            "businessSegment": [
+                                                                "CONS"
+                                                            ],
+                                                            "salesChannel": [
+                                                                "online"
+                                                            ],
+                                                            "productFamily": "OTT",
+                                                            "productStatus": "Active",
+                                                            "contractApplicable": "contract",
+                                                            "customerSegments": [
+                                                                "Employee"
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [],
+                    "eligibility": {
+                        "computedRules": {
+                            "predicate": "existingCustomerType = \"OTT\" AND customerSegments = \"Employee\" AND salesChannel = \"opus\"",
+                            "groupingOperator": "OR",
+                            "rules": [
+                                {
+                                    "predicate": "existingCustomerType = \"OTT\" AND customerSegments = \"Employee\" AND salesChannel = \"opus\""
+                                }
+                            ]
+                        },
+                        "constraints": [
+                            {
+                                "accountType": "cons",
+                                "customerSegments": [
+                                    "Employee"
+                                ],
+                                "minimumPurchaseAmount": 0,
+                                "salesChannel": [
+                                    "opus"
+                                ],
+                                "existingCustomerType": [
+                                    "OTT"
+                                ]
+                            }
+                        ]
+                    },
+                    "leadOffer": false,
+                    "contractIndicator": "contract",
+                    "isVirtual": false,
+                    "flashSaleOffer": false
+                }
+            },
+            {
+                "id": "f23adca8-f8c8-4809-ae64-056bee545718",
+                "code": "OF_HARD-OSPREYFREE-201804_contract",
+                "status": "live",
+                "name": {
+                    "en": "AT&T TV"
+                },
+                "description": {
+                    "en": "AT&T TV"
+                },
+                "startDate": "2018-02-11T06:00:00.000Z",
+                "endDate": "9999-12-31T06:00:00.000Z",
+                "attributes": {
+                    "offerProductType": "video-device",
+                    "offerProductFamily": "OTT",
+                    "offerType": "multi-benefit",
+                    "offerActionType": "Acquisition",
+                    "environment": "",
+                    "rank": "10",
+                    "displayName": {
+                        "en": "AT&T TV"
+                    },
+                    "descriptionsByKey": {
+                        "att.com": "Regularly $99"
+                    },
+                    "billingId": "7456863984",
+                    "billingCode": "OF_HARD-OSPREYFREE-201804",
+                    "migratedOffer": true,
+                    "associatedProducts": [
+                        {
+                            "qualifyingProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "NA",
+                                        "dependent": false,
+                                        "anchor": false
+                                    }
+                                }
+                            ],
+                            "bundleProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "OTT",
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                                "code": "HARD-OSPREYFREE-201804",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "60f4091f-8f83-4964-8dc8-0d39a9048a1c",
+                                                    "key": "video-device"
+                                                },
+                                                "name": {
+                                                    "en": "AT&T TV"
+                                                },
+                                                "description": {
+                                                    "en": "AT&T Osprey Box"
+                                                },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "prices": [
+                                                            {
+                                                                "value": {
+                                                                    "currencyCode": "USD",
+                                                                    "fractionDigits": 2
+                                                                },
+                                                                "id": "7f3b2044-4e2e-46c6-8bb5-bbe23c6fe801",
+                                                                "startDate": "2017-01-01T06:00:00.000Z",
+                                                                "endDate": "9999-12-31T06:00:00.000Z",
+                                                                "contractIndicator": "non-contract"
+                                                            },
+                                                            {
+                                                                "value": {
+                                                                    "currencyCode": "USD",
+                                                                    "fractionDigits": 2
+                                                                },
+                                                                "id": "ef5cccd5-d841-4049-9ae5-6fd166f3697b",
+                                                                "startDate": "2019-02-17T06:00:00.000Z",
+                                                                "endDate": "9999-12-31T06:00:00.000Z",
+                                                                "contractIndicator": "contract"
+                                                            }
+                                                        ],
+                                                        "attributes": {
+                                                            "displayName": {
+                                                                "en": "Genie Extreme"
+                                                            },
+                                                            "displayNamesByKey": {
+                                                                "name-cpc": "Genie Extreme"
+                                                            },
+                                                            "descriptionsByKey": {
+                                                                "short-opus": "Get a free streaming media device",
+                                                                "short-myatt": "When you prepay 2 months of AT&T TV NOW",
+                                                                "long-myatt": "Get up to {0} receivers.",
+                                                                "description-cpc": "AT&T Osprey Box"
+                                                            },
+                                                            "billingProductCode": "HARD-OSPREYFREE-201804",
+                                                            "billingProductId": "2805",
+                                                            "startDate": "2018-01-01T06:00:00.000Z",
+                                                            "endDate": "9999-12-31T06:00:00.000Z",
+                                                            "opusDisclosureMessage": "New U.S. customers only. Must Prepay for service at full price. Non-refundable. Not combinable with select offers.",
+                                                            "myAttDisclosureMessage": "<strong>AT&T TV:</strong> New U.S. customers only. Must prepay first 2 months of service at full price. Online orders will be shipped in 1 to 3 days by FedEx Ground<sup>&#174;</sup> to the address provided. <strong>Non-refundable.</strong> Offer limited to 1 per AT&T TV NOW account; 2 per household. Not combinable with select offers.",
+                                                            "productFamily": "OTT",
+                                                            "removalRule": {
+                                                                "channel": [
+                                                                    "online"
+                                                                ]
+                                                            },
+                                                            "secondaryBillingProductId": "7456863975",
+                                                            "discountSku": "7088A",
+                                                            "equipmentSku": "60075",
+                                                            "conflictPromoList": [
+                                                                "LAL14",
+                                                                "JR14",
+                                                                "BIO14",
+                                                                "TW14",
+                                                                "HISTYF7D",
+                                                                "NWBRAZ07",
+                                                                "NWVIET07",
+                                                                "PLUS07",
+                                                                "MAX07"
+                                                            ],
+                                                            "contractApplicable": "contract",
+                                                            "installmentList": [],
+                                                            "isThirdParty": false
+                                                        },
+                                                        "contentImages": [
+                                                            {
+                                                                "url": "/salescms/dam/att/2017/idp/dtvnow/osprey-desktop.jpg",
+                                                                "name": "AT&T TV",
+                                                                "size": ""
+                                                            },
+                                                            {
+                                                                "url": "/salescms/dam/att/2017/idp/dtvnow/osprey-tablet.jpg",
+                                                                "name": "AT&T TV",
+                                                                "size": ""
+                                                            },
+                                                            {
+                                                                "url": "/salescms/dam/att/2017/idp/dtvnow/osprey-mobile.jpg",
+                                                                "name": "AT&T TV",
+                                                                "size": ""
+                                                            }
+                                                        ],
+                                                        "productImages": []
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [
+                        {
+                            "benefitCategory": "PrePay",
+                            "billingBenefitId": "418",
+                            "billingBenefitCode": "OSPREYGB",
+                            "benefitName": {
+                                "en": "Osprey Box Offer GB"
+                            },
+                            "benefitDisplayName": {
+                                "en": "1-month prepay(Go Big)"
+                            },
+                            "benefitRank": 5,
+                            "description": {
+                                "en": "1-month prepay(Go Big)"
+                            },
+                            "startDate": "2017-01-01T06:00:00.000Z",
+                            "contractIndicator": "all",
+                            "selfBenefit": false,
+                            "duration": 1,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": false,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "b7617574-b5aa-452b-85cc-6a5000a7c709",
+                                            "typeId": "product"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "percent-off",
+                            "value": {
+                                "percentage": 10
+                            },
+                            "secondaryBenefitCode": "7456863980",
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 0,
+                            "agentOffer": false,
+                            "minQuantity": 0,
+                            "promoPriority": 1,
+                            "id": "88345f4b-7ca1-467c-a5d2-899389136a07",
+                            "contracted": false,
+                            "migrated": false,
+                            "isDependentPromo": true,
+                            "isQuotaBased": false
+                        },
+                        {
+                            "benefitCategory": "PrePay",
+                            "billingBenefitId": "3442",
+                            "billingBenefitCode": "2OSPLALV2",
+                            "benefitName": {
+                                "en": "NonMig-Osprey Box Offer LALV2"
+                            },
+                            "benefitDisplayName": {
+                                "en": "2-month prepay(Live a Little)"
+                            },
+                            "benefitRank": 1,
+                            "description": {
+                                "en": "2-month prepay(Live a Little)"
+                            },
+                            "startDate": "2017-01-01T06:00:00.000Z",
+                            "contractIndicator": "all",
+                            "selfBenefit": false,
+                            "duration": 2,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": true,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "d38a67e4-670d-4aea-8f22-03a9e41856b7",
+                                            "typeId": "product"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "flat-off",
+                            "value": {
+                                "centAmount": 8000.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 80.0
+                            },
+                            "secondaryBenefitCode": "7488534830",
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 8,
+                            "agentOffer": false,
+                            "minQuantity": 0,
+                            "promoPriority": 1,
+                            "id": "ddb83402-df2e-448d-a8b6-747fa5df924e",
+                            "contracted": false,
+                            "migrated": false,
+                            "isDependentPromo": true,
+                            "isQuotaBased": false
+                        },
+                        {
+                            "benefitCategory": "PrePay",
+                            "billingBenefitId": "417",
+                            "billingBenefitCode": "OSPREYJR",
+                            "benefitName": {
+                                "en": "Osprey Box Offer JR"
+                            },
+                            "benefitDisplayName": {
+                                "en": "1-month prepay(Just Right)"
+                            },
+                            "benefitRank": 5,
+                            "description": {
+                                "en": "1-month prepay(Just Right)"
+                            },
+                            "startDate": "2017-01-01T06:00:00.000Z",
+                            "contractIndicator": "all",
+                            "selfBenefit": false,
+                            "duration": 1,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": false,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "0ebb9a6b-befc-4430-995d-adaf21e66801",
+                                            "typeId": "product"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "percent-off",
+                            "value": {
+                                "percentage": 10
+                            },
+                            "secondaryBenefitCode": "7456863981",
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 0,
+                            "agentOffer": false,
+                            "minQuantity": 0,
+                            "promoPriority": 1,
+                            "id": "bd95f6e5-3891-442a-8034-f8059b2d1843",
+                            "contracted": false,
+                            "migrated": false,
+                            "isDependentPromo": true,
+                            "isQuotaBased": false
+                        },
+                        {
+                            "benefitCategory": "PrePay",
+                            "billingBenefitId": "3439",
+                            "billingBenefitCode": "2OSPOMGV2",
+                            "benefitName": {
+                                "en": "NonMig-Osprey Box Offer OMGV2"
+                            },
+                            "benefitDisplayName": {
+                                "en": "2-month prepay(Gotta Have It)"
+                            },
+                            "benefitRank": 1,
+                            "description": {
+                                "en": "2-month prepay(Gotta Have It)"
+                            },
+                            "startDate": "2017-01-01T06:00:00.000Z",
+                            "contractIndicator": "all",
+                            "selfBenefit": false,
+                            "duration": 2,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": true,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "9f0c2ae0-c14b-40ae-b231-284cdb5c3bbb",
+                                            "typeId": "product"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "flat-off",
+                            "value": {
+                                "centAmount": 15000.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 150.0
+                            },
+                            "secondaryBenefitCode": "7488534831",
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 8,
+                            "agentOffer": false,
+                            "minQuantity": 0,
+                            "promoPriority": 1,
+                            "id": "7900d846-98ad-41ac-b6a7-cca0dca11d14",
+                            "contracted": false,
+                            "migrated": false,
+                            "isDependentPromo": true,
+                            "isQuotaBased": false
+                        },
+                        {
+                            "benefitCategory": "PrePay",
+                            "billingBenefitId": "419",
+                            "billingBenefitCode": "OSPREYOMG",
+                            "benefitName": {
+                                "en": "Osprey Box Offer OMG"
+                            },
+                            "benefitDisplayName": {
+                                "en": "1-month prepay(Gotta Have It)"
+                            },
+                            "benefitRank": 5,
+                            "description": {
+                                "en": "1-month prepay(Gotta Have It)"
+                            },
+                            "startDate": "2017-01-01T06:00:00.000Z",
+                            "contractIndicator": "all",
+                            "selfBenefit": false,
+                            "duration": 1,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": false,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "9f0c2ae0-c14b-40ae-b231-284cdb5c3bbb",
+                                            "typeId": "product"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "percent-off",
+                            "value": {
+                                "percentage": 10
+                            },
+                            "secondaryBenefitCode": "7456863983",
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 0,
+                            "agentOffer": false,
+                            "minQuantity": 0,
+                            "promoPriority": 1,
+                            "id": "331c4497-2083-4897-84d5-528d8d2ff0e9",
+                            "contracted": false,
+                            "migrated": false,
+                            "isDependentPromo": true,
+                            "isQuotaBased": false
+                        },
+                        {
+                            "benefitCategory": "PrePay",
+                            "billingBenefitId": "2244",
+                            "billingBenefitCode": "2OSPREYTYM",
+                            "benefitName": {
+                                "en": "NonMig-Osprey Box Offer TYM"
+                            },
+                            "benefitDisplayName": {
+                                "en": "2-month prepay(Todo Y M&#225;s)"
+                            },
+                            "benefitRank": 1,
+                            "description": {
+                                "en": "2-month prepay(Todo Y M&#225;s)"
+                            },
+                            "startDate": "2017-01-01T06:00:00.000Z",
+                            "contractIndicator": "all",
+                            "selfBenefit": false,
+                            "duration": 2,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": true,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "aabb5e12-235b-484b-bb1c-8229b8283e4d",
+                                            "typeId": "product"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "flat-off",
+                            "value": {
+                                "centAmount": 9000.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 90.0
+                            },
+                            "secondaryBenefitCode": "7489243484",
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 8,
+                            "agentOffer": false,
+                            "minQuantity": 0,
+                            "promoPriority": 1,
+                            "id": "eb6aed12-a069-4781-9260-370a5c54c6df",
+                            "contracted": false,
+                            "migrated": false,
+                            "isDependentPromo": true,
+                            "isQuotaBased": false
+                        },
+                        {
+                            "benefitCategory": "PrePay",
+                            "billingBenefitId": "3441",
+                            "billingBenefitCode": "2OSPJRV2",
+                            "benefitName": {
+                                "en": "NonMig-Osprey Box Offer JRV2"
+                            },
+                            "benefitDisplayName": {
+                                "en": "2-month prepay(Just Right)"
+                            },
+                            "benefitRank": 1,
+                            "description": {
+                                "en": "2-month prepay(Just Right)"
+                            },
+                            "startDate": "2017-01-01T06:00:00.000Z",
+                            "contractIndicator": "all",
+                            "selfBenefit": false,
+                            "duration": 2,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": true,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "0ebb9a6b-befc-4430-995d-adaf21e66801",
+                                            "typeId": "product"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "flat-off",
+                            "value": {
+                                "centAmount": 11000.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 110.0
+                            },
+                            "secondaryBenefitCode": "7488534829",
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 8,
+                            "agentOffer": false,
+                            "minQuantity": 0,
+                            "promoPriority": 1,
+                            "id": "8a6b10dd-33bd-47b6-b32e-d5ea3c72635a",
+                            "contracted": false,
+                            "migrated": false,
+                            "isDependentPromo": true,
+                            "isQuotaBased": false
+                        },
+                        {
+                            "benefitCategory": "PrePay",
+                            "billingBenefitId": "416",
+                            "billingBenefitCode": "OSPREYLAL",
+                            "benefitName": {
+                                "en": "Osprey Box Offer LAL"
+                            },
+                            "benefitDisplayName": {
+                                "en": "1-month prepay(Live a Little)"
+                            },
+                            "benefitRank": 5,
+                            "description": {
+                                "en": "1-month prepay(Live a Little)"
+                            },
+                            "startDate": "2017-01-01T06:00:00.000Z",
+                            "contractIndicator": "all",
+                            "selfBenefit": false,
+                            "duration": 1,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": false,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "d38a67e4-670d-4aea-8f22-03a9e41856b7",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "aabb5e12-235b-484b-bb1c-8229b8283e4d",
+                                            "typeId": "product"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "percent-off",
+                            "value": {
+                                "percentage": 10
+                            },
+                            "secondaryBenefitCode": "7456863982",
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 0,
+                            "agentOffer": false,
+                            "minQuantity": 0,
+                            "promoPriority": 1,
+                            "id": "e3e8fd44-a5f7-48f6-807e-577a501dfb62",
+                            "contracted": false,
+                            "migrated": false,
+                            "isDependentPromo": true,
+                            "isQuotaBased": false
+                        },
+                        {
+                            "benefitCategory": "PrePay",
+                            "billingBenefitId": "3440",
+                            "billingBenefitCode": "2OSPGBV2",
+                            "benefitName": {
+                                "en": "NonMig-Osprey Box Offer GBV2"
+                            },
+                            "benefitDisplayName": {
+                                "en": "2-month prepay(Go Big)"
+                            },
+                            "benefitRank": 1,
+                            "description": {
+                                "en": "2-month prepay(Go Big)"
+                            },
+                            "startDate": "2017-01-01T06:00:00.000Z",
+                            "contractIndicator": "all",
+                            "selfBenefit": false,
+                            "duration": 2,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": true,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "b7617574-b5aa-452b-85cc-6a5000a7c709",
+                                            "typeId": "product"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "flat-off",
+                            "value": {
+                                "centAmount": 13000.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 130.0
+                            },
+                            "secondaryBenefitCode": "7488534828",
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 8,
+                            "agentOffer": false,
+                            "minQuantity": 0,
+                            "promoPriority": 1,
+                            "id": "e81ee012-9aa6-4724-a56d-0f802cc2f684",
+                            "contracted": false,
+                            "migrated": false,
+                            "isDependentPromo": true,
+                            "isQuotaBased": false
+                        }
+                    ],
+                    "eligibility": {
+                        "computedRules": {
+                            "predicate": "businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\")",
+                            "groupingOperator": "OR",
+                            "rules": [
+                                {
+                                    "predicate": "businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\")"
+                                }
+                            ]
+                        },
+                        "constraints": [
+                            {
+                                "minimumPurchaseAmount": 0,
+                                "salesChannel": [
+                                    "opus",
+                                    "online"
+                                ]
+                            }
+                        ]
+                    },
+                    "conflictingOffers": [
+                        {
+                            "typeId": "offer",
+                            "id": "664faab3-9c02-41af-885f-d4b2a8dccbfd",
+                            "key": "OF_BASE-PLUS-2018"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "be67a068-0c0c-44a4-8e2d-9b201e605506",
+                            "key": "OF_BASE-PLUS-2018-UN-PLAN"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "89687b65-1440-4be4-85f7-1826ce642957",
+                            "key": "OF_BASE-MAX-2018-UN-PLAN"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "90814969-cd60-49c6-90ae-fd2d62d39b8a",
+                            "key": "OF_BASE-MAX-2018"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "1934edc7-239c-4178-8f01-9bf9cf35323b",
+                            "key": "OF_STND-BRAZIL-201804"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "aadd3c15-6b3c-49ce-8803-8999959840bf",
+                            "key": "OF_STND-BRAZIL-201804-UN-PLAN"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "f6e5f52f-9df7-430b-b756-761657519f97",
+                            "key": "OF_STND-VIETNAM-201804-UN-PLAN"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "7e816a6b-6a03-451d-a08b-36f38ce029c5",
+                            "key": "OF_STND-VIETNAM-201804"
+                        }
+                    ],
+                    "iptvCustomerType": "IPTVMigrator",
+                    "offerPromos": [
+                        [
+                            {
+                                "value": "OSPREYGB",
+                                "name": "promoId"
+                            },
+                            {
+                                "value": "02/14/2018",
+                                "name": "startDateStr"
+                            },
+                            {
+                                "value": "11/02/2018",
+                                "name": "endDateStr"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "2OSPREYTYM",
+                                "name": "promoId"
+                            },
+                            {
+                                "value": "08/26/2018",
+                                "name": "startDateStr"
+                            },
+                            {
+                                "value": "12/31/9999",
+                                "name": "endDateStr"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "2OSPLALV2",
+                                "name": "promoId"
+                            },
+                            {
+                                "value": "08/26/2018",
+                                "name": "startDateStr"
+                            },
+                            {
+                                "value": "12/31/9999",
+                                "name": "endDateStr"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "OSPREYOMG",
+                                "name": "promoId"
+                            },
+                            {
+                                "value": "02/14/2018",
+                                "name": "startDateStr"
+                            },
+                            {
+                                "value": "11/02/2018",
+                                "name": "endDateStr"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "2OSPJRV2",
+                                "name": "promoId"
+                            },
+                            {
+                                "value": "08/26/2018",
+                                "name": "startDateStr"
+                            },
+                            {
+                                "value": "12/31/9999",
+                                "name": "endDateStr"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "2OSPGBV2",
+                                "name": "promoId"
+                            },
+                            {
+                                "value": "08/27/2018",
+                                "name": "startDateStr"
+                            },
+                            {
+                                "value": "12/31/9999",
+                                "name": "endDateStr"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "2OSPOMGV2",
+                                "name": "promoId"
+                            },
+                            {
+                                "value": "08/28/2018",
+                                "name": "startDateStr"
+                            },
+                            {
+                                "value": "12/31/9999",
+                                "name": "endDateStr"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "OSPREYJR",
+                                "name": "promoId"
+                            },
+                            {
+                                "value": "02/14/2018",
+                                "name": "startDateStr"
+                            },
+                            {
+                                "value": "11/02/2018",
+                                "name": "endDateStr"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "OSPREYLAL",
+                                "name": "promoId"
+                            },
+                            {
+                                "value": "02/14/2018",
+                                "name": "startDateStr"
+                            },
+                            {
+                                "value": "11/02/2018",
+                                "name": "endDateStr"
+                            }
+                        ]
+                    ],
+                    "leadOffer": false,
+                    "contractIndicator": "contract",
+                    "isVirtual": false,
+                    "flashSaleOffer": false
+                }
+            },
+            {
+                "id": "dd47d5f6-47fd-4872-9371-859151706940",
+                "code": "OF_MSR-HARD-OSPREYFREE-201804_contract",
+                "status": "live",
+                "name": {
+                    "en": "Osprey Box (Standalone)"
+                },
+                "description": {
+                    "en": "Regularly $99"
+                },
+                "startDate": "2018-08-20T05:00:00.000Z",
+                "endDate": "9999-12-31T06:00:00.000Z",
+                "attributes": {
+                    "offerProductType": "video-device",
+                    "offerProductFamily": "OTT",
+                    "offerType": "multi-benefit",
+                    "offerActionType": "Acquisition",
+                    "environment": "",
+                    "rank": "10",
+                    "displayName": {
+                        "en": "Osprey Box (Standalone)"
+                    },
+                    "descriptionsByKey": {
+                        "att.com": "Regularly $99"
+                    },
+                    "billingId": "7488534842",
+                    "billingCode": "OF_MSR-HARD-OSPREYFREE-201804",
+                    "migratedOffer": true,
+                    "associatedProducts": [
+                        {
+                            "qualifyingProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "NA",
+                                        "dependent": false,
+                                        "anchor": false
+                                    }
+                                }
+                            ],
+                            "bundleProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "OTT",
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                                "code": "HARD-OSPREYFREE-201804",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "60f4091f-8f83-4964-8dc8-0d39a9048a1c",
+                                                    "key": "video-device"
+                                                },
+                                                "name": {
+                                                    "en": "AT&T TV"
+                                                },
+                                                "description": {
+                                                    "en": "AT&T Osprey Box"
+                                                },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "prices": [
+                                                            {
+                                                                "value": {
+                                                                    "currencyCode": "USD",
+                                                                    "fractionDigits": 2
+                                                                },
+                                                                "id": "7f3b2044-4e2e-46c6-8bb5-bbe23c6fe801",
+                                                                "startDate": "2017-01-01T06:00:00.000Z",
+                                                                "endDate": "9999-12-31T06:00:00.000Z",
+                                                                "contractIndicator": "non-contract"
+                                                            },
+                                                            {
+                                                                "value": {
+                                                                    "currencyCode": "USD",
+                                                                    "fractionDigits": 2
+                                                                },
+                                                                "id": "ef5cccd5-d841-4049-9ae5-6fd166f3697b",
+                                                                "startDate": "2019-02-17T06:00:00.000Z",
+                                                                "endDate": "9999-12-31T06:00:00.000Z",
+                                                                "contractIndicator": "contract"
+                                                            }
+                                                        ],
+                                                        "attributes": {
+                                                            "displayName": {
+                                                                "en": "Genie Extreme"
+                                                            },
+                                                            "displayNamesByKey": {
+                                                                "name-cpc": "Genie Extreme"
+                                                            },
+                                                            "descriptionsByKey": {
+                                                                "short-opus": "Get a free streaming media device",
+                                                                "short-myatt": "When you prepay 2 months of AT&T TV NOW",
+                                                                "long-myatt": "Get up to {0} receivers.",
+                                                                "description-cpc": "AT&T Osprey Box"
+                                                            },
+                                                            "billingProductCode": "HARD-OSPREYFREE-201804",
+                                                            "billingProductId": "2805",
+                                                            "startDate": "2018-01-01T06:00:00.000Z",
+                                                            "endDate": "9999-12-31T06:00:00.000Z",
+                                                            "opusDisclosureMessage": "New U.S. customers only. Must Prepay for service at full price. Non-refundable. Not combinable with select offers.",
+                                                            "myAttDisclosureMessage": "<strong>AT&T TV:</strong> New U.S. customers only. Must prepay first 2 months of service at full price. Online orders will be shipped in 1 to 3 days by FedEx Ground<sup>&#174;</sup> to the address provided. <strong>Non-refundable.</strong> Offer limited to 1 per AT&T TV NOW account; 2 per household. Not combinable with select offers.",
+                                                            "productFamily": "OTT",
+                                                            "removalRule": {
+                                                                "channel": [
+                                                                    "online"
+                                                                ]
+                                                            },
+                                                            "secondaryBillingProductId": "7456863975",
+                                                            "discountSku": "7088A",
+                                                            "equipmentSku": "60075",
+                                                            "conflictPromoList": [
+                                                                "LAL14",
+                                                                "JR14",
+                                                                "BIO14",
+                                                                "TW14",
+                                                                "HISTYF7D",
+                                                                "NWBRAZ07",
+                                                                "NWVIET07",
+                                                                "PLUS07",
+                                                                "MAX07"
+                                                            ],
+                                                            "contractApplicable": "contract",
+                                                            "installmentList": [],
+                                                            "isThirdParty": false
+                                                        },
+                                                        "contentImages": [
+                                                            {
+                                                                "url": "/salescms/dam/att/2017/idp/dtvnow/osprey-desktop.jpg",
+                                                                "name": "AT&T TV",
+                                                                "size": ""
+                                                            },
+                                                            {
+                                                                "url": "/salescms/dam/att/2017/idp/dtvnow/osprey-tablet.jpg",
+                                                                "name": "AT&T TV",
+                                                                "size": ""
+                                                            },
+                                                            {
+                                                                "url": "/salescms/dam/att/2017/idp/dtvnow/osprey-mobile.jpg",
+                                                                "name": "AT&T TV",
+                                                                "size": ""
+                                                            }
+                                                        ],
+                                                        "productImages": []
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [
+                        {
+                            "benefitCategory": "PrePay",
+                            "billingBenefitId": "6845",
+                            "billingBenefitCode": "ATTVPAY1MN",
+                            "benefitName": {
+                                "en": "PrePay1M AT&T TVNM"
+                            },
+                            "benefitDisplayName": {
+                                "en": "PrePay1M AT&T TVNM"
+                            },
+                            "benefitRank": 2,
+                            "description": {
+                                "en": "PrePay1M AT&T TVNM"
+                            },
+                            "startDate": "2018-08-01T05:00:00.000Z",
+                            "contractIndicator": "all",
+                            "selfBenefit": false,
+                            "duration": 1,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": true,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "d38a67e4-670d-4aea-8f22-03a9e41856b7",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "9f0c2ae0-c14b-40ae-b231-284cdb5c3bbb",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "0ebb9a6b-befc-4430-995d-adaf21e66801",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "aabb5e12-235b-484b-bb1c-8229b8283e4d",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "b7617574-b5aa-452b-85cc-6a5000a7c709",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "45838d96-6180-4f2e-9e1f-c94184d77ba5",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "30623b9f-a443-43b0-987f-590d9483e2af",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "a4c26efa-5425-41cf-9d19-ba96574141e2",
+                                            "typeId": "product"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "free-promo",
+                            "value": {},
+                            "secondaryBenefitCode": "7489243485",
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 8,
+                            "agentOffer": false,
+                            "minQuantity": 0,
+                            "promoPriority": 1,
+                            "id": "90e5d62d-bb3e-4c4a-9dd0-e4e748aa3b67",
+                            "contracted": false,
+                            "migrated": false,
+                            "isDependentPromo": true,
+                            "isQuotaBased": false
+                        },
+                        {
+                            "benefitCategory": "PrePay",
+                            "billingBenefitId": "5043",
+                            "billingBenefitCode": "ATTVPPAY2M",
+                            "benefitName": {
+                                "en": "PrePay2M AT&T TV"
+                            },
+                            "benefitDisplayName": {
+                                "en": "PrePay2M AT&T TV"
+                            },
+                            "benefitRank": 2,
+                            "description": {
+                                "en": "PrePay2M AT&T TV"
+                            },
+                            "startDate": "2018-08-01T05:00:00.000Z",
+                            "contractIndicator": "all",
+                            "selfBenefit": false,
+                            "duration": 2,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": true,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "d38a67e4-670d-4aea-8f22-03a9e41856b7",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "9f0c2ae0-c14b-40ae-b231-284cdb5c3bbb",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "0ebb9a6b-befc-4430-995d-adaf21e66801",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "aabb5e12-235b-484b-bb1c-8229b8283e4d",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "b7617574-b5aa-452b-85cc-6a5000a7c709",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "45838d96-6180-4f2e-9e1f-c94184d77ba5",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "30623b9f-a443-43b0-987f-590d9483e2af",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "a4c26efa-5425-41cf-9d19-ba96574141e2",
+                                            "typeId": "product"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "free-promo",
+                            "value": {},
+                            "secondaryBenefitCode": "7488534833",
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 8,
+                            "agentOffer": false,
+                            "minQuantity": 0,
+                            "promoPriority": 1,
+                            "id": "ca7a4357-cef7-4aaf-a661-b2da1aed6f59",
+                            "contracted": false,
+                            "migrated": false,
+                            "isDependentPromo": true,
+                            "isQuotaBased": false
+                        }
+                    ],
+                    "eligibility": {
+                        "computedRules": {
+                            "predicate": "businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\") AND minimumPurchaseAmount = \"40\"",
+                            "groupingOperator": "OR",
+                            "rules": [
+                                {
+                                    "predicate": "businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\") AND minimumPurchaseAmount = \"40\""
+                                }
+                            ]
+                        },
+                        "constraints": [
+                            {
+                                "minimumPurchaseAmount": 40,
+                                "salesChannel": [
+                                    "opus",
+                                    "online"
+                                ]
+                            }
+                        ]
+                    },
+                    "conflictingOffers": [
+                        {
+                            "typeId": "offer",
+                            "id": "664faab3-9c02-41af-885f-d4b2a8dccbfd",
+                            "key": "OF_BASE-PLUS-2018"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "be67a068-0c0c-44a4-8e2d-9b201e605506",
+                            "key": "OF_BASE-PLUS-2018-UN-PLAN"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "89687b65-1440-4be4-85f7-1826ce642957",
+                            "key": "OF_BASE-MAX-2018-UN-PLAN"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "90814969-cd60-49c6-90ae-fd2d62d39b8a",
+                            "key": "OF_BASE-MAX-2018"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "1934edc7-239c-4178-8f01-9bf9cf35323b",
+                            "key": "OF_STND-BRAZIL-201804"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "aadd3c15-6b3c-49ce-8803-8999959840bf",
+                            "key": "OF_STND-BRAZIL-201804-UN-PLAN"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "f6e5f52f-9df7-430b-b756-761657519f97",
+                            "key": "OF_STND-VIETNAM-201804-UN-PLAN"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "7e816a6b-6a03-451d-a08b-36f38ce029c5",
+                            "key": "OF_STND-VIETNAM-201804"
+                        }
+                    ],
+                    "iptvCustomerType": "nonIPTVMigrator",
+                    "offerPromos": [
+                        [
+                            {
+                                "value": "ATTVPPAY2M",
+                                "name": "promoId"
+                            },
+                            {
+                                "value": "08/20/2018",
+                                "name": "startDateStr"
+                            },
+                            {
+                                "value": "10/11/2018",
+                                "name": "endDateStr"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "ATTVPAY1MN",
+                                "name": "promoId"
+                            },
+                            {
+                                "value": "09/21/2018",
+                                "name": "startDateStr"
+                            },
+                            {
+                                "value": "12/31/9999",
+                                "name": "endDateStr"
+                            }
+                        ]
+                    ],
+                    "leadOffer": false,
+                    "contractIndicator": "contract",
+                    "isVirtual": false,
+                    "flashSaleOffer": false
+                }
+            },
+            {
+                "id": "f2f6f384-eafb-403c-a960-9931e7754e6e",
+                "code": "OF_HARD-OSPREY-042019_contract",
+                "status": "live",
+                "name": {
+                    "en": "AT&T TV Device"
+                },
+                "description": {
+                    "en": "AT&T TV Device"
+                },
+                "startDate": "2019-04-25T05:00:00.000Z",
+                "endDate": "9999-12-31T06:00:00.000Z",
+                "attributes": {
+                    "offerProductType": "video-device",
+                    "offerProductFamily": "OTT",
+                    "offerType": "free-promo",
+                    "offerActionType": "Acquisition",
+                    "environment": "",
+                    "rank": "30",
+                    "displayName": {
+                        "en": "AT&T TV Device"
+                    },
+                    "descriptionsByKey": {
+                        "att.com": "Ospery free Offer"
+                    },
+                    "billingId": "7504877007",
+                    "billingCode": "OF_HARD-OSPREY-042019",
+                    "migratedOffer": true,
+                    "associatedProducts": [
+                        {
+                            "qualifyingProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "NA",
+                                        "dependent": false,
+                                        "anchor": false
+                                    }
+                                }
+                            ],
+                            "bundleProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "OTT",
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "3f7011e5-34fe-4658-92b6-4557727d807c",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "3f7011e5-34fe-4658-92b6-4557727d807c",
+                                                "code": "HARD-OSPREY-042019",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "60f4091f-8f83-4964-8dc8-0d39a9048a1c",
+                                                    "key": "video-device"
+                                                },
+                                                "name": {
+                                                    "en": "AT&T TV Device"
+                                                },
+                                                "description": {
+                                                    "en": "AT&T TV Device(s)"
+                                                },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "prices": [
+                                                            {
+                                                                "value": {
+                                                                    "centAmount": 9600.0,
+                                                                    "currencyCode": "USD",
+                                                                    "fractionDigits": 2,
+                                                                    "dollarAmount": 96.0
+                                                                },
+                                                                "id": "5d1a9e1b-243d-43cb-8444-8402706042b6",
+                                                                "startDate": "2019-04-01T05:00:00.000Z",
+                                                                "endDate": "2019-06-23T05:00:00.000Z",
+                                                                "contractIndicator": "contract"
+                                                            },
+                                                            {
+                                                                "value": {
+                                                                    "centAmount": 12000.0,
+                                                                    "currencyCode": "USD",
+                                                                    "fractionDigits": 2,
+                                                                    "dollarAmount": 120.0
+                                                                },
+                                                                "id": "0b919ad1-c456-46cc-86ac-f9a3a2c13df7",
+                                                                "startDate": "2019-06-24T05:00:00.000Z",
+                                                                "endDate": "9999-12-31T06:00:00.000Z",
+                                                                "contractIndicator": "contract"
+                                                            }
+                                                        ],
+                                                        "attributes": {
+                                                            "displayName": {
+                                                                "en": "AT&T TV Device(s)"
+                                                            },
+                                                            "displayNamesByKey": {
+                                                                "name-cpc": "AT&T TV Device(s)"
+                                                            },
+                                                            "descriptionsByKey": {
+                                                                "short-opus": "AT&amp;T TV device &amp; voice remote with the Google Assistant.  Google login required.",
+                                                                "short-myatt": "AT&amp;T TV device &amp; voice remote with the Google Assistant.  Google login required.",
+                                                                "long-myatt": "Rep should inform customer that device has a Limited 2-year Warranty; term details can be found at att.com/atttvwarranty.",
+                                                                "description-cpc": "AT&T TV Device(s)"
+                                                            },
+                                                            "billingProductCode": "HARD-OSPREY-042019",
+                                                            "billingProductId": "20899",
+                                                            "startDate": "2019-04-17T05:00:00.000Z",
+                                                            "endDate": "9999-12-31T06:00:00.000Z",
+                                                            "opusDisclosureMessage": "Rep should inform customer that device has a Limited 2-year Warranty; term details can be found at att.com/atttvwarranty.",
+                                                            "productFamily": "OTT",
+                                                            "removalRule": {
+                                                                "channel": [
+                                                                    "online"
+                                                                ]
+                                                            },
+                                                            "secondaryBillingProductId": "7504876796",
+                                                            "discountSku": "7088A",
+                                                            "equipmentSku": "60075",
+                                                            "contractApplicable": "contract",
+                                                            "maxQuantity": "6",
+                                                            "installmentList": [
+                                                                {
+                                                                    "installmentDescription": "AT&T TV Device Service Fee",
+                                                                    "numberOfMonthlyInstallments": "12",
+                                                                    "installmentPlanVersion": "V2",
+                                                                    "installmentStartDate": "2019-06-01T05:00:00.000Z",
+                                                                    "installmentEndDate": "2019-06-04T22:59:00.000Z",
+                                                                    "installmentId": "5207"
+                                                                },
+                                                                {
+                                                                    "installmentDescription": "AT&T TV Installment plan",
+                                                                    "numberOfMonthlyInstallments": "12",
+                                                                    "installmentPlanVersion": "V3",
+                                                                    "installmentStartDate": "2019-07-19T05:00:00.000Z",
+                                                                    "installmentEndDate": "9999-12-30T23:59:00.000Z",
+                                                                    "installmentId": "54240"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [
+                        {
+                            "benefitCategory": "Product",
+                            "billingBenefitId": "23638",
+                            "billingBenefitCode": "OSPREYFREE",
+                            "benefitName": {
+                                "en": "AT&T Osprey Box For Free"
+                            },
+                            "benefitDisplayName": {
+                                "en": "AT&T TV Device For Free"
+                            },
+                            "benefitRank": 10,
+                            "description": {
+                                "en": "AT&T TV Device For Free"
+                            },
+                            "startDate": "2019-04-22T05:00:00.000Z",
+                            "contractIndicator": "contract",
+                            "selfBenefit": false,
+                            "duration": 0,
+                            "period": "LifeTime",
+                            "billAfterPeriod": false,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "3f7011e5-34fe-4658-92b6-4557727d807c",
+                                            "typeId": "product"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 1,
+                            "benefitType": "free-promo",
+                            "value": {},
+                            "secondaryBenefitCode": "7504876958",
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 0,
+                            "agentOffer": false,
+                            "minQuantity": 1,
+                            "promoPriority": 2,
+                            "id": "d0c7b76a-088f-4119-99e5-9d21bf0d56a6",
+                            "contracted": false,
+                            "migrated": false,
+                            "isDependentPromo": false,
+                            "isQuotaBased": false
+                        }
+                    ],
+                    "eligibility": {
+                        "computedRules": {
+                            "predicate": "businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\")",
+                            "groupingOperator": "OR",
+                            "rules": [
+                                {
+                                    "predicate": "businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\")"
+                                }
+                            ]
+                        },
+                        "constraints": [
+                            {
+                                "minimumPurchaseAmount": 0,
+                                "salesChannel": [
+                                    "opus",
+                                    "online"
+                                ]
+                            }
+                        ]
+                    },
+                    "offerPromos": [
+                        [
+                            {
+                                "value": "OSPREYFREE",
+                                "name": "promoId"
+                            },
+                            {
+                                "value": "04/30/2019",
+                                "name": "startDateStr"
+                            },
+                            {
+                                "value": "12/31/9999",
+                                "name": "endDateStr"
+                            }
+                        ]
+                    ],
+                    "leadOffer": false,
+                    "contractIndicator": "contract",
+                    "isVirtual": false,
+                    "flashSaleOffer": false
+                }
+            },
+            {
+                "id": "9ccfb02d-d2a4-4f0d-9c9f-ac93e10accb4",
+                "code": "OF_MSR-HARD-OSPREYFREE-201804_MIG_contract",
+                "status": "live",
+                "name": {
+                    "en": "Osprey Box (IPTV Migrator)"
+                },
+                "description": {
+                    "en": "Regularly $99"
+                },
+                "startDate": "2018-08-20T05:00:00.000Z",
+                "endDate": "9999-12-31T06:00:00.000Z",
+                "attributes": {
+                    "offerProductType": "video-device",
+                    "offerProductFamily": "OTT",
+                    "offerType": "percent-off",
+                    "offerActionType": "Acquisition",
+                    "environment": "",
+                    "rank": "10",
+                    "displayName": {
+                        "en": "Osprey Box (IPTV Migrator)"
+                    },
+                    "descriptionsByKey": {
+                        "att.com": "Regularly $99"
+                    },
+                    "billingId": "7488534843",
+                    "billingCode": "OF_MSR-HARD-OSPREYFREE-201804_MIG",
+                    "migratedOffer": true,
+                    "associatedProducts": [
+                        {
+                            "qualifyingProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "NA",
+                                        "dependent": false,
+                                        "anchor": false
+                                    }
+                                }
+                            ],
+                            "bundleProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "OTT",
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                                "code": "HARD-OSPREYFREE-201804",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "60f4091f-8f83-4964-8dc8-0d39a9048a1c",
+                                                    "key": "video-device"
+                                                },
+                                                "name": {
+                                                    "en": "AT&T TV"
+                                                },
+                                                "description": {
+                                                    "en": "AT&T Osprey Box"
+                                                },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "prices": [
+                                                            {
+                                                                "value": {
+                                                                    "currencyCode": "USD",
+                                                                    "fractionDigits": 2
+                                                                },
+                                                                "id": "7f3b2044-4e2e-46c6-8bb5-bbe23c6fe801",
+                                                                "startDate": "2017-01-01T06:00:00.000Z",
+                                                                "endDate": "9999-12-31T06:00:00.000Z",
+                                                                "contractIndicator": "non-contract"
+                                                            },
+                                                            {
+                                                                "value": {
+                                                                    "currencyCode": "USD",
+                                                                    "fractionDigits": 2
+                                                                },
+                                                                "id": "ef5cccd5-d841-4049-9ae5-6fd166f3697b",
+                                                                "startDate": "2019-02-17T06:00:00.000Z",
+                                                                "endDate": "9999-12-31T06:00:00.000Z",
+                                                                "contractIndicator": "contract"
+                                                            }
+                                                        ],
+                                                        "attributes": {
+                                                            "displayName": {
+                                                                "en": "Genie Extreme"
+                                                            },
+                                                            "displayNamesByKey": {
+                                                                "name-cpc": "Genie Extreme"
+                                                            },
+                                                            "descriptionsByKey": {
+                                                                "short-opus": "Get a free streaming media device",
+                                                                "short-myatt": "When you prepay 2 months of AT&T TV NOW",
+                                                                "long-myatt": "Get up to {0} receivers.",
+                                                                "description-cpc": "AT&T Osprey Box"
+                                                            },
+                                                            "billingProductCode": "HARD-OSPREYFREE-201804",
+                                                            "billingProductId": "2805",
+                                                            "startDate": "2018-01-01T06:00:00.000Z",
+                                                            "endDate": "9999-12-31T06:00:00.000Z",
+                                                            "opusDisclosureMessage": "New U.S. customers only. Must Prepay for service at full price. Non-refundable. Not combinable with select offers.",
+                                                            "myAttDisclosureMessage": "<strong>AT&T TV:</strong> New U.S. customers only. Must prepay first 2 months of service at full price. Online orders will be shipped in 1 to 3 days by FedEx Ground<sup>&#174;</sup> to the address provided. <strong>Non-refundable.</strong> Offer limited to 1 per AT&T TV NOW account; 2 per household. Not combinable with select offers.",
+                                                            "productFamily": "OTT",
+                                                            "removalRule": {
+                                                                "channel": [
+                                                                    "online"
+                                                                ]
+                                                            },
+                                                            "secondaryBillingProductId": "7456863975",
+                                                            "discountSku": "7088A",
+                                                            "equipmentSku": "60075",
+                                                            "conflictPromoList": [
+                                                                "LAL14",
+                                                                "JR14",
+                                                                "BIO14",
+                                                                "TW14",
+                                                                "HISTYF7D",
+                                                                "NWBRAZ07",
+                                                                "NWVIET07",
+                                                                "PLUS07",
+                                                                "MAX07"
+                                                            ],
+                                                            "contractApplicable": "contract",
+                                                            "installmentList": [],
+                                                            "isThirdParty": false
+                                                        },
+                                                        "contentImages": [
+                                                            {
+                                                                "url": "/salescms/dam/att/2017/idp/dtvnow/osprey-desktop.jpg",
+                                                                "name": "AT&T TV",
+                                                                "size": ""
+                                                            },
+                                                            {
+                                                                "url": "/salescms/dam/att/2017/idp/dtvnow/osprey-tablet.jpg",
+                                                                "name": "AT&T TV",
+                                                                "size": ""
+                                                            },
+                                                            {
+                                                                "url": "/salescms/dam/att/2017/idp/dtvnow/osprey-mobile.jpg",
+                                                                "name": "AT&T TV",
+                                                                "size": ""
+                                                            }
+                                                        ],
+                                                        "productImages": []
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [
+                        {
+                            "benefitCategory": "PrePay",
+                            "billingBenefitId": "5041",
+                            "billingBenefitCode": "ATTVPPAY1M",
+                            "benefitName": {
+                                "en": "PrePay1M AT&T TV"
+                            },
+                            "benefitDisplayName": {
+                                "en": "PrePay1M AT&T TV"
+                            },
+                            "benefitRank": 5,
+                            "description": {
+                                "en": "PrePay1M AT&T TV"
+                            },
+                            "startDate": "2018-08-01T05:00:00.000Z",
+                            "contractIndicator": "all",
+                            "selfBenefit": false,
+                            "duration": 1,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": false,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "d38a67e4-670d-4aea-8f22-03a9e41856b7",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "9f0c2ae0-c14b-40ae-b231-284cdb5c3bbb",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "0ebb9a6b-befc-4430-995d-adaf21e66801",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "aabb5e12-235b-484b-bb1c-8229b8283e4d",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "b7617574-b5aa-452b-85cc-6a5000a7c709",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "45838d96-6180-4f2e-9e1f-c94184d77ba5",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "30623b9f-a443-43b0-987f-590d9483e2af",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "a4c26efa-5425-41cf-9d19-ba96574141e2",
+                                            "typeId": "product"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "percent-off",
+                            "value": {
+                                "percentage": 10
+                            },
+                            "secondaryBenefitCode": "7489243486",
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 0,
+                            "agentOffer": false,
+                            "minQuantity": 0,
+                            "promoPriority": 1,
+                            "id": "e4ce40c3-2bec-43bb-82da-231d6ea7a092",
+                            "contracted": false,
+                            "migrated": false,
+                            "isDependentPromo": true,
+                            "isQuotaBased": false
+                        }
+                    ],
+                    "eligibility": {
+                        "computedRules": {
+                            "predicate": "businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\") AND minimumPurchaseAmount = \"40\"",
+                            "groupingOperator": "OR",
+                            "rules": [
+                                {
+                                    "predicate": "businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\") AND minimumPurchaseAmount = \"40\""
+                                }
+                            ]
+                        },
+                        "constraints": [
+                            {
+                                "minimumPurchaseAmount": 40,
+                                "salesChannel": [
+                                    "opus",
+                                    "online"
+                                ]
+                            }
+                        ]
+                    },
+                    "conflictingOffers": [
+                        {
+                            "typeId": "offer",
+                            "id": "664faab3-9c02-41af-885f-d4b2a8dccbfd",
+                            "key": "OF_BASE-PLUS-2018"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "be67a068-0c0c-44a4-8e2d-9b201e605506",
+                            "key": "OF_BASE-PLUS-2018-UN-PLAN"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "89687b65-1440-4be4-85f7-1826ce642957",
+                            "key": "OF_BASE-MAX-2018-UN-PLAN"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "90814969-cd60-49c6-90ae-fd2d62d39b8a",
+                            "key": "OF_BASE-MAX-2018"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "1934edc7-239c-4178-8f01-9bf9cf35323b",
+                            "key": "OF_STND-BRAZIL-201804"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "aadd3c15-6b3c-49ce-8803-8999959840bf",
+                            "key": "OF_STND-BRAZIL-201804-UN-PLAN"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "f6e5f52f-9df7-430b-b756-761657519f97",
+                            "key": "OF_STND-VIETNAM-201804-UN-PLAN"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "7e816a6b-6a03-451d-a08b-36f38ce029c5",
+                            "key": "OF_STND-VIETNAM-201804"
+                        }
+                    ],
+                    "iptvCustomerType": "IPTVMigrator",
+                    "offerPromos": [
+                        [
+                            {
+                                "value": "ATTVPPAY1M",
+                                "name": "promoId"
+                            },
+                            {
+                                "value": "08/20/2018",
+                                "name": "startDateStr"
+                            },
+                            {
+                                "value": "12/31/9999",
+                                "name": "endDateStr"
+                            }
+                        ]
+                    ],
+                    "leadOffer": false,
+                    "contractIndicator": "contract",
+                    "isVirtual": false,
+                    "flashSaleOffer": false
+                }
+            },
+            {
+                "id": "17ed8622-5ed9-495e-8ced-e51c3be064fb",
+                "code": "OF_HARD-OSPREYFREE-201804_MIG_contract",
+                "status": "live",
+                "name": {
+                    "en": "AT&T TV"
+                },
+                "description": {
+                    "en": "AT&T TV"
+                },
+                "startDate": "2018-02-11T06:00:00.000Z",
+                "endDate": "9998-12-31T06:00:00.000Z",
+                "attributes": {
+                    "offerProductType": "video-device",
+                    "offerProductFamily": "OTT",
+                    "offerType": "multi-benefit",
+                    "offerActionType": "Acquisition",
+                    "environment": "",
+                    "rank": "10",
+                    "displayName": {
+                        "en": "AT&T TV"
+                    },
+                    "descriptionsByKey": {
+                        "att.com": "Regularly $99"
+                    },
+                    "billingId": "7489243497",
+                    "billingCode": "OF_HARD-OSPREYFREE-201804_MIG",
+                    "migratedOffer": true,
+                    "associatedProducts": [
+                        {
+                            "qualifyingProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "NA",
+                                        "dependent": false,
+                                        "anchor": false
+                                    }
+                                }
+                            ],
+                            "bundleProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "OTT",
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                                "code": "HARD-OSPREYFREE-201804",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "60f4091f-8f83-4964-8dc8-0d39a9048a1c",
+                                                    "key": "video-device"
+                                                },
+                                                "name": {
+                                                    "en": "AT&T TV"
+                                                },
+                                                "description": {
+                                                    "en": "AT&T Osprey Box"
+                                                },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "prices": [
+                                                            {
+                                                                "value": {
+                                                                    "currencyCode": "USD",
+                                                                    "fractionDigits": 2
+                                                                },
+                                                                "id": "7f3b2044-4e2e-46c6-8bb5-bbe23c6fe801",
+                                                                "startDate": "2017-01-01T06:00:00.000Z",
+                                                                "endDate": "9999-12-31T06:00:00.000Z",
+                                                                "contractIndicator": "non-contract"
+                                                            },
+                                                            {
+                                                                "value": {
+                                                                    "currencyCode": "USD",
+                                                                    "fractionDigits": 2
+                                                                },
+                                                                "id": "ef5cccd5-d841-4049-9ae5-6fd166f3697b",
+                                                                "startDate": "2019-02-17T06:00:00.000Z",
+                                                                "endDate": "9999-12-31T06:00:00.000Z",
+                                                                "contractIndicator": "contract"
+                                                            }
+                                                        ],
+                                                        "attributes": {
+                                                            "displayName": {
+                                                                "en": "Genie Extreme"
+                                                            },
+                                                            "displayNamesByKey": {
+                                                                "name-cpc": "Genie Extreme"
+                                                            },
+                                                            "descriptionsByKey": {
+                                                                "short-opus": "Get a free streaming media device",
+                                                                "short-myatt": "When you prepay 2 months of AT&T TV NOW",
+                                                                "long-myatt": "Get up to {0} receivers.",
+                                                                "description-cpc": "AT&T Osprey Box"
+                                                            },
+                                                            "billingProductCode": "HARD-OSPREYFREE-201804",
+                                                            "billingProductId": "2805",
+                                                            "startDate": "2018-01-01T06:00:00.000Z",
+                                                            "endDate": "9999-12-31T06:00:00.000Z",
+                                                            "opusDisclosureMessage": "New U.S. customers only. Must Prepay for service at full price. Non-refundable. Not combinable with select offers.",
+                                                            "myAttDisclosureMessage": "<strong>AT&T TV:</strong> New U.S. customers only. Must prepay first 2 months of service at full price. Online orders will be shipped in 1 to 3 days by FedEx Ground<sup>&#174;</sup> to the address provided. <strong>Non-refundable.</strong> Offer limited to 1 per AT&T TV NOW account; 2 per household. Not combinable with select offers.",
+                                                            "productFamily": "OTT",
+                                                            "removalRule": {
+                                                                "channel": [
+                                                                    "online"
+                                                                ]
+                                                            },
+                                                            "secondaryBillingProductId": "7456863975",
+                                                            "discountSku": "7088A",
+                                                            "equipmentSku": "60075",
+                                                            "conflictPromoList": [
+                                                                "LAL14",
+                                                                "JR14",
+                                                                "BIO14",
+                                                                "TW14",
+                                                                "HISTYF7D",
+                                                                "NWBRAZ07",
+                                                                "NWVIET07",
+                                                                "PLUS07",
+                                                                "MAX07"
+                                                            ],
+                                                            "contractApplicable": "contract",
+                                                            "installmentList": [],
+                                                            "isThirdParty": false
+                                                        },
+                                                        "contentImages": [
+                                                            {
+                                                                "url": "/salescms/dam/att/2017/idp/dtvnow/osprey-desktop.jpg",
+                                                                "name": "AT&T TV",
+                                                                "size": ""
+                                                            },
+                                                            {
+                                                                "url": "/salescms/dam/att/2017/idp/dtvnow/osprey-tablet.jpg",
+                                                                "name": "AT&T TV",
+                                                                "size": ""
+                                                            },
+                                                            {
+                                                                "url": "/salescms/dam/att/2017/idp/dtvnow/osprey-mobile.jpg",
+                                                                "name": "AT&T TV",
+                                                                "size": ""
+                                                            }
+                                                        ],
+                                                        "productImages": []
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [
+                        {
+                            "benefitCategory": "PrePay",
+                            "billingBenefitId": "418",
+                            "billingBenefitCode": "OSPREYGB",
+                            "benefitName": {
+                                "en": "Osprey Box Offer GB"
+                            },
+                            "benefitDisplayName": {
+                                "en": "1-month prepay(Go Big)"
+                            },
+                            "benefitRank": 5,
+                            "description": {
+                                "en": "1-month prepay(Go Big)"
+                            },
+                            "startDate": "2017-01-01T06:00:00.000Z",
+                            "contractIndicator": "all",
+                            "selfBenefit": false,
+                            "duration": 1,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": false,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "b7617574-b5aa-452b-85cc-6a5000a7c709",
+                                            "typeId": "product"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "percent-off",
+                            "value": {
+                                "percentage": 10
+                            },
+                            "secondaryBenefitCode": "7456863980",
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 0,
+                            "agentOffer": false,
+                            "minQuantity": 0,
+                            "promoPriority": 1,
+                            "id": "88345f4b-7ca1-467c-a5d2-899389136a07",
+                            "contracted": false,
+                            "migrated": false,
+                            "isDependentPromo": true,
+                            "isQuotaBased": false
+                        },
+                        {
+                            "benefitCategory": "PrePay",
+                            "billingBenefitId": "417",
+                            "billingBenefitCode": "OSPREYJR",
+                            "benefitName": {
+                                "en": "Osprey Box Offer JR"
+                            },
+                            "benefitDisplayName": {
+                                "en": "1-month prepay(Just Right)"
+                            },
+                            "benefitRank": 5,
+                            "description": {
+                                "en": "1-month prepay(Just Right)"
+                            },
+                            "startDate": "2017-01-01T06:00:00.000Z",
+                            "contractIndicator": "all",
+                            "selfBenefit": false,
+                            "duration": 1,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": false,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "0ebb9a6b-befc-4430-995d-adaf21e66801",
+                                            "typeId": "product"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "percent-off",
+                            "value": {
+                                "percentage": 10
+                            },
+                            "secondaryBenefitCode": "7456863981",
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 0,
+                            "agentOffer": false,
+                            "minQuantity": 0,
+                            "promoPriority": 1,
+                            "id": "bd95f6e5-3891-442a-8034-f8059b2d1843",
+                            "contracted": false,
+                            "migrated": false,
+                            "isDependentPromo": true,
+                            "isQuotaBased": false
+                        },
+                        {
+                            "benefitCategory": "PrePay",
+                            "billingBenefitId": "419",
+                            "billingBenefitCode": "OSPREYOMG",
+                            "benefitName": {
+                                "en": "Osprey Box Offer OMG"
+                            },
+                            "benefitDisplayName": {
+                                "en": "1-month prepay(Gotta Have It)"
+                            },
+                            "benefitRank": 5,
+                            "description": {
+                                "en": "1-month prepay(Gotta Have It)"
+                            },
+                            "startDate": "2017-01-01T06:00:00.000Z",
+                            "contractIndicator": "all",
+                            "selfBenefit": false,
+                            "duration": 1,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": false,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "9f0c2ae0-c14b-40ae-b231-284cdb5c3bbb",
+                                            "typeId": "product"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "percent-off",
+                            "value": {
+                                "percentage": 10
+                            },
+                            "secondaryBenefitCode": "7456863983",
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 0,
+                            "agentOffer": false,
+                            "minQuantity": 0,
+                            "promoPriority": 1,
+                            "id": "331c4497-2083-4897-84d5-528d8d2ff0e9",
+                            "contracted": false,
+                            "migrated": false,
+                            "isDependentPromo": true,
+                            "isQuotaBased": false
+                        },
+                        {
+                            "benefitCategory": "PrePay",
+                            "billingBenefitId": "416",
+                            "billingBenefitCode": "OSPREYLAL",
+                            "benefitName": {
+                                "en": "Osprey Box Offer LAL"
+                            },
+                            "benefitDisplayName": {
+                                "en": "1-month prepay(Live a Little)"
+                            },
+                            "benefitRank": 5,
+                            "description": {
+                                "en": "1-month prepay(Live a Little)"
+                            },
+                            "startDate": "2017-01-01T06:00:00.000Z",
+                            "contractIndicator": "all",
+                            "selfBenefit": false,
+                            "duration": 1,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": false,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "c9e0c36f-fc66-4f48-87af-0ab1e6f2d408",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "d38a67e4-670d-4aea-8f22-03a9e41856b7",
+                                            "typeId": "product"
+                                        },
+                                        {
+                                            "id": "aabb5e12-235b-484b-bb1c-8229b8283e4d",
+                                            "typeId": "product"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "percent-off",
+                            "value": {
+                                "percentage": 10
+                            },
+                            "secondaryBenefitCode": "7456863982",
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 0,
+                            "agentOffer": false,
+                            "minQuantity": 0,
+                            "promoPriority": 1,
+                            "id": "e3e8fd44-a5f7-48f6-807e-577a501dfb62",
+                            "contracted": false,
+                            "migrated": false,
+                            "isDependentPromo": true,
+                            "isQuotaBased": false
+                        }
+                    ],
+                    "eligibility": {
+                        "computedRules": {
+                            "predicate": "businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\")",
+                            "groupingOperator": "OR",
+                            "rules": [
+                                {
+                                    "predicate": "businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\")"
+                                }
+                            ]
+                        },
+                        "constraints": [
+                            {
+                                "minimumPurchaseAmount": 0,
+                                "salesChannel": [
+                                    "opus",
+                                    "online"
+                                ]
+                            }
+                        ]
+                    },
+                    "conflictingOffers": [
+                        {
+                            "typeId": "offer",
+                            "id": "664faab3-9c02-41af-885f-d4b2a8dccbfd",
+                            "key": "OF_BASE-PLUS-2018"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "be67a068-0c0c-44a4-8e2d-9b201e605506",
+                            "key": "OF_BASE-PLUS-2018-UN-PLAN"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "89687b65-1440-4be4-85f7-1826ce642957",
+                            "key": "OF_BASE-MAX-2018-UN-PLAN"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "90814969-cd60-49c6-90ae-fd2d62d39b8a",
+                            "key": "OF_BASE-MAX-2018"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "1934edc7-239c-4178-8f01-9bf9cf35323b",
+                            "key": "OF_STND-BRAZIL-201804"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "aadd3c15-6b3c-49ce-8803-8999959840bf",
+                            "key": "OF_STND-BRAZIL-201804-UN-PLAN"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "f6e5f52f-9df7-430b-b756-761657519f97",
+                            "key": "OF_STND-VIETNAM-201804-UN-PLAN"
+                        },
+                        {
+                            "typeId": "offer",
+                            "id": "7e816a6b-6a03-451d-a08b-36f38ce029c5",
+                            "key": "OF_STND-VIETNAM-201804"
+                        }
+                    ],
+                    "iptvCustomerType": "IPTVMigrator",
+                    "offerPromos": [
+                        [
+                            {
+                                "value": "OSPREYGB",
+                                "name": "promoId"
+                            },
+                            {
+                                "value": "02/14/2018",
+                                "name": "startDateStr"
+                            },
+                            {
+                                "value": "12/31/9999",
+                                "name": "endDateStr"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "OSPREYOMG",
+                                "name": "promoId"
+                            },
+                            {
+                                "value": "02/14/2018",
+                                "name": "startDateStr"
+                            },
+                            {
+                                "value": "12/31/9999",
+                                "name": "endDateStr"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "OSPREYJR",
+                                "name": "promoId"
+                            },
+                            {
+                                "value": "02/14/2018",
+                                "name": "startDateStr"
+                            },
+                            {
+                                "value": "12/31/9999",
+                                "name": "endDateStr"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "OSPREYLAL",
+                                "name": "promoId"
+                            },
+                            {
+                                "value": "02/14/2018",
+                                "name": "startDateStr"
+                            },
+                            {
+                                "value": "12/31/9999",
+                                "name": "endDateStr"
+                            }
+                        ]
+                    ],
+                    "leadOffer": false,
+                    "contractIndicator": "contract",
+                    "isVirtual": false,
+                    "flashSaleOffer": false
+                }
+            }
+        ]
+    }

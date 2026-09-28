@@ -1,0 +1,58 @@
+{
+    "customerEligibility": {
+        "zipCode": [
+            "00058"
+        ],
+        "county": [
+            "17000"
+        ]
+    },
+    "contractIndicator": [
+        "non-contract"
+    ],
+    "salesChannel": [
+        "online"
+    ],
+    "offerProductTypes": [
+        "video-addon"
+    ],
+    "offerActionType": [
+        "Upgrade",
+        "Downgrade",
+        "Cross-sell",
+        "Other"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "customerContext": {
+        "existingProductFamily": [
+            "satellite"
+        ],
+        "satellite": {
+            "products": [
+                {
+                    "billingProductCode": "P102774",
+                    "billingReferenceID": "1",
+                    "productType": "video-plan"
+                },
+                {
+                    "manufacturer": "DIRECTV",
+                    "modelNumber": "HR44-200",
+                    "accessCardId": "002187890633",
+                    "accessCardStatus": "ACTV",
+                    "equipmentOwnership": "lease"
+                }
+            ],
+            "accountNumber": "171202181454689",
+            "isActive": true,
+            "retentionPromotionIndicator": false,
+            "freeTrialEligible": false,
+            "accountType": "Residential",
+            "nextBillingDate": "03/09/2020",
+            "businessSegment": "REG",
+            "nftvFlag": "Y",
+            "ftvCount": "1"
+        }
+    }
+}

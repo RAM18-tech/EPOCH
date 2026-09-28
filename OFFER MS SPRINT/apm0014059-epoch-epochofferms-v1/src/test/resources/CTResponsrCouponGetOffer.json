@@ -1,0 +1,2037 @@
+{
+        "limit": 300,
+        "offset": 0,
+        "count": 8,
+        "total": 9,
+        "offers": [
+            {
+                "id": "6ced3a73-7e97-4b96-bb62-db5265e7e8c5",
+                "code": "DOLLAR_OF_CAMPAIGN599",
+                "status": "in_progress",
+                "name": {
+                    "en": "DOLLAR_OF_CAMPAIGN599"
+                },
+                "startDate": "2020-06-01T00:00:00.000Z",
+                "endDate": "2020-07-25T00:00:00.000Z",
+                "attributes": {
+                    "offerProductType": "campaign",
+                    "offerProductTypes": [
+                        "campaign"
+                    ],
+                    "offerProductFamily": "satellite",
+                    "offerProductFamilies": [
+                        "satellite"
+                    ],
+                    "offerType": "coupon",
+                    "rank": "5",
+                    "displayName": {
+                        "en": "DOLLAR OF TEST CAMPAIGN599"
+                    },
+                    "displayNamesByKey": {},
+                    "migratedOffer": false,
+                    "associatedProducts": [
+                        {
+                            "qualifyingProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "satellite",
+                                        "productTypes": [
+                                            "campaign"
+                                        ],
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "3c916a70-a6c7-4a31-8f65-bb73836c470d",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "3c916a70-a6c7-4a31-8f65-bb73836c470d",
+                                                "code": "DOLLAR_OFF_CAMPAIGN_5_99",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "1606965f-73ce-4eb7-8c5c-bc2900e8b4fa",
+                                                    "key": "campaign"
+                                                },
+                                                "name": {
+                                                    "en": "$5.99 off for movie purchase or rental"
+                                                },
+                                                "description": {
+                                                    "en": "$5.99 off for movie purchase or rental"
+                                                },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "prices": [],
+                                                        "attributes": {
+                                                            "productFamily": "satellite",
+                                                            "campaignId": "233243679",
+                                                            "campaignCode": "DOLLAR_OFF_CAMPAIGN_7_99",
+                                                            "campaignName": "$7.99 off for movie purchase or rental",
+                                                            "campaignDesc": "$7.99 off for movie purchase or rental",
+                                                            "couponType": "singleUse",
+                                                            "campaignCategory": "standard",
+                                                            "creationDate": "2020-06-26T00:00:00.000Z",
+                                                            "campaignStartDate": "2020-07-31T00:00:00.000Z",
+                                                            "campaignEndDate": "2020-06-28T00:00:00.000Z",
+                                                            "autoRegister": "true",
+                                                            "studioSponsorByATT": true,
+                                                            "lockDuration": "7",
+                                                            "numberOfCoupons": 5,
+                                                            "campaignEligibility": [
+                                                                {
+                                                                    "purchaseType": "Both",
+                                                                    "contentCategory": "NonAdult",
+                                                                    "format": "Blu-Ray",
+                                                                    "genre": "Horror",
+                                                                    "rating": "PG13",
+                                                                    "studio": "DISNEY",
+                                                                    "newRelease": true,
+                                                                    "releaseDate": "2"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "productType": "campaign",
+                                            "key": "DOLLAR_OFF_CAMPAIGN_5_99"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [
+                        {
+                            "benefitCategory": "Product",
+                            "id": "a3867640-872a-4db4-838c-617cb5f54bf1",
+                            "billingBenefitCode": "DOLLAR_OF_BENEFIT_CAM3",
+                            "benefitName": {
+                                "en": "DOLLAR_OF_BENEFIT_CAM3"
+                            },
+                            "benefitDisplayName": {
+                                "en": "DOLLAR_OF_BENEFIT_CAM3"
+                            },
+                            "benefitRank": 0,
+                            "description": {
+                                "en": ""
+                            },
+                            "startDate": "2020-06-01T00:00:00.000Z",
+                            "retIoApplicableProducts": false,
+                            "endDate": "2020-07-31T00:00:00.000Z",
+                            "contractIndicator": "all",
+                            "contractVersion": "2",
+                            "selfBenefit": false,
+                            "duration": 12,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": false,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "3c916a70-a6c7-4a31-8f65-bb73836c470d",
+                                            "typeId": "product",
+                                            "productType": "campaign",
+                                            "key": "DOLLAR_OFF_CAMPAIGN_5_99"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "flat-off",
+                            "value": {
+                                "centAmount": 599.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 5.99
+                            },
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 0,
+                            "agentOffer": false,
+                            "contractTerm": "34",
+                            "minQuantity": 0,
+                            "promoPriority": 4,
+                            "benefitLevel": "product",
+                            "notApplibaleForOffer": false,
+                            "enableServiceDisconnect": false,
+                            "quotaBased": false,
+                            "couponPromo": false,
+                            "migrated": false,
+                            "isDependentPromo": false,
+                            "isMigrated": false,
+                            "isQuotaBased": false
+                        }
+                    ],
+                    "eligibility": {
+                        "constraints": [
+                            {
+                                "customerSegments": [
+                                    "Mobility"
+                                ],
+                                "minimumPurchaseAmount": 0,
+                                "salesChannel": [
+                                    "dtvRioService"
+                                ],
+                                "businessSegment": [
+                                    "CONS"
+                                ]
+                            }
+                        ]
+                    },
+                    "leadOffer": false,
+                    "isVirtual": false,
+                    "flashSaleOffer": false
+                }
+            },
+            {
+                "id": "27dbddd2-8df1-4bc4-ba87-0040c28f339a",
+                "code": "DOLLAR_OF_CAMPAIGN1999",
+                "status": "in_progress",
+                "name": {
+                    "en": "DOLLAR_OF_CAMPAIGN1999"
+                },
+                "startDate": "2020-06-01T00:00:00.000Z",
+                "endDate": "2020-08-28T00:00:00.000Z",
+                "attributes": {
+                    "offerProductType": "campaign",
+                    "offerProductTypes": [
+                        "campaign"
+                    ],
+                    "offerProductFamily": "satellite",
+                    "offerProductFamilies": [
+                        "satellite"
+                    ],
+                    "offerType": "coupon",
+                    "rank": "6",
+                    "displayName": {
+                        "en": "DOLLAR OF TEST CAMPAIGN1999"
+                    },
+                    "displayNamesByKey": {},
+                    "migratedOffer": false,
+                    "associatedProducts": [
+                        {
+                            "qualifyingProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "satellite",
+                                        "productTypes": [
+                                            "campaign"
+                                        ],
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "ae265242-8f84-492b-9761-f2156208a09b",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "ae265242-8f84-492b-9761-f2156208a09b",
+                                                "code": "DOLLAR_OFF_CAMPAIGN_19_99",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "1606965f-73ce-4eb7-8c5c-bc2900e8b4fa",
+                                                    "key": "campaign"
+                                                },
+                                                "name": {
+                                                    "en": "$19.99 off for movie purchase or rental"
+                                                },
+                                                "description": {
+                                                    "en": "$19.99 off for movie purchase or rental"
+                                                },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "prices": [],
+                                                        "attributes": {
+                                                            "productFamily": "satellite",
+                                                            "campaignId": "233243634",
+                                                            "campaignCode": "DOLLAR_OFF_CAMPAIGN_19_99",
+                                                            "campaignName": "$19.99 off for movie purchase or rental",
+                                                            "campaignDesc": "$19.99 off for movie purchase or rental",
+                                                            "couponType": "singleUse",
+                                                            "campaignCategory": "standard",
+                                                            "creationDate": "2020-06-06T00:00:00.000Z",
+                                                            "campaignStartDate": "2020-06-12T00:00:00.000Z",
+                                                            "campaignEndDate": "2020-07-31T00:00:00.000Z",
+                                                            "autoRegister": "true",
+                                                            "studioSponsorByATT": true,
+                                                            "lockDuration": "9",
+                                                            "numberOfCoupons": 5,
+                                                            "campaignEligibility": [
+                                                                {
+                                                                    "purchaseType": "Both",
+                                                                    "contentCategory": "NonAdult",
+                                                                    "format": "4K",
+                                                                    "genre": "comedy",
+                                                                    "rating": "PG13",
+                                                                    "studio": "WB",
+                                                                    "newRelease": true,
+                                                                    "releaseDate": "2"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "productType": "campaign",
+                                            "key": "DOLLAR_OFF_CAMPAIGN_19_99"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [
+                        {
+                            "benefitCategory": "Product",
+                            "id": "065a8274-2320-4c23-9be9-9a3e60d1f632",
+                            "billingBenefitCode": "DOLLAR_OF_BENEFIT_CAM5",
+                            "benefitName": {
+                                "en": "DOLLAR_OF_BENEFIT_CAM5"
+                            },
+                            "benefitDisplayName": {
+                                "en": "DOLLAR_OF_BENEFIT_CAM5"
+                            },
+                            "benefitRank": 0,
+                            "description": {
+                                "en": ""
+                            },
+                            "startDate": "2020-06-01T00:00:00.000Z",
+                            "retIoApplicableProducts": false,
+                            "endDate": "2020-07-31T00:00:00.000Z",
+                            "contractIndicator": "all",
+                            "contractVersion": "2",
+                            "selfBenefit": false,
+                            "duration": 12,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": false,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "db46bf4d-5c8d-4c52-a846-6b752702d776",
+                                            "typeId": "product",
+                                            "productType": "campaign",
+                                            "key": "DOLLAR_OFF_CAMPAIGN_3_99"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "flat-off",
+                            "value": {
+                                "centAmount": 1999.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 19.99
+                            },
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 0,
+                            "agentOffer": false,
+                            "contractTerm": "34",
+                            "minQuantity": 0,
+                            "promoPriority": 4,
+                            "benefitLevel": "product",
+                            "notApplibaleForOffer": false,
+                            "enableServiceDisconnect": false,
+                            "quotaBased": false,
+                            "couponPromo": false,
+                            "migrated": false,
+                            "isDependentPromo": false,
+                            "isMigrated": false,
+                            "isQuotaBased": false
+                        }
+                    ],
+                    "eligibility": {
+                        "constraints": [
+                            {
+                                "customerSegments": [
+                                    "Mobility"
+                                ],
+                                "minimumPurchaseAmount": 0,
+                                "salesChannel": [
+                                    "dtvRioService"
+                                ],
+                                "businessSegment": [
+                                    "CONS"
+                                ]
+                            }
+                        ]
+                    },
+                    "leadOffer": false,
+                    "isVirtual": false,
+                    "flashSaleOffer": false
+                }
+            },
+            {
+                "id": "3cf19aee-bf7d-450e-be71-697c37906b15",
+                "code": "CAMPAIGN_OFFER75",
+                "status": "in_progress",
+                "name": {
+                    "en": "75_PRECENT_OFF_CAMPAIGN_OFFER"
+                },
+                "startDate": "2020-06-02T00:00:00.000Z",
+                "endDate": "2020-08-05T00:00:00.000Z",
+                "attributes": {
+                    "offerProductType": "campaign",
+                    "offerProductTypes": [
+                        "campaign"
+                    ],
+                    "offerProductFamily": "satellite",
+                    "offerProductFamilies": [
+                        "satellite"
+                    ],
+                    "offerType": "coupon",
+                    "rank": "7",
+                    "displayName": {
+                        "en": "campaign test offer for SPRINGSALE75"
+                    },
+                    "displayNamesByKey": {
+                        "opus": "ONLINE75"
+                    },
+                    "migratedOffer": false,
+                    "associatedProducts": [
+                        {
+                            "qualifyingProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "satellite",
+                                        "productTypes": [
+                                            "campaign"
+                                        ],
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "5f383c2c-4319-4328-8b0d-2470e1e5899b",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "5f383c2c-4319-4328-8b0d-2470e1e5899b",
+                                                "code": "75_PRECENT_OFF_CAMPAIGN",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "1606965f-73ce-4eb7-8c5c-bc2900e8b4fa",
+                                                    "key": "campaign"
+                                                },
+                                                "name": {
+                                                    "en": "75% OFF of movie rental "
+                                                },
+                                                "description": {
+                                                    "en": "75% OFF of movie rental "
+                                                },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "prices": [],
+                                                        "attributes": {
+                                                            "productFamily": "satellite",
+                                                            "campaignId": "4242253575",
+                                                            "campaignCode": "75_PRECENT_OFF_CAMPAIGN",
+                                                            "campaignName": "75 PRECENT OFF CAMPAIGN",
+                                                            "campaignDesc": "75% off of a movie rental/purchase",
+                                                            "couponType": "singleUse",
+                                                            "campaignCategory": "standard",
+                                                            "creationDate": "2020-06-23T00:00:00.000Z",
+                                                            "campaignStartDate": "2020-06-30T00:00:00.000Z",
+                                                            "campaignEndDate": "2020-08-27T00:00:00.000Z",
+                                                            "autoRegister": "true",
+                                                            "studioSponsorByATT": true,
+                                                            "lockDuration": "2",
+                                                            "numberOfCoupons": 5,
+                                                            "campaignEligibility": [
+                                                                {
+                                                                    "purchaseType": "Both",
+                                                                    "contentCategory": "NonAdult",
+                                                                    "format": "Blu-Ray",
+                                                                    "genre": "Horror",
+                                                                    "rating": "PG13",
+                                                                    "studio": "WB",
+                                                                    "newRelease": true,
+                                                                    "releaseDate": "2"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "productType": "campaign",
+                                            "key": "75_PRECENT_OFF_CAMPAIGN"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [
+                        {
+                            "benefitCategory": "Product",
+                            "id": "41caa3c2-3b6e-4ab7-918a-0ab0e849fffb",
+                            "billingBenefitCode": "SPRINGSALE4_BENEFIT",
+                            "benefitName": {
+                                "en": "SPRINGSALE4_BENEFIT"
+                            },
+                            "benefitDisplayName": {
+                                "en": "SPRINGSALE4_BENEFIT"
+                            },
+                            "benefitRank": 0,
+                            "description": {
+                                "en": "SPRINGSALE4_BENEFIT"
+                            },
+                            "startDate": "2020-06-25T00:00:00.000Z",
+                            "retIoApplicableProducts": false,
+                            "endDate": "2020-07-31T00:00:00.000Z",
+                            "contractIndicator": "all",
+                            "contractVersion": "3",
+                            "selfBenefit": false,
+                            "duration": 4,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": false,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "5f383c2c-4319-4328-8b0d-2470e1e5899b",
+                                            "typeId": "product",
+                                            "productType": "campaign",
+                                            "key": "75_PRECENT_OFF_CAMPAIGN"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "percent-off",
+                            "value": {
+                                "percentage": 75
+                            },
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 0,
+                            "agentOffer": false,
+                            "contractTerm": "23",
+                            "minQuantity": 0,
+                            "promoPriority": 4,
+                            "benefitLevel": "product",
+                            "promoSourceSkus": [
+                                {}
+                            ],
+                            "notApplibaleForOffer": false,
+                            "enableServiceDisconnect": false,
+                            "quotaBased": false,
+                            "couponPromo": false,
+                            "migrated": false,
+                            "isDependentPromo": false,
+                            "isMigrated": false,
+                            "isQuotaBased": false
+                        }
+                    ],
+                    "eligibility": {
+                        "constraints": [
+                            {
+                                "customerSegments": [
+                                    "Mobility"
+                                ],
+                                "minimumPurchaseAmount": 0,
+                                "salesChannel": [
+                                    "opus"
+                                ],
+                                "businessSegment": [
+                                    "CONS"
+                                ]
+                            }
+                        ]
+                    },
+                    "leadOffer": false,
+                    "isVirtual": false,
+                    "flashSaleOffer": false
+                }
+            },
+            {
+                "id": "000b941a-285f-4901-90ea-41ced24a6950",
+                "code": "CAMPAIGN_OFFER50",
+                "status": "in_progress",
+                "name": {
+                    "en": "50_PRECENT_OFF_CAMPAIGN_OFFER"
+                },
+                "description": {
+                    "en": "campaign test offer for SPRINGSALE50"
+                },
+                "startDate": "2020-06-02T00:00:00.000Z",
+                "endDate": "2020-07-31T00:00:00.000Z",
+                "attributes": {
+                    "offerProductType": "campaign",
+                    "offerProductTypes": [
+                        "campaign"
+                    ],
+                    "offerProductFamily": "satellite",
+                    "offerProductFamilies": [
+                        "satellite"
+                    ],
+                    "offerType": "coupon",
+                    "rank": "6",
+                    "displayName": {
+                        "en": "campaign test offer for SPRINGSALE5"
+                    },
+                    "displayNamesByKey": {},
+                    "migratedOffer": false,
+                    "associatedProducts": [
+                        {
+                            "qualifyingProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "satellite",
+                                        "productTypes": [
+                                            "campaign"
+                                        ],
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "8491030b-6a7e-4174-8a04-934e6d5faae4",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "8491030b-6a7e-4174-8a04-934e6d5faae4",
+                                                "code": "50_PRECENT_OFF_CAMPAIGN",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "1606965f-73ce-4eb7-8c5c-bc2900e8b4fa",
+                                                    "key": "campaign"
+                                                },
+                                                "name": {
+                                                    "en": "50% OFF of movie rental "
+                                                },
+                                                "description": {
+                                                    "en": "50% OFF of movie rental "
+                                                },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "prices": [],
+                                                        "attributes": {
+                                                            "productFamily": "satellite",
+                                                            "campaignId": "424225355",
+                                                            "campaignCode": "50_PRECENT_OFF_CAMPAIGN",
+                                                            "campaignName": "50 PRECENT OFF CAMPAIGN",
+                                                            "campaignDesc": "50_PRECENT_OFF_CAMPAIGN",
+                                                            "couponType": "singleUse",
+                                                            "campaignCategory": "standard",
+                                                            "creationDate": "2020-06-22T00:00:00.000Z",
+                                                            "campaignStartDate": "2020-06-29T00:00:00.000Z",
+                                                            "campaignEndDate": "2020-07-22T00:00:00.000Z",
+                                                            "autoRegister": "true",
+                                                            "studioSponsorByATT": true,
+                                                            "lockDuration": "1",
+                                                            "numberOfCoupons": 5,
+                                                            "campaignEligibility": [
+                                                                {
+                                                                    "purchaseType": "Both",
+                                                                    "contentCategory": "NonAdult",
+                                                                    "format": "Blu-Ray",
+                                                                    "genre": "Horror",
+                                                                    "rating": "G",
+                                                                    "studio": "DISNEY",
+                                                                    "newRelease": true,
+                                                                    "releaseDate": "2"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "productType": "campaign",
+                                            "key": "50_PRECENT_OFF_CAMPAIGN"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [
+                        {
+                            "benefitCategory": "Product",
+                            "id": "9b931bde-4b2b-4e7e-b8e5-ecd7d8552eeb",
+                            "billingBenefitCode": "SPRINGSALE3_BENEFIT",
+                            "benefitName": {
+                                "en": "SPRINGSALE3_BENEFIT"
+                            },
+                            "benefitDisplayName": {
+                                "en": "SPRINGSALE3_BENEFIT"
+                            },
+                            "benefitRank": 0,
+                            "description": {
+                                "en": "SPRINGSALE3_BENEFIT"
+                            },
+                            "startDate": "2020-06-25T00:00:00.000Z",
+                            "retIoApplicableProducts": false,
+                            "endDate": "2020-07-31T00:00:00.000Z",
+                            "contractIndicator": "all",
+                            "contractVersion": "3",
+                            "selfBenefit": false,
+                            "duration": 4,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": false,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "8491030b-6a7e-4174-8a04-934e6d5faae4",
+                                            "typeId": "product",
+                                            "productType": "campaign",
+                                            "key": "50_PRECENT_OFF_CAMPAIGN"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "percent-off",
+                            "value": {
+                                "percentage": 50
+                            },
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 0,
+                            "agentOffer": false,
+                            "contractTerm": "23",
+                            "minQuantity": 0,
+                            "promoPriority": 4,
+                            "benefitLevel": "product",
+                            "promoSourceSkus": [
+                                {}
+                            ],
+                            "notApplibaleForOffer": false,
+                            "enableServiceDisconnect": false,
+                            "quotaBased": false,
+                            "couponPromo": false,
+                            "migrated": false,
+                            "isDependentPromo": false,
+                            "isMigrated": false,
+                            "isQuotaBased": false
+                        }
+                    ],
+                    "eligibility": {
+                        "constraints": [
+                            {
+                                "customerSegments": [
+                                    "Mobility"
+                                ],
+                                "minimumPurchaseAmount": 0,
+                                "salesChannel": [
+                                    "opus"
+                                ],
+                                "businessSegment": [
+                                    "CONS"
+                                ]
+                            }
+                        ]
+                    },
+                    "leadOffer": false,
+                    "isVirtual": false,
+                    "flashSaleOffer": false
+                }
+            },
+            {
+                "id": "f101558c-bda2-445b-8252-88033d092a85",
+                "code": "CAMPAIGN_OFFER100",
+                "status": "in_progress",
+                "name": {
+                    "en": "100_PRECENT_OFF_CAMPAIGN_OFFER"
+                },
+                "description": {
+                    "en": "campaign test offer for SPRINGSALE100"
+                },
+                "startDate": "2020-06-03T00:00:00.000Z",
+                "endDate": "2020-07-29T00:00:00.000Z",
+                "attributes": {
+                    "offerProductType": "campaign",
+                    "offerProductTypes": [
+                        "campaign"
+                    ],
+                    "offerProductFamily": "satellite",
+                    "offerProductFamilies": [
+                        "satellite"
+                    ],
+                    "offerType": "coupon",
+                    "rank": "3",
+                    "displayName": {
+                        "en": "campaign test offer for SPRINGSALE100"
+                    },
+                    "displayNamesByKey": {},
+                    "migratedOffer": false,
+                    "associatedProducts": [
+                        {
+                            "qualifyingProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "satellite",
+                                        "productTypes": [
+                                            "campaign"
+                                        ],
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "5f3c5502-0c1c-44c7-bc6a-12d3686a1685",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "5f3c5502-0c1c-44c7-bc6a-12d3686a1685",
+                                                "code": "100_PRECENT_OFF_CAMPAIGN",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "1606965f-73ce-4eb7-8c5c-bc2900e8b4fa",
+                                                    "key": "campaign"
+                                                },
+                                                "name": {
+                                                    "en": "100% OFF of movie rental "
+                                                },
+                                                "description": {
+                                                    "en": "100% OFF of movie rental "
+                                                },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "prices": [],
+                                                        "attributes": {
+                                                            "productFamily": "satellite",
+                                                            "campaignId": "42422535100",
+                                                            "campaignCode": "100_PRECENT_OFF_CAMPAIGN",
+                                                            "campaignName": "100 PRECENT OFF CAMPAIGN",
+                                                            "campaignDesc": "100_PRECENT_OFF_CAMPAIGN",
+                                                            "couponType": "singleUse",
+                                                            "campaignCategory": "standard",
+                                                            "creationDate": "2020-06-30T00:00:00.000Z",
+                                                            "campaignStartDate": "2020-07-29T00:00:00.000Z",
+                                                            "campaignEndDate": "2020-07-31T00:00:00.000Z",
+                                                            "autoRegister": "true",
+                                                            "studioSponsorByATT": true,
+                                                            "lockDuration": "5",
+                                                            "numberOfCoupons": 5,
+                                                            "campaignEligibility": [
+                                                                {
+                                                                    "purchaseType": "Both",
+                                                                    "contentCategory": "NonAdult",
+                                                                    "format": "Blu-Ray",
+                                                                    "genre": "Horror",
+                                                                    "rating": "PG13",
+                                                                    "studio": "wb",
+                                                                    "newRelease": true,
+                                                                    "releaseDate": "2"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "productType": "campaign",
+                                            "key": "100_PRECENT_OFF_CAMPAIGN"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [
+                        {
+                            "benefitCategory": "Product",
+                            "id": "94278e9a-a7ce-47ce-b71d-ea6f33696a55",
+                            "billingBenefitCode": "SPRINGSALE5_BENEFIT",
+                            "benefitName": {
+                                "en": "SPRINGSALE5_BENEFIT"
+                            },
+                            "benefitDisplayName": {
+                                "en": "SPRINGSALE5_BENEFIT"
+                            },
+                            "benefitRank": 0,
+                            "description": {
+                                "en": "SPRINGSALE5_BENEFIT"
+                            },
+                            "startDate": "2020-06-25T00:00:00.000Z",
+                            "retIoApplicableProducts": false,
+                            "endDate": "2020-07-31T00:00:00.000Z",
+                            "contractIndicator": "all",
+                            "contractVersion": "3",
+                            "selfBenefit": false,
+                            "duration": 4,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": false,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "5f3c5502-0c1c-44c7-bc6a-12d3686a1685",
+                                            "typeId": "product",
+                                            "productType": "campaign",
+                                            "key": "100_PRECENT_OFF_CAMPAIGN"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "percent-off",
+                            "value": {
+                                "percentage": 100
+                            },
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 0,
+                            "agentOffer": false,
+                            "contractTerm": "23",
+                            "minQuantity": 0,
+                            "promoPriority": 4,
+                            "benefitLevel": "product",
+                            "promoSourceSkus": [
+                                {}
+                            ],
+                            "notApplibaleForOffer": false,
+                            "enableServiceDisconnect": false,
+                            "quotaBased": false,
+                            "couponPromo": false,
+                            "migrated": false,
+                            "isDependentPromo": false,
+                            "isMigrated": false,
+                            "isQuotaBased": false
+                        }
+                    ],
+                    "eligibility": {
+                        "constraints": [
+                            {
+                                "customerSegments": [
+                                    "Mobility"
+                                ],
+                                "minimumPurchaseAmount": 0,
+                                "salesChannel": [
+                                    "opus"
+                                ],
+                                "businessSegment": [
+                                    "CONS"
+                                ]
+                            }
+                        ]
+                    },
+                    "leadOffer": false,
+                    "isVirtual": false,
+                    "flashSaleOffer": false
+                }
+            },
+            {
+                "id": "b2f31090-5a9e-467b-8fd1-61febf9e0fe5",
+                "code": "CAMPAIGN_OFFER10",
+                "status": "in_progress",
+                "name": {
+                    "en": "10_PRECENT_OFF_CAMPAIGN_OFFER"
+                },
+                "description": {
+                    "en": "campaign test offer for SPRINGSALE10"
+                },
+                "startDate": "2020-06-24T00:00:00.000Z",
+                "endDate": "2022-08-10T00:00:00.000Z",
+                "attributes": {
+                    "offerProductType": "campaign",
+                    "offerProductTypes": [
+                        "campaign"
+                    ],
+                    "offerProductFamily": "satellite",
+                    "offerProductFamilies": [
+                        "satellite"
+                    ],
+                    "offerType": "coupon",
+                    "rank": "1",
+                    "displayName": {
+                        "en": "campaign test offer for SPRINGSALE1"
+                    },
+                    "displayNamesByKey": {},
+                    "migratedOffer": false,
+                    "associatedProducts": [
+                        {
+                            "qualifyingProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "satellite",
+                                        "productTypes": [
+                                            "campaign"
+                                        ],
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "5c7dc702-0fa4-4f6a-babf-79551a3788a9",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "5c7dc702-0fa4-4f6a-babf-79551a3788a9",
+                                                "code": "10_PRECENT_OFF_CAMPAIGN",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "1606965f-73ce-4eb7-8c5c-bc2900e8b4fa",
+                                                    "key": "campaign"
+                                                },
+                                                "name": {
+                                                    "en": "10% OFF of movie rental "
+                                                },
+                                                "description": {
+                                                    "en": "10% OFF of movie rental "
+                                                },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "prices": [],
+                                                        "attributes": {
+                                                            "productFamily": "satellite",
+                                                            "campaignId": "42422535",
+                                                            "campaignCode": "10_PRECENT_OFF_CAMPAIGN",
+                                                            "campaignName": "10 PRECENT OFF CAMPAIGN",
+                                                            "campaignDesc": "10% off of a movie rental/purchase",
+                                                            "couponType": "singleUse",
+                                                            "campaignCategory": "standard",
+                                                            "creationDate": "2020-06-23T00:00:00.000Z",
+                                                            "campaignStartDate": "2020-06-23T00:00:00.000Z",
+                                                            "campaignEndDate": "2020-08-31T00:00:00.000Z",
+                                                            "autoRegister": "true",
+                                                            "studioSponsorByATT": true,
+                                                            "lockDuration": "12",
+                                                            "numberOfCoupons": 5,
+                                                            "campaignMessaging": "Get 10% off for movie purchase or rental",
+                                                            "campaignEligibility": [
+                                                                {
+                                                                    "purchaseType": "Both",
+                                                                    "contentCategory": "NonAdult",
+                                                                    "format": "4K",
+                                                                    "genre": "comedy",
+                                                                    "rating": "PG13",
+                                                                    "studio": "wb",
+                                                                    "newRelease": true,
+                                                                    "releaseDate": "2"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "productType": "campaign",
+                                            "key": "10_PRECENT_OFF_CAMPAIGN"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [
+                        {
+                            "benefitCategory": "Product",
+                            "id": "dd1ea6c8-f304-4e3b-8be2-9e3d6cca69b7",
+                            "billingBenefitCode": "SPRINGSALE1_BENEFIT",
+                            "benefitName": {
+                                "en": "SPRINGSALE1_BENEFIT"
+                            },
+                            "benefitDisplayName": {
+                                "en": "SPRINGSALE1_BENEFIT"
+                            },
+                            "benefitRank": 0,
+                            "description": {
+                                "en": "SPRINGSALE1_BENEFIT"
+                            },
+                            "startDate": "2020-06-25T00:00:00.000Z",
+                            "retIoApplicableProducts": false,
+                            "endDate": "2020-07-31T00:00:00.000Z",
+                            "contractIndicator": "all",
+                            "contractVersion": "3",
+                            "selfBenefit": false,
+                            "duration": 4,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": false,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "5c7dc702-0fa4-4f6a-babf-79551a3788a9",
+                                            "typeId": "product",
+                                            "productType": "campaign",
+                                            "key": "10_PRECENT_OFF_CAMPAIGN"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "percent-off",
+                            "value": {
+                                "percentage": 10
+                            },
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 0,
+                            "agentOffer": false,
+                            "contractTerm": "23",
+                            "minQuantity": 0,
+                            "promoPriority": 4,
+                            "benefitLevel": "product",
+                            "promoSourceSkus": [
+                                {}
+                            ],
+                            "notApplibaleForOffer": false,
+                            "enableServiceDisconnect": false,
+                            "quotaBased": false,
+                            "couponPromo": false,
+                            "migrated": false,
+                            "isDependentPromo": false,
+                            "isMigrated": false,
+                            "isQuotaBased": false
+                        }
+                    ],
+                    "eligibility": {
+                        "constraints": [
+                            {
+                                "customerSegments": [
+                                    "Mobility"
+                                ],
+                                "minimumPurchaseAmount": 0,
+                                "salesChannel": [
+                                    "online"
+                                ]
+                            }
+                        ]
+                    },
+                    "leadOffer": false,
+                    "isVirtual": false,
+                    "flashSaleOffer": false
+                }
+            },
+            {
+                "id": "cfc35f70-62bb-40dc-9b4a-efb9f0d6af78",
+                "code": "CAMPAIGN_OFFER20",
+                "status": "in_progress",
+                "name": {
+                    "en": "20_PRECENT_OFF_CAMPAIGN_OFFER"
+                },
+                "description": {
+                    "en": "campaign test offer for SPRINGSALE20"
+                },
+                "startDate": "2020-06-01T00:00:00.000Z",
+                "endDate": "2020-07-31T00:00:00.000Z",
+                "attributes": {
+                    "offerProductType": "campaign",
+                    "offerProductTypes": [
+                        "campaign"
+                    ],
+                    "offerProductFamily": "satellite",
+                    "offerProductFamilies": [
+                        "satellite"
+                    ],
+                    "offerType": "coupon",
+                    "rank": "4",
+                    "displayName": {
+                        "en": "campaign test offer for SPRINGSALE2"
+                    },
+                    "displayNamesByKey": {},
+                    "migratedOffer": false,
+                    "associatedProducts": [
+                        {
+                            "qualifyingProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "satellite",
+                                        "productTypes": [
+                                            "campaign"
+                                        ],
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "be2dc52d-8d04-4cc6-b270-8e0667ebeca1",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "be2dc52d-8d04-4cc6-b270-8e0667ebeca1",
+                                                "code": "20_PRECENT_OFF_CAMPAIGN",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "1606965f-73ce-4eb7-8c5c-bc2900e8b4fa",
+                                                    "key": "campaign"
+                                                },
+                                                "name": {
+                                                    "en": "20% OFF of movie rental "
+                                                },
+                                                "description": {
+                                                    "en": "20% OFF of movie rental "
+                                                },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "prices": [],
+                                                        "attributes": {
+                                                            "productFamily": "satellite",
+                                                            "campaignId": "424225351",
+                                                            "campaignCode": "20_PRECENT_OFF_CAMPAIGN",
+                                                            "campaignName": "20 PRECENT OFF CAMPAIGN",
+                                                            "campaignDesc": "20% off of a movie rental/purchase",
+                                                            "couponType": "singleUse",
+                                                            "campaignCategory": "standard",
+                                                            "creationDate": "2020-06-22T00:00:00.000Z",
+                                                            "campaignStartDate": "2020-06-23T00:00:00.000Z",
+                                                            "campaignEndDate": "2020-06-30T00:00:00.000Z",
+                                                            "autoRegister": "true",
+                                                            "studioSponsorByATT": true,
+                                                            "lockDuration": "3",
+                                                            "numberOfCoupons": 5,
+                                                            "campaignEligibility": [
+                                                                {
+                                                                    "purchaseType": "Both",
+                                                                    "contentCategory": "Adult",
+                                                                    "format": "Blu-Ray",
+                                                                    "genre": "comedy",
+                                                                    "rating": "G",
+                                                                    "studio": "wb",
+                                                                    "newRelease": true,
+                                                                    "releaseDate": "2"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "productType": "campaign",
+                                            "key": "20_PRECENT_OFF_CAMPAIGN"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [
+                        {
+                            "benefitCategory": "Product",
+                            "id": "12748f0d-459b-40ac-87eb-62b7d9d4e145",
+                            "billingBenefitCode": "SPRINGSALE2_BENEFIT",
+                            "benefitName": {
+                                "en": "SPRINGSALE2_BENEFIT"
+                            },
+                            "benefitDisplayName": {
+                                "en": "SPRINGSALE2_BENEFIT"
+                            },
+                            "benefitRank": 0,
+                            "description": {
+                                "en": "SPRINGSALE2_BENEFIT"
+                            },
+                            "startDate": "2020-06-25T00:00:00.000Z",
+                            "retIoApplicableProducts": false,
+                            "endDate": "2020-07-31T00:00:00.000Z",
+                            "contractIndicator": "all",
+                            "contractVersion": "3",
+                            "selfBenefit": false,
+                            "duration": 4,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": false,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "be2dc52d-8d04-4cc6-b270-8e0667ebeca1",
+                                            "typeId": "product",
+                                            "productType": "campaign",
+                                            "key": "20_PRECENT_OFF_CAMPAIGN"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "percent-off",
+                            "value": {
+                                "percentage": 20
+                            },
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 0,
+                            "agentOffer": false,
+                            "contractTerm": "23",
+                            "minQuantity": 0,
+                            "promoPriority": 4,
+                            "benefitLevel": "product",
+                            "promoSourceSkus": [
+                                {}
+                            ],
+                            "notApplibaleForOffer": false,
+                            "enableServiceDisconnect": false,
+                            "quotaBased": false,
+                            "couponPromo": false,
+                            "migrated": false,
+                            "isDependentPromo": false,
+                            "isMigrated": false,
+                            "isQuotaBased": false
+                        }
+                    ],
+                    "eligibility": {
+                        "constraints": [
+                            {
+                                "customerSegments": [
+                                    "Mobility"
+                                ],
+                                "minimumPurchaseAmount": 0,
+                                "salesChannel": [
+                                    "online"
+                                ],
+                                "businessSegment": [
+                                    "CONS"
+                                ]
+                            }
+                        ]
+                    },
+                    "leadOffer": false,
+                    "isVirtual": false,
+                    "flashSaleOffer": false
+                }
+            },
+            {
+                "id": "f620ddeb-bc35-4117-bf4a-60f046f8f2d8",
+                "code": "DOLLAR_OF_CAMPAIGN799",
+                "status": "in_progress",
+                "name": {
+                    "en": "DOLLAR_OF_CAMPAIGN799"
+                },
+                "startDate": "2020-06-02T00:00:00.000Z",
+                "endDate": "2020-07-31T00:00:00.000Z",
+                "attributes": {
+                    "offerProductType": "campaign",
+                    "offerProductTypes": [
+                        "campaign"
+                    ],
+                    "offerProductFamily": "satellite",
+                    "offerProductFamilies": [
+                        "satellite"
+                    ],
+                    "offerType": "coupon",
+                    "rank": "9",
+                    "displayName": {
+                        "en": "DOLLAR OF TEST CAMPAIGN799"
+                    },
+                    "displayNamesByKey": {
+                        "opus": "ONLINE799"
+                    },
+                    "migratedOffer": false,
+                    "associatedProducts": [
+                        {
+                            "qualifyingProducts": [
+                                {
+                                    "constraints": {
+                                        "productFamily": "satellite",
+                                        "productTypes": [
+                                            "campaign"
+                                        ],
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "14ff0658-5e5d-4dc2-bce4-d698827109f7",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "14ff0658-5e5d-4dc2-bce4-d698827109f7",
+                                                "code": "DOLLAR_OFF_CAMPAIGN_7_99",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "1606965f-73ce-4eb7-8c5c-bc2900e8b4fa",
+                                                    "key": "campaign"
+                                                },
+                                                "name": {
+                                                    "en": "$7.99 off for movie purchase or rental"
+                                                },
+                                                "description": {
+                                                    "en": "$7.99 off for movie purchase or rental"
+                                                },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "prices": [],
+                                                        "attributes": {
+                                                            "productFamily": "satellite",
+                                                            "campaignId": "233243667",
+                                                            "campaignCode": "DOLLAR_OFF_CAMPAIGN_7_99",
+                                                            "campaignName": "$7.99 off for movie purchase or rental",
+                                                            "campaignDesc": "$7.99 off for movie purchase or rental",
+                                                            "couponType": "singleUse",
+                                                            "campaignCategory": "standard",
+                                                            "creationDate": "2020-06-27T00:00:00.000Z",
+                                                            "campaignStartDate": "2020-06-30T00:00:00.000Z",
+                                                            "campaignEndDate": "2020-07-18T00:00:00.000Z",
+                                                            "autoRegister": "true",
+                                                            "studioSponsorByATT": true,
+                                                            "lockDuration": "1",
+                                                            "numberOfCoupons": 5,
+                                                            "campaignEligibility": [
+                                                                {
+                                                                    "purchaseType": "Both",
+                                                                    "contentCategory": "Adult",
+                                                                    "format": "Blu-Ray",
+                                                                    "genre": "comedy",
+                                                                    "rating": "G",
+                                                                    "studio": "WB",
+                                                                    "newRelease": false,
+                                                                    "releaseDate": "2"
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "productType": "campaign",
+                                            "key": "DOLLAR_OFF_CAMPAIGN_7_99"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [
+                        {
+                            "benefitCategory": "Product",
+                            "id": "8ad3bfcd-d968-41d5-bbd4-ee18a53d18b2",
+                            "billingBenefitCode": "DOLLAR_OF_BENEFIT_CAM4",
+                            "benefitName": {
+                                "en": "DOLLAR_OF_BENEFIT_CAM4"
+                            },
+                            "benefitDisplayName": {
+                                "en": "DOLLAR_OF_BENEFIT_CAM4"
+                            },
+                            "benefitRank": 0,
+                            "description": {
+                                "en": ""
+                            },
+                            "startDate": "2020-06-01T00:00:00.000Z",
+                            "retIoApplicableProducts": false,
+                            "endDate": "2020-07-31T00:00:00.000Z",
+                            "contractIndicator": "all",
+                            "contractVersion": "2",
+                            "selfBenefit": false,
+                            "duration": 12,
+                            "period": "NoOfMonths",
+                            "billAfterPeriod": false,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "14ff0658-5e5d-4dc2-bce4-d698827109f7",
+                                            "typeId": "product",
+                                            "productType": "campaign",
+                                            "key": "DOLLAR_OFF_CAMPAIGN_7_99"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "flat-off",
+                            "value": {
+                                "centAmount": 799.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 7.99
+                            },
+                            "freeTrialPromo": false,
+                            "ioOffer": false,
+                            "freeTrialDuration": 0,
+                            "agentOffer": false,
+                            "contractTerm": "34",
+                            "minQuantity": 0,
+                            "promoPriority": 4,
+                            "benefitLevel": "product",
+                            "notApplibaleForOffer": false,
+                            "enableServiceDisconnect": false,
+                            "quotaBased": false,
+                            "couponPromo": false,
+                            "migrated": false,
+                            "isDependentPromo": false,
+                            "isMigrated": false,
+                            "isQuotaBased": false
+                        }
+                    ],
+                    "eligibility": {
+                        "constraints": [
+                            {
+                                "customerSegments": [
+                                    "Mobility"
+                                ],
+                                "minimumPurchaseAmount": 0,
+                                "salesChannel": [
+                                    "dtvSelfService"
+                                ],
+                                "businessSegment": [
+                                    "CONS"
+                                ]
+                            }
+                        ]
+                    },
+                    "leadOffer": false,
+                    "isVirtual": false,
+                    "flashSaleOffer": false
+                }
+            }
+        ],
+        "products": [
+            {
+                "id": "3c916a70-a6c7-4a31-8f65-bb73836c470d",
+                "code": "DOLLAR_OFF_CAMPAIGN_5_99",
+                "productType": {
+                    "typeId": "product-type",
+                    "id": "1606965f-73ce-4eb7-8c5c-bc2900e8b4fa",
+                    "key": "campaign"
+                },
+                "name": {
+                    "en": "$5.99 off for movie purchase or rental"
+                },
+                "description": {
+                    "en": "$5.99 off for movie purchase or rental"
+                },
+                "categories": [],
+                "variants": [
+                    {
+                        "id": "1",
+                        "prices": [],
+                        "attributes": {
+                            "productFamily": "satellite",
+                            "campaignId": "233243679",
+                            "campaignCode": "DOLLAR_OFF_CAMPAIGN_7_99",
+                            "campaignName": "$7.99 off for movie purchase or rental",
+                            "campaignDesc": "$7.99 off for movie purchase or rental",
+                            "couponType": "singleUse",
+                            "campaignCategory": "standard",
+                            "creationDate": "2020-06-26T00:00:00.000Z",
+                            "campaignStartDate": "2020-07-31T00:00:00.000Z",
+                            "campaignEndDate": "2020-06-28T00:00:00.000Z",
+                            "autoRegister": "true",
+                            "studioSponsorByATT": true,
+                            "lockDuration": "7",
+                            "numberOfCoupons": 5,
+                            "campaignEligibility": [
+                                {
+                                    "purchaseType": "Both",
+                                    "contentCategory": "yes",
+                                    "format": "Blu-Ray",
+                                    "genre": "Horror",
+                                    "rating": "PG13",
+                                    "studio": "DISNEY",
+                                    "newRelease": true,
+                                    "releaseDate": "2"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "ae265242-8f84-492b-9761-f2156208a09b",
+                "code": "DOLLAR_OFF_CAMPAIGN_19_99",
+                "productType": {
+                    "typeId": "product-type",
+                    "id": "1606965f-73ce-4eb7-8c5c-bc2900e8b4fa",
+                    "key": "campaign"
+                },
+                "name": {
+                    "en": "$19.99 off for movie purchase or rental"
+                },
+                "description": {
+                    "en": "$19.99 off for movie purchase or rental"
+                },
+                "categories": [],
+                "variants": [
+                    {
+                        "id": "1",
+                        "prices": [],
+                        "attributes": {
+                            "productFamily": "satellite",
+                            "campaignId": "233243634",
+                            "campaignCode": "DOLLAR_OFF_CAMPAIGN_19_99",
+                            "campaignName": "$19.99 off for movie purchase or rental",
+                            "campaignDesc": "$19.99 off for movie purchase or rental",
+                            "couponType": "singleUse",
+                            "campaignCategory": "standard",
+                            "creationDate": "2020-06-06T00:00:00.000Z",
+                            "campaignStartDate": "2020-06-12T00:00:00.000Z",
+                            "campaignEndDate": "2020-07-31T00:00:00.000Z",
+                            "autoRegister": "true",
+                            "studioSponsorByATT": true,
+                            "lockDuration": "9",
+                            "numberOfCoupons": 5,
+                            "campaignEligibility": [
+                                {
+                                    "purchaseType": "Both",
+                                    "contentCategory": "no",
+                                    "format": "4K",
+                                    "genre": "comedy",
+                                    "rating": "PG13",
+                                    "studio": "WB",
+                                    "newRelease": true,
+                                    "releaseDate": "2"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "5f383c2c-4319-4328-8b0d-2470e1e5899b",
+                "code": "75_PRECENT_OFF_CAMPAIGN",
+                "productType": {
+                    "typeId": "product-type",
+                    "id": "1606965f-73ce-4eb7-8c5c-bc2900e8b4fa",
+                    "key": "campaign"
+                },
+                "name": {
+                    "en": "75% OFF of movie rental "
+                },
+                "description": {
+                    "en": "75% OFF of movie rental "
+                },
+                "categories": [],
+                "variants": [
+                    {
+                        "id": "1",
+                        "prices": [],
+                        "attributes": {
+                            "productFamily": "satellite",
+                            "campaignId": "4242253575",
+                            "campaignCode": "75_PRECENT_OFF_CAMPAIGN",
+                            "campaignName": "75 PRECENT OFF CAMPAIGN",
+                            "campaignDesc": "75% off of a movie rental/purchase",
+                            "couponType": "singleUse",
+                            "campaignCategory": "standard",
+                            "creationDate": "2020-06-23T00:00:00.000Z",
+                            "campaignStartDate": "2020-06-30T00:00:00.000Z",
+                            "campaignEndDate": "2020-08-27T00:00:00.000Z",
+                            "autoRegister": "true",
+                            "studioSponsorByATT": true,
+                            "lockDuration": "2",
+                            "numberOfCoupons": 5,
+                            "campaignEligibility": [
+                                {
+                                    "purchaseType": "Both",
+                                    "contentCategory": "NonAdult",
+                                    "format": "Blu-Ray",
+                                    "genre": "Horror",
+                                    "rating": "PG13",
+                                    "studio": "WB",
+                                    "newRelease": true,
+                                    "releaseDate": "2"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "8491030b-6a7e-4174-8a04-934e6d5faae4",
+                "code": "50_PRECENT_OFF_CAMPAIGN",
+                "productType": {
+                    "typeId": "product-type",
+                    "id": "1606965f-73ce-4eb7-8c5c-bc2900e8b4fa",
+                    "key": "campaign"
+                },
+                "name": {
+                    "en": "50% OFF of movie rental "
+                },
+                "description": {
+                    "en": "50% OFF of movie rental "
+                },
+                "categories": [],
+                "variants": [
+                    {
+                        "id": "1",
+                        "prices": [],
+                        "attributes": {
+                            "productFamily": "satellite",
+                            "campaignId": "424225355",
+                            "campaignCode": "50_PRECENT_OFF_CAMPAIGN",
+                            "campaignName": "50 PRECENT OFF CAMPAIGN",
+                            "campaignDesc": "50_PRECENT_OFF_CAMPAIGN",
+                            "couponType": "singleUse",
+                            "campaignCategory": "standard",
+                            "creationDate": "2020-06-22T00:00:00.000Z",
+                            "campaignStartDate": "2020-06-29T00:00:00.000Z",
+                            "campaignEndDate": "2020-07-22T00:00:00.000Z",
+                            "autoRegister": "true",
+                            "studioSponsorByATT": true,
+                            "lockDuration": "1",
+                            "numberOfCoupons": 5,
+                            "campaignEligibility": [
+                                {
+                                    "purchaseType": "Both",
+                                    "contentCategory": "NonAdult",
+                                    "format": "Blu-Ray",
+                                    "genre": "Horror",
+                                    "rating": "G",
+                                    "studio": "DISNEY",
+                                    "newRelease": true,
+                                    "releaseDate": "2"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "5f3c5502-0c1c-44c7-bc6a-12d3686a1685",
+                "code": "100_PRECENT_OFF_CAMPAIGN",
+                "productType": {
+                    "typeId": "product-type",
+                    "id": "1606965f-73ce-4eb7-8c5c-bc2900e8b4fa",
+                    "key": "campaign"
+                },
+                "name": {
+                    "en": "100% OFF of movie rental "
+                },
+                "description": {
+                    "en": "100% OFF of movie rental "
+                },
+                "categories": [],
+                "variants": [
+                    {
+                        "id": "1",
+                        "prices": [],
+                        "attributes": {
+                            "productFamily": "satellite",
+                            "campaignId": "42422535100",
+                            "campaignCode": "100_PRECENT_OFF_CAMPAIGN",
+                            "campaignName": "100 PRECENT OFF CAMPAIGN",
+                            "campaignDesc": "100_PRECENT_OFF_CAMPAIGN",
+                            "couponType": "singleUse",
+                            "campaignCategory": "standard",
+                            "creationDate": "2020-06-30T00:00:00.000Z",
+                            "campaignStartDate": "2020-07-29T00:00:00.000Z",
+                            "campaignEndDate": "2020-07-31T00:00:00.000Z",
+                            "autoRegister": "true",
+                            "studioSponsorByATT": true,
+                            "lockDuration": "5",
+                            "numberOfCoupons": 5,
+                            "campaignEligibility": [
+                                {
+                                    "purchaseType": "Both",
+                                    "contentCategory": "NonAdult",
+                                    "format": "Blu-Ray",
+                                    "genre": "Horror",
+                                    "rating": "PG13",
+                                    "studio": "wb",
+                                    "newRelease": true,
+                                    "releaseDate": "2"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "5c7dc702-0fa4-4f6a-babf-79551a3788a9",
+                "code": "10_PRECENT_OFF_CAMPAIGN",
+                "productType": {
+                    "typeId": "product-type",
+                    "id": "1606965f-73ce-4eb7-8c5c-bc2900e8b4fa",
+                    "key": "campaign"
+                },
+                "name": {
+                    "en": "10% OFF of movie rental "
+                },
+                "description": {
+                    "en": "10% OFF of movie rental "
+                },
+                "categories": [],
+                "variants": [
+                    {
+                        "id": "1",
+                        "prices": [],
+                        "attributes": {
+                            "productFamily": "satellite",
+                            "campaignId": "42422535",
+                            "campaignCode": "10_PRECENT_OFF_CAMPAIGN",
+                            "campaignName": "10 PRECENT OFF CAMPAIGN",
+                            "campaignDesc": "10% off of a movie rental/purchase",
+                            "couponType": "singleUse",
+                            "campaignCategory": "standard",
+                            "creationDate": "2020-06-23T00:00:00.000Z",
+                            "campaignStartDate": "2020-06-23T00:00:00.000Z",
+                            "campaignEndDate": "2020-08-31T00:00:00.000Z",
+                            "autoRegister": "true",
+                            "studioSponsorByATT": true,
+                            "lockDuration": "12",
+                            "numberOfCoupons": 5,
+                            "campaignMessaging": "Get 10% off for movie purchase or rental",
+                            "campaignEligibility": [
+                                {
+                                    "purchaseType": "Both",
+                                    "contentCategory": "NonAdult",
+                                    "format": "4K",
+                                    "genre": "comedy",
+                                    "rating": "PG13",
+                                    "studio": "wb",
+                                    "newRelease": true,
+                                    "releaseDate": "2"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "be2dc52d-8d04-4cc6-b270-8e0667ebeca1",
+                "code": "20_PRECENT_OFF_CAMPAIGN",
+                "productType": {
+                    "typeId": "product-type",
+                    "id": "1606965f-73ce-4eb7-8c5c-bc2900e8b4fa",
+                    "key": "campaign"
+                },
+                "name": {
+                    "en": "20% OFF of movie rental "
+                },
+                "description": {
+                    "en": "20% OFF of movie rental "
+                },
+                "categories": [],
+                "variants": [
+                    {
+                        "id": "1",
+                        "prices": [],
+                        "attributes": {
+                            "productFamily": "satellite",
+                            "campaignId": "424225351",
+                            "campaignCode": "20_PRECENT_OFF_CAMPAIGN",
+                            "campaignName": "20 PRECENT OFF CAMPAIGN",
+                            "campaignDesc": "20% off of a movie rental/purchase",
+                            "couponType": "singleUse",
+                            "campaignCategory": "standard",
+                            "creationDate": "2020-06-22T00:00:00.000Z",
+                            "campaignStartDate": "2020-06-23T00:00:00.000Z",
+                            "campaignEndDate": "2020-06-30T00:00:00.000Z",
+                            "autoRegister": "true",
+                            "studioSponsorByATT": true,
+                            "lockDuration": "3",
+                            "numberOfCoupons": 5,
+                            "campaignEligibility": [
+                                {
+                                    "purchaseType": "Both",
+                                    "contentCategory": "Adult",
+                                    "format": "Blu-Ray",
+                                    "genre": "comedy",
+                                    "rating": "G",
+                                    "studio": "wb",
+                                    "newRelease": true,
+                                    "releaseDate": "2"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "14ff0658-5e5d-4dc2-bce4-d698827109f7",
+                "code": "DOLLAR_OFF_CAMPAIGN_7_99",
+                "productType": {
+                    "typeId": "product-type",
+                    "id": "1606965f-73ce-4eb7-8c5c-bc2900e8b4fa",
+                    "key": "campaign"
+                },
+                "name": {
+                    "en": "$7.99 off for movie purchase or rental"
+                },
+                "description": {
+                    "en": "$7.99 off for movie purchase or rental"
+                },
+                "categories": [],
+                "variants": [
+                    {
+                        "id": "1",
+                        "prices": [],
+                        "attributes": {
+                            "productFamily": "satellite",
+                            "campaignId": "233243667",
+                            "campaignCode": "DOLLAR_OFF_CAMPAIGN_7_99",
+                            "campaignName": "$7.99 off for movie purchase or rental",
+                            "campaignDesc": "$7.99 off for movie purchase or rental",
+                            "couponType": "singleUse",
+                            "campaignCategory": "standard",
+                            "creationDate": "2020-06-27T00:00:00.000Z",
+                            "campaignStartDate": "2020-06-30T00:00:00.000Z",
+                            "campaignEndDate": "2020-07-18T00:00:00.000Z",
+                            "autoRegister": "true",
+                            "studioSponsorByATT": true,
+                            "lockDuration": "1",
+                            "numberOfCoupons": 5,
+                            "campaignEligibility": [
+                                {
+                                    "purchaseType": "Both",
+                                    "contentCategory": "Adult",
+                                    "format": "Blu-Ray",
+                                    "genre": "comedy",
+                                    "rating": "G",
+                                    "studio": "WB",
+                                    "newRelease": false,
+                                    "releaseDate": "2"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "coupons": [
+            {
+                "id": "8763f5ea-1e05-48fe-adc6-c90d216c92ae",
+                "code": "V38OYNCX9B",
+                "startDate": "2020-06-01T00:00:00.000Z",
+                "endDate": "2020-09-28T00:00:00.000Z",
+                "createdAt": "2020-06-26T20:51:28.696Z",
+                "lastModifiedBy": "8316bf34-ee3e-4c6f-bfbd-1063cf9e8ec1",
+                "lastModifiedAt": "2020-06-26T21:31:12.415Z",
+                "name": "V38OYNCX9B",
+                "description": "$19.99 off for movie purchase or rental",
+                "campaignCode": "DOLLAR_OFF_CAMPAIGN_19_99",
+                "maxApplications": 1,
+                "maxApplicationsPerCustomer": 1,
+                "isActive": true,
+                "cartDiscount": [
+                    "065a8274-2320-4c23-9be9-9a3e60d1f632"
+                ]
+            },
+            {
+                "id": "7efa75a0-8a47-420c-9de3-3a348f0c11ae",
+                "code": "J51J5RB6BK",
+                "startDate": "2020-06-01T00:00:00.000Z",
+                "endDate": "2020-08-31T00:00:00.000Z",
+                "createdAt": "2020-06-26T20:44:28.190Z",
+                "lastModifiedBy": "8316bf34-ee3e-4c6f-bfbd-1063cf9e8ec1",
+                "lastModifiedAt": "2020-06-26T21:33:20.431Z",
+                "name": "J51J5RB6BK",
+                "description": "$7.99 off for movie purchase or rental",
+                "campaignCode": "DOLLAR_OFF_CAMPAIGN_7_99",
+                "maxApplications": 1,
+                "maxApplicationsPerCustomer": 1,
+                "isActive": true,
+                "cartDiscount": [
+                    "8ad3bfcd-d968-41d5-bbd4-ee18a53d18b2"
+                ]
+            },
+            {
+                "id": "c4533e2e-c8e6-48c3-83df-16a602f863c8",
+                "code": "J9Z95CSUSO",
+                "startDate": "2020-06-01T00:00:00.000Z",
+                "endDate": "2020-07-31T00:00:00.000Z",
+                "createdAt": "2020-06-26T20:38:32.783Z",
+                "lastModifiedBy": "8316bf34-ee3e-4c6f-bfbd-1063cf9e8ec1",
+                "lastModifiedAt": "2020-06-26T21:36:04.015Z",
+                "name": "J9Z95CSUSO",
+                "description": "$5.99 off for movie purchase or rental",
+                "campaignCode": "DOLLAR_OFF_CAMPAIGN_5_99",
+                "maxApplications": 1,
+                "maxApplicationsPerCustomer": 1,
+                "isActive": true,
+                "cartDiscount": [
+                    "a3867640-872a-4db4-838c-617cb5f54bf1"
+                ]
+            },
+            {
+                "id": "6cb5a393-1cac-463f-8bd6-f68939a2b1c0",
+                "code": "5DYX2X7FHA",
+                "startDate": "2020-06-01T00:00:00.000Z",
+                "endDate": "2020-07-31T00:00:00.000Z",
+                "createdAt": "2020-06-26T20:29:12.030Z",
+                "lastModifiedBy": "8316bf34-ee3e-4c6f-bfbd-1063cf9e8ec1",
+                "lastModifiedAt": "2020-06-26T21:39:13.787Z",
+                "name": "5DYX2X7FHA",
+                "description": "100%off for movie purchase or rental",
+                "campaignCode": "100_PRECENT_OFF_CAMPAIGN",
+                "maxApplications": 1,
+                "maxApplicationsPerCustomer": 1,
+                "isActive": true,
+                "cartDiscount": [
+                    "94278e9a-a7ce-47ce-b71d-ea6f33696a55"
+                ]
+            },
+            {
+                "id": "b0821e37-b5f1-478f-9255-953ecf265b22",
+                "code": "LT753YJYEE",
+                "startDate": "2020-06-01T00:00:00.000Z",
+                "endDate": "2020-07-31T00:00:00.000Z",
+                "createdAt": "2020-06-26T20:23:26.476Z",
+                "lastModifiedBy": "8316bf34-ee3e-4c6f-bfbd-1063cf9e8ec1",
+                "lastModifiedAt": "2020-06-26T21:43:04.361Z",
+                "name": "LT753YJYEE",
+                "description": "75%off for movie purchase or rental",
+                "campaignCode": "75_PRECENT_OFF_CAMPAIGN",
+                "maxApplications": 1,
+                "maxApplicationsPerCustomer": 1,
+                "isActive": true,
+                "cartDiscount": [
+                    "41caa3c2-3b6e-4ab7-918a-0ab0e849fffb"
+                ]
+            },
+            {
+                "id": "d1af57a4-e1a0-4651-a2d4-0897712dd2b0",
+                "code": "205PBWJDAH",
+                "startDate": "2020-06-01T00:00:00.000Z",
+                "endDate": "2020-07-31T00:00:00.000Z",
+                "createdAt": "2020-06-26T20:13:13.741Z",
+                "lastModifiedBy": "961037d2-d5ce-40b8-95b8-c1894d4ac534",
+                "lastModifiedAt": "2020-07-01T15:43:23.053Z",
+                "name": "205PBWJDAH",
+                "description": "50%off for movie purchase or rental",
+                "campaignCode": "50_PRECENT_OFF_CAMPAIGN",
+                "maxApplications": 1,
+                "maxApplicationsPerCustomer": 1,
+                "isActive": true,
+                "couponStatus": "Available",
+                "cartDiscount": [
+                    "9b931bde-4b2b-4e7e-b8e5-ecd7d8552eeb"
+                ]
+            },
+            {
+                "id": "a7604248-0bb2-48a5-b2a6-c8589eec0125",
+                "code": "7JBMZM85NG",
+                "startDate": "2020-06-01T00:00:00.000Z",
+                "endDate": "2020-07-31T00:00:00.000Z",
+                "createdAt": "2020-06-26T20:07:26.335Z",
+                "lastModifiedBy": "8316bf34-ee3e-4c6f-bfbd-1063cf9e8ec1",
+                "lastModifiedAt": "2020-06-26T21:46:48.008Z",
+                "name": "7JBMZM85NG",
+                "description": "20%off for movie purchase or rental",
+                "campaignCode": "20_PRECENT_OFF_CAMPAIGN",
+                "maxApplications": 1,
+                "maxApplicationsPerCustomer": 1,
+                "isActive": true,
+                "cartDiscount": [
+                    "12748f0d-459b-40ac-87eb-62b7d9d4e145"
+                ]
+            },
+            {
+                "id": "c2dfe98e-0350-4771-9c56-60aaa247ce57",
+                "code": "DBJ348BS62",
+                "startDate": "2020-06-23T00:00:00.000Z",
+                "endDate": "2020-08-31T00:00:00.000Z",
+                "createdAt": "2020-06-23T20:33:28.427Z",
+                "lastModifiedAt": "2020-06-26T21:26:13.038Z",
+                "name": "10%off for movie purchase or rental",
+                "description": "10%off for movie purchase or rental",
+                "campaignCode": "10_PRECENT_OFF_CAMPAIGN",
+                "maxApplications": 1,
+                "maxApplicationsPerCustomer": 1,
+                "isActive": true,
+                "couponStatus": "Redeemed",
+                "purchaseDetails": [
+                    {
+                        "titlePurchased": "Avengers",
+                        "retailPrice": "15.99",
+                        "discountAmount": "5",
+                        "netAmount": "10.99"
+                    }
+                ],
+                "cartDiscount": [
+                    "dd1ea6c8-f304-4e3b-8be2-9e3d6cca69b7"
+                ]
+            }
+        ]
+
+}

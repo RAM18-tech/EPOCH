@@ -1,0 +1,1262 @@
+{
+  "limit": 0,
+  "offset": 0,
+  "count": 0,
+  "total": 0,
+  "offers": [    
+    {
+      "id": "dfd6ede4-3eaa-43ea-8587-5a53baef7d02",
+      "code": "OF_BOLTON-HBO-MAX-V2_satellite",
+      "name": {
+        "en": "HBO Max"
+      },
+      "description": {
+        "en": "HBO Max. All of HBO together with the greatest collection of movies, shows and new Max Originals. Includes HBO channels and HBO on Demand. Access HBO Max only through HBO Max app or hbomax.com. HBO Max also includes HBO channels and HBO On Demand on DIRECTV."
+      },
+      "startDate": "2021-04-02T00:00:00.000Z",
+      "endDate": "2050-12-31T23:59:00.000Z",
+      "attributes": {
+        "offerProductType": "video-addon",
+        "offerProductTypes": [
+          "video-addon"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Cross-sell",
+        "offerActionTypes": [
+          "Cross-sell",
+          "Other",
+          "Downgrade",
+          "Upgrade"
+        ],
+        "rank": "210",
+        "displayName": {
+          "en": "HBO Max - $0.00 for first 2 months $14.99/mo. thereafter"
+        },
+        "termsAndConditions": {
+          "en": "By subscribing you will receive HBO Max at no extra cost for 2 months. After 2 months, HBO Max continues automatically at the then prevailing rate (currently $14.99/mo.) unless you call to change or cancel."
+        },
+        "billingId": "1",
+        "billingCode": "P2140",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-addon"
+                  ],
+                  "productStatus": "Active",
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "aa33dddf-bdf5-4963-bd96-9d28d16beaa5",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "aa33dddf-bdf5-4963-bd96-9d28d16beaa5",
+                      "code": "BOLTON-HBO-MAX_satellite",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                        "key": "video-addon"
+                      },
+                      "name": {
+                        "en": "HBO Max"
+                      },
+                      "description": {
+                        "en": "HBO Max. All of HBO together with the greatest collection of movies, shows and new Max Originals. Includes HBO channels and HBO on Demand. Access HBO Max only through HBO Max app or hbomax.com. HBO Max also includes HBO channels and HBO On Demand on DIRECTV."
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "sku": "P2140",
+                          "key": "P2140",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 1499,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 14.99
+                              },
+                              "id": "344fe1c6-d552-4449-9e1d-01acecdc12ad",
+                              "startDate": "2021-04-02T00:00:00.000Z",
+                              "endDate": "2050-12-31T23:59:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "period": "month",
+                              "billingReferenceId": "1",
+                              "gfVersion": 0,
+                              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+                              "chargeType": "mrc",
+                              "grandfatherVersion": 0,
+                              "omsProductId": "2438",
+                              "contracted": false,
+                              "grandfathered": false
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "HBO Max"
+                            },
+                            "displayRanking": 210,
+                            "displayNamesByKey": {
+                              "name-cpc": "HBO Max <sup>&#8482;</sup>"
+                            },
+                            "billingProductCode": "P2140",
+                            "billingCode": "P2140",
+                            "startDate": "2007-03-01T05:00:00.000Z",
+                            "endDate": "2050-12-31T05:00:00.000Z",
+                            "businessSegment": [
+                              "MDU",
+                              "CONS"
+                            ],
+                            "salesChannel": [
+                              "onlineSales",
+                              "onlineServices",
+                              "opusSales",
+                              "opusServices",
+                              "partnerSales",
+                              "partnerServices"
+                            ],
+                            "productFamily": "satellite",
+                            "removalRule": {
+                              "channel": [],
+                              "accountType": [
+                                "NONE"
+                              ]
+                            },
+                            "planSubType": "Premium",
+                            "language": "English",
+                            "productStatus": "Active",
+                            "contractApplicable": "noncontract",
+                            "contractIndicator": [
+                              "non-contract"
+                            ],
+                            "subCategory": "Premium",
+                            "omsComponentMapping": [
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "PickCode",
+                                    "attributeValue": "P0030"
+                                  }
+                                ],
+                                "componentCode": "PickDV",
+                                "componentPath": "PickDV"
+                              },
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "DTgenrePackage",
+                                    "attributeValue": "HBODV"
+                                  }
+                                ],
+                                "componentCode": "HBODV",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV|HBODV"
+                              }
+                            ],
+                            "customerSegments": [
+                              "Residential"
+                            ],
+                            "isPickService": true,
+                            "isAutoRenewable": false,
+                            "termsAndConditions": {
+                              "en": "By subscribing you will be billed $14.99 per month on a recurring basis (price subject to change)."
+                            },
+                            "conflictingProducts": [],
+                            "migratedProduct": false,
+                            "omsProductCode": "HBODV",
+                            "orderingMethod": "addToCart",
+                            "enablerPricePlanCode": "88830604",
+                            "tokens": "hbo",
+                            "chargeCode": "DTVPIC",
+                            "isWorldDirect": false,
+                            "isETFRequired": false,
+                            "isRemovable": false,
+                            "billingParams": [
+                              {
+                                "value": "P0030",
+                                "name": "PickCode"
+                              }
+                            ],
+                            "pick5Mask": "1",
+                            "dollarAmount": 14.99,
+                            "enablerATGProductId": "prod8370258",
+                            "enablerATGSkuId": "sku7680296",
+                            "productImages": "/cms2/product_catalog/premiums/HBOmax_logo.gif"
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [
+          {
+            "benefitCategory": "Product",
+            "billingBenefitId": "B105720/003",
+            "id": "6f513b91-e750-44de-936b-32f56ace0684",
+            "code": "PROMO_HBO-MAX-2-MO_satellite",
+            "billingBenefitCode": "89026503",
+            "benefitName": {
+              "en": "$14.99 off HBO Max for 2 months"
+            },
+            "benefitDisplayName": {
+              "en": "$14.99 off HBO Max for 2 months"
+            },
+            "benefitRank": 5000,
+            "description": {
+              "en": "$14.99 off HBO Max for 2 months"
+            },
+            "startDate": "2022-04-01T00:00:00.000Z",
+            "retIoApplicableProducts": false,
+            "endDate": "2049-12-31T23:59:00.000Z",
+            "contractIndicator": "contract",
+            "selfBenefit": false,
+            "duration": 2,
+            "period": "NoOfMonths",
+            "billAfterPeriod": false,
+            "applicableProducts": [
+              {
+                "products": [
+                  {
+                    "id": "0d721dff-8856-4331-9ab1-4fc301d5783e",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ-SHOW_satellite"
+                  },
+                  {
+                    "id": "21292029-f11b-4154-bd43-60e460db4b89",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ-SHOW-CINE_satellite"
+                  },
+                  {
+                    "id": "aa39b40b-9cb7-4528-8eb0-f8133b8d2857",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ-CINE_satellite"
+                  },
+                  {
+                    "id": "8c298a73-bc97-49d8-8e0b-00b011069b2b",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ-SHOW-CINE-SPORTS_satellite"
+                  },
+                  {
+                    "id": "0865d3c0-e017-40e5-9417-53f8e13aeb6d",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-SHOW-SPORTS_satellite"
+                  },
+                  {
+                    "id": "5fdba0b6-e2d2-4489-bb3b-925669adfbe0",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-SHOW-CINE_satellite"
+                  },
+                  {
+                    "id": "a49ba388-2a31-4a44-8756-1829ba436125",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ-CINE-SPORTS_satellite"
+                  },
+                  {
+                    "id": "c40bc3bf-7654-44f0-bb60-f5616eaa6335",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-CINE-SPORTS_satellite"
+                  },
+                  {
+                    "id": "b204c88d-959c-4954-abfc-9244a9bc31df",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-SHOW-CINE-SPORTS_satellite"
+                  },
+                  {
+                    "id": "09675f09-2a60-451e-9ca4-deae03198f3b",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-SPORTS_satellite"
+                  },
+                  {
+                    "id": "67555d24-fc3f-4365-b456-1b4724833de9",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ-SHOW-SPORTS_satellite"
+                  },
+                  {
+                    "id": "d6c48b14-48e0-4e71-ac11-e19813cc6dcd",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-SHOW_satellite"
+                  },
+                  {
+                    "id": "8cb3129f-a716-469e-b128-351a7e1babf3",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ-SPORTS_satellite"
+                  },
+                  {
+                    "id": "7da5ca61-0b02-4950-8d5b-118708bbae26",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ_satellite"
+                  },
+                  {
+                    "id": "90b230e7-b9aa-4755-a2f8-486d731ed33c",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-CINE_satellite"
+                  },
+                  {
+                    "id": "aa33dddf-bdf5-4963-bd96-9d28d16beaa5",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX_satellite"
+                  }
+                ]
+              }
+            ],
+            "maxOccurrence": 0,
+            "benefitType": "flat-off",
+            "value": {
+              "centAmount": 1499,
+              "currencyCode": "USD",
+              "fractionDigits": 2,
+              "dollarAmount": 14.99
+            },
+            "secondaryBenefitCode": "VAGR-HBO-FreeTrial-2MO-V1",
+            "freeTrialPromo": false,
+            "ioOffer": false,
+            "freeTrialDuration": 0,
+            "agentOffer": false,
+            "minQuantity": 0,
+            "promoPriority": 4,
+            "benefitLevel": "product",
+            "notApplibaleForOffer": false,
+            "enableServiceDisconnect": false,
+            "rtpIndicator": false,
+            "portin": false,
+            "benefitSaleType": "A",
+            "segment": [
+              "residential"
+            ],
+            "businessSegment": [
+              "MDU"
+            ],
+            "salesChannels": [
+              "online"
+            ],
+            "benefitActionType": [
+              "UP"
+            ],
+            "gfVersion": "0",
+            "enablerPromotionCode": "DS2269",
+            "locationType": "nation",
+            "location": "US",
+            "rebateID": "400111",
+            "billingReasonCode": "4461",
+            "omsProductId": "10041350",
+            "numberOfCredits": 2,
+            "recurringBillingReasonCode": "SAJ4462",
+            "agreementID": "VAGR-HBO-FreeTrial-2MO-V1",
+            "agreementPriceCode": "1",
+            "active": true,
+            "quotaBased": false,
+            "migrated": false,
+            "couponPromo": false,
+            "isDependentPromo": false,
+            "isMigrated": false,
+            "isQuotaBased": false,
+            "isActive": true
+          }
+        ],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "customerSegment": "Residential",
+              "salesChannel": [
+                "opusServices",
+                "opusSales",
+                "onlineServices",
+                "onlineSales",
+                "opus",
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "conflictingOffers": [
+          {
+            "typeId": "offer",
+            "id": "1e518d9c-a9b5-4088-a771-85bfd74b2a6e",
+            "key": "OF_BOLTON-HBO-MAX_satellite"
+          }
+        ],
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+    {
+      "id": "be5ed85c-ddfd-422c-8cc2-7aa608dc0252",
+      "code": "OF_BOLTON-HBO-MAX-V3_satellite",
+      "name": {
+        "en": "$5 off HBO Max for 24 Months (Roll To Pay)"
+      },
+      "description": {
+        "en": "$5 off HBO Max for 24 Months (Roll To Pay)"
+      },
+      "startDate": "2022-05-01T00:00:00.000Z",
+      "endDate": "2050-12-31T23:59:00.000Z",
+      "attributes": {
+        "offerProductType": "video-addon",
+        "offerProductTypes": [
+          "video-addon"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Other",
+        "offerActionTypes": [
+          "Other"
+        ],
+        "rank": "210",
+        "displayName": {
+          "en": "$5 off HBO Max for 24 Months (Roll To Pay)"
+        },
+        "termsAndConditions": {
+          "en": "You have selected HBO Max at $9.99 for 24 months. After you will be billed each month the price then in effect (currently you cancel before the end of the promotional period or period. You may cancel by calling 800-531-5000. HBO discounts exceed the price of HBO. May I add this offer based on these terms, you agree to be billed at the end of the promotional described above."
+        },
+        "billingCode": "P2140",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-addon"
+                  ],
+                  "productStatus": "Active",
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "aa33dddf-bdf5-4963-bd96-9d28d16beaa5",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "aa33dddf-bdf5-4963-bd96-9d28d16beaa5",
+                      "code": "BOLTON-HBO-MAX_satellite",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                        "key": "video-addon"
+                      },
+                      "name": {
+                        "en": "HBO Max"
+                      },
+                      "description": {
+                        "en": "HBO Max. All of HBO together with the greatest collection of movies, shows and new Max Originals. Includes HBO channels and HBO on Demand. Access HBO Max only through HBO Max app or hbomax.com. HBO Max also includes HBO channels and HBO On Demand on DIRECTV."
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "sku": "P2140",
+                          "key": "P2140",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 1499,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 14.99
+                              },
+                              "id": "344fe1c6-d552-4449-9e1d-01acecdc12ad",
+                              "startDate": "2021-04-02T00:00:00.000Z",
+                              "endDate": "2050-12-31T23:59:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "period": "month",
+                              "billingReferenceId": "1",
+                              "gfVersion": 0,
+                              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+                              "chargeType": "mrc",
+                              "grandfatherVersion": 0,
+                              "omsProductId": "2438",
+                              "contracted": false,
+                              "grandfathered": false
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "HBO Max"
+                            },
+                            "displayRanking": 210,
+                            "displayNamesByKey": {
+                              "name-cpc": "HBO Max <sup>&#8482;</sup>"
+                            },
+                            "billingProductCode": "P2140",
+                            "billingCode": "P2140",
+                            "startDate": "2007-03-01T05:00:00.000Z",
+                            "endDate": "2050-12-31T05:00:00.000Z",
+                            "businessSegment": [
+                              "MDU",
+                              "CONS"
+                            ],
+                            "salesChannel": [
+                              "onlineSales",
+                              "onlineServices",
+                              "opusSales",
+                              "opusServices",
+                              "partnerSales",
+                              "partnerServices"
+                            ],
+                            "productFamily": "satellite",
+                            "removalRule": {
+                              "channel": [],
+                              "accountType": [
+                                "NONE"
+                              ]
+                            },
+                            "planSubType": "Premium",
+                            "language": "English",
+                            "productStatus": "Active",
+                            "contractApplicable": "noncontract",
+                            "contractIndicator": [
+                              "non-contract"
+                            ],
+                            "subCategory": "Premium",
+                            "omsComponentMapping": [
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "PickCode",
+                                    "attributeValue": "P0030"
+                                  }
+                                ],
+                                "componentCode": "PickDV",
+                                "componentPath": "PickDV"
+                              },
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "DTgenrePackage",
+                                    "attributeValue": "HBODV"
+                                  }
+                                ],
+                                "componentCode": "HBODV",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV|HBODV"
+                              }
+                            ],
+                            "customerSegments": [
+                              "Residential"
+                            ],
+                            "isPickService": true,
+                            "isAutoRenewable": false,
+                            "termsAndConditions": {
+                              "en": "By subscribing you will be billed $14.99 per month on a recurring basis (price subject to change)."
+                            },
+                            "conflictingProducts": [],
+                            "migratedProduct": false,
+                            "omsProductCode": "HBODV",
+                            "orderingMethod": "addToCart",
+                            "enablerPricePlanCode": "88830604",
+                            "tokens": "hbo",
+                            "chargeCode": "DTVPIC",
+                            "isWorldDirect": false,
+                            "isETFRequired": false,
+                            "isRemovable": false,
+                            "billingParams": [
+                              {
+                                "value": "P0030",
+                                "name": "PickCode"
+                              }
+                            ],
+                            "pick5Mask": "1",
+                            "dollarAmount": 14.99,
+                            "enablerATGProductId": "prod8370258",
+                            "enablerATGSkuId": "sku7680296",
+                            "productImages": "/cms2/product_catalog/premiums/HBOmax_logo.gif"
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [
+          {
+            "benefitCategory": "Product",
+            "billingBenefitId": "B101080/007",
+            "id": "e39633de-6d5d-48bc-a61e-82a6a4841b4a",
+            "code": "PROMO_HBO-MAX-5-OFF-FOR-24-MO_satellite",
+            "billingBenefitCode": "89033803",
+            "benefitName": {
+              "en": "$5 off HBO Max for 24 months"
+            },
+            "benefitDisplayName": {
+              "en": "$5 off HBO Max for 24 months"
+            },
+            "benefitRank": 4050,
+            "description": {
+              "en": "$5 off HBO Max for 24 months"
+            },
+            "startDate": "2022-05-22T00:00:00.000Z",
+            "retIoApplicableProducts": false,
+            "endDate": "2049-12-31T23:59:00.000Z",
+            "contractIndicator": "contract",
+            "selfBenefit": false,
+            "duration": 24,
+            "period": "NoOfMonths",
+            "billAfterPeriod": false,
+            "applicableProducts": [
+              {
+                "products": [
+                  {
+                    "id": "0d721dff-8856-4331-9ab1-4fc301d5783e",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ-SHOW_satellite"
+                  },
+                  {
+                    "id": "21292029-f11b-4154-bd43-60e460db4b89",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ-SHOW-CINE_satellite"
+                  },
+                  {
+                    "id": "aa39b40b-9cb7-4528-8eb0-f8133b8d2857",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ-CINE_satellite"
+                  },
+                  {
+                    "id": "8c298a73-bc97-49d8-8e0b-00b011069b2b",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ-SHOW-CINE-SPORTS_satellite"
+                  },
+                  {
+                    "id": "0865d3c0-e017-40e5-9417-53f8e13aeb6d",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-SHOW-SPORTS_satellite"
+                  },
+                  {
+                    "id": "5fdba0b6-e2d2-4489-bb3b-925669adfbe0",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-SHOW-CINE_satellite"
+                  },
+                  {
+                    "id": "a49ba388-2a31-4a44-8756-1829ba436125",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ-CINE-SPORTS_satellite"
+                  },
+                  {
+                    "id": "c40bc3bf-7654-44f0-bb60-f5616eaa6335",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-CINE-SPORTS_satellite"
+                  },
+                  {
+                    "id": "b204c88d-959c-4954-abfc-9244a9bc31df",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-SHOW-CINE-SPORTS_satellite"
+                  },
+                  {
+                    "id": "09675f09-2a60-451e-9ca4-deae03198f3b",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-SPORTS_satellite"
+                  },
+                  {
+                    "id": "67555d24-fc3f-4365-b456-1b4724833de9",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ-SHOW-SPORTS_satellite"
+                  },
+                  {
+                    "id": "d6c48b14-48e0-4e71-ac11-e19813cc6dcd",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-SHOW_satellite"
+                  },
+                  {
+                    "id": "8cb3129f-a716-469e-b128-351a7e1babf3",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ-SPORTS_satellite"
+                  },
+                  {
+                    "id": "7da5ca61-0b02-4950-8d5b-118708bbae26",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-STARZ_satellite"
+                  },
+                  {
+                    "id": "90b230e7-b9aa-4755-a2f8-486d731ed33c",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX-CINE_satellite"
+                  },
+                  {
+                    "id": "aa33dddf-bdf5-4963-bd96-9d28d16beaa5",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX_satellite"
+                  }
+                ]
+              }
+            ],
+            "maxOccurrence": 0,
+            "benefitType": "flat-off",
+            "value": {
+              "centAmount": 500,
+              "currencyCode": "USD",
+              "fractionDigits": 2,
+              "dollarAmount": 5
+            },
+            "freeTrialPromo": false,
+            "ioOffer": false,
+            "freeTrialDuration": 0,
+            "agentOffer": false,
+            "minQuantity": 0,
+            "promoPriority": 4,
+            "benefitLevel": "product",
+            "notApplibaleForOffer": false,
+            "enableServiceDisconnect": false,
+            "rtpIndicator": true,
+            "portin": false,
+            "benefitSaleType": "A",
+            "segment": [
+              "residential"
+            ],
+            "businessSegment": [
+              "MDU"
+            ],
+            "salesChannels": [
+              "online"
+            ],
+            "gfVersion": "0",
+            "enablerPromotionCode": "DS2293",
+            "locationType": "nation",
+            "location": "US",
+            "rebateID": "400111",
+            "numberOfCredits": 24,
+            "active": false,
+            "quotaBased": false,
+            "migrated": false,
+            "couponPromo": false,
+            "isDependentPromo": false,
+            "isMigrated": false,
+            "isQuotaBased": false,
+            "isActive": false
+          }
+        ],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "customerSegment": "Residential",
+              "salesChannel": [
+                "opusServices",
+                "opusSales",
+                "onlineServices",
+                "onlineSales",
+                "opus",
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "conflictingOffers": [
+          {
+            "typeId": "offer",
+            "id": "1e518d9c-a9b5-4088-a771-85bfd74b2a6e",
+            "key": "OF_BOLTON-HBO-MAX_satellite"
+          },
+          {
+            "typeId": "offer",
+            "id": "dfd6ede4-3eaa-43ea-8587-5a53baef7d02",
+            "key": "OF_BOLTON-HBO-MAX-V2_satellite"
+          }
+        ],
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "nonStackableCodes": "B101080",
+        "targetedOffer": true,
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+    {
+      "id": "1e518d9c-a9b5-4088-a771-85bfd74b2a6e",
+      "code": "OF_BOLTON-HBO-MAX_satellite",
+      "status": "live",
+      "name": {
+        "en": "HBO Max"
+      },
+      "description": {
+        "en": "HBO Max. All of HBO together with the greatest collection of movies, shows and new Max Originals. Includes HBO channels and HBO on Demand. Access HBO Max only through HBO Max app or hbomax.com. HBO Max also includes HBO channels and HBO On Demand on DIRECTV."
+      },
+      "startDate": "2007-03-01T05:00:00.000Z",
+      "endDate": "2050-12-31T08:00:00.000Z",
+      "attributes": {
+        "offerProductType": "video-addon",
+        "offerProductTypes": [
+          "video-addon"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Other",
+        "offerActionTypes": [
+          "Other",
+          "Cross-sell",
+          "Downgrade",
+          "Upgrade",
+          "Acquisition"
+        ],
+        "environment": "",
+        "rank": "210",
+        "displayName": {
+          "en": "HBO Max"
+        },
+        "termsAndConditions": {
+          "en": "By subscribing you will be billed $14.99 per month on a recurring basis (price subject to change)."
+        },
+        "billingId": "1",
+        "billingCode": "P2140",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-addon"
+                  ],
+                  "productStatus": "Active",
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "aa33dddf-bdf5-4963-bd96-9d28d16beaa5",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "aa33dddf-bdf5-4963-bd96-9d28d16beaa5",
+                      "code": "BOLTON-HBO-MAX_satellite",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                        "key": "video-addon"
+                      },
+                      "name": {
+                        "en": "HBO Max"
+                      },
+                      "description": {
+                        "en": "HBO Max. All of HBO together with the greatest collection of movies, shows and new Max Originals. Includes HBO channels and HBO on Demand. Access HBO Max only through HBO Max app or hbomax.com. HBO Max also includes HBO channels and HBO On Demand on DIRECTV."
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "sku": "P2140",
+                          "key": "P2140",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 1499,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 14.99
+                              },
+                              "id": "344fe1c6-d552-4449-9e1d-01acecdc12ad",
+                              "startDate": "2021-04-02T00:00:00.000Z",
+                              "endDate": "2050-12-31T23:59:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "period": "month",
+                              "billingReferenceId": "1",
+                              "gfVersion": 0,
+                              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+                              "chargeType": "mrc",
+                              "grandfatherVersion": 0,
+                              "omsProductId": "2438",
+                              "contracted": false,
+                              "grandfathered": false
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "HBO Max"
+                            },
+                            "displayRanking": 210,
+                            "displayNamesByKey": {
+                              "name-cpc": "HBO Max <sup>&#8482;</sup>"
+                            },
+                            "billingProductCode": "P2140",
+                            "billingCode": "P2140",
+                            "startDate": "2007-03-01T05:00:00.000Z",
+                            "endDate": "2050-12-31T05:00:00.000Z",
+                            "businessSegment": [
+                              "MDU",
+                              "CONS"
+                            ],
+                            "salesChannel": [
+                              "onlineSales",
+                              "onlineServices",
+                              "opusSales",
+                              "opusServices",
+                              "partnerSales",
+                              "partnerServices"
+                            ],
+                            "productFamily": "satellite",
+                            "removalRule": {
+                              "channel": [],
+                              "accountType": [
+                                "NONE"
+                              ]
+                            },
+                            "planSubType": "Premium",
+                            "language": "English",
+                            "productStatus": "Active",
+                            "contractApplicable": "noncontract",
+                            "contractIndicator": [
+                              "non-contract"
+                            ],
+                            "subCategory": "Premium",
+                            "omsComponentMapping": [
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "PickCode",
+                                    "attributeValue": "P0030"
+                                  }
+                                ],
+                                "componentCode": "PickDV",
+                                "componentPath": "PickDV"
+                              },
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "DTgenrePackage",
+                                    "attributeValue": "HBODV"
+                                  }
+                                ],
+                                "componentCode": "HBODV",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV|HBODV"
+                              }
+                            ],
+                            "customerSegments": [
+                              "Residential"
+                            ],
+                            "isPickService": true,
+                            "isAutoRenewable": false,
+                            "termsAndConditions": {
+                              "en": "By subscribing you will be billed $14.99 per month on a recurring basis (price subject to change)."
+                            },
+                            "conflictingProducts": [],
+                            "migratedProduct": false,
+                            "omsProductCode": "HBODV",
+                            "orderingMethod": "addToCart",
+                            "enablerPricePlanCode": "88830604",
+                            "tokens": "hbo",
+                            "chargeCode": "DTVPIC",
+                            "isWorldDirect": false,
+                            "isETFRequired": false,
+                            "isRemovable": false,
+                            "billingParams": [
+                              {
+                                "value": "P0030",
+                                "name": "PickCode"
+                              }
+                            ],
+                            "pick5Mask": "1",
+                            "dollarAmount": 14.99,
+                            "enablerATGProductId": "prod8370258",
+                            "enablerATGSkuId": "sku7680296",
+                            "productImages": "/cms2/product_catalog/premiums/HBOmax_logo.gif"
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "customerSegment": "Residential",
+              "salesChannel": [
+                "opusSales",
+                "opusServices",
+                "onlineServices",
+                "onlineSales",
+                "opus",
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "offerPromos": [],
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "aa33dddf-bdf5-4963-bd96-9d28d16beaa5",
+      "code": "BOLTON-HBO-MAX_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "HBO Max"
+      },
+      "description": {
+        "en": "HBO Max. All of HBO together with the greatest collection of movies, shows and new Max Originals. Includes HBO channels and HBO on Demand. Access HBO Max only through HBO Max app or hbomax.com. HBO Max also includes HBO channels and HBO On Demand on DIRECTV."
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P2140",
+          "key": "P2140",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 1499,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 14.99
+              },
+              "id": "344fe1c6-d552-4449-9e1d-01acecdc12ad",
+              "startDate": "2021-04-02T00:00:00.000Z",
+              "endDate": "2050-12-31T23:59:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "period": "month",
+              "billingReferenceId": "1",
+              "gfVersion": 0,
+              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "omsProductId": "2438",
+              "contracted": false,
+              "grandfathered": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "HBO Max"
+            },
+            "displayRanking": 210,
+            "displayNamesByKey": {
+              "name-cpc": "HBO Max <sup>&#8482;</sup>"
+            },
+            "billingProductCode": "P2140",
+            "billingCode": "P2140",
+            "startDate": "2007-03-01T05:00:00.000Z",
+            "endDate": "2050-12-31T05:00:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "onlineSales",
+              "onlineServices",
+              "opusSales",
+              "opusServices",
+              "partnerSales",
+              "partnerServices"
+            ],
+            "productFamily": "satellite",
+            "removalRule": {
+              "channel": [],
+              "accountType": [
+                "NONE"
+              ]
+            },
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "subCategory": "Premium",
+            "omsComponentMapping": [
+              {
+                "attributes": [
+                  {
+                    "attributeCode": "PickCode",
+                    "attributeValue": "P0030"
+                  }
+                ],
+                "componentCode": "PickDV",
+                "componentPath": "PickDV"
+              },
+              {
+                "attributes": [
+                  {
+                    "attributeCode": "DTgenrePackage",
+                    "attributeValue": "HBODV"
+                  }
+                ],
+                "componentCode": "HBODV",
+                "operationName": "MOORequest,PUSPO1Request",
+                "componentPath": "ATTDTV|HBODV"
+              }
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": true,
+            "isAutoRenewable": false,
+            "termsAndConditions": {
+              "en": "By subscribing you will be billed $14.99 per month on a recurring basis (price subject to change)."
+            },
+            "conflictingProducts": [],
+            "migratedProduct": false,
+            "omsProductCode": "HBODV",
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88830604",
+            "tokens": "hbo",
+            "chargeCode": "DTVPIC",
+            "isWorldDirect": false,
+            "isETFRequired": false,
+            "isRemovable": false,
+            "billingParams": [
+              {
+                "value": "P0030",
+                "name": "PickCode"
+              }
+            ],
+            "pick5Mask": "1",
+            "dollarAmount": 14.99,
+            "enablerATGProductId": "prod8370258",
+            "enablerATGSkuId": "sku7680296",
+            "productImages": "/cms2/product_catalog/premiums/HBOmax_logo.gif"
+          }
+        }
+      ]
+    }
+  ]
+}

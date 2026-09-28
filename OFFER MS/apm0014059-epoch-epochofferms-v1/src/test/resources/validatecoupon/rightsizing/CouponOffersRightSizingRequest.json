@@ -1,0 +1,123 @@
+{
+  "offerActionType": [
+    "Upgrade",
+    "Downgrade",
+    "Cross-sell",
+    "Other"
+  ],
+  "salesChannel": "directvOnline",
+  "offerProductFamily": "OTT",
+  "accountTypes": "MDUTenant",
+  "businessSegment": "MDU",
+  "customerSegments": "MDUTenant",
+  "contractIndicator": [
+    "EDSP"
+  ],
+  "migrationIndicator": false,
+  "cartContext": {
+    "cartProducts": [
+      {
+        "productCode": "BRIDGE-CHOTOPREM-202204",
+        "action": "nochange"
+      },
+      {
+        "productCode": "BOLT-SPACK2-202209",
+        "action": "nochange"
+      },
+      {
+        "productCode": "BOLT-HBOCMX-202204",
+        "action": "nochange"
+      },
+      {
+        "productCode": "BOLT-EPIX-201907",
+        "action": "nochange"
+      },
+      {
+        "productCode": "BOLT-DEPORTES-201802",
+        "action": "nochange"
+      },
+      {
+        "productCode": "BOLT-CDVRUNLIMITED-202101",
+        "action": "nochange"
+      },
+      {
+        "productCode": "BOLT-FOXN-202222",
+        "action": "Add"
+      }
+    ]
+  },
+  "customerContext": {
+    "existingProductFamily": [
+      {
+        "productFamily": "OTT",
+        "hasActiveInstallments": false
+      }
+    ],
+    "ott": {
+      "accountNumber": "424071222928935",
+      "nextBillingDate": "08/11/2024",
+      "parentSubscriptionDate": "07/12/2024",
+      "accountStatus": "ACTIVE",
+      "products": [
+        {
+          "productCode": "BOLT-SPACK2-202209",
+          "productType": "video-addon",
+          "basePrice": "14.99",
+          "promotions": [
+            {
+              "promotionId": "SPACKLTP",
+              "promotionStartDate": "07/11/2024"
+            }
+          ]
+        },
+        {
+          "productCode": "BASE-CHOICE-201811",
+          "productType": "video-plan",
+          "basePrice": "0.0"
+        },
+        {
+          "productCode": "BOLT-HBOCMX-202204",
+          "productType": "video-addon",
+          "basePrice": "0.0"
+        },
+        {
+          "productCode": "BRIDGE-CHOTOPREM-202204",
+          "productType": "video-plan",
+          "basePrice": "85.0"
+        },
+        {
+          "productCode": "BOLT-20STREAMS-202010",
+          "productType": "video-addon",
+          "basePrice": "0.0"
+        },
+        {
+          "productCode": "BOLT-EPIX-201907",
+          "productType": "video-addon",
+          "basePrice": "0.0"
+        },
+        {
+          "productCode": "BOLT-SHOWTIME-201707",
+          "productType": "video-addon",
+          "basePrice": "0.0"
+        },
+        {
+          "productCode": "BOLT-CDVRUNLIMITED-202101",
+          "productType": "video-addon",
+          "basePrice": "0.0",
+          "promotions": [
+            {
+              "promotionId": "UNLTDCDVR",
+              "promotionStartDate": "07/11/2024"
+            }
+          ]
+        },
+        {
+          "productCode": "BOLT-DEPORTES-201802",
+          "productType": "video-addon",
+          "basePrice": "4.99"
+        }
+      ],
+      "active": false
+    }
+  }
+}

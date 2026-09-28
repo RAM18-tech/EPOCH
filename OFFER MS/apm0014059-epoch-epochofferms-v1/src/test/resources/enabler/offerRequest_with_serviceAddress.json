@@ -1,0 +1,93 @@
+{
+    "customerEligibility": {
+        "zipCode": [
+            "42101"
+        ],
+        "county": [
+            "21031"
+        ]
+    },
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "salesChannel": [
+        "online"
+    ],
+    "offerActionType": [
+        "Upgrade",
+        "Downgrade",
+        "Cross-sell",
+        "Other"
+    ],
+    "cartContext": {
+        "cartOffers": [
+            
+            {
+                "offerCode": "OF_BOLTON-HISTORY-VAULT_satellite",
+                "quantity": "1",
+                "action": "add"
+            },
+            {
+                "offerCode": "OF_ACCESSORY-GENIE-REMOTE_satellite",
+                "quantity": "1",
+                "action": "add"
+            },
+            {
+                "offerCode": "OF_DEVICE-HD-RECEIVER-1_satellite",
+                "quantity": "2",
+                "action": "add"
+            },
+            {
+                "offerCode": "OF_DEVICE-TIVO-HD-DVR-RECEIVER-99_satellite",
+                "quantity": "1",
+                "action": "add"
+            }
+        ],
+        "cartProducts": [
+            
+            {
+                "pricePlanCode": "88935963",
+                "productType": "video-addon"
+            }
+        ]
+    },
+    "customerContext": {
+        "satellite": {
+            "products": [
+                {
+                    "pricePlanCode": "88834854",
+                    "productType": "video-plan",
+                    "priceCode": "NA"
+                },
+                {
+                    "pricePlanCode": "88935963",
+                    "productType": "video-addon"
+                },
+				{
+                    "pricePlanCode": "89009523",
+                    "productType": "video-addon"
+                },
+				{
+                    "pricePlanCode": "89020123",
+                    "productType": "video-addon"
+                },
+                {
+                    "pricePlanCode": "88857104",
+                    "productType": "fee"
+                },
+                {
+                    "componentCode": "DTVTiVO",
+                    "productType": "video-device"
+                }
+            ],
+            "serviceAddress": {
+                "state": "CO",
+                "zipCode": "42101",
+                "streetAddress": "2600 CANYON BLVD",
+                "city": "BOULDER"
+            },
+            "serviceOrderDate": "03/09/2020",
+            "dtvAccountType": "REG"
+        }
+    }
+}

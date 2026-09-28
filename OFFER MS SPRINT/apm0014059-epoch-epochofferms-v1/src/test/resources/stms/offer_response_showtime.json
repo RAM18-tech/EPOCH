@@ -1,0 +1,536 @@
+{
+  "limit": 0,
+  "offset": 0,
+  "count": 2,
+  "total": 2,
+  "offers": [
+	{
+      "id": "12f19e2e-53f8-4c51-9cba-5aa1715245c9",
+      "code": "OF_BOLTON-SPECIAL-PRICE-SHOWTIME-V2_satellite",
+      "status": "live",
+      "name": {
+        "en": "Exclusive offer: SHOWTIME 1 Month Free"
+      },
+      "description": {
+        "en": "SHOWTIME 1 Month Free (Roll to Cancel)"
+      },
+      "startDate": "2022-07-27T00:00:00.000Z",
+      "endDate": "2050-12-31T23:59:00.000Z",
+      "attributes": {
+        "offerProductType": "video-addon",
+        "offerProductTypes": [
+          "video-addon"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Cross-sell",
+        "offerActionTypes": [
+          "Cross-sell",
+          "Downgrade",
+          "Upgrade",
+          "Other"
+        ],
+        "displayName": {
+          "en": "Exclusive offer: SHOWTIME 1 Month Free"
+        },
+        "termsAndConditions": {
+          "en": "You have selected SHOWTIME at no cost for 1 month. After the promotional period, you will not be billed each month for the price then in effect. You may cancel this no cost offer at any time by calling 800-531-5000."
+        },
+        "billingId": "75",
+        "billingCode": "P5006",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-addon"
+                  ],
+                  "productStatus": "Active",
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "f337740e-b983-409c-a533-33f06217a299",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "f337740e-b983-409c-a533-33f06217a299",
+                      "code": "BOLTON-SPECIAL-PRICE-SHOWTIME_satellite",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                        "key": "video-addon"
+                      },
+                      "name": {
+                        "en": "SHOWTIME"
+                      },
+                      "description": {
+                        "en": "Experience entertainment like never before with bold original films and series you won't see on any other premium network. SHOWTIME is also America's #1 boxing network. SHOWTIME UNLIMITED includes 13 channels, 10 in HD. "
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "sku": "P5006",
+                          "key": "P5006",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0
+                              },
+                              "id": "9ec2532e-a50d-438e-856a-e94240752fb3",
+                              "startDate": "2021-01-01T08:00:00.000Z",
+                              "endDate": "2050-12-31T08:00:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "billingReferenceId": "900",
+                              "gfVersion": 0,
+                              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+                              "grandfathered": false,
+                              "contracted": false
+                            },
+                            {
+                              "value": {
+                                "centAmount": 0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0
+                              },
+                              "id": "6c4d1287-085b-42ac-9780-fa9d90815739",
+                              "startDate": "2021-08-31T00:00:00.000Z",
+                              "endDate": "2050-12-31T00:00:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "billingReferenceId": "72",
+                              "gfVersion": 0,
+                              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+                              "omsProductId": "35116",
+                              "grandfathered": false,
+                              "contracted": false
+                            },
+                            {
+                              "value": {
+                                "centAmount": 0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0
+                              },
+                              "id": "263766f1-8fd5-4648-b609-e18819de230a",
+                              "startDate": "2022-08-24T00:00:00.000Z",
+                              "endDate": "2050-12-31T23:59:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 1,
+                              "period": "month",
+                              "billingReferenceId": "75",
+                              "gfVersion": 0,
+                              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+                              "grandfathered": false,
+                              "contracted": false
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "SHOWTIME"
+                            },
+                            "displayRanking": 0,
+                            "billingProductCode": "P5006",
+                            "billingCode": "P5006",
+                            "startDate": "2021-01-01T05:00:00.000Z",
+                            "endDate": "2050-12-31T05:00:00.000Z",
+                            "salesChannel": [
+                              "tactical",
+                              "opus",
+                              "online",
+                              "onlineSales",
+                              "onlineServices",
+                              "opusSales",
+                              "opusServices"
+                            ],
+                            "productFamily": "satellite",
+                            "addOnType": "Programming-Bolt-on",
+                            "planSubType": "Premium",
+                            "language": "English",
+                            "productStatus": "Grandfather",
+                            "contractApplicable": "noncontract",
+                            "contractIndicator": [
+                              "non-contract"
+                            ],
+                            "subCategory": "Premium",
+                            "customerSegments": [
+                              "Residential"
+                            ],
+                            "migratedProduct": false,
+                            "dollarAmount": 0,
+                            "productImages": "/cms2/product_catalog/premiums/Showtime.gif",
+                            "incompatibleProducts": [
+                              [
+                                {
+                                  "name": "products",
+                                  "value": [
+                                    {
+                                      "id": "d93af126-180b-4e06-b136-b4a486669777",
+                                      "typeId": "product"
+                                    }
+                                  ]
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "video-addon",
+                    "key": "BOLTON-SPECIAL-PRICE-SHOWTIME_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "customerSegment": "Residential",
+              "salesChannel": [
+                "opusServices",
+                "opusSales",
+                "onlineServices",
+                "onlineSales",
+                "opus",
+                "online"
+              ],
+              "heartValue": [
+                "5-HEART",
+                "4-HEART",
+                "3-HEART",
+                "2-HEART",
+                "1-HEART",
+                "0-HEART"
+              ],
+              "eligibleAccountStatus": "ACTV",
+              "acceptPaperlessBillEnrollment": true,
+              "acceptAutoBillPayEnrollment": true,
+              "activationDate": 15,
+              "commissionStartDate": 15,
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "nonStackableCodes": "P5006,B100551,B6519,B101203,B105998,B106202,B106924",
+        "targetedOffer": true,
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "billingSystem": "stms",
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+	{
+      "id": "7e1c150c-75d6-4ade-bc7f-0e0f76b1ea65",
+      "code": "OF_BOLTON-SHOWTIME_satellite",
+      "status": "live",
+      "name": {
+        "en": "SHOWTIME"
+      },
+      "description": {
+        "en": "Experience entertainment like never before with bold original films and series you won't see on any other premium network. SHOWTIME is also America's #1 boxing network. SHOWTIME UNLIMITED includes 13 channels, 10 in HD. "
+      },
+      "startDate": "2002-01-30T05:00:00.000Z",
+      "endDate": "2050-12-31T05:00:00.000Z",
+      "attributes": {
+        "offerProductType": "video-addon",
+        "offerProductTypes": [
+          "video-addon"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Other",
+        "offerActionTypes": [
+          "Other",
+          "Downgrade",
+          "Upgrade",
+          "Acquisition",
+          "Cross-sell"
+        ],
+        "environment": "",
+        "rank": "220",
+        "displayName": {
+          "en": "SHOWTIME"
+        },
+        "termsAndConditions": {
+          "en": "By subscribing you will be billed $10.99 per month on a recurring basis (price subject to change).On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance."
+        },
+        "billingId": "1",
+        "billingCode": "P2142",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-addon"
+                  ],
+                  "productStatus": "Active",
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "d93af126-180b-4e06-b136-b4a486669777",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "d93af126-180b-4e06-b136-b4a486669777",
+                      "code": "BOLTON-SHOWTIME_satellite",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                        "key": "video-addon"
+                      },
+                      "name": {
+                        "en": "SHOWTIME"
+                      },
+                      "description": {
+                        "en": "Experience entertainment like never before with bold original films and series you won't see on any other premium networks. SHOWTIME is also America's #1 boxing network. SHOWTIME UNLIMITED includes 13 channels, 10 in HD. "
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "sku": "P2142",
+                          "key": "P2142",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 1099,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 10.99
+                              },
+                              "id": "6842fc37-d8b6-467a-8367-e18789b052ae",
+                              "startDate": "2021-04-02T00:00:00.000Z",
+                              "endDate": "2023-04-02T00:00:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "period": "month",
+                              "billingReferenceId": "1",
+                              "gfVersion": 0,
+                              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+                              "chargeType": "mrc",
+                              "omsProductId": "2440",
+                              "grandfathered": false,
+                              "contracted": false
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "SHOWTIME"
+                            },
+                            "displayRanking": 220,
+                            "displayNamesByKey": {
+                              "name-cpc": "SHOWTIME"
+                            },
+                            "descriptionsByKey": {
+                              "short-myatt": "test"
+                            },
+                            "billingProductCode": "P2142",
+                            "billingCode": "P2142",
+                            "startDate": "2016-03-18T05:00:00.000Z",
+                            "endDate": "9999-12-31T06:00:00.000Z",
+                            "businessSegment": [
+                              "MDU",
+                              "CONS"
+                            ],
+                            "salesChannel": [
+                              "onlineSales",
+                              "onlineServices",
+                              "opusSales",
+                              "opusServices",
+                              "partnerSales",
+                              "partnerServices"
+                            ],
+                            "productFamily": "satellite",
+                            "removalRule": {
+                              "channel": [],
+                              "accountType": [
+                                "ALL"
+                              ]
+                            },
+                            "addOnType": "Programming-Bolt-on",
+                            "planSubType": "Premium",
+                            "displayType": "optional",
+                            "language": "English",
+                            "productStatus": "Active",
+                            "contractApplicable": "noncontract",
+                            "contractIndicator": [
+                              "non-contract"
+                            ],
+                            "subCategory": "Premium",
+                            "omsComponentMapping": [
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "PickCode",
+                                    "attributeValue": "P0029"
+                                  }
+                                ],
+                                "componentCode": "PickDV",
+                                "componentPath": "PickDV"
+                              },
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "DTgenrePackage",
+                                    "attributeValue": "SHOWTIMEDV"
+                                  }
+                                ],
+                                "componentCode": "SHOWTIMEDV",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV|SHOWTIMEDV"
+                              }
+                            ],
+                            "customerSegments": [
+                              "Residential"
+                            ],
+                            "isPickService": true,
+                            "isAutoRenewable": false,
+                            "termsAndConditions": {
+                              "en": "By subscribing you will be billed $10.99 per month on a recurring basis (price subject to change).On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.Contact us anytime to cancel service, including by calling 877-384-3503."
+                            },
+                            "specifications": [
+                              {
+                                "text": "custom",
+                                "displayRank": 1
+                              }
+                            ],
+                            "conflictingProducts": [],
+                            "migratedProduct": false,
+                            "omsProductCode": "SHOWTIMEDV",
+                            "orderingMethod": "addToCart",
+                            "enablerPricePlanCode": "88830604",
+                            "tokens": "showtime",
+                            "chargeCode": "DTVPIC",
+                            "isWorldDirect": false,
+                            "isETFRequired": false,
+                            "isRemovable": false,
+                            "billingParams": [
+                              {
+                                "value": "P0029",
+                                "name": "PickCode"
+                              }
+                            ],
+                            "pick5Mask": "4",
+                            "dollarAmount": 10.99,
+                            "enablerATGProductId": "prod8370240",
+                            "enablerATGSkuId": "sku7680293",
+                            "productImages": "/cms2/product_catalog/premiums/Showtime.gif"
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "video-addon",
+                    "key": "BOLTON-SHOWTIME_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "salesChannel": [
+                "opusServices",
+                "onlineServices",
+                "opusSales",
+                "onlineSales",
+                "opus",
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "offerPromos": [
+          [
+            {
+              "value": "EDSPSHO3MON",
+              "name": "promoId"
+            },
+            {
+              "value": "10/04/2020",
+              "name": "startDateStr"
+            },
+            {
+              "value": "12/31/9999",
+              "name": "endDateStr"
+            }
+          ]
+        ],
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+	}	  
+  ]
+}

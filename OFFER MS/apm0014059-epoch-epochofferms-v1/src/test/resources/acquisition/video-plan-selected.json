@@ -1,0 +1,763 @@
+
+  {
+    "id": "95b52122-81fa-461d-a147-b059891aa69d",
+    "code": "OF_BASE-PREMIER-ALL-INCLUDED_sales_satellite",
+    "name": {
+      "en": "PREMIER ALL INCLUDED"
+    },
+    "description": {
+      "en": "330+ channels | 185+ in HD"
+    },
+    "startDate": "2010-08-18T18:30:00.000Z",
+    "endDate": "2050-02-07T18:30:00.000Z",
+    "attributes": {
+      "offerProductType": "video-plan",
+      "offerProductTypes": [
+        "video-plan"
+      ],
+      "offerProductFamily": "satellite",
+      "offerProductFamilies": [
+        "satellite"
+      ],
+      "offerStatus": "Active",
+      "offerType": "multi-benefit",
+      "offerActionType": "Acquisition",
+      "offerActionTypes": [
+        "Acquisition"
+      ],
+      "displayName": {
+        "en": "DIRECTV PREMIER"
+      },
+      "migratedOffer": false,
+      "associatedProducts": [
+        {
+          "qualifyingProducts": [
+            {
+              "constraints": {
+                "dependent": false,
+                "anchor": false
+              }
+            }
+          ],
+          "includedProducts": [
+            {
+              "constraints": {
+                "dependent": false,
+                "anchor": false
+              },
+              "products": [
+                {
+                  "id": "a410976d-cd97-4c70-975f-b841c7da3c7c",
+                  "typeId": "product",
+                  "productType": "video-addon",
+                  "key": "BOLTON-HBO-MAX-STARZ-SHOW-CINE_satellite"
+                }
+              ]
+            }
+          ],
+          "bundleProducts": [
+            {
+              "constraints": {
+                "productFamily": "satellite",
+                "productTypes": [
+                  "video-plan"
+                ],
+                "productStatus": "Active",
+                "productState": "New",
+                "dependent": false,
+                "anchor": false
+              },
+              "products": [
+                {
+                  "id": "cd944313-61bf-4f8c-ac58-357f8590ab56",
+                  "typeId": "product",
+                  "obj": {
+                    "id": "cd944313-61bf-4f8c-ac58-357f8590ab56",
+                    "code": "BASE-PREMIER-ALL-INCLUDED_satellite",
+                    "productType": {
+                      "typeId": "product-type",
+                      "id": "eddcf245-874d-4cca-b069-8ada224b1d1a",
+                      "key": "video-plan"
+                    },
+                    "name": {
+                      "en": "PREMIER ALL INCLUDED"
+                    },
+                    "description": {
+                      "en": "Our very best TV package that offers a world of premium entertainment, including movies, sports, music and specialty channels. Over 330 channels."
+                    },
+                    "categories": [],
+                    "variants": [
+                      {
+                        "id": "1",
+                        "sku": "P103348",
+                        "key": "P103348",
+                        "prices": [],
+                        "attributes": {
+                          "displayName": {
+                            "en": "PREMIER ALL INCLUDED"
+                          },
+                          "billingProductCode": "P103348",
+                          "billingCode": "P103348",
+                          "startDate": "2010-08-18T18:30:00.000Z",
+                          "endDate": "2050-02-07T18:30:00.000Z",
+                          "businessSegment": [
+                            "CONS",
+                            "MDU"
+                          ],
+                          "salesChannel": [
+                            "opus",
+                            "online",
+                            "opusServices",
+                            "opusSales",
+                            "onlineServices",
+                            "onlineSales"
+                          ],
+                          "productFamily": "satellite",
+                          "numberOfChannels": "330+ digital channels",
+                          "language": "English",
+                          "serviceFlag": true,
+                          "productStatus": "Active",
+                          "compatibleProducts": [
+                            {
+                              "constraints": {
+                                "dependent": false,
+                                "anchor": false
+                              }
+                            }
+                          ],
+                          "downgradeableRule": "0",
+                          "compatibleMobilityProducts": [
+                            {
+                              "constraints": {
+                                "dependent": false,
+                                "anchor": false
+                              }
+                            }
+                          ],
+                          "includedProducts": [
+                            {
+                              "products": [
+                                {
+                                  "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                                  "typeId": "product",
+                                  "productType": "video-addon",
+                                  "key": "BOLTON-DIRECTV-SPORTS-PACK_satellite"
+                                },
+                                {
+                                  "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                                  "typeId": "product",
+                                  "productType": "video-addon",
+                                  "key": "BOLTON-CINEMAX_satellite"
+                                },
+                                {
+                                  "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                                  "typeId": "product",
+                                  "productType": "video-addon",
+                                  "key": "BOLTON-SHOWTIME_satellite"
+                                },
+                                {
+                                  "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                                  "typeId": "product",
+                                  "productType": "video-addon",
+                                  "key": "BOLTON-STARZ_satellite"
+                                },
+                                {
+                                  "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                                  "typeId": "product",
+                                  "productType": "video-addon",
+                                  "key": "BOLTON-HBO-MAX_satellite"
+                                }
+                              ],
+                              "constraints": {
+                                "dependent": false,
+                                "anchor": false
+                              }
+                            }
+                          ],
+                          "contractApplicable": "noncontract",
+                          "contractIndicator": [
+                            "non-contract"
+                          ],
+                          "customerSegments": [
+                            "Employee",
+                            "Residential"
+                          ],
+                          "hasLocalChannels": true,
+                          "termsAndConditions": {
+                            "en": "Does this replace my current package? Yes, this will replace your current package. How much will I be charged? On your next bill, you'll see a credit for the package that you're disconnecting today because you paid in advance. You'll also see a partial charge that covers the new package starting today, and the regular monthly charge that we bill in advance for the following month. How long does activation take? 5 minutes."
+                          },
+                          "planType": "AllIn",
+                          "migratedProduct": false,
+                          "isChangeable": true,
+                          "omsProductCode": "PremierAll",
+                          "orderingMethod": "addToCart",
+                          "enablerPricePlanCode": "88849754",
+                          "tokens": "PREMIERAllIn",
+                          "chargeCode": "DTVPAI",
+                          "isWorldDirect": false,
+                          "maxSTBsWired": 5,
+                          "maxDVRs": 1,
+                          "maxSTBsWIFI": 5,
+                          "maxSTBsWithServer": 8,
+                          "billingParams": [
+                            {
+                              "value": "PremierAll",
+                              "name": "BasePkg"
+                            }
+                          ],
+                          "productImages": "DTV-PREMIER",
+                          "incompatibleProducts": [
+                            [
+                              {
+                                "name": "products",
+                                "value": [
+                                  {
+                                    "id": "377742de-0913-456a-a830-ab40f4e66ad7",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "d5622ba6-6639-4b95-a66b-d68b438bc86a",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "4323b19e-02c9-4174-bcbd-18abbc5ed4f5",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "3610c480-d60b-4813-bf45-08967afab6b4",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "09280386-a276-46bc-bbfa-636fcc92928d",
+                                    "typeId": "product"
+                                  }
+                                ]
+                              }
+                            ]
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "productType": "video-plan",
+                  "key": "BASE-PREMIER-ALL-INCLUDED_satellite"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "benefits": [
+        {
+          "benefitCategory": "Product",
+          "id": "cc87ec42-abdd-454b-acbc-d82558bfb338",
+          "billingBenefitCode": "88990473",
+          "benefitName": {
+            "en": "all included $66.01 off for 12 mos"
+          },
+          "benefitDisplayName": {
+            "en": "all included $66.01 off for 12 mos"
+          },
+          "benefitRank": 5565,
+          "description": {
+            "en": "all included $66.01 off for 12 mos"
+          },
+          "startDate": "2021-01-06T18:30:00.000Z",
+          "retIoApplicableProducts": false,
+          "endDate": "2022-01-31T18:30:00.000Z",
+          "contractIndicator": "contract",
+          "selfBenefit": false,
+          "duration": 12,
+          "period": "NoOfMonths",
+          "billAfterPeriod": false,
+          "applicableProducts": [
+            {
+              "products": [
+                {
+                  "id": "dba678a0-4286-4901-b218-e4c5f948afe2",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "BASE-LO-MAXIMO-ALL-INCLUDED-NO-LOCALS_satellite"
+                },
+                {
+                  "id": "1fa9bfc4-8b75-4ea1-a569-e050df9a5505",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "BASE-LO-MAXIMO-ALL-INCLUDED_satellite"
+                },
+                {
+                  "id": "cd944313-61bf-4f8c-ac58-357f8590ab56",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "BASE-PREMIER-ALL-INCLUDED_satellite"
+                },
+                {
+                  "id": "a3c27043-9d5b-4599-8a7e-ef13d9d88e57",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "BASE-PREMIER-ALL-INCLUDED-NO-LOCALS_satellite"
+                }
+              ]
+            }
+          ],
+          "maxOccurrence": 0,
+          "benefitType": "flat-off",
+          "value": {
+            "centAmount": 6601,
+            "currencyCode": "USD",
+            "fractionDigits": 2,
+            "dollarAmount": 66.01
+          },
+          "freeTrialPromo": false,
+          "ioOffer": false,
+          "freeTrialDuration": 0,
+          "agentOffer": false,
+          "minQuantity": 0,
+          "promoPriority": 0,
+          "notApplibaleForOffer": false,
+          "enableServiceDisconnect": false,
+          "rtpIndicator": false,
+          "portin": false,
+          "benefitSaleType": "B",
+          "segment": [
+            "residential"
+          ],
+          "businessSegment": [
+            "MDU"
+          ],
+          "salesChannels": [
+            "online"
+          ],
+          "benefitActionType": [
+            "Aquisition"
+          ],
+          "gfVersion": "2",
+          "enablerPromotionCode": "DS1987",
+          "locationType": "nation",
+          "location": "US",
+          "active": true,
+          "migrated": false,
+          "couponPromo": false,
+          "quotaBased": false,
+          "isDependentPromo": false,
+          "isMigrated": false,
+          "isQuotaBased": false,
+          "isActive": true
+        },
+        {
+          "benefitCategory": "Product",
+          "id": "5caac229-6b2d-45b6-8cf2-9f45a4f1b3dc",
+          "billingBenefitCode": "88807223",
+          "benefitName": {
+            "en": "DTV_$5 Off_12 mos_Stype_ABP/PB_DS0588"
+          },
+          "benefitDisplayName": {
+            "en": "$5 off for 12 mos with AutoPay and Paperless Bill"
+          },
+          "benefitRank": 900,
+          "description": {
+            "en": "$5 off for 12 months with AutoPay and Paperless Bill"
+          },
+          "startDate": "1990-01-01T19:49:53.443Z",
+          "retIoApplicableProducts": false,
+          "endDate": "2049-12-31T19:51:53.443Z",
+          "contractIndicator": "contract",
+          "selfBenefit": false,
+          "duration": 12,
+          "period": "NoOfMonths",
+          "billAfterPeriod": false,
+          "applicableProducts": [
+            {
+              "products": [
+                {
+                  "id": "1fa9bfc4-8b75-4ea1-a569-e050df9a5505",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "BASE-LO-MAXIMO-ALL-INCLUDED_satellite"
+                },
+                {
+                  "id": "5a75ad19-dc39-48af-ad72-f92cd9fba5c8",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "BASE-PREFERRED-CHOICE-ALL-INCLUDED_satellite"
+                },
+                {
+                  "id": "53269fde-05b3-4dfc-aa79-fc84a6b50463",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "BASE-PREFERRED-CHOICE-ALL-INCLUDED-NO-LOCALS_satellite"
+                },
+                {
+                  "id": "6fab6262-8a4c-4f20-8822-38c077b6dada",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "BASE-OPTIMO-MAS-ALL-INCLUDED-NO-LOCALS_satellite"
+                },
+                {
+                  "id": "c1d2634c-94d2-4b31-87b0-eaeb204e2107",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "BASE-OPTIMO-MAS-ALL-INCLUDED_satellite"
+                },
+                {
+                  "id": "d5fb8f94-4f7f-4dab-9729-61ec64c08342",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "BASE-MAS-ULTRA-ALL-INCLUDED-NO-LOCALS_satellite"
+                },
+                {
+                  "id": "756d79ee-c3db-4691-b73f-40f546628fd4",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "BASE-MAS-ULTRA-ALL-INCLUDED_satellite"
+                },
+                {
+                  "id": "f3a2ceea-7449-498f-9270-61b1cec4e7f4",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "BASE-MAS-LATINO-ALL-INCLUDED-NO-LOCALS_satellite"
+                },
+                {
+                  "id": "1d809039-1bbf-431a-97d4-71fc389950a8",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "BASE-MAS-LATINO-ALL-INCLUDED_satellite"
+                },
+                {
+                  "id": "7454c0e9-0ff5-4bb0-904c-6d2340b79968",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "BASE-ENTERTAINMENT-ALL-INCLUDED_satellite"
+                },
+                {
+                  "id": "9fff3328-80f2-4bed-aa59-e60f1142a2b4",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "BASE-CHOICE-ALL-INCLUDED-NO-LOCALS_satellite"
+                },
+                {
+                  "id": "d7ab1afd-2751-4f74-8795-828ae107e174",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "BASE-ENTERTAINMENT-ALL-INCLUDED-NO-LOCALS_satellite"
+                },
+                {
+                  "id": "c570feee-5c86-4a06-8ff4-16a76c582efc",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "BASE-CHOICE-ALL-INCLUDED_satellite"
+                },
+                {
+                  "id": "a3c27043-9d5b-4599-8a7e-ef13d9d88e57",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "BASE-PREMIER-ALL-INCLUDED-NO-LOCALS_satellite"
+                },
+                {
+                  "id": "e0357f09-d77a-4a39-bc02-d541cdf80b94",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "BASE-ULTIMATE-ALL-INCLUDED-NO-LOCALS_satellite"
+                },
+                {
+                  "id": "cd944313-61bf-4f8c-ac58-357f8590ab56",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "BASE-PREMIER-ALL-INCLUDED_satellite"
+                },
+                {
+                  "id": "e7f4a72f-8f70-4643-8363-35b7394f06f8",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "BASE-ULTIMATE-ALL-INCLUDED_satellite"
+                },
+                {
+                  "id": "ace75bd8-f2cb-4df5-bfd5-845923690264",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "88890335"
+                },
+                {
+                  "id": "5deaf841-8913-4a35-8847-90bb6a33b8d8",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "88890255"
+                },
+                {
+                  "id": "fc8f23af-3b1d-432f-964c-e19adac78114",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "88890275"
+                },
+                {
+                  "id": "4b1963f9-6ced-4403-9762-8705d5a8ab92",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "88890315"
+                },
+                {
+                  "id": "cd4e7e78-c28e-4b71-b797-df4ed947e78d",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "89324806"
+                },
+                {
+                  "id": "4b9e9175-305e-4c99-8f7e-6faa2b092df1",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "88849994"
+                },
+                {
+                  "id": "0fd1216a-b1b9-4529-a6f4-0295f5ab5670",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "88849674"
+                },
+                {
+                  "id": "bfb906e1-1b56-4f34-94bd-fdd55a382703",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "88849714"
+                },
+                {
+                  "id": "0d90387d-9645-4ba3-bae6-a3866e236b12",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "88849834"
+                },
+                {
+                  "id": "70927ac4-bfeb-478f-b2db-4719f018897d",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "88849914"
+                },
+                {
+                  "id": "b913beaa-636b-41f2-ba91-5425acca20a3",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "88849754"
+                },
+                {
+                  "id": "500b930b-2e7f-4ac8-8e6a-dc643870ce0d",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "88849874"
+                },
+                {
+                  "id": "f7586cad-d463-4c8e-9930-c163e4f310da",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "88849954"
+                },
+                {
+                  "id": "22af6376-d771-4200-bcd4-d260be6685f3",
+                  "typeId": "product"
+                },
+                {
+                  "id": "54c3f52b-08f2-45d9-9050-371a832c689e",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "88890325"
+                },
+                {
+                  "id": "d9ac0488-4f4b-4ede-8735-92d01e3faa68",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "88890245"
+                },
+                {
+                  "id": "c895bea8-a575-4422-9b18-efdc0ca0abd5",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "88890265"
+                },
+                {
+                  "id": "66c6fb7e-54ec-44fc-9dae-c7cbd719b504",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "88890285"
+                },
+                {
+                  "id": "cfde426a-e2d6-4514-b6bd-efa68d5c8d24",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "89324816"
+                },
+                {
+                  "id": "12d2e88f-8d0a-4f30-a642-0be4eaebedda",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "88890305"
+                },
+                {
+                  "id": "39691bb4-7949-4bca-90c9-81ef06e6e512",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "88850034"
+                },
+                {
+                  "id": "35ef63ac-3b0f-4fb1-b0a4-100519b10ab3",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "88850074"
+                },
+                {
+                  "id": "de9d8f82-cc95-4f6c-bbc5-ae126066ecd7",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "88894395"
+                },
+                {
+                  "id": "88a32e08-85bf-4aa4-9d0d-e342cd443656",
+                  "typeId": "product",
+                  "productType": "video-plan",
+                  "key": "88890295"
+                }
+              ]
+            }
+          ],
+          "maxOccurrence": 0,
+          "benefitType": "flat-off",
+          "value": {
+            "centAmount": 500,
+            "currencyCode": "USD",
+            "fractionDigits": 2,
+            "dollarAmount": 5
+          },
+          "freeTrialPromo": false,
+          "ioOffer": false,
+          "freeTrialDuration": 0,
+          "agentOffer": false,
+          "minQuantity": 0,
+          "promoPriority": 4,
+          "benefitLevel": "product",
+          "notApplibaleForOffer": false,
+          "enableServiceDisconnect": false,
+          "rtpIndicator": false,
+          "portin": false,
+          "benefitSaleType": "S",
+          "segment": [
+            "residential"
+          ],
+          "salesChannels": [
+            "online"
+          ],
+          "benefitActionType": [
+            "Aquisition"
+          ],
+          "gfVersion": "2",
+          "enablerPromotionCode": "DS0588",
+          "locationType": "nation",
+          "location": "US",
+          "active": true,
+          "migrated": false,
+          "couponPromo": false,
+          "quotaBased": false,
+          "isDependentPromo": false,
+          "isMigrated": false,
+          "isQuotaBased": false,
+          "isActive": true
+        }
+      ],
+      "eligibility": {
+        "constraints": [
+          {
+            "customerSegments": [
+              "Residential"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "existingCustomerType": [
+              "Satellite"
+            ]
+          }
+        ]
+      },
+      "leadOffer": false,
+      "contractIndicator": "non-contract",
+      "omsFreeStbPolicy": [
+        {
+          "id": "4166b740-1b84-4890-9b6a-e852c7bdc3d5",
+          "typeId": "product",
+          "obj": {
+            "id": "4166b740-1b84-4890-9b6a-e852c7bdc3d5",
+            "key": "POLICY-DVALL1_satellite ",
+            "productType": {
+              "typeId": "product-type",
+              "id": "79b730ba-3606-4272-ac9b-4267eed3d4a1"
+            }
+          },
+          "attributes": {
+            "constraints": {
+              "startDate": "2017-10-30T18:30:00.000Z",
+              "endDate": "2049-12-30T18:30:00.000Z",
+              "maxTVFeesWaivedForWired": 1,
+              "maxTVFeesWaivedForWireless": 1,
+              "maxTVFeesWaivedForGenieMiniWired": 0,
+              "maxTVFeesWaivedForGenieMiniWireless": 1,
+              "includedGenieWired": 1,
+              "includedGenieWireless": 1,
+              "waiveHDDVRNRCCount": 1,
+              "includedGenieMiniWireless": 4,
+              "includedGenieMiniWired": 3,
+              "discountedGenieMiniWired": 2,
+              "maxAddlTVsSelectedWired": 5,
+              "discountedGenieMiniWireless": 4,
+              "maxAddlTVsSelectedWireless": 8,
+              "customerTypes": "CONSUMER",
+              "productStatus": "Active",
+              "policyText": "Your package price includes your first TV Access Fee. Each additional TV Access Fee is $7/mo. (policyId=8000011)",
+              "dependent": false,
+              "anchor": false
+            },
+            "key": "POLICY-DVALL1_satellite ",
+            "name": "DVALL1",
+            "description": {
+              "en": "Your package price includes your first TV Access Fee. Each additional TV Access Fee is $7/mo. (policyId=8000011)"
+            }
+          }
+        }
+      ],
+      "metadata": [
+        {
+          "category": "feature",
+          "text": "<p><b>PLUS</b> activation fee waived when you order online (value: $19.95)</p>",
+          "rank": "4"
+        },
+        {
+          "category": "feature",
+          "text": "<p><b>PLUS GET</b> NFL SUNDAY TICKET 2021 season at no extra cost. Subscription renews automatically each season at then prevailing rate (currently $395.94/season) unless you call to cancel within two weeks after the to start of season.</p>",
+          "rank": "3"
+        },
+        {
+          "category": "feature",
+          "text": "<p><b>INCLUDED!</b> HBO Max&trade;, Showtime&reg;, Starz&reg;, and Cinemax&reg;</p>",
+          "rank": "2"
+        },
+        {
+          "category": "feature",
+          "text": "<p><b>INCLUDED!</b> Monthly equipment fees for an HD DVR</p>",
+          "rank": "1"
+        },
+        {
+          "category": "ribbon",
+          "text": "<p><b>NFL SUNDAY TICKET 2021 season included</b></p>",
+          "rank": "1"
+        }
+      ],
+      "offerIntents": [
+        "non-migration"
+      ],
+      "recommendedOfferOPUS": false,
+      "recommendedOnline": false,
+      "isVirtual": false,
+      "flashSaleOffer": false,
+      "isSpecialOffer": false
+    }
+  }

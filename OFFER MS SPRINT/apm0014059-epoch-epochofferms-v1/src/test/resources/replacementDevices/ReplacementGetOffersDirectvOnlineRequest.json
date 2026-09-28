@@ -1,0 +1,67 @@
+{
+  "addOnType": [],
+  "contractIndicator": [
+    "contract"
+  ],
+  "offerClassificationType": [
+    "replacement-device"
+  ],
+  "customerContext": {
+    "existingProductFamily": [
+      "OTT"
+    ],
+    "OTT": {
+      "products": [
+        {
+          "basePrice": "142.0",
+          "productCode": "BASE-ULTIMATE-201811",
+          "productType": "video-plan"
+        },
+        {
+          "basePrice": "120.0",
+          "productCode": "BOLT-BASEPP-202309",
+          "productType": "protection-plan"
+        },
+        {
+          "basePrice": "120.0",
+          "productCode": "HARD-PENDANT-052022",
+          "productType": "video-device"
+        }
+      ],
+      "accountNumber": "200214152640951",
+      "isActive": true,
+      "retentionPromotionIndicator": false,
+      "freeTrialEligible": false,
+      "accountType": "Residential",
+      "nextBillingDate":"{{nextBillingDate}}",
+      "isProjectedBillDate": true,
+      "replacementDevices": [
+        {
+          "productCode": "HARD-PENDANT-052022",
+          "warrantyStartDate": "03/14/2023",
+          "warrantyEndDate": "03/14/2025"
+        }
+      ]
+    }
+  },
+  "customerEligibility": {
+    "zipCode": [
+      "32957"
+    ]
+  },
+
+  "offerProductFamily": [
+    "OTT"
+  ],
+  "salesChannel": [
+    "directvOnline"
+  ],
+  "offerActionType": [
+    "video-device"
+  ],
+  "channelEligibility": {
+    "opusChannel": "ISM",
+    "opusSubChannel": "ISM-Chat",
+    "opusStoreId": "ISMJM"
+  }
+}

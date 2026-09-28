@@ -1,0 +1,154 @@
+{
+    "limit": 50,
+    "offset": 0,
+    "count": 1,
+    "total": 1,
+    "products": [
+        {
+            "id": "e9472a85-752e-478a-ad5d-4e550a2e9e55",
+            "code": "PROMO-HBOSKINNY-201703",
+            "version": 532,
+            "createdAt": "2019-09-24T16:29:07.974Z",
+            "lastModifiedAt": "2020-04-20T02:24:10.575Z",
+            "status": "live",
+            "productType": {
+                "typeId": "product-type",
+                "id": "4ef8565c-f4eb-45bb-baf1-28578753aacb",
+                "key": "video-addon"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": 1,
+                    "attributes": {
+                        "approvalStatus-Finance": "pending",
+                        "approvalStatus-OTTAcqMkt": "pending",
+                        "approvalStatus-OTTRetentionMkt": "pending",
+                        "approvalStatus-SuppliersPayments": "pending",
+                        "approvalStatus-OTTLegal": "pending",
+                        "productFamily": "OTT",
+                        "displayNamesByKey": {
+                            "services": "HBO<sup>&#174;</sup>",
+                            "name-cpc": "HBO Included with AT&T Unlimited"
+                        },
+                        "descriptionsByKey": {
+                            "short-opus": "Includes HBO GO<sup>&#174;</sup>, HBO<sup>&#174;</sup> East, HBO Family<sup>&#174;</sup> East, HBO Latino<sup>&#174;</sup>, and On demand library",
+                            "short-myatt": "Includes HBO GO<sup>&#174;</sup>, HBO<sup>&#174;</sup> East, HBO Family<sup>&#174;</sup> East, HBO Latino<sup>&#174;</sup>, and On demand library",
+                            "short-services": "HBO<sup>&#174;</sup> East</br> HBO Family<sup>&#174;</sup></br> HBO Latino<sup>&#174;</sup></br> HBO GO<sup>&#174;</sup></br> On Demand library",
+                            "long-services": "<p>24/7 access to a huge library  of the best entertainment.</p>   <ul>     <li>The latest, most addictive shows</li>     <li>New movies every week</li>\t<li>Every episode, of every season</li>   </ul>   <p>Includes</p>   <ul>     <li>HBO<sup>&#174;</sup>East</li>\t   <li>HBO Family<sup>&#174;</sup></li>     <li>HBO Latino<sup>&#174;</sup></li>     <li>HBO GO<sup>&#174;</sup></li>\t  <li>On Demand library</li>   </ul>",
+                            "description-cpc": "HBO With AT&T Unlimited Plus"
+                        },
+                        "provisioningCode": "UNLHBOTRC",
+                        "secondaryBillingProductId": "718118295",
+                        "clearRejections": false,
+                        "myAttDisclosureMessage": "FREE with your wireless plan.",
+                        "packageGroup": "60000",
+                        "displayType": "included",
+                        "contractApplicable": "all",
+                        "displayName": {
+                            "en": "HBO Included with AT&T Unlimited"
+                        },
+                        "billingProductCode": "PROMO-HBOSKINNY-201703",
+                        "billingProductId": "2886",
+                        "startDate": "2016-11-18T00:00:00.000Z",
+                        "endDate": "9999-12-31T00:00:00.000Z",
+                        "language": "English",
+                        "addOnType": "Standalone",
+                        "removalRule": {
+                            "channel": [],
+                            "customerSegments": [
+                                "None"
+                            ],
+                            "accountType": [
+                                "NONE"
+                            ]
+                        },
+                        "evergentProdCategory": "Subscription",
+                        "planSubType": "Cross-Product-Mobility",
+                        "migratedProduct": true,
+                        "approvalStatus-ProductMarketing": "pending",
+                        "approvalStatus-OpusSales": "pending",
+                        "approvalStatus-OpusServices": "pending",
+                        "approvalStatus-OnlineSales": "pending",
+                        "approvalStatus-OnlineServices": "pending",
+                        "approvalStatus-Biller": "pending",
+                        "approvalStatus-MarketingOperations": "pending",
+                        "approvalStatus-ConsumerOnlineSales": "pending",
+                        "approvalStatus-CPOP": "pending"
+                    },
+                    "prices": [
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 0,
+                                "fractionDigits": 2,
+                                "dollarAmount": "0.00"
+                            },
+                            "id": "93afed44-68e4-4994-a34f-b220a54653c0",
+                            "startDate": "2017-01-01T00:00:00.000Z",
+                            "endDate": "9999-12-31T00:00:00.000Z",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "non-contract",
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "3391"
+                        },
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 0,
+                                "fractionDigits": 2,
+                                "dollarAmount": "0.00"
+                            },
+                            "id": "8150ea37-7f41-4a7c-b873-a14f4e671408",
+                            "startDate": "2019-04-01T00:00:00.000Z",
+                            "endDate": "9999-12-31T00:00:00.000Z",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "7187"
+                        }
+                    ],
+                    "contentImages": [
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/hbo-bg-lg-1805.png",
+                            "name": "HBO",
+                            "size": "large",
+                            "longDesc": "Westworld"
+                        },
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/hbo-bg-sm-1805.png",
+                            "name": "HBO",
+                            "size": "small",
+                            "longDesc": "Westworld"
+                        },
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/hbo-bg-md-1805.png",
+                            "name": "HBO",
+                            "size": "medium",
+                            "longDesc": "Westworld"
+                        }
+                    ],
+                    "productImages": [
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/hbo-logo-blk.png",
+                            "name": "HBO",
+                            "size": "small"
+                        }
+                    ]
+                }
+            ],
+            "name": {
+                "en": "HBOSKINNY"
+            },
+            "description": {
+                "en": "24/7 access to a huge library of the best entertainment.##TV. Streaming. On Demand.||The latest  most addictive shows||New movies every week||Every episode of every season of your favorite classic and current shows##Includes##HBO<sup>&reg;</sup>2||HBO<sup>&reg;</sup> East||HBO Family<sup>&reg;</sup>||HBO Latino<sup>&reg;</sup>||HBO GO<sup>&reg;</sup>||On Demand library"
+            }
+        }
+    ]
+}

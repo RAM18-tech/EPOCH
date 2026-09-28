@@ -1,0 +1,119 @@
+{
+  "limit": 300,
+  "count": 1,
+  "total": 1,
+  "products": [
+    {
+      "id": "8234da83-5fad-4ddb-a879-93fafbabc2db",
+      "code": "BOLTON-PANTAYA_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "a3ef7d42-8ad7-4399-ba2d-ea12511f3799",
+        "key": "video-addon"
+      },
+      "name": {
+        "en": "Pantaya"
+      },
+      "description": {
+        "en": "Pantaya offers a selection of today's Spanish-language blockbusters, fan favorites, beloved classics, and exclusive and original series - all commercial-free. May only be accessed on internet-connected HD-DVR, DIRECTV.com and the DIRECTV app. Subscription not valid for streaming using the provider app or website."
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "R107114",
+          "key": "R107114",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 599,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 5.99
+              },
+              "id": "94d48882-a47b-40f3-8a85-783ddcb18c43",
+              "startDate": "2020-04-19T04:00:00.000Z",
+              "endDate": "2050-12-31T05:00:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "period": "month",
+              "billingReferenceId": "1",
+              "gfVersion": 0,
+              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 0,
+              "contracted": false,
+              "grandfathered": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "Pantaya"
+            },
+            "billingProductCode": "R107114",
+            "billingCode": "R107114",
+            "startDate": "2020-04-19T04:00:00.000Z",
+            "endDate": "2050-12-31T05:00:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusSales",
+              "opusServices",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "planSubType": "Premium",
+            "language": "English",
+            "productStatus": "Active",
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "subCategory": "Premium",
+            "omsComponentMapping": [
+              {
+                "omsAttributes": [
+                  {
+                    "attributeCode": "DTgenrePackage",
+                    "attributeValue": "DVPTYA"
+                  }
+                ],
+                "componentCode": "DVPTYA",
+                "componentPath": "ATTDTV|DVPTYA",
+                "operationName": "MOORequest,PUSPO1Request"
+              }
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isPickService": false,
+            "isAutoRenewable": false,
+            "termsAndConditions": {
+              "en": "By subscribing you will be billed $5.99 per month on a recurring basis."
+            },
+            "migratedProduct": false,
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88952763",
+            "tokens": "Pantaya",
+            "chargeCode": "DVPTYA",
+            "isWorldDirect": false,
+            "isETFRequired": true,
+            "isRemovable": true,
+            "billingParams": [
+              {
+                "value": "DVPTYA",
+                "name": "DTgenrePackage"
+              }
+            ],
+            "productImages": "/cms2/pepod_new/add_program/sm_programming__Pantaya.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3483 @@
+{
+    "customerEligibility": {
+        "zipCode": [
+            "00058"
+        ],
+        "county": [
+            "17000"
+        ]
+    },
+    "offerActionType": [
+        "Acquisition"
+    ],
+    "salesChannel": [
+        "online"
+    ],
+    "offerProductTypes": [
+        "video-plan"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "billingSystem": "stms",
+    "orderContext": [
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "video-plan",
+                    "productSubType": "English",
+                    "offerPrice": 109.99
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 42,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "P103351",
+                    "lineItemId": 1,
+                    "omsProductID": "10023609",
+                    "productName": "ULTIMATE ALL INCLUDED",
+                    "productDescription": "250+ channels | 115+ in HD",
+                    "originatorLineItemId": 0,
+                    "disconnectReason": "2900"
+                },
+                "price": {
+                    "totalAmount": 167.8,
+                    "subTotalAmount": 167.0,
+                    "taxAmount": 0.8,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 167.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "P",
+                        "productCode": "103351",
+                        "priceCode": "3"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "agreement",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "appliesToSvc": "P103351",
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "agreementPriceCode": 1,
+                    "offerId": "OF_BASE-ULTIMATE-ALL-INCLUDED_sales_satellite",
+                    "duration": 999,
+                    "productType": "agreement"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 41,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "VAGR-BP-999MO-V75",
+                    "lineItemId": 15,
+                    "omsProductID": "502",
+                    "productName": "DTV_$10_off_AP_PB_Lifetime_DS2361",
+                    "productDescription": "$10 off with AutoPay and Paperless Billing",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -10.05,
+                    "subTotalAmount": -10.0,
+                    "taxAmount": -0.05,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": -10.0,
+                            "frequencyOfCharge": "monthly"
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "agreement": {
+                        "type": "credit",
+                        "rebateId": "100111"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "adjustment",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": false,
+                "customData": {
+                    "appliesToSvc": "P103351",
+                    "attFeesAndSurcharges": -0.0,
+                    "productType": "adjustment"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 17,
+                                    "relationshipType": "activationDependency"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 15,
+                                    "relationshipType": "agreement"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 41,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "SAJ000005983",
+                    "lineItemId": 16,
+                    "omsProductID": "503",
+                    "productName": "DTV_$10_off_AP_PB_Lifetime_DS2361",
+                    "productDescription": "$10 off with AutoPay and Paperless Billing",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -10.05,
+                    "subTotalAmount": -10.0,
+                    "taxAmount": -0.05,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": -10.0
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "adjustment": {
+                        "adjustmentType": "product",
+                        "reasonCode": "5983",
+                        "amount": -10.0
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": false,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "serviceCode"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 41,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B120166",
+                    "lineItemId": 17,
+                    "omsProductID": "10066989",
+                    "productName": "DTV_$10_off_AP_PB_Lifetime_DS2361",
+                    "productDescription": "$10 off with AutoPay and Paperless Billing"
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 0
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "B",
+                        "productCode": "120166",
+                        "priceCode": "003"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "agreement",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "appliesToSvc": "P103351",
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "agreementPriceCode": 1,
+                    "offerId": "OF_BASE-ULTIMATE-ALL-INCLUDED_sales_satellite",
+                    "duration": 24,
+                    "productType": "agreement"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 41,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "VAGR-BP-24MO-V102",
+                    "lineItemId": 18,
+                    "omsProductID": "502",
+                    "productName": "all included $47.01 off for 24 mos",
+                    "productDescription": "$47.01/ off for 24 mos_B101201",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -47.24,
+                    "subTotalAmount": -47.01,
+                    "taxAmount": -0.23,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": -47.01,
+                            "frequencyOfCharge": "monthly"
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "agreement": {
+                        "type": "credit",
+                        "rebateId": "100111"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "adjustment",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": false,
+                "customData": {
+                    "appliesToSvc": "P103351",
+                    "attFeesAndSurcharges": -0.0,
+                    "productType": "adjustment"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 20,
+                                    "relationshipType": "activationDependency"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 18,
+                                    "relationshipType": "agreement"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 41,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "SAJ000006064",
+                    "lineItemId": 19,
+                    "omsProductID": "503",
+                    "productName": "all included $47.01 off for 24 mos",
+                    "productDescription": "$47.01/ off for 24 mos_B101201",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -47.24,
+                    "subTotalAmount": -47.01,
+                    "taxAmount": -0.23,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": -47.01
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "adjustment": {
+                        "adjustmentType": "product",
+                        "reasonCode": "6064",
+                        "amount": -47.01
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": false,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "serviceCode"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 41,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B101201",
+                    "lineItemId": 20,
+                    "omsProductID": "10067796",
+                    "productName": "all included $47.01 off for 24 mos",
+                    "productDescription": "$47.01/ off for 24 mos_B101201"
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 0
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "B",
+                        "productCode": "101201",
+                        "priceCode": "454"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "addedbyRuleFlag": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "fee",
+                    "previousLineItemId": 16,
+                    "UseTaxInstallationAmount": 134.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 49,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "VUSE_TAX_RECOVERY_FEE",
+                    "lineItemId": 14,
+                    "omsProductID": "36053",
+                    "productName": "DTV Use Tax Expense Recovery Fee",
+                    "productDescription": "DTV Use Tax Expense Recovery Fee",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "preserve",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "fee",
+                    "previousLineItemId": 12
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 50,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "P6376",
+                    "lineItemId": 8,
+                    "omsProductID": "45921",
+                    "productName": "HD Access",
+                    "productDescription": "This service unleashes the full power of your HD DVR, including HD channels, the ability to record and watch in any room (requires Genie Whole-Home Setup), access to On Demand shows and movies, and more.",
+                    "originatorLineItemId": 0,
+                    "disconnectReason": "2900"
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "P",
+                        "productCode": "6376",
+                        "priceCode": "200"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "preserve",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "fee",
+                    "previousLineItemId": 10
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 51,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B102964",
+                    "lineItemId": 9,
+                    "omsProductID": "10002303",
+                    "productName": "Advanced Receiver Fee",
+                    "productDescription": "Advanced Receiver Fee",
+                    "originatorLineItemId": 0,
+                    "disconnectReason": "2900"
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "B",
+                        "productCode": "102964",
+                        "priceCode": "200"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "fee",
+                    "previousLineItemId": 13
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 52,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000001013",
+                    "lineItemId": 11,
+                    "omsProductID": "1013",
+                    "productName": "Delivery and Handling",
+                    "productDescription": "Charge for delivering equipment to your home.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "preserve",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "fee",
+                    "productSubType": "TVACCESSFEES",
+                    "previousLineItemId": 7
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 53,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B105964",
+                    "lineItemId": 6,
+                    "omsProductID": "10023537",
+                    "productName": "TV access fee",
+                    "productDescription": "Watch DIRECTV on 1 TV - $0.00",
+                    "originatorLineItemId": 0,
+                    "disconnectReason": "2900"
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "B",
+                        "productCode": "105964",
+                        "priceCode": "1"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "preserve",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "fee",
+                    "productSubType": "TVACCESSFEES",
+                    "previousLineItemId": 9
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 54,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B105966",
+                    "lineItemId": 7,
+                    "omsProductID": "10023539",
+                    "productName": "TV access fee",
+                    "productDescription": "Watch DIRECTV on 1 TV additional TVs at $7.00 each",
+                    "originatorLineItemId": 0,
+                    "disconnectReason": "2900"
+                },
+                "price": {
+                    "totalAmount": 14.0,
+                    "subTotalAmount": 14.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 14.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "B",
+                        "productCode": "105966",
+                        "priceCode": "2"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "installation",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "fee",
+                    "previousLineItemId": 14
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 55,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000001006",
+                    "lineItemId": 12,
+                    "omsProductID": "1006",
+                    "productName": "Installation Fee",
+                    "productDescription": "Add Installation Charge to all DTV Orders with new Receivers",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "installation": {
+                        "vipLevel": "null"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "preserve",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "fee",
+                    "previousLineItemId": 15
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 56,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B107422",
+                    "lineItemId": 13,
+                    "omsProductID": "10045657",
+                    "productName": "Federal Cost Recovery Fee",
+                    "productDescription": "Federal Cost Recovery Fee",
+                    "originatorLineItemId": 0,
+                    "disconnectReason": "2900"
+                },
+                "price": {
+                    "totalAmount": 0.14,
+                    "subTotalAmount": 0.14,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.14,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "B",
+                        "productCode": "107422",
+                        "priceCode": "1"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "preserve",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "fee",
+                    "previousLineItemId": 8
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 57,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B101390",
+                    "lineItemId": 5,
+                    "omsProductID": "10002025",
+                    "productName": "TV access fee",
+                    "productDescription": "TV Access Fee - 2 Client",
+                    "originatorLineItemId": 0,
+                    "disconnectReason": "2900"
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "B",
+                        "productCode": "101390",
+                        "priceCode": "300"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "preserve",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "fee",
+                    "previousLineItemId": 11
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 58,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B120532",
+                    "lineItemId": 10,
+                    "omsProductID": "10067593",
+                    "productName": "Advanced Receiver Service",
+                    "productDescription": "This service unleashes the full power of your HD DVR, including HD channels, the ability to record and watch in any room (requires Genie Whole-Home Setup), access to On Demand shows and movies, and more.",
+                    "originatorLineItemId": 0,
+                    "disconnectReason": "2900"
+                },
+                "price": {
+                    "totalAmount": 15.0,
+                    "subTotalAmount": 15.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 15.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "B",
+                        "productCode": "120532",
+                        "priceCode": "1"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "adjustment",
+                "action": "cancel",
+                "isProvisionable": true,
+                "isVisible": false,
+                "customData": {
+                    "appliesToSvc": "P103417",
+                    "attFeesAndSurcharges": -0.0,
+                    "productType": "adjustment",
+                    "previousLineItemId": 18
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 36,
+                                    "relationshipType": "activationDependency"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 27,
+                                    "relationshipType": "agreement"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 62,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "SAJ000005983",
+                    "lineItemId": 24,
+                    "omsProductID": "503",
+                    "productName": "DTV_$10_off_AP_PB_Lifetime_DS2361",
+                    "productDescription": "$10 off with AutoPay and Paperless Billing",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -10.06,
+                    "subTotalAmount": -10.0,
+                    "taxAmount": -0.06,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": -10.0
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "adjustment": {
+                        "adjustmentType": "product",
+                        "reasonCode": "5983",
+                        "amount": -10.0
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "cancel",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "video-plan",
+                    "productSubType": "English",
+                    "offerPrice": 84.99,
+                    "previousLineItemId": 1
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 59,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "P103417",
+                    "lineItemId": 25,
+                    "omsProductID": "10023623",
+                    "productName": "CHOICE ALL INCLUDED",
+                    "productDescription": "185+ channels | 85+ in HD",
+                    "originatorLineItemId": 0,
+                    "disconnectReason": "2900"
+                },
+                "price": {
+                    "totalAmount": 137.8,
+                    "subTotalAmount": 137.0,
+                    "taxAmount": 0.8,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 137.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "P",
+                        "productCode": "103417",
+                        "priceCode": "3"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "adjustment",
+                "action": "cancel",
+                "isProvisionable": true,
+                "isVisible": false,
+                "customData": {
+                    "appliesToSvc": "P106642",
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "productType": "adjustment",
+                    "previousLineItemId": 27
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 31,
+                                    "relationshipType": "activationDependency"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 34,
+                                    "relationshipType": "agreement"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 63,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "SAJ000004612",
+                    "lineItemId": 26,
+                    "omsProductID": "503",
+                    "productName": "DTV - 100% off EPIX _3 mos_DS1213",
+                    "productDescription": "$5.99 off for 3 months",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -5.99,
+                    "subTotalAmount": -5.99,
+                    "taxAmount": -0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": -5.99
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "adjustment": {
+                        "adjustmentType": "product",
+                        "reasonCode": "4612",
+                        "amount": -5.99
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "agreement",
+                "action": "cancel",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "appliesToSvc": "P103417",
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "agreementPriceCode": 1,
+                    "offerId": "OF_BASE-CHOICE-ALL-INCLUDED_sales_satellite",
+                    "duration": 999,
+                    "productType": "agreement",
+                    "previousLineItemId": 17
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 62,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "VAGR-BP-999MO-V75",
+                    "lineItemId": 27,
+                    "omsProductID": "502",
+                    "productName": "DTV_$10_off_AP_PB_Lifetime_DS2361",
+                    "productDescription": "$10 off with AutoPay and Paperless Billing",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -10.06,
+                    "subTotalAmount": -10.0,
+                    "taxAmount": -0.06,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": -10.0,
+                            "frequencyOfCharge": "monthly"
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "agreement": {
+                        "type": "credit",
+                        "rebateId": "100111"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "agreement",
+                "action": "cancel",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "appliesToSvc": "P103417",
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "agreementPriceCode": 1,
+                    "offerId": "OF_BASE-CHOICE-ALL-INCLUDED_sales_satellite",
+                    "duration": 24,
+                    "productType": "agreement",
+                    "previousLineItemId": 20
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 62,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "VAGR-BP-24MO-V100",
+                    "lineItemId": 28,
+                    "omsProductID": "502",
+                    "productName": "all included $42.01 off for 24 mos",
+                    "productDescription": "$42.01 off for 24 mos_B101201",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -42.26,
+                    "subTotalAmount": -42.01,
+                    "taxAmount": -0.25,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": -42.01,
+                            "frequencyOfCharge": "monthly"
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "agreement": {
+                        "type": "credit",
+                        "rebateId": "100111"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "adjustment",
+                "action": "cancel",
+                "isProvisionable": true,
+                "isVisible": false,
+                "customData": {
+                    "appliesToSvc": "P103417",
+                    "attFeesAndSurcharges": -0.0,
+                    "productType": "adjustment",
+                    "previousLineItemId": 21
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 37,
+                                    "relationshipType": "activationDependency"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 28,
+                                    "relationshipType": "agreement"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 62,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "SAJ000006060",
+                    "lineItemId": 29,
+                    "omsProductID": "503",
+                    "productName": "all included $42.01 off for 24 mos",
+                    "productDescription": "$42.01 off for 24 mos_B101201",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -42.26,
+                    "subTotalAmount": -42.01,
+                    "taxAmount": -0.25,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": -42.01
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "adjustment": {
+                        "adjustmentType": "product",
+                        "reasonCode": "6060",
+                        "amount": -42.01
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "cancel",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "video-addon",
+                    "productSubType": "Premium",
+                    "dollarAmount": 48.96,
+                    "premiumPickCode": [
+                        "P2143",
+                        "P2142",
+                        "P2141",
+                        "P2140"
+                    ],
+                    "previousLineItemId": 4
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 60,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "P2165",
+                    "lineItemId": 30,
+                    "omsProductID": "2453",
+                    "productName": "Max, Starz, Showtime and Cinemax",
+                    "productDescription": "Max, Starz, Showtime and Cinemax",
+                    "originatorLineItemId": 0,
+                    "disconnectReason": "2900"
+                },
+                "price": {
+                    "totalAmount": 48.96,
+                    "subTotalAmount": 48.96,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 48.96,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "P",
+                        "productCode": "2165",
+                        "priceCode": "1"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "cancel",
+                "isProvisionable": true,
+                "isVisible": false,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "serviceCode",
+                    "previousLineItemId": 28
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 63,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B106644",
+                    "lineItemId": 31,
+                    "omsProductID": "10035788",
+                    "productName": "DTV - 100% off EPIX _3 mos_DS1213",
+                    "productDescription": "$5.99 off for 3 months"
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 0
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "B",
+                        "productCode": "106644",
+                        "priceCode": "004"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "agreement",
+                "action": "cancel",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "appliesToSvc": "P2165",
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "agreementPriceCode": 1,
+                    "offerId": "OF_BOLTON-HBO-SHOW-STARZ-CINE-EPIX-V1_satellite",
+                    "duration": 3,
+                    "productType": "agreement",
+                    "previousLineItemId": 23
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 63,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "VAGR-HBO-STARZ-SHOWTIME-CINEMAX-3MO-V21",
+                    "lineItemId": 32,
+                    "omsProductID": "502",
+                    "productName": "MAX, STARZ, SHOWTIME and CINEMAX Free for 3 Months",
+                    "productDescription": "$48.96 off Max, Starz, Showtime and Cinemax for 3 months",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -48.96,
+                    "subTotalAmount": -48.96,
+                    "taxAmount": -0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": -48.96,
+                            "frequencyOfCharge": "monthly"
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "agreement": {
+                        "type": "credit",
+                        "rebateId": "400111"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "cancel",
+                "isProvisionable": true,
+                "isVisible": false,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "serviceCode",
+                    "previousLineItemId": 25
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 63,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B102472",
+                    "lineItemId": 33,
+                    "omsProductID": "10001840",
+                    "productName": "MAX, STARZ, SHOWTIME and CINEMAX Free for 3 Months",
+                    "productDescription": "$48.96 off Max, Starz, Showtime and Cinemax for 3 months"
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 0
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "B",
+                        "productCode": "102472",
+                        "priceCode": "014"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "agreement",
+                "action": "cancel",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "appliesToSvc": "P106642",
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "agreementPriceCode": 1,
+                    "offerId": "OF_BOLTON-HBO-SHOW-STARZ-CINE-EPIX-V1_satellite",
+                    "duration": 3,
+                    "productType": "agreement",
+                    "previousLineItemId": 26
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 63,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "VAGR-EPIX-3MO-V2",
+                    "lineItemId": 34,
+                    "omsProductID": "502",
+                    "productName": "DTV - 100% off EPIX _3 mos_DS1213",
+                    "productDescription": "$5.99 off for 3 months",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -5.99,
+                    "subTotalAmount": -5.99,
+                    "taxAmount": -0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": -5.99,
+                            "frequencyOfCharge": "monthly"
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "agreement": {
+                        "type": "credit",
+                        "rebateId": "999999"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "cancel",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "video-addon",
+                    "productSubType": "Premium",
+                    "dollarAmount": 5.99,
+                    "previousLineItemId": 2
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 61,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "P106642",
+                    "lineItemId": 35,
+                    "omsProductID": "10035053",
+                    "productName": "Epix",
+                    "productDescription": "EPIX. Have we got a story for you. Watch exclusive, critically-acclaimed original series, plus 1000s of the latest Hollywood hit movies, iconic fan favorites and legendary film franchises and more ? all uncut, commercial-free. With one subscription, you get 3 channels; EPIX, EPIX 2 and EPIX Hits (Ch 558-560)",
+                    "originatorLineItemId": 0,
+                    "disconnectReason": "2900"
+                },
+                "price": {
+                    "totalAmount": 5.99,
+                    "subTotalAmount": 5.99,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 5.99,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "P",
+                        "productCode": "106642",
+                        "priceCode": "1"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "cancel",
+                "isProvisionable": true,
+                "isVisible": false,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "serviceCode",
+                    "previousLineItemId": 19
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 62,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B120166",
+                    "lineItemId": 36,
+                    "omsProductID": "10066989",
+                    "productName": "DTV_$10_off_AP_PB_Lifetime_DS2361",
+                    "productDescription": "$10 off with AutoPay and Paperless Billing"
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 0
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "B",
+                        "productCode": "120166",
+                        "priceCode": "003"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "cancel",
+                "isProvisionable": true,
+                "isVisible": false,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "serviceCode",
+                    "previousLineItemId": 22
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 62,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B101201",
+                    "lineItemId": 37,
+                    "omsProductID": "10067794",
+                    "productName": "all included $42.01 off for 24 mos",
+                    "productDescription": "$42.01 off for 24 mos_B101201"
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 0
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "B",
+                        "productCode": "101201",
+                        "priceCode": "452"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "adjustment",
+                "action": "cancel",
+                "isProvisionable": true,
+                "isVisible": false,
+                "customData": {
+                    "appliesToSvc": "P2165",
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "productType": "adjustment",
+                    "previousLineItemId": 24
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 33,
+                                    "relationshipType": "activationDependency"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 32,
+                                    "relationshipType": "agreement"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 63,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "SAJ000002736",
+                    "lineItemId": 38,
+                    "omsProductID": "503",
+                    "productName": "MAX, STARZ, SHOWTIME and CINEMAX Free for 3 Months",
+                    "productDescription": "$48.96 off Max, Starz, Showtime and Cinemax for 3 months",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -48.96,
+                    "subTotalAmount": -48.96,
+                    "taxAmount": -0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": -48.96
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "adjustment": {
+                        "adjustmentType": "product",
+                        "reasonCode": "2736",
+                        "amount": -48.96
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offer",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "previousLineItemId": 32
+                },
+                "lineItemIdentifier": {
+                    "productId": "Today",
+                    "lineItemId": 39,
+                    "omsProductID": "510",
+                    "productName": "Today",
+                    "productDescription": "Today's Charges",
+                    "originatorLineItemId": 0,
+                    "disconnectReason": "2900"
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offer": {
+                        "offerId": "Today",
+                        "description": "Today",
+                        "primaryOfferFlag": true,
+                        "availablePaymentMethods": [
+                            "notRequired"
+                        ],
+                        "availableShippingMethods": [
+                            "ground"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offer",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "previousLineItemId": 33
+                },
+                "lineItemIdentifier": {
+                    "productId": "Recurring",
+                    "lineItemId": 40,
+                    "omsProductID": "280",
+                    "productName": "Recurring",
+                    "productDescription": "Estimated Monthly Charges",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 139.65,
+                    "subTotalAmount": 139.13,
+                    "taxAmount": 0.52,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offer": {
+                        "offerId": "Recurring",
+                        "primaryOfferFlag": false,
+                        "offerDescription": "Recurring",
+                        "optionDescription": "Recurring",
+                        "availablePaymentMethods": [
+                            "creditCard",
+                            "notRequired",
+                            "stmsBill"
+                        ],
+                        "availableShippingMethods": [
+                            "ground"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_BASE-ULTIMATE-ALL-INCLUDED_sales_satellite"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 40,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "OF_BASE-ULTIMATE-ALL-INCLUDED_sales_satellite-000",
+                    "lineItemId": 41,
+                    "omsProductID": "500",
+                    "productName": "ULTIMATE ALL INCLUDED",
+                    "productDescription": "250+ channels | 115+ in HD",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "250+ channels | 115+ in HD",
+                        "id": 41,
+                        "name": "ULTIMATE ALL INCLUDED"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 40,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "P103351-000",
+                    "lineItemId": 42,
+                    "omsProductID": "500",
+                    "productName": "ULTIMATE ALL INCLUDED",
+                    "productDescription": "250+ channels | 115+ in HD",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "250+ channels | 115+ in HD",
+                        "id": 42,
+                        "name": "ULTIMATE ALL INCLUDED"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "previousLineItemId": 51
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 39,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "VUSE_TAX_RECOVERY_FEE-000",
+                    "lineItemId": 49,
+                    "omsProductID": "500",
+                    "productName": "DTV Use Tax Expense Recovery Fee",
+                    "productDescription": "DTV Use Tax Expense Recovery Fee",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "DTV Use Tax Expense Recovery Fee",
+                        "id": 49,
+                        "name": "DTV Use Tax Expense Recovery Fee"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "previousLineItemId": 47
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 40,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "P6376-000",
+                    "lineItemId": 50,
+                    "omsProductID": "500",
+                    "productName": "HD Access",
+                    "productDescription": "This service unleashes the full power of your HD DVR, including HD channels, the ability to record and watch in any room (requires Genie Whole-Home Setup), access to On Demand shows and movies, and more.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "This service unleashes the full power of your HD DVR, including HD channels, the ability to record and watch in any room (requires Genie Whole-Home Setup), access to On Demand shows and movies, and more.",
+                        "id": 50,
+                        "name": "HD Access"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "previousLineItemId": 45
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 40,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B102964-000",
+                    "lineItemId": 51,
+                    "omsProductID": "500",
+                    "productName": "Advanced Receiver Fee",
+                    "productDescription": "Advanced Receiver Fee",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Advanced Receiver Fee",
+                        "id": 51,
+                        "name": "Advanced Receiver Fee"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "previousLineItemId": 48
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 39,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000001013-000",
+                    "lineItemId": 52,
+                    "omsProductID": "500",
+                    "productName": "Delivery and Handling",
+                    "productDescription": "Charge for delivering equipment to your home.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Charge for delivering equipment to your home.",
+                        "id": 52,
+                        "name": "Delivery and Handling"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "previousLineItemId": 42
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 40,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B105964-000",
+                    "lineItemId": 53,
+                    "omsProductID": "500",
+                    "productName": "TV access fee",
+                    "productDescription": "Watch DIRECTV on 1 TV - $0.00",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Watch DIRECTV on 1 TV - $0.00",
+                        "id": 53,
+                        "name": "TV access fee"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "previousLineItemId": 44
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 40,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B105966-000",
+                    "lineItemId": 54,
+                    "omsProductID": "500",
+                    "productName": "TV access fee",
+                    "productDescription": "Watch DIRECTV on 1 TV additional TVs at $7.00 each",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Watch DIRECTV on 1 TV additional TVs at $7.00 each",
+                        "id": 54,
+                        "name": "TV access fee"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "previousLineItemId": 49
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 39,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000001006-000",
+                    "lineItemId": 55,
+                    "omsProductID": "500",
+                    "productName": "Installation Fee",
+                    "productDescription": "Add Installation Charge to all DTV Orders with new Receivers",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Add Installation Charge to all DTV Orders with new Receivers",
+                        "id": 55,
+                        "name": "Installation Fee"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "previousLineItemId": 50
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 40,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B107422-000",
+                    "lineItemId": 56,
+                    "omsProductID": "500",
+                    "productName": "Federal Cost Recovery Fee",
+                    "productDescription": "Federal Cost Recovery Fee",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Federal Cost Recovery Fee",
+                        "id": 56,
+                        "name": "Federal Cost Recovery Fee"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "previousLineItemId": 43
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 40,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B101390-000",
+                    "lineItemId": 57,
+                    "omsProductID": "500",
+                    "productName": "TV access fee",
+                    "productDescription": "TV Access Fee - 2 Client",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "TV Access Fee - 2 Client",
+                        "id": 57,
+                        "name": "TV access fee"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "previousLineItemId": 46
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 40,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B120532-000",
+                    "lineItemId": 58,
+                    "omsProductID": "500",
+                    "productName": "Advanced Receiver Service",
+                    "productDescription": "This service unleashes the full power of your HD DVR, including HD channels, the ability to record and watch in any room (requires Genie Whole-Home Setup), access to On Demand shows and movies, and more.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "This service unleashes the full power of your HD DVR, including HD channels, the ability to record and watch in any room (requires Genie Whole-Home Setup), access to On Demand shows and movies, and more.",
+                        "id": 58,
+                        "name": "Advanced Receiver Service"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "cancel",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "previousLineItemId": 36
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 40,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "P103417-000",
+                    "lineItemId": 59,
+                    "omsProductID": "500",
+                    "productName": "CHOICE ALL INCLUDED",
+                    "productDescription": "185+ channels | 85+ in HD",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "185+ channels | 85+ in HD",
+                        "id": 59,
+                        "name": "CHOICE ALL INCLUDED"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "cancel",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "previousLineItemId": 39
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 40,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "P2165-000",
+                    "lineItemId": 60,
+                    "omsProductID": "500",
+                    "productName": "Max, Starz, Showtime and Cinemax",
+                    "productDescription": "Max, Starz, Showtime and Cinemax",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Max, Starz, Showtime and Cinemax",
+                        "id": 60,
+                        "name": "Max, Starz, Showtime and Cinemax"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "cancel",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "previousLineItemId": 37
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 40,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "P106642-000",
+                    "lineItemId": 61,
+                    "omsProductID": "500",
+                    "productName": "Epix",
+                    "productDescription": "EPIX. Have we got a story for you. Watch exclusive, critically-acclaimed original series, plus 1000s of the latest Hollywood hit movies, iconic fan favorites and legendary film franchises and more ? all uncut, commercial-free. With one subscription, you get 3 channels; EPIX, EPIX 2 and EPIX Hits (Ch 558-560)",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "EPIX. Have we got a story for you. Watch exclusive, critically-acclaimed original series, plus 1000s of the latest Hollywood hit movies, iconic fan favorites and legendary film franchises and more ? all uncut, commercial-free. With one subscription, you get 3 channels; EPIX, EPIX 2 and EPIX Hits (Ch 558-560)",
+                        "id": 61,
+                        "name": "Epix"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "accessory",
+                "action": "preserve",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "video-device",
+                    "deviceCharge": 0.0,
+                    "previousLineItemId": 5,
+                    "equipmentType": "DIRECTV Client"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 3,
+                                    "relationshipType": "activationDependency"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 43,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000038576",
+                    "lineItemId": 2,
+                    "omsProductID": "38576",
+                    "productName": "DIRECTV&#174; Genie Mini",
+                    "productDescription": "This compact box lets you connect an additional TV to the Genie HD DVR.You can enjoy full HD DVR service on every connected TV.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 108.9,
+                    "subTotalAmount": 99.0,
+                    "taxAmount": 9.9,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "accessory": {
+                        "type": "HMC Client",
+                        "equipmentOwnership": "lease",
+                        "quantity": 1
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "accessory",
+                "action": "preserve",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "video-device",
+                    "deviceCharge": 0.0,
+                    "previousLineItemId": 6,
+                    "equipmentType": "DIRECTV Client"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 3,
+                                    "relationshipType": "activationDependency"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 45,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000038576",
+                    "lineItemId": 4,
+                    "omsProductID": "38576",
+                    "productName": "DIRECTV&#174; Genie Mini",
+                    "productDescription": "This compact box lets you connect an additional TV to the Genie HD DVR.You can enjoy full HD DVR service on every connected TV.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 108.9,
+                    "subTotalAmount": 99.0,
+                    "taxAmount": 9.9,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "accessory": {
+                        "type": "HMC Client",
+                        "equipmentOwnership": "lease",
+                        "quantity": 2
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "receiver",
+                "action": "preserve",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "video-device",
+                    "deviceCharge": 0.0,
+                    "previousLineItemId": 3
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 44,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000038927",
+                    "lineItemId": 3,
+                    "omsProductID": "38927",
+                    "productName": "DIRECTV&#174; Genie",
+                    "productDescription": "This receiver lets you enjoy full HD DVR service on every connected TV.Each additional TV is connected to this receiver using the Genie Mini.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 328.9,
+                    "subTotalAmount": 299.0,
+                    "taxAmount": 29.9,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "receiver": {
+                        "equipmentOwnership": "lease",
+                        "equipmentType": "hd-dvr",
+                        "quantity": 1
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "previousLineItemId": 40
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 39,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000038576-000",
+                    "lineItemId": 43,
+                    "omsProductID": "500",
+                    "productName": "DIRECTV&#174; Genie Mini",
+                    "productDescription": "This compact box lets you connect an additional TV to the Genie HD DVR.You can enjoy full HD DVR service on every connected TV.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "This compact box lets you connect an additional TV to the Genie HD DVR.You can enjoy full HD DVR service on every connected TV.\n",
+                        "id": 43,
+                        "name": "DIRECTV&#174; Genie Mini"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "previousLineItemId": 41
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 39,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000038576-000",
+                    "lineItemId": 45,
+                    "omsProductID": "500",
+                    "productName": "DIRECTV&#174; Genie Mini",
+                    "productDescription": "This compact box lets you connect an additional TV to the Genie HD DVR.You can enjoy full HD DVR service on every connected TV.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "This compact box lets you connect an additional TV to the Genie HD DVR.You can enjoy full HD DVR service on every connected TV.\n",
+                        "id": 45,
+                        "name": "DIRECTV&#174; Genie Mini"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "previousLineItemId": 38
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 39,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000038927-000",
+                    "lineItemId": 44,
+                    "omsProductID": "500",
+                    "productName": "DIRECTV&#174; Genie",
+                    "productDescription": "This receiver lets you enjoy full HD DVR service on every connected TV.Each additional TV is connected to this receiver using the Genie Mini.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "This receiver lets you enjoy full HD DVR service on every connected TV.Each additional TV is connected to this receiver using the Genie Mini.\n",
+                        "id": 44,
+                        "name": "DIRECTV&#174; Genie"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "offerId": "OF_DEVICE-GENIE-MINI_sales_satellite",
+                    "productType": "equipment-rebate",
+                    "associatedDevice": "H00000038576",
+                    "previousLineItemId": 30
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 46,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "includedGenieMiniHWRebate",
+                    "lineItemId": 21,
+                    "omsProductID": "2317",
+                    "productName": "Receiver activation fee discount",
+                    "productDescription": "$99 off\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -108.9,
+                    "subTotalAmount": -99.0,
+                    "taxAmount": -9.9,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "offerId": "OF_DEVICE-GENIE-MINI_sales_satellite",
+                    "productType": "equipment-rebate",
+                    "associatedDevice": "H00000038576",
+                    "previousLineItemId": 31
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "includedGenieMiniHWRebate",
+                    "lineItemId": 23,
+                    "omsProductID": "2317",
+                    "productName": "Receiver activation fee discount",
+                    "productDescription": "$99 off\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -108.9,
+                    "subTotalAmount": -99.0,
+                    "taxAmount": -9.9,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "offerId": "OF_DEVICE-GENIE-HD-DVR_sales_satellite",
+                    "productType": "equipment-rebate",
+                    "associatedDevice": "H00000038927",
+                    "previousLineItemId": 29
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 47,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "genieHDDVRHWRebate",
+                    "lineItemId": 22,
+                    "omsProductID": "2317",
+                    "productName": "Genie® HD DVR Discount",
+                    "productDescription": "Genie® HD DVR Discount\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -328.9,
+                    "subTotalAmount": -299.0,
+                    "taxAmount": -29.9,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_DEVICE-GENIE-MINI_sales_satellite",
+                    "previousLineItemId": 53
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 39,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "includedGenieMiniHWRebate-000",
+                    "lineItemId": 46,
+                    "omsProductID": "500",
+                    "productName": "Receiver activation fee discount",
+                    "productDescription": "$99 off\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "$99 off\n",
+                        "id": 46,
+                        "name": "Receiver activation fee discount"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_DEVICE-GENIE-MINI_sales_satellite",
+                    "previousLineItemId": 54
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 39,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "includedGenieMiniHWRebate-000",
+                    "lineItemId": 48,
+                    "omsProductID": "500",
+                    "productName": "Receiver activation fee discount",
+                    "productDescription": "$99 off\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "$99 off\n",
+                        "id": 48,
+                        "name": "Receiver activation fee discount"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "preserve",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_DEVICE-GENIE-HD-DVR_sales_satellite",
+                    "previousLineItemId": 52
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 39,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "genieHDDVRHWRebate-000",
+                    "lineItemId": 47,
+                    "omsProductID": "500",
+                    "productName": "Genie® HD DVR Discount",
+                    "productDescription": "Genie® HD DVR Discount\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Genie® HD DVR Discount\n",
+                        "id": 47,
+                        "name": "Genie® HD DVR Discount"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "cancel",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_BASE-CHOICE-ALL-INCLUDED_sales_satellite",
+                    "previousLineItemId": 34
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 40,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "OF_BASE-CHOICE-ALL-INCLUDED_sales_satellite-000",
+                    "lineItemId": 62,
+                    "omsProductID": "500",
+                    "productName": "CHOICE ALL INCLUDED",
+                    "productDescription": "185+ channels | 85+ in HD",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "185+ channels | 85+ in HD",
+                        "id": 34,
+                        "name": "CHOICE ALL INCLUDED"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "cancel",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_BOLTON-HBO-SHOW-STARZ-CINE-EPIX-V1_satellite",
+                    "previousLineItemId": 35
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 40,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "OF_BOLTON-HBO-SHOW-STARZ-CINE-EPIX-V1_satellite-000",
+                    "lineItemId": 63,
+                    "omsProductID": "500",
+                    "productName": "Max, SHOWTIME, STARZ, Cinemax and EPIX",
+                    "productDescription": "As part of our new customer offer, get the most popular premium movie channels Max, SHOWTIME?, Cinemax?, STARZ? and EPIX? for 3 months at no extra cost. Starting from the 4th month, you will be billed the full price in effect unless you call to change or cancel.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "As part of our new customer offer, get the most popular premium movie channels Max, SHOWTIME?, Cinemax?, STARZ? and EPIX? for 3 months at no extra cost. Starting from the 4th month, you will be billed the full price in effect unless you call to change or cancel.",
+                        "id": 35,
+                        "name": "Max, SHOWTIME, STARZ, Cinemax and EPIX"
+                    }
+                }
+            }
+        }
+    ]
+}

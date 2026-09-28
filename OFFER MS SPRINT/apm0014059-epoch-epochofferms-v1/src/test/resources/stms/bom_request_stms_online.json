@@ -1,0 +1,63 @@
+{
+    "customerEligibility": {
+        "zipCode": [
+            "42101"
+        ],
+        "county": [
+            "21031"
+        ]
+    },
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "salesChannel": [
+        "online"
+    ],
+    "offerActionType": [
+        "Acquisition"
+    ],
+    "billingSystem": "stms",
+    "cartContext": {
+        "cartOffers": [
+            {
+                "offerCode": "OF_BASE-PREMIER-ALL-INCLUDED-NO-LOCALS_sales_satellite",
+                "quantity": 1
+            },
+            {
+                "offerCode": "OF_BOLTON-HALLMARK-MOVIES-NOW_satellite",
+                "quantity": 1
+            },
+			{
+                "offerCode": "OF_BOLTON-EPIX_satellite",
+                "quantity": 1
+            },
+            {
+                "offerCode": "OF_BOLTON-FOX-NATION_satellite",
+                "quantity": 1
+            },
+			{
+                "offerCode": "OF_BOLTON-NFL-SUNDAY-TICKET-MAX-2022-V7_Satellite",
+                "quantity": 1
+            },
+            {
+                "offerCode": "OF_DEVICE-GENIE-HD-DVR_sales_satellite",
+                "quantity": 1
+            },
+            {
+                "offerCode": "OF_REWARD-400_satellite",
+                "quantity": 1
+            }
+        ]
+    },
+    "customerContext": {
+        
+        "satellite": {
+            "serviceAddress": {
+                "streetAddress": "6099 KNOB KNOSTER RD",
+                "city": "PINSON",
+                "state": "AL",
+                "zipCode": "35126"
+            }
+        }
+    }
+}

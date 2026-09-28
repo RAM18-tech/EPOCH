@@ -1,0 +1,3370 @@
+{
+    "limit": 300,
+    "offset": 0,
+    "count": 88,
+    "total": 88,
+    "offers": [
+    {
+        "id": "b341d2a4-83f5-4ccc-a974-5ac02404dc57",
+        "code": "OF_BASE-PREMIER-ALL-INCLUDED_sales_satellite",
+        "status": "live",
+        "name": {
+            "en": "PREMIER ALL INCLUDED"
+        },
+        "description": {
+            "en": "330+ channels | 185+ in HD"
+        },
+        "startDate": "2010-08-18T18:30:00.000Z",
+        "endDate": "2050-02-07T18:30:00.000Z",
+        "attributes": {
+            "offerProductType": "video-plan",
+            "offerProductTypes": [
+                "video-plan"
+            ],
+            "offerProductFamily": "satellite",
+            "offerProductFamilies": [
+                "satellite"
+            ],
+            "offerStatus": "Active",
+            "offerType": "multi-benefit",
+            "offerActionType": "Acquisition",
+            "omsOfferID": "422383389",
+            "offerActionTypes": [
+                "Acquisition"
+            ],
+            "displayName": {
+                "en": "DIRECTV PREMIER"
+            },
+            "billingId": "3",
+            "billingCode": "OF_BASE-PREMIER-ALL-INCLUDED",
+            "migratedOffer": false,
+            "associatedProducts": [
+                {
+                    "qualifyingProducts": [
+                        {
+                            "constraints": {
+                                "dependent": false,
+                                "anchor": false
+                            }
+                        }
+                    ],
+                    "includedProducts": [
+                        {
+                            "constraints": {
+                                "dependent": false,
+                                "anchor": false
+                            },
+                            "products": [
+                                {
+                                    "id": "2866ce11-08df-42a5-af2d-ac7eb3a0705b",
+                                    "typeId": "product",
+                                    "productType": "video-addon",
+                                    "key": "BOLTON-CINEMAX_satellite"
+                                },
+                                {
+                                    "id": "d93af126-180b-4e06-b136-b4a486669777",
+                                    "typeId": "product",
+                                    "productType": "video-addon",
+                                    "key": "BOLTON-SHOWTIME_satellite"
+                                },
+                                {
+                                    "id": "7a74b437-279c-430f-ab56-3753cd987a15",
+                                    "typeId": "product",
+                                    "productType": "video-addon",
+                                    "key": "BOLTON-STARZ_satellite"
+                                },
+                                {
+                                    "id": "aa33dddf-bdf5-4963-bd96-9d28d16beaa5",
+                                    "typeId": "product",
+                                    "productType": "video-addon",
+                                    "key": "BOLTON-HBO-MAX_satellite"
+                                },
+                                {
+                                    "id": "33ec21d6-f79b-48b3-a1b1-4f6c0e76e136",
+                                    "typeId": "product",
+                                    "productType": "video-addon",
+                                    "key": "BOLTON-DIRECTV-SPORTS-PACK_satellite"
+                                }
+                            ]
+                        }
+                    ],
+                    "bundleProducts": [
+                        {
+                            "constraints": {
+                                "productFamily": "satellite",
+                                "productTypes": [
+                                    "video-plan"
+                                ],
+                                "productStatus": "Active",
+                                "productState": "New",
+                                "dependent": false,
+                                "anchor": false
+                            },
+                            "products": [
+                                {
+                                    "id": "d13d8f8a-5927-42ad-8d15-ff517dabc947",
+                                    "typeId": "product",
+                                    "obj": {
+                                        "id": "d13d8f8a-5927-42ad-8d15-ff517dabc947",
+                                        "code": "BASE-PREMIER-ALL-INCLUDED_satellite",
+                                        "productType": {
+                                            "typeId": "product-type",
+                                            "id": "cb512bc7-05aa-4d02-896c-bcfb3487c5da",
+                                            "key": "video-plan"
+                                        },
+                                        "name": {
+                                            "en": "PREMIER ALL INCLUDED"
+                                        },
+                                        "description": {
+                                            "en": "Our very best TV package that offers a world of premium entertainment, including movies, sports, music and specialty channels. Over 330 channels. Every premium movie channel included Over 35 specialty sports channels included. Local channels included. Eligibility based on service address. Now includes live 4K – Enjoy amazing live entertainment in stunning life-like clarity. To view your current package price, including extras and discounts, view your most recent statement."
+                                        },
+                                        "categories": [],
+                                        "variants": [
+                                            {
+                                                "id": "1",
+                                                "sku": "P103348",
+                                                "key": "P103348",
+                                                "prices": [
+                                                    {
+                                                        "value": {
+                                                            "centAmount": 22000.0,
+                                                            "currencyCode": "USD",
+                                                            "fractionDigits": 2,
+                                                            "dollarAmount": 220.0
+                                                        },
+                                                        "id": "c9578046-4dc2-4782-bd3a-c9c38a6f7fcf",
+                                                        "startDate": "2010-08-18T18:30:00.000Z",
+                                                        "endDate": "2022-01-22T23:59:00.000Z",
+                                                        "recurrenceIndicator": false,
+                                                        "duration": 0,
+                                                        "period": "month",
+                                                        "proRateFrequency": "monthly",
+                                                        "contractIndicator": "non-contract",
+                                                        "billingReferenceId": "1",
+                                                        "gfVersion": 0,
+                                                        "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+                                                        "employeeSegment": "",
+                                                        "nftvFlag": "Y",
+                                                        "ftvCount": "4",
+                                                        "chargeType": "mrc",
+                                                        "grandfatherVersion": 2,
+                                                        "omsFreeSTBPolicyId": "DVALL4",
+                                                        "omsProductId": "10002321",
+                                                        "channel": "non-contracted",
+                                                        "grandfathered": false,
+                                                        "contracted": false
+                                                    },
+                                                    {
+                                                        "value": {
+                                                            "centAmount": 22100.0,
+                                                            "currencyCode": "USD",
+                                                            "fractionDigits": 2,
+                                                            "dollarAmount": 221.0
+                                                        },
+                                                        "id": "21d04b4a-a71e-4468-83a7-3430630421c4",
+                                                        "startDate": "2022-01-23T00:00:00.000Z",
+                                                        "endDate": "2023-01-22T04:59:00.000Z",
+                                                        "recurrenceIndicator": false,
+                                                        "duration": 0,
+                                                        "period": "month",
+                                                        "proRateFrequency": "monthly",
+                                                        "contractIndicator": "non-contract",
+                                                        "billingReferenceId": "2",
+                                                        "gfVersion": 0,
+                                                        "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+                                                        "employeeSegment": "",
+                                                        "nftvFlag": "Y",
+                                                        "ftvCount": "2",
+                                                        "chargeType": "mrc",
+                                                        "grandfatherVersion": 2,
+                                                        "omsFreeSTBPolicyId": "DVALL2DTH,DVALL2",
+                                                        "omsProductId": "10012181",
+                                                        "channel": "non-contracted",
+                                                        "grandfathered": false,
+                                                        "contracted": false
+                                                    },
+                                                    {
+                                                        "value": {
+                                                            "centAmount": 21400.0,
+                                                            "currencyCode": "USD",
+                                                            "fractionDigits": 2,
+                                                            "dollarAmount": 214.0
+                                                        },
+                                                        "id": "178bc719-2752-4be0-bdc5-52e52b497302",
+                                                        "startDate": "2022-01-23T00:00:00.000Z",
+                                                        "endDate": "2023-01-22T04:59:00.000Z",
+                                                        "recurrenceIndicator": false,
+                                                        "duration": 0,
+                                                        "period": "month",
+                                                        "proRateFrequency": "monthly",
+                                                        "contractIndicator": "non-contract",
+                                                        "billingReferenceId": "3",
+                                                        "gfVersion": 0,
+                                                        "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+                                                        "employeeSegment": "",
+                                                        "nftvFlag": "Y",
+                                                        "ftvCount": "1",
+                                                        "chargeType": "mrc",
+                                                        "grandfatherVersion": 2,
+                                                        "omsFreeSTBPolicyId": "DVALL1,NA",
+                                                        "omsProductId": "10023562",
+                                                        "channel": "non-contracted",
+                                                        "grandfathered": false,
+                                                        "contracted": false
+                                                    },
+                                                    {
+                                                        "value": {
+                                                            "centAmount": 18240.0,
+                                                            "currencyCode": "USD",
+                                                            "fractionDigits": 2,
+                                                            "dollarAmount": 182.4
+                                                        },
+                                                        "id": "86acd2d6-c3f7-41ca-925e-5d7a76684a99",
+                                                        "startDate": "2022-01-23T00:00:00.000Z",
+                                                        "endDate": "2023-01-22T04:59:00.000Z",
+                                                        "recurrenceIndicator": false,
+                                                        "duration": 0,
+                                                        "period": "month",
+                                                        "proRateFrequency": "monthly",
+                                                        "contractIndicator": "non-contract",
+                                                        "billingReferenceId": "410",
+                                                        "gfVersion": 0,
+                                                        "businessSegment": "PTR",
+                                                        "employeeSegment": "retiree",
+                                                        "nftvFlag": "Y",
+                                                        "ftvCount": "1,2,4",
+                                                        "chargeType": "mrc",
+                                                        "omsFreeSTBPolicyId": "",
+                                                        "omsProductId": "10004175",
+                                                        "channel": "non-contracted",
+                                                        "grandfathered": false,
+                                                        "contracted": false
+                                                    },
+                                                    {
+                                                        "value": {
+                                                            "centAmount": 21300.0,
+                                                            "currencyCode": "USD",
+                                                            "fractionDigits": 2,
+                                                            "dollarAmount": 213.0
+                                                        },
+                                                        "id": "d24cbe3d-13d4-46b4-bedd-36da412d7a81",
+                                                        "startDate": "2010-08-19T07:00:00.000Z",
+                                                        "endDate": "2022-01-22T23:59:00.000Z",
+                                                        "recurrenceIndicator": false,
+                                                        "duration": 0,
+                                                        "period": "month",
+                                                        "proRateFrequency": "monthly",
+                                                        "contractIndicator": "non-contract",
+                                                        "billingReferenceId": "2",
+                                                        "gfVersion": 0,
+                                                        "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+                                                        "employeeSegment": "",
+                                                        "nftvFlag": "Y",
+                                                        "ftvCount": "2",
+                                                        "chargeType": "mrc",
+                                                        "grandfatherVersion": 2,
+                                                        "omsFreeSTBPolicyId": "DVALL2DTH,DVALL2",
+                                                        "omsProductId": "10012181",
+                                                        "channel": "non-contracted",
+                                                        "grandfathered": false,
+                                                        "contracted": false
+                                                    },
+                                                    {
+                                                        "value": {
+                                                            "centAmount": 20600.0,
+                                                            "currencyCode": "USD",
+                                                            "fractionDigits": 2,
+                                                            "dollarAmount": 206.0
+                                                        },
+                                                        "id": "5cd1abe3-9e0c-4d04-a949-36a9304e6f4c",
+                                                        "startDate": "2010-02-08T08:00:00.000Z",
+                                                        "endDate": "2022-01-22T23:59:00.000Z",
+                                                        "recurrenceIndicator": false,
+                                                        "duration": 0,
+                                                        "period": "month",
+                                                        "proRateFrequency": "monthly",
+                                                        "contractIndicator": "non-contract",
+                                                        "billingReferenceId": "3",
+                                                        "gfVersion": 0,
+                                                        "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+                                                        "employeeSegment": "",
+                                                        "nftvFlag": "Y",
+                                                        "ftvCount": "1",
+                                                        "chargeType": "mrc",
+                                                        "grandfatherVersion": 2,
+                                                        "omsFreeSTBPolicyId": "DVALL1,NA",
+                                                        "omsProductId": "10023562",
+                                                        "channel": "non-contracted",
+                                                        "grandfathered": false,
+                                                        "contracted": false
+                                                    },
+                                                    {
+                                                        "value": {
+                                                            "centAmount": 17680.0,
+                                                            "currencyCode": "USD",
+                                                            "fractionDigits": 2,
+                                                            "dollarAmount": 176.8
+                                                        },
+                                                        "id": "695959ef-9f35-4245-9007-b2c81d87126d",
+                                                        "startDate": "2010-08-19T07:00:00.000Z",
+                                                        "endDate": "2022-01-22T23:59:00.000Z",
+                                                        "recurrenceIndicator": false,
+                                                        "duration": 0,
+                                                        "period": "month",
+                                                        "proRateFrequency": "monthly",
+                                                        "contractIndicator": "non-contract",
+                                                        "billingReferenceId": "410",
+                                                        "gfVersion": 0,
+                                                        "businessSegment": "PTR",
+                                                        "employeeSegment": "retiree",
+                                                        "nftvFlag": "Y",
+                                                        "ftvCount": "1,2,4",
+                                                        "chargeType": "mrc",
+                                                        "omsFreeSTBPolicyId": "",
+                                                        "omsProductId": "10004175",
+                                                        "channel": "non-contracted",
+                                                        "grandfathered": false,
+                                                        "contracted": false
+                                                    },
+                                                    {
+                                                        "value": {
+                                                            "centAmount": 22800.0,
+                                                            "currencyCode": "USD",
+                                                            "fractionDigits": 2,
+                                                            "dollarAmount": 228.0
+                                                        },
+                                                        "id": "bb8d7e27-949a-4a13-b0b3-5439ccb183ba",
+                                                        "startDate": "2022-01-23T00:00:00.000Z",
+                                                        "endDate": "2023-01-22T04:59:00.000Z",
+                                                        "recurrenceIndicator": false,
+                                                        "duration": 0,
+                                                        "period": "month",
+                                                        "proRateFrequency": "monthly",
+                                                        "contractIndicator": "non-contract",
+                                                        "billingReferenceId": "1",
+                                                        "gfVersion": 0,
+                                                        "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+                                                        "employeeSegment": "",
+                                                        "nftvFlag": "Y",
+                                                        "ftvCount": "4",
+                                                        "chargeType": "mrc",
+                                                        "grandfatherVersion": 2,
+                                                        "omsFreeSTBPolicyId": "DVALL4",
+                                                        "omsProductId": "10002321",
+                                                        "channel": "non-contracted",
+                                                        "grandfathered": false,
+                                                        "contracted": false
+                                                    },
+                                                    {
+                                                        "value": {
+                                                            "centAmount": 16050.0,
+                                                            "currencyCode": "USD",
+                                                            "fractionDigits": 2,
+                                                            "dollarAmount": 160.5
+                                                        },
+                                                        "id": "f5d484d0-1947-49b8-ac0d-2483a6c2c1e2",
+                                                        "startDate": "2022-03-11T00:00:00.000Z",
+                                                        "endDate": "2023-01-22T04:59:00.000Z",
+                                                        "recurrenceIndicator": false,
+                                                        "duration": 0,
+                                                        "period": "month",
+                                                        "proRateFrequency": "monthly",
+                                                        "contractIndicator": "non-contract",
+                                                        "billingReferenceId": "415",
+                                                        "gfVersion": 0,
+                                                        "businessSegment": "PTR",
+                                                        "employeeSegment": "active",
+                                                        "nftvFlag": "Y",
+                                                        "ftvCount": "1,2,4",
+                                                        "chargeType": "mrc",
+                                                        "omsProductId": "10059335",
+                                                        "channel": "non-contracted",
+                                                        "grandfathered": false,
+                                                        "contracted": false
+                                                    },
+                                                    {
+                                                        "value": {
+                                                            "centAmount": 23700.0,
+                                                            "currencyCode": "USD",
+                                                            "fractionDigits": 2,
+                                                            "dollarAmount": 237.0
+                                                        },
+                                                        "id": "28c5f7e3-1e19-48c2-a734-4a89767ba600",
+                                                        "startDate": "2023-01-22T05:00:00.000Z",
+                                                        "endDate": "2050-12-31T23:59:00.000Z",
+                                                        "recurrenceIndicator": false,
+                                                        "duration": 0,
+                                                        "period": "month",
+                                                        "proRateFrequency": "monthly",
+                                                        "contractIndicator": "non-contract",
+                                                        "billingReferenceId": "1",
+                                                        "gfVersion": 0,
+                                                        "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+                                                        "nftvFlag": "Y",
+                                                        "ftvCount": "4",
+                                                        "chargeType": "mrc",
+                                                        "grandfatherVersion": 2,
+                                                        "omsFreeSTBPolicyId": "DVALL4",
+                                                        "omsProductId": "10002321",
+                                                        "channel": "non-contracted",
+                                                        "grandfathered": false,
+                                                        "contracted": false
+                                                    },
+                                                    {
+                                                        "value": {
+                                                            "centAmount": 23000.0,
+                                                            "currencyCode": "USD",
+                                                            "fractionDigits": 2,
+                                                            "dollarAmount": 230.0
+                                                        },
+                                                        "id": "a93f843c-0e82-4f1a-ad99-44b52f651800",
+                                                        "startDate": "2023-01-22T05:00:00.000Z",
+                                                        "endDate": "2050-12-31T23:59:00.000Z",
+                                                        "recurrenceIndicator": false,
+                                                        "duration": 0,
+                                                        "period": "month",
+                                                        "proRateFrequency": "monthly",
+                                                        "contractIndicator": "non-contract",
+                                                        "billingReferenceId": "2",
+                                                        "gfVersion": 0,
+                                                        "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+                                                        "nftvFlag": "Y",
+                                                        "ftvCount": "2",
+                                                        "chargeType": "mrc",
+                                                        "grandfatherVersion": 2,
+                                                        "omsFreeSTBPolicyId": "DVALL2DTH,DVALL2",
+                                                        "omsProductId": "10012181",
+                                                        "channel": "non-contracted",
+                                                        "grandfathered": false,
+                                                        "contracted": false
+                                                    },
+                                                    {
+                                                        "value": {
+                                                            "centAmount": 22300.0,
+                                                            "currencyCode": "USD",
+                                                            "fractionDigits": 2,
+                                                            "dollarAmount": 223.0
+                                                        },
+                                                        "id": "788caf68-c724-4844-a908-9a13ab6ea6ad",
+                                                        "startDate": "2023-01-22T05:00:00.000Z",
+                                                        "endDate": "2050-12-31T23:59:00.000Z",
+                                                        "recurrenceIndicator": false,
+                                                        "duration": 0,
+                                                        "period": "month",
+                                                        "proRateFrequency": "monthly",
+                                                        "contractIndicator": "non-contract",
+                                                        "billingReferenceId": "3",
+                                                        "gfVersion": 0,
+                                                        "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+                                                        "nftvFlag": "Y",
+                                                        "ftvCount": "1",
+                                                        "chargeType": "mrc",
+                                                        "grandfatherVersion": 2,
+                                                        "omsFreeSTBPolicyId": "DVALL1,NA",
+                                                        "omsProductId": "10023562",
+                                                        "channel": "non-contracted",
+                                                        "grandfathered": false,
+                                                        "contracted": false
+                                                    },
+                                                    {
+                                                        "value": {
+                                                            "centAmount": 18960.0,
+                                                            "currencyCode": "USD",
+                                                            "fractionDigits": 2,
+                                                            "dollarAmount": 189.6
+                                                        },
+                                                        "id": "ffa96fde-87cc-480a-af95-fafa36f532ef",
+                                                        "startDate": "2023-01-22T05:00:00.000Z",
+                                                        "endDate": "2050-12-31T23:59:00.000Z",
+                                                        "recurrenceIndicator": false,
+                                                        "duration": 0,
+                                                        "period": "month",
+                                                        "proRateFrequency": "monthly",
+                                                        "contractIndicator": "non-contract",
+                                                        "billingReferenceId": "410",
+                                                        "gfVersion": 0,
+                                                        "businessSegment": "PTR",
+                                                        "employeeSegment": "retiree",
+                                                        "nftvFlag": "Y",
+                                                        "ftvCount": "1,2,4",
+                                                        "chargeType": "mrc",
+                                                        "omsProductId": "10004175",
+                                                        "channel": "non-contracted",
+                                                        "grandfathered": false,
+                                                        "contracted": false
+                                                    },
+                                                    {
+                                                        "value": {
+                                                            "centAmount": 16725.0,
+                                                            "currencyCode": "USD",
+                                                            "fractionDigits": 2,
+                                                            "dollarAmount": 167.25
+                                                        },
+                                                        "id": "4cc0192a-b2b7-4c9f-919d-b013688328d3",
+                                                        "startDate": "2023-01-22T05:00:00.000Z",
+                                                        "endDate": "2050-12-31T23:59:00.000Z",
+                                                        "recurrenceIndicator": false,
+                                                        "duration": 0,
+                                                        "period": "month",
+                                                        "proRateFrequency": "monthly",
+                                                        "contractIndicator": "non-contract",
+                                                        "billingReferenceId": "415",
+                                                        "gfVersion": 0,
+                                                        "businessSegment": "PTR",
+                                                        "employeeSegment": "active",
+                                                        "nftvFlag": "Y",
+                                                        "ftvCount": "1,2,4",
+                                                        "chargeType": "mrc",
+                                                        "omsProductId": "10059335",
+                                                        "channel": "non-contracted",
+                                                        "grandfathered": false,
+                                                        "contracted": false
+                                                    }
+                                                ],
+                                                "attributes": {
+                                                    "displayName": {
+                                                        "en": "PREMIER&trade; ALL INCLUDED"
+                                                    },
+                                                    "displayRanking": 75,
+                                                    "billingProductCode": "P103348",
+                                                    "billingCode": "P103348",
+                                                    "startDate": "2010-08-18T18:30:00.000Z",
+                                                    "endDate": "2050-02-07T18:30:00.000Z",
+                                                    "businessSegment": [
+                                                        "MDU",
+                                                        "CONS"
+                                                    ],
+                                                    "salesChannel": [
+                                                        "opus",
+                                                        "online",
+                                                        "opusServices",
+                                                        "opusSales",
+                                                        "onlineServices",
+                                                        "onlineSales"
+                                                    ],
+                                                    "productFamily": "satellite",
+                                                    "numberOfChannels": "330+ digital channels",
+                                                    "language": "English",
+                                                    "serviceFlag": true,
+                                                    "productStatus": "Active",
+                                                    "downgradeableRule": "0",
+                                                    "includedProducts": [
+                                                        {
+                                                            "products": [
+                                                                {
+                                                                    "id": "33ec21d6-f79b-48b3-a1b1-4f6c0e76e136",
+                                                                    "typeId": "product",
+                                                                    "productType": "video-addon",
+                                                                    "key": "BOLTON-DIRECTV-SPORTS-PACK_satellite"
+                                                                },
+                                                                {
+                                                                    "id": "2866ce11-08df-42a5-af2d-ac7eb3a0705b",
+                                                                    "typeId": "product",
+                                                                    "productType": "video-addon",
+                                                                    "key": "BOLTON-CINEMAX_satellite"
+                                                                },
+                                                                {
+                                                                    "id": "d93af126-180b-4e06-b136-b4a486669777",
+                                                                    "typeId": "product",
+                                                                    "productType": "video-addon",
+                                                                    "key": "BOLTON-SHOWTIME_satellite"
+                                                                },
+                                                                {
+                                                                    "id": "7a74b437-279c-430f-ab56-3753cd987a15",
+                                                                    "typeId": "product",
+                                                                    "productType": "video-addon",
+                                                                    "key": "BOLTON-STARZ_satellite"
+                                                                },
+                                                                {
+                                                                    "id": "aa33dddf-bdf5-4963-bd96-9d28d16beaa5",
+                                                                    "typeId": "product",
+                                                                    "productType": "video-addon",
+                                                                    "key": "BOLTON-HBO-MAX_satellite"
+                                                                }
+                                                            ],
+                                                            "constraints": {
+                                                                "dependent": false,
+                                                                "anchor": false
+                                                            }
+                                                        }
+                                                    ],
+                                                    "contractApplicable": "noncontract",
+                                                    "contractIndicator": [
+                                                        "non-contract"
+                                                    ],
+                                                    "omsComponentMapping": [
+                                                        {
+                                                            "attributes": [
+                                                                {
+                                                                    "attributeCode": "BasePkg",
+                                                                    "attributeValue": "PremierAll"
+                                                                },
+                                                                {
+                                                                    "attributeCode": "freeSTBPolicy",
+                                                                    "attributeValue": "DVALL1"
+                                                                }
+                                                            ],
+                                                            "componentCode": "ATTDTV",
+                                                            "operationName": "MOORequest,PUSPO1Request",
+                                                            "componentPath": "ATTDTV"
+                                                        }
+                                                    ],
+                                                    "customerSegments": [
+                                                        "Employee",
+                                                        "Residential"
+                                                    ],
+                                                    "hasLocalChannels": true,
+                                                    "termsAndConditions": {
+                                                        "en": "Does this replace my current package? Yes, this will replace your current package. How much will I be charged? On your next bill, you'll see a credit for the package that you're disconnecting today because you paid in advance. You'll also see a partial charge that covers the new package starting today, and the regular monthly charge that we bill in advance for the following month. How long does activation take? 5 minutes."
+                                                    },
+                                                    "planType": "AllIn",
+                                                    "migratedProduct": false,
+                                                    "isChangeable": true,
+                                                    "omsProductCode": "PremierAll",
+                                                    "enablerPricePlanCode": "88849754",
+                                                    "tokens": "BASE-PREMIER-ALL-INCLUDED",
+                                                    "chargeCode": "DTVPAI",
+                                                    "isWorldDirect": false,
+                                                    "maxSTBsWired": 5,
+                                                    "maxDVRs": 1,
+                                                    "maxSTBsWIFI": 5,
+                                                    "maxSTBsWithServer": 8,
+                                                    "billingParams": [
+                                                        {
+                                                            "value": "PremierAll",
+                                                            "name": "BasePkg"
+                                                        }
+                                                    ],
+                                                    "grandFatherInfo": [
+                                                        {
+                                                            "salesEffectiveDate": "2017-11-11T00:00:00.000Z",
+                                                            "salesExpirationDate": "2049-12-31T23:59:00.000Z",
+                                                            "version": 2
+                                                        }
+                                                    ],
+                                                    "enablerATGProductId": "prod8330977",
+                                                    "enablerATGSkuId": "sku7650324",
+                                                    "productImages": "DTV-PREMIER",
+                                                    "incompatibleProducts": [
+                                                        [
+                                                            {
+                                                                "name": "products",
+                                                                "value": [
+                                                                    {
+                                                                        "id": "4c8f00a7-5dc7-4a86-bd06-f71697c521e5",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "4d3d1291-4356-4e8a-ad94-82ed02dc2ab2",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "f337740e-b983-409c-a533-33f06217a299",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "6dfc96d6-b65f-4ab3-ba8f-d14697e7df9e",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "e31a9bd7-dac1-4d2d-9860-a5f832ce715d",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "b74ffade-b9e8-4f7b-8935-30c24957714c",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "8ee790f5-4c55-416e-9de6-a00178defcde",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "33ec21d6-f79b-48b3-a1b1-4f6c0e76e136",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "2866ce11-08df-42a5-af2d-ac7eb3a0705b",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "d93af126-180b-4e06-b136-b4a486669777",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "7a74b437-279c-430f-ab56-3753cd987a15",
+                                                                        "typeId": "product"
+                                                                    },
+                                                                    {
+                                                                        "id": "aa33dddf-bdf5-4963-bd96-9d28d16beaa5",
+                                                                        "typeId": "product"
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER-ALL-INCLUDED_satellite"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "benefits": [
+                {
+                    "benefitCategory": "Product",
+                    "billingBenefitId": "B101209/015",
+                    "id": "f03dde78-f851-450b-8997-75b543a54005",
+                    "parentOffers": [
+                        {
+                            "typeId": "product",
+                            "id": "73aefba8-7995-4cdb-a060-e559f24671c9"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "7b337910-fb9c-4d96-ba19-0a837ffafd7e"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "d728ba6d-b8fc-4aa5-9b85-483a6ee7787d"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "aaf260d2-e3c4-42c5-9af6-3b14813a9ec2"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "3ee56606-7b74-4bde-b2ef-f148bc15ac46"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "9d010c8b-dee1-4842-9790-09a0ffbcd5e3"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "cd82b3b9-dd2a-4678-83a4-e34fcb1e6829"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "3de4cf60-c8f3-4521-88d8-b30e31d38757"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "cb04d33e-cfa7-4b44-86d3-a170bbabaad6"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "2c1d4fa2-171d-4a33-a0a7-f0ce4ba1208c"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "ca8df219-ffa1-486f-9772-a2a5fb0bdaa1"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "39f4562f-4c4a-45cd-be57-25037d302f44"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "ce19e22d-e01a-4183-a600-fb473ca6091b"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "806959c3-78eb-4300-beca-47a95d5948e9"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "85a32972-9b75-4a4a-94ed-72d02aef49c1"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "8849677a-0343-4d3f-864a-50929b3667f1"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "4858d4c8-eedf-4cb4-b746-8d619e4bfb03"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "91937d0c-eca8-433f-b9a2-595d7147645c"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "b341d2a4-83f5-4ccc-a974-5ac02404dc57"
+                        }
+                    ],
+                    "code": "PROMO_BASE-5-OFF-12-MO_satellite",
+                    "billingBenefitCode": "89038203",
+                    "benefitName": {
+                        "en": "$5 off for 12 months"
+                    },
+                    "benefitDisplayName": {
+                        "en": "$5 off for 12 months"
+                    },
+                    "benefitRank": 2000,
+                    "description": {
+                        "en": "$5 off for 12 months"
+                    },
+                    "startDate": "2049-08-21T00:00:00.000Z",
+                    "retIoApplicableProducts": false,
+                    "endDate": "2050-12-30T23:59:00.000Z",
+                    "contractIndicator": "contract",
+                    "selfBenefit": false,
+                    "duration": 12,
+                    "period": "NoOfMonths",
+                    "billAfterPeriod": false,
+                    "applicableProducts": [
+                        {
+                            "products": [
+                                {
+                                    "id": "20b5bbdc-35a8-4e00-9cce-49202b6e99c3",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-ULTRA-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "37ee4612-c83c-4df9-84e4-ee8e24cf82e1",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-CHOICE-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "81ca6726-dd88-43e9-946e-7b2e9b3badf2",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER_satellite"
+                                },
+                                {
+                                    "id": "3fa04de4-bd3d-40bd-9284-07e8808eb79d",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "9a4a8541-f9e8-44ee-bba4-20f8a389703f",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "d13d8f8a-5927-42ad-8d15-ff517dabc947",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "aff04b2d-8a67-4506-9460-2dc4652d82cd",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ULTIMATE_satellite"
+                                },
+                                {
+                                    "id": "8c093cfb-3877-4d84-834d-27462466b4cd",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ULTIMATE-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "cc5a81fe-f49d-4ff3-bf82-9793a69e2044",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ULTIMATE-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "e0f2e79f-703c-43b3-8715-004beb74e125",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ULTIMATE-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "be34900e-97bb-440c-b60d-9dd62315417f",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-XTRA-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "41cec82e-3eee-46bf-8b65-f058a0bc36b4",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-XTRA_satellite"
+                                },
+                                {
+                                    "id": "04cc6339-ed8a-4ecd-99e2-0ed9df19ac4c",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-XTRA-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "4b86e86d-11bf-4617-95a7-5f68236513bc",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-XTRA-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "8922cc94-0df5-40d3-a630-fea421b442a3",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-CHOICE_satellite"
+                                },
+                                {
+                                    "id": "ddebb535-e660-46d9-ac88-4a83efc9f182",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-CHOICE-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "543da8fa-3b8e-4447-8afc-c820dbadb261",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-CHOICE-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "9c12ed9b-2ab8-4f0f-a76f-a709114ca54b",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ENTERTAINMENT_satellite"
+                                },
+                                {
+                                    "id": "591f27f5-c26c-4438-8dff-9c4b0f785b2b",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ENTERTAINMENT-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "ac0f53ef-22c6-4952-b58c-16240cb415a0",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ENTERTAINMENT-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "ae97cee0-6ad1-4c73-88ff-90aa179e08aa",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ENTERTAINMENT-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "6c0de4f9-9678-4db4-b8be-a794720179fe",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-CHOICE_satellite"
+                                },
+                                {
+                                    "id": "0e55ccdc-ffdd-4532-9455-2dcaaf8149fe",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-CHOICE-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "19088468-7fd7-453c-abb8-47b70c02bd9d",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-CHOICE-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "b15d22d0-8c04-4521-a879-587aa3d0f521",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-CHOICE-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "e7ad450e-c7d4-4a98-978c-dd86ae5e773d",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO_satellite"
+                                },
+                                {
+                                    "id": "a2b69acd-e11e-4303-851b-76a5031dcdf1",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "0ece68ec-ce18-42fa-84be-99cbf894dc13",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "11bc2507-a96c-4dc2-beed-034e16d73fa8",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "0a0855d2-4010-4f0c-a2cd-06b76e1b9875",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-ULTRA_satellite"
+                                },
+                                {
+                                    "id": "b8effa3b-f866-4a84-be2a-41ec3852e945",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-ULTRA-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "93af62fa-5618-4485-8543-d9398accca6e",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-ULTRA-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "56702d59-6701-46f4-aba9-6a86fbebdca5",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-OPTIMO-MAS_satellite"
+                                },
+                                {
+                                    "id": "2af5fc47-f403-4575-a981-aae2c26091f1",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-OPTIMO-MAS-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "ed77ab50-b816-4eb1-b4a9-48015325fafe",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-OPTIMO-MAS-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "19d329b4-3adc-421b-a9aa-76ffba882c60",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-OPTIMO-MAS-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "f85bd8fc-f7c0-49ce-9918-f59e52dcbd74",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-LATINO_satellite"
+                                },
+                                {
+                                    "id": "580696d2-c932-459e-8a36-d1859b6c92e8",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-LATINO-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "26ecd53a-b057-406b-928a-bd4d3a43524f",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-LATINO-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "af13876e-af71-4d63-9282-5680fc198177",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-LATINO-ALL-INCLUDED-NO-LOCALS_satellite"
+                                }
+                            ]
+                        }
+                    ],
+                    "maxOccurrence": 0,
+                    "benefitType": "flat-off",
+                    "value": {
+                        "centAmount": 500.0,
+                        "currencyCode": "USD",
+                        "fractionDigits": 2,
+                        "dollarAmount": 5.0
+                    },
+                    "secondaryBenefitCode": "VAGR-BP-12MO-V646",
+                    "freeTrialPromo": false,
+                    "ioOffer": false,
+                    "freeTrialDuration": 0,
+                    "agentOffer": false,
+                    "minQuantity": 0,
+                    "promoPriority": 0,
+                    "benefitLevel": "product",
+                    "notApplibaleForOffer": false,
+                    "enableServiceDisconnect": false,
+                    "rtpIndicator": false,
+                    "portin": false,
+                    "benefitSaleType": "A",
+                    "segment": [
+                        "residential"
+                    ],
+                    "businessSegment": [
+                        "MDU",
+                        "CONS"
+                    ],
+                    "salesChannels": [
+                        "online"
+                    ],
+                    "benefitActionType": [
+                        "Aquisition"
+                    ],
+                    "enablerPromotionCode": "DS2316",
+                    "locationType": "nation",
+                    "location": "US",
+                    "rebateID": "100111",
+                    "billingReasonCode": "5959",
+                    "omsProductId": "10065341",
+                    "numberOfCredits": 12,
+                    "recurringBillingReasonCode": "SAJ5960",
+                    "agreementID": "VAGR-BP-12MO-V646",
+                    "agreementPriceCode": "1",
+                    "strikeThroughOffer": true,
+                    "active": true,
+                    "couponPromo": false,
+                    "migrated": false,
+                    "quotaBased": false,
+                    "isDependentPromo": false,
+                    "isMigrated": false,
+                    "isQuotaBased": false,
+                    "isActive": true
+                },
+                {
+                    "benefitCategory": "Product",
+                    "id": "b6d8c719-f2e1-4e28-884d-19046f59cf2f",
+                    "parentOffers": [
+                        {
+                            "typeId": "product",
+                            "id": "cd82b3b9-dd2a-4678-83a4-e34fcb1e6829"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "3de4cf60-c8f3-4521-88d8-b30e31d38757"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "b341d2a4-83f5-4ccc-a974-5ac02404dc57"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "91937d0c-eca8-433f-b9a2-595d7147645c"
+                        }
+                    ],
+                    "code": "PROMO_BAI-66-01-OFF-12-MOS_satellite",
+                    "billingBenefitCode": "88990473",
+                    "benefitName": {
+                        "en": "all included $66.01 off for 12 mos"
+                    },
+                    "benefitDisplayName": {
+                        "en": "all included $66.01 off for 12 mos"
+                    },
+                    "benefitRank": 5565,
+                    "description": {
+                        "en": "all included $66.01 off for 12 mos"
+                    },
+                    "startDate": "2021-01-07T00:00:00.000Z",
+                    "retIoApplicableProducts": false,
+                    "endDate": "2022-01-22T23:59:00.000Z",
+                    "contractIndicator": "contract",
+                    "selfBenefit": false,
+                    "duration": 12,
+                    "period": "NoOfMonths",
+                    "billAfterPeriod": false,
+                    "applicableProducts": [
+                        {
+                            "products": [
+                                {
+                                    "id": "11bc2507-a96c-4dc2-beed-034e16d73fa8",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "0ece68ec-ce18-42fa-84be-99cbf894dc13",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "d13d8f8a-5927-42ad-8d15-ff517dabc947",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "9a4a8541-f9e8-44ee-bba4-20f8a389703f",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER-ALL-INCLUDED-NO-LOCALS_satellite"
+                                }
+                            ]
+                        }
+                    ],
+                    "maxOccurrence": 0,
+                    "benefitType": "flat-off",
+                    "value": {
+                        "centAmount": 6601.0,
+                        "currencyCode": "USD",
+                        "fractionDigits": 2,
+                        "dollarAmount": 66.01
+                    },
+                    "freeTrialPromo": false,
+                    "ioOffer": false,
+                    "freeTrialDuration": 0,
+                    "agentOffer": false,
+                    "minQuantity": 0,
+                    "promoPriority": 0,
+                    "notApplibaleForOffer": false,
+                    "enableServiceDisconnect": false,
+                    "rtpIndicator": true,
+                    "portin": false,
+                    "benefitSaleType": "B",
+                    "segment": [
+                        "residential"
+                    ],
+                    "businessSegment": [
+                        "MDU"
+                    ],
+                    "salesChannels": [
+                        "online"
+                    ],
+                    "benefitActionType": [
+                        "Aquisition"
+                    ],
+                    "gfVersion": "2",
+                    "enablerPromotionCode": "DS1987",
+                    "locationType": "nation",
+                    "location": "US",
+                    "active": true,
+                    "couponPromo": false,
+                    "migrated": false,
+                    "quotaBased": false,
+                    "isDependentPromo": false,
+                    "isMigrated": false,
+                    "isQuotaBased": false,
+                    "isActive": true
+                },
+                {
+                    "benefitCategory": "Product",
+                    "id": "0595fc98-ca59-4b41-898f-5ec31c1a792c",
+                    "parentOffers": [
+                        {
+                            "typeId": "product",
+                            "id": "cd82b3b9-dd2a-4678-83a4-e34fcb1e6829"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "2c1d4fa2-171d-4a33-a0a7-f0ce4ba1208c"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "3de4cf60-c8f3-4521-88d8-b30e31d38757"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "cb04d33e-cfa7-4b44-86d3-a170bbabaad6"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "aaf260d2-e3c4-42c5-9af6-3b14813a9ec2"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "3ee56606-7b74-4bde-b2ef-f148bc15ac46"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "9d010c8b-dee1-4842-9790-09a0ffbcd5e3"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "73aefba8-7995-4cdb-a060-e559f24671c9"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "7b337910-fb9c-4d96-ba19-0a837ffafd7e"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "d728ba6d-b8fc-4aa5-9b85-483a6ee7787d"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "ce19e22d-e01a-4183-a600-fb473ca6091b"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "806959c3-78eb-4300-beca-47a95d5948e9"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "39f4562f-4c4a-45cd-be57-25037d302f44"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "85a32972-9b75-4a4a-94ed-72d02aef49c1"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "91937d0c-eca8-433f-b9a2-595d7147645c"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "8849677a-0343-4d3f-864a-50929b3667f1"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "b341d2a4-83f5-4ccc-a974-5ac02404dc57"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "4858d4c8-eedf-4cb4-b746-8d619e4bfb03"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "602ca8d1-8036-478c-b087-651b7920ef95"
+                        }
+                    ],
+                    "code": "PROMO_B-5-OFF-12-MOS-ABP-PB_satellite",
+                    "billingBenefitCode": "88807223",
+                    "benefitName": {
+                        "en": "DTV_$5 Off_12 mos_Stype_ABP/PB_DS0588"
+                    },
+                    "benefitDisplayName": {
+                        "en": "$5 off for 12 mos with AutoPay and Paperless Bill"
+                    },
+                    "benefitRank": 900,
+                    "description": {
+                        "en": "$5 off for 12 months with AutoPay and Paperless Bill"
+                    },
+                    "startDate": "1990-01-01T19:49:53.443Z",
+                    "retIoApplicableProducts": false,
+                    "endDate": "2021-11-13T23:59:00.000Z",
+                    "contractIndicator": "contract",
+                    "selfBenefit": false,
+                    "duration": 12,
+                    "period": "NoOfMonths",
+                    "billAfterPeriod": false,
+                    "applicableProducts": [
+                        {
+                            "products": [
+                                {
+                                    "id": "11bc2507-a96c-4dc2-beed-034e16d73fa8",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "0ece68ec-ce18-42fa-84be-99cbf894dc13",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "19088468-7fd7-453c-abb8-47b70c02bd9d",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-CHOICE-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "b15d22d0-8c04-4521-a879-587aa3d0f521",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-CHOICE-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "19d329b4-3adc-421b-a9aa-76ffba882c60",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-OPTIMO-MAS-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "ed77ab50-b816-4eb1-b4a9-48015325fafe",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-OPTIMO-MAS-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "93af62fa-5618-4485-8543-d9398accca6e",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-ULTRA-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "b8effa3b-f866-4a84-be2a-41ec3852e945",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-ULTRA-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "af13876e-af71-4d63-9282-5680fc198177",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-LATINO-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "26ecd53a-b057-406b-928a-bd4d3a43524f",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-LATINO-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "ac0f53ef-22c6-4952-b58c-16240cb415a0",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ENTERTAINMENT-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "543da8fa-3b8e-4447-8afc-c820dbadb261",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-CHOICE-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "ae97cee0-6ad1-4c73-88ff-90aa179e08aa",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ENTERTAINMENT-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "ddebb535-e660-46d9-ac88-4a83efc9f182",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-CHOICE-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "9a4a8541-f9e8-44ee-bba4-20f8a389703f",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "e0f2e79f-703c-43b3-8715-004beb74e125",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ULTIMATE-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "d13d8f8a-5927-42ad-8d15-ff517dabc947",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "cc5a81fe-f49d-4ff3-bf82-9793a69e2044",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ULTIMATE-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "e9ea13c4-e0e9-471f-b38d-6f91d8a37e6f",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88890335"
+                                },
+                                {
+                                    "id": "16f4cc77-f771-45ca-8e21-0d7a80996dc2",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88890255"
+                                },
+                                {
+                                    "id": "076891c3-0ed7-493b-bfe3-3781c2954052",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88890275"
+                                },
+                                {
+                                    "id": "75ad981c-cb8a-4d1a-8943-a67c604022c7",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88890315"
+                                },
+                                {
+                                    "id": "cf82c9ea-4a49-427c-b87f-9d81f8bc2d43",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "89324806"
+                                },
+                                {
+                                    "id": "f29f2028-3cbb-4a3c-bc77-b53a18ad4783",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88849994"
+                                },
+                                {
+                                    "id": "a03dbd2e-6abd-4bac-a55a-a7ff15516766",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88849674"
+                                },
+                                {
+                                    "id": "e7925cdf-c4f8-43a1-adcb-e431c71c980f",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88849714"
+                                },
+                                {
+                                    "id": "0fb0301a-4f7d-4b30-8c00-874936ae6c69",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88849834"
+                                },
+                                {
+                                    "id": "087496c0-d4d3-4d1c-a48f-98d31ee1d2ea",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88849914"
+                                },
+                                {
+                                    "id": "7e19be94-8928-4d6b-9975-751e17cadadd",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88849754"
+                                },
+                                {
+                                    "id": "39acec79-4e10-4652-bdf5-b2daf2a02398",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88849874"
+                                },
+                                {
+                                    "id": "24d90a11-def7-423c-a8dd-c8ecbe931eb1",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88849954"
+                                },
+                                {
+                                    "id": "4cfca03f-b550-4e9a-a5e5-0a4662f3ea7b",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88849634"
+                                },
+                                {
+                                    "id": "2ccfad91-abf7-460b-935e-ac6d609c9dcc",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88890325"
+                                },
+                                {
+                                    "id": "72230e62-4866-430b-8efc-62ad350e3a99",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88890245"
+                                },
+                                {
+                                    "id": "e76956b9-9957-465c-af6d-d5fb23bed7f1",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88890265"
+                                },
+                                {
+                                    "id": "8979ac08-2df9-4765-85d7-3943347bb6e5",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88890285"
+                                },
+                                {
+                                    "id": "86ddd585-e306-47d9-aa28-e2a9ae316116",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "89324816"
+                                },
+                                {
+                                    "id": "cf8e17ed-54e4-4733-95fc-2644c0e530fe",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88890305"
+                                },
+                                {
+                                    "id": "ab88ae7f-d011-4633-a7cf-264f52430120",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88850034"
+                                },
+                                {
+                                    "id": "e50d9012-2c3b-4e9a-a219-905138c2133c",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88850074"
+                                },
+                                {
+                                    "id": "3a2b0193-73ee-4b7b-8887-260985600074",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88894395"
+                                },
+                                {
+                                    "id": "5330e81f-6daf-4d6f-99bc-37ce24647696",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88890295"
+                                }
+                            ]
+                        }
+                    ],
+                    "maxOccurrence": 0,
+                    "benefitType": "flat-off",
+                    "value": {
+                        "centAmount": 500.0,
+                        "currencyCode": "USD",
+                        "fractionDigits": 2,
+                        "dollarAmount": 5.0
+                    },
+                    "freeTrialPromo": false,
+                    "ioOffer": false,
+                    "freeTrialDuration": 0,
+                    "agentOffer": false,
+                    "minQuantity": 0,
+                    "promoPriority": 4,
+                    "benefitLevel": "product",
+                    "notApplibaleForOffer": false,
+                    "enableServiceDisconnect": false,
+                    "rtpIndicator": true,
+                    "portin": false,
+                    "benefitSaleType": "S",
+                    "segment": [
+                        "residential"
+                    ],
+                    "salesChannels": [
+                        "online"
+                    ],
+                    "benefitActionType": [
+                        "Aquisition"
+                    ],
+                    "gfVersion": "2",
+                    "enablerPromotionCode": "DS0588",
+                    "locationType": "nation",
+                    "location": "US",
+                    "benefitClassificationType": [
+                        "paperless",
+                        "abp"
+                    ],
+                    "agreementPriceCode": "1",
+                    "active": true,
+                    "couponPromo": false,
+                    "migrated": false,
+                    "quotaBased": false,
+                    "isDependentPromo": false,
+                    "isMigrated": false,
+                    "isQuotaBased": false,
+                    "isActive": true
+                },
+                {
+                    "benefitCategory": "Product",
+                    "billingBenefitId": "B101201/463",
+                    "id": "da215bc1-4fc2-474b-8375-fe97b4363c08",
+                    "parentOffers": [
+                        {
+                            "typeId": "product",
+                            "id": "3de4cf60-c8f3-4521-88d8-b30e31d38757"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "cd82b3b9-dd2a-4678-83a4-e34fcb1e6829"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "91937d0c-eca8-433f-b9a2-595d7147645c"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "b341d2a4-83f5-4ccc-a974-5ac02404dc57"
+                        }
+                    ],
+                    "code": "PROMO_BAI-58-01-OFF-24-MOS_satellite",
+                    "billingBenefitCode": "89047183",
+                    "benefitName": {
+                        "en": "all included $58.01 off for 24 mos"
+                    },
+                    "benefitDisplayName": {
+                        "en": "all included $58.01 off for 24 mos"
+                    },
+                    "benefitRank": 3050,
+                    "description": {
+                        "en": "$58.01 off for 24 mos_B101201"
+                    },
+                    "startDate": "2023-01-22T05:00:00.000Z",
+                    "retIoApplicableProducts": false,
+                    "endDate": "2050-12-31T23:59:00.000Z",
+                    "contractIndicator": "contract",
+                    "selfBenefit": false,
+                    "duration": 24,
+                    "period": "NoOfMonths",
+                    "billAfterPeriod": false,
+                    "applicableProducts": [
+                        {
+                            "products": [
+                                {
+                                    "id": "d13d8f8a-5927-42ad-8d15-ff517dabc947",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "9a4a8541-f9e8-44ee-bba4-20f8a389703f",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "0ece68ec-ce18-42fa-84be-99cbf894dc13",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "11bc2507-a96c-4dc2-beed-034e16d73fa8",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO-ALL-INCLUDED-NO-LOCALS_satellite"
+                                }
+                            ]
+                        }
+                    ],
+                    "maxOccurrence": 0,
+                    "benefitType": "flat-off",
+                    "value": {
+                        "centAmount": 5801.0,
+                        "currencyCode": "USD",
+                        "fractionDigits": 2,
+                        "dollarAmount": 58.01
+                    },
+                    "secondaryBenefitCode": "VAGR-BASE-24MO-V4",
+                    "freeTrialPromo": false,
+                    "ioOffer": false,
+                    "freeTrialDuration": 0,
+                    "agentOffer": false,
+                    "contractTerm": "24",
+                    "minQuantity": 0,
+                    "promoPriority": 0,
+                    "benefitLevel": "product",
+                    "notApplibaleForOffer": false,
+                    "enableServiceDisconnect": false,
+                    "rtpIndicator": true,
+                    "portin": false,
+                    "benefitSaleType": "B",
+                    "segment": [
+                        "residential"
+                    ],
+                    "businessSegment": [
+                        "MDU"
+                    ],
+                    "salesChannels": [
+                        "online"
+                    ],
+                    "benefitActionType": [
+                        "Aquisition"
+                    ],
+                    "gfVersion": "2",
+                    "enablerPromotionCode": "DS2382",
+                    "locationType": "nation",
+                    "location": "US",
+                    "rebateID": "100111",
+                    "billingReasonCode": "6082",
+                    "omsProductId": "10067805",
+                    "numberOfCredits": 24,
+                    "recurringBillingReasonCode": "6083",
+                    "agreementID": "VAGR-BASE-24MO-V4",
+                    "agreementPriceCode": "1",
+                    "transactionType": "SAJ",
+                    "active": false,
+                    "couponPromo": false,
+                    "migrated": false,
+                    "quotaBased": false,
+                    "isDependentPromo": false,
+                    "isMigrated": false,
+                    "isQuotaBased": false,
+                    "isActive": false
+                },
+                {
+                    "benefitCategory": "Product",
+                    "billingBenefitId": "B101201/435",
+                    "id": "74d47df7-c99c-464f-a53e-d5048f97fbac",
+                    "parentOffers": [
+                        {
+                            "typeId": "product",
+                            "id": "91937d0c-eca8-433f-b9a2-595d7147645c"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "b341d2a4-83f5-4ccc-a974-5ac02404dc57"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "cd82b3b9-dd2a-4678-83a4-e34fcb1e6829"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "3de4cf60-c8f3-4521-88d8-b30e31d38757"
+                        }
+                    ],
+                    "code": "PROMO_BAI-59-01-OFF-12-MOS_satellite",
+                    "billingBenefitCode": "89020923",
+                    "benefitName": {
+                        "en": "all included $59.01 off for 12 mos"
+                    },
+                    "benefitDisplayName": {
+                        "en": "all included $59.01 off for 12 mos"
+                    },
+                    "benefitRank": 5565,
+                    "description": {
+                        "en": "all included $59.01 off for 12 mos"
+                    },
+                    "startDate": "2022-01-23T00:00:00.000Z",
+                    "retIoApplicableProducts": false,
+                    "endDate": "2023-01-22T04:59:00.000Z",
+                    "contractIndicator": "contract",
+                    "selfBenefit": false,
+                    "duration": 12,
+                    "period": "NoOfMonths",
+                    "billAfterPeriod": false,
+                    "applicableProducts": [
+                        {
+                            "products": [
+                                {
+                                    "id": "9a4a8541-f9e8-44ee-bba4-20f8a389703f",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "d13d8f8a-5927-42ad-8d15-ff517dabc947",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "11bc2507-a96c-4dc2-beed-034e16d73fa8",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "0ece68ec-ce18-42fa-84be-99cbf894dc13",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO-ALL-INCLUDED_satellite"
+                                }
+                            ]
+                        }
+                    ],
+                    "maxOccurrence": 0,
+                    "benefitType": "flat-off",
+                    "value": {
+                        "centAmount": 5901.0,
+                        "currencyCode": "USD",
+                        "fractionDigits": 2,
+                        "dollarAmount": 59.01
+                    },
+                    "secondaryBenefitCode": "VAGR-BP-12MO-V630",
+                    "freeTrialPromo": false,
+                    "ioOffer": false,
+                    "freeTrialDuration": 0,
+                    "agentOffer": false,
+                    "contractTerm": "12",
+                    "minQuantity": 0,
+                    "promoPriority": 0,
+                    "benefitLevel": "product",
+                    "notApplibaleForOffer": false,
+                    "enableServiceDisconnect": false,
+                    "rtpIndicator": true,
+                    "portin": false,
+                    "benefitSaleType": "B",
+                    "segment": [
+                        "residential"
+                    ],
+                    "businessSegment": [
+                        "MDU"
+                    ],
+                    "salesChannels": [
+                        "online"
+                    ],
+                    "benefitActionType": [
+                        "Aquisition"
+                    ],
+                    "gfVersion": "2",
+                    "enablerPromotionCode": "DS2190",
+                    "locationType": "nation",
+                    "location": "US",
+                    "rebateID": "100111",
+                    "billingReasonCode": "5807",
+                    "omsProductId": "10061793",
+                    "numberOfCredits": 12,
+                    "recurringBillingReasonCode": "5808",
+                    "agreementID": "VAGR-BP-12MO-V630",
+                    "agreementPriceCode": "1",
+                    "transactionType": "SAJ",
+                    "active": true,
+                    "couponPromo": false,
+                    "migrated": false,
+                    "quotaBased": false,
+                    "isDependentPromo": false,
+                    "isMigrated": false,
+                    "isQuotaBased": false,
+                    "isActive": true
+                },
+                {
+                    "benefitCategory": "Product",
+                    "billingBenefitId": "B120166/005",
+                    "id": "5c870f22-8c70-4d5a-8f36-4785ba43185f",
+                    "parentOffers": [
+                        {
+                            "typeId": "product",
+                            "id": "91937d0c-eca8-433f-b9a2-595d7147645c"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "cd82b3b9-dd2a-4678-83a4-e34fcb1e6829"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "3de4cf60-c8f3-4521-88d8-b30e31d38757"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "2c1d4fa2-171d-4a33-a0a7-f0ce4ba1208c"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "cb04d33e-cfa7-4b44-86d3-a170bbabaad6"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "aaf260d2-e3c4-42c5-9af6-3b14813a9ec2"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "3ee56606-7b74-4bde-b2ef-f148bc15ac46"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "9d010c8b-dee1-4842-9790-09a0ffbcd5e3"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "73aefba8-7995-4cdb-a060-e559f24671c9"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "7b337910-fb9c-4d96-ba19-0a837ffafd7e"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "d728ba6d-b8fc-4aa5-9b85-483a6ee7787d"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "39f4562f-4c4a-45cd-be57-25037d302f44"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "806959c3-78eb-4300-beca-47a95d5948e9"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "ce19e22d-e01a-4183-a600-fb473ca6091b"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "85a32972-9b75-4a4a-94ed-72d02aef49c1"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "8849677a-0343-4d3f-864a-50929b3667f1"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "b341d2a4-83f5-4ccc-a974-5ac02404dc57"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "4858d4c8-eedf-4cb4-b746-8d619e4bfb03"
+                        }
+                    ],
+                    "code": "PROMO_B-10-OFF-ABP-PB-LIFETIME_satellite",
+                    "billingBenefitCode": "434743785",
+                    "benefitName": {
+                        "en": "DTV_$10_off_AP_PB_Lifetime_DS2361"
+                    },
+                    "benefitDisplayName": {
+                        "en": "$10 off with AutoPay and Paperless Billing"
+                    },
+                    "benefitRank": 100,
+                    "description": {
+                        "en": "$10 off with AutoPay and Paperless Billing"
+                    },
+                    "startDate": "2023-01-22T05:00:00.000Z",
+                    "retIoApplicableProducts": false,
+                    "endDate": "2049-12-31T23:59:00.000Z",
+                    "contractIndicator": "contract",
+                    "selfBenefit": false,
+                    "duration": 999,
+                    "period": "NoOfMonths",
+                    "billAfterPeriod": false,
+                    "applicableProducts": [
+                        {
+                            "products": [
+                                {
+                                    "id": "e0f2e79f-703c-43b3-8715-004beb74e125",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ULTIMATE-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "cc5a81fe-f49d-4ff3-bf82-9793a69e2044",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ULTIMATE-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "9a4a8541-f9e8-44ee-bba4-20f8a389703f",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "d13d8f8a-5927-42ad-8d15-ff517dabc947",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "543da8fa-3b8e-4447-8afc-c820dbadb261",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-CHOICE-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "ddebb535-e660-46d9-ac88-4a83efc9f182",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-CHOICE-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "ae97cee0-6ad1-4c73-88ff-90aa179e08aa",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ENTERTAINMENT-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "ac0f53ef-22c6-4952-b58c-16240cb415a0",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ENTERTAINMENT-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "af13876e-af71-4d63-9282-5680fc198177",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-LATINO-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "26ecd53a-b057-406b-928a-bd4d3a43524f",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-LATINO-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "93af62fa-5618-4485-8543-d9398accca6e",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-ULTRA-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "b8effa3b-f866-4a84-be2a-41ec3852e945",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-ULTRA-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "19d329b4-3adc-421b-a9aa-76ffba882c60",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-OPTIMO-MAS-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "ed77ab50-b816-4eb1-b4a9-48015325fafe",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-OPTIMO-MAS-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "b15d22d0-8c04-4521-a879-587aa3d0f521",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-CHOICE-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "19088468-7fd7-453c-abb8-47b70c02bd9d",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-CHOICE-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "11bc2507-a96c-4dc2-beed-034e16d73fa8",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "0ece68ec-ce18-42fa-84be-99cbf894dc13",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO-ALL-INCLUDED_satellite"
+                                }
+                            ]
+                        }
+                    ],
+                    "maxOccurrence": 0,
+                    "benefitType": "flat-off",
+                    "value": {
+                        "centAmount": 1000.0,
+                        "currencyCode": "USD",
+                        "fractionDigits": 2,
+                        "dollarAmount": 10.0
+                    },
+                    "secondaryBenefitCode": "VAGR-BP-999MO-V76",
+                    "freeTrialPromo": false,
+                    "ioOffer": false,
+                    "freeTrialDuration": 0,
+                    "agentOffer": false,
+                    "minQuantity": 0,
+                    "promoPriority": 4,
+                    "benefitLevel": "product",
+                    "notApplibaleForOffer": false,
+                    "enableServiceDisconnect": false,
+                    "rtpIndicator": false,
+                    "portin": false,
+                    "benefitSaleType": "S",
+                    "segment": [
+                        "residential"
+                    ],
+                    "salesChannels": [
+                        "online"
+                    ],
+                    "benefitActionType": [
+                        "Aquisition"
+                    ],
+                    "gfVersion": "0",
+                    "enablerPromotionCode": "DS2361",
+                    "locationType": "nation",
+                    "location": "US",
+                    "benefitClassificationType": [
+                        "paperless",
+                        "abp"
+                    ],
+                    "rebateID": "100111",
+                    "billingReasonCode": "6161",
+                    "omsProductId": "10067812",
+                    "numberOfCredits": 999,
+                    "recurringBillingReasonCode": "6162",
+                    "agreementID": "VAGR-BP-999MO-V76",
+                    "agreementPriceCode": "1",
+                    "enrollmentType": [
+                        "paperlessBill",
+                        "autobillPay"
+                    ],
+                    "transactionType": "SAJ",
+                    "active": true,
+                    "couponPromo": false,
+                    "migrated": false,
+                    "quotaBased": false,
+                    "isDependentPromo": false,
+                    "isMigrated": false,
+                    "isQuotaBased": false,
+                    "isActive": true
+                },
+                {
+                    "benefitCategory": "Product",
+                    "billingBenefitId": "B102471/001",
+                    "id": "f12e4de6-943d-4561-a486-99c05d72a822",
+                    "parentOffers": [
+                        {
+                            "typeId": "product",
+                            "id": "cb26b869-861e-435e-a88b-f897cb13d103"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "0d3e8a42-5130-4a33-a3b6-7ca4b95fa790"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "14602e8d-99d4-4a4d-907e-921e5e929756"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "23835de4-23c1-4740-9b19-cdabdf8bc6d1"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "ca8df219-ffa1-486f-9772-a2a5fb0bdaa1"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "43802e7f-0487-4b3c-a0ef-4167552ac505"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "e329f984-e937-41d1-a98f-28bfaf4c5f07"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "95b1795c-f5e1-468a-a333-f421c03c6ccc"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "77ef2f6e-80d2-4fc8-8895-0947cd28a1d4"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "f8a1162b-aa51-4d94-ae9b-1c26b9ecf2a5"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "7836629f-b7b1-4065-b1bb-8ad51dee0c76"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "5e5d41c1-aaca-4f5f-ae68-5188f54114d9"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "4044de70-27be-43ea-9b17-386952a75ddc"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "50a7c8f2-863b-4fe9-bda1-8f662e571855"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "759f4872-f3ce-4d84-86ae-46a98286f1d5"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "17eb171a-9b9e-4a5f-a5bd-8856b9722f97"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "695f02f4-93fb-4b5c-ab0c-6f2ce0a3e2a6"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "4f3d930c-4ecd-43d0-ba25-27d7390503c3"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "2ddd2b6d-546e-4624-98a9-75ebb78587d1"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "254f8d28-37e8-43c8-993d-e45736e11cb7"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "374674d1-1e4c-4b54-8afe-a26f67273c93"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "7b337910-fb9c-4d96-ba19-0a837ffafd7e"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "d728ba6d-b8fc-4aa5-9b85-483a6ee7787d"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "aaf260d2-e3c4-42c5-9af6-3b14813a9ec2"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "3ee56606-7b74-4bde-b2ef-f148bc15ac46"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "9d010c8b-dee1-4842-9790-09a0ffbcd5e3"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "73aefba8-7995-4cdb-a060-e559f24671c9"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "cd82b3b9-dd2a-4678-83a4-e34fcb1e6829"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "3de4cf60-c8f3-4521-88d8-b30e31d38757"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "cb04d33e-cfa7-4b44-86d3-a170bbabaad6"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "2c1d4fa2-171d-4a33-a0a7-f0ce4ba1208c"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "39f4562f-4c4a-45cd-be57-25037d302f44"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "ce19e22d-e01a-4183-a600-fb473ca6091b"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "806959c3-78eb-4300-beca-47a95d5948e9"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "85a32972-9b75-4a4a-94ed-72d02aef49c1"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "8849677a-0343-4d3f-864a-50929b3667f1"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "4858d4c8-eedf-4cb4-b746-8d619e4bfb03"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "91937d0c-eca8-433f-b9a2-595d7147645c"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "b341d2a4-83f5-4ccc-a974-5ac02404dc57"
+                        }
+                    ],
+                    "code": "PROMO_BASE-10-OFF-12-MO_satellite",
+                    "billingBenefitCode": "89034133",
+                    "benefitName": {
+                        "en": "$10 off for 12 months"
+                    },
+                    "benefitDisplayName": {
+                        "en": "$10 off for 12 months"
+                    },
+                    "benefitRank": 3000,
+                    "description": {
+                        "en": "$10 off for 12 months"
+                    },
+                    "startDate": "2022-05-22T04:00:00.000Z",
+                    "retIoApplicableProducts": false,
+                    "endDate": "2023-01-22T04:59:00.000Z",
+                    "contractIndicator": "contract",
+                    "selfBenefit": false,
+                    "duration": 12,
+                    "period": "NoOfMonths",
+                    "billAfterPeriod": false,
+                    "applicableProducts": [
+                        {
+                            "products": [
+                                {
+                                    "id": "88a473f7-f64a-45c0-b203-d86e7ef3774a",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-FAMILY-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "5c010e39-3e81-4501-a46e-1968874d8999",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-FAMILY_satellite"
+                                },
+                                {
+                                    "id": "af13876e-af71-4d63-9282-5680fc198177",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-LATINO-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "26ecd53a-b057-406b-928a-bd4d3a43524f",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-LATINO-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "580696d2-c932-459e-8a36-d1859b6c92e8",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-LATINO-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "f85bd8fc-f7c0-49ce-9918-f59e52dcbd74",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-LATINO_satellite"
+                                },
+                                {
+                                    "id": "19d329b4-3adc-421b-a9aa-76ffba882c60",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-OPTIMO-MAS-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "ed77ab50-b816-4eb1-b4a9-48015325fafe",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-OPTIMO-MAS-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "2af5fc47-f403-4575-a981-aae2c26091f1",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-OPTIMO-MAS-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "56702d59-6701-46f4-aba9-6a86fbebdca5",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-OPTIMO-MAS_satellite"
+                                },
+                                {
+                                    "id": "93af62fa-5618-4485-8543-d9398accca6e",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-ULTRA-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "b8effa3b-f866-4a84-be2a-41ec3852e945",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-ULTRA-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "20b5bbdc-35a8-4e00-9cce-49202b6e99c3",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-ULTRA-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "0a0855d2-4010-4f0c-a2cd-06b76e1b9875",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-ULTRA_satellite"
+                                },
+                                {
+                                    "id": "11bc2507-a96c-4dc2-beed-034e16d73fa8",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "0ece68ec-ce18-42fa-84be-99cbf894dc13",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "a2b69acd-e11e-4303-851b-76a5031dcdf1",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "e7ad450e-c7d4-4a98-978c-dd86ae5e773d",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO_satellite"
+                                },
+                                {
+                                    "id": "b15d22d0-8c04-4521-a879-587aa3d0f521",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-CHOICE-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "19088468-7fd7-453c-abb8-47b70c02bd9d",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-CHOICE-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "0e55ccdc-ffdd-4532-9455-2dcaaf8149fe",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-CHOICE-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "6c0de4f9-9678-4db4-b8be-a794720179fe",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-CHOICE_satellite"
+                                },
+                                {
+                                    "id": "ae97cee0-6ad1-4c73-88ff-90aa179e08aa",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ENTERTAINMENT-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "ac0f53ef-22c6-4952-b58c-16240cb415a0",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ENTERTAINMENT-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "591f27f5-c26c-4438-8dff-9c4b0f785b2b",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ENTERTAINMENT-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "9c12ed9b-2ab8-4f0f-a76f-a709114ca54b",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ENTERTAINMENT_satellite"
+                                },
+                                {
+                                    "id": "543da8fa-3b8e-4447-8afc-c820dbadb261",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-CHOICE-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "ddebb535-e660-46d9-ac88-4a83efc9f182",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-CHOICE-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "37ee4612-c83c-4df9-84e4-ee8e24cf82e1",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-CHOICE-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "8922cc94-0df5-40d3-a630-fea421b442a3",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-CHOICE_satellite"
+                                },
+                                {
+                                    "id": "4b86e86d-11bf-4617-95a7-5f68236513bc",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-XTRA-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "04cc6339-ed8a-4ecd-99e2-0ed9df19ac4c",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-XTRA-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "be34900e-97bb-440c-b60d-9dd62315417f",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-XTRA-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "41cec82e-3eee-46bf-8b65-f058a0bc36b4",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-XTRA_satellite"
+                                },
+                                {
+                                    "id": "e0f2e79f-703c-43b3-8715-004beb74e125",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ULTIMATE-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "cc5a81fe-f49d-4ff3-bf82-9793a69e2044",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ULTIMATE-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "8c093cfb-3877-4d84-834d-27462466b4cd",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ULTIMATE-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "aff04b2d-8a67-4506-9460-2dc4652d82cd",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ULTIMATE_satellite"
+                                },
+                                {
+                                    "id": "9a4a8541-f9e8-44ee-bba4-20f8a389703f",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "d13d8f8a-5927-42ad-8d15-ff517dabc947",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "3fa04de4-bd3d-40bd-9284-07e8808eb79d",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "81ca6726-dd88-43e9-946e-7b2e9b3badf2",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER_satellite"
+                                }
+                            ]
+                        }
+                    ],
+                    "maxOccurrence": 0,
+                    "benefitType": "flat-off",
+                    "value": {
+                        "centAmount": 1000.0,
+                        "currencyCode": "USD",
+                        "fractionDigits": 2,
+                        "dollarAmount": 10.0
+                    },
+                    "secondaryBenefitCode": "VAGR-BP-12MO-V565",
+                    "freeTrialPromo": false,
+                    "ioOffer": false,
+                    "freeTrialDuration": 0,
+                    "agentOffer": false,
+                    "minQuantity": 0,
+                    "promoPriority": 0,
+                    "benefitLevel": "product",
+                    "notApplibaleForOffer": false,
+                    "enableServiceDisconnect": false,
+                    "rtpIndicator": false,
+                    "portin": false,
+                    "benefitSaleType": "A",
+                    "segment": [
+                        "residential"
+                    ],
+                    "businessSegment": [
+                        "CONS",
+                        "MDU"
+                    ],
+                    "salesChannels": [
+                        "online"
+                    ],
+                    "benefitActionType": [
+                        "Aquisition"
+                    ],
+                    "enablerPromotionCode": "DS2295",
+                    "locationType": "nation",
+                    "location": "US",
+                    "rebateID": "100111",
+                    "billingReasonCode": "4519",
+                    "omsProductId": "10041182",
+                    "numberOfCredits": 12,
+                    "recurringBillingReasonCode": "4520",
+                    "agreementID": "VAGR-BP-12MO-V565",
+                    "agreementPriceCode": "1",
+                    "strikeThroughOffer": true,
+                    "transactionType": "SAJ",
+                    "active": true,
+                    "couponPromo": false,
+                    "migrated": false,
+                    "quotaBased": false,
+                    "isDependentPromo": false,
+                    "isMigrated": false,
+                    "isQuotaBased": false,
+                    "isActive": true
+                },
+                {
+                    "benefitCategory": "Product",
+                    "billingBenefitId": "B120166/001",
+                    "id": "0f8c5c86-2a94-4da1-8632-c8af5538bfb4",
+                    "parentOffers": [
+                        {
+                            "typeId": "product",
+                            "id": "cb26b869-861e-435e-a88b-f897cb13d103"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "0d3e8a42-5130-4a33-a3b6-7ca4b95fa790"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "14602e8d-99d4-4a4d-907e-921e5e929756"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "23835de4-23c1-4740-9b19-cdabdf8bc6d1"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "43802e7f-0487-4b3c-a0ef-4167552ac505"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "e329f984-e937-41d1-a98f-28bfaf4c5f07"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "77ef2f6e-80d2-4fc8-8895-0947cd28a1d4"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "467644df-d70c-4b81-a6c2-4e34e735631c"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "95b1795c-f5e1-468a-a333-f421c03c6ccc"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "7836629f-b7b1-4065-b1bb-8ad51dee0c76"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "f8a1162b-aa51-4d94-ae9b-1c26b9ecf2a5"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "2ddd2b6d-546e-4624-98a9-75ebb78587d1"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "5e5d41c1-aaca-4f5f-ae68-5188f54114d9"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "17eb171a-9b9e-4a5f-a5bd-8856b9722f97"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "4044de70-27be-43ea-9b17-386952a75ddc"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "695f02f4-93fb-4b5c-ab0c-6f2ce0a3e2a6"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "50a7c8f2-863b-4fe9-bda1-8f662e571855"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "4f3d930c-4ecd-43d0-ba25-27d7390503c3"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "759f4872-f3ce-4d84-86ae-46a98286f1d5"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "254f8d28-37e8-43c8-993d-e45736e11cb7"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "374674d1-1e4c-4b54-8afe-a26f67273c93"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "91937d0c-eca8-433f-b9a2-595d7147645c"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "cd82b3b9-dd2a-4678-83a4-e34fcb1e6829"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "3de4cf60-c8f3-4521-88d8-b30e31d38757"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "2c1d4fa2-171d-4a33-a0a7-f0ce4ba1208c"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "cb04d33e-cfa7-4b44-86d3-a170bbabaad6"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "aaf260d2-e3c4-42c5-9af6-3b14813a9ec2"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "3ee56606-7b74-4bde-b2ef-f148bc15ac46"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "9d010c8b-dee1-4842-9790-09a0ffbcd5e3"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "73aefba8-7995-4cdb-a060-e559f24671c9"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "7b337910-fb9c-4d96-ba19-0a837ffafd7e"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "d728ba6d-b8fc-4aa5-9b85-483a6ee7787d"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "39f4562f-4c4a-45cd-be57-25037d302f44"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "806959c3-78eb-4300-beca-47a95d5948e9"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "ce19e22d-e01a-4183-a600-fb473ca6091b"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "85a32972-9b75-4a4a-94ed-72d02aef49c1"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "8849677a-0343-4d3f-864a-50929b3667f1"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "b341d2a4-83f5-4ccc-a974-5ac02404dc57"
+                        },
+                        {
+                            "typeId": "product",
+                            "id": "4858d4c8-eedf-4cb4-b746-8d619e4bfb03"
+                        }
+                    ],
+                    "code": "PROMO_B-5-OFF-ABP-PB-LIFETIME_satellite",
+                    "billingBenefitCode": "434383599",
+                    "benefitName": {
+                        "en": "DTV_$5_off_AP_PB_Lifetime_DS2227"
+                    },
+                    "benefitDisplayName": {
+                        "en": "$5 off ongoing with AutoPay and Paperless Bill"
+                    },
+                    "benefitRank": 100,
+                    "description": {
+                        "en": "$5 off ongoing with AutoPay and Paperless Bill"
+                    },
+                    "startDate": "2021-11-14T00:01:00.000Z",
+                    "retIoApplicableProducts": false,
+                    "endDate": "2023-01-22T04:59:00.000Z",
+                    "contractIndicator": "contract",
+                    "selfBenefit": false,
+                    "duration": 999,
+                    "period": "NoOfMonths",
+                    "billAfterPeriod": false,
+                    "applicableProducts": [
+                        {
+                            "products": [
+                                {
+                                    "id": "2af5fc47-f403-4575-a981-aae2c26091f1",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-OPTIMO-MAS-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "580696d2-c932-459e-8a36-d1859b6c92e8",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-LATINO-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "20b5bbdc-35a8-4e00-9cce-49202b6e99c3",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-ULTRA-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "a2b69acd-e11e-4303-851b-76a5031dcdf1",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "88a473f7-f64a-45c0-b203-d86e7ef3774a",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-FAMILY-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "5c010e39-3e81-4501-a46e-1968874d8999",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-FAMILY_satellite"
+                                },
+                                {
+                                    "id": "a040227f-62bd-460f-adb6-9c776537826d",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-BASIC-CHOICE_satellite"
+                                },
+                                {
+                                    "id": "6c0de4f9-9678-4db4-b8be-a794720179fe",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-CHOICE_satellite"
+                                },
+                                {
+                                    "id": "0e55ccdc-ffdd-4532-9455-2dcaaf8149fe",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-CHOICE-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "0a0855d2-4010-4f0c-a2cd-06b76e1b9875",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-ULTRA_satellite"
+                                },
+                                {
+                                    "id": "56702d59-6701-46f4-aba9-6a86fbebdca5",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-OPTIMO-MAS_satellite"
+                                },
+                                {
+                                    "id": "f85bd8fc-f7c0-49ce-9918-f59e52dcbd74",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-LATINO_satellite"
+                                },
+                                {
+                                    "id": "e7ad450e-c7d4-4a98-978c-dd86ae5e773d",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO_satellite"
+                                },
+                                {
+                                    "id": "8c093cfb-3877-4d84-834d-27462466b4cd",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ULTIMATE-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "aff04b2d-8a67-4506-9460-2dc4652d82cd",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ULTIMATE_satellite"
+                                },
+                                {
+                                    "id": "37ee4612-c83c-4df9-84e4-ee8e24cf82e1",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-CHOICE-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "8922cc94-0df5-40d3-a630-fea421b442a3",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-CHOICE_satellite"
+                                },
+                                {
+                                    "id": "591f27f5-c26c-4438-8dff-9c4b0f785b2b",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ENTERTAINMENT-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "9c12ed9b-2ab8-4f0f-a76f-a709114ca54b",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ENTERTAINMENT_satellite"
+                                },
+                                {
+                                    "id": "3fa04de4-bd3d-40bd-9284-07e8808eb79d",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "81ca6726-dd88-43e9-946e-7b2e9b3badf2",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER_satellite"
+                                },
+                                {
+                                    "id": "5330e81f-6daf-4d6f-99bc-37ce24647696",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88890295"
+                                },
+                                {
+                                    "id": "3a2b0193-73ee-4b7b-8887-260985600074",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88894395"
+                                },
+                                {
+                                    "id": "e50d9012-2c3b-4e9a-a219-905138c2133c",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88850074"
+                                },
+                                {
+                                    "id": "ab88ae7f-d011-4633-a7cf-264f52430120",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88850034"
+                                },
+                                {
+                                    "id": "cf8e17ed-54e4-4733-95fc-2644c0e530fe",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88890305"
+                                },
+                                {
+                                    "id": "86ddd585-e306-47d9-aa28-e2a9ae316116",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "89324816"
+                                },
+                                {
+                                    "id": "8979ac08-2df9-4765-85d7-3943347bb6e5",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88890285"
+                                },
+                                {
+                                    "id": "e76956b9-9957-465c-af6d-d5fb23bed7f1",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88890265"
+                                },
+                                {
+                                    "id": "72230e62-4866-430b-8efc-62ad350e3a99",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88890245"
+                                },
+                                {
+                                    "id": "2ccfad91-abf7-460b-935e-ac6d609c9dcc",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88890325"
+                                },
+                                {
+                                    "id": "4cfca03f-b550-4e9a-a5e5-0a4662f3ea7b",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88849634"
+                                },
+                                {
+                                    "id": "24d90a11-def7-423c-a8dd-c8ecbe931eb1",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88849954"
+                                },
+                                {
+                                    "id": "39acec79-4e10-4652-bdf5-b2daf2a02398",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88849874"
+                                },
+                                {
+                                    "id": "7e19be94-8928-4d6b-9975-751e17cadadd",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88849754"
+                                },
+                                {
+                                    "id": "087496c0-d4d3-4d1c-a48f-98d31ee1d2ea",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88849914"
+                                },
+                                {
+                                    "id": "0fb0301a-4f7d-4b30-8c00-874936ae6c69",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88849834"
+                                },
+                                {
+                                    "id": "e7925cdf-c4f8-43a1-adcb-e431c71c980f",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88849714"
+                                },
+                                {
+                                    "id": "a03dbd2e-6abd-4bac-a55a-a7ff15516766",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88849674"
+                                },
+                                {
+                                    "id": "f29f2028-3cbb-4a3c-bc77-b53a18ad4783",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88849994"
+                                },
+                                {
+                                    "id": "cf82c9ea-4a49-427c-b87f-9d81f8bc2d43",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "89324806"
+                                },
+                                {
+                                    "id": "75ad981c-cb8a-4d1a-8943-a67c604022c7",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88890315"
+                                },
+                                {
+                                    "id": "076891c3-0ed7-493b-bfe3-3781c2954052",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88890275"
+                                },
+                                {
+                                    "id": "16f4cc77-f771-45ca-8e21-0d7a80996dc2",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88890255"
+                                },
+                                {
+                                    "id": "e9ea13c4-e0e9-471f-b38d-6f91d8a37e6f",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "88890335"
+                                },
+                                {
+                                    "id": "e0f2e79f-703c-43b3-8715-004beb74e125",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ULTIMATE-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "cc5a81fe-f49d-4ff3-bf82-9793a69e2044",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ULTIMATE-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "9a4a8541-f9e8-44ee-bba4-20f8a389703f",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "d13d8f8a-5927-42ad-8d15-ff517dabc947",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREMIER-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "543da8fa-3b8e-4447-8afc-c820dbadb261",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-CHOICE-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "ddebb535-e660-46d9-ac88-4a83efc9f182",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-CHOICE-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "ae97cee0-6ad1-4c73-88ff-90aa179e08aa",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ENTERTAINMENT-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "ac0f53ef-22c6-4952-b58c-16240cb415a0",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-ENTERTAINMENT-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "af13876e-af71-4d63-9282-5680fc198177",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-LATINO-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "26ecd53a-b057-406b-928a-bd4d3a43524f",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-LATINO-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "93af62fa-5618-4485-8543-d9398accca6e",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-ULTRA-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "b8effa3b-f866-4a84-be2a-41ec3852e945",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-MAS-ULTRA-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "19d329b4-3adc-421b-a9aa-76ffba882c60",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-OPTIMO-MAS-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "ed77ab50-b816-4eb1-b4a9-48015325fafe",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-OPTIMO-MAS-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "b15d22d0-8c04-4521-a879-587aa3d0f521",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-CHOICE-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "19088468-7fd7-453c-abb8-47b70c02bd9d",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-PREFERRED-CHOICE-ALL-INCLUDED_satellite"
+                                },
+                                {
+                                    "id": "11bc2507-a96c-4dc2-beed-034e16d73fa8",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO-ALL-INCLUDED-NO-LOCALS_satellite"
+                                },
+                                {
+                                    "id": "0ece68ec-ce18-42fa-84be-99cbf894dc13",
+                                    "typeId": "product",
+                                    "productType": "video-plan",
+                                    "key": "BASE-LO-MAXIMO-ALL-INCLUDED_satellite"
+                                }
+                            ]
+                        }
+                    ],
+                    "maxOccurrence": 0,
+                    "benefitType": "flat-off",
+                    "value": {
+                        "centAmount": 500.0,
+                        "currencyCode": "USD",
+                        "fractionDigits": 2,
+                        "dollarAmount": 5.0
+                    },
+                    "secondaryBenefitCode": "VAGR-BP-999MO-V72",
+                    "freeTrialPromo": false,
+                    "ioOffer": false,
+                    "freeTrialDuration": 0,
+                    "agentOffer": false,
+                    "minQuantity": 0,
+                    "promoPriority": 4,
+                    "benefitLevel": "product",
+                    "notApplibaleForOffer": false,
+                    "enableServiceDisconnect": false,
+                    "rtpIndicator": false,
+                    "portin": false,
+                    "benefitSaleType": "A",
+                    "segment": [
+                        "residential"
+                    ],
+                    "salesChannels": [
+                        "online"
+                    ],
+                    "benefitActionType": [
+                        "Aquisition"
+                    ],
+                    "gfVersion": "0",
+                    "enablerPromotionCode": "DS2227",
+                    "locationType": "nation",
+                    "location": "US",
+                    "benefitClassificationType": [
+                        "paperless",
+                        "abp"
+                    ],
+                    "rebateID": "100111",
+                    "billingReasonCode": "5837",
+                    "omsProductId": "10061735",
+                    "numberOfCredits": 999,
+                    "recurringBillingReasonCode": "5838",
+                    "agreementID": "VAGR-BP-999MO-V72",
+                    "agreementPriceCode": "1",
+                    "enrollmentType": [
+                        "paperlessBill",
+                        "autobillPay"
+                    ],
+                    "transactionType": "SAJ",
+                    "active": true,
+                    "couponPromo": false,
+                    "migrated": false,
+                    "quotaBased": false,
+                    "isDependentPromo": false,
+                    "isMigrated": false,
+                    "isQuotaBased": false,
+                    "isActive": true
+                }
+            ],
+            "eligibility": {
+                "constraints": [
+                    {
+                        "customerSegments": [
+                            "Residential"
+                        ],
+                        "salesChannel": [
+                            "directIntegrationPartner",
+                            "dpp",
+                            "salesCRM",
+                            "ccap",
+                            "opusServices",
+                            "opusSales",
+                            "onlineServices",
+                            "onlineSales",
+                            "opus",
+                            "online"
+                        ],
+                        "existingCustomerType": [
+                            "Satellite"
+                        ]
+                    }
+                ]
+            },
+            "leadOffer": false,
+            "contractIndicator": "non-contract",
+            "omsFreeStbPolicy": [
+                {
+                    "id": "3cd5a5a4-3fd0-4ee6-a428-0d764cb7decf",
+                    "typeId": "product",
+                    "obj": {
+                        "id": "3cd5a5a4-3fd0-4ee6-a428-0d764cb7decf",
+                        "key": "POLICY-DVALL1_satellite",
+                        "productType": {
+                            "typeId": "product-type",
+                            "id": "4af47d18-6cb7-41a7-98ae-54bf75c0f5a2"
+                        }
+                    },
+                    "attributes": {
+                        "constraints": {
+                            "startDate": "2017-10-30T18:30:00.000Z",
+                            "endDate": "2049-12-30T18:30:00.000Z",
+                            "maxTVFeesWaivedForWired": 1,
+                            "maxTVFeesWaivedForWireless": 1,
+                            "maxTVFeesWaivedForGenieMiniWired": 0,
+                            "maxTVFeesWaivedForGenieMiniWireless": 1,
+                            "includedGenieWired": 1,
+                            "includedGenieWireless": 1,
+                            "waiveHDDVRNRCCount": 1,
+                            "includedGenieMiniWireless": 4,
+                            "includedGenieMiniWired": 3,
+                            "discountedGenieMiniWired": 2,
+                            "maxAddlTVsSelectedWired": 5,
+                            "discountedGenieMiniWireless": 4,
+                            "maxAddlTVsSelectedWireless": 8,
+                            "customerTypes": "CONSUMER",
+                            "productStatus": "Active",
+                            "policyText": "Your package price includes your first TV Access Fee. Each additional TV Access Fee is $7/mo. (policyId=8000011)",
+                            "dependent": false,
+                            "anchor": false
+                        },
+                        "key": "POLICY-DVALL1_satellite",
+                        "name": "DVALL1",
+                        "description": {
+                            "en": "Your package price includes your first TV Access Fee. Each additional TV Access Fee is $7/mo. (policyId=8000011)"
+                        }
+                    }
+                }
+            ],
+            "rtpRtcIndicator": "RTP",
+            "offerIntents": [
+                "non-migration"
+            ],
+            "recommendedOfferOPUS": false,
+            "enablerATGBundleOfferId": "prod8560752",
+            "recommendedOnline": false,
+            "isVirtual": false,
+            "flashSaleOffer": false,
+            "isBulkOffer": false,
+            "isSpecialOffer": false
+        }
+    }
+]
+}

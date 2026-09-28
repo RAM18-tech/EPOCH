@@ -1,0 +1,469 @@
+import com.dtv.dcp.epoch.model.ct.request.CartOffer;
+import com.dtv.dcp.epoch.model.common.request.CartContexts;
+import com.dtv.dcp.epoch.model.common.request.CouponOffersRequest;
+import java.util.ArrayList;
+import java.util.List;
+import com.dtv.dcp.epoch.model.message.Message;
+import com.dtv.dcp.epoch.model.message.MessageDetail;
+import com.dtv.dcp.epoch.model.common.response.CartItems;
+import com.dtv.dcp.epoch.model.common.Promotion;
+import com.dtv.dcp.epoch.model.common.response.ucc.Offer;
+import java.util.Map;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.*;
+import java.util.Map;
+import java.util.Set;
+import java.util.HashSet;
+import java.util.stream.Collectors;
+import java.util.HashMap;
+import java.util.Map.Entry;
+import java.util.HashMap;
+import org.slf4j.Logger;
+import org.apache.commons.collections.CollectionUtils;
+
+global java.util.ArrayList cartItems;
+global java.util.List requestCartOfferCodes;
+global java.util.List messageDetails;
+global java.util.List genreBaseOfferCodes;
+global java.util.ArrayList contractIndicator;
+global java.util.Map offerCodeWithNameMap;
+global java.util.HashMap svodProductsMaps;
+global java.util.List getOffersCartCallResponseCodes;
+global java.util.List commonRuleCohortList;
+global java.util.List genreSpecificRuleCohortList;
+global java.lang.String ctOfferResponseOfferCode;
+global java.util.ArrayList preSelectAndDispIncludedAndFeeTypeCodes;
+global java.util.HashMap nonSvodProductMaps;
+global java.util.Map getGroupingByProductGrpMap;
+global java.util.Map peacockOffersCombinations;
+global java.util.ArrayList basePlanChanged;
+global Logger log;
+global java.util.Map offerOrProductToRemoveList;
+global java.util.Map requestCartOfferActionMap;
+
+rule "Generic Rule 1"
+salience 1000
+    when
+       CouponOffersRequest($cartContext: cartContext, $offerActionType: offerActionType);
+       CartContexts($cartOffers: cartOffers) from $cartContext;
+       eval($cartOffers != null && !$cartOffers.isEmpty() && ($offerActionType.contains("Acquisition") || $offerActionType.contains("Upsell")) && CollectionUtils.containsAny(commonRuleCohortList, contractIndicator))
+    then
+        log.info("Executing Generic Rule 1");
+        List<Offer> $offerList = new ArrayList<>();
+        for (Object obj : $cartOffers) {
+            CartOffer cartOffer = (CartOffer) obj;
+            if(ctOfferResponseOfferCode ==null || (cartOffer.getOfferProductType() != null && cartOffer.getOfferProductType().equalsIgnoreCase("video-plan") && ctOfferResponseOfferCode !=null && ctOfferResponseOfferCode.equalsIgnoreCase(cartOffer.getOfferCode()))){
+              $offerList.add(setOffer(cartOffer.getOfferCode(),"NoChange", null));
+            }else if(cartOffer.getOfferProductType() != null && cartOffer.getOfferProductType().equalsIgnoreCase("video-plan") && ctOfferResponseOfferCode !=null && !ctOfferResponseOfferCode.equalsIgnoreCase(cartOffer.getOfferCode())){
+              $offerList.add(setOffer(cartOffer.getOfferCode(),"Remove", null));
+              $offerList.add(setOffer(ctOfferResponseOfferCode, "Add", null));
+              basePlanChanged.add(ctOfferResponseOfferCode);
+            }
+        }
+         if($offerList.isEmpty() && ctOfferResponseOfferCode !=null){
+            //System.out.println("No video-plan offers found in the cartOffers");
+            $offerList.add(setOffer(ctOfferResponseOfferCode, "Add", offerCodeWithNameMap.get(ctOfferResponseOfferCode) + " is missing in the cart"));
+        }
+    List<Offer> $finalOfferList = new ArrayList<>();
+        log.debug("Cart Items size: " + cartItems.size());
+        log.debug("Offer List size: " + $offerList.size());
+        if (cartItems.size() > 0 && $offerList.size() > 0){
+            for(Object obj : cartItems){
+                CartItems cartItem = (CartItems) obj;
+                if(cartItem.getOffers() != null && !cartItem.getOffers().isEmpty()){
+                    List<Offer> filterOffers = cartItem.getOffers().stream().filter(offerA -> $offerList.stream().noneMatch(offerB -> offerA.getCode().equalsIgnoreCase(offerB.getCode()))).collect(Collectors.toList());
+                    $finalOfferList.addAll(filterOffers);
+                    $finalOfferList.addAll($offerList);
+                    cartItem.setOffers($finalOfferList);
+                }
+            }
+        }else {
+            log.debug("Cart Items size: " + cartItems.size());
+            log.debug("Offer List size: " + $offerList.size());
+            cartItems.add(setCartItemsWithOfferList($offerList));
+        }
+        log.info("Finished executing Generic Rule 1");
+    end;
+
+
+rule "Generic Rule 2"
+salience 995
+    when
+       CouponOffersRequest($cartContext: cartContext);
+       CartContexts($cartOffers: cartOffers) from $cartContext;
+       eval($cartOffers != null && !$cartOffers.isEmpty() && CollectionUtils.containsAny(commonRuleCohortList, contractIndicator))
+    then
+        log.info("Executing Generic Rule 2");
+        List<Offer> $offerList = new ArrayList<>();
+        List<Offer> $preSelectOffer = new ArrayList<>();
+        for (Object obj : $cartOffers) {
+            CartOffer cartOffer = (CartOffer) obj;
+            if(getOffersCartCallResponseCodes != null && getOffersCartCallResponseCodes.contains(cartOffer.getOfferCode()) && cartOffer.getOfferProductType() != null && !cartOffer.getOfferProductType().equalsIgnoreCase("video-plan")){
+              $offerList.add(setOffer(cartOffer.getOfferCode(), "NoChange", null));
+            }else if(cartOffer.getOfferProductType() != null && !cartOffer.getOfferProductType().equalsIgnoreCase("video-plan")){
+              $offerList.add(setOffer(cartOffer.getOfferCode(), "Remove", "Customer is not eligible for this offer"));
+            }
+        }
+        //Adding preSelectAndDispIncludedAndFeeTypeCodes to $preSelectOffer
+        for(Object obj : preSelectAndDispIncludedAndFeeTypeCodes){
+            String preSelect = (String) obj;
+            if($offerList != null && !$offerList.isEmpty()){
+                if($offerList.stream().noneMatch(offer -> offer.getCode().equalsIgnoreCase(preSelect))){
+                    $preSelectOffer.add(setOffer(preSelect, "Add", offerCodeWithNameMap.get(preSelect) + " is missing in the cart"));
+                }
+            } else{
+                $preSelectOffer.add(setOffer(preSelect, "Add", offerCodeWithNameMap.get(preSelect) + " is missing in the cart"));
+            }
+        }
+        log.debug("Cart Items size: " + cartItems.size());
+        log.debug("Offer List size: " + $offerList.size());
+    List<Offer> $finalOfferList = new ArrayList<>();
+        if (cartItems.size() > 0){
+            for(Object obj : cartItems){
+                CartItems cartItem = (CartItems) obj;
+                if(cartItem.getOffers() != null && !cartItem.getOffers().isEmpty() && $offerList != null && !$offerList.isEmpty()){
+                    List<Offer> filterOffers = cartItem.getOffers().stream().filter(offerA -> $offerList.stream().noneMatch(offerB -> offerA.getCode().equalsIgnoreCase(offerB.getCode()))).collect(Collectors.toList());
+                    $finalOfferList.addAll(filterOffers);
+                    $finalOfferList.addAll($offerList);
+                    if($preSelectOffer != null && !$preSelectOffer.isEmpty()){
+                        $finalOfferList.addAll($preSelectOffer);
+                    }
+                    cartItem.setOffers($finalOfferList);
+                }else if(cartItem.getOffers() != null && !cartItem.getOffers().isEmpty() && $preSelectOffer != null && !$preSelectOffer.isEmpty()){
+                     List<Offer> filterOffers = cartItem.getOffers().stream().filter(offerA -> $offerList.stream().noneMatch(offerB -> offerA.getCode().equalsIgnoreCase(offerB.getCode()))).collect(Collectors.toList());
+                     $finalOfferList.addAll(filterOffers);
+                     $finalOfferList.addAll($preSelectOffer);
+                     cartItem.setOffers($finalOfferList);
+                }else if($preSelectOffer != null && !$preSelectOffer.isEmpty()){
+                    log.info("Adding preSelectOffer to CartItems");
+                    cartItem.setOffers($preSelectOffer);
+                }
+            }
+        }else {
+            log.debug("Cart Items size: " + cartItems.size());
+            cartItems.add(setCartItemsWithOfferList($offerList));
+        }
+        log.info("Finished executing Generic Rule 2");
+end;
+
+rule "Cart does not contain a Genre Base Offer - sales rule"
+    salience 990
+    when
+        CouponOffersRequest($cartContext: cartContext);
+        CartContexts($cartOffers: cartOffers) from $cartContext;
+        eval($cartOffers != null && !$cartOffers.isEmpty() && genreBaseOfferCodes != null && !genreBaseOfferCodes.isEmpty() && CollectionUtils.containsAny(genreSpecificRuleCohortList, contractIndicator))
+    then
+        log.info("Executing rule: Cart does not contain a Genre Base Offer - sales rule");
+        log.info("Check if none of the cart offers are present in genreBaseOfferCodes");
+        boolean isAnyOfferPresent = false;
+        for (Object objCartOffer : $cartOffers) {
+            CartOffer cartOffer = (CartOffer) objCartOffer;
+            //System.out.println("Checking cartOffer: " + cartOffer.getOfferCode());
+            if (genreBaseOfferCodes.contains(cartOffer.getOfferCode())) {
+                isAnyOfferPresent = true;
+                //System.out.println("Offer is present in genreBaseOfferCodes: " + cartOffer.getOfferCode());
+                break;
+            }
+        }
+        if (!isAnyOfferPresent && contractIndicator.contains("GENRE")) {
+            //System.out.println("None of the cart offers are present in genreBaseOfferCodes");
+            messageDetails.add(createMessageDetail("MISSING_GENRE_BASE", "Must Select Genre Base to proceed", "ERROR"));
+            cartItems.clear();
+            drools.halt();
+        }
+        log.info("Finished executing rule: Cart does not contain a Genre Base Offer - sales rule");
+    end;
+
+    rule "Validate cart request EMBEDDED_SVOD RULE 1: Acquisition"
+    salience 985
+        when
+            $request: CouponOffersRequest($cartContext: cartContext, $offerActionType: offerActionType);
+            CartContexts($cartOffers: cartOffers) from $cartContext;
+            $offer: CartOffer(offerCode != null && svodProductsMaps != null && svodProductsMaps.keySet().contains(offerCode), action.equalsIgnoreCase("Add")) from $cartOffers;
+            eval(($offerActionType.contains("Acquisition") || $offerActionType.contains("Upsell")) && CollectionUtils.containsAny(commonRuleCohortList, contractIndicator));
+        then
+            log.info("EMBEDDED_SVOD RULE 1: Acquisition");
+            //System.out.println("Offer found: " + $offer.getOfferCode() + ", Action: " + $offer.getAction());
+
+            // Check svod value already present in cartItem.getOffers(), otherwise add it
+            List<String> svodProducts = (List<String>) svodProductsMaps.get($offer.getOfferCode());
+            for (Object obj : cartItems) {
+                if (obj instanceof CartItems) {
+                    CartItems cartItem = (CartItems) obj;
+                    boolean allOfferFound = svodProducts.stream().allMatch(offerCode -> cartItem.getOffers().stream().anyMatch(offer -> offer.getCode().equalsIgnoreCase(offerCode)));
+                    //System.out.println("allOfferFound: " + allOfferFound);
+                    if (!allOfferFound) {
+                        List<String> offerCodes = svodProducts.stream().filter(offerCode -> cartItem.getOffers().stream().noneMatch(offer -> offer.getCode().equalsIgnoreCase(offerCode))).collect(Collectors.toList());
+                        //System.out.println("offerCodes: " + offerCodes);
+                        for (String offerCode : offerCodes) {
+                            cartItem.getOffers().add(setOffer(offerCode, "Add",
+                            offerCodeWithNameMap.get(offerCode) + " is added because " + offerCodeWithNameMap.get($offer.getOfferCode()) + " in the cart"));
+                        }
+                    }else{
+                        for (Object offerObj : cartItem.getOffers()) {
+                            Offer offer = (Offer) offerObj;
+                            if (svodProducts.contains(offer.getCode()) && "Remove".equalsIgnoreCase(offer.getAction())) {
+                                offer.setAction("Add");
+                                offer.setValidationMessage("Offer is added because " + offerCodeWithNameMap.get($offer.getOfferCode()) + " is Added from the cart");
+                            }
+                        }
+                    }
+                }
+            }
+             log.info("EMBEDDED_SVOD RULE 1: Acquisition END");
+    end;
+
+rule "GENRE_BASE_RESTRICTIONS_SALES_FLOW"
+    salience 980
+    when
+        CouponOffersRequest($cartContext: cartContext);
+        CartContexts($cartOffers: cartOffers) from $cartContext;
+        eval($cartOffers != null && !$cartOffers.isEmpty() && requestCartOfferCodes != null && !requestCartOfferCodes.isEmpty() && getOffersCartCallResponseCodes != null && !getOffersCartCallResponseCodes.isEmpty()
+                && CollectionUtils.containsAny(commonRuleCohortList, contractIndicator));
+    then
+        log.info("Executing rule: GENRE_BASE_RESTRICTIONS_SALES_FLOW");
+        List<String> missingRequestCartOffers = new ArrayList<>();
+
+        for (Object objCartOffer : $cartOffers) {
+            CartOffer cartOffer = (CartOffer) objCartOffer;
+            //System.out.println("Checking request cartOffer: " + cartOffer.getOfferCode());
+            if (!getOffersCartCallResponseCodes.contains(cartOffer.getOfferCode()) && !cartOffer.getOfferCode().startsWith("OF_BASE-")) {
+                //System.out.println("Request cartOffer is not present in getOffersCartCallResponseCodes: " + cartOffer.getOfferCode());
+                missingRequestCartOffers.add(cartOffer.getOfferCode());
+            }
+        }
+        //System.out.println("missingRequestCartOffers: " + missingRequestCartOffers);
+        if (missingRequestCartOffers != null && !missingRequestCartOffers.isEmpty() && cartItems != null && !cartItems.isEmpty()) {
+            for (String missingOffer : missingRequestCartOffers) {
+                for (Object obj : cartItems) {
+                    CartItems cartItem = (CartItems) obj;
+                    if(cartItem.getOffers() != null && !cartItem.getOffers().isEmpty()){
+                        for (Object cartItemsOffer : cartItem.getOffers()) {
+                            Offer cartItemOffer = (Offer) cartItemsOffer;
+
+                            if (missingOffer.equalsIgnoreCase(cartItemOffer.getCode())) {
+                                cartItemOffer.setAction("Remove");
+                                cartItemOffer.setValidationMessage("Offer is not valid for the cart items provided in the request");
+                                //System.out.println("Updated cartItemOffer: " + cartItemOffer.getCode() + " with action: Remove and validation message.");
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        log.info("Finished executing rule: GENRE_BASE_RESTRICTIONS_SALES_FLOW");
+    end;
+
+
+rule "Validate cart request EMBEDDED_SVOD RULE 1: Acquisition for Genre Remove Scenarios"
+    salience 975
+        when
+            $request: CouponOffersRequest($cartContext: cartContext, $offerActionType: offerActionType);
+            CartContexts($cartOffers: cartOffers) from $cartContext;
+            $offer: CartOffer(offerCode != null && svodProductsMaps != null && svodProductsMaps.keySet().contains(offerCode), !action.equalsIgnoreCase("Add")) from $cartOffers;
+            eval(($offerActionType.contains("Acquisition") || $offerActionType.contains("Upsell")) && CollectionUtils.containsAny(commonRuleCohortList, contractIndicator));
+        then
+            log.info("Validate cart request EMBEDDED_SVOD RULE 1: Acquisition for Genre Remove Scenarios");
+            //System.out.println("Offer found: " + $offer.getOfferCode() + ", Action: " + $offer.getAction());
+
+            // Check svod value already present in cartItem.getOffers(), otherwise add or remove it
+            for (Object obj : cartItems) {
+                    CartItems cartItem = (CartItems) obj;
+                    for (Object offerObj : cartItem.getOffers()) {
+                        Offer cartOffer = (Offer) offerObj;
+                       if (svodProductsMaps.get($offer.getOfferCode()) != null && ((List<String>) svodProductsMaps.get($offer.getOfferCode())).contains(cartOffer.getCode())) {
+                            if("Remove".equalsIgnoreCase($offer.getAction()) && !"Remove".equalsIgnoreCase(cartOffer.getAction())){
+                               cartOffer.setAction("Remove");
+                               cartOffer.setValidationMessage("Offer is removed because " + offerCodeWithNameMap.get($offer.getOfferCode()) + " is removed from the cart");
+                            }else if("NoChange".equalsIgnoreCase($offer.getAction())){
+                               cartOffer.setAction("Add");
+                               cartOffer.setValidationMessage("Offer is added because " + offerCodeWithNameMap.get($offer.getOfferCode()) + " is Added from the cart");
+                            }
+                        }
+                    }
+            }
+              log.info("Validate cart request EMBEDDED_SVOD RULE 1: Acquisition for Genre Remove Scenarios END");
+    end;
+
+
+rule "Cart contain non embeddedSVOD included offers - sales rule"
+     salience 970
+
+     when
+            CouponOffersRequest($cartContext: cartContext, $offerActionType: offerActionType);
+            CartContexts($cartOffers: cartOffers) from $cartContext;
+            $offer: CartOffer(offerCode != null && nonSvodProductMaps != null && nonSvodProductMaps.keySet().contains(offerCode), action.equalsIgnoreCase("Add")) from $cartOffers;
+            eval(($offerActionType.contains("Acquisition") || $offerActionType.contains("Upsell")) && CollectionUtils.containsAny(commonRuleCohortList, contractIndicator));
+     then
+            log.info("Executing rule: Cart contain non embeddedSVOD  included offers - sales rule");
+            List<String> mapValues = (List<String>) nonSvodProductMaps.get($offer.getOfferCode());
+            //System.out.println("mapValues: " + mapValues);
+            for (Object obj : cartItems) {
+                  CartItems cartItem = (CartItems) obj;
+                    //System.out.println("cartItem->Size ========> "+cartItem.getOffers().size());
+                    for (Object offerObj : cartItem.getOffers()) {
+                     Offer cartOffer = (Offer) offerObj;
+                     //System.out.println("cartOffer->code ========> "+cartOffer.getCode());
+                       if(mapValues != null && mapValues.contains(cartOffer.getCode())){
+                           cartOffer.setAction("Remove");
+                           cartOffer.setValidationMessage("Included offer " + offerCodeWithNameMap.get(cartOffer.getCode()) + " is removed as its not an embeddedSVOD");
+                }
+            }
+            }
+            log.info("Executing rule: Cart contain non embeddedSVOD  included offers - sales rule END");
+    end;
+
+rule "Cart Offer Sales -Peacock"
+salience 965
+    when
+       CouponOffersRequest($cartContext: cartContext);
+       CartContexts($cartOffers: cartOffers) from $cartContext;
+       $offers : List() from collect(CartOffer(offerCode != null && action == "Add") from $cartOffers);
+       eval($cartOffers != null && !$cartOffers.isEmpty() && peacockOffersCombinations != null && !peacockOffersCombinations.isEmpty() &&  CollectionUtils.containsAny(commonRuleCohortList, contractIndicator))
+    then
+        log.info("START : Cart Offer Sales -Peacock");
+        Map<String, List<String>> peacockOffersConditionMaps = peacockOffersCombinations;
+        for (Map.Entry<String, List<String>> entry : peacockOffersConditionMaps.entrySet()) {
+            String key = entry.getKey();
+            //System.out.println("key: " + key);
+            boolean keyInCart = $offers.stream().anyMatch(offer -> key.equalsIgnoreCase(((CartOffer) offer).getOfferCode()));
+            //System.out.println("keyInCart: " +keyInCart);
+            List<String> requiredOffers = entry.getValue();
+            //System.out.println("requiredOffersFromMap: " + requiredOffers);
+            for (Object obj : cartItems) {
+                    CartItems cartItem = (CartItems) obj;
+                    if(keyInCart){
+                        for (Offer cartOffer : cartItem.getOffers()) {
+                            if (requiredOffers.contains(cartOffer.getCode())) {
+                                //System.out.println("Setting Action to Remove for cartOffer: " + cartOffer.getCode());
+                                cartOffer.setAction("Remove");
+                            }
+                        }
+                    }
+                }
+        }
+    log.info("END : Cart Offer Sales -Peacock");
+    end;
+
+rule "Cart contain non embeddedSVOD included offers - sales rule when basePlanChanged"
+salience 960
+     when
+            CouponOffersRequest($cartContext: cartContext, $offerActionType: offerActionType);
+           eval(($offerActionType.contains("Acquisition") || $offerActionType.contains("Upsell")) && CollectionUtils.containsAny(commonRuleCohortList, contractIndicator) && basePlanChanged.size() > 0);
+     then
+            log.info("Executing rule: Cart contain non embeddedSVOD  included offers -  sales rule when basePlanChanged");
+            List<String> mapValues = (List<String>) nonSvodProductMaps.get(ctOfferResponseOfferCode);
+            for (Object obj : cartItems) {
+                  CartItems cartItem = (CartItems) obj;
+                    for (Object offerObj : cartItem.getOffers()) {
+                     Offer cartOffer = (Offer) offerObj;
+                        if(mapValues != null && mapValues.contains(cartOffer.getCode())){
+                           cartOffer.setAction("Remove");
+                           cartOffer.setValidationMessage("Included offer " + offerCodeWithNameMap.get(cartOffer.getCode()) + " is removed as its not an embeddedSVOD");
+                        }
+                  }
+            }
+            log.info("Executing rule: Cart contain non embeddedSVOD  included offers -  sales rule when basePlanChanged     END");
+    end;
+
+rule "Remove Offer Based on Conflicting Products - sales rule"
+     salience 955
+     when
+            CouponOffersRequest($cartContext: cartContext, $offerActionType: offerActionType);
+            CartContexts($cartOffers: cartOffers) from $cartContext;
+            $offer: CartOffer(offerCode != null && offerOrProductToRemoveList != null && offerOrProductToRemoveList.keySet().contains(offerCode)) from $cartOffers;
+            eval(($offerActionType.contains("Acquisition") || $offerActionType.contains("Upsell")) && !offerOrProductToRemoveList.isEmpty()  && CollectionUtils.containsAny(commonRuleCohortList, contractIndicator));
+     then
+            log.info("Executing rule: Remove Offer Based on Conflicting Products - sales rule");
+             List<String> relatedProductsToCheck = (List<String>) offerOrProductToRemoveList.get($offer.getOfferCode());
+             for (Object obj : cartItems) {
+                  CartItems cartItem = (CartItems) obj;
+                    for (Object offerObj : cartItem.getOffers()) {
+                     Offer cartOffer = (Offer) offerObj;
+                         if(relatedProductsToCheck.contains(cartOffer.getCode())){
+                           cartOffer.setAction("Remove");
+                           cartOffer.setValidationMessage(offerCodeWithNameMap.get(cartOffer.getCode()) + " conflicts with " + offerCodeWithNameMap.get($offer.getOfferCode()) + " and will be removed.");
+                         }
+                  }
+            }
+            log.info("Executing rule: Remove Offer Based on Conflicting Products - - sales rule END");
+    end;
+
+rule "Cart Offer Sales - Same Billing Product Group Deduplication"
+    salience 950
+    when
+        CouponOffersRequest($cartContext: cartContext, $offerActionType: offerActionType);
+        eval($cartContext != null && cartItems != null && !cartItems.isEmpty()
+                && getGroupingByProductGrpMap != null && !getGroupingByProductGrpMap.isEmpty()
+                && ($offerActionType.contains("Acquisition") || $offerActionType.contains("Upsell")));
+    then
+        log.info("Executing rule: Cart Offer Sales - Same Billing Product Group Deduplication (ValidateCartRules)");
+        Map<String, List<String>> groupingMap = getGroupingByProductGrpMap;
+        for (Object cartItemObj : cartItems) {
+            CartItems cartItem = (CartItems) cartItemObj;
+            if (cartItem == null || cartItem.getOffers() == null || cartItem.getOffers().isEmpty()) {
+                continue;
+            }
+            for (Map.Entry<String, List<String>> groupEntry : groupingMap.entrySet()) {
+                String productGroup = groupEntry.getKey();
+                List<String> sortedOfferCodesForGroup = groupEntry.getValue();
+                List<Offer> offersInGroup = new ArrayList<>();
+                for (Object offerObj : cartItem.getOffers()) {
+                    Offer offer = (Offer) offerObj;
+                    if (sortedOfferCodesForGroup.stream().anyMatch(gc -> gc.equalsIgnoreCase(offer.getCode()))) {
+                        offersInGroup.add(offer);
+                    }
+                }
+                if (offersInGroup.size() <= 1) continue;
+                Offer preferredOffer = null;
+                for (String preferredCode : sortedOfferCodesForGroup) {
+                    for (Offer candidate : offersInGroup) {
+                        if (preferredCode.equalsIgnoreCase(candidate.getCode())) {
+                            preferredOffer = candidate;
+                            break;
+                        }
+                    }
+                    if (preferredOffer != null) break;
+                }
+                if (preferredOffer == null) continue;
+                final Offer retained = preferredOffer;
+                log.info("Cart Offer Sales - Same Billing Product Group Deduplication: group=" + productGroup + " retaining offer=" + retained.getCode());
+                for (Offer offer : offersInGroup) {
+                    if (!offer.getCode().equalsIgnoreCase(retained.getCode())) {
+                        offer.setAction("Remove");
+                        offer.setValidationMessage(offer.getCode()
+                                + " is removed as multiple products are added from the same product group "
+                                + retained.getCode());
+                        log.info("Cart Offer Sales - Same Billing Product Group Deduplication: removing offer=" + offer.getCode());
+                    }
+                }
+            }
+        }
+        log.info("Finished executing rule: Cart Offer Sales - Same Billing Product Group Deduplication (ValidateCartRules)");
+    end;
+
+    function MessageDetail createMessageDetail(String messageCode, String messageText, String messageSeverity) {
+        MessageDetail messageDetail = new MessageDetail();
+        messageDetail.setMessageText(messageText);
+        messageDetail.setMessageSeverity(messageSeverity);
+        messageDetail.setMessageCode(messageCode);
+        return messageDetail;
+    }
+
+    function CartItems setCartItemsWithOfferList(List offerList) {
+        CartItems $cartItem = new CartItems();
+        if(offerList != null && !offerList.isEmpty()){
+        $cartItem.setOffers(offerList);
+        }
+        return $cartItem;
+    }
+
+
+    function Offer setOffer(String code, String action, String validationMessage) {
+        Offer $offer = new Offer();
+        $offer.setCode(code);
+        $offer.setAction(action);
+        $offer.setValidationMessage(validationMessage);
+        return $offer;
+    }

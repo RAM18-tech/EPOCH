@@ -1,0 +1,119 @@
+{
+  "pagination": {
+    "page": 1,
+    "limit": 50
+  },
+  "offerActionType": [
+    "Acquisition"
+  ],
+  "salesChannel": [
+    "online"
+  ],
+  "businessSegment": [
+    "CONS"
+  ],
+  "offerProductFamily": [
+    "broadband"
+  ],
+  "customerSegments": [
+    "Residential"
+  ],
+  "customerEligibility": {
+    "dma": [
+      "5001"
+    ],
+    "city": [
+      "plano"
+    ],
+    "state": [
+      "texas"
+    ],
+    "zipCode": [
+      "75081"
+    ],
+    "county": [
+      "collins"
+    ],
+    "region": [
+      "midwest"
+    ]
+  },
+  "customerContext": {
+    "existingProductFamily": [
+      "wireless",
+      "IPTV",
+      "satellite",
+      "OTT"
+    ],
+    "IPTV": {
+      "accountNumber": "9999",
+      "isActive":true,
+      "sunsetDate": "02012020",
+      "products": [
+        {
+          "productCode": "u300",
+          "productType": "video-plan"
+        }
+      ]
+    },
+    "satellite": {
+      "accountNumber": "9999",
+      "isActive":true
+    },
+    "wireless": {
+      "accountNumber": "987665",
+      "isActive":true
+
+    },
+    "OTT": {
+      "accountNumber": "9999",
+      "isActive":true,
+      "sunsetDate": "02012020",
+      "products": [
+        {
+          "productCode": "u300",
+          "productType": "video-plan"
+        }
+      ]
+    }
+  },
+  "cartContext": {
+    "broadband": {
+      "products": [
+        {
+          "CpopProductId": "1",
+          "productCode": "speed60",
+          "productType": "internetPlan"
+        }
+      ]
+    },
+    "IPTV": {
+      "products": [
+        {
+          "CpopProductId": "2",
+          "productCode": "TVGO",
+          "productType": "videoplan"
+        }
+      ]
+    },
+    "satellite": {
+      "products": [
+        {
+          "CpopProductId": "3",
+          "productCode": "ultimate",
+          "productType": "videoplan"
+        }
+      ]
+    }
+  },
+  "customerIntent":[
+    {
+      "productFamily": "IPTV",
+      "productStatus": "existing"
+    },
+    {
+      "productFamily": "broadband",
+      "productStatus": "new"
+    }
+  ]
+}

@@ -1,0 +1,654 @@
+{
+	"limit": 300,
+	"count": 1,
+	"total": 1,
+	"products": [
+		{
+			"id": "81ca6726-dd88-43e9-946e-7b2e9b3badf2",
+			"code": "BASE-PREMIER_satellite",
+			"productType": {
+				"typeId": "product-type",
+				"id": "cb512bc7-05aa-4d02-896c-bcfb3487c5da",
+				"key": "video-plan"
+			},
+			"name": {
+				"en": "Premier"
+			},
+			"description": {
+				"en": " Our very best TV package that offers a world of premium entertainment, including movies, sports, music and specialty channels. Over 315 channels. Every premium movie channel included Over 35 specialty sports channels included. Local channels included. Eligibility based on service address. Now includes live 4K ֠Enjoy amazing live entertainment in stunning life-like clarity. To view your current package price, including extras and discounts, view your most recent statement "
+			},
+			"categories": [],
+			"variants": [
+				{
+					"id": "1",
+					"sku": "P2244",
+					"key": "P2244",
+					"prices": [
+						{
+							"value": {
+								"centAmount": 18399.0,
+								"currencyCode": "USD",
+								"fractionDigits": 2,
+								"dollarAmount": 183.99
+							},
+							"id": "1d3dbf0c-7a62-4656-a131-2f58347caacd",
+							"startDate": "2008-02-27T05:00:00.000Z",
+							"endDate": "2050-12-31T05:00:00.000Z",
+							"recurrenceIndicator": false,
+							"duration": 0,
+							"period": "month",
+							"billingReferenceId": "62",
+							"gfVersion": 0,
+							"businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+							"nftvFlag": "N",
+							"ftvCount": "0",
+							"contracted": false,
+							"grandfathered": false
+						},
+						{
+							"value": {
+								"centAmount": 0.0,
+								"currencyCode": "USD",
+								"fractionDigits": 2,
+								"dollarAmount": 0.0
+							},
+							"id": "2a191c39-6c5d-4c69-ab25-0d3095950d6d",
+							"startDate": "2002-01-22T18:30:00.000Z",
+							"endDate": "2020-12-30T18:30:00.000Z",
+							"recurrenceIndicator": false,
+							"duration": 0,
+							"period": "month",
+							"billingReferenceId": "900",
+							"gfVersion": 0,
+							"businessSegment": " DTV",
+							"contracted": false,
+							"grandfathered": false
+						}
+					],
+					"attributes": {
+						"displayName": {
+							"en": "PREMIER"
+						},
+						"billingProductCode": "P2244",
+						"billingCode": "P2244",
+						"startDate": "2008-02-27T05:00:00.000Z",
+						"endDate": "2050-12-31T05:00:00.000Z",
+						"salesChannel": [
+							"opus",
+							"online",
+							"onlineSales",
+							"onlineServices",
+							"opusSales",
+							"opusServices"
+						],
+						"productFamily": "satellite",
+						"removalRule": {
+							"channel": [],
+							"accountType": [
+								"ALL"
+							]
+						},
+						"numberOfChannels": "330+ digital channels",
+						"language": "English",
+						"serviceFlag": true,
+						"productStatus": "Active",
+						"compatibleProducts": [
+							{
+								"constraints": {
+									"anchor": false,
+									"dependent": false
+								}
+							}
+						],
+						"includedProducts": [
+							{
+								"products": [
+									{
+										"id": "33ec21d6-f79b-48b3-a1b1-4f6c0e76e136",
+										"typeId": "product",
+										"productType": "video-addon",
+										"key": "BOLTON-DIRECTV-SPORTS-PACK_satellite",
+										"obj": {
+											"id": "33ec21d6-f79b-48b3-a1b1-4f6c0e76e136",
+											"code": "BOLTON-DIRECTV-SPORTS-PACK_satellite",
+											"productType": {
+												"typeId": "product-type",
+												"id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+												"key": "video-addon"
+											},
+											"name": {
+												"en": "DirecTV Sports Pack"
+											},
+											"description": {
+												"en": "Feed your sports obsession. From professional and college sports to international soccer to fly-fishing &#151; SPORTS PACK has you covered with specialty sports networks, as well as over 20 regional sports networks.\n"
+											},
+											"categories": [],
+											"variants": [
+												{
+													"id": "1",
+													"sku": "P2144",
+													"key": "P2144",
+													"prices": [
+														{
+															"value": {
+																"centAmount": 1399.0,
+																"currencyCode": "USD",
+																"fractionDigits": 2,
+																"dollarAmount": 13.99
+															},
+															"id": "beea58ed-a2a1-401e-9b4c-f8230d78076f",
+															"startDate": "2002-01-29T18:30:00.000Z",
+															"endDate": "2050-12-30T18:30:00.000Z",
+															"recurrenceIndicator": false,
+															"duration": 0,
+															"period": "month",
+															"billingReferenceId": "1",
+															"gfVersion": 0,
+															"businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+															"contracted": false,
+															"grandfathered": false
+														}
+													],
+													"attributes": {
+														"displayName": {
+															"en": "DIRECTV SPORTS PACK"
+														},
+														"billingProductCode": "P2144",
+														"billingCode": "P2144",
+														"startDate": "2002-01-29T18:30:00.000Z",
+														"endDate": "2050-12-30T18:30:00.000Z",
+														"salesChannel": [
+															"opusServices",
+															"opusSales",
+															"onlineServices",
+															"onlineSales",
+															"opus",
+															"online"
+														],
+														"productFamily": "satellite",
+														"planSubType": "Premium",
+														"language": "English",
+														"productStatus": "Active",
+														"contractApplicable": "noncontract",
+														"contractIndicator": [
+															"non-contract"
+														],
+														"customerSegments": [
+															"Residential"
+														],
+														"isPickService": true,
+														"termsAndConditions": {
+															"en": "By subscribing you will be billed $13.99 per month on a recurring basis (price subject to change). On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance. Contact us anytime to cancel service, including by calling 877-384-3503."
+														},
+														"migratedProduct": false,
+														"productImages": "/cms2/product_catalog/premiums/Sports_Pack.gif"
+													}
+												}
+											]
+										}
+									},
+									{
+										"id": "2866ce11-08df-42a5-af2d-ac7eb3a0705b",
+										"typeId": "product",
+										"productType": "video-addon",
+										"key": "BOLTON-CINEMAX_satellite",
+										"obj": {
+											"id": "2866ce11-08df-42a5-af2d-ac7eb3a0705b",
+											"code": "BOLTON-CINEMAX_satellite",
+											"productType": {
+												"typeId": "product-type",
+												"id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+												"key": "video-addon"
+											},
+											"name": {
+												"en": "Cinemax"
+											},
+											"description": {
+												"en": "With over 1,600 different movies a year, Cinemax features the fewest repeats of any premium service and a new movie premiere every Saturday night. \n"
+											},
+											"categories": [],
+											"variants": [
+												{
+													"id": "1",
+													"sku": "P2143",
+													"key": "P2143",
+													"prices": [
+														{
+															"value": {
+																"centAmount": 1099.0,
+																"currencyCode": "USD",
+																"fractionDigits": 2,
+																"dollarAmount": 10.99
+															},
+															"id": "d32342a4-daa2-405a-b680-38c69b580319",
+															"startDate": "2021-04-02T00:00:00.000Z",
+															"endDate": "2022-04-03T00:00:00.000Z",
+															"recurrenceIndicator": false,
+															"duration": 0,
+															"period": "month",
+															"billingReferenceId": "1",
+															"gfVersion": 0,
+															"businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+															"contracted": false,
+															"grandfathered": false
+														}
+													],
+													"attributes": {
+														"displayName": {
+															"en": "CINEMAX"
+														},
+														"displayNamesByKey": {
+															"services": "Cinemax<sup>&#174;</sup>",
+															"name-cpc": "CINEMAX"
+														},
+														"billingProductCode": "P2143",
+														"billingCode": "P2143",
+														"startDate": "2002-01-30T05:00:00.000Z",
+														"endDate": "2050-12-31T05:00:00.000Z",
+														"salesChannel": [
+															"opus",
+															"online",
+															"onlineSales",
+															"onlineServices",
+															"opusSales",
+															"opusServices"
+														],
+														"productFamily": "satellite",
+														"removalRule": {
+															"channel": [],
+															"accountType": [
+																"ALL"
+															]
+														},
+														"planSubType": "Premium",
+														"displayType": "optional",
+														"language": "English",
+														"productStatus": "Active",
+														"contractApplicable": "noncontract",
+														"contractIndicator": [
+															"non-contract"
+														],
+														"customerSegments": [
+															"Residential"
+														],
+														"isPickService": true,
+														"termsAndConditions": {
+															"en": "By subscribing you will be billed $10.99 per month on a recurring basis (price subject to change). On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance. Contact us anytime to cancel service, including by calling 877-384-3503."
+														},
+														"conflictingProducts": [],
+														"migratedProduct": false,
+														"productImages": "/cms2/product_catalog/premiums/Cinemax.gif"
+													}
+												}
+											]
+										}
+									},
+									{
+										"id": "d93af126-180b-4e06-b136-b4a486669777",
+										"typeId": "product",
+										"productType": "video-addon",
+										"key": "BOLTON-SHOWTIME_satellite",
+										"obj": {
+											"id": "d93af126-180b-4e06-b136-b4a486669777",
+											"code": "BOLTON-SHOWTIME_satellite",
+											"productType": {
+												"typeId": "product-type",
+												"id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+												"key": "video-addon"
+											},
+											"name": {
+												"en": "SHOWTIME"
+											},
+											"description": {
+												"en": "Experience entertainment like never before with bold original films and series you won't see on any other premium network. SHOWTIMEΠis also America's #1 boxing network. SHOWTIME UNLIMITED includes 13 channels, 10 in HD. \n"
+											},
+											"categories": [],
+											"variants": [
+												{
+													"id": "1",
+													"sku": "P2142",
+													"key": "P2142",
+													"prices": [
+														{
+															"value": {
+																"centAmount": 1099.0,
+																"currencyCode": "USD",
+																"fractionDigits": 2,
+																"dollarAmount": 10.99
+															},
+															"id": "568322a7-c0bd-4a4d-b672-c6b462d3271d",
+															"startDate": "2021-04-02T00:00:00.000Z",
+															"endDate": "2023-04-02T00:00:00.000Z",
+															"recurrenceIndicator": false,
+															"duration": 0,
+															"period": "month",
+															"billingReferenceId": "1",
+															"gfVersion": 0,
+															"businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+															"contracted": false,
+															"grandfathered": false
+														}
+													],
+													"attributes": {
+														"displayName": {
+															"en": "SHOWTIME"
+														},
+														"displayNamesByKey": {
+															"name-cpc": "SHOWTIME"
+														},
+														"billingProductCode": "P2142",
+														"billingCode": "P2142",
+														"startDate": "2016-03-18T05:00:00.000Z",
+														"endDate": "9999-12-31T06:00:00.000Z",
+														"salesChannel": [
+															"onlineSales",
+															"onlineServices",
+															"opusSales",
+															"opusServices",
+															"partnerSales",
+															"partnerServices"
+														],
+														"productFamily": "satellite",
+														"removalRule": {
+															"channel": [],
+															"accountType": [
+																"ALL"
+															]
+														},
+														"addOnType": "Programming-Bolt-on",
+														"planSubType": "Premium",
+														"displayType": "optional",
+														"language": "English",
+														"productStatus": "Active",
+														"contractApplicable": "noncontract",
+														"contractIndicator": [
+															"non-contract"
+														],
+														"customerSegments": [
+															"Residential"
+														],
+														"isPickService": true,
+														"termsAndConditions": {
+															"en": "By subscribing you will be billed $10.99 per month on a recurring basis (price subject to change). On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance. Contact us anytime to cancel service, including by calling 877-384-3503."
+														},
+														"evergentProdCategory": "Subscription",
+														"conflictingProducts": [],
+														"migratedProduct": false,
+														"productImages": "/cms2/product_catalog/premiums/Showtime.gif"
+													}
+												}
+											]
+										}
+									},
+									{
+										"id": "7a74b437-279c-430f-ab56-3753cd987a15",
+										"typeId": "product",
+										"productType": "video-addon",
+										"key": "BOLTON-STARZ_satellite",
+										"obj": {
+											"id": "7a74b437-279c-430f-ab56-3753cd987a15",
+											"code": "BOLTON-STARZ_satellite",
+											"productType": {
+												"typeId": "product-type",
+												"id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+												"key": "video-addon"
+											},
+											"name": {
+												"en": "STARZ"
+											},
+											"description": {
+												"en": "Over 1,000 different movies a month playing on 15 different STARZ&reg; and STARZENCORESM channels. ObsessableSM TV, movies and more, STARZ&reg; has it all. DIRECTV has the entire STARZ&reg; lineup, including new HD channels.\n"
+											},
+											"categories": [],
+											"variants": [
+												{
+													"id": "1",
+													"sku": "P2141",
+													"key": "P2141",
+													"prices": [
+														{
+															"value": {
+																"centAmount": 1099.0,
+																"currencyCode": "USD",
+																"fractionDigits": 2,
+																"dollarAmount": 10.99
+															},
+															"id": "78f7ad7f-b1e8-40e4-b79d-6b8acd469efa",
+															"startDate": "2021-04-02T00:00:00.000Z",
+															"endDate": "2023-04-02T00:00:00.000Z",
+															"recurrenceIndicator": false,
+															"duration": 0,
+															"period": "month",
+															"billingReferenceId": "1",
+															"gfVersion": 0,
+															"businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+															"contracted": false,
+															"grandfathered": false
+														}
+													],
+													"attributes": {
+														"displayName": {
+															"en": "STARZ"
+														},
+														"displayNamesByKey": {
+															"services": "STARZ<sup>&#174;</sup>"
+														},
+														"billingProductCode": "P2141",
+														"billingCode": "P2141",
+														"startDate": "2002-01-30T05:00:00.000Z",
+														"endDate": "2050-12-31T05:00:00.000Z",
+														"salesChannel": [
+															"opus",
+															"online",
+															"onlineSales",
+															"onlineServices",
+															"opusSales",
+															"opusServices"
+														],
+														"productFamily": "satellite",
+														"removalRule": {
+															"channel": [],
+															"accountType": [
+																"ALL"
+															]
+														},
+														"planSubType": "Premium",
+														"language": "English",
+														"productStatus": "Active",
+														"contractApplicable": "noncontract",
+														"contractIndicator": [
+															"non-contract"
+														],
+														"customerSegments": [
+															"Residential"
+														],
+														"isPickService": true,
+														"termsAndConditions": {
+															"en": "By subscribing you will be billed $10.99 per month on a recurring basis (price subject to change). On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance. Contact us anytime to cancel service, including by calling 877-384-3503."
+														},
+														"removalRuleByChannel": {
+															"actionRule": [
+																{
+																	"salesChannel": "onlineServices",
+																	"businessSegment": "CONS",
+																	"customerSegments": "Employee",
+																	"userType": "Customer",
+																	"flowActionType": "change",
+																	"actionIndicator": false
+																}
+															]
+														},
+														"conflictingProducts": [],
+														"migratedProduct": false,
+														"productImages": "/content/dam/dtv/directv_entertainment/premiums/starz_logo.png"
+													}
+												}
+											]
+										}
+									},
+									{
+										"id": "aa33dddf-bdf5-4963-bd96-9d28d16beaa5",
+										"typeId": "product",
+										"productType": "video-addon",
+										"key": "BOLTON-HBO-MAX_satellite",
+										"obj": {
+											"id": "aa33dddf-bdf5-4963-bd96-9d28d16beaa5",
+											"code": "BOLTON-HBO-MAX_satellite",
+											"productType": {
+												"typeId": "product-type",
+												"id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+												"key": "video-addon"
+											},
+											"name": {
+												"en": "HBO Max"
+											},
+											"description": {
+												"en": "HBO Max. All of HBO together with the greatest collection of movies, shows and new Max Originals. Includes HBO channels and HBO on Demand. Access HBO Max only through HBO Max app or hbomax.com. HBO Max also includes HBO channels and HBO On Demand on DIRECTV.\n"
+											},
+											"categories": [],
+											"variants": [
+												{
+													"id": "1",
+													"sku": "P2140",
+													"key": "P2140",
+													"prices": [
+														{
+															"value": {
+																"centAmount": 1499.0,
+																"currencyCode": "USD",
+																"fractionDigits": 2,
+																"dollarAmount": 14.99
+															},
+															"id": "c2c4d100-3f42-4937-a18a-858825206c10",
+															"startDate": "2021-04-02T00:00:00.000Z",
+															"endDate": "2023-04-02T00:00:00.000Z",
+															"recurrenceIndicator": false,
+															"duration": 0,
+															"period": "month",
+															"billingReferenceId": "1",
+															"gfVersion": 0,
+															"businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+															"contracted": false,
+															"grandfathered": false
+														}
+													],
+													"attributes": {
+														"displayName": {
+															"en": "HBO Max"
+														},
+														"displayNamesByKey": {
+															"name-cpc": "HBO Max <sup>&#8482;</sup>"
+														},
+														"billingProductCode": "P2140",
+														"billingCode": "P2140",
+														"startDate": "2007-03-01T05:00:00.000Z",
+														"endDate": "2050-12-31T05:00:00.000Z",
+														"salesChannel": [
+															"onlineSales",
+															"onlineServices",
+															"opusSales",
+															"opusServices",
+															"partnerSales",
+															"partnerServices"
+														],
+														"productFamily": "satellite",
+														"removalRule": {
+															"channel": [],
+															"accountType": [
+																"NONE"
+															]
+														},
+														"planSubType": "Premium",
+														"language": "English",
+														"productStatus": "Active",
+														"contractApplicable": "noncontract",
+														"contractIndicator": [
+															"non-contract"
+														],
+														"customerSegments": [
+															"Residential"
+														],
+														"isPickService": true,
+														"termsAndConditions": {
+															"en": "By subscribing you will be billed $14.99 per month on a recurring basis (price subject to change). On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance. Contact us anytime to cancel service, including by calling 877-384-3503."
+														},
+														"conflictingProducts": [],
+														"migratedProduct": false,
+														"productImages": "/cms2/product_catalog/premiums/HBOmax_logo.gif"
+													}
+												}
+											]
+										}
+									}
+								],
+								"constraints": {
+									"anchor": false,
+									"dependent": false
+								}
+							}
+						],
+						"contractApplicable": "noncontract",
+						"contractIndicator": [
+							"non-contract"
+						],
+						"customerSegments": [
+							"Residential"
+						],
+						"hasLocalChannels": true,
+						"termsAndConditions": {
+							"en": "Does this replace my current package? Yes, this will replace your current package. How much will I be charged? On your next bill, you'll see a credit for the package that you're disconnecting today because you paid in advance. You'll also see a partial charge that covers the new package starting today, and the regular monthly charge that we bill in advance for the following month. How long does activation take? 5 minutes."
+						},
+						"planType": "Standard",
+						"compatibleEmployeeProducts": [
+							{
+								"constraints": {
+									"anchor": false,
+									"dependent": false
+								}
+							}
+						],
+						"migratedProduct": false,
+						"incompatibleProducts": [
+							[
+								{
+									"name": "products",
+									"value": [
+										{
+											"id": "d93af126-180b-4e06-b136-b4a486669777",
+											"typeId": "product"
+										},
+										{
+											"id": "7a74b437-279c-430f-ab56-3753cd987a15",
+											"typeId": "product"
+										},
+										{
+											"id": "aa33dddf-bdf5-4963-bd96-9d28d16beaa5",
+											"typeId": "product"
+										},
+										{
+											"id": "33ec21d6-f79b-48b3-a1b1-4f6c0e76e136",
+											"typeId": "product"
+										},
+										{
+											"id": "2866ce11-08df-42a5-af2d-ac7eb3a0705b",
+											"typeId": "product"
+										}
+									]
+								},
+								{
+									"name": "productTypes",
+									"value": [
+										{
+											"key": "video-addon",
+											"label": "Video Add-on"
+										}
+									]
+								}
+							]
+						]
+					}
+				}
+			]
+		}
+	]
+}

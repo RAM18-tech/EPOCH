@@ -1,0 +1,143 @@
+{
+  "limit": 50,
+  "offset": 0,
+  "count": 1,
+  "total": 1,
+  "benefits": [
+    {
+      "billingBenefitCode": "RECONNECT20",
+      "compliance": {
+        "constraints": [
+          {
+            "productFamily": "OTT",
+            "complianceProducts": [
+              {
+                "productType": "video-plan",
+                "products": [
+                  {
+                    "typeId": "product",
+                    "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                    "name": "Choice",
+                    "productType": "video-plan",
+                    "key": "BASE-CHOICE-201811"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "acaafa61-a5ef-4584-b7fa-6b81045d3f06",
+                    "name": "Ultimate",
+                    "productType": "video-plan",
+                    "key": "BASE-ULTIMATE-201811"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "0e796d14-487b-4058-8fe5-0b1dae7f231e",
+                    "name": "Entertainment",
+                    "productType": "video-plan",
+                    "key": "BASE-ENTERTAINMENT-201811"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "cda38789-8834-4d91-9060-6e3dc67c5ce5",
+                    "name": "Premier",
+                    "productType": "video-plan",
+                    "key": "BASE-PREMIER-202004"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "17409ef2-12e9-48a3-85c0-0e52d21be60c",
+                    "name": "Optimo Mas",
+                    "productType": "video-plan",
+                    "key": "BASE-OPTIMOMAS-122018"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "longDescriptionforServices": "SAVE $20 OVER 1 MONTH RECONNECT OFFER: Offer ends 12/31/2024. Offer available for customers reconnecting less than 12 months since cancellation only. Offer not available to DIRECTV or U-verse TV customers switching to DIRECTV via internet or DIRECTV STREAM. Requires purchase of ENTERTAINMENT Package or higher.  Customer must enter code STREAM30 at checkout to activate service and account must remain in good standing to receive discounts. You will lose this offer and/or any portion of this offer if you cancel your service. LIMIT ONE OFFER PER DIRECTV via internet or DIRECTV STREAM ACCOUNT. May be combined with other promotional offers on same services. Offer may be changed or discontinued at any time.\n\nDIRECTV via internet or DIRECTV STREAM: Service subject to DIRECTV via internet or DIRECTV STREAM terms and conditions (see directv.com/legal/). Requires high speed internet. Minimum internet speed of 8Mbps per stream recommended for optimal viewing. Compatible device req’d. Residential U.S. customers only (excludes Puerto Rico and U.S. Virgin Islands). Your DIRECTV via internet or DIRECTV STREAM service renews monthly at the prevailing rate, charged to your payment method on file unless you cancel. New customers who cancel service in the first 14 days will receive a full refund. Otherwise, no refunds or credits for any partial month periods or unwatched content. However, once you've cancelled, you can access DIRECTV via internet or DIRECTV STREAM through the remaining monthly period. Returning customers who disconnected service within previous 12 months are not eligible for a refund.  Regional Sports & Local Channels: Regional Sports available with CHOICE and above. Not available in select areas. Channels vary by package & billing region. Device may need to be in billing region in order to view.  Cancellation: Modify or cancel at any time online or by calling 1-800-531-5000.  Taxes: State and local taxes or other governmental fees and charges may apply including any such taxes, fees or charges assessed against discounted fees or service credits. Limits: Offers may not be available through all channels and in select areas. Programming subject to blackout restrictions. All offers, programming, promotions, pricing, terms, restrictions & conditions subject to change & may be modified, discontinued, or terminated at any time without notice. See directvstream.com for details. ",
+      "beneficiaryProductFamily": "OTT",
+      "displayNameforServices": " $20 off for 1 Month RCNT",
+      "contractIndicator": "TAZBYOD",
+      "benefitDisplayName": {
+        "en": " $20 off for 1 Month"
+      },
+      "isCouponPromo": true,
+      "period": "NoOfMonths",
+      "duration": 1,
+      "shortDescriptionforServices": "$20 off for 1 Month",
+      "shortDescriptionforOpus": " $20 off for 1 Month RCNT",
+      "customerClassification": "New Customer",
+      "isMigrated": false,
+      "benefitType": "flat-off",
+      "salesChannel": "selfServiceNew",
+      "saleschannels": [
+        "online",
+        "opus"
+      ],
+      "parentOffers": [
+        {
+          "typeId": "product",
+          "id": "a622f027-4fd1-48ec-8614-21069413f13d"
+        }
+      ],
+      "benefitLevel": "product",
+      "benefitCategory": "Product",
+      "applicableProducts": [
+        {
+          "products": [
+            {
+              "typeId": "product",
+              "id": "cda38789-8834-4d91-9060-6e3dc67c5ce5",
+              "key": "BASE-PREMIER-202004",
+              "productType": "video-plan"
+            },
+            {
+              "typeId": "product",
+              "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+              "key": "BASE-CHOICE-201811",
+              "productType": "video-plan"
+            },
+            {
+              "typeId": "product",
+              "id": "acaafa61-a5ef-4584-b7fa-6b81045d3f06",
+              "key": "BASE-ULTIMATE-201811",
+              "productType": "video-plan"
+            },
+            {
+              "typeId": "product",
+              "id": "17409ef2-12e9-48a3-85c0-0e52d21be60c",
+              "key": "BASE-OPTIMOMAS-122018",
+              "productType": "video-plan"
+            },
+            {
+              "typeId": "product",
+              "id": "0e796d14-487b-4058-8fe5-0b1dae7f231e",
+              "key": "BASE-ENTERTAINMENT-201811",
+              "productType": "video-plan"
+            }
+          ]
+        }
+      ],
+      "id": "f970c8d4-90fc-461d-b509-4efde5fd1f09",
+      "version": 1,
+      "code": "RECONNECT20",
+      "rtpIndicator": false,
+      "benefitName": {
+        "en": "Reconnect $20 off for 1 Month"
+      },
+      "description": {
+        "en": "Reconnect $20 off for 1 Month"
+      },
+      "value": {
+        "type": "centPrecision",
+        "currencyCode": "USD",
+        "centAmount": 2000,
+        "fractionDigits": 2,
+        "dollarAmount": "20.00"
+      },
+      "isQuotaBased": false,
+      "isActive": true
+    }
+  ]
+}

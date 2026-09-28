@@ -1,0 +1,4651 @@
+{
+    "customerEligibility": {
+        "zipCode": [
+            "80302"
+        ],
+        "county": [
+            "08013"
+        ]
+    },
+    "salesChannel": [
+        "directIntegrationPartner"
+    ],
+    "marketingSourceCode": [
+        "2547"
+    ],
+    "offerProductTypes": [
+        "video-device",
+        "fee"
+    ],
+    "offerActionType": [
+        "Acquisition"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "cartContext": {
+        "epochOfferCodes": [
+            "OF_BASE-OPTIMO-MAS-RR_sales_satellite"
+        ]
+    },
+    "customerContext": {
+        "satellite": {
+            "serviceAddress": {
+                "streetAddress": "2600 CANYON BLVD",
+                "city": "BOULDER",
+                "state": "CO",
+                "zipCode": "80302"
+            },
+            "businessSegment": "REG",
+            "accountStatus": "PEND"
+        }
+    },
+    "billingSystem": "STMS",
+    "channelEligibility": {
+        "salesChannel": "indirect",
+        "salesSubChannel": "DTVCALLCTR",
+        "locationId": "118724",
+        "locationTypeId": "4",
+        "dealerCode": "RDG8R",
+        "directIntegrationPartnerName": "CHUZO",
+        "masterDealerId": "61179"
+    },
+    "orderContext": [
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_BOLTON-PANTAYA_satellite",
+                    "productType": "video-addon",
+                    "productSubType": "TV",
+                    "offerPrice": 5.99,
+                    "dollarAmount": 5.99
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 53,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "R107114",
+                    "lineItemId": 1,
+                    "omsProductID": "10039088",
+                    "productName": "Pantaya",
+                    "productDescription": "Pantaya offers a selection of today's Spanish-language blockbusters, fan favorites, beloved classics, and exclusive and original series - all commercial-free. May only be accessed on internet-connected HD-DVR, DIRECTV.com and the DIRECTV app. Subscription not valid for streaming using the provider app or website.",
+                    "originatorLineItemId": 0,
+                    "disconnectReason": "2900"
+                },
+                "price": {
+                    "totalAmount": 6.16,
+                    "subTotalAmount": 5.99,
+                    "taxAmount": 0.17,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 5.99,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "R",
+                        "productCode": "107114",
+                        "priceCode": "1"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "accessory",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_DEVICE-GENIE-MINI-WIRELESS-V3_sales_satellite",
+                    "productType": "video-device",
+                    "equipmentType": "Wireless Genie Mini"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 9,
+                                    "relationshipType": "activationDependency"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 54,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000000745",
+                    "lineItemId": 2,
+                    "omsProductID": "745",
+                    "productName": "Wireless Genie Mini",
+                    "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 107.95,
+                    "subTotalAmount": 99.0,
+                    "taxAmount": 8.95,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "accessory": {
+                        "type": "HMC Client",
+                        "equipmentOwnership": "lease",
+                        "quantity": 1
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_BASE-OPTIMO-MAS-RR_sales_satellite",
+                    "productType": "video-plan",
+                    "productSubType": "Spanish",
+                    "offerPrice": 72.99,
+                    "offerPricewithLocals": 84.99,
+                    "planPricewithLocals": 124.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 55,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "P121340",
+                    "lineItemId": 3,
+                    "omsProductID": "10076703",
+                    "productName": "OPTIMO MAS_sin canales locales",
+                    "productDescription": "A comprehensive entertainment package offering an excellent combination of English and Spanish channels with sports, news, children's, music and exclusive country of origin programming. Over 50 Spanish-language channels. Over 100 English-language channels. Now includes live 4K – Enjoy amazing live entertainment in stunning life-like clarity. To view your current package price, including extras and discounts, view your most recent statement.",
+                    "originatorLineItemId": 0,
+                    "disconnectReason": "2900"
+                },
+                "price": {
+                    "totalAmount": 115.25,
+                    "subTotalAmount": 112.0,
+                    "taxAmount": 3.25,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 112.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "P",
+                        "productCode": "121340",
+                        "priceCode": "1"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "condition"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 56,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-EARLY-CANCEL-FEE_satellite",
+                    "lineItemId": 4,
+                    "omsProductID": "22419",
+                    "productName": "Early Cancellation Fee",
+                    "productDescription": "24-month programming agreement required. Service cancellation may result in an Early Termination Fee of up to $480.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "condition"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 57,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-FAIL-TO-RETURN-DEVICE_satellite",
+                    "lineItemId": 5,
+                    "omsProductID": "22419",
+                    "productName": "Failure to return device (Service cancellation)",
+                    "productDescription": "Failure to return device(s) (e.g., Genie, Wireless Genie Mini, 4K Genie Mini, Wired Genie Mini, or Gemini) after canceling service may result in a fee of up to $45 - $135 per each device.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_BOLTON-DIRECTV-SPORTS-PACK_satellite",
+                    "productType": "video-addon",
+                    "productSubType": "Sports",
+                    "offerPrice": 14.99,
+                    "dollarAmount": 14.99
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 58,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "P2144",
+                    "lineItemId": 6,
+                    "omsProductID": "2442",
+                    "productName": "DIRECTV Sports Pack",
+                    "productDescription": "Feed your sports obsession. From professional and college sports to international soccer to fly-fishing &#151; SPORTS PACK has you covered with specialty sports networks, as well as over 20 regional sports networks.\n",
+                    "originatorLineItemId": 0,
+                    "disconnectReason": "2900"
+                },
+                "price": {
+                    "totalAmount": 15.42,
+                    "subTotalAmount": 14.99,
+                    "taxAmount": 0.43,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 14.99,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "P",
+                        "productCode": "2144",
+                        "priceCode": "1"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_BOLTON-LOCAL-CHANNELS-INCLUDED_satellite",
+                    "productType": "video-addon",
+                    "productSubType": "Locals",
+                    "offerPrice": 12.0,
+                    "dollarAmount": 12.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 59,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "P121348",
+                    "lineItemId": 7,
+                    "omsProductID": "10076741",
+                    "productName": "Local Channels included",
+                    "productDescription": "Access to local channels. Channel counts may vary.",
+                    "originatorLineItemId": 0,
+                    "disconnectReason": "2900"
+                },
+                "price": {
+                    "totalAmount": 12.35,
+                    "subTotalAmount": 12.0,
+                    "taxAmount": 0.35,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 12.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "P",
+                        "productCode": "121348",
+                        "priceCode": "1"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": false,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_BOLTON-ENHANCED-SPORTS-PACK_satellite",
+                    "productType": "video-addon",
+                    "offerPrice": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 60,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "P120570",
+                    "lineItemId": 8,
+                    "omsProductID": "10069047",
+                    "productName": "Enhanced Sports Pack",
+                    "productDescription": "Feed your sports obsession. From professional and college sports to international soccer to fly-fishing &#151; SPORTS PACK has you covered with specialty sports networks, as well as over 20 regional sports networks.\n",
+                    "originatorLineItemId": 0,
+                    "disconnectReason": "2900"
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "P",
+                        "productCode": "120570",
+                        "priceCode": "1"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "receiver",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_DEVICE-GENIE-2-WIRELESS-V1_sales_satellite",
+                    "productType": "video-device"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 61,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000000888",
+                    "lineItemId": 9,
+                    "omsProductID": "888",
+                    "productName": "DIRECTV&#174; Genie 2",
+                    "productDescription": "You only need 1 Genie 2 to deliver TV and your DVR content to all your receivers and your mobile devices while at home and on the go\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 435.09,
+                    "subTotalAmount": 399.0,
+                    "taxAmount": 36.09,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "receiver": {
+                        "equipmentOwnership": "lease",
+                        "equipmentType": "hd-dvr",
+                        "quantity": 1
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "accessory",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_DEVICE-GENIE-MINI-WIRELESS-V3_sales_satellite",
+                    "productType": "video-device",
+                    "equipmentType": "Wireless Genie Mini"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 9,
+                                    "relationshipType": "activationDependency"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 62,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000000745",
+                    "lineItemId": 10,
+                    "omsProductID": "745",
+                    "productName": "Wireless Genie Mini",
+                    "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 107.95,
+                    "subTotalAmount": 99.0,
+                    "taxAmount": 8.95,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "accessory": {
+                        "type": "HMC Client",
+                        "equipmentOwnership": "lease",
+                        "quantity": 2
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "accessory",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_DEVICE-GENIE-MINI-WIRELESS-V3_sales_satellite",
+                    "productType": "video-device",
+                    "equipmentType": "Wireless Genie Mini"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 9,
+                                    "relationshipType": "activationDependency"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 63,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000000745",
+                    "lineItemId": 11,
+                    "omsProductID": "745",
+                    "productName": "Wireless Genie Mini",
+                    "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 107.95,
+                    "subTotalAmount": 99.0,
+                    "taxAmount": 8.95,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "accessory": {
+                        "type": "HMC Client",
+                        "equipmentOwnership": "lease",
+                        "quantity": 3
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "accessory",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_DEVICE-GENIE-MINI-WIRELESS-V3_sales_satellite",
+                    "productType": "video-device",
+                    "equipmentType": "Wireless Genie Mini"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 9,
+                                    "relationshipType": "activationDependency"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 64,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000000745",
+                    "lineItemId": 12,
+                    "omsProductID": "745",
+                    "productName": "Wireless Genie Mini",
+                    "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 107.95,
+                    "subTotalAmount": 99.0,
+                    "taxAmount": 8.95,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "accessory": {
+                        "type": "HMC Client",
+                        "equipmentOwnership": "lease",
+                        "quantity": 4
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "accessory",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_DEVICE-GENIE-MINI-WIRELESS-V3_sales_satellite",
+                    "productType": "video-device",
+                    "equipmentType": "Wireless Genie Mini"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 9,
+                                    "relationshipType": "activationDependency"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 65,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000000745",
+                    "lineItemId": 13,
+                    "omsProductID": "745",
+                    "productName": "Wireless Genie Mini",
+                    "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 107.95,
+                    "subTotalAmount": 99.0,
+                    "taxAmount": 8.95,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "accessory": {
+                        "type": "HMC Client",
+                        "equipmentOwnership": "lease",
+                        "quantity": 5
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "accessory",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_DEVICE-GENIE-MINI-WIRELESS-V3_sales_satellite",
+                    "productType": "video-device",
+                    "equipmentType": "Wireless Genie Mini"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 9,
+                                    "relationshipType": "activationDependency"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 66,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000000745",
+                    "lineItemId": 14,
+                    "omsProductID": "745",
+                    "productName": "Wireless Genie Mini",
+                    "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 107.95,
+                    "subTotalAmount": 99.0,
+                    "taxAmount": 8.95,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "accessory": {
+                        "type": "HMC Client",
+                        "equipmentOwnership": "lease",
+                        "quantity": 6
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "accessory",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_DEVICE-GENIE-MINI-WIRELESS-V3_sales_satellite",
+                    "productType": "video-device",
+                    "equipmentType": "Wireless Genie Mini"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 9,
+                                    "relationshipType": "activationDependency"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 67,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000000745",
+                    "lineItemId": 15,
+                    "omsProductID": "745",
+                    "productName": "Wireless Genie Mini",
+                    "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 107.95,
+                    "subTotalAmount": 99.0,
+                    "taxAmount": 8.95,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "accessory": {
+                        "type": "HMC Client",
+                        "equipmentOwnership": "lease",
+                        "quantity": 7
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "accessory",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_DEVICE-GENIE-MINI-WIRELESS-V3_sales_satellite",
+                    "productType": "video-device",
+                    "equipmentType": "Wireless Genie Mini"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 9,
+                                    "relationshipType": "activationDependency"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 68,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000000745",
+                    "lineItemId": 16,
+                    "omsProductID": "745",
+                    "productName": "Wireless Genie Mini",
+                    "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 107.95,
+                    "subTotalAmount": 99.0,
+                    "taxAmount": 8.95,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "accessory": {
+                        "type": "HMC Client",
+                        "equipmentOwnership": "lease",
+                        "quantity": 8
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_FEE-TV-ACCESS-FEE-V29_satellite",
+                    "productType": "fee"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 69,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B121470",
+                    "lineItemId": 17,
+                    "omsProductID": "10077389",
+                    "productName": "TV access fee",
+                    "productDescription": "Allows programming to appear on any additional TVs",
+                    "originatorLineItemId": 0,
+                    "disconnectReason": "2900"
+                },
+                "price": {
+                    "totalAmount": 87.24,
+                    "subTotalAmount": 80.0,
+                    "taxAmount": 7.24,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 80.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "B",
+                        "productCode": "121470",
+                        "priceCode": "8"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": false,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_FEE-ADVANCED-RECEIVER-HD-ACCESS-SALES_satellite",
+                    "productType": "fee"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 70,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "P6376",
+                    "lineItemId": 18,
+                    "omsProductID": "45921",
+                    "productName": "HD Access",
+                    "productDescription": "This service unleashes the full power of your HD DVR, including HD channels, the ability to record and watch in any room (requires Genie Whole-Home Setup), access to On Demand shows and movies, and more.",
+                    "originatorLineItemId": 0,
+                    "disconnectReason": "2900"
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "P",
+                        "productCode": "6376",
+                        "priceCode": "200"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": false,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_FEE-ADVANCED-RECEIVER-V11_satellite",
+                    "productType": "fee"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 71,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B102964",
+                    "lineItemId": 19,
+                    "omsProductID": "10002303",
+                    "productName": "Advanced Receiver Fee",
+                    "productDescription": "This service unleashes the full power of your HD DVR, including HD channels, the ability to record and watch in any room (requires Genie Whole-Home Setup), access to On Demand shows and movies, and more.",
+                    "originatorLineItemId": 0,
+                    "disconnectReason": "2900"
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "B",
+                        "productCode": "102964",
+                        "priceCode": "200"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_FEE-DELIVERY-HANDLING_satellite",
+                    "productType": "fee"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 72,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000001013",
+                    "lineItemId": 20,
+                    "omsProductID": "1013",
+                    "productName": "Delivery and Handling",
+                    "productDescription": "Charge for delivering equipment to your home.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "installation",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_FEE-PROFESSIONAL-INSTALLATION-SALES_satellite",
+                    "productType": "fee"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 73,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000001006",
+                    "lineItemId": 21,
+                    "omsProductID": "1006",
+                    "productName": "Installation Fee",
+                    "productDescription": "Add Installation Charge to all DTV Orders with new Receivers",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "installation": {
+                        "vipLevel": "null"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "addedbyRuleFlag": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_FEE-SERVICE-ACTIVATION-SALES-V1_satellite",
+                    "productType": "fee",
+                    "productSubType": "SERVICE-ACTIVATION"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 74,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "F0038",
+                    "lineItemId": 22,
+                    "omsProductID": "791",
+                    "productName": "Service Activation Fee",
+                    "productDescription": "Activation Fee",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 51.4,
+                    "subTotalAmount": 49.95,
+                    "taxAmount": 1.45,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "condition"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 75,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-ACTIVATION-FEE_satellite",
+                    "lineItemId": 23,
+                    "omsProductID": "22419",
+                    "productName": "Activation Fee",
+                    "productDescription": "A one-time $49.95 Activation Fee will be included in the first month's bill.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "agreement",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "appliesToSvc": "P121340",
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "agreementPriceCode": 1,
+                    "offerId": "OF_BASE-OPTIMO-MAS-RR_sales_satellite",
+                    "duration": 999,
+                    "productType": "agreement",
+                    "extPromoType": "ABP-PB"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 51,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "VAGR-BP-999MO-V75",
+                    "lineItemId": 24,
+                    "omsProductID": "502",
+                    "productName": "DTV_$10_off_AP_PB_Lifetime_DS2361",
+                    "productDescription": "$10 off with AutoPay and Paperless Billing",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -10.29,
+                    "subTotalAmount": -10.0,
+                    "taxAmount": -0.29,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": -10.0,
+                            "frequencyOfCharge": "monthly"
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "agreement": {
+                        "type": "credit",
+                        "rebateId": "100111"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "adjustment",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": false,
+                "customData": {
+                    "appliesToSvc": "P121340",
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "offerId": "OF_BASE-OPTIMO-MAS-RR_sales_satellite",
+                    "productType": "adjustment",
+                    "extPromoType": "ABP-PB"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 26,
+                                    "relationshipType": "activationDependency"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 24,
+                                    "relationshipType": "agreement"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 51,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "SAJ000005983",
+                    "lineItemId": 25,
+                    "omsProductID": "503",
+                    "productName": "DTV_$10_off_AP_PB_Lifetime_DS2361",
+                    "productDescription": "$10 off with AutoPay and Paperless Billing",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -10.29,
+                    "subTotalAmount": -10.0,
+                    "taxAmount": -0.29,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": -10.0
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "adjustment": {
+                        "adjustmentType": "product",
+                        "reasonCode": "5983",
+                        "amount": -10.0
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": false,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_BASE-OPTIMO-MAS-RR_sales_satellite",
+                    "productType": "serviceCode"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 51,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B120166",
+                    "lineItemId": 26,
+                    "omsProductID": "10066989",
+                    "productName": "DTV_$10_off_AP_PB_Lifetime_DS2361",
+                    "productDescription": "$10 off with AutoPay and Paperless Billing",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 0
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "B",
+                        "productCode": "120166",
+                        "priceCode": "003"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "agreement",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": true,
+                "customData": {
+                    "appliesToSvc": "P121340",
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "agreementPriceCode": 1,
+                    "offerId": "OF_BASE-OPTIMO-MAS-RR_sales_satellite",
+                    "duration": 24,
+                    "productType": "agreement",
+                    "extPromoType": "nationalBpPromo"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 52,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "VAGR-BP-24MO-V163",
+                    "lineItemId": 27,
+                    "omsProductID": "502",
+                    "productName": "24 Month Offer ($29.01 Credit Months 1-24)",
+                    "productDescription": "24 Month Offer ($29.01 Credit Months 1-24)",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -29.85,
+                    "subTotalAmount": -29.01,
+                    "taxAmount": -0.84,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": -29.01,
+                            "frequencyOfCharge": "monthly"
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "agreement": {
+                        "type": "credit",
+                        "rebateId": "100111"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "adjustment",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": false,
+                "customData": {
+                    "appliesToSvc": "P121340",
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "offerId": "OF_BASE-OPTIMO-MAS-RR_sales_satellite",
+                    "productType": "adjustment",
+                    "extPromoType": "nationalBpPromo"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 29,
+                                    "relationshipType": "activationDependency"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 27,
+                                    "relationshipType": "agreement"
+                                }
+                            ]
+                        },
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 52,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "SAJ000004937",
+                    "lineItemId": 28,
+                    "omsProductID": "503",
+                    "productName": "24 Month Offer ($29.01 Credit Months 1-24)",
+                    "productDescription": "24 Month Offer ($29.01 Credit Months 1-24)",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -29.85,
+                    "subTotalAmount": -29.01,
+                    "taxAmount": -0.84,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": -29.01
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "adjustment": {
+                        "adjustmentType": "product",
+                        "reasonCode": "4937",
+                        "amount": -29.01
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "programming",
+                "action": "add",
+                "isProvisionable": true,
+                "isVisible": false,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_BASE-OPTIMO-MAS-RR_sales_satellite",
+                    "productType": "serviceCode"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 52,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B121490",
+                    "lineItemId": 29,
+                    "omsProductID": "10081813",
+                    "productName": "24 Month Offer ($29.01 Credit Months 1-24)",
+                    "productDescription": "24 Month Offer ($29.01 Credit Months 1-24)",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 0
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "programming": {
+                        "productType": "B",
+                        "productCode": "121490",
+                        "priceCode": "018"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "offerId": "OF_SEGMENT-EQIR-L6-WIRELESS-GENIE-MINI-50_satellite",
+                    "productType": "equipment-rebate",
+                    "associatedDevice": "H00000000745"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 76,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "EQIR-L6-WIRELESS-GENIE-MINI-50",
+                    "lineItemId": 30,
+                    "omsProductID": "2317",
+                    "productName": "Sixth Instant Rebate",
+                    "productDescription": "Sixth Instant Rebate",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -54.52,
+                    "subTotalAmount": -50.0,
+                    "taxAmount": -4.52,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "condition"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 77,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-WIRELESS-GM-49_satellite",
+                    "lineItemId": 31,
+                    "omsProductID": "22419",
+                    "productName": "Wireless GM - $49",
+                    "productDescription": "Sixth Instant Rebate : Wireless Genie Mini provided at cost of $49 to the customer based on DIRECTV eligibility requirements.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "offerId": "OF_SEGMENT-EQIR-L7-WIRELESS-GENIE-MINI-50_satellite",
+                    "productType": "equipment-rebate",
+                    "associatedDevice": "H00000000745"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 78,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "EQIR-L7-WIRELESS-GENIE-MINI-50",
+                    "lineItemId": 32,
+                    "omsProductID": "2317",
+                    "productName": "Seventh Instant Rebate",
+                    "productDescription": "Seventh Instant Rebate",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -54.52,
+                    "subTotalAmount": -50.0,
+                    "taxAmount": -4.52,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "condition"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 79,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-WIRELESS-GM-49_satellite",
+                    "lineItemId": 33,
+                    "omsProductID": "22419",
+                    "productName": "Wireless GM - $49",
+                    "productDescription": "Seventh Instant Rebate : Wireless Genie Mini provided at cost of $49 to the customer based on DIRECTV eligibility requirements.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "offerId": "OF_SEGMENT-EQIR-L2-WIRELESS-GENIE-MINI-99_satellite",
+                    "productType": "equipment-rebate",
+                    "associatedDevice": "H00000000745"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 80,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "EQIR-L2-WIRELESS-GENIE-MINI-99",
+                    "lineItemId": 34,
+                    "omsProductID": "2317",
+                    "productName": "Second Instant Rebate",
+                    "productDescription": "Second Instant Rebate",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -107.95,
+                    "subTotalAmount": -99.0,
+                    "taxAmount": -8.95,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "condition"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 81,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-WIRELESS-GM_satellite",
+                    "lineItemId": 35,
+                    "omsProductID": "22419",
+                    "productName": "Wireless GM - $0",
+                    "productDescription": "Second Instant Rebate : Wireless Genie Mini provided at no cost to the customer based on DIRECTV eligibility requirements.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "offerId": "OF_SEGMENT-EQIR-L5-WIRELESS-GENIE-MINI-99_satellite",
+                    "productType": "equipment-rebate",
+                    "associatedDevice": "H00000000745"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 82,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "EQIR-L5-WIRELESS-GENIE-MINI-99",
+                    "lineItemId": 36,
+                    "omsProductID": "2317",
+                    "productName": "Fifth Instant Rebate",
+                    "productDescription": "Fifth Instant Rebate",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -107.95,
+                    "subTotalAmount": -99.0,
+                    "taxAmount": -8.95,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "condition"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 83,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-WIRELESS-GM_satellite",
+                    "lineItemId": 37,
+                    "omsProductID": "22419",
+                    "productName": "Wireless GM - $0",
+                    "productDescription": "Fifth Instant Rebate : Wireless Genie Mini provided at no cost to the customer based on DIRECTV eligibility requirements.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "offerId": "OF_SEGMENT-EQIR-L9-WIRELESS-GENIE-MINI-50_satellite",
+                    "productType": "equipment-rebate",
+                    "associatedDevice": "H00000000745"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 84,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "EQIR-L9-WIRELESS-GENIE-MINI-50",
+                    "lineItemId": 38,
+                    "omsProductID": "2317",
+                    "productName": "Ninth Instant Rebate",
+                    "productDescription": "Ninth Instant Rebate",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -54.52,
+                    "subTotalAmount": -50.0,
+                    "taxAmount": -4.52,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "condition"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 85,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-WIRELESS-GM-49_satellite",
+                    "lineItemId": 39,
+                    "omsProductID": "22419",
+                    "productName": "Wireless GM - $49",
+                    "productDescription": "Ninth Instant Rebate : Wireless Genie Mini provided at cost of $49 to the customer based on DIRECTV eligibility requirements.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "offerId": "OF_SEGMENT-EQIR-L4-WIRELESS-GENIE-MINI-99_satellite",
+                    "productType": "equipment-rebate",
+                    "associatedDevice": "H00000000745"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 86,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "EQIR-L4-WIRELESS-GENIE-MINI-99",
+                    "lineItemId": 40,
+                    "omsProductID": "2317",
+                    "productName": "Fourth Instant Rebate",
+                    "productDescription": "Fourth Instant Rebate",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -107.95,
+                    "subTotalAmount": -99.0,
+                    "taxAmount": -8.95,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "condition"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 87,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-WIRELESS-GM_satellite",
+                    "lineItemId": 41,
+                    "omsProductID": "22419",
+                    "productName": "Wireless GM - $0",
+                    "productDescription": "Fourth Instant Rebate : Wireless Genie Mini provided at no cost to the customer based on DIRECTV eligibility requirements.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "offerId": "OF_SEGMENT-EQIR-L8-WIRELESS-GENIE-MINI-50_satellite",
+                    "productType": "equipment-rebate",
+                    "associatedDevice": "H00000000745"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 88,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "EQIR-L8-WIRELESS-GENIE-MINI-50",
+                    "lineItemId": 42,
+                    "omsProductID": "2317",
+                    "productName": "Eighth Instant Rebate",
+                    "productDescription": "Eighth Instant Rebate",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -54.52,
+                    "subTotalAmount": -50.0,
+                    "taxAmount": -4.52,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "condition"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 89,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-WIRELESS-GM-49_satellite",
+                    "lineItemId": 43,
+                    "omsProductID": "22419",
+                    "productName": "Wireless GM - $49",
+                    "productDescription": "Eighth Instant Rebate : Wireless Genie Mini provided at cost of $49 to the customer based on DIRECTV eligibility requirements.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "offerId": "OF_SEGMENT-EQIR-L3-WIRELESS-GENIE-MINI-99_satellite",
+                    "productType": "equipment-rebate",
+                    "associatedDevice": "H00000000745"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 90,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "EQIR-L3-WIRELESS-GENIE-MINI-99",
+                    "lineItemId": 44,
+                    "omsProductID": "2317",
+                    "productName": "Third Instant Rebate",
+                    "productDescription": "Third Instant Rebate",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -107.95,
+                    "subTotalAmount": -99.0,
+                    "taxAmount": -8.95,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "condition"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 91,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-WIRELESS-GM_satellite",
+                    "lineItemId": 45,
+                    "omsProductID": "22419",
+                    "productName": "Wireless GM - $0",
+                    "productDescription": "Third Instant Rebate : Wireless Genie Mini provided at no cost to the customer based on DIRECTV eligibility requirements.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": -0.0,
+                    "offerId": "OF_SEGMENT-EQIR-L1-GENIE2-300_satellite",
+                    "productType": "equipment-rebate",
+                    "associatedDevice": "H00000000888"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 92,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "EQIR-L1-GENIE2-300",
+                    "lineItemId": 46,
+                    "omsProductID": "2317",
+                    "productName": "First Instant Rebate",
+                    "productDescription": "First Instant Rebate",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": -327.14,
+                    "subTotalAmount": -300.0,
+                    "taxAmount": -27.14,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "virtual",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "productType": "condition"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 93,
+                                    "relationshipType": "offerDetail"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-DIRECTV-GENIE2-99_satellite",
+                    "lineItemId": 47,
+                    "omsProductID": "22419",
+                    "productName": "DIRECTV GENIE2  - $99",
+                    "productDescription": "First Instant Rebate : DIRECTV® Genie 2 provided at cost of $99 to the customer based on DIRECTV eligibility requirements.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "virtual": "null"
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offer",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "lineItemIdentifier": {
+                    "productId": "Today",
+                    "lineItemId": 48,
+                    "omsProductID": "510",
+                    "productName": "Today",
+                    "productDescription": "Today's Charges",
+                    "originatorLineItemId": 0,
+                    "disconnectReason": "2900"
+                },
+                "price": {
+                    "totalAmount": 373.07,
+                    "subTotalAmount": 344.95,
+                    "taxAmount": 28.12,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offer": {
+                        "offerId": "Today",
+                        "description": "Today",
+                        "primaryOfferFlag": true,
+                        "availablePaymentMethods": [
+                            "creditCard"
+                        ],
+                        "availableShippingMethods": [
+                            "ground"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offer",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "lineItemIdentifier": {
+                    "productId": "Conditions",
+                    "lineItemId": 49,
+                    "omsProductID": "501",
+                    "productName": "Conditions",
+                    "productDescription": "Conditions",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offer": {
+                        "offerId": "Conditions",
+                        "primaryOfferFlag": false,
+                        "offerDescription": "Conditions",
+                        "availablePaymentMethods": [
+                            "creditCard"
+                        ],
+                        "availableShippingMethods": [
+                            "ground"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offer",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "lineItemIdentifier": {
+                    "productId": "Recurring",
+                    "lineItemId": 50,
+                    "omsProductID": "280",
+                    "productName": "Recurring",
+                    "productDescription": "Estimated Monthly Charges",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 196.28,
+                    "subTotalAmount": 185.97,
+                    "taxAmount": 10.31,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offer": {
+                        "offerId": "Recurring",
+                        "primaryOfferFlag": false,
+                        "offerDescription": "Recurring",
+                        "optionDescription": "Recurring",
+                        "availablePaymentMethods": [
+                            "creditCard",
+                            "notRequired",
+                            "stmsBill"
+                        ],
+                        "availableShippingMethods": [
+                            "ground"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_BASE-OPTIMO-MAS-RR_sales_satellite"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 50,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "VAGR-BP-999MO-V75-000",
+                    "lineItemId": 51,
+                    "omsProductID": "500",
+                    "productName": "OPTIMO MAS_sin canales locales",
+                    "productDescription": "A comprehensive entertainment package offering an excellent combination of English and Spanish channels with sports, news, children's, music and exclusive country of origin programming. Over 50 Spanish-language channels. Over 100 English-language channels. Now includes live 4K – Enjoy amazing live entertainment in stunning life-like clarity. To view your current package price, including extras and discounts, view your most recent statement.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "A comprehensive entertainment package offering an excellent combination of English and Spanish channels with sports, news, children's, music and exclusive country of origin programming. Over 50 Spanish-language channels. Over 100 English-language channels. Now includes live 4K – Enjoy amazing live entertainment in stunning life-like clarity. To view your current package price, including extras and discounts, view your most recent statement.",
+                        "id": 51,
+                        "name": "OPTIMO MAS_sin canales locales"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_BASE-OPTIMO-MAS-RR_sales_satellite"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 50,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "VAGR-BP-24MO-V163-000",
+                    "lineItemId": 52,
+                    "omsProductID": "500",
+                    "productName": "OPTIMO MAS_sin canales locales",
+                    "productDescription": "A comprehensive entertainment package offering an excellent combination of English and Spanish channels with sports, news, children's, music and exclusive country of origin programming. Over 50 Spanish-language channels. Over 100 English-language channels. Now includes live 4K – Enjoy amazing live entertainment in stunning life-like clarity. To view your current package price, including extras and discounts, view your most recent statement.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "A comprehensive entertainment package offering an excellent combination of English and Spanish channels with sports, news, children's, music and exclusive country of origin programming. Over 50 Spanish-language channels. Over 100 English-language channels. Now includes live 4K – Enjoy amazing live entertainment in stunning life-like clarity. To view your current package price, including extras and discounts, view your most recent statement.",
+                        "id": 52,
+                        "name": "OPTIMO MAS_sin canales locales"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 50,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "R107114-000",
+                    "lineItemId": 53,
+                    "omsProductID": "500",
+                    "productName": "Pantaya",
+                    "productDescription": "Pantaya offers a selection of today's Spanish-language blockbusters, fan favorites, beloved classics, and exclusive and original series - all commercial-free. May only be accessed on internet-connected HD-DVR, DIRECTV.com and the DIRECTV app. Subscription not valid for streaming using the provider app or website.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Pantaya offers a selection of today's Spanish-language blockbusters, fan favorites, beloved classics, and exclusive and original series - all commercial-free. May only be accessed on internet-connected HD-DVR, DIRECTV.com and the DIRECTV app. Subscription not valid for streaming using the provider app or website.",
+                        "id": 53,
+                        "name": "Pantaya"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000000745-000",
+                    "lineItemId": 54,
+                    "omsProductID": "500",
+                    "productName": "Wireless Genie Mini",
+                    "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                        "id": 54,
+                        "name": "Wireless Genie Mini"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 50,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "P121340-000",
+                    "lineItemId": 55,
+                    "omsProductID": "500",
+                    "productName": "OPTIMO MAS_sin canales locales",
+                    "productDescription": "A comprehensive entertainment package offering an excellent combination of English and Spanish channels with sports, news, children's, music and exclusive country of origin programming. Over 50 Spanish-language channels. Over 100 English-language channels. Now includes live 4K – Enjoy amazing live entertainment in stunning life-like clarity. To view your current package price, including extras and discounts, view your most recent statement.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "A comprehensive entertainment package offering an excellent combination of English and Spanish channels with sports, news, children's, music and exclusive country of origin programming. Over 50 Spanish-language channels. Over 100 English-language channels. Now includes live 4K – Enjoy amazing live entertainment in stunning life-like clarity. To view your current package price, including extras and discounts, view your most recent statement.",
+                        "id": 55,
+                        "name": "OPTIMO MAS_sin canales locales"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 49,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-EARLY-CANCEL-FEE_satellite-000",
+                    "lineItemId": 56,
+                    "omsProductID": "500",
+                    "productName": "Early Cancellation Fee",
+                    "productDescription": "24-month programming agreement required. Service cancellation may result in an Early Termination Fee of up to $480.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "24-month programming agreement required. Service cancellation may result in an Early Termination Fee of up to $480.",
+                        "id": 56,
+                        "name": "Early Cancellation Fee"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 49,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-FAIL-TO-RETURN-DEVICE_satellite-000",
+                    "lineItemId": 57,
+                    "omsProductID": "500",
+                    "productName": "Failure to return device (Service cancellation)",
+                    "productDescription": "Failure to return device(s) (e.g., Genie, Wireless Genie Mini, 4K Genie Mini, Wired Genie Mini, or Gemini) after canceling service may result in a fee of up to $45 - $135 per each device.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Failure to return device(s) (e.g., Genie, Wireless Genie Mini, 4K Genie Mini, Wired Genie Mini, or Gemini) after canceling service may result in a fee of up to $45 - $135 per each device.",
+                        "id": 57,
+                        "name": "Failure to return device (Service cancellation)"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 50,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "P2144-000",
+                    "lineItemId": 58,
+                    "omsProductID": "500",
+                    "productName": "DIRECTV Sports Pack",
+                    "productDescription": "Feed your sports obsession. From professional and college sports to international soccer to fly-fishing &#151; SPORTS PACK has you covered with specialty sports networks, as well as over 20 regional sports networks.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Feed your sports obsession. From professional and college sports to international soccer to fly-fishing &#151; SPORTS PACK has you covered with specialty sports networks, as well as over 20 regional sports networks.\n",
+                        "id": 58,
+                        "name": "DIRECTV Sports Pack"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 50,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "P121348-000",
+                    "lineItemId": 59,
+                    "omsProductID": "500",
+                    "productName": "Local Channels included",
+                    "productDescription": "Access to local channels. Channel counts may vary.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Access to local channels. Channel counts may vary.",
+                        "id": 59,
+                        "name": "Local Channels included"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": false,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 50,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "P120570-000",
+                    "lineItemId": 60,
+                    "omsProductID": "500",
+                    "productName": "Enhanced Sports Pack",
+                    "productDescription": "Feed your sports obsession. From professional and college sports to international soccer to fly-fishing &#151; SPORTS PACK has you covered with specialty sports networks, as well as over 20 regional sports networks.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Feed your sports obsession. From professional and college sports to international soccer to fly-fishing &#151; SPORTS PACK has you covered with specialty sports networks, as well as over 20 regional sports networks.\n",
+                        "id": 60,
+                        "name": "Enhanced Sports Pack"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000000888-000",
+                    "lineItemId": 61,
+                    "omsProductID": "500",
+                    "productName": "DIRECTV&#174; Genie 2",
+                    "productDescription": "You only need 1 Genie 2 to deliver TV and your DVR content to all your receivers and your mobile devices while at home and on the go\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "You only need 1 Genie 2 to deliver TV and your DVR content to all your receivers and your mobile devices while at home and on the go\n",
+                        "id": 61,
+                        "name": "DIRECTV&#174; Genie 2"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000000745-000",
+                    "lineItemId": 62,
+                    "omsProductID": "500",
+                    "productName": "Wireless Genie Mini",
+                    "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                        "id": 62,
+                        "name": "Wireless Genie Mini"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000000745-000",
+                    "lineItemId": 63,
+                    "omsProductID": "500",
+                    "productName": "Wireless Genie Mini",
+                    "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                        "id": 63,
+                        "name": "Wireless Genie Mini"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000000745-000",
+                    "lineItemId": 64,
+                    "omsProductID": "500",
+                    "productName": "Wireless Genie Mini",
+                    "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                        "id": 64,
+                        "name": "Wireless Genie Mini"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000000745-000",
+                    "lineItemId": 65,
+                    "omsProductID": "500",
+                    "productName": "Wireless Genie Mini",
+                    "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                        "id": 65,
+                        "name": "Wireless Genie Mini"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000000745-000",
+                    "lineItemId": 66,
+                    "omsProductID": "500",
+                    "productName": "Wireless Genie Mini",
+                    "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                        "id": 66,
+                        "name": "Wireless Genie Mini"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000000745-000",
+                    "lineItemId": 67,
+                    "omsProductID": "500",
+                    "productName": "Wireless Genie Mini",
+                    "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                        "id": 67,
+                        "name": "Wireless Genie Mini"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000000745-000",
+                    "lineItemId": 68,
+                    "omsProductID": "500",
+                    "productName": "Wireless Genie Mini",
+                    "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                        "id": 68,
+                        "name": "Wireless Genie Mini"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 50,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B121470-000",
+                    "lineItemId": 69,
+                    "omsProductID": "500",
+                    "productName": "TV access fee",
+                    "productDescription": "Allows programming to appear on any additional TVs",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Allows programming to appear on any additional TVs",
+                        "id": 69,
+                        "name": "TV access fee"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": false,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 50,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "P6376-000",
+                    "lineItemId": 70,
+                    "omsProductID": "500",
+                    "productName": "HD Access",
+                    "productDescription": "This service unleashes the full power of your HD DVR, including HD channels, the ability to record and watch in any room (requires Genie Whole-Home Setup), access to On Demand shows and movies, and more.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "This service unleashes the full power of your HD DVR, including HD channels, the ability to record and watch in any room (requires Genie Whole-Home Setup), access to On Demand shows and movies, and more.",
+                        "id": 70,
+                        "name": "HD Access"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": false,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 50,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "B102964-000",
+                    "lineItemId": 71,
+                    "omsProductID": "500",
+                    "productName": "Advanced Receiver Fee",
+                    "productDescription": "This service unleashes the full power of your HD DVR, including HD channels, the ability to record and watch in any room (requires Genie Whole-Home Setup), access to On Demand shows and movies, and more.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0,
+                    "recurringPriceList": {
+                        "recurringPrice": {
+                            "sequence": 1,
+                            "price": 0.0,
+                            "frequencyOfCharge": "monthly",
+                            "numberOfCharges": 1
+                        }
+                    }
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "This service unleashes the full power of your HD DVR, including HD channels, the ability to record and watch in any room (requires Genie Whole-Home Setup), access to On Demand shows and movies, and more.",
+                        "id": 71,
+                        "name": "Advanced Receiver Fee"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000001013-000",
+                    "lineItemId": 72,
+                    "omsProductID": "500",
+                    "productName": "Delivery and Handling",
+                    "productDescription": "Charge for delivering equipment to your home.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Charge for delivering equipment to your home.",
+                        "id": 72,
+                        "name": "Delivery and Handling"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "H00000001006-000",
+                    "lineItemId": 73,
+                    "omsProductID": "500",
+                    "productName": "Installation Fee",
+                    "productDescription": "Add Installation Charge to all DTV Orders with new Receivers",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Add Installation Charge to all DTV Orders with new Receivers",
+                        "id": 73,
+                        "name": "Installation Fee"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "F0038-000",
+                    "lineItemId": 74,
+                    "omsProductID": "500",
+                    "productName": "Service Activation Fee",
+                    "productDescription": "Activation Fee",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Activation Fee",
+                        "id": 74,
+                        "name": "Service Activation Fee"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 49,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-ACTIVATION-FEE_satellite-000",
+                    "lineItemId": 75,
+                    "omsProductID": "500",
+                    "productName": "Activation Fee",
+                    "productDescription": "A one-time $49.95 Activation Fee will be included in the first month's bill.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "A one-time $49.95 Activation Fee will be included in the first month's bill.",
+                        "id": 75,
+                        "name": "Activation Fee"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_SEGMENT-EQIR-L6-WIRELESS-GENIE-MINI-50_satellite"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "EQIR-L6-WIRELESS-GENIE-MINI-50-000",
+                    "lineItemId": 76,
+                    "omsProductID": "500",
+                    "productName": "Sixth Instant Rebate",
+                    "productDescription": "Sixth Instant Rebate",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Sixth Instant Rebate",
+                        "id": 76,
+                        "name": "Sixth Instant Rebate"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 49,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-WIRELESS-GM-49_satellite-000",
+                    "lineItemId": 77,
+                    "omsProductID": "500",
+                    "productName": "Wireless GM - $49",
+                    "productDescription": "Sixth Instant Rebate : Wireless Genie Mini provided at cost of $49 to the customer based on DIRECTV eligibility requirements.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Sixth Instant Rebate : Wireless Genie Mini provided at cost of $49 to the customer based on DIRECTV eligibility requirements.",
+                        "id": 77,
+                        "name": "Wireless GM - $49"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_SEGMENT-EQIR-L7-WIRELESS-GENIE-MINI-50_satellite"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "EQIR-L7-WIRELESS-GENIE-MINI-50-000",
+                    "lineItemId": 78,
+                    "omsProductID": "500",
+                    "productName": "Seventh Instant Rebate",
+                    "productDescription": "Seventh Instant Rebate",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Seventh Instant Rebate",
+                        "id": 78,
+                        "name": "Seventh Instant Rebate"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 49,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-WIRELESS-GM-49_satellite-000",
+                    "lineItemId": 79,
+                    "omsProductID": "500",
+                    "productName": "Wireless GM - $49",
+                    "productDescription": "Seventh Instant Rebate : Wireless Genie Mini provided at cost of $49 to the customer based on DIRECTV eligibility requirements.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Seventh Instant Rebate : Wireless Genie Mini provided at cost of $49 to the customer based on DIRECTV eligibility requirements.",
+                        "id": 79,
+                        "name": "Wireless GM - $49"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_SEGMENT-EQIR-L2-WIRELESS-GENIE-MINI-99_satellite"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "EQIR-L2-WIRELESS-GENIE-MINI-99-000",
+                    "lineItemId": 80,
+                    "omsProductID": "500",
+                    "productName": "Second Instant Rebate",
+                    "productDescription": "Second Instant Rebate",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Second Instant Rebate",
+                        "id": 80,
+                        "name": "Second Instant Rebate"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 49,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-WIRELESS-GM_satellite-000",
+                    "lineItemId": 81,
+                    "omsProductID": "500",
+                    "productName": "Wireless GM - $0",
+                    "productDescription": "Second Instant Rebate : Wireless Genie Mini provided at no cost to the customer based on DIRECTV eligibility requirements.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Second Instant Rebate : Wireless Genie Mini provided at no cost to the customer based on DIRECTV eligibility requirements.",
+                        "id": 81,
+                        "name": "Wireless GM - $0"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_SEGMENT-EQIR-L5-WIRELESS-GENIE-MINI-99_satellite"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "EQIR-L5-WIRELESS-GENIE-MINI-99-000",
+                    "lineItemId": 82,
+                    "omsProductID": "500",
+                    "productName": "Fifth Instant Rebate",
+                    "productDescription": "Fifth Instant Rebate",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Fifth Instant Rebate",
+                        "id": 82,
+                        "name": "Fifth Instant Rebate"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 49,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-WIRELESS-GM_satellite-000",
+                    "lineItemId": 83,
+                    "omsProductID": "500",
+                    "productName": "Wireless GM - $0",
+                    "productDescription": "Fifth Instant Rebate : Wireless Genie Mini provided at no cost to the customer based on DIRECTV eligibility requirements.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Fifth Instant Rebate : Wireless Genie Mini provided at no cost to the customer based on DIRECTV eligibility requirements.",
+                        "id": 83,
+                        "name": "Wireless GM - $0"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_SEGMENT-EQIR-L9-WIRELESS-GENIE-MINI-50_satellite"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "EQIR-L9-WIRELESS-GENIE-MINI-50-000",
+                    "lineItemId": 84,
+                    "omsProductID": "500",
+                    "productName": "Ninth Instant Rebate",
+                    "productDescription": "Ninth Instant Rebate",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Ninth Instant Rebate",
+                        "id": 84,
+                        "name": "Ninth Instant Rebate"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 49,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-WIRELESS-GM-49_satellite-000",
+                    "lineItemId": 85,
+                    "omsProductID": "500",
+                    "productName": "Wireless GM - $49",
+                    "productDescription": "Ninth Instant Rebate : Wireless Genie Mini provided at cost of $49 to the customer based on DIRECTV eligibility requirements.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Ninth Instant Rebate : Wireless Genie Mini provided at cost of $49 to the customer based on DIRECTV eligibility requirements.",
+                        "id": 85,
+                        "name": "Wireless GM - $49"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_SEGMENT-EQIR-L4-WIRELESS-GENIE-MINI-99_satellite"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "EQIR-L4-WIRELESS-GENIE-MINI-99-000",
+                    "lineItemId": 86,
+                    "omsProductID": "500",
+                    "productName": "Fourth Instant Rebate",
+                    "productDescription": "Fourth Instant Rebate",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Fourth Instant Rebate",
+                        "id": 86,
+                        "name": "Fourth Instant Rebate"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 49,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-WIRELESS-GM_satellite-000",
+                    "lineItemId": 87,
+                    "omsProductID": "500",
+                    "productName": "Wireless GM - $0",
+                    "productDescription": "Fourth Instant Rebate : Wireless Genie Mini provided at no cost to the customer based on DIRECTV eligibility requirements.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Fourth Instant Rebate : Wireless Genie Mini provided at no cost to the customer based on DIRECTV eligibility requirements.",
+                        "id": 87,
+                        "name": "Wireless GM - $0"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_SEGMENT-EQIR-L8-WIRELESS-GENIE-MINI-50_satellite"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "EQIR-L8-WIRELESS-GENIE-MINI-50-000",
+                    "lineItemId": 88,
+                    "omsProductID": "500",
+                    "productName": "Eighth Instant Rebate",
+                    "productDescription": "Eighth Instant Rebate",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Eighth Instant Rebate",
+                        "id": 88,
+                        "name": "Eighth Instant Rebate"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 49,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-WIRELESS-GM-49_satellite-000",
+                    "lineItemId": 89,
+                    "omsProductID": "500",
+                    "productName": "Wireless GM - $49",
+                    "productDescription": "Eighth Instant Rebate : Wireless Genie Mini provided at cost of $49 to the customer based on DIRECTV eligibility requirements.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Eighth Instant Rebate : Wireless Genie Mini provided at cost of $49 to the customer based on DIRECTV eligibility requirements.",
+                        "id": 89,
+                        "name": "Wireless GM - $49"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_SEGMENT-EQIR-L3-WIRELESS-GENIE-MINI-99_satellite"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "EQIR-L3-WIRELESS-GENIE-MINI-99-000",
+                    "lineItemId": 90,
+                    "omsProductID": "500",
+                    "productName": "Third Instant Rebate",
+                    "productDescription": "Third Instant Rebate",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Third Instant Rebate",
+                        "id": 90,
+                        "name": "Third Instant Rebate"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 49,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-WIRELESS-GM_satellite-000",
+                    "lineItemId": 91,
+                    "omsProductID": "500",
+                    "productName": "Wireless GM - $0",
+                    "productDescription": "Third Instant Rebate : Wireless Genie Mini provided at no cost to the customer based on DIRECTV eligibility requirements.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "Third Instant Rebate : Wireless Genie Mini provided at no cost to the customer based on DIRECTV eligibility requirements.",
+                        "id": 91,
+                        "name": "Wireless GM - $0"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0,
+                    "offerId": "OF_SEGMENT-EQIR-L1-GENIE2-300_satellite"
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 48,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "EQIR-L1-GENIE2-300-000",
+                    "lineItemId": 92,
+                    "omsProductID": "500",
+                    "productName": "First Instant Rebate",
+                    "productDescription": "First Instant Rebate",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "First Instant Rebate",
+                        "id": 92,
+                        "name": "First Instant Rebate"
+                    }
+                }
+            }
+        },
+        {
+            "lineItem": {
+                "orderType": "new",
+                "lineItemType": "offerDetail",
+                "action": "add",
+                "isProvisionable": false,
+                "isVisible": true,
+                "customData": {
+                    "governmentFees": 0.0,
+                    "attFeesAndSurcharges": 0.0
+                },
+                "relationshipList": {
+                    "relationSet": [
+                        {
+                            "relatedTo": [
+                                {
+                                    "lineItemId": 49,
+                                    "relationshipType": "offer"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "lineItemIdentifier": {
+                    "productId": "CON-DIRECTV-GENIE2-99_satellite-000",
+                    "lineItemId": 93,
+                    "omsProductID": "500",
+                    "productName": "DIRECTV GENIE2  - $99",
+                    "productDescription": "First Instant Rebate : DIRECTV® Genie 2 provided at cost of $99 to the customer based on DIRECTV eligibility requirements.",
+                    "originatorLineItemId": 0
+                },
+                "price": {
+                    "totalAmount": 0.0,
+                    "subTotalAmount": 0.0,
+                    "taxAmount": 0.0,
+                    "shippingAmount": 0.0
+                },
+                "lineItemDetail": {
+                    "offerDetail": {
+                        "description": "First Instant Rebate : DIRECTV® Genie 2 provided at cost of $99 to the customer based on DIRECTV eligibility requirements.",
+                        "id": 93,
+                        "name": "DIRECTV GENIE2  - $99"
+                    }
+                }
+            }
+        }
+    ]
+}

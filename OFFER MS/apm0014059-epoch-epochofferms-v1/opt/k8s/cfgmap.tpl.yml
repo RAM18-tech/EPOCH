@@ -1,0 +1,119 @@
+---
+appname: $APP_NAME
+namespace: $NAMESPACE
+target_role: $TARGET_ROLE
+configmap_api_version: $CONFIGMAP_API_VERSION
+data:
+  ixp.svc.url: $ixp_svc_url
+  apiclient.rest.default.userTypes.guest.username: $apiclient_rest_default_userTypes_guest_username
+  apiclient.rest.default.userTypes.guest.password: $apiclient_rest_default_userTypes_guest_password
+  apiclient.rest.default.userTypes.registered.username: $apiclient_rest_default_userTypes_registered_username
+  apiclient.rest.default.userTypes.registered.password: $apiclient_rest_default_userTypes_registered_password
+  apiclient.rest.ctoffersms.ct.baseUrl: $apiclient_rest_ctoffersms_ct_baseUrl
+  apiclient.rest.cttokenservice.username: $apiclient_rest_cttokenservice_username
+  apiclient.rest.cttokenservice.password: $apiclient_rest_cttokenservice_password
+  apiclient.rest.cttokenservice.request: $apiclient_rest_cttokenservice_request
+  apiclient.rest.epoch.baseUrl: $apiclient_rest_epoch_baseUrl
+  apiclient.rest.ucc.ct.baseUrl: $apiclient_rest_ucc_ct_baseUrl
+  apiclient.rest.ucc.ctofferms.baseUrl: $apiclient_rest_ucc_ctofferms_baseUrl
+  apiclient.rest.ucc.ctofferms.authUrl: $apiclient_rest_ucc_ctofferms_authUrl
+  apiclient.rest.backupcttokenservice.username: $apiclient_rest_backupcttokenservice_username
+  apiclient.rest.backupcttokenservice.password: $apiclient_rest_backupcttokenservice_password
+  apiclient.rest.backupcttokenservice.request: $apiclient_rest_backupcttokenservice_request
+  apiclient.rest.backupcpop.baseUrl: $apiclient_rest_backupcpop_baseUrl
+  apiclient.rest.pvtcttokenservice.username: $apiclient_rest_pvtcttokenservice_username
+  apiclient.rest.pvtcttokenservice.password: $apiclient_rest_pvtcttokenservice_password
+  apiclient.rest.pvtcttokenservice.request: $apiclient_rest_pvtcttokenservice_request
+  apiclient.rest.pvtcpop.baseUrl: $apiclient_rest_pvtcpop_baseUrl
+  apiclient.rest.ctoffersms.pvtct.baseUrl: $apiclient_rest_ctoffersms_pvtct_baseUrl
+  apiclient.rest.wirelesstokenservice.username: $apiclient_rest_wirelesstokenservice_username
+  apiclient.rest.wirelesstokenservice.password: $apiclient_rest_wirelesstokenservice_password
+  apiclient.rest.wirelesstokenservice.request: $apiclient_rest_wirelesstokenservice_request
+  apiclient.rest.wirelesscpop.baseUrl: $apiclient_rest_wirelesscpop_baseUrl
+  apiclient.rest.wirelessbackuptokenservice.username: $apiclient_rest_wirelessbackuptokenservice_username
+  apiclient.rest.wirelessbackuptokenservice.password: $apiclient_rest_wirelessbackuptokenservice_password
+  apiclient.rest.wirelessbackuptokenservice.request: $apiclient_rest_wirelessbackuptokenservice_request
+  apiclient.rest.wirelessbackupcpop.baseUrl: $apiclient_rest_wirelessbackupcpop_baseUrl
+  apiclient.rest.ucctokenservice.username: $apiclient_rest_ucctokenservice_username
+  apiclient.rest.ucctokenservice.password: $apiclient_rest_ucctokenservice_password
+  apiclient.rest.ucctokenservice.request: $apiclient_rest_ucctokenservice_request
+  apiclient.rest.ucc.baseUrl: $apiclient_rest_ucc_baseUrl
+  apiclient.rest.ucc.ctoffersms.ct.baseUrl: $apiclient_rest_ucc_ctoffersms_ct_baseUrl
+  apiclient.ixp.svc.url: $apiclient_ixp_svc_url
+  apiclient.rest.wireless.baseUrl: $apiclient_rest_wireless_baseUrl
+  apiclient.rest.dtvnow.dtvnAccountBaseUrl: $apiclient_rest_dtvnow_dtvnAccountBaseUrl
+  apiclient.rest.dtvnow.baseUrl: $apiclient_rest_dtvnow_baseUrl
+  apiclient.rest.customergraphdtvnow.username: $apiclient_rest_customergraphdtvnow_username
+  apiclient.rest.customergraphdtvnow.password: $apiclient_rest_customergraphdtvnow_password
+  apiclient.rest.customergraphdtvnow.baseUrl: $apiclient_rest_customergraphdtvnow_baseUrl
+  apiclient.rest.customergraphdtvnow.couponsBaseUrl: $apiclient_rest_customergraphdtvnow_couponsBaseUrl
+  apiclient.rest.unifiedaccount.productDetailsInfo.baseUrl: $apiclient_rest_unifiedaccount_productDetailsInfo_baseUrl
+  apiclient.rest.rsn.username: $apiclient_rest_rsn_username
+  apiclient.rest.rsn.password: $apiclient_rest_rsn_password
+  apiclient.rest.rsn.baseUrl: $apiclient_rest_rsn_baseUrl
+  cassandradtv.nodes: $cassandradtv_nodes
+  cassandradtv.cassandraU: $cassandradtv_cassandraU
+  cassandradtv.cassandraP: $cassandradtv_cassandraP
+  cassandradtv.keyspace: $cassandradtv_keyspace
+  spring.kafka.cg.bootstrap-servers: $spring_kafka_cg_bootstrap-servers
+  spring.kafka.cg.template.cpn-topic: $spring_kafka_cg_template_cpn-topic
+  spring.kafka.cg.consumer.group-id: $spring_kafka_cg_consumer_group-id
+  spring.kafka.cg.username: $spring_kafka_cg_username
+  spring.kafka.cg.password: $spring_kafka_cg_password
+  apiclient.rest.cg.baseUrl: $apiclient_rest_cg_baseUrl
+  apiclient.rest.catalogone.baseUrl: $apiclient_rest_catalogone_baseUrl   
+  apiclient.rest.catalogone.request: $apiclient_rest_catalogone_request
+  apiclient.rest.catalogone.mockBaseUrl: $apiclient_rest_catalogone_mockBaseUrl
+  apiclient.rest.dataload.baseUrl: $apiclient_rest_dataload_baseUrl
+  apiclient.rest.dataloadtokenservice.username: $apiclient_rest_dataloadtokenservice_username
+  apiclient.rest.dataloadtokenservice.password: $apiclient_rest_dataloadtokenservice_password
+  apiclient.rest.dataloadtokenservice.request: $apiclient_rest_dataloadtokenservice_request
+  postgres.url: $postgres_url
+  postgres.userName: $postgres_userName
+  apiclient.rest.ctoffersms.backupct.baseUrl: $apiclient_rest_ctoffersms_backupct_baseUrl
+  apiclient.rest.uccprimary.baseUrl: $apiclient_rest_uccprimary_baseUrl
+  apiclient.rest.uccprimary.ctoffersms.ct.baseUrl: $apiclient_rest_uccprimary_ctoffersms_ct_baseUrl
+  apiclient.rest.uccprimarytokenservice.username: $apiclient_rest_uccprimarytokenservice_username
+  apiclient.rest.uccprimarytokenservice.password: $apiclient_rest_uccprimarytokenservice_password
+  apiclient.rest.uccprimarytokenservice.request: $apiclient_rest_uccprimarytokenservice_request
+  localsBoltOnProduct.sku: $localsBoltOnProduct_sku
+  # server.compression.enabled: $server_compression_enabled
+  server.compression.mime.types: $server_compression_mime_types
+  # server.compression.min.response.size: $server_compression_min_response_size
+  dcp.config.env: $dcp_config_env
+  dcp.proxyEnabled: $dcp_proxyEnabled
+  apiclient.graphql.primary.env: $apiclient_graphql_primary_env
+  apiclient.graphql.primary.username: $apiclient_graphql_primary_username
+  apiclient.graphql.primary.password: $apiclient_graphql_primary_password
+  apiclient.graphql.backup.env: $apiclient_graphql_backup_env
+  apiclient.graphql.backup.username: $apiclient_graphql_backup_username
+  apiclient.graphql.backup.password: $apiclient_graphql_backup_password
+  apiclient.graphql.pvt.env: $apiclient_graphql_pvt_env
+  apiclient.graphql.pvt.username: $apiclient_graphql_pvt_username
+  apiclient.graphql.pvt.password: $apiclient_graphql_pvt_password
+  redis.cluster.cluster-nodes-nossl: $redis_cluster_cluster_nodes_nossl
+  redis.cluster.cluster-nodes: $redis_cluster_cluster_nodes
+  
+  secrets.global: $secrets_global
+  secrets.environment: $secrets_environment
+  secrets.cluster: $secrets_cluster
+  secret.file.name: $secret_file_name
+  
+  dcp.customergraph.proxyEnabled: $dcp_customergraph_proxyenabled
+  dcp.database.proxyEnabled: $dcp_database_proxyenabled
+  dcp.rsn.proxyEnabled: $dcp_rsn_proxyenabled
+  dcp.graphql.primary.proxyEnabled: $dcp_graphql_primary_proxyenabled
+  dcp.graphql.backup.proxyEnabled: $dcp_graphql_backup_proxyenabled
+  dcp.graphql.pvt.proxyEnabled: $dcp_graphql_pvt_proxyenabled
+  dcp.base.proxyEnabled: $dcp_base_proxyenabled
+
+  idp.com.att.proxyEnabled: $idp_com_att_proxyEnabled
+  apiclient.rest.cttokenservice.proxyEnabled: $apiclient_rest_cttokenservice_proxyEnabled
+  apiclient.rest.backupcttokenservice.proxyEnabled: $apiclient_rest_backupcttokenservice_proxyEnabled
+  apiclient.rest.pvtcttokenservice.proxyEnabled: $apiclient_rest_pvtcttokenservice_proxyEnabled
+  apiclient.rest.wirelesstokenservice.proxyEnabled: $apiclient_rest_wirelesstokenservice_proxyEnabled
+  apiclient.rest.wirelessbackuptokenservice.proxyEnabled: $apiclient_rest_wirelessbackuptokenservice_proxyEnabled
+  apiclient.rest.ucctokenservice.proxyEnabled: $apiclient_rest_ucctokenservice_proxyEnabled
+  apiclient.rest.dataloadtokenservice.proxyEnabled: $apiclient_rest_dataloadtokenservice_proxyEnabled
+  apiclient.rest.uccprimarytokenservice.proxyEnabled: $apiclient_rest_uccprimarytokenservice_proxyEnabled
+  apiclient.rest.catalogone.proxyRequired: $apiclient_rest_catalogone_proxyRequired

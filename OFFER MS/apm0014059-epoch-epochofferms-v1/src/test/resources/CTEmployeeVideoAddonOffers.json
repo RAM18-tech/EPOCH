@@ -1,0 +1,3652 @@
+{
+    "limit": 300,
+    "offset": 0,
+    "count": 13,
+    "total": 13,
+    "offers": [
+        {
+            "id": "dd0d6c8e-7861-412a-b8e8-5d364c131bcb",
+            "code": "OF_BOLT-HBO-201610-Employee-offer",
+            "version": 552,
+            "createdAt": "2020-07-29T21:21:37.110Z",
+            "lastModifiedAt": "2020-10-09T22:45:02.417Z",
+            "status": "live",
+            "productType": {
+                "typeId": "product-type",
+                "id": "79f11259-37b7-4aa0-898d-4c7d6059a02c"
+            },
+            "name": {
+                "en": "HBO Employee"
+            },
+            "description": {
+                "en": "HBO"
+            },
+            "categories": [],
+            "startDate": "2020-06-01T00:00:00.000Z",
+            "endDate": "2023-07-01T00:00:00.000Z",
+            "attributes": {
+                "billingId": "7517907832",
+                "displayName": {
+                    "en": "HBO"
+                },
+                "descriptionsByKey": {
+                    "att.com": "Includes access to the HBO Max<sup>&#8482;</sup> app, HBO<sup>&#174;</sup> 2, HBO GO<sup>&#174;</sup>, HBO<sup>&#174;</sup> East, HBO Family<sup>&#174;</sup> East, HBO Latino<sup>&#174;</sup>, and On demand library"
+                },
+                "qualifyingProductsBillingProductCode": [
+                    "BOLT-HBO-201610"
+                ],
+                "offerProductFamily": "OTT",
+                "existingProductCodes": [
+                    "BOLT-HBO-201610"
+                ],
+                "existingProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionType": "Acquisition",
+                "offerProductType": "video-addon",
+                "contractIndicator": "contract",
+                "offerType": "multi-benefit",
+                "clearRejections": false,
+                "migratedOffer": false,
+                "firstPublishedAt": "2020-09-14T20:50:30.753Z",
+                "lastUpdatedState": "approved",
+                "eligibilityCreditRisk": [
+                    "Low"
+                ],
+                "associatedProducts": [
+                    {
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "OTT",
+                                    "productTypes": [
+                                        "video-addon"
+                                    ]
+                                },
+                                "products": [
+                                    {
+                                        "typeId": "product",
+                                        "id": "61ce6e50-cfee-4da8-9ea5-5f56e538eaa5",
+                                        "productType": "video-addon",
+                                        "key": "BOLT-HBO-201610"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "billingCode": "OF_BOLT-HBO-201610",
+                "approvedTimeStmp": "2020-09-15T09:02:40.418Z",
+                "testingStatusTimeStmp": "2020-08-21T13:56:41.177Z",
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "businessSegment": [
+                                "CONS"
+                            ],
+                            "customerSegments": [
+                                "Employee"
+                            ],
+                            "clustomerSegment": "Employee",
+                            "customerSegment": "Employee"
+                        }
+                    ]
+                },
+                "rank": 10,
+                "offerIntent": "non-migration",
+                "offerProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionTypes": [
+                    "Acquisition"
+                ],
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "benefits": [
+                    {
+                        "duration": 3,
+                        "ioOffer": false,
+                        "billingBenefitCode": "EMPHBO",
+                        "compliance": {
+                            "constraints": [
+                                {
+                                    "productFamily": "OTT",
+                                    "complianceProducts": [
+                                        {
+                                            "productType": "video-addon",
+                                            "products": [
+                                                {
+                                                    "typeId": "product",
+                                                    "id": "61ce6e50-cfee-4da8-9ea5-5f56e538eaa5",
+                                                    "name": "HBO",
+                                                    "productType": "video-addon",
+                                                    "key": "BOLT-HBO-201610"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "isDependentPromo": false,
+                        "isMigrated": true,
+                        "billingBenefitId": "91645",
+                        "contractVersion": 2,
+                        "contractIndicator": "contract",
+                        "period": "LifeTime",
+                        "beneficiaryProductFamily": "OTT",
+                        "secondaryBenefitCode": "7523831823",
+                        "benefitType": "free-promo",
+                        "benefitDisplayName": {
+                            "en": "Employee promotion for HBO"
+                        },
+                        "benefitRank": 5,
+                        "parentOffers": [
+                            {
+                                "typeId": "product",
+                                "id": "dd0d6c8e-7861-412a-b8e8-5d364c131bcb"
+                            }
+                        ],
+                        "benefitLevel": "product",
+                        "contractTerm": 0,
+                        "benefitCategory": "Product",
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "typeId": "product",
+                                        "id": "61ce6e50-cfee-4da8-9ea5-5f56e538eaa5",
+                                        "key": "BOLT-HBO-201610",
+                                        "productType": "video-addon"
+                                    }
+                                ]
+                            }
+                        ],
+                        "id": "c1221c74-aa01-49b5-bca7-cae0b35c2ce5",
+                        "version": 182,
+                        "code": "EMPHBO",
+                        "rtpIndicator": false,
+                        "benefitName": {
+                            "en": "Employee promotion for HBO"
+                        },
+                        "description": {
+                            "en": "Employee promotion for HBO"
+                        },
+                        "startDate": "2020-08-18T18:30:00.000Z",
+                        "value": {
+                            "type": "centPrecision",
+                            "currencyCode": "USD",
+                            "centAmount": 0,
+                            "fractionDigits": 2,
+                            "dollarAmount": "0.00"
+                        },
+                        "isQuotaBased": false,
+                        "isActive": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": "31af8c68-82d5-4ba1-99d1-74f7d62b681a",
+            "code": "OF_BOLT-DEPORTES-201802-Employee-offer",
+            "version": 39,
+            "createdAt": "2020-08-27T15:22:50.969Z",
+            "lastModifiedAt": "2020-09-08T12:59:06.576Z",
+            "status": "live",
+            "productType": {
+                "typeId": "product-type",
+                "id": "79f11259-37b7-4aa0-898d-4c7d6059a02c"
+            },
+            "name": {
+                "en": "Hispanic NOW Deportes-Copy"
+            },
+            "description": {
+                "en": "Hispanic NOW Deportes"
+            },
+            "categories": [],
+            "startDate": "2020-08-02T00:00:00.000Z",
+            "endDate": "2026-08-08T00:00:00.000Z",
+            "attributes": {
+                "billingId": "7517907298",
+                "displayName": {
+                    "en": "Hispanic NOW Deportes"
+                },
+                "descriptionsByKey": {
+                    "description-cpc": "Catch every play with our Spanish-language sports package!"
+                },
+                "qualifyingProductsBillingProductCode": [
+                    "BOLT-DEPORTES-201802"
+                ],
+                "offerProductFamily": "OTT",
+                "existingProductCodes": [
+                    "BOLT-DEPORTES-201802"
+                ],
+                "existingProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionType": "Acquisition",
+                "offerProductType": "video-addon",
+                "contractIndicator": "contract",
+                "offerIntent": "migration",
+                "clearRejections": false,
+                "migratedOffer": false,
+                "waitingForApprovalTimeStmp": "2020-08-27T15:23:25.547Z",
+                "lastUpdatedState": "live",
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "businessSegment": [
+                                "CONS"
+                            ],
+                            "customerSegment": "Employee",
+                            "customerSegments": [
+                                "Employee"
+                            ],
+                            "salesChannel": [
+                                "online"
+                            ]
+                        }
+                    ]
+                },
+                "associatedProducts": [
+                    {
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "OTT",
+                                    "productTypes": [
+                                        "video-addon"
+                                    ]
+                                },
+                                "products": [
+                                    {
+                                        "typeId": "product",
+                                        "id": "43750a18-5e4b-4f84-9b71-bc349d76b624",
+                                        "productType": "video-addon",
+                                        "key": "BOLT-DEPORTES-201802"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "rank": 50,
+                "firstPublishedAt": "2020-08-31T22:00:03.059Z",
+                "billingCode": "OF_BOLT-DEPORTES-201802",
+                "offerProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionTypes": [
+                    "Acquisition",
+                    "Other"
+                ],
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerIntents": [
+                    "migration",
+                    "non-migration"
+                ],
+                "benefits": []
+            }
+        },
+        {
+            "id": "20684a93-6128-4823-9146-c86c4980cf58",
+            "code": "OF_BOLT-SHOWTIME-201707-Employee-offer",
+            "version": 53,
+            "createdAt": "2020-07-30T04:45:04.851Z",
+            "lastModifiedAt": "2020-09-04T19:35:11.765Z",
+            "status": "live",
+            "productType": {
+                "typeId": "product-type",
+                "id": "79f11259-37b7-4aa0-898d-4c7d6059a02c"
+            },
+            "name": {
+                "en": "SHOWTIME"
+            },
+            "description": {
+                "en": "SHOWTIME"
+            },
+            "categories": [],
+            "startDate": "2020-06-01T00:00:00.000Z",
+            "endDate": "9999-06-01T00:00:00.000Z",
+            "attributes": {
+                "billingId": "7517907499",
+                "displayName": {
+                    "en": "SHOWTIME"
+                },
+                "descriptionsByKey": {
+                    "att.com": "Includes SHOWTIME<sup>&#174;</sup> East, SHOWTIME ON DEMAND<sup>&#174;</sup>"
+                },
+                "qualifyingProductsBillingProductCode": [
+                    "BOLT-SHOWTIME-201707"
+                ],
+                "offerProductFamily": "OTT",
+                "existingProductCodes": [
+                    "BOLT-SHOWTIME-201707"
+                ],
+                "existingProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionType": "Acquisition",
+                "offerProductType": "video-addon",
+                "contractIndicator": "contract",
+                "offerType": "free-promo",
+                "clearRejections": false,
+                "migratedOffer": false,
+                "firstPublishedAt": "2020-07-30T05:29:11.277Z",
+                "lastUpdatedState": "live",
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "businessSegment": [
+                                "CONS"
+                            ],
+                            "customerSegments": [
+                                "Employee"
+                            ],
+                            "clustomerSegment": "Employee",
+                            "customerSegment": "Employee",
+                            "salesChannel": [
+                                "online"
+                            ]
+                        }
+                    ]
+                },
+                "associatedProducts": [
+                    {
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {}
+                            }
+                        ],
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "OTT"
+                                },
+                                "products": [
+                                    {
+                                        "typeId": "product",
+                                        "id": "6042e194-d71d-44f3-a820-fc883a55513c",
+                                        "productType": "video-addon",
+                                        "key": "BOLT-SHOWTIME-201707"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "billingCode": "OF_BOLT-SHOWTIME-201707",
+                "rank": 30,
+                "offerIntent": "non-migration",
+                "offerProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionTypes": [
+                    "Acquisition",
+                    "Other"
+                ],
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "benefits": []
+            }
+        },
+        {
+            "id": "dfa59136-3a83-4054-8388-2bd74a7ebb9d",
+            "code": "OF_BOLT-MVPX-201910-Employee-offer",
+            "version": 65,
+            "createdAt": "2020-07-30T04:48:17.303Z",
+            "lastModifiedAt": "2020-09-04T19:35:57.159Z",
+            "status": "live",
+            "productType": {
+                "typeId": "product-type",
+                "id": "79f11259-37b7-4aa0-898d-4c7d6059a02c"
+            },
+            "name": {
+                "en": "Movies Extra Pack"
+            },
+            "description": {
+                "en": "Movies Extra Pack"
+            },
+            "categories": [],
+            "startDate": "2020-06-01T00:00:00.000Z",
+            "endDate": "9999-06-01T00:00:00.000Z",
+            "attributes": {
+                "billingId": "7517906392",
+                "displayName": {
+                    "en": "Movies Extra Pack"
+                },
+                "descriptionsByKey": {
+                    "att.com": "9 premium networks of movies and more!"
+                },
+                "qualifyingProductsBillingProductCode": [
+                    "BOLT-MVPX-201910"
+                ],
+                "offerProductFamily": "OTT",
+                "existingProductCodes": [
+                    "BOLT-MVPX-201910"
+                ],
+                "existingProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionType": "Acquisition",
+                "offerProductType": "video-addon",
+                "contractIndicator": "contract",
+                "clearRejections": false,
+                "migratedOffer": false,
+                "firstPublishedAt": "2020-08-07T16:01:47.647Z",
+                "lastUpdatedState": "live",
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "businessSegment": [
+                                "CONS"
+                            ],
+                            "customerSegments": [
+                                "Employee"
+                            ],
+                            "clustomerSegment": "Employee",
+                            "customerSegment": "Employee",
+                            "salesChannel": [
+                                "online"
+                            ]
+                        }
+                    ]
+                },
+                "testingStatusTimeStmp": "2020-08-07T14:44:01.248Z",
+                "approvedTimeStmp": "2020-08-07T14:44:31.416Z",
+                "billingCode": "OF_BOLT-MVPX-201910",
+                "rank": 80,
+                "associatedProducts": [
+                    {
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {}
+                            }
+                        ],
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "OTT"
+                                },
+                                "products": [
+                                    {
+                                        "typeId": "product",
+                                        "id": "d911b432-9e0f-4bee-bae7-19ae2acb6ba6",
+                                        "productType": "video-addon",
+                                        "key": "BOLT-MVPX-201910"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "offerIntent": "non-migration",
+                "offerProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionTypes": [
+                    "Acquisition",
+                    "Other"
+                ],
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "benefits": []
+            }
+        },
+        {
+            "id": "20a75f1f-69c0-4ca5-a0ea-12698162c6cc",
+            "code": "OF_BOLT-VIETNAM-201810-Employee-offer",
+            "version": 48,
+            "createdAt": "2020-07-30T05:06:03.350Z",
+            "lastModifiedAt": "2020-09-04T19:38:12.724Z",
+            "status": "live",
+            "productType": {
+                "typeId": "product-type",
+                "id": "79f11259-37b7-4aa0-898d-4c7d6059a02c"
+            },
+            "name": {
+                "en": "DTVN_Vietnamese"
+            },
+            "description": {
+                "en": "DTVN_Vietnamese"
+            },
+            "categories": [],
+            "startDate": "2020-06-01T00:00:00.000Z",
+            "endDate": "9999-06-01T00:00:00.000Z",
+            "attributes": {
+                "billingId": "7517906655",
+                "displayName": {
+                    "en": "DTVN_Vietnamese"
+                },
+                "descriptionsByKey": {
+                    "att.com": "Worldwide entertainment is here!"
+                },
+                "qualifyingProductsBillingProductCode": [
+                    "BOLT-VIETNAM-201810"
+                ],
+                "offerProductFamily": "OTT",
+                "existingProductCodes": [
+                    "BOLT-VIETNAM-201810"
+                ],
+                "existingProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionType": "Acquisition",
+                "offerProductType": "video-addon",
+                "contractIndicator": "contract",
+                "clearRejections": false,
+                "migratedOffer": false,
+                "firstPublishedAt": "2020-07-30T05:29:13.880Z",
+                "lastUpdatedState": "live",
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "businessSegment": [
+                                "CONS"
+                            ],
+                            "customerSegments": [
+                                "Employee"
+                            ],
+                            "clustomerSegment": "Employee",
+                            "customerSegment": "Employee",
+                            "salesChannel": [
+                                "online"
+                            ]
+                        }
+                    ]
+                },
+                "billingCode": "OF_BOLT-VIETNAM-201810",
+                "rank": 510,
+                "associatedProducts": [
+                    {
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {}
+                            }
+                        ],
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "OTT"
+                                },
+                                "products": [
+                                    {
+                                        "typeId": "product",
+                                        "id": "02184387-ce52-4bd6-971d-7f53c0368bb2",
+                                        "productType": "video-addon",
+                                        "key": "BOLT-VIETNAM-201810"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "offerIntent": "non-migration",
+                "offerProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionTypes": [
+                    "Acquisition",
+                    "Other"
+                ],
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "benefits": []
+            }
+        },
+        {
+            "id": "4134b2df-e4f1-407c-85f6-f7cb33987883",
+            "code": "OF_BOLT-KOREA-201812-Employee-offer",
+            "version": 50,
+            "createdAt": "2020-07-30T05:15:24.657Z",
+            "lastModifiedAt": "2020-09-04T19:39:35.964Z",
+            "status": "live",
+            "productType": {
+                "typeId": "product-type",
+                "id": "79f11259-37b7-4aa0-898d-4c7d6059a02c"
+            },
+            "name": {
+                "en": "KOREAN BoltOn"
+            },
+            "description": {
+                "en": "KOREAN BoltOn"
+            },
+            "categories": [],
+            "startDate": "2020-06-01T00:00:00.000Z",
+            "endDate": "9999-06-01T00:00:00.000Z",
+            "attributes": {
+                "billingId": "7517906654",
+                "displayName": {
+                    "en": "KOREAN BoltOn"
+                },
+                "descriptionsByKey": {
+                    "att.com": "Worldwide entertainment is here!"
+                },
+                "qualifyingProductsBillingProductCode": [
+                    "BOLT-KOREA-201812"
+                ],
+                "offerProductFamily": "OTT",
+                "existingProductCodes": [
+                    "BOLT-KOREA-201812"
+                ],
+                "existingProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionType": "Acquisition",
+                "offerProductType": "video-addon",
+                "contractIndicator": "contract",
+                "clearRejections": false,
+                "migratedOffer": false,
+                "firstPublishedAt": "2020-07-30T05:29:13.471Z",
+                "lastUpdatedState": "live",
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "businessSegment": [
+                                "CONS"
+                            ],
+                            "customerSegments": [
+                                "Employee"
+                            ],
+                            "clustomerSegment": "Employee",
+                            "customerSegment": "Employee",
+                            "salesChannel": [
+                                "online"
+                            ]
+                        }
+                    ]
+                },
+                "associatedProducts": [
+                    {
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {}
+                            }
+                        ],
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "OTT"
+                                },
+                                "products": [
+                                    {
+                                        "typeId": "product",
+                                        "id": "fe9386cf-a2e2-46f3-93c8-0b6f6a54b79e",
+                                        "productType": "video-addon",
+                                        "key": "BOLT-KOREA-201812"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "billingCode": "OF_BOLT-KOREA-201812",
+                "rank": 500,
+                "offerIntent": "non-migration",
+                "offerProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionTypes": [
+                    "Acquisition",
+                    "Other"
+                ],
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "benefits": []
+            }
+        },
+        {
+            "id": "6497e67f-8f08-43eb-a442-9c0dcf432d05",
+            "code": "OF_BOLT-CDVR500FREE-201812-Employee-offer",
+            "version": 44,
+            "createdAt": "2020-07-30T05:20:30.882Z",
+            "lastModifiedAt": "2020-09-04T19:40:16.409Z",
+            "status": "live",
+            "productType": {
+                "typeId": "product-type",
+                "id": "79f11259-37b7-4aa0-898d-4c7d6059a02c"
+            },
+            "name": {
+                "en": "CDVR500FREE"
+            },
+            "description": {
+                "en": "CDVR500FREE"
+            },
+            "categories": [],
+            "startDate": "2020-06-01T00:00:00.000Z",
+            "endDate": "9999-06-01T00:00:00.000Z",
+            "attributes": {
+                "billingId": "7517906653",
+                "displayName": {
+                    "en": "CDVR500FREE"
+                },
+                "descriptionsByKey": {
+                    "att.com": "Great! You have 500hrs of True Cloud DVR storage."
+                },
+                "qualifyingProductsBillingProductCode": [
+                    "BOLT-CDVR500FREE-201812"
+                ],
+                "offerProductFamily": "OTT",
+                "existingProductCodes": [
+                    "BOLT-CDVR500FREE-201812"
+                ],
+                "existingProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionType": "Acquisition",
+                "offerProductType": "video-addon",
+                "contractIndicator": "contract",
+                "clearRejections": false,
+                "migratedOffer": false,
+                "firstPublishedAt": "2020-07-30T05:29:10.497Z",
+                "lastUpdatedState": "live",
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "businessSegment": [
+                                "CONS"
+                            ],
+                            "customerSegments": [
+                                "Employee"
+                            ],
+                            "clustomerSegment": "Employee",
+                            "customerSegment": "Employee",
+                            "salesChannel": [
+                                "online"
+                            ]
+                        }
+                    ]
+                },
+                "associatedProducts": [
+                    {
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {}
+                            }
+                        ],
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "OTT"
+                                },
+                                "products": [
+                                    {
+                                        "typeId": "product",
+                                        "id": "8a99f61e-0ab4-44eb-a838-1cbc0adf8892",
+                                        "productType": "video-addon",
+                                        "key": "BOLT-CDVR500FREE-201812"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "billingCode": "OF_BOLT-CDVR500FREE-201812",
+                "rank": 10,
+                "offerIntent": "non-migration",
+                "offerProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionTypes": [
+                    "Acquisition"
+                ],
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "benefits": []
+            }
+        },
+        {
+            "id": "ee7e023e-a812-4cbc-b83d-80c57b34adb3",
+            "code": "OF_BOLT-EPIX-201610-Employee-offer",
+            "version": 289,
+            "createdAt": "2020-07-29T21:34:34.718Z",
+            "lastModifiedAt": "2020-10-09T22:45:02.982Z",
+            "status": "live",
+            "productType": {
+                "typeId": "product-type",
+                "id": "79f11259-37b7-4aa0-898d-4c7d6059a02c"
+            },
+            "name": {
+                "en": "EPIX Employee"
+            },
+            "description": {
+                "en": "EPIX"
+            },
+            "categories": [],
+            "startDate": "2020-06-01T00:00:00.000Z",
+            "endDate": "9999-06-01T00:00:00.000Z",
+            "attributes": {
+                "billingId": "7517907567",
+                "displayName": {
+                    "en": "EPIX"
+                },
+                "descriptionsByKey": {
+                    "att.com": "Includes EPIX, EPIX 2, EPIX Hits, EPIX App, and On Demand Library."
+                },
+                "qualifyingProductsBillingProductCode": [
+                    "BOLT-EPIX-201907"
+                ],
+                "offerProductFamily": "OTT",
+                "existingProductCodes": [
+                    "BOLT-EPIX-201907"
+                ],
+                "existingProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionType": "Acquisition",
+                "offerProductType": "video-addon",
+                "contractIndicator": "contract",
+                "clearRejections": false,
+                "migratedOffer": false,
+                "firstPublishedAt": "2020-09-14T20:50:32.759Z",
+                "lastUpdatedState": "live",
+                "eligibilityCreditRisk": [
+                    "Low"
+                ],
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "customerSegment": "Employee",
+                            "customerSegments": [
+                                "Employee"
+                            ],
+                            "businessSegment": [
+                                "CONS"
+                            ],
+                            "salesChannel": [
+                                "online"
+                            ]
+                        }
+                    ]
+                },
+                "approvedTimeStmp": "2020-09-14T18:13:35.739Z",
+                "testingStatusTimeStmp": "2020-09-04T11:41:10.794Z",
+                "offerType": "multi-benefit",
+                "associatedProducts": [
+                    {
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {}
+                            }
+                        ],
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "OTT"
+                                },
+                                "products": [
+                                    {
+                                        "typeId": "product",
+                                        "id": "9a0f0b45-590a-4787-851a-83a83eb26c2c",
+                                        "productType": "video-addon",
+                                        "key": "BOLT-EPIX-201907"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "billingCode": "OF_BOLT-EPIX-201610",
+                "rank": 70,
+                "offerIntent": "non-migration",
+                "offerProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionTypes": [
+                    "Acquisition"
+                ],
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "benefits": [
+                    {
+                        "duration": 3,
+                        "ioOffer": false,
+                        "billingBenefitCode": "EMPEPIX",
+                        "compliance": {
+                            "constraints": [
+                                {
+                                    "productFamily": "OTT",
+                                    "complianceProducts": [
+                                        {
+                                            "productType": "video-addon",
+                                            "products": [
+                                                {
+                                                    "typeId": "product",
+                                                    "id": "9a0f0b45-590a-4787-851a-83a83eb26c2c",
+                                                    "name": "EPIX",
+                                                    "productType": "video-addon",
+                                                    "key": "BOLT-EPIX-201907"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "isDependentPromo": false,
+                        "isMigrated": true,
+                        "billingBenefitId": "91845",
+                        "contractVersion": 2,
+                        "contractIndicator": "contract",
+                        "period": "LifeTime",
+                        "beneficiaryProductFamily": "OTT",
+                        "secondaryBenefitCode": "7523831825",
+                        "benefitType": "free-promo",
+                        "benefitDisplayName": {
+                            "en": "Employee promotion for EPIX"
+                        },
+                        "benefitRank": 5,
+                        "parentOffers": [
+                            {
+                                "typeId": "product",
+                                "id": "ee7e023e-a812-4cbc-b83d-80c57b34adb3"
+                            }
+                        ],
+                        "benefitLevel": "product",
+                        "contractTerm": 0,
+                        "benefitCategory": "Product",
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "typeId": "product",
+                                        "id": "9a0f0b45-590a-4787-851a-83a83eb26c2c",
+                                        "key": "BOLT-EPIX-201907",
+                                        "productType": "video-addon"
+                                    }
+                                ]
+                            }
+                        ],
+                        "id": "2af74ec9-a4e9-4a88-81fe-6cef97c94f6d",
+                        "version": 149,
+                        "code": "EMPEPIX",
+                        "rtpIndicator": false,
+                        "benefitName": {
+                            "en": "Employee promotion for EPIX"
+                        },
+                        "description": {
+                            "en": "Employee promotion for EPIX"
+                        },
+                        "startDate": "2020-08-30T18:30:00.000Z",
+                        "value": {
+                            "type": "centPrecision",
+                            "currencyCode": "USD",
+                            "centAmount": 0,
+                            "fractionDigits": 2,
+                            "dollarAmount": "0.00"
+                        },
+                        "isQuotaBased": false,
+                        "isActive": true
+                    }
+                ]
+            }
+        },
+        {
+            "id": "500f22b9-f87b-4bc7-830b-67e1f2d36345",
+            "code": "OF_BOLT-CINEMAX-201610-Employee-offer",
+            "version": 80,
+            "createdAt": "2020-07-30T04:41:33.959Z",
+            "lastModifiedAt": "2020-09-18T18:28:19.697Z",
+            "status": "live",
+            "productType": {
+                "typeId": "product-type",
+                "id": "79f11259-37b7-4aa0-898d-4c7d6059a02c"
+            },
+            "name": {
+                "en": "CINEMAX-Copy"
+            },
+            "description": {
+                "en": "CINEMAX"
+            },
+            "categories": [],
+            "startDate": "2020-06-01T00:00:00.000Z",
+            "endDate": "9999-06-01T00:00:00.000Z",
+            "attributes": {
+                "billingId": "7517907831",
+                "displayName": {
+                    "en": "CINEMAX"
+                },
+                "descriptionsByKey": {
+                    "att.com": "Includes MAX GO, and Cinemax<sup>&#174;</sup> East"
+                },
+                "qualifyingProductsBillingProductCode": [
+                    "BOLT-CINEMAX-201610"
+                ],
+                "offerProductFamily": "OTT",
+                "existingProductCodes": [
+                    "BOLT-CINEMAX-201610"
+                ],
+                "existingProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionType": "Acquisition",
+                "offerProductType": "video-addon",
+                "contractIndicator": "contract",
+                "offerType": "multi-benefit",
+                "clearRejections": false,
+                "migratedOffer": false,
+                "firstPublishedAt": "2020-09-14T20:50:32.870Z",
+                "lastUpdatedState": "live",
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "businessSegment": [
+                                "CONS"
+                            ],
+                            "customerSegments": [
+                                "Employee"
+                            ],
+                            "clustomerSegment": "Employee",
+                            "customerSegment": "Employee",
+                            "salesChannel": [
+                                "online"
+                            ]
+                        }
+                    ]
+                },
+                "approvedTimeStmp": "2020-09-14T15:18:59.948Z",
+                "testingStatusTimeStmp": "2020-08-06T17:03:20.066Z",
+                "billingCode": "OF_BOLT-CINEMAX-201610",
+                "rank": 20,
+                "associatedProducts": [
+                    {
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {}
+                            }
+                        ],
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "OTT"
+                                },
+                                "products": [
+                                    {
+                                        "typeId": "product",
+                                        "id": "7a296b61-ef13-4efc-b6aa-e1f1537c971b",
+                                        "productType": "video-addon",
+                                        "key": "BOLT-CINEMAX-201610"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "offerIntent": "non-migration",
+                "offerProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionTypes": [
+                    "Acquisition",
+                    "Other"
+                ],
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "benefits": []
+            }
+        },
+        {
+            "id": "91725320-4d3e-4c7a-ae0c-23149bd91c35",
+            "code": "OF_BOLT-ENESPANOL-201802-Employee-offer",
+            "version": 48,
+            "createdAt": "2020-07-30T05:00:54.035Z",
+            "lastModifiedAt": "2020-09-04T19:37:36.895Z",
+            "status": "live",
+            "productType": {
+                "typeId": "product-type",
+                "id": "79f11259-37b7-4aa0-898d-4c7d6059a02c"
+            },
+            "name": {
+                "en": "Hispanic NOW En Espanol-Copy"
+            },
+            "description": {
+                "en": "Hispanic NOW En Espanol"
+            },
+            "categories": [],
+            "startDate": "2020-06-01T00:00:00.000Z",
+            "endDate": "9999-06-01T00:00:00.000Z",
+            "attributes": {
+                "billingId": "7517907299",
+                "displayName": {
+                    "en": "Hispanic NOW En Espanol"
+                },
+                "descriptionsByKey": {
+                    "att.com": "Stream your favorite novelas, movies, and more?all in Spanish."
+                },
+                "qualifyingProductsBillingProductCode": [
+                    "BOLT-ENESPANOL-201802"
+                ],
+                "offerProductFamily": "OTT",
+                "existingProductCodes": [
+                    "BOLT-ENESPANOL-201802"
+                ],
+                "existingProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionType": "Other",
+                "offerProductType": "video-addon",
+                "contractIndicator": "contract",
+                "offerType": "multi-benefit",
+                "clearRejections": false,
+                "migratedOffer": false,
+                "firstPublishedAt": "2020-07-30T05:29:12.711Z",
+                "lastUpdatedState": "live",
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "businessSegment": [
+                                "CONS"
+                            ],
+                            "customerSegments": [
+                                "Employee"
+                            ],
+                            "clustomerSegment": "Employee",
+                            "customerSegment": "Employee",
+                            "salesChannel": [
+                                "online"
+                            ]
+                        }
+                    ]
+                },
+                "associatedProducts": [
+                    {
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {}
+                            }
+                        ],
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "OTT"
+                                },
+                                "products": [
+                                    {
+                                        "typeId": "product",
+                                        "id": "2a4d6ace-4210-4fab-8f6d-ddd63ec12b8b",
+                                        "productType": "video-addon",
+                                        "key": "BOLT-ENESPANOL-201802"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "billingCode": "OF_BOLT-ENESPANOL-201802",
+                "rank": 60,
+                "offerIntent": "non-migration",
+                "offerProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionTypes": [
+                    "Other",
+                    "Acquisition"
+                ],
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "benefits": []
+            }
+        },
+        {
+            "id": "b72adcaf-f66a-4c8c-9eab-462d165bebfa",
+            "code": "OF_BOLT-3RDSTREAMFREE-201804-Employee-offer",
+            "version": 49,
+            "createdAt": "2020-07-30T05:24:51.307Z",
+            "lastModifiedAt": "2020-09-04T19:40:51.529Z",
+            "status": "live",
+            "productType": {
+                "typeId": "product-type",
+                "id": "79f11259-37b7-4aa0-898d-4c7d6059a02c"
+            },
+            "name": {
+                "en": "3rd Stream Free"
+            },
+            "description": {
+                "en": "3rd Stream Free"
+            },
+            "categories": [],
+            "startDate": "2020-06-01T00:00:00.000Z",
+            "endDate": "9999-06-01T00:00:00.000Z",
+            "attributes": {
+                "billingId": "7517907512",
+                "displayName": {
+                    "en": "3rd Stream Free"
+                },
+                "descriptionsByKey": {
+                    "att.com": "3rd stream"
+                },
+                "qualifyingProductsBillingProductCode": [
+                    "BOLT-3RDSTREAMFREE-201804"
+                ],
+                "offerProductFamily": "OTT",
+                "existingProductCodes": [
+                    "BOLT-3RDSTREAMFREE-201804"
+                ],
+                "existingProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionType": "Acquisition",
+                "offerProductType": "video-addon",
+                "contractIndicator": "contract",
+                "offerType": "multi-benefit",
+                "clearRejections": false,
+                "migratedOffer": false,
+                "firstPublishedAt": "2020-07-30T05:29:11.823Z",
+                "lastUpdatedState": "live",
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "businessSegment": [
+                                "CONS"
+                            ],
+                            "customerSegments": [
+                                "Employee"
+                            ],
+                            "clustomerSegment": "Employee",
+                            "customerSegment": "Employee",
+                            "salesChannel": [
+                                "online"
+                            ]
+                        }
+                    ]
+                },
+                "associatedProducts": [
+                    {
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {}
+                            }
+                        ],
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "OTT"
+                                },
+                                "products": [
+                                    {
+                                        "typeId": "product",
+                                        "id": "07b18be4-8bb6-438c-bf50-26e6f3ce07c6",
+                                        "productType": "video-addon",
+                                        "key": "BOLT-3RDSTREAMFREE-201804"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "billingCode": "OF_BOLT-3RDSTREAMFREE-201804",
+                "conflictingOffers": [
+                    {
+                        "id": "c7441d89-c620-408d-baa3-350d0f68d6ed",
+                        "typeId": "offer",
+                        "key": "OF_BOLT-3RDSTREAM-201710_01"
+                    }
+                ],
+                "rank": 10,
+                "offerIntent": "non-migration",
+                "offerProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionTypes": [
+                    "Acquisition"
+                ],
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "benefits": []
+            }
+        },
+        {
+            "id": "e967fd53-8699-428a-97fe-15b75951296b",
+            "code": "OF_BOLT-BRAZIL-201810-Employee-offer",
+            "version": 74,
+            "createdAt": "2020-07-30T05:11:14.356Z",
+            "lastModifiedAt": "2020-10-08T16:42:03.402Z",
+            "status": "live",
+            "productType": {
+                "typeId": "product-type",
+                "id": "79f11259-37b7-4aa0-898d-4c7d6059a02c"
+            },
+            "name": {
+                "en": "DTVN_Brazilian"
+            },
+            "description": {
+                "en": "DTVN_Brazilian"
+            },
+            "categories": [],
+            "startDate": "2020-06-01T00:00:00.000Z",
+            "endDate": "9999-06-01T00:00:00.000Z",
+            "attributes": {
+                "billingId": "7517906652",
+                "displayName": {
+                    "en": "DTVN_Brazilian"
+                },
+                "descriptionsByKey": {
+                    "att.com": "Worldwide entertainment is here!"
+                },
+                "qualifyingProductsBillingProductCode": [
+                    "BOLT-BRAZIL-201810"
+                ],
+                "offerProductFamily": "OTT",
+                "existingProductCodes": [
+                    "BOLT-BRAZIL-201810"
+                ],
+                "existingProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionType": "Acquisition",
+                "offerProductType": "video-addon",
+                "contractIndicator": "contract",
+                "clearRejections": false,
+                "migratedOffer": false,
+                "firstPublishedAt": "2020-07-30T05:29:12.620Z",
+                "lastUpdatedState": "live",
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "businessSegment": [
+                                "CONS"
+                            ],
+                            "customerSegments": [
+                                "Employee"
+                            ],
+                            "clustomerSegment": "Employee",
+                            "dynamicattributesbykey": [
+                                []
+                            ],
+                            "customerSegment": "Employee",
+                            "salesChannel": [
+                                "online"
+                            ]
+                        }
+                    ]
+                },
+                "associatedProducts": [
+                    {
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {}
+                            }
+                        ],
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "OTT"
+                                },
+                                "products": [
+                                    {
+                                        "typeId": "product",
+                                        "id": "383a897c-a5e2-45aa-bbc1-2a91332ec23e",
+                                        "productType": "video-addon",
+                                        "key": "BOLT-BRAZIL-201810"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "billingCode": "OF_BOLT-BRAZIL-201810",
+                "rank": 500,
+                "offerIntent": "non-migration",
+                "eligibilityDynamicattributesbykey": [
+                    []
+                ],
+                "offerProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionTypes": [
+                    "Acquisition",
+                    "Other"
+                ],
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "benefits": []
+            }
+        },
+        {
+            "id": "b008679b-2d0c-4dd5-b049-0189ffc26172",
+            "code": "OF_BOLT-STARZ-201610-Employee-offer",
+            "version": 261,
+            "createdAt": "2020-07-29T21:27:18.066Z",
+            "lastModifiedAt": "2020-10-09T22:45:02.523Z",
+            "status": "live",
+            "productType": {
+                "typeId": "product-type",
+                "id": "79f11259-37b7-4aa0-898d-4c7d6059a02c"
+            },
+            "name": {
+                "en": "STARZ Employee"
+            },
+            "description": {
+                "en": "starz-EMPLOYEE"
+            },
+            "categories": [],
+            "startDate": "2020-06-01T00:00:00.000Z",
+            "endDate": "9999-06-01T00:00:00.000Z",
+            "attributes": {
+                "billingId": "7517907833",
+                "displayName": {
+                    "en": "STARZ"
+                },
+                "descriptionsByKey": {
+                    "att.com": "Includes STARZ<sup>&#174;</sup> East, STARZ Kids & Family, and STARZ ENCORE East"
+                },
+                "qualifyingProductsBillingProductCode": [
+                    "BOLT-STARZ-201610"
+                ],
+                "offerProductFamily": "OTT",
+                "existingProductCodes": [
+                    "BOLT-STARZ-201610"
+                ],
+                "existingProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionType": "Acquisition",
+                "offerProductType": "video-addon",
+                "contractIndicator": "contract",
+                "offerType": "free-promo",
+                "clearRejections": false,
+                "migratedOffer": false,
+                "firstPublishedAt": "2020-09-14T20:50:32.642Z",
+                "lastUpdatedState": "live",
+                "eligibilityCreditRisk": [
+                    "Low"
+                ],
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "businessSegment": [
+                                "CONS"
+                            ],
+                            "customerSegments": [
+                                "Employee"
+                            ],
+                            "clustomerSegment": "Employee",
+                            "customerSegment": "Employee",
+                            "salesChannel": [
+                                "online"
+                            ]
+                        }
+                    ]
+                },
+                "approvedTimeStmp": "2020-09-14T18:28:18.573Z",
+                "associatedProducts": [
+                    {
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {}
+                            }
+                        ],
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "OTT"
+                                },
+                                "products": [
+                                    {
+                                        "typeId": "product",
+                                        "id": "71de8390-4979-4a59-9ac4-3f9c02412d62",
+                                        "productType": "video-addon",
+                                        "key": "BOLT-STARZ-201610"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "billingCode": "OF_BOLT-STARZ-201610",
+                "rank": 40,
+                "testingStatusTimeStmp": "2020-09-04T11:15:15.182Z",
+                "offerIntent": "non-migration",
+                "offerProductFamilies": [
+                    "OTT"
+                ],
+                "offerActionTypes": [
+                    "Acquisition"
+                ],
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "benefits": [
+                    {
+                        "duration": 3,
+                        "ioOffer": false,
+                        "billingBenefitCode": "EMPSTRZ",
+                        "compliance": {
+                            "constraints": [
+                                {
+                                    "productFamily": "OTT",
+                                    "complianceProducts": [
+                                        {
+                                            "productType": "video-addon",
+                                            "products": [
+                                                {
+                                                    "typeId": "product",
+                                                    "id": "71de8390-4979-4a59-9ac4-3f9c02412d62",
+                                                    "name": "STARZ",
+                                                    "productType": "video-addon",
+                                                    "key": "BOLT-STARZ-201610"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "isDependentPromo": false,
+                        "isMigrated": true,
+                        "billingBenefitId": "92045",
+                        "contractVersion": 2,
+                        "contractIndicator": "contract",
+                        "period": "LifeTime",
+                        "beneficiaryProductFamily": "OTT",
+                        "secondaryBenefitCode": "7523831822",
+                        "benefitType": "free-promo",
+                        "benefitDisplayName": {
+                            "en": "Employee promotion for STARZ"
+                        },
+                        "benefitRank": 5,
+                        "parentOffers": [
+                            {
+                                "typeId": "product",
+                                "id": "b008679b-2d0c-4dd5-b049-0189ffc26172"
+                            }
+                        ],
+                        "benefitLevel": "product",
+                        "contractTerm": 0,
+                        "benefitCategory": "Product",
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "typeId": "product",
+                                        "id": "71de8390-4979-4a59-9ac4-3f9c02412d62",
+                                        "key": "BOLT-STARZ-201610",
+                                        "productType": "video-addon"
+                                    }
+                                ]
+                            }
+                        ],
+                        "id": "90ca5c87-b10e-4e4f-96e4-3a8948238b09",
+                        "version": 140,
+                        "code": "EMPSTRZ",
+                        "rtpIndicator": false,
+                        "benefitName": {
+                            "en": "Employee promotion for STARZ"
+                        },
+                        "description": {
+                            "en": "Employee promotion for STARZ"
+                        },
+                        "startDate": "2020-08-19T18:30:00.000Z",
+                        "value": {
+                            "type": "centPrecision",
+                            "currencyCode": "USD",
+                            "centAmount": 0,
+                            "fractionDigits": 2,
+                            "dollarAmount": "0.00"
+                        },
+                        "isQuotaBased": false,
+                        "isActive": true
+                    }
+                ]
+            }
+        }
+    ],
+    "products": [
+        {
+            "id": "61ce6e50-cfee-4da8-9ea5-5f56e538eaa5",
+            "code": "BOLT-HBO-201610",
+            "name": {
+                "en": "HBO"
+            },
+            "description": {
+                "en": "24/7 access to a huge library of the best entertainment.##HBO Max&#8482; bundles all of HBO together with a collection of classic TV favorites  even more great movies  plus new Max Originals.||The latest  most addictive shows||New movies every week||Every episode of every season of your favorite classic and current shows##Includes##Access to the HBO Max&#8482; app||HBO<sup>&reg;</sup>2||HBO<sup>&reg;</sup> East||HBO Family<sup>&reg;</sup>||HBO Latino<sup>&reg;</sup>|| HBO On Demand library"
+            },
+            "version": 2123,
+            "createdAt": "2019-10-14T21:58:53.950Z",
+            "createdBy": {
+                "clientId": "LH-YOABCHzQ9IZix5qtjCF5n",
+                "isPlatformClient": false
+            },
+            "lastModifiedAt": "2020-10-22T23:00:38.743Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true,
+                "user": {
+                    "typeId": "user",
+                    "id": "d53878ae-24e1-4500-a33a-a0702550550a"
+                }
+            },
+            "status": {
+                "typeId": "state",
+                "id": "8fb20b3c-fde9-4073-ba6c-1c1c0211c577"
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "fe3c5d80-b7d4-4f2d-bcbf-6e049e03dcc7",
+                "key": "video-addon"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": 1,
+                    "attributes": {
+                        "productFamily": "OTT",
+                        "displayNamesByKey": {
+                            "services": "HBO<sup>&#174;</sup>",
+                            "name-cpc": "HBO Max <sup>&#8482;</sup>"
+                        },
+                        "descriptionsByKey": {
+                            "short-opus": "Includes HBO<sup>&#174;</sup> 2, HBO GO<sup>&#174;</sup>, HBO<sup>&#174;</sup> East, HBO Family<sup>&#174;</sup> East, HBO Latino<sup>&#174;</sup>, and On demand library",
+                            "short-myatt": "Includes HBO GO<sup>&#174;</sup>, HBO East, HBO Family East, and HBO Latino",
+                            "short-services": "HBO<sup>&#174;</sup> 2, HBO GO<sup>&#174;</sup>, HBO<sup>&#174;</sup> East, HBO Family<sup>&#174;</sup> East, HBO Latino<sup>&#174;</sup>, and On demand library",
+                            "long-services": "<p>24/7 access to a huge library  of the best entertainment.</p>\t<ul>\t <li>The latest, most addictive shows</li>     <li>New movies every week</li>\t  <li>Every episode, of every season</li>   </ul>   <p>Includes</p>   <ul>     <li>HBO<sup>&#174;</sup>2</li>\t  <li>HBO<sup>&#174;</sup>East</li>\t<li>HBO Family<sup>&#174;</sup></li>\t <li>HBO Latino<sup>&#174;</sup></li>\t  <li>HBO GO<sup>&#174;</sup></li>     <li>On Demand library</li>   </ul>",
+                            "long-myatt": "You can change or cancel your subscription at any time at atttvnow.com. There are no refunds or credits for any partial-month periods or unwatched content.",
+                            "description-cpc": "24/7 access to a huge library of the best entertainment.##HBO Max&#8482; bundles all of HBO together with a collection of classic TV favorites  even more great movies  plus new Max Originals.||The latest  most addictive shows||New movies every week||Every episode of every season of your favorite classic and current shows##Includes##Access to the HBO Max&#8482; app||HBO<sup>&reg;</sup>2||HBO<sup>&reg;</sup> East||HBO Family<sup>&reg;</sup>||HBO Latino<sup>&reg;</sup>|| HBO On Demand library"
+                        },
+                        "congratsMessage": "<i>Game of Thrones</i> available with an HBO<sup>&#174;</sup> subscription",
+                        "secondaryBillingProductId": "7523831745",
+                        "clearRejections": false,
+                        "displayType": "optional",
+                        "dependentPromoCode": "DHBOF",
+                        "dependentPromoName": "DHBO",
+                        "dependentPromoDisplayName": "HBO",
+                        "dependentBillerPromoId": "7523830913",
+                        "dependentPromoStartDate": "1899-12-31T18:38:50.000Z",
+                        "contractApplicable": "all",
+                        "migratedProduct": true,
+                        "displayName": {
+                            "en": "HBO Max&#8482"
+                        },
+                        "billingProductCode": "BOLT-HBO-201610",
+                        "billingProductId": "1408",
+                        "startDate": "2016-03-17T18:30:00.000Z",
+                        "endDate": "9999-12-30T18:30:00.000Z",
+                        "language": "English",
+                        "addOnType": "Programming-Bolt-on",
+                        "removalRule": {
+                            "channel": [],
+                            "customerSegments": [
+                                "All"
+                            ],
+                            "accountType": [
+                                "ALL"
+                            ]
+                        },
+                        "evergentProdCategory": "Subscription",
+                        "planSubType": "Cross-product",
+                        "concurrentStreamCount": 0,
+                        "firstPublishedAt": "2020-02-13T19:23:17.930Z",
+                        "lastUpdatedState": "live",
+                        "productGroup": "HBO",
+                        "salesChannel": [
+                            "onlineSales",
+                            "onlineServices",
+                            "opusSales",
+                            "opusServices",
+                            "partnerSales",
+                            "partnerServices"
+                        ],
+                        "customerSegments": [
+                            "Employee"
+                        ],
+                        "businessSegment": [
+                            "CONS"
+                        ],
+                        "skipAdsIndicator": true,
+                        "capacityLimit": 7,
+                        "numberOfChannels": "3",
+                        "dataRetentionPeriod": "5",
+                        "approvalWorkFlowIDs": "approvalStatus-ProductMarketing||approvalStatus-SuppliersPayments||approvalStatus-Biller||approvalStatus-MarketingOperations||approvalStatus-CPOP||approvalStatus-OnlineSales||approvalStatus-OnlineServices||approvalStatus-OpusSales||approvalStatus-OpusServices",
+                        "removalRuleByChannel": {
+                            "actionRule": [
+                                {
+                                    "customerSegments": "Employee",
+                                    "businessSegment": "CONS",
+                                    "userType": "Customer",
+                                    "actionIndicator": false,
+                                    "flowActionType": "change",
+                                    "salesChannel": "onlineServices"
+                                }
+                            ]
+                        },
+                        "contractIndicator1": [
+                            "contract",
+                            "non-contract"
+                        ],
+                        "partnerKeys": []
+                    },
+                    "prices": [
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 1499,
+                                "fractionDigits": 2,
+                                "dollarAmount": "14.99"
+                            },
+                            "id": "9b352844-7217-4b3d-8004-d606b51d8587",
+                            "startDate": "2019-02-16T18:30:00.000Z",
+                            "endDate": "2019-07-23T18:30:00.000Z",
+                            "channel": "contracted",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "21021"
+                        },
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 1500,
+                                "fractionDigits": 2,
+                                "dollarAmount": "15.00"
+                            },
+                            "id": "56a45754-d2df-4b31-a0cf-c895580982e7",
+                            "startDate": "2019-07-24T18:30:00.000Z",
+                            "endDate": "2020-04-04T18:30:00.000Z",
+                            "channel": "contracted",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "24630"
+                        },
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 1499,
+                                "fractionDigits": 2,
+                                "dollarAmount": "14.99"
+                            },
+                            "id": "62ef61b1-b6ff-45a8-a451-64d948d17aa6",
+                            "startDate": "2020-04-05T18:30:00.000Z",
+                            "endDate": "9999-12-30T18:30:00.000Z",
+                            "channel": "contracted",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "50632"
+                        }
+                    ],
+                    "contentImages": [
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/hbo-bg-md.png",
+                            "name": "HBO",
+                            "size": "medium"
+                        },
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/hbo-bg-lg.png",
+                            "name": "HBO",
+                            "size": "large"
+                        },
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/hbo-bg-sm.png",
+                            "name": "HBO",
+                            "size": "small"
+                        }
+                    ],
+                    "productImages": [
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/hbo-logo-blk.png",
+                            "name": "HBO",
+                            "size": "small"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "43750a18-5e4b-4f84-9b71-bc349d76b624",
+            "code": "BOLT-DEPORTES-201802",
+            "name": {
+                "en": "Hispanic - NOW Deportes"
+            },
+            "description": {
+                "en": "Get in on the action with our Spanish-language sports package!##TyC Sports||Univision Deportes||FOX Deportes||ESPN Deportes"
+            },
+            "version": 1888,
+            "createdAt": "2019-10-14T21:58:53.974Z",
+            "createdBy": {
+                "clientId": "LH-YOABCHzQ9IZix5qtjCF5n",
+                "isPlatformClient": false
+            },
+            "lastModifiedAt": "2020-10-22T23:32:25.548Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true,
+                "user": {
+                    "typeId": "user",
+                    "id": "d53878ae-24e1-4500-a33a-a0702550550a"
+                }
+            },
+            "status": {
+                "typeId": "state",
+                "id": "8fb20b3c-fde9-4073-ba6c-1c1c0211c577"
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "fe3c5d80-b7d4-4f2d-bcbf-6e049e03dcc7",
+                "key": "video-addon"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": 1,
+                    "attributes": {
+                        "productFamily": "OTT",
+                        "displayNamesByKey": {
+                            "services": "Deportes",
+                            "name-cpc": "Deportes"
+                        },
+                        "descriptionsByKey": {
+                            "short-opus": "Optimo MAS will provide sports, soccer, and movies plus newscasts, novelas, and children's programs in Spanish from Latin America, USA and Spain",
+                            "short-myatt": "Catch every play with our Spanish-language sports package!",
+                            "short-services": "Univision Deportes</br>FOX Deportes</br>ESPN Deportes</br>GolTV</br>",
+                            "long-services": "<p>Get in on the action with our Spanish-language sports package!</p>   <ul>\t   <li>TyC Sports</li>\t   <li>Univision Deportes</li>\t   <li>FOX Deportes</li>     <li>ESPN Deportes</li>",
+                            "long-myatt": "You can change or cancel your subscription at any time at atttvnow.com. There are no refunds or credits for any partial-month periods or unwatched content.",
+                            "description-cpc": "Get in on the action with our Spanish-language sports package!##TyC Sports||Univision Deportes||FOX Deportes||ESPN Deportes"
+                        },
+                        "congratsMessage": "Great choice!",
+                        "secondaryBillingProductId": "7523831212",
+                        "clearRejections": false,
+                        "displayType": "optional",
+                        "dependentPromoCode": "DHISDEP",
+                        "dependentPromoName": "Hispanic - NOW Deportes",
+                        "dependentPromoDisplayName": "Hispanic - NOW Deportes",
+                        "dependentBillerPromoId": "7523831217",
+                        "dependentPromoStartDate": "2018-10-03T18:30:00.000Z",
+                        "contractApplicable": "all",
+                        "migratedProduct": true,
+                        "displayName": {
+                            "en": "Deportes"
+                        },
+                        "billingProductCode": "BOLT-DEPORTES-201802",
+                        "billingProductId": "2746",
+                        "startDate": "2016-03-17T18:30:00.000Z",
+                        "endDate": "9999-12-30T18:30:00.000Z",
+                        "language": "English",
+                        "addOnType": "Programming-Bolt-on",
+                        "removalRule": {
+                            "channel": [],
+                            "customerSegments": [
+                                "All"
+                            ],
+                            "accountType": [
+                                "ALL"
+                            ]
+                        },
+                        "evergentProdCategory": "Subscription",
+                        "planSubType": "Cross-product",
+                        "firstPublishedAt": "2020-02-13T19:23:33.969Z",
+                        "lastUpdatedState": "live",
+                        "conflictingProducts": [
+                            {
+                                "id": "2a4d6ace-4210-4fab-8f6d-ddd63ec12b8b",
+                                "typeId": "product",
+                                "key": "BOLT-ENESPANOL-201802"
+                            }
+                        ],
+                        "salesChannel": [
+                            "onlineSales",
+                            "onlineServices",
+                            "opusSales",
+                            "opusServices",
+                            "partnerSales",
+                            "partnerServices"
+                        ],
+                        "contractIndicator1": [
+                            "contract",
+                            "non-contract"
+                        ],
+                        "partnerKeys": []
+                    },
+                    "prices": [
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 500,
+                                "fractionDigits": 2,
+                                "dollarAmount": "5.00"
+                            },
+                            "id": "67f27a43-848f-4636-8579-026354c87e76",
+                            "startDate": "2018-12-31T18:30:00.000Z",
+                            "endDate": "9999-12-30T18:30:00.000Z",
+                            "channel": "contracted",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "22031"
+                        }
+                    ],
+                    "contentImages": [
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/deportes-bg-md.png",
+                            "name": "DIRECTV NOW Deportes",
+                            "size": "medium"
+                        },
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/deportes-bg-sm.png",
+                            "name": "DIRECTV NOW Deportes",
+                            "size": "small"
+                        },
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/deportes-bg-lg.png",
+                            "name": "DIRECTV NOW Deportes",
+                            "size": "large"
+                        }
+                    ],
+                    "productImages": [
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/deportes-logo.png",
+                            "name": "DIRECTV NOW Deportes",
+                            "size": "small"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "6042e194-d71d-44f3-a820-fc883a55513c",
+            "code": "BOLT-SHOWTIME-201707",
+            "name": {
+                "en": "SHOWTIME"
+            },
+            "description": {
+                "en": "Award-winning original series  world-class boxing events and more.##Star-studded movies||Groundbreaking documentaries||Comedy specials##Includes##SHOWTIME<sup>&reg;</sup> Extreme||SHOWTIME<sup>&reg;</sup> East live feed||On Demand||SHOWTIME<sup>&reg;</sup> Anytime##<b>One Month of SHOWTIME</b>: Add SHOWTIME to any AT&T TV NOW package and check out with promo code SHOWTIMENOW to receive 1 month free of SHOWTIME. Your second month  and subsequent months  will be charged to your payment method on file at the then-prevailing rate (currently minimum $50/mo. for &quot;PLUS&quot; + $11/mo. for SHOWTIME) unless you cancel. Limit one code use per account. Not combinable with other offers/discounts/credits. <b>GENERAL</b>: Compatible device and browser required. Residential U.S. only (excludes Puerto Rico and U.S. Virgin Islands). <b>Pricing  channels  features  and terms subject to change and may be modified or discontinued at any time without notice. Regional Sports/Local Channels]</b>: Not available in select markets. Channels vary by package and billing region. Device may need to be in billing region in order to view. <b>Cancellation</b>: View  modify  or cancel at any time at atttvnow.com. Once you've canceled  you may access AT&T TV NOW through the remaining monthly period. No refunds or credits for any partial-month periods or unwatched content. Limit 2 concurrent streams per account (3rd stream is $5/mo.). Programming subject to blackout restrictions. Taxes may apply. See www.atttvnow.com for details."
+            },
+            "version": 2018,
+            "createdAt": "2019-10-14T21:58:53.812Z",
+            "createdBy": {
+                "clientId": "LH-YOABCHzQ9IZix5qtjCF5n",
+                "isPlatformClient": false
+            },
+            "lastModifiedAt": "2020-10-22T23:19:59.414Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true,
+                "user": {
+                    "typeId": "user",
+                    "id": "d53878ae-24e1-4500-a33a-a0702550550a"
+                }
+            },
+            "status": {
+                "typeId": "state",
+                "id": "8fb20b3c-fde9-4073-ba6c-1c1c0211c577"
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "fe3c5d80-b7d4-4f2d-bcbf-6e049e03dcc7",
+                "key": "video-addon"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": 1,
+                    "attributes": {
+                        "productFamily": "OTT",
+                        "displayNamesByKey": {
+                            "services": "SHOWTIME<sup>&#174;</sup>",
+                            "name-cpc": "SHOWTIME"
+                        },
+                        "descriptionsByKey": {
+                            "short-opus": "Includes SHOWTIME<sup>&#174;</sup> East, SHOWTIME ON DEMAND<sup>&#174;</sup>",
+                            "short-myatt": "Includes SHOWTIME<sup>&#174;</sup> East, SHOWTIME ON DEMAND<sup>&#174;</sup>",
+                            "short-services": "SHOWTIME<sup>&#174;</sup> East live feed</br> SHOWTIME<sup>&#174;</sup> Anytime</br>  On Demand library</br>",
+                            "long-services": "<p>Hottest, award-winning original series, world-class boxing events & more.</p>   <ul>     <li>Star-studded movies</li>     <li>Groundbreaking documentaries</li>\t <li>Fearless comedy specials</li>   </ul>   <p>Includes</p>   <ul>\t<li>SHOWTIME<sup>&#174;</sup> East live feed</li>     <li>On Demand</li>     <li>SHOWTIME<sup>&#174;</sup> Anytime</li>   </ul>",
+                            "long-myatt": "You can change or cancel your subscription at any time at atttvnow.com. There are no refunds or credits for any partial-month periods or unwatched content.",
+                            "description-cpc": "Hottest, award-winning original series, world-class boxing events and more.##Star-studded movies||Groundbreaking documentaries||Fearless comedy specials##Includes##SHOWTIME<sup>&reg;</sup> East live feed||On Demand||SHOWTIME<sup>&reg;</sup> Anytime##<b>One Month of SHOWTIME</b>: Add SHOWTIME to any AT&T TV NOW package and check out with promo code SHOWTIMENOW to receive 1 month free of SHOWTIME. Your second month, and subsequent months, will be charged to your payment method on file at the then-prevailing rate (currently minimum $50/mo. for &quot;PLUS&quot; + $11/mo. for SHOWTIME) unless you cancel. Limit one code use per account. Not combinable with other offers/discounts/credits. <b>GENERAL</b>: Compatible device and browser required. Residential U.S. only (excludes Puerto Rico and U.S. Virgin Islands). <b>Pricing, channels, features, and terms subject to change and may be modified or discontinued at any time without notice. Regional Sports/Local Channels]</b>: Not available in select markets. Channels vary by package and billing region. Device may need to be in billing region in order to view. <b>Cancellation</b>: View, modify, or cancel at any time at atttvnow.com. Once youve canceled, you may access AT&T TV NOW through the remaining monthly period. No refunds or credits for any partial-month periods or unwatched content. Limit 2 concurrent streams per account (3rd stream is $5/mo.). Taxes may apply. See www.atttvnow.com for details."
+                        },
+                        "congratsMessage": "<i>Ray Donovan</i> available with a SHOWTIME<sup>&#174;</sup> subscription",
+                        "secondaryBillingProductId": "7523831747",
+                        "clearRejections": false,
+                        "displayType": "optional",
+                        "dependentPromoCode": "DSTF",
+                        "dependentPromoName": "DShowTime",
+                        "dependentPromoDisplayName": "SHOWTIME",
+                        "dependentBillerPromoId": "7523830914",
+                        "dependentPromoStartDate": "1899-12-31T18:38:50.000Z",
+                        "contractApplicable": "all",
+                        "migratedProduct": true,
+                        "displayName": {
+                            "en": "SHOWTIME"
+                        },
+                        "billingProductCode": "BOLT-SHOWTIME-201707",
+                        "billingProductId": "1405",
+                        "startDate": "2016-03-17T18:30:00.000Z",
+                        "endDate": "9999-12-30T18:30:00.000Z",
+                        "language": "English",
+                        "addOnType": "Programming-Bolt-on",
+                        "removalRule": {
+                            "channel": [],
+                            "customerSegments": [
+                                "All"
+                            ],
+                            "accountType": [
+                                "ALL"
+                            ]
+                        },
+                        "evergentProdCategory": "Subscription",
+                        "planSubType": "Cross-product",
+                        "concurrentStreamCount": 0,
+                        "firstPublishedAt": "2020-02-13T19:44:50.945Z",
+                        "lastUpdatedState": "live",
+                        "salesChannel": [
+                            "onlineSales",
+                            "onlineServices",
+                            "opusSales",
+                            "opusServices",
+                            "partnerSales",
+                            "partnerServices"
+                        ],
+                        "customerSegments": [
+                            "Employee"
+                        ],
+                        "businessSegment": [
+                            "CONS"
+                        ],
+                        "contractIndicator1": [
+                            "contract",
+                            "non-contract"
+                        ],
+                        "partnerKeys": []
+                    },
+                    "prices": [
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 1099,
+                                "fractionDigits": 2,
+                                "dollarAmount": "10.99"
+                            },
+                            "id": "06862d56-d9e5-4fef-b194-67ab1291b825",
+                            "startDate": "2019-02-16T18:30:00.000Z",
+                            "endDate": "2019-07-23T18:30:00.000Z",
+                            "channel": "contracted",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "21023"
+                        },
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 1100,
+                                "fractionDigits": 2,
+                                "dollarAmount": "11.00"
+                            },
+                            "id": "a4d4ba5d-ba13-4a7a-ab25-614b0c22d3e6",
+                            "startDate": "2019-07-24T18:30:00.000Z",
+                            "endDate": "9999-12-30T18:30:00.000Z",
+                            "channel": "contracted",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "24632"
+                        }
+                    ],
+                    "contentImages": [
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/showtime-bg-md.png",
+                            "name": "SHOWTIME",
+                            "size": "medium"
+                        },
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/showtime-bg-lg.png",
+                            "name": "SHOWTIME",
+                            "size": "large"
+                        },
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/showtime-bg-sm.png",
+                            "name": "SHOWTIME",
+                            "size": "small"
+                        }
+                    ],
+                    "productImages": [
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/showtime-logo.png",
+                            "name": "SHOWTIME",
+                            "size": "small"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "d911b432-9e0f-4bee-bae7-19ae2acb6ba6",
+            "code": "BOLT-MVPX-201910",
+            "name": {
+                "en": "Movies Extra Pack"
+            },
+            "description": {
+                "en": "Your favorite movie channels and more!####Includes##Crime + Investigation||Hallmark Drama||Hallmark Movies & Mysteries||HDNET MOVIES||MGM HD<sup>TM</sup>||MTV Live||SHORTSTV||Smithsonian Channel"
+            },
+            "version": 264,
+            "createdAt": "2019-10-14T21:58:55.751Z",
+            "createdBy": {
+                "clientId": "LH-YOABCHzQ9IZix5qtjCF5n",
+                "isPlatformClient": false
+            },
+            "lastModifiedAt": "2020-10-22T23:02:42.838Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true,
+                "user": {
+                    "typeId": "user",
+                    "id": "d53878ae-24e1-4500-a33a-a0702550550a"
+                }
+            },
+            "status": {
+                "typeId": "state",
+                "id": "8fb20b3c-fde9-4073-ba6c-1c1c0211c577"
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "fe3c5d80-b7d4-4f2d-bcbf-6e049e03dcc7",
+                "key": "video-addon"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": 1,
+                    "attributes": {
+                        "productFamily": "OTT",
+                        "displayNamesByKey": {
+                            "services": "Movies Extra Pack",
+                            "name-cpc": "Movies Extra Pack"
+                        },
+                        "descriptionsByKey": {
+                            "short-myatt": "Includes 9 premium movie channels: Hallmark Drama, Hallmark Movies &#38; Mysteries, Smithsonian Channel, HDNET Movies, MGM, Crime + Investigation, MTV LIVE, ShortsTV, and On Demand Library.",
+                            "short-opus": "Includes 9 premium movie channels: Hallmark Drama, Hallmark Movies &#38; Mysteries, Smithsonian Channel, HDNET Movies, MGM, Crime + Investigation, MTV LIVE, ShortsTV, and On Demand Library.",
+                            "short-services": "8 premium networks of movies and more!",
+                            "long-services": "Includes 8 premium movie channels: Hallmark Drama, Hallmark Movies &#38; Mysteries, Smithsonian Channel, HDNET Movies, MGM, Crime + Investigation, MTV LIVE, ShortsTV, and On Demand Library.",
+                            "long-myatt": "You can change or cancel your subscription at any time at atttv.com\t/ atttvnow.com. There are no refunds or credits for any partial-month periods or unwatched content.",
+                            "description-cpc": "Your favorite movie channels and more!####Includes##Crime + Investigation||Hallmark Drama||Hallmark Movies & Mysteries||HDNET MOVIES||MGM HD<sup>TM</sup>||MTV Live||SHORTSTV||Smithsonian Channel"
+                        },
+                        "secondaryBillingProductId": "7523830319",
+                        "clearRejections": false,
+                        "displayType": "optional",
+                        "dependentPromoCode": "DMEP",
+                        "dependentPromoName": "DMovies Extra Pack",
+                        "dependentPromoDisplayName": "Movies Extra Pack",
+                        "dependentBillerPromoId": "7523830321",
+                        "dependentPromoStartDate": "2019-09-11T18:30:00.000Z",
+                        "contractApplicable": "all",
+                        "migratedProduct": true,
+                        "displayName": {
+                            "en": "MOVIES EXTRA PACK"
+                        },
+                        "billingProductCode": "BOLT-MVPX-201910",
+                        "billingProductId": "27899",
+                        "startDate": "2019-09-04T18:30:00.000Z",
+                        "endDate": "9999-12-30T18:30:00.000Z",
+                        "language": "English",
+                        "addOnType": "Programming-Bolt-on",
+                        "removalRule": {
+                            "channel": [],
+                            "customerSegments": [
+                                "All"
+                            ],
+                            "accountType": [
+                                "ALL"
+                            ]
+                        },
+                        "evergentProdCategory": "Subscription",
+                        "planSubType": "Cross-product",
+                        "firstPublishedAt": "2020-03-04T17:23:01.604Z",
+                        "lastUpdatedState": "live",
+                        "salesChannel": [
+                            "onlineSales",
+                            "onlineServices",
+                            "opusSales",
+                            "opusServices",
+                            "partnerSales",
+                            "partnerServices"
+                        ],
+                        "customerSegments": [
+                            "Employee"
+                        ],
+                        "businessSegment": [
+                            "CONS"
+                        ],
+                        "contractIndicator1": [
+                            "contract",
+                            "non-contract"
+                        ],
+                        "partnerKeys": []
+                    },
+                    "prices": [
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 500,
+                                "fractionDigits": 2,
+                                "dollarAmount": "5.00"
+                            },
+                            "id": "11b08c2e-244f-4848-b86e-e060b34c1a12",
+                            "startDate": "2019-09-09T18:30:00.000Z",
+                            "endDate": "9999-12-30T18:30:00.000Z",
+                            "channel": "contracted",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "34432"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "02184387-ce52-4bd6-971d-7f53c0368bb2",
+            "code": "BOLT-VIETNAM-201810",
+            "name": {
+                "en": "DTVN_Vietnamese"
+            },
+            "description": {
+                "en": "Vietnamese"
+            },
+            "version": 271,
+            "createdAt": "2019-10-14T21:58:55.848Z",
+            "createdBy": {
+                "clientId": "LH-YOABCHzQ9IZix5qtjCF5n",
+                "isPlatformClient": false
+            },
+            "lastModifiedAt": "2020-10-09T20:42:51.553Z",
+            "lastModifiedBy": {
+                "clientId": "LH-YOABCHzQ9IZix5qtjCF5n",
+                "isPlatformClient": false
+            },
+            "status": {
+                "typeId": "state",
+                "id": "8fb20b3c-fde9-4073-ba6c-1c1c0211c577"
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "fe3c5d80-b7d4-4f2d-bcbf-6e049e03dcc7",
+                "key": "video-addon"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": 1,
+                    "attributes": {
+                        "productFamily": "OTT",
+                        "displayNamesByKey": {
+                            "services": "VIETNAMESE",
+                            "name-cpc": "Vietnamese"
+                        },
+                        "descriptionsByKey": {
+                            "short-opus": "Worldwide entertainment is here!",
+                            "short-myatt": "Enjoy Vietnamese content in addition to your base AT&amp;T TV plan!",
+                            "short-services": "9 channels",
+                            "long-services": "SBTN VIETV Vietface TV S Channel Film 24H Vien Thao TV VGN Tviet Network HONVIETV",
+                            "long-myatt": "Enjoy Vietnamese content in addition to your base AT&amp;T TV package!",
+                            "description-cpc": "Vietnamese"
+                        },
+                        "congratsMessage": "Great choice!",
+                        "secondaryBillingProductId": "7523830578",
+                        "clearRejections": false,
+                        "displayType": "optional",
+                        "dependentPromoCode": "DVietnames",
+                        "dependentPromoName": "DVietnamese",
+                        "dependentPromoDisplayName": "Vietnamese",
+                        "dependentBillerPromoId": "7523831276",
+                        "dependentPromoStartDate": "2019-01-14T18:30:00.000Z",
+                        "subCategory": "International",
+                        "contractApplicable": "contract",
+                        "migratedProduct": true,
+                        "displayName": {
+                            "en": "Vietnamese"
+                        },
+                        "billingProductCode": "BOLT-VIETNAM-201810",
+                        "billingProductId": "11844",
+                        "startDate": "2016-03-17T18:30:00.000Z",
+                        "endDate": "9999-12-30T18:30:00.000Z",
+                        "language": "Vietnamese",
+                        "addOnType": "Programming-Bolt-on",
+                        "removalRule": {
+                            "channel": [],
+                            "customerSegments": [
+                                "None"
+                            ],
+                            "accountType": [
+                                "NONE"
+                            ]
+                        },
+                        "evergentProdCategory": "Subscription",
+                        "planSubType": "Cross-product",
+                        "firstPublishedAt": "2020-02-13T19:23:29.496Z",
+                        "lastUpdatedState": "live",
+                        "salesChannel": [
+                            "onlineSales",
+                            "onlineServices",
+                            "opusSales",
+                            "opusServices",
+                            "partnerSales",
+                            "partnerServices"
+                        ],
+                        "customerSegments": [
+                            "Employee"
+                        ],
+                        "contractIndicator1": [
+                            "contract"
+                        ],
+                        "partnerKeys": []
+                    },
+                    "prices": [
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 2000,
+                                "fractionDigits": 2,
+                                "dollarAmount": "20.00"
+                            },
+                            "id": "0fb60d97-ebaa-48a4-b4eb-da7fffb1b0a1",
+                            "startDate": "2018-12-31T18:30:00.000Z",
+                            "endDate": "9999-12-30T18:30:00.000Z",
+                            "channel": "contracted",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "22030"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "fe9386cf-a2e2-46f3-93c8-0b6f6a54b79e",
+            "code": "BOLT-KOREA-201812",
+            "name": {
+                "en": "KOREAN BoltOn"
+            },
+            "description": {
+                "en": "Korean"
+            },
+            "version": 288,
+            "createdAt": "2019-10-14T21:58:53.816Z",
+            "createdBy": {
+                "clientId": "LH-YOABCHzQ9IZix5qtjCF5n",
+                "isPlatformClient": false
+            },
+            "lastModifiedAt": "2020-10-09T20:42:44.494Z",
+            "lastModifiedBy": {
+                "clientId": "LH-YOABCHzQ9IZix5qtjCF5n",
+                "isPlatformClient": false
+            },
+            "status": {
+                "typeId": "state",
+                "id": "8fb20b3c-fde9-4073-ba6c-1c1c0211c577"
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "fe3c5d80-b7d4-4f2d-bcbf-6e049e03dcc7",
+                "key": "video-addon"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": 1,
+                    "attributes": {
+                        "productFamily": "OTT",
+                        "displayNamesByKey": {
+                            "services": "Korean",
+                            "name-cpc": "Korean"
+                        },
+                        "descriptionsByKey": {
+                            "short-myatt": "Enjoy Korean content in addition to your base AT&amp;T TV plan!",
+                            "short-opus": "Worldwide entertainment is here!",
+                            "short-services": "12 channels",
+                            "long-services": "SBS (Seoul Broadcasting System) SBS Plus YTN MBC America HD MBN EBS National Geographic Korea TAN CTS TVN Arirang KBS World",
+                            "long-myatt": "Enjoy Korean content in addition to your base AT&amp;T TV package!"
+                        },
+                        "congratsMessage": "Great choice!",
+                        "secondaryBillingProductId": "7523830577",
+                        "clearRejections": false,
+                        "displayType": "optional",
+                        "dependentPromoCode": "DKORFT",
+                        "dependentPromoName": "DKorean",
+                        "dependentPromoDisplayName": "DKorean",
+                        "dependentBillerPromoId": "7523831002",
+                        "dependentPromoStartDate": "2019-04-24T18:30:00.000Z",
+                        "subCategory": "International",
+                        "contractApplicable": "contract",
+                        "migratedProduct": true,
+                        "displayName": {
+                            "en": "Korean"
+                        },
+                        "billingProductCode": "BOLT-KOREA-201812",
+                        "billingProductId": "16896",
+                        "startDate": "2018-12-31T18:30:00.000Z",
+                        "endDate": "9999-12-30T18:30:00.000Z",
+                        "language": "English",
+                        "addOnType": "Programming-Bolt-on",
+                        "removalRule": {
+                            "channel": [],
+                            "customerSegments": [
+                                "None"
+                            ],
+                            "accountType": [
+                                "NONE"
+                            ]
+                        },
+                        "evergentProdCategory": "Subscription",
+                        "planSubType": "Cross-product",
+                        "salesChannel": [
+                            "onlineSales",
+                            "onlineServices",
+                            "opusSales",
+                            "opusServices",
+                            "partnerSales",
+                            "partnerServices"
+                        ],
+                        "firstPublishedAt": "2020-02-25T20:17:11.061Z",
+                        "lastUpdatedState": "live",
+                        "customerSegments": [
+                            "Employee"
+                        ],
+                        "businessSegment": [
+                            "CONS"
+                        ],
+                        "contractIndicator1": [
+                            "contract"
+                        ],
+                        "partnerKeys": []
+                    },
+                    "prices": [
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 3000,
+                                "fractionDigits": 2,
+                                "dollarAmount": "30.00"
+                            },
+                            "id": "b5176c9a-eb3e-4752-95d6-3cc4dabf4ab1",
+                            "startDate": "2018-12-31T18:30:00.000Z",
+                            "endDate": "9999-12-30T18:30:00.000Z",
+                            "channel": "contracted",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "20829"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8a99f61e-0ab4-44eb-a838-1cbc0adf8892",
+            "code": "BOLT-CDVR500FREE-201812",
+            "name": {
+                "en": "CDVR500FREE"
+            },
+            "description": {
+                "en": "500 hours Cloud DVR"
+            },
+            "version": 212,
+            "createdAt": "2019-10-14T21:58:56.119Z",
+            "createdBy": {
+                "clientId": "LH-YOABCHzQ9IZix5qtjCF5n",
+                "isPlatformClient": false
+            },
+            "lastModifiedAt": "2020-10-09T20:42:51.547Z",
+            "lastModifiedBy": {
+                "clientId": "LH-YOABCHzQ9IZix5qtjCF5n",
+                "isPlatformClient": false
+            },
+            "status": {
+                "typeId": "state",
+                "id": "8fb20b3c-fde9-4073-ba6c-1c1c0211c577"
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "fe3c5d80-b7d4-4f2d-bcbf-6e049e03dcc7",
+                "key": "video-addon"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": 1,
+                    "attributes": {
+                        "productFamily": "OTT",
+                        "displayNamesByKey": {
+                            "services": "True Cloud DVR (500 hrs.)",
+                            "name-cpc": "500 hours Cloud DVR"
+                        },
+                        "descriptionsByKey": {
+                            "short-myatt": "500 hours of storage.",
+                            "short-opus": "500 hours with unlimited simultaneous recordings<br>Regional Sports Fee up to $8.49/mo. is extra and applies to CHOICE, XTRA and ULTIMATE",
+                            "short-services": "500 hrs. of storage",
+                            "long-services": "Save your recordings for 30 days.",
+                            "long-myatt": "Data connection req&apos;d. Recordings expire after 90 days. Restr&apos;s apply."
+                        },
+                        "secondaryBillingProductId": "7523830576",
+                        "clearRejections": false,
+                        "displayType": "included",
+                        "addOnType": "Bolt-on",
+                        "contractApplicable": "contract",
+                        "migratedProduct": true,
+                        "displayName": {
+                            "en": "500 hours Cloud DVR"
+                        },
+                        "billingProductCode": "BOLT-CDVR500FREE-201812",
+                        "billingProductId": "16897",
+                        "startDate": "2019-03-31T18:30:00.000Z",
+                        "endDate": "9999-12-30T18:30:00.000Z",
+                        "language": "English",
+                        "removalRule": {
+                            "channel": [],
+                            "customerSegments": [
+                                "None"
+                            ],
+                            "accountType": [
+                                "NONE"
+                            ]
+                        },
+                        "evergentProdCategory": "DVR",
+                        "planSubType": "cDVR",
+                        "capacityLimit": 500,
+                        "dataRetentionPeriod": "30",
+                        "firstPublishedAt": "2020-03-09T19:33:04.665Z",
+                        "lastUpdatedState": "live",
+                        "salesChannel": [
+                            "onlineSales",
+                            "onlineServices",
+                            "opusSales",
+                            "opusServices",
+                            "partnerSales",
+                            "partnerServices"
+                        ],
+                        "customerSegments": [
+                            "Employee"
+                        ],
+                        "businessSegment": [
+                            "CONS"
+                        ],
+                        "contractIndicator1": [
+                            "contract"
+                        ],
+                        "partnerKeys": []
+                    },
+                    "prices": [
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 0,
+                                "fractionDigits": 2,
+                                "dollarAmount": "0.00"
+                            },
+                            "id": "59d0aafc-1381-41c3-b4ee-d9612bebf3a1",
+                            "startDate": "2018-12-31T18:30:00.000Z",
+                            "endDate": "9999-12-30T18:30:00.000Z",
+                            "channel": "contracted",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "20830"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "9a0f0b45-590a-4787-851a-83a83eb26c2c",
+            "code": "BOLT-EPIX-201907",
+            "name": {
+                "en": "EPIX"
+            },
+            "description": {
+                "en": "Watch exclusive  critically-acclaimed original series  Hollywood movies  and more.##1000s of Hollywood movies||All uncut  commercial-free||On TV + Online + On Demand + On the Go##Includes##EPIX<sup>&reg;</sup>||EPIX<sup>&reg;</sup> 2||EPIX<sup>&reg;</sup> Hits||EPIX<sup>&reg;</sup> On Demand"
+            },
+            "version": 272,
+            "createdAt": "2019-10-14T21:58:57.834Z",
+            "createdBy": {
+                "clientId": "LH-YOABCHzQ9IZix5qtjCF5n",
+                "isPlatformClient": false
+            },
+            "lastModifiedAt": "2020-10-22T23:33:10.671Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true,
+                "user": {
+                    "typeId": "user",
+                    "id": "d53878ae-24e1-4500-a33a-a0702550550a"
+                }
+            },
+            "status": {
+                "typeId": "state",
+                "id": "8fb20b3c-fde9-4073-ba6c-1c1c0211c577"
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "fe3c5d80-b7d4-4f2d-bcbf-6e049e03dcc7",
+                "key": "video-addon"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": 1,
+                    "attributes": {
+                        "productFamily": "OTT",
+                        "displayNamesByKey": {
+                            "services": "EPIX<sup>&#174;</sup>",
+                            "name-cpc": "EPIX"
+                        },
+                        "descriptionsByKey": {
+                            "short-myatt": "Includes EPIX, EPIX 2, EPIX Hits, EPIX NOW, and On Demand Library.",
+                            "short-opus": "Includes EPIX, EPIX 2, EPIX Hits, EPIX NOW, and On Demand Library.",
+                            "short-services": "EPIX<sup>&#174;</sup></br>EPIX<sup>&#174;</sup> 2 </br> EPIX<sup>&#174;</sup> HITS </br>EPIX<sup>&#174;</sup> NOW </br>and On Demand Library.",
+                            "long-services": "<p>Watch exclusive, critically-acclaimed original series, Hollywood movies, and more.</p> <ul> <li>Thousands of Hollywood movies</li> <li>All uncut, commercial-free</li> <li>On TV + online + On Demand + on the go</li> </ul> <p>Includes</p> <ul> <li>EPIX<sup>&#174;</sup></li> <li>EPIX<sup>&#174;</sup>2</li> <li>EPIX<sup>&#174;</sup>Hits</li> <li>EPIX<sup>&#174;</sup>app</li> </ul>",
+                            "long-myatt": "You can change or cancel your subscription at any time at atttv.com\t/ atttvnow.com. There are no refunds or credits for any partial-month periods or unwatched content.",
+                            "description-cpc": "Watch exclusive\tcritically-acclaimed original series  Hollywood movies\tand more.##3 channels - EPIX  EPIX2 and EPIX Hits||1000s of Hollywood movies||On TV + Online + On Demand + On the Go##Includes##EPIX<sup>&reg;</sup> East live feed||On Demand||EPIX<sup>&reg;</sup> Anytime"
+                        },
+                        "secondaryBillingProductId": "7523831488",
+                        "clearRejections": false,
+                        "displayType": "optional",
+                        "dependentPromoCode": "DEPIX",
+                        "dependentPromoName": "DEPIX",
+                        "dependentPromoDisplayName": "EPIX",
+                        "dependentBillerPromoId": "7523831491",
+                        "dependentPromoStartDate": "2019-07-22T18:30:00.000Z",
+                        "contractApplicable": "all",
+                        "migratedProduct": true,
+                        "displayName": {
+                            "en": "EPIX"
+                        },
+                        "billingProductCode": "BOLT-EPIX-201907",
+                        "billingProductId": "21899",
+                        "startDate": "2019-07-10T18:30:00.000Z",
+                        "endDate": "9999-12-30T18:30:00.000Z",
+                        "language": "English",
+                        "addOnType": "Programming-Bolt-on",
+                        "removalRule": {
+                            "channel": [],
+                            "customerSegments": [
+                                "All"
+                            ],
+                            "accountType": [
+                                "ALL"
+                            ]
+                        },
+                        "evergentProdCategory": "Subscription",
+                        "planSubType": "Cross-product",
+                        "firstPublishedAt": "2020-03-04T17:23:01.231Z",
+                        "lastUpdatedState": "live",
+                        "salesChannel": [
+                            "onlineSales",
+                            "onlineServices",
+                            "opusSales",
+                            "opusServices",
+                            "partnerSales",
+                            "partnerServices"
+                        ],
+                        "customerSegments": [
+                            "Employee"
+                        ],
+                        "businessSegment": [
+                            "CONS"
+                        ],
+                        "removalRuleByChannel": {
+                            "actionRule": [
+                                {
+                                    "customerSegments": "Employee",
+                                    "businessSegment": "CONS",
+                                    "userType": "Customer",
+                                    "flowActionType": "change",
+                                    "actionIndicator": false,
+                                    "salesChannel": "onlineServices"
+                                }
+                            ]
+                        },
+                        "contractIndicator1": [
+                            "contract",
+                            "non-contract"
+                        ],
+                        "partnerKeys": []
+                    },
+                    "prices": [
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 599,
+                                "fractionDigits": 2,
+                                "dollarAmount": "5.99"
+                            },
+                            "id": "e7f123ec-cfb7-485c-8b82-ce0f3ddc7665",
+                            "startDate": "2019-06-30T18:30:00.000Z",
+                            "endDate": "2019-06-30T18:30:00.000Z",
+                            "channel": "contracted",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "24031"
+                        },
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 600,
+                                "fractionDigits": 2,
+                                "dollarAmount": "6.00"
+                            },
+                            "id": "bf8ebb11-3d09-4508-8335-f74ecd3b035a",
+                            "startDate": "2019-07-21T18:30:00.000Z",
+                            "endDate": "9999-12-30T18:30:00.000Z",
+                            "channel": "contracted",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "25232"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7a296b61-ef13-4efc-b6aa-e1f1537c971b",
+            "code": "BOLT-CINEMAX-201610",
+            "name": {
+                "en": "CINEMAX"
+            },
+            "description": {
+                "en": "Hit movies every week.  Bold  supercharged shows.##TV. Streaming. On Demand.||Thrilling movies every week||Action-packed shows||Every episode  of every season##Includes##ActionMAX<sup>&reg;</sup>||Cinemax<sup>&reg;</sup> East||On Demand library"
+            },
+            "version": 1976,
+            "createdAt": "2019-10-14T21:58:57.734Z",
+            "createdBy": {
+                "clientId": "LH-YOABCHzQ9IZix5qtjCF5n",
+                "isPlatformClient": false
+            },
+            "lastModifiedAt": "2020-10-22T23:01:24.371Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true,
+                "user": {
+                    "typeId": "user",
+                    "id": "d53878ae-24e1-4500-a33a-a0702550550a"
+                }
+            },
+            "status": {
+                "typeId": "state",
+                "id": "8fb20b3c-fde9-4073-ba6c-1c1c0211c577"
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "fe3c5d80-b7d4-4f2d-bcbf-6e049e03dcc7",
+                "key": "video-addon"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": 1,
+                    "attributes": {
+                        "productFamily": "OTT",
+                        "displayNamesByKey": {
+                            "services": "Cinemax<sup>&#174;</sup>",
+                            "name-cpc": "CINEMAX"
+                        },
+                        "descriptionsByKey": {
+                            "short-opus": "Includes Action MAX<sup>&#174;</sup>,  MAX GO<sup>&#174;</sup>,  Cinemax<sup>&#174;</sup> East, and On demand library",
+                            "short-myatt": "Includes MAX GO, and Cinemax<sup>&#174;</sup> East",
+                            "short-services": "Action MAX<sup>&#174;</sup>,\tMAX GO<sup>&#174;</sup>,  Cinemax<sup>&#174;</sup> East, and On demand library",
+                            "long-services": "<p>Hit movies every week. Bold, supercharged shows.</p>   <ul>     <li>Thrilling movies every week</li>     <li>Action-packed shows</li>\t<li>Every episode, of every season</li>   </ul>   <p>Includes</p>   <ul>     <li>Action MAX<sup>&#174;</sup></li>     <li>Cinemax<sup>&#174;</sup>East</li>\t<li>MAX GO<sup>&#174;</sup></li>     <li>On Demand Library</li>   </ul>",
+                            "long-myatt": "You can change or cancel your subscription at any time at atttvnow.com. There are no refunds or credits for any partial-month periods or unwatched content.",
+                            "description-cpc": "Watch thrilling series and entertaining movies anytime  anywhere!##MAX GO<sup>&reg;</sup>||CINEMAX<sup>&reg;</sup> East"
+                        },
+                        "congratsMessage": "<i>Ride Along 2</i> available with a CINEMAX<sup>&#174;</sup> subscription",
+                        "secondaryBillingProductId": "7523831743",
+                        "clearRejections": false,
+                        "displayType": "optional",
+                        "dependentPromoCode": "DCMXF",
+                        "dependentPromoName": "DCINEMAX",
+                        "dependentPromoDisplayName": "CINEMAX",
+                        "dependentBillerPromoId": "7523830838",
+                        "dependentPromoStartDate": "1899-12-31T18:38:50.000Z",
+                        "contractApplicable": "all",
+                        "migratedProduct": true,
+                        "displayName": {
+                            "en": "CINEMAX"
+                        },
+                        "billingProductCode": "BOLT-CINEMAX-201610",
+                        "billingProductId": "1406",
+                        "startDate": "2016-03-17T18:30:00.000Z",
+                        "endDate": "9999-12-30T18:30:00.000Z",
+                        "language": "English",
+                        "addOnType": "Programming-Bolt-on",
+                        "removalRule": {
+                            "channel": [],
+                            "customerSegments": [
+                                "All"
+                            ],
+                            "accountType": [
+                                "ALL"
+                            ]
+                        },
+                        "evergentProdCategory": "Subscription",
+                        "planSubType": "Cross-product",
+                        "concurrentStreamCount": 0,
+                        "firstPublishedAt": "2020-02-18T18:38:18.566Z",
+                        "lastUpdatedState": "live",
+                        "salesChannel": [
+                            "onlineSales",
+                            "onlineServices",
+                            "opusSales",
+                            "opusServices",
+                            "partnerSales",
+                            "partnerServices"
+                        ],
+                        "customerSegments": [
+                            "Employee"
+                        ],
+                        "businessSegment": [
+                            "CONS"
+                        ],
+                        "contractIndicator1": [
+                            "contract",
+                            "non-contract"
+                        ],
+                        "partnerKeys": []
+                    },
+                    "prices": [
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 1099,
+                                "fractionDigits": 2,
+                                "dollarAmount": "10.99"
+                            },
+                            "id": "44788068-7c69-4ec0-925c-13c8bc09a5dd",
+                            "startDate": "2019-02-16T18:30:00.000Z",
+                            "endDate": "2019-07-23T18:30:00.000Z",
+                            "channel": "contracted",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "21024"
+                        },
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 1100,
+                                "fractionDigits": 2,
+                                "dollarAmount": "11.00"
+                            },
+                            "id": "19130792-24a3-4fa3-a6f8-a7539a3e37f6",
+                            "startDate": "2019-07-24T18:30:00.000Z",
+                            "endDate": "9999-12-30T18:30:00.000Z",
+                            "channel": "contracted",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "24631"
+                        }
+                    ],
+                    "contentImages": [
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/cinemax-bg-lg.png",
+                            "name": "Cinemax",
+                            "size": "large"
+                        },
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/cinemax-bg-sm.png",
+                            "name": "Cinemax",
+                            "size": "small"
+                        },
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/cinemax-bg-md.png",
+                            "name": "Cinemax",
+                            "size": "medium"
+                        }
+                    ],
+                    "productImages": [
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/cinemax-logo.png",
+                            "name": "Cinemax",
+                            "size": "small"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2a4d6ace-4210-4fab-8f6d-ddd63ec12b8b",
+            "code": "BOLT-ENESPANOL-201802",
+            "name": {
+                "en": "Hispanic - NOW En Espanol"
+            },
+            "description": {
+                "en": "Stream your favorite novelas  movies and more - all in Spanish.##Univision||Discovery Channel en Espa&#241;ol||Estrella TV||Cinelatino"
+            },
+            "version": 1934,
+            "createdAt": "2019-10-14T21:58:57.945Z",
+            "createdBy": {
+                "clientId": "LH-YOABCHzQ9IZix5qtjCF5n",
+                "isPlatformClient": false
+            },
+            "lastModifiedAt": "2020-10-22T23:28:27.118Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true,
+                "user": {
+                    "typeId": "user",
+                    "id": "d53878ae-24e1-4500-a33a-a0702550550a"
+                }
+            },
+            "status": {
+                "typeId": "state",
+                "id": "8fb20b3c-fde9-4073-ba6c-1c1c0211c577"
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "fe3c5d80-b7d4-4f2d-bcbf-6e049e03dcc7",
+                "key": "video-addon"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": 1,
+                    "attributes": {
+                        "productFamily": "OTT",
+                        "displayNamesByKey": {
+                            "services": "Espa&ntilde;ol",
+                            "name-cpc": "Espa&#241;ol"
+                        },
+                        "descriptionsByKey": {
+                            "short-myatt": "Stream your favorite novelas, movies, and more all in Spanish.",
+                            "short-opus": "Optimo MAS features popular combinations of both Spanish-language and English-language channels",
+                            "short-services": "Univision</br>Discovery Channel en Espa&ntilde;ol</br>Estrella TV</br>Cinelatino</br>All Deportes channels",
+                            "long-services": "<p>Stream your favorite novelas, movies and more - all in Spanish.</p>   <ul>     <li>Univision</li>     <li>Discovery Channel en Espa&ntilde;ol</li>     <li>Estrella TV</li>     <li>Cinelatino</li>",
+                            "long-myatt": "You can change or cancel your subscription at any time at atttvnow.com. There are no refunds or credits for any partial-month periods or unwatched content.",
+                            "description-cpc": "Stream your favorite novelas  movies and more - all in Spanish.##Univision||Discovery Channel en Espa&#241;ol||Estrella TV||Cinelatino"
+                        },
+                        "congratsMessage": "Great choice!",
+                        "secondaryBillingProductId": "7523831213",
+                        "clearRejections": false,
+                        "displayType": "optional",
+                        "dependentPromoCode": "DHISDEN",
+                        "dependentPromoName": "Hispanic - NOW En Espanol",
+                        "dependentPromoDisplayName": "Hispanic - NOW En Espa&#225;ol",
+                        "dependentBillerPromoId": "7523831216",
+                        "dependentPromoStartDate": "2018-10-03T18:30:00.000Z",
+                        "includedProducts": [
+                            {
+                                "constraints": {},
+                                "products": [
+                                    {
+                                        "id": "43750a18-5e4b-4f84-9b71-bc349d76b624",
+                                        "typeId": "product",
+                                        "productType": "video-addon",
+                                        "key": "BOLT-DEPORTES-201802"
+                                    }
+                                ]
+                            }
+                        ],
+                        "contractApplicable": "all",
+                        "migratedProduct": true,
+                        "displayName": {
+                            "en": "Espa&#241;ol"
+                        },
+                        "billingProductCode": "BOLT-ENESPANOL-201802",
+                        "billingProductId": "2747",
+                        "startDate": "2016-03-17T18:30:00.000Z",
+                        "endDate": "9999-12-30T18:30:00.000Z",
+                        "language": "English",
+                        "addOnType": "Programming-Bolt-on",
+                        "removalRule": {
+                            "channel": [],
+                            "customerSegments": [
+                                "All"
+                            ],
+                            "accountType": [
+                                "ALL"
+                            ]
+                        },
+                        "evergentProdCategory": "Subscription",
+                        "planSubType": "Cross-product",
+                        "firstPublishedAt": "2020-02-13T19:23:33.563Z",
+                        "lastUpdatedState": "live",
+                        "conflictingProducts": [
+                            {
+                                "id": "43750a18-5e4b-4f84-9b71-bc349d76b624",
+                                "typeId": "product",
+                                "key": "BOLT-DEPORTES-201802"
+                            }
+                        ],
+                        "salesChannel": [
+                            "onlineSales",
+                            "onlineServices",
+                            "opusSales",
+                            "opusServices",
+                            "partnerSales",
+                            "partnerServices"
+                        ],
+                        "customerSegments": [
+                            "Employee"
+                        ],
+                        "businessSegment": [
+                            "CONS"
+                        ],
+                        "contractIndicator1": [
+                            "contract",
+                            "non-contract"
+                        ],
+                        "partnerKeys": []
+                    },
+                    "prices": [
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 1499,
+                                "fractionDigits": 2,
+                                "dollarAmount": "14.99"
+                            },
+                            "id": "653146dc-a113-4592-ba9a-df0c6cea4ff1",
+                            "startDate": "2019-02-16T18:30:00.000Z",
+                            "endDate": "2019-07-23T18:30:00.000Z",
+                            "channel": "contracted",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "22832"
+                        },
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 1500,
+                                "fractionDigits": 2,
+                                "dollarAmount": "15.00"
+                            },
+                            "id": "0441e1b3-439e-462f-a115-0a537de63af0",
+                            "startDate": "2019-07-24T18:30:00.000Z",
+                            "endDate": "9999-12-30T18:30:00.000Z",
+                            "channel": "contracted",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "24628"
+                        }
+                    ],
+                    "contentImages": [
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/espanol-bg-lg.png",
+                            "name": "DIRECTV NOW Espa?ol",
+                            "size": "large"
+                        },
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/espanol-bg-sm.png",
+                            "name": "DIRECTV NOW Espa?ol",
+                            "size": "small"
+                        },
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/espanol-bg-md.png",
+                            "name": "DIRECTV NOW Espa?ol",
+                            "size": "medium"
+                        }
+                    ],
+                    "productImages": [
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/espanol-logo.png",
+                            "name": "DIRECTV NOW Espa?ol",
+                            "size": "small"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "07b18be4-8bb6-438c-bf50-26e6f3ce07c6",
+            "code": "BOLT-3RDSTREAMFREE-201804",
+            "name": {
+                "en": "3rd Stream Free"
+            },
+            "description": {
+                "en": "3rd Stream Free"
+            },
+            "version": 1484,
+            "createdAt": "2019-10-14T21:58:53.827Z",
+            "createdBy": {
+                "clientId": "LH-YOABCHzQ9IZix5qtjCF5n",
+                "isPlatformClient": false
+            },
+            "lastModifiedAt": "2020-10-22T23:25:57.195Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true,
+                "user": {
+                    "typeId": "user",
+                    "id": "d53878ae-24e1-4500-a33a-a0702550550a"
+                }
+            },
+            "status": {
+                "typeId": "state",
+                "id": "8fb20b3c-fde9-4073-ba6c-1c1c0211c577"
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "fe3c5d80-b7d4-4f2d-bcbf-6e049e03dcc7",
+                "key": "video-addon"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": 1,
+                    "attributes": {
+                        "productFamily": "OTT",
+                        "displayNamesByKey": {
+                            "services": "3 streams",
+                            "name-cpc": "3 Streams"
+                        },
+                        "descriptionsByKey": {
+                            "short-myatt": "Stream live and DVR content on 3 devices at once.",
+                            "short-opus": "Stream your favorites anytime, anywhere with the AT&amp;T TV App",
+                            "long-services": "Watch TV on any 3 devices at the same time.",
+                            "long-myatt": "Available only in the U.S. (excl. Puerto Rico &amp; U.S.V.I.). Req's compatible device &amp; data connection. Limited to 3 concurrent streams.",
+                            "description-cpc": "Vietnamese Bolton"
+                        },
+                        "secondaryBillingProductId": "7523831434",
+                        "clearRejections": false,
+                        "displayType": "included",
+                        "addOnType": "Bolt-on",
+                        "contractApplicable": "all",
+                        "migratedProduct": true,
+                        "displayName": {
+                            "en": "3 Streams"
+                        },
+                        "billingProductCode": "BOLT-3RDSTREAMFREE-201804",
+                        "billingProductId": "2804",
+                        "startDate": "2018-12-31T18:30:00.000Z",
+                        "endDate": "9999-12-30T18:30:00.000Z",
+                        "language": "English",
+                        "removalRule": {
+                            "channel": [],
+                            "customerSegments": [
+                                "All"
+                            ],
+                            "accountType": [
+                                "ALL"
+                            ]
+                        },
+                        "evergentProdCategory": "Concurrent Streams",
+                        "planSubType": "Streams",
+                        "concurrentStreamCount": 1,
+                        "firstPublishedAt": "2020-02-18T18:38:16.746Z",
+                        "lastUpdatedState": "live",
+                        "conflictingProducts": [
+                            {
+                                "id": "728dd381-d53c-4d15-9b0e-b6a69e8afb4d",
+                                "typeId": "product",
+                                "key": "BOLT-3RDSTREAM-201710"
+                            }
+                        ],
+                        "salesChannel": [
+                            "onlineSales",
+                            "onlineServices",
+                            "opusSales",
+                            "opusServices",
+                            "partnerSales",
+                            "partnerServices"
+                        ],
+                        "customerSegments": [
+                            "Employee"
+                        ],
+                        "businessSegment": [
+                            "CONS"
+                        ],
+                        "contractIndicator1": [
+                            "contract",
+                            "non-contract"
+                        ],
+                        "partnerKeys": []
+                    },
+                    "prices": [
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 0,
+                                "fractionDigits": 2,
+                                "dollarAmount": "0.00"
+                            },
+                            "id": "e66bf2a1-4674-4bde-a8db-b634ae80cecf",
+                            "startDate": "2018-12-31T18:30:00.000Z",
+                            "endDate": "9999-12-30T18:30:00.000Z",
+                            "channel": "contracted",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "21232"
+                        }
+                    ],
+                    "contentImages": [
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/3rd-stream-bg-md.png",
+                            "name": "3 streams",
+                            "size": "medium"
+                        },
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/3rd-stream-bg-sm.png",
+                            "name": "3 streams",
+                            "size": "small"
+                        },
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/3rd-stream-bg-lg.png",
+                            "name": "3 streams",
+                            "size": "large"
+                        }
+                    ],
+                    "productImages": []
+                }
+            ]
+        },
+        {
+            "id": "383a897c-a5e2-45aa-bbc1-2a91332ec23e",
+            "code": "BOLT-BRAZIL-201810",
+            "name": {
+                "en": "DTVN_Brazilian"
+            },
+            "description": {
+                "en": "Brazilian"
+            },
+            "version": 307,
+            "createdAt": "2019-10-14T21:58:53.810Z",
+            "createdBy": {
+                "clientId": "LH-YOABCHzQ9IZix5qtjCF5n",
+                "isPlatformClient": false
+            },
+            "lastModifiedAt": "2020-10-09T20:42:44.481Z",
+            "lastModifiedBy": {
+                "clientId": "LH-YOABCHzQ9IZix5qtjCF5n",
+                "isPlatformClient": false
+            },
+            "status": {
+                "typeId": "state",
+                "id": "8fb20b3c-fde9-4073-ba6c-1c1c0211c577"
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "fe3c5d80-b7d4-4f2d-bcbf-6e049e03dcc7",
+                "key": "video-addon"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": 1,
+                    "attributes": {
+                        "productFamily": "OTT",
+                        "displayNamesByKey": {
+                            "services": "BRAZILIAN",
+                            "name-cpc": "Brazilian"
+                        },
+                        "descriptionsByKey": {
+                            "short-myatt": "Enjoy Brazilian content in addition to your base ATamp;T TV plan!",
+                            "short-opus": "Worldwide entertainment is here!",
+                            "short-services": "2 channels",
+                            "long-services": "TV Globo PFC",
+                            "long-myatt": "Enjoy Brazilian content in addition to your base AT&amp;T TV package!",
+                            "description-cpc": "Brazilian"
+                        },
+                        "congratsMessage": "Great choice!",
+                        "secondaryBillingProductId": "7523830575",
+                        "clearRejections": false,
+                        "displayType": "optional",
+                        "dependentPromoCode": "DBRZFT",
+                        "dependentPromoName": "DBrazilian",
+                        "dependentPromoDisplayName": "Brazilian",
+                        "dependentBillerPromoId": "7523831001",
+                        "dependentPromoStartDate": "2019-04-24T18:30:00.000Z",
+                        "subCategory": "International",
+                        "contractApplicable": "contract",
+                        "migratedProduct": true,
+                        "displayName": {
+                            "en": "Brazilian"
+                        },
+                        "billingProductCode": "BOLT-BRAZIL-201810",
+                        "billingProductId": "11843",
+                        "startDate": "2016-03-17T18:30:00.000Z",
+                        "endDate": "9999-12-30T18:30:00.000Z",
+                        "language": "Portuguese",
+                        "addOnType": "Programming-Bolt-on",
+                        "removalRule": {
+                            "channel": [],
+                            "customerSegments": [
+                                "None"
+                            ],
+                            "accountType": [
+                                "NONE"
+                            ]
+                        },
+                        "evergentProdCategory": "Subscription",
+                        "planSubType": "Cross-product",
+                        "firstPublishedAt": "2020-03-04T17:44:37.913Z",
+                        "lastUpdatedState": "live",
+                        "salesChannel": [
+                            "onlineSales",
+                            "onlineServices",
+                            "opusSales",
+                            "opusServices",
+                            "partnerSales",
+                            "partnerServices"
+                        ],
+                        "customerSegments": [
+                            "Employee"
+                        ],
+                        "businessSegment": [
+                            "CONS"
+                        ],
+                        "contractIndicator1": [
+                            "contract"
+                        ],
+                        "partnerKeys": []
+                    },
+                    "prices": [
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 2500,
+                                "fractionDigits": 2,
+                                "dollarAmount": "25.00"
+                            },
+                            "id": "0c16c6da-f200-464b-a683-dd73562fb034",
+                            "startDate": "2018-12-31T18:30:00.000Z",
+                            "endDate": "2019-07-23T18:30:00.000Z",
+                            "channel": "contracted",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "22032"
+                        },
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 3000,
+                                "fractionDigits": 2,
+                                "dollarAmount": "30.00"
+                            },
+                            "id": "9cbbfa34-ba26-471e-81f4-ecb51a65a792",
+                            "startDate": "2019-07-24T18:30:00.000Z",
+                            "endDate": "9999-12-30T18:30:00.000Z",
+                            "channel": "contracted",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "24627"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "71de8390-4979-4a59-9ac4-3f9c02412d62",
+            "code": "BOLT-STARZ-201610",
+            "name": {
+                "en": "STARZ"
+            },
+            "description": {
+                "en": "Obsessable<sup>&reg;</sup> Original Series  thousands of movies & more!##Over 7 000 titles||Watch top-rated Original Series||New hit movies every month||On Demand  online & on the go##Includes##STARZ East||STARZ Kids & Family||STARZ ENCORE East||STARZ On Demand||Starz<sup>&reg;</sup> and Starz Encore<sup>SM</sup> and related channels and service marks are the property of Starz Entertainment  LLC. Go to starz.com for airdates and times."
+            },
+            "version": 2002,
+            "createdAt": "2019-10-14T21:58:55.756Z",
+            "createdBy": {
+                "clientId": "LH-YOABCHzQ9IZix5qtjCF5n",
+                "isPlatformClient": false
+            },
+            "lastModifiedAt": "2020-10-22T23:01:01.290Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true,
+                "user": {
+                    "typeId": "user",
+                    "id": "d53878ae-24e1-4500-a33a-a0702550550a"
+                }
+            },
+            "status": {
+                "typeId": "state",
+                "id": "8fb20b3c-fde9-4073-ba6c-1c1c0211c577"
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "fe3c5d80-b7d4-4f2d-bcbf-6e049e03dcc7",
+                "key": "video-addon"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": 1,
+                    "attributes": {
+                        "productFamily": "OTT",
+                        "displayNamesByKey": {
+                            "services": "STARZ<sup>&#174;</sup>",
+                            "name-cpc": "STARZ"
+                        },
+                        "descriptionsByKey": {
+                            "short-myatt": "Includes STARZ<sup>&#174;</sup> East, STARZ Kids & Family, and STARZ ENCORE East",
+                            "short-opus": "Includes STARZ<sup>&#174;</sup> East, STARZ Kids & Family, and STARZ ENCORE East",
+                            "short-services": "STARZ<sup>&#174;</sup> East </br> STARZ<sup>&#174;</sup> Kids & Family</br> STARZ<sup>&#174;</sup> ENCORE East</br> STARZ<sup>&#174;</sup> On Demand",
+                            "long-services": "<p>Obsessable<sup>&#174;</sup> Original Series, thousands of movies & more.</p>\t <ul>\t  <li>Watch top-rated Original Series</li>     <li>New hit movies every month</li>     <li>On demand, online & on the go</li>\t</ul>\t<p>STARZ East</p>   <ul>     <li>STARZ Kids & Family</li>     <li>STARZ ENCORE East</li>     <li>STARZ On Demand</li>\t</ul>  <p>Starz<sup>&#174;</sup> and Starz EncoreSM and related channels and service marks are the property of Starz Entertainment, LLC. Go to starz.com for airdates and times. </p>",
+                            "long-myatt": "You can change or cancel your subscription at any time at atttvnow.com. There are no refunds or credits for any partial-month periods or unwatched content.",
+                            "description-cpc": "Get your dose of obsessable&#8480;  original series and hit movies you crave.##STARZ East||STARZ Kids & Family||STARZ ENCORE East"
+                        },
+                        "congratsMessage": "<i>Power</i> available with a STARZ<sup>&#174;</sup> subscription",
+                        "secondaryBillingProductId": "7523831748",
+                        "clearRejections": false,
+                        "displayType": "optional",
+                        "dependentPromoCode": "DSSPF",
+                        "dependentPromoName": "DStarzSuperPack",
+                        "dependentPromoDisplayName": "STARZ",
+                        "dependentBillerPromoId": "7523830915",
+                        "dependentPromoStartDate": "1899-12-31T18:38:50.000Z",
+                        "contractApplicable": "all",
+                        "migratedProduct": true,
+                        "displayName": {
+                            "en": "STARZ"
+                        },
+                        "billingProductCode": "BOLT-STARZ-201610",
+                        "billingProductId": "1407",
+                        "startDate": "2016-03-17T18:30:00.000Z",
+                        "endDate": "9999-12-30T18:30:00.000Z",
+                        "language": "English",
+                        "addOnType": "Programming-Bolt-on",
+                        "removalRule": {
+                            "channel": [],
+                            "customerSegments": [
+                                "All"
+                            ],
+                            "accountType": [
+                                "ALL"
+                            ]
+                        },
+                        "evergentProdCategory": "Subscription",
+                        "planSubType": "Cross-product",
+                        "concurrentStreamCount": 0,
+                        "firstPublishedAt": "2020-02-13T19:45:02.416Z",
+                        "lastUpdatedState": "live",
+                        "salesChannel": [
+                            "online",
+                            "onlineSales",
+                            "onlineServices",
+                            "opusSales",
+                            "opusServices",
+                            "partnerSales",
+                            "partnerServices"
+                        ],
+                        "customerSegments": [
+                            "Employee"
+                        ],
+                        "businessSegment": [
+                            "CONS"
+                        ],
+                        "removalRuleByChannel": {
+                            "actionRule": [
+                                {
+                                    "customerSegments": "Employee",
+                                    "businessSegment": "CONS",
+                                    "userType": "Customer",
+                                    "flowActionType": "change",
+                                    "actionIndicator": false,
+                                    "salesChannel": "onlineServices"
+                                }
+                            ]
+                        },
+                        "contractIndicator1": [
+                            "contract",
+                            "non-contract"
+                        ],
+                        "partnerKeys": []
+                    },
+                    "prices": [
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 1099,
+                                "fractionDigits": 2,
+                                "dollarAmount": "10.99"
+                            },
+                            "id": "cb0e086f-f08e-45a1-9c1e-b7e3148dc373",
+                            "startDate": "2019-02-16T18:30:00.000Z",
+                            "endDate": "2019-07-23T18:30:00.000Z",
+                            "channel": "contracted",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "21022"
+                        },
+                        {
+                            "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 1100,
+                                "fractionDigits": 2,
+                                "dollarAmount": "11.00"
+                            },
+                            "id": "c6a288cc-d325-4bf5-a66a-9f6076f3b43b",
+                            "startDate": "2019-07-24T18:30:00.000Z",
+                            "endDate": "9999-12-30T18:30:00.000Z",
+                            "channel": "contracted",
+                            "recurrenceIndicator": true,
+                            "contractIndicator": "contract",
+                            "period": "month",
+                            "proRateFrequency": "daily",
+                            "isGrandfathered": false,
+                            "billingReferenceId": "24629"
+                        }
+                    ],
+                    "contentImages": [
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/starz-bg-lg.png",
+                            "name": "Starz",
+                            "size": "large"
+                        },
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/starz-bg-sm.png",
+                            "name": "Starz",
+                            "size": "small"
+                        },
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/starz-bg-md.png",
+                            "name": "Starz",
+                            "size": "medium"
+                        }
+                    ],
+                    "productImages": [
+                        {
+                            "url": "/salescms/dam/att/2017/idp/dtvnow/starz-logo-blk.png",
+                            "name": "STARZ",
+                            "size": "small"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "partners": []
+}

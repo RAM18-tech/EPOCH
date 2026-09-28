@@ -1,0 +1,2518 @@
+{
+    "customerEligibility": {
+        "zipCode": [
+            "00058"
+        ],
+        "county": [
+            "17000"
+        ]
+    },
+    "salesChannel": [
+        "salesCRM"
+    ],
+    "offerProductTypes": [
+        "video-device",
+		"fee"
+    ],
+    "offerActionType": [
+        "Acquisition"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "billingSystem": "stms",
+    "cartContext": {
+        "epochOfferCodes": [
+            "OF_BASE-PREFERRED-CHOICE_sales_satellite"
+        ]
+    },
+	"customerContext": {
+        "satellite": {
+            "serviceAddress": {
+                "streetAddress": "2600 CANYON BLVD",
+                "city": "BOULDER",
+                "state": "CO",
+                "zipCode": "80302"
+            },
+            "businessSegment": "REG",
+            "accountStatus": "PEND"
+        }
+    },
+    "orderContext": [
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "receiver",
+                    "action": "add",
+                    "isProvisionable": true,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "productType": "video-device"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 30,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "H00000000888",
+                        "lineItemId": 1,
+                        "omsProductID": "888",
+                        "productName": "DIRECTV® Genie 2",
+                        "productDescription": "You only need 1 Genie 2 to deliver TV and your DVR content to all your receivers and your mobile devices while at home and on the go\n",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 435.09,
+                        "subTotalAmount": 399.0,
+                        "taxAmount": 36.09,
+                        "shippingAmount": 0.0
+                    },
+                    "lineItemDetail": {
+                        "receiver": {
+                            "equipmentOwnership": "lease",
+                            "equipmentType": "hd-dvr"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "programming",
+                    "action": "add",
+                    "isProvisionable": true,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "productType": "video-plan",
+                        "productSubType": "International",
+                        "offerPrice": 44.99
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 31,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "P5444",
+                        "lineItemId": 2,
+                        "omsProductID": "14845",
+                        "productName": "PREFERRED CHOICE",
+                        "productDescription": " Our basic package, including your favorite news and entertainment channels. | Over \"sd_channels\"125 channels | Local channels included at no extra charge Eligibility based on service address. | ",
+                        "originatorLineItemId": 0,
+                        "disconnectReason": "2900"
+                    },
+                    "price": {
+                        "totalAmount": 68.93,
+                        "subTotalAmount": 66.99,
+                        "taxAmount": 1.94,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": 66.99,
+                                "frequencyOfCharge": "monthly",
+                                "numberOfCharges": 1
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "programming": {
+                            "productType": "P",
+                            "productCode": "5444",
+                            "priceCode": "1"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "programming",
+                    "action": "add",
+                    "isProvisionable": true,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "productType": "video-addon",
+                        "productSubType": "International",
+                        "dollarAmount": 15.0
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 32,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "P120304",
+                        "lineItemId": 3,
+                        "omsProductID": "10064791",
+                        "productName": "RTVI",
+                        "productDescription": "Watch daily world news, current affair programs, and family entertainment all in Russian.",
+                        "originatorLineItemId": 0,
+                        "disconnectReason": "2900"
+                    },
+                    "price": {
+                        "totalAmount": 15.44,
+                        "subTotalAmount": 15.0,
+                        "taxAmount": 0.44,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": 15.0,
+                                "frequencyOfCharge": "monthly",
+                                "numberOfCharges": 1
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "programming": {
+                            "productType": "P",
+                            "productCode": "120304",
+                            "priceCode": "1"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "programming",
+                    "action": "add",
+                    "isProvisionable": true,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "productType": "video-addon",
+                        "productSubType": "Premium",
+                        "dollarAmount": 14.99
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 33,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "P2140",
+                        "lineItemId": 4,
+                        "omsProductID": "2438",
+                        "productName": "HBO Max",
+                        "productDescription": "HBO Max. All of HBO together with the greatest collection of movies, shows and new Max Originals. Includes HBO channels and HBO on Demand. Access HBO Max only through HBO Max app or hbomax.com. HBO Max also includes HBO channels and HBO On Demand on DIRECTV.\n",
+                        "originatorLineItemId": 0,
+                        "disconnectReason": "2900"
+                    },
+                    "price": {
+                        "totalAmount": 15.42,
+                        "subTotalAmount": 14.99,
+                        "taxAmount": 0.43,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": 14.99,
+                                "frequencyOfCharge": "monthly",
+                                "numberOfCharges": 1
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "programming": {
+                            "productType": "P",
+                            "productCode": "2140",
+                            "priceCode": "1"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "programming",
+                    "action": "add",
+                    "isProvisionable": true,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "duration": 4,
+                        "productType": "video-addon",
+                        "productSubType": "Sports",
+                        "dollarAmount": 89.0
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 34,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "R120144",
+                        "lineItemId": 5,
+                        "omsProductID": "10061965",
+                        "productName": "MLS DIRECT KICK 2022",
+                        "productDescription": "Follow all 19 MLS teams with up to 230 regular-season league matches and select playoff games.",
+                        "originatorLineItemId": 0,
+                        "disconnectReason": "2900"
+                    },
+                    "price": {
+                        "totalAmount": 22.9,
+                        "subTotalAmount": 22.25,
+                        "taxAmount": 0.65,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": 22.25,
+                                "frequencyOfCharge": "monthly",
+                                "numberOfCharges": 4
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "programming": {
+                            "productType": "R",
+                            "productCode": "120144",
+                            "priceCode": "44"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "accessory",
+                    "action": "add",
+                    "isProvisionable": true,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "productType": "video-device"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 1,
+                                        "relationshipType": "activationDependency"
+                                    }
+                                ]
+                            },
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 35,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "H00000000745",
+                        "lineItemId": 6,
+                        "omsProductID": "745",
+                        "productName": "Genie Mini Wireless",
+                        "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 107.95,
+                        "subTotalAmount": 99.0,
+                        "taxAmount": 8.95,
+                        "shippingAmount": 0.0
+                    },
+                    "lineItemDetail": {
+                        "accessory": {
+                            "equipmentOwnership": "lease",
+                            "equipmentType": "HMC Client"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "accessory",
+                    "action": "add",
+                    "isProvisionable": true,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "productType": "video-device"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 1,
+                                        "relationshipType": "activationDependency"
+                                    }
+                                ]
+                            },
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 36,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "H00000000745",
+                        "lineItemId": 7,
+                        "omsProductID": "745",
+                        "productName": "Genie Mini Wireless",
+                        "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 107.95,
+                        "subTotalAmount": 99.0,
+                        "taxAmount": 8.95,
+                        "shippingAmount": 0.0
+                    },
+                    "lineItemDetail": {
+                        "accessory": {
+                            "equipmentOwnership": "lease",
+                            "equipmentType": "HMC Client"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "accessory",
+                    "action": "add",
+                    "isProvisionable": true,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "productType": "video-device"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 1,
+                                        "relationshipType": "activationDependency"
+                                    }
+                                ]
+                            },
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 37,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "H00000000745",
+                        "lineItemId": 8,
+                        "omsProductID": "745",
+                        "productName": "Genie Mini Wireless",
+                        "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 107.95,
+                        "subTotalAmount": 99.0,
+                        "taxAmount": 8.95,
+                        "shippingAmount": 0.0
+                    },
+                    "lineItemDetail": {
+                        "accessory": {
+                            "equipmentOwnership": "lease",
+                            "equipmentType": "HMC Client"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "virtual",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "addedbyRuleFlag": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "productType": "fee"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 38,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "VirtualPrimaryTVFee",
+                        "lineItemId": 9,
+                        "omsProductID": "2204",
+                        "productName": "TV access fee",
+                        "productDescription": "TV access fee",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 7.2,
+                        "subTotalAmount": 7.0,
+                        "taxAmount": 0.2,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": 7.0,
+                                "frequencyOfCharge": "monthly",
+                                "numberOfCharges": 1
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "programming",
+                    "action": "add",
+                    "isProvisionable": true,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "productType": "fee"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 39,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "B105292",
+                        "lineItemId": 10,
+                        "omsProductID": "10017588",
+                        "productName": "TV access fee",
+                        "productDescription": "TV access fee",
+                        "originatorLineItemId": 0,
+                        "disconnectReason": "2900"
+                    },
+                    "price": {
+                        "totalAmount": 15.27,
+                        "subTotalAmount": 14.0,
+                        "taxAmount": 1.27,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": 14.0,
+                                "frequencyOfCharge": "monthly",
+                                "numberOfCharges": 1
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "programming": {
+                            "productType": "B",
+                            "productCode": "105292",
+                            "priceCode": "1"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "programming",
+                    "action": "add",
+                    "isProvisionable": true,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "productType": "fee"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 40,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "P6376",
+                        "lineItemId": 11,
+                        "omsProductID": "45921",
+                        "productName": "Advanced Receiver Fee",
+                        "productDescription": "This service unleashes the full power of your HD DVR, including HD channels, the ability to record and watch in any room (requires Genie Whole-Home Setup), access to On Demand shows and movies, and more.",
+                        "originatorLineItemId": 0,
+                        "disconnectReason": "2900"
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": 0.0,
+                                "frequencyOfCharge": "monthly",
+                                "numberOfCharges": 1
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "programming": {
+                            "productType": "P",
+                            "productCode": "6376",
+                            "priceCode": "200"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "programming",
+                    "action": "add",
+                    "isProvisionable": true,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "productType": "fee"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 41,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "B102964",
+                        "lineItemId": 12,
+                        "omsProductID": "1003009",
+                        "productName": "Advanced Receiver Fee",
+                        "productDescription": "This service unleashes the full power of your HD DVR, including HD channels, the ability to record and watch in any room (requires Genie Whole-Home Setup), access to On Demand shows and movies, and more.",
+                        "originatorLineItemId": 0,
+                        "disconnectReason": "2900"
+                    },
+                    "price": {
+                        "totalAmount": 15.44,
+                        "subTotalAmount": 15.0,
+                        "taxAmount": 0.44,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": 15.0,
+                                "frequencyOfCharge": "monthly",
+                                "numberOfCharges": 1
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "programming": {
+                            "productType": "B",
+                            "productCode": "102964",
+                            "priceCode": "5"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "virtual",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "productType": "fee"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 42,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "H00000001013",
+                        "lineItemId": 13,
+                        "omsProductID": "1013",
+                        "productName": "Delivery and Handling",
+                        "productDescription": "Charge for delivering equipment to your home.",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 21.76,
+                        "subTotalAmount": 19.95,
+                        "taxAmount": 1.81,
+                        "shippingAmount": 0.0
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "installation",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "productType": "fee"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 43,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "H00000001006",
+                        "lineItemId": 14,
+                        "omsProductID": "1006",
+                        "productName": "Installation Fee",
+                        "productDescription": "Add Installation Charge to all DTV Orders with new Receivers",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0
+                    },
+                    "lineItemDetail": {
+                        "installation": {
+                            "vipLevel": "null"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "programming",
+                    "action": "add",
+                    "isProvisionable": true,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "productType": "fee"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 44,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "B107422",
+                        "lineItemId": 15,
+                        "omsProductID": "10045657",
+                        "productName": "Federal Cost Recovery Fee",
+                        "productDescription": "Federal Cost Recovery Fee",
+                        "originatorLineItemId": 0,
+                        "disconnectReason": "2900"
+                    },
+                    "price": {
+                        "totalAmount": 0.14,
+                        "subTotalAmount": 0.14,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": 0.14,
+                                "frequencyOfCharge": "monthly",
+                                "numberOfCharges": 1
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "programming": {
+                            "productType": "B",
+                            "productCode": "107422",
+                            "priceCode": "1"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "virtual",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "addedbyRuleFlag": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "productType": "fee",
+                        "UseTaxInstallationAmount": 100.0
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 45,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "VUSE_TAX_RECOVERY_FEE",
+                        "lineItemId": 16,
+                        "omsProductID": "36053",
+                        "productName": "DTV Use Tax Expense Recovery Fee",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "agreement",
+                    "action": "add",
+                    "isProvisionable": true,
+                    "isVisible": true,
+                    "customData": {
+                        "appliesToSvc": "P5444",
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": -0.0,
+                        "agreementPriceCode": 1,
+                        "offerId": "OF_BASE-PREFERRED-CHOICE_sales_satellite",
+                        "duration": 12,
+                        "productType": "agreement"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 29,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "VAGR-BP-12MO-V565",
+                        "lineItemId": 17,
+                        "omsProductID": "502",
+                        "productName": "$10 off for 12 months",
+                        "productDescription": "$10 off for 12 months",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": -10.29,
+                        "subTotalAmount": -10.0,
+                        "taxAmount": -0.29,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "price": -10.0,
+                                "frequencyOfCharge": "monthly"
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "agreement": {
+                            "type": "credit",
+                            "rebateId": "100111"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "adjustment",
+                    "action": "add",
+                    "isProvisionable": true,
+                    "isVisible": false,
+                    "customData": {
+                        "appliesToSvc": "P5444",
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": -0.0,
+                        "productType": "adjustment"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 19,
+                                        "relationshipType": "activationDependency"
+                                    }
+                                ]
+                            },
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 17,
+                                        "relationshipType": "agreement"
+                                    }
+                                ]
+                            },
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 29,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "SAJ000004519",
+                        "lineItemId": 18,
+                        "omsProductID": "503",
+                        "productName": "$10 off for 12 months",
+                        "productDescription": "$10 off for 12 months",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": -10.29,
+                        "subTotalAmount": -10.0,
+                        "taxAmount": -0.29,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": -10.0
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "adjustment": {
+                            "adjustmentType": "product",
+                            "reasonCode": "4519",
+                            "amount": -10.0
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "programming",
+                    "action": "add",
+                    "isProvisionable": true,
+                    "isVisible": false,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "productType": "serviceCode"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 29,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "B102471",
+                        "lineItemId": 19,
+                        "omsProductID": "10041182",
+                        "productName": "$10 off for 12 months",
+                        "productDescription": "$10 off for 12 months"
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": 0.0,
+                                "frequencyOfCharge": "monthly",
+                                "numberOfCharges": 0
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "programming": {
+                            "productType": "B",
+                            "productCode": "102471",
+                            "priceCode": "001"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "agreement",
+                    "action": "add",
+                    "isProvisionable": true,
+                    "isVisible": true,
+                    "customData": {
+                        "appliesToSvc": "P5444",
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": -0.0,
+                        "agreementPriceCode": 1,
+                        "offerId": "OF_BASE-PREFERRED-CHOICE_sales_satellite",
+                        "duration": 12,
+                        "productType": "agreement"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 29,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "VAGR-BP-12MO-V644",
+                        "lineItemId": 20,
+                        "omsProductID": "502",
+                        "productName": "$12 off for 12 months",
+                        "productDescription": "$12 off for 12 months",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": -12.35,
+                        "subTotalAmount": -12.0,
+                        "taxAmount": -0.35,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "price": -12.0,
+                                "frequencyOfCharge": "monthly"
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "agreement": {
+                            "type": "credit",
+                            "rebateId": "100111"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "adjustment",
+                    "action": "add",
+                    "isProvisionable": true,
+                    "isVisible": false,
+                    "customData": {
+                        "appliesToSvc": "P5444",
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": -0.0,
+                        "productType": "adjustment"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 22,
+                                        "relationshipType": "activationDependency"
+                                    }
+                                ]
+                            },
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 20,
+                                        "relationshipType": "agreement"
+                                    }
+                                ]
+                            },
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 29,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "SAJ000005835",
+                        "lineItemId": 21,
+                        "omsProductID": "503",
+                        "productName": "$12 off for 12 months",
+                        "productDescription": "$12 off for 12 months",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": -12.35,
+                        "subTotalAmount": -12.0,
+                        "taxAmount": -0.35,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": -12.0
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "adjustment": {
+                            "adjustmentType": "product",
+                            "reasonCode": "5835",
+                            "amount": -12.0
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "programming",
+                    "action": "add",
+                    "isProvisionable": true,
+                    "isVisible": false,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "productType": "serviceCode"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 29,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "B101201",
+                        "lineItemId": 22,
+                        "omsProductID": "10061807",
+                        "productName": "$12 off for 12 months",
+                        "productDescription": "$12 off for 12 months"
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": 0.0,
+                                "frequencyOfCharge": "monthly",
+                                "numberOfCharges": 0
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "programming": {
+                            "productType": "B",
+                            "productCode": "101201",
+                            "priceCode": "449"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "virtual",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": -0.0,
+                        "offerId": "OF_SEGMENT-EQIR-L1-GENIE2-300_satellite",
+                        "productType": "equipment-rebate",
+                        "associatedDevice": "H00000000888"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 46,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "EQIR-L1-GENIE2-300",
+                        "lineItemId": 23,
+                        "omsProductID": "2317",
+                        "productName": "EQIR-L1-GENIE2-300",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": -327.14,
+                        "subTotalAmount": -300.0,
+                        "taxAmount": -27.14,
+                        "shippingAmount": 0.0
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "virtual",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": -0.0,
+                        "offerId": "OF_SEGMENT-EQIR-L2-WIRELESS-GENIE-MINI-99_satellite",
+                        "productType": "equipment-rebate",
+                        "associatedDevice": "H00000000745"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 47,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "EQIR-L2-WIRELESS-GENIE-MINI-99",
+                        "lineItemId": 24,
+                        "omsProductID": "2317",
+                        "productName": "EQIR-L2-WIRELESS-GENIE-MINI-99",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": -107.95,
+                        "subTotalAmount": -99.0,
+                        "taxAmount": -8.95,
+                        "shippingAmount": 0.0
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "virtual",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": -0.0,
+                        "offerId": "OF_SEGMENT-EQIR-L3-WIRELESS-GENIE-MINI-99_satellite",
+                        "productType": "equipment-rebate",
+                        "associatedDevice": "H00000000745"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 48,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "EQIR-L3-WIRELESS-GENIE-MINI-99",
+                        "lineItemId": 25,
+                        "omsProductID": "2317",
+                        "productName": "EQIR-L3-WIRELESS-GENIE-MINI-99",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": -107.95,
+                        "subTotalAmount": -99.0,
+                        "taxAmount": -8.95,
+                        "shippingAmount": 0.0
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "virtual",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": -0.0,
+                        "offerId": "OF_SEGMENT-EQIR-L4-WIRELESS-GENIE-MINI-99_satellite",
+                        "productType": "equipment-rebate",
+                        "associatedDevice": "H00000000745"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 49,
+                                        "relationshipType": "offerDetail"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "EQIR-L4-WIRELESS-GENIE-MINI-99",
+                        "lineItemId": 26,
+                        "omsProductID": "2317",
+                        "productName": "EQIR-L4-WIRELESS-GENIE-MINI-99",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": -107.95,
+                        "subTotalAmount": -99.0,
+                        "taxAmount": -8.95,
+                        "shippingAmount": 0.0
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offer",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "Today",
+                        "lineItemId": 27,
+                        "omsProductID": "510",
+                        "productName": "Today",
+                        "productDescription": "Today's Charges",
+                        "originatorLineItemId": 0,
+                        "disconnectReason": "2900"
+                    },
+                    "price": {
+                        "totalAmount": 129.71,
+                        "subTotalAmount": 118.95,
+                        "taxAmount": 10.76,
+                        "shippingAmount": 0.0
+                    },
+                    "lineItemDetail": {
+                        "offer": {
+                            "offerId": "Today",
+                            "description": "Today",
+                            "primaryOfferFlag": true
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offer",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "Recurring",
+                        "lineItemId": 28,
+                        "omsProductID": "280",
+                        "productName": "Recurring",
+                        "productDescription": "Estimated Monthly Charges",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 138.1,
+                        "subTotalAmount": 133.37,
+                        "taxAmount": 4.73,
+                        "shippingAmount": 0.0
+                    },
+                    "lineItemDetail": {
+                        "offer": {
+                            "offerId": "Recurring",
+                            "primaryOfferFlag": false,
+                            "offerDescription": "Recurring",
+                            "optionDescription": "Recurring"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offerDetail",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "offerId": "OF_BASE-PREFERRED-CHOICE_sales_satellite"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 28,
+                                        "relationshipType": "offer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "OF_BASE-PREFERRED-CHOICE_sales_satellite-000",
+                        "lineItemId": 29,
+                        "omsProductID": "500",
+                        "productName": "PREFERRED CHOICE",
+                        "productDescription": " Our basic package, including your favorite news and entertainment channels. | Over \"sd_channels\"125 channels | Local channels included at no extra charge Eligibility based on service address. | ",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": 0.0,
+                                "frequencyOfCharge": "monthly",
+                                "numberOfCharges": 1
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "offerDetail": {
+                            "description": " Our basic package, including your favorite news and entertainment channels. | Over \"sd_channels\"125 channels | Local channels included at no extra charge Eligibility based on service address. | ",
+                            "id": 29,
+                            "name": "PREFERRED CHOICE"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offerDetail",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 27,
+                                        "relationshipType": "offer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "H00000000888-000",
+                        "lineItemId": 30,
+                        "omsProductID": "500",
+                        "productName": "DIRECTV® Genie 2",
+                        "productDescription": "You only need 1 Genie 2 to deliver TV and your DVR content to all your receivers and your mobile devices while at home and on the go\n",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0
+                    },
+                    "lineItemDetail": {
+                        "offerDetail": {
+                            "description": "You only need 1 Genie 2 to deliver TV and your DVR content to all your receivers and your mobile devices while at home and on the go\n",
+                            "id": 30,
+                            "name": "DIRECTV® Genie 2"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offerDetail",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 28,
+                                        "relationshipType": "offer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "P5444-000",
+                        "lineItemId": 31,
+                        "omsProductID": "500",
+                        "productName": "PREFERRED CHOICE",
+                        "productDescription": " Our basic package, including your favorite news and entertainment channels. | Over \"sd_channels\"125 channels | Local channels included at no extra charge Eligibility based on service address. | ",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": 0.0,
+                                "frequencyOfCharge": "monthly",
+                                "numberOfCharges": 1
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "offerDetail": {
+                            "description": " Our basic package, including your favorite news and entertainment channels. | Over \"sd_channels\"125 channels | Local channels included at no extra charge Eligibility based on service address. | ",
+                            "id": 31,
+                            "name": "PREFERRED CHOICE"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offerDetail",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 28,
+                                        "relationshipType": "offer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "P120304-000",
+                        "lineItemId": 32,
+                        "omsProductID": "500",
+                        "productName": "RTVI",
+                        "productDescription": "Watch daily world news, current affair programs, and family entertainment all in Russian.",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": 0.0,
+                                "frequencyOfCharge": "monthly",
+                                "numberOfCharges": 1
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "offerDetail": {
+                            "description": "Watch daily world news, current affair programs, and family entertainment all in Russian.",
+                            "id": 32,
+                            "name": "RTVI"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offerDetail",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 28,
+                                        "relationshipType": "offer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "P2140-000",
+                        "lineItemId": 33,
+                        "omsProductID": "500",
+                        "productName": "HBO Max",
+                        "productDescription": "HBO Max. All of HBO together with the greatest collection of movies, shows and new Max Originals. Includes HBO channels and HBO on Demand. Access HBO Max only through HBO Max app or hbomax.com. HBO Max also includes HBO channels and HBO On Demand on DIRECTV.\n",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": 0.0,
+                                "frequencyOfCharge": "monthly",
+                                "numberOfCharges": 1
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "offerDetail": {
+                            "description": "HBO Max. All of HBO together with the greatest collection of movies, shows and new Max Originals. Includes HBO channels and HBO on Demand. Access HBO Max only through HBO Max app or hbomax.com. HBO Max also includes HBO channels and HBO On Demand on DIRECTV.\n",
+                            "id": 33,
+                            "name": "HBO Max"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offerDetail",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 28,
+                                        "relationshipType": "offer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "R120144-000",
+                        "lineItemId": 34,
+                        "omsProductID": "500",
+                        "productName": "MLS DIRECT KICK 2022",
+                        "productDescription": "Follow all 19 MLS teams with up to 230 regular-season league matches and select playoff games.",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": 0.0,
+                                "frequencyOfCharge": "monthly",
+                                "numberOfCharges": 4
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "offerDetail": {
+                            "description": "Follow all 19 MLS teams with up to 230 regular-season league matches and select playoff games.",
+                            "id": 34,
+                            "name": "MLS DIRECT KICK 2022"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offerDetail",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 27,
+                                        "relationshipType": "offer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "H00000000745-000",
+                        "lineItemId": 35,
+                        "omsProductID": "500",
+                        "productName": "Genie Mini Wireless",
+                        "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0
+                    },
+                    "lineItemDetail": {
+                        "offerDetail": {
+                            "description": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                            "id": 35,
+                            "name": "Genie Mini Wireless"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offerDetail",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 27,
+                                        "relationshipType": "offer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "H00000000745-000",
+                        "lineItemId": 36,
+                        "omsProductID": "500",
+                        "productName": "Genie Mini Wireless",
+                        "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0
+                    },
+                    "lineItemDetail": {
+                        "offerDetail": {
+                            "description": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                            "id": 36,
+                            "name": "Genie Mini Wireless"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offerDetail",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 27,
+                                        "relationshipType": "offer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "H00000000745-000",
+                        "lineItemId": 37,
+                        "omsProductID": "500",
+                        "productName": "Genie Mini Wireless",
+                        "productDescription": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0
+                    },
+                    "lineItemDetail": {
+                        "offerDetail": {
+                            "description": "Enjoy Genie HD DVRs amazing features anywhere inside or outside your home—regardless of where your cable outlets are. With wireless Genie Minis, you are free to place your TVs anywhere you want. Say goodbye to messy cable wires and boxes.\n",
+                            "id": 37,
+                            "name": "Genie Mini Wireless"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offerDetail",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 28,
+                                        "relationshipType": "offer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "VirtualPrimaryTVFee-000",
+                        "lineItemId": 38,
+                        "omsProductID": "500",
+                        "productName": "TV access fee",
+                        "productDescription": "TV access fee",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": 0.0,
+                                "frequencyOfCharge": "monthly",
+                                "numberOfCharges": 1
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "offerDetail": {
+                            "description": "TV access fee",
+                            "id": 38,
+                            "name": "TV access fee"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offerDetail",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 28,
+                                        "relationshipType": "offer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "B105292-000",
+                        "lineItemId": 39,
+                        "omsProductID": "500",
+                        "productName": "TV access fee",
+                        "productDescription": "TV access fee",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": 0.0,
+                                "frequencyOfCharge": "monthly",
+                                "numberOfCharges": 1
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "offerDetail": {
+                            "description": "TV access fee",
+                            "id": 39,
+                            "name": "TV access fee"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offerDetail",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 28,
+                                        "relationshipType": "offer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "P6376-000",
+                        "lineItemId": 40,
+                        "omsProductID": "500",
+                        "productName": "Advanced Receiver Fee",
+                        "productDescription": "This service unleashes the full power of your HD DVR, including HD channels, the ability to record and watch in any room (requires Genie Whole-Home Setup), access to On Demand shows and movies, and more.",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": 0.0,
+                                "frequencyOfCharge": "monthly",
+                                "numberOfCharges": 1
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "offerDetail": {
+                            "description": "This service unleashes the full power of your HD DVR, including HD channels, the ability to record and watch in any room (requires Genie Whole-Home Setup), access to On Demand shows and movies, and more.",
+                            "id": 40,
+                            "name": "Advanced Receiver Fee"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offerDetail",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 28,
+                                        "relationshipType": "offer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "B102964-000",
+                        "lineItemId": 41,
+                        "omsProductID": "500",
+                        "productName": "Advanced Receiver Fee",
+                        "productDescription": "This service unleashes the full power of your HD DVR, including HD channels, the ability to record and watch in any room (requires Genie Whole-Home Setup), access to On Demand shows and movies, and more.",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": 0.0,
+                                "frequencyOfCharge": "monthly",
+                                "numberOfCharges": 1
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "offerDetail": {
+                            "description": "This service unleashes the full power of your HD DVR, including HD channels, the ability to record and watch in any room (requires Genie Whole-Home Setup), access to On Demand shows and movies, and more.",
+                            "id": 41,
+                            "name": "Advanced Receiver Fee"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offerDetail",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 27,
+                                        "relationshipType": "offer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "H00000001013-000",
+                        "lineItemId": 42,
+                        "omsProductID": "500",
+                        "productName": "Delivery and Handling",
+                        "productDescription": "Charge for delivering equipment to your home.",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0
+                    },
+                    "lineItemDetail": {
+                        "offerDetail": {
+                            "description": "Charge for delivering equipment to your home.",
+                            "id": 42,
+                            "name": "Delivery and Handling"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offerDetail",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 27,
+                                        "relationshipType": "offer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "H00000001006-000",
+                        "lineItemId": 43,
+                        "omsProductID": "500",
+                        "productName": "Installation Fee",
+                        "productDescription": "Add Installation Charge to all DTV Orders with new Receivers",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0
+                    },
+                    "lineItemDetail": {
+                        "offerDetail": {
+                            "description": "Add Installation Charge to all DTV Orders with new Receivers",
+                            "id": 43,
+                            "name": "Installation Fee"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offerDetail",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 28,
+                                        "relationshipType": "offer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "B107422-000",
+                        "lineItemId": 44,
+                        "omsProductID": "500",
+                        "productName": "Federal Cost Recovery Fee",
+                        "productDescription": "Federal Cost Recovery Fee",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0,
+                        "recurringPriceList": {
+                            "recurringPrice": {
+                                "sequence": 1,
+                                "price": 0.0,
+                                "frequencyOfCharge": "monthly",
+                                "numberOfCharges": 1
+                            }
+                        }
+                    },
+                    "lineItemDetail": {
+                        "offerDetail": {
+                            "description": "Federal Cost Recovery Fee",
+                            "id": 44,
+                            "name": "Federal Cost Recovery Fee"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offerDetail",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 27,
+                                        "relationshipType": "offer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "VUSE_TAX_RECOVERY_FEE-000",
+                        "lineItemId": 45,
+                        "omsProductID": "500",
+                        "productName": "DTV Use Tax Expense Recovery Fee",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0
+                    },
+                    "lineItemDetail": {
+                        "offerDetail": {
+                            "id": 45,
+                            "name": "DTV Use Tax Expense Recovery Fee"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offerDetail",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "offerId": "OF_SEGMENT-EQIR-L1-GENIE2-300_satellite"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 27,
+                                        "relationshipType": "offer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "EQIR-L1-GENIE2-300-000",
+                        "lineItemId": 46,
+                        "omsProductID": "500",
+                        "productName": "EQIR-L1-GENIE2-300",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0
+                    },
+                    "lineItemDetail": {
+                        "offerDetail": {
+                            "id": 46,
+                            "name": "EQIR-L1-GENIE2-300"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offerDetail",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "offerId": "OF_SEGMENT-EQIR-L2-WIRELESS-GENIE-MINI-99_satellite"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 27,
+                                        "relationshipType": "offer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "EQIR-L2-WIRELESS-GENIE-MINI-99-000",
+                        "lineItemId": 47,
+                        "omsProductID": "500",
+                        "productName": "EQIR-L2-WIRELESS-GENIE-MINI-99",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0
+                    },
+                    "lineItemDetail": {
+                        "offerDetail": {
+                            "id": 47,
+                            "name": "EQIR-L2-WIRELESS-GENIE-MINI-99"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offerDetail",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "offerId": "OF_SEGMENT-EQIR-L3-WIRELESS-GENIE-MINI-99_satellite"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 27,
+                                        "relationshipType": "offer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "EQIR-L3-WIRELESS-GENIE-MINI-99-000",
+                        "lineItemId": 48,
+                        "omsProductID": "500",
+                        "productName": "EQIR-L3-WIRELESS-GENIE-MINI-99",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0
+                    },
+                    "lineItemDetail": {
+                        "offerDetail": {
+                            "id": 48,
+                            "name": "EQIR-L3-WIRELESS-GENIE-MINI-99"
+                        }
+                    }
+                }
+            },
+            {
+                "lineItem": {
+                    "orderType": "new",
+                    "lineItemType": "offerDetail",
+                    "action": "add",
+                    "isProvisionable": false,
+                    "isVisible": true,
+                    "customData": {
+                        "governmentFees": 0.0,
+                        "attFeesAndSurcharges": 0.0,
+                        "offerId": "OF_SEGMENT-EQIR-L4-WIRELESS-GENIE-MINI-99_satellite"
+                    },
+                    "relationshipList": {
+                        "relationSet": [
+                            {
+                                "relatedTo": [
+                                    {
+                                        "lineItemId": 27,
+                                        "relationshipType": "offer"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "lineItemIdentifier": {
+                        "productId": "EQIR-L4-WIRELESS-GENIE-MINI-99-000",
+                        "lineItemId": 49,
+                        "omsProductID": "500",
+                        "productName": "EQIR-L4-WIRELESS-GENIE-MINI-99",
+                        "originatorLineItemId": 0
+                    },
+                    "price": {
+                        "totalAmount": 0.0,
+                        "subTotalAmount": 0.0,
+                        "taxAmount": 0.0,
+                        "shippingAmount": 0.0
+                    },
+                    "lineItemDetail": {
+                        "offerDetail": {
+                            "id": 49,
+                            "name": "EQIR-L4-WIRELESS-GENIE-MINI-99"
+                        }
+                    }
+                }
+            }
+        ]
+}

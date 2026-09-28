@@ -1,0 +1,89 @@
+{
+    "customerEligibility": {
+        "zipCode": [
+            "42101"
+        ],
+        "county": [
+            "21031"
+        ]
+    },
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "offerActionType": [
+        "Upgrade",
+        "Downgrade",
+        "Other"
+    ],
+    "salesChannel": [
+        "online"
+    ],
+    "cartContext": {
+        "cartOffers": [
+            {
+                "offerCode": "OF_BASE-PREMIER-ALL-INCLUDED_satellite",
+                "action": "add",
+                "quantity": 1
+            }
+        ],
+        "cartProducts": [
+            {
+                "billingProductCode": "P103354",
+                "priceCode": "1"
+            }
+        ]
+    },
+    "customerContext": {
+        "existingProductFamily": [
+            "satellite"
+        ],
+        "satellite": {
+            "products": [
+                {
+                    "billingProductCode": "P103354",
+                    "priceCode": "1",
+                    "productType": "video-plan",
+                    "productStatus": "ACTV"
+                },
+                {
+                    "billingProductCode": "R101432",
+                    "priceCode": "1",
+                    "productType": "video-addon",
+                    "productStatus": "ACTV"
+                },
+				{
+                    "billingProductCode": "R107366",
+                    "priceCode": "1",
+                    "productType": "video-addon",
+                    "productStatus": "ACTV"
+                },
+                {
+                    "manufacturer": "DIRECTV",
+                    "modelNumber": "HR34-700",
+                    "accessCardId": "002187890633",
+                    "accessCardStatus": "ACTV",
+                    "equipmentOwnership": "lease",
+					"productType": "video-device"
+                },
+				{
+                    "manufacturer": "DIRECTV",
+                    "modelNumber": "C61-100",
+                    "accessCardId": "002187890633",
+                    "accessCardStatus": "ACTV",
+                    "equipmentOwnership": "lease",
+					"productType": "video-device"
+                }
+            ],
+            "accountNumber": "171202181454689",
+            "isActive": true,
+            "retentionPromotionIndicator": false,
+            "freeTrialEligible": false,
+            "accountType": "Residential",
+            "nextBillingDate": "03/09/2020",
+            "accountCreationDate":"03/09/2011",
+            "businessSegment": "REG",
+            "nftvFlag": "Y",
+            "ftvCount": "1"
+        }
+    }
+}

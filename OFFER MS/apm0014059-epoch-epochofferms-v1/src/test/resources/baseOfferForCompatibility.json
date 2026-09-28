@@ -1,0 +1,527 @@
+{
+  "limit": 50,
+  "offset": 0,
+  "count": 1,
+  "total": 1,
+  "products": [
+    {
+      "id": "014db88b-a274-4f97-bb64-2d395affad19",
+      "code": "BASE-CHOICE-201811",
+      "version": 85,
+      "createdAt": "2019-10-17T15:30:12.847Z",
+      "lastModifiedAt": "2020-02-08T20:20:04.558Z",
+      "status": "live",
+      "productType": {
+        "typeId": "product-type",
+        "id": "516ca624-860a-4459-a180-ce9bca7c529f",
+        "key": "video-plan"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": 1,
+          "attributes": {
+            "approvalStatus-Finance": "pending",
+            "approvalStatus-OTTAcqMkt": "pending",
+            "approvalStatus-OTTRetentionMkt": "pending",
+            "approvalStatus-SuppliersPayments": "pending",
+            "approvalStatus-OTTLegal": "pending",
+            "productFamily": "OTT",
+            "displayNamesByKey": {
+              "services": "CHOICE",
+              "name-cpc": "CHOICE"
+            },
+            "descriptionsByKey": {
+              "short-opus": "85+ channels",
+              "short-services": "85+",
+              "long-services": "85+ channels",
+              "long-myatt": "$19.95 ACTIVATION, EARLY TERMINATION FEE OF $15/MO. FOR EACH MONTH REMAINING ON AGMT., ADD'L FEES APPLY.  Ends 9/28/19. 1st &amp; 2nd year Pricing: $59.99/mo. for ENTERTAINMENT Pkg; $64.99/mo. for CHOICE Pkg; $74.99/mo. for XTRA Pkg; $79.99/mo. for ULTIMATE Pkg; $64.99/mo. for OPTIMO MAS  for first 12 mos. only. After 12 mos. or loss of eligibility, then prevailing rate applies (currently $93/mo. for ENTERTAINMENT Pkg; $110/mo. for CHOICE Pkg; $124/mo. for XTRA Pkg; $135/mo. for ULTIMATE Pkg; $86/mo. for OPTIMO MAS), unless cancelled or changed prior to end of the promo period. Includes: AT&amp;T TV Pkg, &amp; one (1) AT&amp;T TV device. Exclusions: Price excludes Regional Sports Fee of up to $8.49/mo. (which is extra &amp; applies to CHOICE and higher Pkgs), AT&amp;T TV device service fee for additional devices, and certain other add'l fees &amp; charges.",
+              "description-cpc": "Choice must-haves. ##85##+ channels"
+            },
+            "congratsMessage": "Great choice!",
+            "secondaryBillingProductId": "768336606",
+            "clearRejections": false,
+            "packageGroup": "20000",
+            "productStatus": "Active",
+            "numberOfChannels": "85+ live channels",
+            "compatibleProducts": [
+              {
+                "constraints": {},
+                "products": [
+                  {
+                    "typeId": "product",
+                    "id": "3e87eaaa-6865-4f03-9cc3-548a94aa5676",
+                    "productType": "video-addon",
+                    "key": "BOLT-3RDSTREAMFREE-201804"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "c7745259-23e7-48c8-87ab-5b13d5ed3992",
+                    "productType": "video-addon",
+                    "key": "BOLT-STARZ-201610"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "adffa9bc-4454-4d1a-a9a7-d4d7b82045d9",
+                    "productType": "video-addon",
+                    "key": "STANDNOW-JUPHBO-201804"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "65349a6f-a0f3-443c-b9ee-5629b21e450c",
+                    "productType": "video-addon",
+                    "key": "BOLT-EPIX-201907"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "cb8808f4-4ad4-45e5-8752-b083aa5ac1c6",
+                    "productType": "video-addon",
+                    "key": "BOLTNOW-HBO-201810"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "4600b315-5d99-4a58-925d-e23175ae489b",
+                    "productType": "video-addon",
+                    "key": "BOLT-CINEMAX-201610"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "de06ff1b-25ef-4947-8879-7e42e40d2fcf",
+                    "productType": "video-addon",
+                    "key": "BOLT-ENESPANOL-201802"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "7ec1a7ae-162d-40ee-8193-af110e90054a",
+                    "productType": "video-addon",
+                    "key": "BOLTNOW-SHOW-201810"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "302ce7b8-b116-41ca-9d5f-95fa08d30d3f",
+                    "productType": "video-addon",
+                    "key": "Virtual-HBO-SHOWTIME-STZ-CINEMAX-EPIX201908"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "07797348-a102-472e-8bd6-b82dfc22ae98",
+                    "productType": "video-addon",
+                    "key": "BOLT-MVPX-201910"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "6ad0311a-3854-4c80-894c-bb753dc2b90f",
+                    "productType": "video-addon",
+                    "key": "BOLT-DEPORTES-201802"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "4bea941a-d78a-40b9-b2f9-62373adcec8f",
+                    "productType": "video-addon",
+                    "key": "STANDNOW-JUPSTZ-201804"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "f2144005-aece-4287-9e5f-7a34eb9544bb",
+                    "productType": "video-addon",
+                    "key": "BOLT-CDVRTIER1FREE-201711"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "e29e3b17-c626-4a74-8af9-8042e6bb3eba",
+                    "productType": "video-addon",
+                    "key": "BOLT-VIETNAM-201810"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "b5e31a6a-7aa6-439d-9f80-16d5f1a1fce8",
+                    "productType": "video-addon",
+                    "key": "BOLT-HBO-201610"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "42b6c25c-c289-4e69-ad4d-493a1270ff5f",
+                    "productType": "video-addon",
+                    "key": "BOLT-SHOWTIME-201707"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "a6084aae-3e3b-442b-afe6-c40e31585001",
+                    "productType": "video-addon",
+                    "key": "BOLT-NBALP-201912"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "6ac7e69b-de69-46ff-a6b0-8e46c35dfd7b",
+                    "productType": "video-addon",
+                    "key": "BOLT-BRAZIL-201810"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "68432c30-d492-4955-9670-3b5ff65d82ea",
+                    "productType": "video-addon",
+                    "key": "BOLT-KOREA-201812"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "91652d78-87c7-4b66-962d-4cad8bec88a5",
+                    "productType": "video-addon",
+                    "key": "Virtual-HBO-SHOWTIME-STZ-CINEMAX201903"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "bdb98f0d-74df-4a81-9bc4-9956fe5f064a",
+                    "productType": "video-addon",
+                    "key": "BOLTNOW-STZ-201810"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "d8570d30-bc06-4652-b881-3fe89d5a3a94",
+                    "productType": "video-addon",
+                    "key": "STANDNOW-JUPSHO-201804"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "638314da-65ab-4521-9d18-1eb1b4d9b096",
+                    "productType": "video-addon",
+                    "key": "BOLT-CDVR500FREE-201812"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "33055f7f-75e7-406f-8305-0ec3fc260766",
+                    "productType": "video-addon",
+                    "key": "BOLTNOW-MAX-201810"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "14f79732-f83d-41c6-942e-eece5f1e7cd0",
+                    "productType": "video-addon",
+                    "key": "STANDNOW-JUPMAX-201804"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "cdf50d81-4a30-444c-be10-8803fb43c20b",
+                    "productType": "video-accessory",
+                    "key": "HARD-APPLETV4K-201711"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "e4129e62-5159-4685-b98c-6214f2677b5b",
+                    "productType": "video-accessory",
+                    "key": "HARD-ROKUSTICK1MO-201711"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "9c92e0b8-0305-417c-8189-6be4e811c7fd",
+                    "productType": "video-device",
+                    "key": "HARD-OSPREY-042019"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "86c91288-42b5-45ca-ac4f-2ba2446f5b7e",
+                    "productType": "video-accessory",
+                    "key": "HARD-AMAZON4K1MO-201802"
+                  }
+                ]
+              }
+            ],
+            "contractApplicable": "all",
+            "migratedProduct": true,
+            "compatibleMobilityProducts": [
+              {
+                "constraints": {},
+                "products": [
+                  {
+                    "typeId": "product",
+                    "id": "6ac7e69b-de69-46ff-a6b0-8e46c35dfd7b",
+                    "productType": "video-addon",
+                    "key": "BOLT-BRAZIL-201810"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "14f79732-f83d-41c6-942e-eece5f1e7cd0",
+                    "productType": "video-addon",
+                    "key": "STANDNOW-JUPMAX-201804"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "6ad0311a-3854-4c80-894c-bb753dc2b90f",
+                    "productType": "video-addon",
+                    "key": "BOLT-DEPORTES-201802"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "33055f7f-75e7-406f-8305-0ec3fc260766",
+                    "productType": "video-addon",
+                    "key": "BOLTNOW-MAX-201810"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "d8570d30-bc06-4652-b881-3fe89d5a3a94",
+                    "productType": "video-addon",
+                    "key": "STANDNOW-JUPSHO-201804"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "c7745259-23e7-48c8-87ab-5b13d5ed3992",
+                    "productType": "video-addon",
+                    "key": "BOLT-STARZ-201610"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "43d4b98a-8201-4ae9-a9c5-2e185a13e476",
+                    "productType": "video-addon",
+                    "key": "PROMO-HBOSKINNY-201703"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "638314da-65ab-4521-9d18-1eb1b4d9b096",
+                    "productType": "video-addon",
+                    "key": "BOLT-CDVR500FREE-201812"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "4600b315-5d99-4a58-925d-e23175ae489b",
+                    "productType": "video-addon",
+                    "key": "BOLT-CINEMAX-201610"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "42b6c25c-c289-4e69-ad4d-493a1270ff5f",
+                    "productType": "video-addon",
+                    "key": "BOLT-SHOWTIME-201707"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "e29e3b17-c626-4a74-8af9-8042e6bb3eba",
+                    "productType": "video-addon",
+                    "key": "BOLT-VIETNAM-201810"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "adffa9bc-4454-4d1a-a9a7-d4d7b82045d9",
+                    "productType": "video-addon",
+                    "key": "STANDNOW-JUPHBO-201804"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "a6084aae-3e3b-442b-afe6-c40e31585001",
+                    "productType": "video-addon",
+                    "key": "BOLT-NBALP-201912"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "3e87eaaa-6865-4f03-9cc3-548a94aa5676",
+                    "productType": "video-addon",
+                    "key": "BOLT-3RDSTREAMFREE-201804"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "07797348-a102-472e-8bd6-b82dfc22ae98",
+                    "productType": "video-addon",
+                    "key": "BOLT-MVPX-201910"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "b4bac341-405e-432f-8265-d1cc54ef975f",
+                    "productType": "video-addon",
+                    "key": "Virtual-SHOWTIME-STZ-CINEMAX-EPIX201908"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "65349a6f-a0f3-443c-b9ee-5629b21e450c",
+                    "productType": "video-addon",
+                    "key": "BOLT-EPIX-201907"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "4bea941a-d78a-40b9-b2f9-62373adcec8f",
+                    "productType": "video-addon",
+                    "key": "STANDNOW-JUPSTZ-201804"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "bdb98f0d-74df-4a81-9bc4-9956fe5f064a",
+                    "productType": "video-addon",
+                    "key": "BOLTNOW-STZ-201810"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "f2144005-aece-4287-9e5f-7a34eb9544bb",
+                    "productType": "video-addon",
+                    "key": "BOLT-CDVRTIER1FREE-201711"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "68432c30-d492-4955-9670-3b5ff65d82ea",
+                    "productType": "video-addon",
+                    "key": "BOLT-KOREA-201812"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "c7230ee7-064f-4e67-a1b1-4a3915c7f967",
+                    "productType": "video-addon",
+                    "key": "Virtual--SHOWTIME-STZ-CINEMAX201903"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "7ec1a7ae-162d-40ee-8193-af110e90054a",
+                    "productType": "video-addon",
+                    "key": "BOLTNOW-SHOW-201810"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "cb8808f4-4ad4-45e5-8752-b083aa5ac1c6",
+                    "productType": "video-addon",
+                    "key": "BOLTNOW-HBO-201810"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "de06ff1b-25ef-4947-8879-7e42e40d2fcf",
+                    "productType": "video-addon",
+                    "key": "BOLT-ENESPANOL-201802"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "cdf50d81-4a30-444c-be10-8803fb43c20b",
+                    "productType": "video-accessory",
+                    "key": "HARD-APPLETV4K-201711"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "e4129e62-5159-4685-b98c-6214f2677b5b",
+                    "productType": "video-accessory",
+                    "key": "HARD-ROKUSTICK1MO-201711"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "9c92e0b8-0305-417c-8189-6be4e811c7fd",
+                    "productType": "video-device",
+                    "key": "HARD-OSPREY-042019"
+                  },
+                  {
+                    "typeId": "product",
+                    "id": "86c91288-42b5-45ca-ac4f-2ba2446f5b7e",
+                    "productType": "video-accessory",
+                    "key": "HARD-AMAZON4K1MO-201802"
+                  }
+                ]
+              }
+            ],
+            "displayName": {
+              "en": "CHOICE"
+            },
+            "billingProductCode": "BASE-CHOICE-201811",
+            "billingProductId": "6651",
+            "startDate": "2019-03-01T06:00:00.000Z",
+            "endDate": "9999-12-31T06:00:00.000Z",
+            "language": "English",
+            "removalRule": {
+              "channel": [
+                "online"
+              ],
+              "customerSegments": [
+                "All"
+              ],
+              "accountType": [
+                "ALL"
+              ]
+            },
+            "evergentProdCategory": "Subscription",
+            "serviceFlag": true,
+            "complianceRank": 10000,
+            "approvalStatus-ProductMarketing": "pending",
+            "approvalStatus-OpusSales": "pending",
+            "approvalStatus-OpusServices": "pending",
+            "approvalStatus-OnlineSales": "pending",
+            "approvalStatus-OnlineServices": "pending",
+            "approvalStatus-Biller": "pending",
+            "approvalStatus-MarketingOperations": "pending",
+            "approvalStatus-ConsumerOnlineSales": "pending",
+            "approvalStatus-CPOP": "pending"
+          },
+          "prices": [
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 11000,
+                "fractionDigits": 2,
+                "dollarAmount": "110.00"
+              },
+              "id": "e535735c-abdf-46e9-8df0-717afc6827a7",
+              "startDate": "2019-03-01T06:00:00.000Z",
+              "endDate": "9999-12-31T06:00:00.000Z",
+              "recurrenceIndicator": true,
+              "contractIndicator": "non-contract",
+              "period": "month",
+              "proRateFrequency": "daily",
+              "isGrandfathered": false,
+              "billingReferenceId": "6816"
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 11000,
+                "fractionDigits": 2,
+                "dollarAmount": "110.00"
+              },
+              "id": "058d930a-84f3-494c-bae7-3d9963e7115c",
+              "startDate": "2019-04-01T05:00:00.000Z",
+              "endDate": "2019-07-14T05:00:00.000Z",
+              "recurrenceIndicator": true,
+              "contractIndicator": "contract",
+              "period": "month",
+              "proRateFrequency": "daily",
+              "isGrandfathered": false,
+              "billingReferenceId": "7186"
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 10500,
+                "fractionDigits": 2,
+                "dollarAmount": "105.00"
+              },
+              "id": "2c8296d1-ebf3-4acb-bcbd-bb541cee2143",
+              "startDate": "2019-07-15T05:00:00.000Z",
+              "endDate": "2019-07-16T05:00:00.000Z",
+              "recurrenceIndicator": true,
+              "contractIndicator": "contract",
+              "period": "month",
+              "proRateFrequency": "daily",
+              "isGrandfathered": false,
+              "billingReferenceId": "7517"
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 11000,
+                "fractionDigits": 2,
+                "dollarAmount": "110.00"
+              },
+              "id": "1180ba6d-13d5-443e-982b-92eeb13b57cb",
+              "startDate": "2019-07-17T05:00:00.000Z",
+              "endDate": "9999-12-31T06:00:00.000Z",
+              "recurrenceIndicator": true,
+              "contractIndicator": "contract",
+              "period": "month",
+              "proRateFrequency": "daily",
+              "isGrandfathered": false,
+              "billingReferenceId": "7666"
+            }
+          ]
+        }
+      ],
+      "name": {
+        "en": "Choice"
+      },
+      "description": {
+        "en": "Choice must-haves. ##85##+ channels"
+      }
+    }
+  ]
+}

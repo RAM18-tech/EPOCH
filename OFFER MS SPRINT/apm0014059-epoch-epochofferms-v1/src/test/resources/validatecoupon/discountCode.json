@@ -1,0 +1,53 @@
+{
+  "limit": 20,
+  "offset": 0,
+  "count": 1,
+  "total": 1,
+  "results": [
+    {
+      "id": "4a670c97-4628-4402-9879-1d05e40b199d",
+      "version": 8,
+      "versionModifiedAt": "2024-01-12T12:30:03.972Z",
+      "createdAt": "2023-12-12T12:31:45.669Z",
+      "lastModifiedAt": "2024-01-12T12:30:03.972Z",
+      "lastModifiedBy": {
+        "clientId": "Vxjd_1L0y8LaupK2qWejWPOG",
+        "isPlatformClient": false
+      },
+      "createdBy": {
+        "clientId": "Vxjd_1L0y8LaupK2qWejWPOG",
+        "isPlatformClient": false
+      },
+      "code": "RECONNECT20",
+      "name": {
+        "en": "RECONNECT20"
+      },
+      "description": {
+        "en": "RECONNECT20"
+      },
+      "cartDiscounts": [
+        {
+          "typeId": "cart-discount",
+          "id": "f970c8d4-90fc-461d-b509-4efde5fd1f09"
+        }
+      ],
+      "isActive": true,
+      "maxApplications": 799995,
+      "maxApplicationsPerCustomer": 1,
+      "references": [],
+      "custom": {
+        "type": {
+          "typeId": "type",
+          "id": "c156a415-1782-433a-b5a3-e2e3e27ecc50"
+        },
+        "fields": {
+          "couponStatus": "Available",
+          "campaignCode": "RECONNECT20"
+        }
+      },
+      "validFrom": "2022-07-13T18:30:00.000Z",
+      "validUntil": "2050-08-23T18:29:00.000Z",
+      "groups": []
+    }
+  ]
+}

@@ -1,0 +1,681 @@
+{
+    "limit": 300,
+    "offset": 0,
+    "count": 2,
+    "total": 2,
+	"offers": [
+		{
+            "id": "7b1e9422-5c5c-43f9-b499-e2ab49c551f0",
+            "code": "OF_BOLTON-PEACOCK-V3_satellite",
+            "name": {
+                "en": "Peacock Premium"
+            },
+            "description": {
+                "en": "With Peacock, stream blockbuster movies, your favorite TV shows, exclusive Originals, and the biggest sporting events."
+            },
+            "startDate": "2024-10-05T07:00:00.000Z",
+            "endDate": "2050-12-31T23:59:00.000Z",
+            "attributes": {
+                "offerProductType": "video-addon",
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerProductFamily": "satellite",
+                "offerProductFamilies": [
+                    "satellite"
+                ],
+                "offerStatus": "Active",
+                "offerType": "multi-benefit",
+                "offerActionType": "Other",
+                "offerActionTypes": [
+                    "Other",
+                    "Cross-sell",
+                    "Upgrade",
+                    "Downgrade",
+                    "Retention",
+                    "Acquisition"
+                ],
+                "rank": "398",
+                "displayName": {
+                    "en": "Peacock Premium"
+                },
+                "billingId": "15",
+                "billingCode": "R120484",
+                "migratedOffer": false,
+                "associatedProducts": [
+                    {
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "dependent": false,
+                                    "anchor": false
+                                }
+                            }
+                        ],
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "productTypes": [
+                                        "video-addon"
+                                    ],
+                                    "productStatus": "Active",
+                                    "productState": "New",
+                                    "dependent": false,
+                                    "anchor": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "2701a086-f0bf-4a94-b2f7-303ad4a45396",
+                                        "typeId": "product",
+                                        "obj": {
+                                            "id": "2701a086-f0bf-4a94-b2f7-303ad4a45396",
+                                            "code": "BOLTON-PEACOCK_satellite",
+                                            "productType": {
+                                                "typeId": "product-type",
+                                                "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                                                "key": "video-addon"
+                                            },
+                                            "name": {
+                                                "en": "Peacock Premium"
+                                            },
+                                            "description": {
+                                                "en": "With Peacock, stream blockbuster movies, your favorite TV shows, exclusive Originals, and the biggest sporting events."
+                                            },
+                                            "categories": [],
+                                            "variants": [
+                                                {
+                                                    "id": "1",
+                                                    "sku": "R120484",
+                                                    "key": "R120484",
+                                                    "prices": [
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 499,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 4.99
+                                                            },
+                                                            "id": "68eeeecd-bb79-425e-b0c3-a6566894f4ad",
+                                                            "startDate": "2022-12-12T19:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "period": "month",
+                                                            "billingReferenceId": "1",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "01",
+                                                            "businessSegment": "CSH,GME,HDL,HSP,LSE,MBL,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDD,MDL,MDU,BLS,DAE,MTL,QST,SWB,VZN,FRP,PTR,JCD,JMU,TCD,TMU,TMW,ATT,CenturyLink,DTV",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10066900",
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 799,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 7.99
+                                                            },
+                                                            "id": "595bfd4f-5592-436f-97b2-0a7ed2faaaf9",
+                                                            "startDate": "2023-03-07T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "period": "month",
+                                                            "billingReferenceId": "2",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "02",
+                                                            "businessSegment": "CSH,GME,HDL,HSP,LSE,MBL,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDD,MDL,MDU,BLS,DAE,MTL,QST,SWB,VZN,FRP,PTR,JCD,JMU,TCD,TMU,TMW,ATT,CenturyLink,DTV",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10068896",
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 0
+                                                            },
+                                                            "id": "314dd5ed-25d1-4d6b-b93f-1c112f3214f7",
+                                                            "startDate": "2024-10-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "period": "month",
+                                                            "billingReferenceId": "10",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "03",
+                                                            "businessSegment": "CSH,GME,HDL,LSE,PCO,PCR,REG,RVB,MDU,CenturyLink,ATT,BLS,DAE,MTL,QST,SWB,VZN,MTS,DEM,PTR,FRP,X20",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10081273",
+                                                            "channel": "non-contracted",
+                                                            "isVisible": false,
+                                                            "subCategory": "EmbeddedSVOD",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 0
+                                                            },
+                                                            "id": "51e87faf-9574-4c9a-9f7c-8c0f3ea06b8b",
+                                                            "startDate": "2024-10-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "period": "month",
+                                                            "billingReferenceId": "15",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "04",
+                                                            "businessSegment": "CSH,GME,HDL,LSE,PCO,PCR,REG,RVB,MDU,CenturyLink,ATT,BLS,DAE,MTL,QST,SWB,VZN,MTS,DEM,PTR,FRP,X20",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10081274",
+                                                            "channel": "non-contracted",
+                                                            "isVisible": false,
+                                                            "subCategory": "EmbeddedSVOD",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        }
+                                                    ],
+                                                    "attributes": {
+                                                        "displayName": {
+                                                            "en": "Peacock Premium"
+                                                        },
+                                                        "displayRanking": 398,
+                                                        "displayNamesByKey": {
+                                                            "shortDisplayName": "Peacock Premium",
+                                                            "longDisplayName": "Peacock Premium"
+                                                        },
+                                                        "descriptionsByKey": {
+                                                            "shortDesc": "With Peacock, stream blockbuster movies, your favorite TV shows, exclusive Originals, and the biggest sporting events.",
+                                                            "longDesc": "With Peacock, stream blockbuster movies, your favorite TV shows, exclusive Originals, and the biggest sporting events."
+                                                        },
+                                                        "billingProductCode": "R120484",
+                                                        "billingCode": "R120484",
+                                                        "startDate": "2022-11-14T00:00:00.000Z",
+                                                        "endDate": "2050-12-31T23:59:00.000Z",
+                                                        "businessSegment": [
+                                                            "MDU",
+                                                            "CONS"
+                                                        ],
+                                                        "salesChannel": [
+                                                            "opusServices",
+                                                            "opusSales",
+                                                            "onlineServices",
+                                                            "onlineSales",
+                                                            "opus",
+                                                            "online"
+                                                        ],
+                                                        "productFamily": "satellite",
+                                                        "addOnType": "Subscription",
+                                                        "planSubType": "Premium",
+                                                        "language": "English",
+                                                        "productStatus": "Active",
+                                                        "contractApplicable": "noncontract",
+                                                        "contractIndicator": [
+                                                            "non-contract"
+                                                        ],
+                                                        "subCategory": "Streaming",
+                                                        "omsComponentMapping": [
+                                                            {
+                                                                "attributes": [
+                                                                    {
+                                                                        "attributeCode": "DTgenrePackage",
+                                                                        "attributeValue": "DPEAPR"
+                                                                    }
+                                                                ],
+                                                                "componentCode": "DPEAPR",
+                                                                "operationName": "MOORequest,PUSPO1Request",
+                                                                "componentPath": "ATTDTV|DPEAPR"
+                                                            }
+                                                        ],
+                                                        "customerSegments": [
+                                                            "Residential"
+                                                        ],
+                                                        "isPickService": false,
+                                                        "isAutoRenewable": false,
+                                                        "migratedProduct": false,
+                                                        "orderingMethod": "addToCart",
+                                                        "enablerPricePlanCode": "434977074",
+                                                        "tokens": "BOLTON-PEACOCK",
+                                                        "chargeCode": "DPEAPR",
+                                                        "isWorldDirect": false,
+                                                        "isETFRequired": false,
+                                                        "isRemovable": true,
+                                                        "dollarAmount": 7.99,
+                                                        "strikeThroughPrice": true,
+                                                        "productImages": "/dtvassets/sales/directv/logos/add-ons/peacock-ck.svg"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "productType": "video-addon",
+                                        "key": "BOLTON-PEACOCK_satellite"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "benefits": [],
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "customerSegments": [
+                                "Residential"
+                            ],
+                            "customerSegment": "Residential",
+                            "salesChannel": [
+                                "onlineServices",
+                                "onlineSales",
+                                "opusServices",
+                                "opusSales",
+                                "opus",
+                                "dpp",
+                                "ccap",
+                                "salesCRM",
+                                "directIntegrationPartner",
+                                "assistedSales",
+                                "online",
+                                "stb",
+                                "ipor"
+                            ],
+                            "existingCustomerType": [
+                                "Satellite"
+                            ]
+                        }
+                    ]
+                },
+                "qualifyingProductsPlanSubTypes": [
+                    "Premium"
+                ],
+                "leadOffer": false,
+                "contractIndicator": "non-contract",
+                "nonStackableCodes": "R120484,P6688",
+                "enablerSalesOfferId": "DTV_ADDON_Peacock_Premium",
+                "displayTypeByKey": [
+                    {
+                        "displayTypeKey": "iporServices",
+                        "displayTypeValue": "hide"
+                    },
+                    {
+                        "displayTypeKey": "stbServices",
+                        "displayTypeValue": "hide"
+                    },
+                    {
+                        "displayTypeKey": "onlineServices",
+                        "displayTypeValue": "hide"
+                    },
+                    {
+                        "displayTypeKey": "onlineSales",
+                        "displayTypeValue": "hide"
+                    },
+                    {
+                        "displayTypeKey": "assistedSalesSales",
+                        "displayTypeValue": "hide"
+                    },
+                    {
+                        "displayTypeKey": "directIntegrationPartnerSales",
+                        "displayTypeValue": "hide"
+                    }
+                ],
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "recommendedOfferOPUS": false,
+                "qualifyingProductsBillingProductCode": [
+                    "R120484"
+                ],
+                "bundleProductIds": [
+                    {
+                        "id": "2701a086-f0bf-4a94-b2f7-303ad4a45396",
+                        "typeId": "offer",
+                        "key": "BOLTON-PEACOCK_satellite"
+                    }
+                ],
+                "recommendedOnline": false,
+                "isVirtual": false,
+                "flashSaleOffer": false,
+                "isBulkOffer": false,
+                "isSpecialOffer": false
+            }
+        },
+		{
+            "id": "46b162b3-8603-4f12-9d0d-f2cd800fb439",
+            "code": "OF_BOLTON-PEACOCK_satellite",
+            "status": "live",
+            "name": {
+                "en": "Peacock Premium"
+            },
+            "description": {
+                "en": "With Peacock, stream blockbuster movies, your favorite TV shows, exclusive Originals, and the biggest sporting events."
+            },
+            "startDate": "2022-12-12T12:00:00.000Z",
+            "endDate": "2050-12-31T23:59:00.000Z",
+            "attributes": {
+                "offerProductType": "video-addon",
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerProductFamily": "satellite",
+                "offerProductFamilies": [
+                    "satellite"
+                ],
+                "offerStatus": "Active",
+                "offerType": "multi-benefit",
+                "offerActionType": "Other",
+                "offerActionTypes": [
+                    "Other",
+                    "Cross-sell",
+                    "Downgrade",
+                    "Upgrade"
+                ],
+                "rank": "398",
+                "displayName": {
+                    "en": "Peacock Premium"
+                },
+                "termsAndConditions": {
+                    "en": "$4.99 offer price includes $3/mo. off of Peacock Premium reg. price (currently $7.99/mo.). By selecting this offer, you agree that your subscription to Peacock Premium auto-renews monthly at the prevailing rate (currently $4.99/mo.) and that DIRECTV will charge the provided method of payment on a monthly basis, unless you cancel your subscription online via DIRECTV,com."
+                },
+                "billingId": "1",
+                "billingCode": "R120484",
+                "migratedOffer": false,
+                "associatedProducts": [
+                    {
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "dependent": false,
+                                    "anchor": false
+                                }
+                            }
+                        ],
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "productTypes": [
+                                        "video-addon"
+                                    ],
+                                    "productStatus": "Active",
+                                    "productState": "New",
+                                    "dependent": false,
+                                    "anchor": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "2701a086-f0bf-4a94-b2f7-303ad4a45396",
+                                        "typeId": "product",
+                                        "obj": {
+                                            "id": "2701a086-f0bf-4a94-b2f7-303ad4a45396",
+                                            "code": "BOLTON-PEACOCK_satellite",
+                                            "productType": {
+                                                "typeId": "product-type",
+                                                "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                                                "key": "video-addon"
+                                            },
+                                            "name": {
+                                                "en": "Peacock Premium"
+                                            },
+                                            "description": {
+                                                "en": "With Peacock, stream blockbuster movies, your favorite TV shows, exclusive Originals, and the biggest sporting events."
+                                            },
+                                            "categories": [],
+                                            "variants": [
+                                                {
+                                                    "id": "1",
+                                                    "sku": "R120484",
+                                                    "key": "R120484",
+                                                    "prices": [
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 499,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 4.99
+                                                            },
+                                                            "id": "68eeeecd-bb79-425e-b0c3-a6566894f4ad",
+                                                            "startDate": "2022-12-12T19:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "period": "month",
+                                                            "billingReferenceId": "1",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "01",
+                                                            "businessSegment": "CSH,GME,HDL,HSP,LSE,MBL,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDD,MDL,MDU,BLS,DAE,MTL,QST,SWB,VZN,FRP,PTR,JCD,JMU,TCD,TMU,TMW,ATT,CenturyLink,DTV",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10066900",
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 799,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 7.99
+                                                            },
+                                                            "id": "595bfd4f-5592-436f-97b2-0a7ed2faaaf9",
+                                                            "startDate": "2023-03-07T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "period": "month",
+                                                            "billingReferenceId": "2",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "02",
+                                                            "businessSegment": "CSH,GME,HDL,HSP,LSE,MBL,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDD,MDL,MDU,BLS,DAE,MTL,QST,SWB,VZN,FRP,PTR,JCD,JMU,TCD,TMU,TMW,ATT,CenturyLink,DTV",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10068896",
+                                                            "channel": "non-contracted",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 0
+                                                            },
+                                                            "id": "314dd5ed-25d1-4d6b-b93f-1c112f3214f7",
+                                                            "startDate": "2025-10-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "period": "month",
+                                                            "billingReferenceId": "10",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "03",
+                                                            "businessSegment": "CSH,GME,HDL,LSE,PCO,PCR,REG,RVB,MDU,CenturyLink,ATT,BLS,DAE,MTL,QST,SWB,VZN,MTS,DEM,PTR,FRP,X20",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10081273",
+                                                            "channel": "non-contracted",
+                                                            "isVisible": false,
+                                                            "subCategory": "EmbeddedSVOD",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 0
+                                                            },
+                                                            "id": "51e87faf-9574-4c9a-9f7c-8c0f3ea06b8b",
+                                                            "startDate": "2025-10-05T07:00:00.000Z",
+                                                            "endDate": "2050-12-31T23:59:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "period": "month",
+                                                            "billingReferenceId": "15",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "04",
+                                                            "businessSegment": "CSH,GME,HDL,LSE,PCO,PCR,REG,RVB,MDU,CenturyLink,ATT,BLS,DAE,MTL,QST,SWB,VZN,MTS,DEM,PTR,FRP,X20",
+                                                            "chargeType": "mrc",
+                                                            "omsProductId": "10081274",
+                                                            "channel": "non-contracted",
+                                                            "isVisible": false,
+                                                            "subCategory": "EmbeddedSVOD",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        }
+                                                    ],
+                                                    "attributes": {
+                                                        "displayName": {
+                                                            "en": "Peacock Premium"
+                                                        },
+                                                        "displayRanking": 398,
+                                                        "displayNamesByKey": {
+                                                            "shortDisplayName": "Peacock Premium",
+                                                            "longDisplayName": "Peacock Premium"
+                                                        },
+                                                        "descriptionsByKey": {
+                                                            "shortDesc": "With Peacock, stream blockbuster movies, your favorite TV shows, exclusive Originals, and the biggest sporting events.",
+                                                            "longDesc": "With Peacock, stream blockbuster movies, your favorite TV shows, exclusive Originals, and the biggest sporting events."
+                                                        },
+                                                        "billingProductCode": "R120484",
+                                                        "billingCode": "R120484",
+                                                        "startDate": "2022-11-14T00:00:00.000Z",
+                                                        "endDate": "2050-12-31T23:59:00.000Z",
+                                                        "businessSegment": [
+                                                            "MDU",
+                                                            "CONS"
+                                                        ],
+                                                        "salesChannel": [
+                                                            "opusServices",
+                                                            "opusSales",
+                                                            "onlineServices",
+                                                            "onlineSales",
+                                                            "opus",
+                                                            "online"
+                                                        ],
+                                                        "productFamily": "satellite",
+                                                        "addOnType": "Subscription",
+                                                        "planSubType": "Premium",
+                                                        "language": "English",
+                                                        "productStatus": "Active",
+                                                        "contractApplicable": "noncontract",
+                                                        "contractIndicator": [
+                                                            "non-contract"
+                                                        ],
+                                                        "subCategory": "Streaming",
+                                                        "omsComponentMapping": [
+                                                            {
+                                                                "attributes": [
+                                                                    {
+                                                                        "attributeCode": "DTgenrePackage",
+                                                                        "attributeValue": "DPEAPR"
+                                                                    }
+                                                                ],
+                                                                "componentCode": "DPEAPR",
+                                                                "operationName": "MOORequest,PUSPO1Request",
+                                                                "componentPath": "ATTDTV|DPEAPR"
+                                                            }
+                                                        ],
+                                                        "customerSegments": [
+                                                            "Residential"
+                                                        ],
+                                                        "isPickService": false,
+                                                        "isAutoRenewable": false,
+                                                        "migratedProduct": false,
+                                                        "orderingMethod": "addToCart",
+                                                        "enablerPricePlanCode": "434977074",
+                                                        "tokens": "BOLTON-PEACOCK",
+                                                        "chargeCode": "DPEAPR",
+                                                        "isWorldDirect": false,
+                                                        "isETFRequired": false,
+                                                        "isRemovable": true,
+                                                        "dollarAmount": 7.99,
+                                                        "disclosureMessagesByKey": {
+                                                            "disclosure": "$4.99 offer price includes $3/mo. off of Peacock Premium reg. price (currently $7.99/mo.). By selecting this offer, you agree that your subscription to Peacock Premium auto-renews monthly at the prevailing rate (currently $4.99/mo.) and that DIRECTV will charge the provided method of payment on a monthly basis, unless you cancel your subscription online via DIRECTV,com."
+                                                        },
+                                                        "strikeThroughPrice": true,
+                                                        "productImages": "/dtvassets/sales/directv/logos/add-ons/peacock-ck.svg"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "productType": "video-addon",
+                                        "key": "BOLTON-PEACOCK_satellite"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "benefits": [],
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "customerSegments": [
+                                "Residential"
+                            ],
+                            "customerSegment": "Residential",
+                            "salesChannel": [
+                                "opusServices",
+                                "opusSales",
+                                "onlineServices",
+                                "onlineSales",
+                                "opus",
+                                "online"
+                            ],
+                            "existingCustomerType": [
+                                "Satellite"
+                            ]
+                        }
+                    ]
+                },
+                "qualifyingProductsPlanSubTypes": [
+                    "Premium"
+                ],
+                "leadOffer": false,
+                "contractIndicator": "non-contract",
+                "nonStackableCodes": "B120668",
+                "offerChoiceGroup": [
+                    {
+                        "groupName": "MEP_PEACOCK_INCLUDED",
+                        "groupSelection": "Individual",
+                        "groupDesignation": "Optional",
+                        "groupSelectionCount": "1"
+                    }
+                ],
+                "strikeThroughOffer": true,
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "recommendedOfferOPUS": false,
+                "qualifyingProductsBillingProductCode": [
+                    "R120484"
+                ],
+                "bundleProductIds": [
+                    {
+                        "id": "2701a086-f0bf-4a94-b2f7-303ad4a45396",
+                        "typeId": "offer",
+                        "key": "BOLTON-PEACOCK_satellite"
+                    }
+                ],
+                "billingSystem": "stms",
+                "recommendedOnline": false,
+                "isVirtual": false,
+                "flashSaleOffer": false,
+                "isBulkOffer": false,
+                "isSpecialOffer": false
+            }
+        }
+	]
+}

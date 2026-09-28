@@ -1,0 +1,54 @@
+{
+    "limit": 20,
+    "offset": 0,
+    "count": 1,
+    "total": 1,
+    "results": [
+        {
+            "id": "e2bb9778-ae87-4448-ac7a-0d03fc0100c3",
+            "version": 1,
+            "versionModifiedAt": "2024-08-12T12:47:39.300Z",
+            "lastMessageSequenceNumber": 1,
+            "createdAt": "2024-08-12T12:47:39.300Z",
+            "lastModifiedAt": "2024-08-12T12:47:39.300Z",
+            "lastModifiedBy": {
+                "clientId": "Vxjd_1L0y8LaupK2qWejWPOG",
+                "isPlatformClient": false
+            },
+            "createdBy": {
+                "clientId": "Vxjd_1L0y8LaupK2qWejWPOG",
+                "isPlatformClient": false
+            },
+            "code": "DIRECTV100",
+            "name": {
+                "en": "DIRECTV100"
+            },
+            "description": {
+                "en": "DIRECTV100"
+            },
+            "cartDiscounts": [
+                {
+                    "typeId": "cart-discount",
+                    "id": "7b2c9ef0-5213-4638-aab3-1b265312ee3c"
+                }
+            ],
+            "isActive": true,
+            "maxApplications": 1,
+            "maxApplicationsPerCustomer": 1,
+            "references": [],
+            "custom": {
+                "type": {
+                    "typeId": "type",
+                    "id": "c156a415-1782-433a-b5a3-e2e3e27ecc50"
+                },
+                "fields": {
+                    "couponStatus": "Available",
+                    "campaignCode": "DIRECTV100"
+                }
+            },
+            "validFrom": "2024-08-01T07:00:00.000Z",
+            "validUntil": "2050-12-31T23:59:00.000Z",
+            "groups": []
+        }
+    ]
+}

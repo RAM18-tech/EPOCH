@@ -1,0 +1,35 @@
+{
+    "customerSegments": "Residential",
+    "businessSegment": "CONS",
+    "salesChannel": "online",
+    "offerProductFamily": "satellite",
+    "offerActionType": [
+        "Acquisition"
+    ],
+    "contractIndicator": [
+        "non-contract"
+    ],
+    "offerProductTypes": [
+        "Campaign"
+    ],
+    "cartContext": {
+        "cartOffers": [
+            {
+                "offerCode": "OF_BASE-PREMIER-ALL-INCLUDED_sales_satellite",
+                "action": "ADD"
+            },
+            {
+                "offerCode": "OF_BOLTON-HISTORY-VAULT_satellite",
+                "action": "ADD"
+            },
+            {
+                "offerCode": "OF_DEVICE-GENIE-HD-DVR_sales_satellite",
+                "action": "ADD"
+            }
+        ]
+    },
+    "reconnectCustomer": false,
+    "couponCodes": [
+        "DIRECTV100"
+    ]
+}

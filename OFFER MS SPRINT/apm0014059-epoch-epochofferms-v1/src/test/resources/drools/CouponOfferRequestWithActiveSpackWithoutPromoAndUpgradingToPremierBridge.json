@@ -1,0 +1,169 @@
+{
+  "accountTypes": "MDUTenant",
+  "businessSegment": "MDU",
+  "customerSegments": "MDUTenant",
+  "contractIndicator": [
+    "EDSP"
+  ],
+  "swimlaneSwitchEligible": false,
+  "decisioningFlow": false,
+  "cartContext": {
+    "cartOffers": [
+      {
+        "offerCode": "OF_BASE-CHOICE-201811_TAZBYOD_RECONN",
+        "action": "ADD"
+      },
+      {
+        "offerCode": "OF_UNLTDCDVR2021_TAZBYOD",
+        "action": "ADD"
+      },
+      {
+        "offerCode": "OF_BOLT-20STREAMS-202010_TAZBYOD",
+        "action": "ADD"
+      }
+    ],
+    "cartProducts": [
+      {
+        "productCode": "BRIDGE-ENTTOPREM-202204",
+        "action": "Add"
+      },
+      {
+        "productCode": "BOLT-SPACK-202222",
+        "action": "Add"
+      },
+      {
+        "productCode": "BASE-ENTERTAINMENT-201811",
+        "action": "Remove"
+      }
+    ]
+  },
+  "benefitsCustomerHasReceived": [
+    {
+      "benefitCode": "2OFFAMCLT",
+      "startDate": "06/09/2023",
+      "endDate": "09/09/2023"
+    }
+  ],
+  "customerContext": {
+    "existingProductFamily": [
+      {
+        "productFamily": "OTT"
+      }
+    ],
+    "OTT": {
+      "products": [
+        {
+          "basePrice": "0.0",
+          "productCode": "BOLT-CDVRUNLIMITED-202101",
+          "productType": "video-addon",
+          "promotions": [
+            {
+              "promotionId": "UNLTDCDVR",
+              "promotionStartDate": "06/27/2023"
+            }
+          ]
+        },
+        {
+          "basePrice": "0.0",
+          "productCode": "HARD-OSPREY-202204",
+          "productType": "video-device",
+          "promotions": [
+            {
+              "promotionId": "DTVSTREAMFREE",
+              "promotionStartDate": "06/27/2023"
+            }
+          ]
+        },
+        {
+          "basePrice": "0.0",
+          "productCode": "HARD-OSPREY-202204",
+          "productType": "video-device",
+          "promotions": [
+            {
+              "promotionId": "DTVSTREAMFREE",
+              "promotionStartDate": "06/27/2023"
+            }
+          ]
+        },
+        {
+          "basePrice": "0.0",
+          "productCode": "BASE-ENTERTAINMENT-201811",
+          "productType": "video-plan"
+        },
+        {
+          "basePrice": "0.0",
+          "productCode": "BOLT-20STREAMS-202010",
+          "productType": "video-addon"
+        },
+        {
+          "basePrice": "0.0",
+          "productCode": "BOLT-HBOCMX-202204",
+          "productType": "video-addon"
+        },
+        {
+          "basePrice": "0.0",
+          "productCode": "BOLT-FOXN-202222",
+          "productType": "video-addon"
+        },
+        {
+          "basePrice": "0.0",
+          "productCode": "BOLT-AMC-202106",
+          "productType": "video-addon",
+          "promotions": [
+            {
+              "promotionId": "2OFFAMCLT",
+              "promotionStartDate": "06/27/2023"
+            }
+          ]
+        },
+        {
+          "basePrice": "0.0",
+          "productCode": "BOLT-SPACK-202222",
+          "productType": "video-addon",
+          "promotions": [
+            {
+              "promotionId": "3MOSPACKFREE",
+              "promotionStartDate": "06/27/2023"
+            }
+          ]
+        },
+        {
+          "basePrice": "0.0",
+          "productCode": "HARD-OSPREY-202204",
+          "productType": "video-device",
+          "promotions": [
+            {
+              "promotionId": "DTVSTREAMFREE",
+              "promotionStartDate": "06/27/2023"
+            }
+          ]
+        }
+      ],
+      "accountNumber": "423062159156511",
+      "isActive": true,
+      "retentionPromotionIndicator": false,
+      "accountType": "COURTESY",
+      "nextBillingDate": "11/27/2023",
+      "parentSubscriptionDate": "06/28/2023",
+      "accountStatus": "ACTIVE",
+      "isProjectedBillDate": false
+    }
+  },
+  "customerAddress": {
+    "zipCode": "33913"
+  },
+  "offerActionType": [
+    "Upgrade",
+    "Downgrade",
+    "Cross-sell",
+    "Other"
+  ],
+  "offerProductFamily": "OTT",
+  "salesChannel": "directvOnline",
+  "offerProductTypes": [
+    "video-plan",
+    "video-addon",
+    "fee",
+    "protection-plan"
+  ]
+}

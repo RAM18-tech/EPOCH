@@ -1,0 +1,1973 @@
+{
+  "limit": 300,
+  "offset": 0,
+  "count": 7,
+  "total": 7,
+  "offers": [
+    {
+      "id": "7e1c150c-75d6-4ade-bc7f-0e0f76b1ea65",
+      "code": "OF_BOLTON-SHOWTIME_satellite",
+      "status": "live",
+      "name": {
+        "en": "SHOWTIME"
+      },
+      "description": {
+        "en": "Experience entertainment like never before with bold original films and series you won't see on any other premium network. SHOWTIME® is also America's #1 boxing network. SHOWTIME UNLIMITED includes 13 channels, 10 in HD. "
+      },
+      "startDate": "2002-01-30T05:00:00.000Z",
+      "endDate": "2050-12-31T05:00:00.000Z",
+      "attributes": {
+        "offerProductType": "video-addon",
+        "offerProductTypes": [
+          "video-addon"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Other",
+        "offerActionTypes": [
+          "Other",
+          "Downgrade",
+          "Upgrade",
+          "Acquisition",
+          "Cross-sell"
+        ],
+        "environment": "",
+        "rank": "220",
+        "displayName": {
+          "en": "SHOWTIME"
+        },
+        "termsAndConditions": {
+          "en": "By subscribing you will be billed $10.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance."
+        },
+        "billingId": "1",
+        "billingCode": "P2142",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-addon"
+                  ],
+                  "productStatus": "Active",
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "d93af126-180b-4e06-b136-b4a486669777",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "d93af126-180b-4e06-b136-b4a486669777",
+                      "code": "BOLTON-SHOWTIME_satellite",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                        "key": "video-addon"
+                      },
+                      "name": {
+                        "en": "SHOWTIME"
+                      },
+                      "description": {
+                        "en": "Experience entertainment like never before with bold original films and series you won't see on any other premium networks. SHOWTIME® is also America's #1 boxing network. SHOWTIME UNLIMITED includes 13 channels, 10 in HD. "
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "sku": "P2142",
+                          "key": "P2142",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 1099,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 10.99
+                              },
+                              "id": "6842fc37-d8b6-467a-8367-e18789b052ae",
+                              "startDate": "2021-04-02T00:00:00.000Z",
+                              "endDate": "2023-04-02T00:00:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "period": "month",
+                              "billingReferenceId": "1",
+                              "gfVersion": 0,
+                              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+                              "chargeType": "mrc",
+                              "omsProductId": "2440",
+                              "grandfathered": false,
+                              "contracted": false
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "SHOWTIME"
+                            },
+                            "displayRanking": 220,
+                            "displayNamesByKey": {
+                              "name-cpc": "SHOWTIME"
+                            },
+                            "descriptionsByKey": {
+                              "short-myatt": "test"
+                            },
+                            "billingProductCode": "P2142",
+                            "billingCode": "P2142",
+                            "startDate": "2016-03-18T05:00:00.000Z",
+                            "endDate": "9999-12-31T06:00:00.000Z",
+                            "businessSegment": [
+                              "MDU",
+                              "CONS"
+                            ],
+                            "salesChannel": [
+                              "onlineSales",
+                              "onlineServices",
+                              "opusSales",
+                              "opusServices",
+                              "partnerSales",
+                              "partnerServices"
+                            ],
+                            "productFamily": "satellite",
+                            "removalRule": {
+                              "channel": [],
+                              "accountType": [
+                                "ALL"
+                              ]
+                            },
+                            "addOnType": "Programming-Bolt-on",
+                            "planSubType": "Premium",
+                            "displayType": "optional",
+                            "language": "English",
+                            "productStatus": "Active",
+                            "contractApplicable": "noncontract",
+                            "contractIndicator": [
+                              "non-contract"
+                            ],
+                            "subCategory": "Premium",
+                            "omsComponentMapping": [
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "PickCode",
+                                    "attributeValue": "P0029"
+                                  }
+                                ],
+                                "componentCode": "PickDV",
+                                "componentPath": "PickDV"
+                              },
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "DTgenrePackage",
+                                    "attributeValue": "SHOWTIMEDV"
+                                  }
+                                ],
+                                "componentCode": "SHOWTIMEDV",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV|SHOWTIMEDV"
+                              }
+                            ],
+                            "customerSegments": [
+                              "Residential"
+                            ],
+                            "isPickService": true,
+                            "isAutoRenewable": false,
+                            "termsAndConditions": {
+                              "en": "By subscribing you will be billed $10.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+                            },
+                            "specifications": [
+                              {
+                                "text": "custom",
+                                "displayRank": 1
+                              }
+                            ],
+                            "conflictingProducts": [],
+                            "migratedProduct": false,
+                            "omsProductCode": "SHOWTIMEDV",
+                            "orderingMethod": "addToCart",
+                            "enablerPricePlanCode": "88830604",
+                            "tokens": "showtime",
+                            "chargeCode": "DTVPIC",
+                            "isWorldDirect": false,
+                            "isETFRequired": false,
+                            "isRemovable": false,
+                            "billingParams": [
+                              {
+                                "value": "P0029",
+                                "name": "PickCode"
+                              }
+                            ],
+                            "pick5Mask": "4",
+                            "dollarAmount": 10.99,
+                            "enablerATGProductId": "prod8370240",
+                            "enablerATGSkuId": "sku7680293",
+                            "productImages": "/cms2/product_catalog/premiums/Showtime.gif"
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "video-addon",
+                    "key": "BOLTON-SHOWTIME_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "salesChannel": [
+                "opusServices",
+                "onlineServices",
+                "opusSales",
+                "onlineSales",
+                "opus",
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "offerPromos": [
+          [
+            {
+              "value": "EDSPSHO3MON",
+              "name": "promoId"
+            },
+            {
+              "value": "10/04/2020",
+              "name": "startDateStr"
+            },
+            {
+              "value": "12/31/9999",
+              "name": "endDateStr"
+            }
+          ]
+        ],
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+    {
+      "id": "0d300379-ea62-4133-aaad-3e8dc4b040b7",
+      "code": "OF_BOLTON-STARZ_satellite",
+      "status": "live",
+      "name": {
+        "en": "STARZ"
+      },
+      "description": {
+        "en": "Over 1,000 different movies a month playing on 15 different STARZ&reg; and STARZENCORESM channels. ObsessableSM TV, movies and more, STARZ&reg; has it all. DIRECTV has the entire STARZ&reg; lineup, including new HD channels."
+      },
+      "startDate": "2002-01-30T05:00:00.000Z",
+      "endDate": "2050-12-31T05:00:00.000Z",
+      "attributes": {
+        "offerProductType": "video-addon",
+        "offerProductTypes": [
+          "video-addon"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Acquisition",
+        "offerActionTypes": [
+          "Acquisition",
+          "Other",
+          "Downgrade",
+          "Upgrade",
+          "Cross-sell"
+        ],
+        "environment": "",
+        "rank": "230",
+        "displayName": {
+          "en": "STARZ"
+        },
+        "termsAndConditions": {
+          "en": "By subscribing you will be billed $10.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance."
+        },
+        "billingId": "1",
+        "billingCode": "P2141",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-addon"
+                  ],
+                  "productStatus": "Active",
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "7a74b437-279c-430f-ab56-3753cd987a15",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "7a74b437-279c-430f-ab56-3753cd987a15",
+                      "code": "BOLTON-STARZ_satellite",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                        "key": "video-addon"
+                      },
+                      "name": {
+                        "en": "STARZ"
+                      },
+                      "description": {
+                        "en": "Over 1,000 different movies a month playing on 15 different STARZ&reg; and STARZENCORESM channels. ObsessableSM TV, movies and more, STARZ&reg; has it all. DIRECTV has the entire STARZ&reg; lineup, including new HD channels."
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "sku": "P2141",
+                          "key": "P2141",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 1099,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 10.99
+                              },
+                              "id": "036011a1-8e01-4d6b-a5fc-6b0138b608e8",
+                              "startDate": "2021-04-02T00:00:00.000Z",
+                              "endDate": "2023-04-02T00:00:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "period": "month",
+                              "billingReferenceId": "1",
+                              "gfVersion": 0,
+                              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+                              "chargeType": "mrc",
+                              "grandfatherVersion": 0,
+                              "omsProductId": "2439",
+                              "grandfathered": false,
+                              "contracted": false
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "STARZ"
+                            },
+                            "displayRanking": 230,
+                            "displayNamesByKey": {
+                              "services": "STARZ<sup>&#174;</sup>"
+                            },
+                            "billingProductCode": "P2141",
+                            "billingCode": "P2141",
+                            "startDate": "2002-01-30T05:00:00.000Z",
+                            "endDate": "2050-12-31T05:00:00.000Z",
+                            "businessSegment": [
+                              "MDU",
+                              "CONS"
+                            ],
+                            "salesChannel": [
+                              "opus",
+                              "online",
+                              "onlineSales",
+                              "onlineServices",
+                              "opusSales",
+                              "opusServices"
+                            ],
+                            "productFamily": "satellite",
+                            "removalRule": {
+                              "channel": [],
+                              "accountType": [
+                                "ALL"
+                              ]
+                            },
+                            "planSubType": "Premium",
+                            "language": "English",
+                            "productStatus": "Active",
+                            "contractApplicable": "noncontract",
+                            "contractIndicator": [
+                              "non-contract"
+                            ],
+                            "subCategory": "Premium",
+                            "omsComponentMapping": [
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "PickCode",
+                                    "attributeValue": "P0027"
+                                  }
+                                ],
+                                "componentCode": "PickDV",
+                                "componentPath": "PickDV"
+                              },
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "DTgenrePackage",
+                                    "attributeValue": "STARZDV"
+                                  }
+                                ],
+                                "componentCode": "STARZDV",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV|STARZDV"
+                              }
+                            ],
+                            "customerSegments": [
+                              "Residential"
+                            ],
+                            "isPickService": true,
+                            "isAutoRenewable": false,
+                            "termsAndConditions": {
+                              "en": "By subscribing you will be billed $10.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+                            },
+                            "removalRuleByChannel": {
+                              "actionRule": [
+                                {
+                                  "salesChannel": "onlineServices",
+                                  "businessSegment": "CONS",
+                                  "customerSegments": "Employee",
+                                  "userType": "Customer",
+                                  "flowActionType": "change",
+                                  "actionIndicator": false
+                                }
+                              ]
+                            },
+                            "conflictingProducts": [],
+                            "migratedProduct": false,
+                            "omsProductCode": "STARZDV",
+                            "orderingMethod": "addToCart",
+                            "enablerPricePlanCode": "88830604",
+                            "tokens": "starz",
+                            "chargeCode": "DTVPIC",
+                            "isWorldDirect": false,
+                            "isETFRequired": false,
+                            "isRemovable": false,
+                            "billingParams": [
+                              {
+                                "value": "P0027",
+                                "name": "PickCode"
+                              }
+                            ],
+                            "pick5Mask": "2",
+                            "dollarAmount": 10.99,
+                            "enablerATGProductId": "prod8370239",
+                            "enablerATGSkuId": "sku7680289",
+                            "productImages": "/content/dam/dtv/directv_entertainment/premiums/starz_logo.png"
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [
+          {
+            "benefitCategory": "Product",
+            "id": "a5407040-6c67-49fc-a73d-1aa80c3f0204",
+            "code": "PROMO_BOLTON-8-OFF-STARZ-3-MO_satellite",
+            "billingBenefitCode": "89036413",
+            "benefitName": {
+              "en": "$8 off Starz for 3 months"
+            },
+            "benefitDisplayName": {
+              "en": "$8 off Starz for 3 months"
+            },
+            "benefitRank": 4900,
+            "description": {
+              "en": "$8 off Starz for 3 months"
+            },
+            "startDate": "2021-07-17T00:00:00.000Z",
+            "retIoApplicableProducts": false,
+            "endDate": "2049-12-31T23:59:00.000Z",
+            "contractIndicator": "contract",
+            "selfBenefit": false,
+            "duration": 3,
+            "period": "NoOfMonths",
+            "billAfterPeriod": false,
+            "applicableProducts": [
+              {
+                "products": [
+                  {
+                    "id": "7a74b437-279c-430f-ab56-3753cd987a15",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-STARZ_satellite"
+                  }
+                ]
+              }
+            ],
+            "maxOccurrence": 0,
+            "benefitType": "flat-off",
+            "value": {
+              "centAmount": 800,
+              "currencyCode": "USD",
+              "fractionDigits": 2,
+              "dollarAmount": 8
+            },
+            "freeTrialPromo": false,
+            "ioOffer": false,
+            "freeTrialDuration": 0,
+            "agentOffer": false,
+            "minQuantity": 0,
+            "promoPriority": 0,
+            "benefitLevel": "product",
+            "notApplibaleForOffer": false,
+            "enableServiceDisconnect": false,
+            "rtpIndicator": true,
+            "portin": false,
+            "benefitSaleType": "A",
+            "segment": [
+              "residential"
+            ],
+            "businessSegment": [
+              "MDU"
+            ],
+            "salesChannels": [
+              "online"
+            ],
+            "benefitActionType": [
+              "UP"
+            ],
+            "gfVersion": "0",
+            "enablerPromotionCode": "DS2307",
+            "locationType": "nation",
+            "location": "US",
+            "active": true,
+            "migrated": false,
+            "quotaBased": false,
+            "couponPromo": false,
+            "isDependentPromo": false,
+            "isMigrated": false,
+            "isQuotaBased": false,
+            "isActive": true
+          }
+        ],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "salesChannel": [
+                "opusServices",
+                "onlineServices",
+                "opusSales",
+                "onlineSales",
+                "opus",
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "offerPromos": [
+          [
+            {
+              "value": "EDSPSTZ3MON",
+              "name": "promoId"
+            },
+            {
+              "value": "10/04/2020",
+              "name": "startDateStr"
+            },
+            {
+              "value": "12/31/9999",
+              "name": "endDateStr"
+            }
+          ]
+        ],
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+    {
+      "id": "aca13597-1095-4661-933d-a9f6fc429821",
+      "code": "OF_BOLTON-CINEMAX_satellite",
+      "status": "live",
+      "name": {
+        "en": "Cinemax"
+      },
+      "description": {
+        "en": "With over 1,600 different movies a year, Cinemax features the fewest repeats of any premium service and a new movie premiere every Saturday night. "
+      },
+      "startDate": "2002-01-30T05:00:00.000Z",
+      "endDate": "2050-12-31T05:00:00.000Z",
+      "attributes": {
+        "offerProductType": "video-addon",
+        "offerProductTypes": [
+          "video-addon"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Other",
+        "offerActionTypes": [
+          "Other",
+          "Downgrade",
+          "Upgrade",
+          "Acquisition",
+          "Cross-sell"
+        ],
+        "environment": "",
+        "rank": "228",
+        "displayName": {
+          "en": "CINEMAX"
+        },
+        "termsAndConditions": {
+          "en": "By subscribing you will be billed $10.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance."
+        },
+        "billingId": "1",
+        "billingCode": "P2143",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-addon"
+                  ],
+                  "productStatus": "Active",
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "2866ce11-08df-42a5-af2d-ac7eb3a0705b",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "2866ce11-08df-42a5-af2d-ac7eb3a0705b",
+                      "code": "BOLTON-CINEMAX_satellite",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                        "key": "video-addon"
+                      },
+                      "name": {
+                        "en": "Cinemax"
+                      },
+                      "description": {
+                        "en": "With over 1,600 different movies a year, Cinemax features the fewest repeats of any premium service and a new movie premiere every Saturday night. "
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "sku": "P2143",
+                          "key": "P2143",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 1099,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 10.99
+                              },
+                              "id": "684a51af-7b83-452c-83ae-e03b0c4f231b",
+                              "startDate": "2021-04-02T00:00:00.000Z",
+                              "endDate": "2050-12-31T23:59:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "period": "month",
+                              "billingReferenceId": "1",
+                              "gfVersion": 0,
+                              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+                              "chargeType": "mrc",
+                              "grandfatherVersion": 0,
+                              "omsProductId": "2441",
+                              "grandfathered": false,
+                              "contracted": false
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "CINEMAX"
+                            },
+                            "displayRanking": 228,
+                            "displayNamesByKey": {
+                              "services": "Cinemax<sup>&#174;</sup>",
+                              "name-cpc": "CINEMAX"
+                            },
+                            "billingProductCode": "P2143",
+                            "billingCode": "P2143",
+                            "startDate": "2002-01-30T05:00:00.000Z",
+                            "endDate": "2050-12-31T05:00:00.000Z",
+                            "businessSegment": [
+                              "MDU",
+                              "CONS"
+                            ],
+                            "salesChannel": [
+                              "opus",
+                              "online",
+                              "onlineSales",
+                              "onlineServices",
+                              "opusSales",
+                              "opusServices"
+                            ],
+                            "productFamily": "satellite",
+                            "removalRule": {
+                              "channel": [],
+                              "accountType": [
+                                "ALL"
+                              ]
+                            },
+                            "planSubType": "Premium",
+                            "displayType": "optional",
+                            "language": "English",
+                            "productStatus": "Active",
+                            "contractApplicable": "noncontract",
+                            "contractIndicator": [
+                              "non-contract"
+                            ],
+                            "subCategory": "Premium",
+                            "omsComponentMapping": [
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "PickCode",
+                                    "attributeValue": "P0031"
+                                  }
+                                ],
+                                "componentCode": "PickDV",
+                                "componentPath": "PickDV"
+                              },
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "DTgenrePackage",
+                                    "attributeValue": "CINEMAXDV"
+                                  }
+                                ],
+                                "componentCode": "CINEMAXDV",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV|CINEMAXDV"
+                              }
+                            ],
+                            "customerSegments": [
+                              "Residential"
+                            ],
+                            "isPickService": true,
+                            "isAutoRenewable": false,
+                            "termsAndConditions": {
+                              "en": "By subscribing you will be billed $10.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+                            },
+                            "conflictingProducts": [],
+                            "migratedProduct": false,
+                            "omsProductCode": "CINEMAXDV",
+                            "orderingMethod": "addToCart",
+                            "enablerPricePlanCode": "88830604",
+                            "tokens": "Cinemax",
+                            "chargeCode": "DTVPIC",
+                            "isWorldDirect": false,
+                            "isETFRequired": false,
+                            "isRemovable": false,
+                            "billingParams": [
+                              {
+                                "value": "P0031",
+                                "name": "PickCode"
+                              }
+                            ],
+                            "pick5Mask": "8",
+                            "dollarAmount": 10.99,
+                            "enablerATGProductId": "prod8370238",
+                            "enablerATGSkuId": "sku7680287",
+                            "productImages": "/cms2/product_catalog/premiums/Cinemax.gif"
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "video-addon",
+                    "key": "BOLTON-CINEMAX_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "customerSegment": "Residential",
+              "salesChannel": [
+                "opusServices",
+                "onlineServices",
+                "opusSales",
+                "onlineSales",
+                "opus",
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "offerPromos": [
+          [
+            {
+              "value": "10%OFFONMO",
+              "name": "promoId"
+            },
+            {
+              "value": "11/02/2018",
+              "name": "startDateStr"
+            },
+            {
+              "value": "11/02/2018",
+              "name": "endDateStr"
+            }
+          ]
+        ],
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+    {
+      "id": "1e518d9c-a9b5-4088-a771-85bfd74b2a6e",
+      "code": "OF_BOLTON-HBO-MAX_satellite",
+      "status": "live",
+      "name": {
+        "en": "HBO Max"
+      },
+      "description": {
+        "en": "HBO Max. All of HBO together with the greatest collection of movies, shows and new Max Originals. Includes HBO channels and HBO on Demand. Access HBO Max only through HBO Max app or hbomax.com. HBO Max also includes HBO channels and HBO On Demand on DIRECTV."
+      },
+      "startDate": "2007-03-01T05:00:00.000Z",
+      "endDate": "2050-12-31T08:00:00.000Z",
+      "attributes": {
+        "offerProductType": "video-addon",
+        "offerProductTypes": [
+          "video-addon"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Other",
+        "offerActionTypes": [
+          "Other",
+          "Cross-sell",
+          "Downgrade",
+          "Upgrade",
+          "Acquisition"
+        ],
+        "environment": "",
+        "rank": "210",
+        "displayName": {
+          "en": "HBO Max"
+        },
+        "termsAndConditions": {
+          "en": "By subscribing you will be billed $14.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance."
+        },
+        "billingId": "1",
+        "billingCode": "P2140",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-addon"
+                  ],
+                  "productStatus": "Active",
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "aa33dddf-bdf5-4963-bd96-9d28d16beaa5",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "aa33dddf-bdf5-4963-bd96-9d28d16beaa5",
+                      "code": "BOLTON-HBO-MAX_satellite",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                        "key": "video-addon"
+                      },
+                      "name": {
+                        "en": "HBO Max"
+                      },
+                      "description": {
+                        "en": "HBO Max. All of HBO together with the greatest collection of movies, shows and new Max Originals. Includes HBO channels and HBO on Demand. Access HBO Max only through HBO Max app or hbomax.com. HBO Max also includes HBO channels and HBO On Demand on DIRECTV."
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "sku": "P2140",
+                          "key": "P2140",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 1499,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 14.99
+                              },
+                              "id": "344fe1c6-d552-4449-9e1d-01acecdc12ad",
+                              "startDate": "2021-04-02T00:00:00.000Z",
+                              "endDate": "2050-12-31T23:59:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "period": "month",
+                              "billingReferenceId": "1",
+                              "gfVersion": 0,
+                              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+                              "chargeType": "mrc",
+                              "grandfatherVersion": 0,
+                              "omsProductId": "2438",
+                              "grandfathered": false,
+                              "contracted": false
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "HBO Max"
+                            },
+                            "displayRanking": 210,
+                            "displayNamesByKey": {
+                              "name-cpc": "HBO Max <sup>&#8482;</sup>"
+                            },
+                            "billingProductCode": "P2140",
+                            "billingCode": "P2140",
+                            "startDate": "2007-03-01T05:00:00.000Z",
+                            "endDate": "2050-12-31T05:00:00.000Z",
+                            "businessSegment": [
+                              "MDU",
+                              "CONS"
+                            ],
+                            "salesChannel": [
+                              "onlineSales",
+                              "onlineServices",
+                              "opusSales",
+                              "opusServices",
+                              "partnerSales",
+                              "partnerServices"
+                            ],
+                            "productFamily": "satellite",
+                            "removalRule": {
+                              "channel": [],
+                              "accountType": [
+                                "NONE"
+                              ]
+                            },
+                            "planSubType": "Premium",
+                            "language": "English",
+                            "productStatus": "Active",
+                            "contractApplicable": "noncontract",
+                            "contractIndicator": [
+                              "non-contract"
+                            ],
+                            "subCategory": "Premium",
+                            "omsComponentMapping": [
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "PickCode",
+                                    "attributeValue": "P0030"
+                                  }
+                                ],
+                                "componentCode": "PickDV",
+                                "componentPath": "PickDV"
+                              },
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "DTgenrePackage",
+                                    "attributeValue": "HBODV"
+                                  }
+                                ],
+                                "componentCode": "HBODV",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV|HBODV"
+                              }
+                            ],
+                            "customerSegments": [
+                              "Residential"
+                            ],
+                            "isPickService": true,
+                            "isAutoRenewable": false,
+                            "termsAndConditions": {
+                              "en": "By subscribing you will be billed $14.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+                            },
+                            "conflictingProducts": [],
+                            "migratedProduct": false,
+                            "omsProductCode": "HBODV",
+                            "orderingMethod": "addToCart",
+                            "enablerPricePlanCode": "88830604",
+                            "tokens": "hbo",
+                            "chargeCode": "DTVPIC",
+                            "isWorldDirect": false,
+                            "isETFRequired": false,
+                            "isRemovable": false,
+                            "billingParams": [
+                              {
+                                "value": "P0030",
+                                "name": "PickCode"
+                              }
+                            ],
+                            "pick5Mask": "1",
+                            "dollarAmount": 14.99,
+                            "enablerATGProductId": "prod8370258",
+                            "enablerATGSkuId": "sku7680296",
+                            "productImages": "/cms2/product_catalog/premiums/HBOmax_logo.gif"
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "video-addon",
+                    "key": "BOLTON-HBO-MAX_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "customerSegment": "Residential",
+              "salesChannel": [
+                "opusSales",
+                "opusServices",
+                "onlineServices",
+                "onlineSales",
+                "opus",
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "offerPromos": [],
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+    {
+      "id": "911cfa1b-3782-4fa4-b2dd-1590676ddaff",
+      "code": "OF_BOLTON-DIRECTV-SPORTS-PACK_satellite",
+      "status": "live",
+      "name": {
+        "en": "DIRECTV Sports Pack"
+      },
+      "description": {
+        "en": "Feed your sports obsession. From professional and college sports to international soccer to fly-fishing &#151; SPORTS PACK has you covered with specialty sports networks, as well as over 20 regional sports networks."
+      },
+      "startDate": "2002-01-29T18:30:00.000Z",
+      "endDate": "2050-12-30T18:30:00.000Z",
+      "attributes": {
+        "offerProductType": "video-addon",
+        "offerProductTypes": [
+          "video-addon"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Acquisition",
+        "offerActionTypes": [
+          "Acquisition",
+          "Other",
+          "Downgrade",
+          "Upgrade",
+          "Cross-sell"
+        ],
+        "rank": "250",
+        "displayName": {
+          "en": "DIRECTV Sports Pack"
+        },
+        "termsAndConditions": {
+          "en": "By subscribing you will be billed $13.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance."
+        },
+        "billingId": "1",
+        "billingCode": "P2144",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productStatus": "Active",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-addon"
+                  ],
+                  "productStatus": "Active",
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "33ec21d6-f79b-48b3-a1b1-4f6c0e76e136",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "33ec21d6-f79b-48b3-a1b1-4f6c0e76e136",
+                      "code": "BOLTON-DIRECTV-SPORTS-PACK_satellite",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                        "key": "video-addon"
+                      },
+                      "name": {
+                        "en": "DirecTV Sports Pack"
+                      },
+                      "description": {
+                        "en": "Feed your sports obsession. From professional and college sports to international soccer to fly-fishing &#151; SPORTS PACK has you covered with specialty sports networks, as well as over 20 regional sports networks."
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "sku": "P2144",
+                          "key": "P2144",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 1399,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 13.99
+                              },
+                              "id": "3268613f-bc9b-4e65-bd58-fd55ad56de52",
+                              "startDate": "1990-01-01T18:30:00.000Z",
+                              "endDate": "2049-12-31T00:00:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "period": "month",
+                              "billingReferenceId": "1",
+                              "gfVersion": 0,
+                              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink,residential",
+                              "chargeType": "mrc",
+                              "grandfatherVersion": 0,
+                              "omsProductId": "2442",
+                              "grandfathered": false,
+                              "contracted": false
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "DIRECTV SPORTS PACK"
+                            },
+                            "displayRanking": 250,
+                            "billingProductCode": "P2144",
+                            "billingCode": "P2144",
+                            "startDate": "2002-01-29T18:30:00.000Z",
+                            "endDate": "2050-12-30T18:30:00.000Z",
+                            "businessSegment": [
+                              "MDU",
+                              "CONS"
+                            ],
+                            "salesChannel": [
+                              "opusServices",
+                              "opusSales",
+                              "onlineServices",
+                              "onlineSales",
+                              "opus",
+                              "online"
+                            ],
+                            "productFamily": "satellite",
+                            "planSubType": "Sports",
+                            "language": "English",
+                            "productStatus": "Active",
+                            "contractApplicable": "noncontract",
+                            "contractIndicator": [
+                              "non-contract"
+                            ],
+                            "subCategory": "Sports",
+                            "omsComponentMapping": [
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "PickCode",
+                                    "attributeValue": "P0028"
+                                  }
+                                ],
+                                "componentCode": "PickDV",
+                                "componentPath": "PickDV"
+                              },
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "DTgenrePackage",
+                                    "attributeValue": "SPORTSDV"
+                                  }
+                                ],
+                                "componentCode": "SPORTSDV",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV|SPORTSDV"
+                              }
+                            ],
+                            "customerSegments": [
+                              "Residential"
+                            ],
+                            "isPickService": true,
+                            "isAutoRenewable": false,
+                            "termsAndConditions": {
+                              "en": "By subscribing you will be billed $13.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+                            },
+                            "migratedProduct": false,
+                            "orderingMethod": "addToCart",
+                            "enablerPricePlanCode": "88830604",
+                            "chargeCode": "DTVPIC",
+                            "isWorldDirect": false,
+                            "isETFRequired": false,
+                            "isRemovable": false,
+                            "billingParams": [
+                              {
+                                "value": "P0028",
+                                "name": "PickCode"
+                              }
+                            ],
+                            "pick5Mask": "16",
+                            "dollarAmount": 13.99,
+                            "enablerATGProductId": "prod8330864",
+                            "enablerATGSkuId": "sku7650266",
+                            "productImages": "/cms2/product_catalog/premiums/Sports_Pack.gif"
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "video-addon",
+                    "key": "BOLTON-DIRECTV-SPORTS-PACK_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "customerSegment": "Residential",
+              "salesChannel": [
+                "opusSales",
+                "opusServices",
+                "onlineServices",
+                "onlineSales",
+                "opus",
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+    {
+      "id": "aaa7407b-7ffc-4ffc-962b-9e6f64381358",
+      "code": "OF_BOLTON-MOVIES-EXTRA-PACK_satellite",
+      "status": "live",
+      "name": {
+        "en": "Movies Extra Pack"
+      },
+      "description": {
+        "en": "Get your movie fix with classics and favorites from MGM HD, Sony Movie Channel, and HDNET Movies. Discover new mysteries with Hallmark Movies & Mysteries. And enjoy the latest offerings from Crime & Investigation HD, Smithsonian Channel HD, ShortsTV HD, and MTV Live. All ready to stream on any device.**"
+      },
+      "startDate": "2008-02-18T08:00:00.000Z",
+      "endDate": "2050-12-31T08:00:00.000Z",
+      "attributes": {
+        "offerProductType": "video-addon",
+        "offerProductTypes": [
+          "video-addon"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Other",
+        "offerActionTypes": [
+          "Other",
+          "Upgrade",
+          "Downgrade",
+          "Cross-sell"
+        ],
+        "rank": "260",
+        "displayName": {
+          "en": "Movies Extra Pack"
+        },
+        "termsAndConditions": {
+          "en": "By subscribing you will be billed $4.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance."
+        },
+        "billingId": "1",
+        "billingCode": "P6688",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-addon"
+                  ],
+                  "productStatus": "Active",
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "2d47d3a1-d79a-4d35-8e30-c6b35f4ea4af",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "2d47d3a1-d79a-4d35-8e30-c6b35f4ea4af",
+                      "code": "BOLTON-MOVIES-EXTRA-PACK_satellite",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                        "key": "video-addon"
+                      },
+                      "name": {
+                        "en": "Movies Extra Pack"
+                      },
+                      "description": {
+                        "en": "Get your movie fix with classics and favorites from MGM HD, Sony Movie Channel, and HDNET Movies. Discover new mysteries with Hallmark Movies & Mysteries. And enjoy the latest offerings from Crime & Investigation HD, Smithsonian Channel HD, ShortsTV HD, and MTV Live. All ready to stream on any device.**"
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "sku": "P6688",
+                          "key": "P6688",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0
+                              },
+                              "id": "6193750b-c74d-4954-bf58-09d7ec6fb157",
+                              "startDate": "2007-09-30T18:30:00.000Z",
+                              "endDate": "2020-12-30T18:30:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "period": "month",
+                              "billingReferenceId": "900",
+                              "gfVersion": 0,
+                              "businessSegment": "DTV",
+                              "omsProductId": "29245",
+                              "grandfathered": false,
+                              "contracted": false
+                            },
+                            {
+                              "value": {
+                                "centAmount": 499,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 4.99
+                              },
+                              "id": "e40bacd9-359d-4cc1-a895-417997b765ff",
+                              "startDate": "2008-02-18T08:00:00.000Z",
+                              "endDate": "2050-12-31T08:00:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "period": "month",
+                              "billingReferenceId": "1",
+                              "gfVersion": 0,
+                              "businessSegment": "RVB,GME,MDL,VZN,HDL,MDU,SWB,PTR,VEN,FRP,MDD,REG,VPA,MTL,ATT,HSP,TCD,BLS,JCD,PCO,TMU,JMU,CenturyLink,QST,DAE,LSE,VIP,TMW,CSH,JDU,PCR",
+                              "chargeType": "mrc",
+                              "grandfatherVersion": 0,
+                              "omsProductId": "29241",
+                              "grandfathered": false,
+                              "contracted": false
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "Movies Extra Pack"
+                            },
+                            "displayRanking": 260,
+                            "isHDAccessRequired": true,
+                            "billingProductCode": "P6688",
+                            "billingCode": "P6688",
+                            "billingProductId": "P6688",
+                            "startDate": "2008-02-18T08:00:00.000Z",
+                            "endDate": "2050-12-31T08:00:00.000Z",
+                            "businessSegment": [
+                              "MDU",
+                              "CONS"
+                            ],
+                            "salesChannel": [
+                              "opusServices",
+                              "opusSales",
+                              "onlineServices",
+                              "onlineSales",
+                              "opus",
+                              "online"
+                            ],
+                            "productFamily": "satellite",
+                            "planSubType": "Premium",
+                            "language": "English",
+                            "productStatus": "Active",
+                            "contractApplicable": "noncontract",
+                            "contractIndicator": [
+                              "non-contract"
+                            ],
+                            "subCategory": "Premium",
+                            "omsComponentMapping": [
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "DTgenrePackage",
+                                    "attributeValue": "DIRECTVHDEXTRAPACK"
+                                  }
+                                ],
+                                "componentCode": "DIRECTVHDEXTRAPACK",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV|DIRECTVHDEXTRAPACK"
+                              }
+                            ],
+                            "customerSegments": [
+                              "Residential"
+                            ],
+                            "isPickService": false,
+                            "isAutoRenewable": false,
+                            "termsAndConditions": {
+                              "en": "By subscribing you will be billed $4.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+                            },
+                            "migratedProduct": false,
+                            "orderingMethod": "addToCart",
+                            "enablerPricePlanCode": "88986925",
+                            "tokens": "DIRECTV HD EXTRA PACK",
+                            "chargeCode": "DVHDEX",
+                            "isWorldDirect": false,
+                            "isETFRequired": false,
+                            "isRemovable": false,
+                            "dollarAmount": 4.99,
+                            "enablerATGProductId": "prod9100293",
+                            "enablerATGSkuId": "sku8390281",
+                            "productImages": "/cms2/product_catalog/premiums/MoviesExtraPack_68x38.png"
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "video-addon",
+                    "key": "BOLTON-MOVIES-EXTRA-PACK_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "customerSegment": "Residential",
+              "salesChannel": [
+                "opusServices",
+                "opusSales",
+                "onlineServices",
+                "onlineSales",
+                "opus",
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "billingSystem": "enabler",
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+	{
+      "id": "852d7239-ea7a-4c90-98a5-b3af1129339c",
+      "code": "OF_BOLTON-MOVIES-EXTRA-PACK-V1_satellite",
+      "status": "live",
+      "name": {
+        "en": "Movies Extra Pack"
+      },
+      "description": {
+        "en": "Get your movie fix with classics and favorites from MGM HD, Sony Movie Channel, and HDNET Movies. Discover new mysteries with Hallmark Movies & Mysteries. And enjoy the latest offerings from Crime & Investigation HD, Smithsonian Channel HD, ShortsTV HD, and MTV Live. All ready to stream on any device.**"
+      },
+      "startDate": "2008-02-18T08:00:00.000Z",
+      "endDate": "2050-12-31T08:00:00.000Z",
+      "attributes": {
+        "offerProductType": "video-addon",
+        "offerProductTypes": [
+          "video-addon"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Other",
+        "offerActionTypes": [
+          "Other",
+          "Cross-sell",
+          "Downgrade",
+          "Upgrade",
+          "Acquisition"
+        ],
+        "displayName": {
+          "en": "Movies Extra Pack - $0.00 for first 3 months $4.99/mo. thereafter"
+        },
+        "termsAndConditions": {
+          "en": "By subscribing you will receive Movies Extra Pack at no extra cost for 3 months. After 3 months, Movies Extra Pack continues automatically at the then prevailing rate (currently $4.99/mo.) unless you call to change or cancel."
+        },
+        "billingId": "1",
+        "billingCode": "P6688",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-addon"
+                  ],
+                  "productStatus": "Active",
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "2d47d3a1-d79a-4d35-8e30-c6b35f4ea4af",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "2d47d3a1-d79a-4d35-8e30-c6b35f4ea4af",
+                      "code": "BOLTON-MOVIES-EXTRA-PACK_satellite",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                        "key": "video-addon"
+                      },
+                      "name": {
+                        "en": "Movies Extra Pack"
+                      },
+                      "description": {
+                        "en": "Get your movie fix with classics and favorites from MGM HD, Sony Movie Channel, and HDNET Movies. Discover new mysteries with Hallmark Movies & Mysteries. And enjoy the latest offerings from Crime & Investigation HD, Smithsonian Channel HD, ShortsTV HD, and MTV Live. All ready to stream on any device.**"
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "sku": "P6688",
+                          "key": "P6688",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 0
+                              },
+                              "id": "6193750b-c74d-4954-bf58-09d7ec6fb157",
+                              "startDate": "2007-09-30T18:30:00.000Z",
+                              "endDate": "2020-12-30T18:30:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "period": "month",
+                              "billingReferenceId": "900",
+                              "gfVersion": 0,
+                              "businessSegment": "DTV",
+                              "omsProductId": "29245",
+                              "grandfathered": false,
+                              "contracted": false
+                            },
+                            {
+                              "value": {
+                                "centAmount": 499,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 4.99
+                              },
+                              "id": "e40bacd9-359d-4cc1-a895-417997b765ff",
+                              "startDate": "2008-02-18T08:00:00.000Z",
+                              "endDate": "2050-12-31T08:00:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "period": "month",
+                              "billingReferenceId": "1",
+                              "gfVersion": 0,
+                              "businessSegment": "RVB,GME,MDL,VZN,HDL,MDU,SWB,PTR,VEN,FRP,MDD,REG,VPA,MTL,ATT,HSP,TCD,BLS,JCD,PCO,TMU,JMU,CenturyLink,QST,DAE,LSE,VIP,TMW,CSH,JDU,PCR",
+                              "chargeType": "mrc",
+                              "grandfatherVersion": 0,
+                              "omsProductId": "29241",
+                              "grandfathered": false,
+                              "contracted": false
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "Movies Extra Pack"
+                            },
+                            "displayRanking": 260,
+                            "isHDAccessRequired": true,
+                            "billingProductCode": "P6688",
+                            "billingCode": "P6688",
+                            "billingProductId": "P6688",
+                            "startDate": "2008-02-18T08:00:00.000Z",
+                            "endDate": "2050-12-31T08:00:00.000Z",
+                            "businessSegment": [
+                              "MDU",
+                              "CONS"
+                            ],
+                            "salesChannel": [
+                              "opusServices",
+                              "opusSales",
+                              "onlineServices",
+                              "onlineSales",
+                              "opus",
+                              "online"
+                            ],
+                            "productFamily": "satellite",
+                            "planSubType": "Premium",
+                            "language": "English",
+                            "productStatus": "Active",
+                            "contractApplicable": "noncontract",
+                            "contractIndicator": [
+                              "non-contract"
+                            ],
+                            "subCategory": "Premium",
+                            "omsComponentMapping": [
+                              {
+                                "attributes": [
+                                  {
+                                    "attributeCode": "DTgenrePackage",
+                                    "attributeValue": "DIRECTVHDEXTRAPACK"
+                                  }
+                                ],
+                                "componentCode": "DIRECTVHDEXTRAPACK",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV|DIRECTVHDEXTRAPACK"
+                              }
+                            ],
+                            "customerSegments": [
+                              "Residential"
+                            ],
+                            "isPickService": false,
+                            "isAutoRenewable": false,
+                            "termsAndConditions": {
+                              "en": "By subscribing you will be billed $4.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance.  Contact us anytime to cancel service, including by calling 877-384-3503."
+                            },
+                            "migratedProduct": false,
+                            "orderingMethod": "addToCart",
+                            "enablerPricePlanCode": "88986925",
+                            "tokens": "DIRECTV HD EXTRA PACK",
+                            "chargeCode": "DVHDEX",
+                            "isWorldDirect": false,
+                            "isETFRequired": false,
+                            "isRemovable": false,
+                            "dollarAmount": 4.99,
+                            "enablerATGProductId": "prod9100293",
+                            "enablerATGSkuId": "sku8390281",
+                            "productImages": "/cms2/product_catalog/premiums/MoviesExtraPack_68x38.png"
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "video-addon",
+                    "key": "BOLTON-MOVIES-EXTRA-PACK_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [
+          {
+            "benefitCategory": "Product",
+            "billingBenefitId": "B101210/001",
+            "id": "9361ce96-d7a3-44aa-916b-5cfbf290c7b6",
+            "code": "PROMO_MXP-3-MO_satellite",
+            "billingBenefitCode": "88830443",
+            "benefitName": {
+              "en": "DTV_$4.99 off 3 months_Movies Extra Pack_ DS0689"
+            },
+            "benefitDisplayName": {
+              "en": "$4.99 off Movies Extra Pack for 3 Months"
+            },
+            "benefitRank": 5500,
+            "description": {
+              "en": "$4.99 off for 3 months"
+            },
+            "startDate": "1990-01-01T00:00:00.000Z",
+            "retIoApplicableProducts": false,
+            "endDate": "2049-12-31T23:59:00.000Z",
+            "contractIndicator": "contract",
+            "selfBenefit": false,
+            "duration": 3,
+            "period": "NoOfMonths",
+            "billAfterPeriod": false,
+            "applicableProducts": [
+              {
+                "products": [
+                  {
+                    "id": "2d47d3a1-d79a-4d35-8e30-c6b35f4ea4af",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-MOVIES-EXTRA-PACK_satellite"
+                  }
+                ]
+              }
+            ],
+            "maxOccurrence": 0,
+            "benefitType": "flat-off",
+            "value": {
+              "centAmount": 499,
+              "currencyCode": "USD",
+              "fractionDigits": 2,
+              "dollarAmount": 4.99
+            },
+            "secondaryBenefitCode": "VAGR-HDEXTRAPACK-3MO-V4",
+            "freeTrialPromo": false,
+            "ioOffer": false,
+            "freeTrialDuration": 0,
+            "agentOffer": false,
+            "minQuantity": 0,
+            "promoPriority": 4,
+            "benefitLevel": "product",
+            "notApplibaleForOffer": false,
+            "enableServiceDisconnect": false,
+            "rtpIndicator": true,
+            "portin": false,
+            "benefitSaleType": "B",
+            "segment": [
+              "Residential"
+            ],
+            "businessSegment": [
+              "MDU"
+            ],
+            "salesChannels": [
+              "online"
+            ],
+            "benefitActionType": [
+              "UP",
+              "Aquisition"
+            ],
+            "gfVersion": "0",
+            "enablerPromotionCode": "DS0689",
+            "locationType": "nation",
+            "location": "US",
+            "rebateID": "200111",
+            "billingReasonCode": "990",
+            "omsProductId": "43753",
+            "numberOfCredits": 3,
+            "recurringBillingReasonCode": "SAJ991",
+            "agreementID": "VAGR-HDEXTRAPACK-3MO-V4",
+            "agreementPriceCode": "1",
+            "active": true,
+            "migrated": false,
+            "quotaBased": false,
+            "couponPromo": false,
+            "isDependentPromo": false,
+            "isMigrated": false,
+            "isQuotaBased": false,
+            "isActive": true
+          }
+        ],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "customerSegment": "residential",
+              "salesChannel": [
+                "opusServices",
+                "opusSales",
+                "onlineServices",
+                "onlineSales",
+                "opus",
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "conflictingOffers": [
+          {
+            "typeId": "offer",
+            "id": "aaa7407b-7ffc-4ffc-962b-9e6f64381358",
+            "key": "OF_BOLTON-MOVIES-EXTRA-PACK_satellite"
+          }
+        ],
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "nonStackableCodes": "88894663",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    }
+  ]
+}

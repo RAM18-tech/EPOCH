@@ -1,0 +1,1007 @@
+{
+  "limit": 300,
+  "offset": 0,
+  "count": 2,
+  "total": 2,
+  "offers": [
+    {
+      "id": "bde8ac5e-7050-4749-8e54-568c7dac5c0c",
+      "code": "OF_BASE-BASIC-CHOICE_satellite",
+      "name": {
+        "en": "BASIC CHOICE"
+      },
+      "description": {
+        "en": "100+ channels"
+      },
+      "startDate": "2021-01-16T18:30:00.000Z",
+      "endDate": "2050-12-30T18:30:00.000Z",
+      "attributes": {
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Cross-sell",
+        "omsOfferID": "422383389",
+        "offerActionTypes": [
+          "Cross-sell",
+          "Other",
+          "Downgrade",
+          "Upgrade"
+        ],
+        "displayName": {
+          "en": "BASIC CHOICE"
+        },
+        "billingId": "1",
+        "billingCode": "P100629",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-plan"
+                  ],
+                  "productStatus": "Active",
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "5890fe0b-f9fd-44e7-bde5-ca0da368442f",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "5890fe0b-f9fd-44e7-bde5-ca0da368442f",
+                      "code": "BASE-BASIC-CHOICE_satellite",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "eddcf245-874d-4cca-b069-8ada224b1d1a",
+                        "key": "video-plan"
+                      },
+                      "name": {
+                        "en": "BASIC CHOICE"
+                      },
+                      "description": {
+                        "en": "Over sd_channels120 channels | Local channels included at no extra charge Eligibility based on service address. | "
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "sku": "P100629",
+                          "key": "P100629",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 2399,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 23.99
+                              },
+                              "id": "b106e3a9-0bfa-409e-b997-92543866f6ce",
+                              "startDate": "2021-01-16T18:30:00.000Z",
+                              "endDate": "2050-12-30T18:30:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "period": "month",
+                              "billingReferenceId": "1",
+                              "gfVersion": 0,
+                              "businessSegment": "residential",
+                              "chargeType": "mrc",
+                              "grandfatherVersion": 1,
+                              "omsFreeSTBPolicyId": "DVANA2",
+                              "contracted": false,
+                              "grandfathered": false
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "BASIC CHOICE"
+                            },
+                            "billingProductCode": "P100629",
+                            "billingCode": "P100629",
+                            "startDate": "2017-03-09T18:30:00.000Z",
+                            "endDate": "2049-12-30T18:30:00.000Z",
+                            "businessSegment": [
+                              "MDU",
+                              "CONS"
+                            ],
+                            "salesChannel": [
+                              "opusServices",
+                              "opusSales",
+                              "onlineServices",
+                              "onlineSales",
+                              "opus",
+                              "online"
+                            ],
+                            "productFamily": "satellite",
+                            "numberOfChannels": "120 + digital channels ",
+                            "language": "International",
+                            "productStatus": "Active",
+                            "downgradeableRule": "1",
+                            "contractApplicable": "noncontract",
+                            "contractIndicator": [
+                              "non-contract"
+                            ],
+                            "customerSegments": [
+                              "Residential"
+                            ],
+                            "isInternationalAddonRequired": true,
+                            "hasLocalChannels": true,
+                            "planType": "Standard",
+                            "migratedProduct": false,
+                            "isChangeable": true,
+                            "omsProductCode": "BasicChoice",
+                            "orderingMethod": "addToCart",
+                            "enablerPricePlanCode": "88833984",
+                            "tokens": "BASICCHOICE",
+                            "chargeCode": "DTVBCR",
+                            "isWorldDirect": true,
+                            "maxSTBsWired": 5,
+                            "maxDVRs": 1,
+                            "maxSTBsWIFI": 5,
+                            "maxSTBsWithServer": 8,
+                            "billingParams": [
+                              {
+                                "value": "BasicChoice",
+                                "name": "BasePkg"
+                              }
+                            ],
+                            "grandFatherInfo": [
+                              {
+                                "salesEffectiveDate": "2017-01-22T00:00:00.000Z",
+                                "salesExpirationDate": "2049-12-31T23:59:00.000Z",
+                                "version": 1
+                              }
+                            ],
+                            "productImages": "DTV-BASICCHOICE"
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "video-plan",
+                    "key": "BASE-BASIC-CHOICE_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "customerSegment": "Residential",
+              "salesChannel": [
+                "opusServices",
+                "opusSales",
+                "onlineServices",
+                "onlineSales",
+                "opus",
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "omsFreeStbPolicy": [
+          {
+            "id": "ff294593-6cef-400e-8bea-4fb1d52361fe",
+            "typeId": "product",
+            "obj": {
+              "id": "ff294593-6cef-400e-8bea-4fb1d52361fe",
+              "key": "POLICY-DVANA2_satellite",
+              "productType": {
+                "typeId": "product-type",
+                "id": "79b730ba-3606-4272-ac9b-4267eed3d4a1"
+              }
+            },
+            "attributes": {
+              "constraints": {
+                "startDate": "2015-09-01T00:00:00.000Z",
+                "endDate": "2049-12-31T23:59:00.000Z",
+                "maxTVFeesWaivedForWired": 0,
+                "maxTVFeesWaivedForWireless": 1,
+                "maxTVFeesWaivedForGenieMiniWired": 0,
+                "maxTVFeesWaivedForGenieMiniWireless": 0,
+                "includedGenieWired": 0,
+                "includedGenieWireless": 0,
+                "waiveHDDVRNRCCount": 0,
+                "includedGenieMiniWireless": 0,
+                "includedGenieMiniWired": 0,
+                "discountedGenieMiniWired": 0,
+                "maxAddlTVsSelectedWired": 5,
+                "discountedGenieMiniWireless": 0,
+                "maxAddlTVsSelectedWireless": 8,
+                "customerTypes": "CONSUMER",
+                "productStatus": "Active",
+                "policyText": "The DTV basepackage selected does not include one time charges and monthly charges. (policyId=6300005)",
+                "dependent": false,
+                "anchor": false
+              },
+              "key": "POLICY-DVANA2_satellite",
+              "name": "DVANA2",
+              "description": {
+                "en": "The DTV basepackage selected does not include one time charges and monthly charges. (policyId=6300005)"
+              }
+            }
+          }
+        ],
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    },
+    {
+      "id": "cda7c0b3-a4eb-4569-8b03-b223df3cdf07",
+      "code": "OF_DEVICE-HD-DVR-RECEIVER_satellite",
+      "status": "live",
+      "name": {
+        "en": "HD DVR"
+      },
+      "description": {
+        "en": "Watch and record in crystal-clear HD. Pause and rewind live TV."
+      },
+      "startDate": "2005-02-21T18:30:00.000Z",
+      "endDate": "2050-12-31T08:00:00.000Z",
+      "attributes": {
+        "offerProductType": "video-device",
+        "offerProductTypes": [
+          "video-device"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Cross-sell",
+        "offerActionTypes": [
+          "Cross-sell",
+          "Other",
+          "Downgrade",
+          "Upgrade"
+        ],
+        "displayName": {
+          "en": "HD DVR "
+        },
+        "termsAndConditions": {
+          "en": "All equipment is leased. Advanced Receiver Service ($15/mo). A monthly fee of $7.00 applies for each receiver and/or Genie Mini/DIRECTV Ready TV on your account. FeaturesThe newest movie releases — many available nearly a month before Netflix and Redbox | All new releases in 1080p HD, the same stunning quality as Blu-ray&trade;, Dolby Digital Surround Sound | Plus over 10,000 shows and movies streamed instantly, at no extra charge | "
+        },
+        "billingId": "6020",
+        "billingCode": "6020",
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productTypes": [
+                    "video-device"
+                  ],
+                  "productStatus": "Active",
+                  "productState": "New",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "757d96ca-1eb4-46aa-9f3a-9e950f126c72",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "757d96ca-1eb4-46aa-9f3a-9e950f126c72",
+                      "code": "DEVICE-HD-DVR-RECEIVER_satellite",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "52293f6a-b51e-4cd0-8538-a0555aa34f5c",
+                        "key": "video-device"
+                      },
+                      "name": {
+                        "en": "HD DVR"
+                      },
+                      "description": {
+                        "en": "Watch and record in crystal-clear HD. Pause and rewind live TV.\\n"
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "sku": "6020",
+                          "key": "6020",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 19900,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 199
+                              },
+                              "id": "68f757b3-6fa6-4631-9c78-f3db005f0c60",
+                              "startDate": "2005-02-21T18:30:00.000Z",
+                              "endDate": "2050-12-30T18:30:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "gfVersion": 0,
+                              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+                              "chargeType": "nrc",
+                              "grandfatherVersion": 0,
+                              "contracted": false,
+                              "grandfathered": false
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "HD DVR"
+                            },
+                            "billingProductCode": "6020",
+                            "billingCode": "6020",
+                            "startDate": "2005-02-21T18:30:00.000Z",
+                            "endDate": "2050-12-30T18:30:00.000Z",
+                            "salesChannel": [
+                              "opusServices",
+                              "opusSales",
+                              "onlineServices",
+                              "onlineSales",
+                              "opus",
+                              "online"
+                            ],
+                            "productFamily": "satellite",
+                            "productStatus": "Active",
+                            "compatibleProducts": [
+                              {
+                                "constraints": {
+                                  "productTypes": [
+                                    "video-device"
+                                  ],
+                                  "allowedAction": "addToCart",
+                                  "dependent": false,
+                                  "anchor": false
+                                },
+                                "products": [
+                                  {
+                                    "id": "47cefbc9-1906-4777-aa36-853d0e5d1362",
+                                    "typeId": "product",
+                                    "productType": "video-device",
+                                    "key": "DEVICE-HD-RECEIVER-1_satellite"
+                                  }
+                                ]
+                              },
+                              {
+                                "constraints": {
+                                  "productTypes": [
+                                    "video-device"
+                                  ],
+                                  "allowedAction": "addToCart",
+                                  "dependent": false,
+                                  "anchor": false
+                                },
+                                "products": [
+                                  {
+                                    "id": "2ec03cd0-b282-4f84-8221-35e45d22b4ff",
+                                    "typeId": "product",
+                                    "productType": "video-device",
+                                    "key": "DEVICE-TIVO-HD-DVR-RECEIVER-99_satellite"
+                                  }
+                                ]
+                              },
+                              {
+                                "constraints": {
+                                  "productTypes": [
+                                    "video-device"
+                                  ],
+                                  "allowedAction": "addToCart",
+                                  "dependent": false,
+                                  "anchor": false
+                                },
+                                "products": [
+                                  {
+                                    "id": "757d96ca-1eb4-46aa-9f3a-9e950f126c72",
+                                    "typeId": "product",
+                                    "productType": "video-device",
+                                    "key": "DEVICE-HD-DVR-RECEIVER_satellite"
+                                  }
+                                ]
+                              },
+                              {
+                                "constraints": {
+                                  "productTypes": [
+                                    "video-device"
+                                  ],
+                                  "allowedAction": "callToOrder",
+                                  "dependent": false,
+                                  "anchor": false
+                                },
+                                "products": [
+                                  {
+                                    "id": "45af0c29-9e18-434f-a387-2cdec679b266",
+                                    "typeId": "product",
+                                    "productType": "video-device",
+                                    "key": "DEVICE-GENIE-MINI-4K_satellite"
+                                  }
+                                ]
+                              },
+                              {
+                                "constraints": {
+                                  "productTypes": [
+                                    "video-device"
+                                  ],
+                                  "allowedAction": "callToOrder",
+                                  "dependent": false,
+                                  "anchor": false
+                                },
+                                "products": [
+                                  {
+                                    "id": "6180b381-c9be-4f1f-9ec1-0640841a31cb",
+                                    "typeId": "product",
+                                    "productType": "video-device",
+                                    "key": "DEVICE-GENIE-MINI-WIRELESS_satellite"
+                                  }
+                                ]
+                              },
+                              {
+                                "constraints": {
+                                  "productTypes": [
+                                    "video-device"
+                                  ],
+                                  "allowedAction": "callToOrder",
+                                  "dependent": false,
+                                  "anchor": false
+                                },
+                                "products": [
+                                  {
+                                    "id": "44750eb0-3b68-4e43-a7d0-5e7c838f4160",
+                                    "typeId": "product",
+                                    "productType": "video-device",
+                                    "key": "DEVICE-GENIE-MINI_satellite"
+                                  }
+                                ]
+                              },
+                              {
+                                "constraints": {
+                                  "productTypes": [
+                                    "video-device"
+                                  ],
+                                  "allowedAction": "callToOrder",
+                                  "dependent": false,
+                                  "anchor": false
+                                },
+                                "products": [
+                                  {
+                                    "id": "b60f7fdc-4b4d-4e2c-9e4f-dcb5f04e0055",
+                                    "typeId": "product",
+                                    "productType": "video-device",
+                                    "key": "DEVICE-GENIE-HD-DVR_satellite"
+                                  }
+                                ]
+                              }
+                            ],
+                            "contractApplicable": "noncontract",
+                            "contractIndicator": [
+                              "non-contract"
+                            ],
+                            "omsComponentMapping": [
+                              {
+                                "componentCode": "DTVHDDVR",
+                                "componentPath": "ATTDTVCPE|DTVHDDVR",
+                                "operationName": "MOORequest,PUSPO1Request"
+                              },
+                              {
+                                "omsAttributes": [
+                                  {
+                                    "attributeCode": "DTVHDD",
+                                    "attributeValue": "@QUANTITY@"
+                                  },
+                                  {
+                                    "attributeCode": "numberOfTvs",
+                                    "attributeValue": "@QUANTITY@"
+                                  }
+                                ],
+                                "componentCode": "ATTDTVCPE",
+                                "componentPath": "ATTDTVCPE",
+                                "operationName": "MOORequest,PUSPO1Request"
+                              }
+                            ],
+                            "customerSegments": [
+                              "Residential"
+                            ],
+                            "selfInstallAvailability": "notAllowed",
+                            "termsAndConditions": {
+                              "en": "All equipment is leased. Advanced Receiver Service ($15/mo). A monthly fee of $7.00 applies for each receiver and/or Genie Mini/DIRECTV Ready TV on your account. FeaturesThe newest movie releases — many available nearly a month before Netflix and Redbox | All new releases in 1080p HD, the same stunning quality as Blu-ray&trade;, Dolby Digital Surround Sound | Plus over 10,000 shows and movies streamed instantly, at no extra charge | "
+                            },
+                            "specifications": [
+                              {
+                                "0": {
+                                  "0": {
+                                    "specificationsId": "165",
+                                    "category": "feature",
+                                    "text": "Plus over 10,000 shows and movies streamed instantly, at no extra charge"
+                                  },
+                                  "specificationsId": "164",
+                                  "text": "All new releases in 1080p HD, the same stunning quality as Blu-ray™, Dolby Digital Surround Sound",
+                                  "category": "feature"
+                                },
+                                "specificationsId": "163",
+                                "text": "The newest movie releases — many available nearly a month before Netflix and Redbox",
+                                "category": "feature"
+                              }
+                            ],
+                            "deviceType": "hddvr",
+                            "deviceCategory": "dvr",
+                            "maxOrderLimit": 1,
+                            "maxAccountLimit": 8,
+                            "migratedProduct": false,
+                            "enablerPricePlanCode": "88855504",
+                            "tokens": "compatibleHDDVRNRC",
+                            "chargeCode": "DTVHDO",
+                            "billingParams": [
+                              {
+                                "value": "DTVHDDVR",
+                                "name": "STBName"
+                              }
+                            ],
+                            "productImages": "/cms2/product_catalog/equipment/HDDVR_Receiver_OM.png",
+                            "description": {
+                              "en": "Get the latest HD and DVR technology in one easy-to-use unit. Plus get access to: The newest movie releases — many available nearly a month before Netflix and Redbox | All new releases in 1080p HD, the same stunning quality as Blu-ray&trade;, Dolby Digital Surround Sound | Plus over 10,000 shows and movies streamed instantly, at no extra charge | And much more."
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "video-device",
+                    "key": "DEVICE-HD-DVR-RECEIVER_satellite"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "customerSegment": "Residential",
+              "salesChannel": [
+                "opusServices",
+                "opusSales",
+                "onlineServices",
+                "onlineSales",
+                "opus",
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "metadata": [
+          {
+            "category": "feature",
+            "text": "The newest movie releases — many available nearly a month before Netflix and Redbox",
+            "rank": "163"
+          },
+          {
+            "category": "feature",
+            "text": "Plus over 10,000 shows and movies streamed instantly, at no extra charge",
+            "rank": "165"
+          },
+          {
+            "category": "feature",
+            "text": "All new releases in 1080p HD, the same stunning quality as Blu-ray™, Dolby Digital Surround Sound",
+            "rank": "164"
+          }
+        ],
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "chargeType": "chargeable",
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "5890fe0b-f9fd-44e7-bde5-ca0da368442f",
+      "code": "BASE-BASIC-CHOICE_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "eddcf245-874d-4cca-b069-8ada224b1d1a",
+        "key": "video-plan"
+      },
+      "name": {
+        "en": "BASIC CHOICE"
+      },
+      "description": {
+        "en": "Over sd_channels120 channels | Local channels included at no extra charge Eligibility based on service address. | "
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "P100629",
+          "key": "P100629",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 2399,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 23.99
+              },
+              "id": "b106e3a9-0bfa-409e-b997-92543866f6ce",
+              "startDate": "2021-01-16T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "period": "month",
+              "billingReferenceId": "1",
+              "gfVersion": 0,
+              "businessSegment": "residential",
+              "chargeType": "mrc",
+              "grandfatherVersion": 1,
+              "omsFreeSTBPolicyId": "DVANA2",
+              "contracted": false,
+              "grandfathered": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "BASIC CHOICE"
+            },
+            "billingProductCode": "P100629",
+            "billingCode": "P100629",
+            "startDate": "2017-03-09T18:30:00.000Z",
+            "endDate": "2049-12-30T18:30:00.000Z",
+            "businessSegment": [
+              "MDU",
+              "CONS"
+            ],
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "numberOfChannels": "120 + digital channels ",
+            "language": "International",
+            "productStatus": "Active",
+            "downgradeableRule": "1",
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "isInternationalAddonRequired": true,
+            "hasLocalChannels": true,
+            "planType": "Standard",
+            "migratedProduct": false,
+            "isChangeable": true,
+            "omsProductCode": "BasicChoice",
+            "orderingMethod": "addToCart",
+            "enablerPricePlanCode": "88833984",
+            "tokens": "BASICCHOICE",
+            "chargeCode": "DTVBCR",
+            "isWorldDirect": true,
+            "maxSTBsWired": 5,
+            "maxDVRs": 1,
+            "maxSTBsWIFI": 5,
+            "maxSTBsWithServer": 8,
+            "billingParams": [
+              {
+                "value": "BasicChoice",
+                "name": "BasePkg"
+              }
+            ],
+            "grandFatherInfo": [
+              {
+                "salesEffectiveDate": "2017-01-22T00:00:00.000Z",
+                "salesExpirationDate": "2049-12-31T23:59:00.000Z",
+                "version": 1
+              }
+            ],
+            "productImages": "DTV-BASICCHOICE"
+          }
+        }
+      ]
+    },
+    {
+      "id": "757d96ca-1eb4-46aa-9f3a-9e950f126c72",
+      "code": "DEVICE-HD-DVR-RECEIVER_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "52293f6a-b51e-4cd0-8538-a0555aa34f5c",
+        "key": "video-device"
+      },
+      "name": {
+        "en": "HD DVR"
+      },
+      "description": {
+        "en": "Watch and record in crystal-clear HD. Pause and rewind live TV.\\n"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "sku": "6020",
+          "key": "6020",
+          "prices": [
+            {
+              "value": {
+                "centAmount": 19900,
+                "currencyCode": "USD",
+                "fractionDigits": 2,
+                "dollarAmount": 199
+              },
+              "id": "68f757b3-6fa6-4631-9c78-f3db005f0c60",
+              "startDate": "2005-02-21T18:30:00.000Z",
+              "endDate": "2050-12-30T18:30:00.000Z",
+              "recurrenceIndicator": false,
+              "duration": 0,
+              "gfVersion": 0,
+              "businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+              "chargeType": "nrc",
+              "grandfatherVersion": 0,
+              "contracted": false,
+              "grandfathered": false
+            }
+          ],
+          "attributes": {
+            "displayName": {
+              "en": "HD DVR"
+            },
+            "billingProductCode": "6020",
+            "billingCode": "6020",
+            "startDate": "2005-02-21T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "salesChannel": [
+              "opusServices",
+              "opusSales",
+              "onlineServices",
+              "onlineSales",
+              "opus",
+              "online"
+            ],
+            "productFamily": "satellite",
+            "productStatus": "Active",
+            "compatibleProducts": [
+              {
+                "constraints": {
+                  "productTypes": [
+                    "video-device"
+                  ],
+                  "allowedAction": "addToCart",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "47cefbc9-1906-4777-aa36-853d0e5d1362",
+                    "typeId": "product",
+                    "productType": "video-device",
+                    "key": "DEVICE-HD-RECEIVER-1_satellite"
+                  }
+                ]
+              },
+              {
+                "constraints": {
+                  "productTypes": [
+                    "video-device"
+                  ],
+                  "allowedAction": "addToCart",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "2ec03cd0-b282-4f84-8221-35e45d22b4ff",
+                    "typeId": "product",
+                    "productType": "video-device",
+                    "key": "DEVICE-TIVO-HD-DVR-RECEIVER-99_satellite"
+                  }
+                ]
+              },
+              {
+                "constraints": {
+                  "productTypes": [
+                    "video-device"
+                  ],
+                  "allowedAction": "addToCart",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "757d96ca-1eb4-46aa-9f3a-9e950f126c72",
+                    "typeId": "product",
+                    "productType": "video-device",
+                    "key": "DEVICE-HD-DVR-RECEIVER_satellite"
+                  }
+                ]
+              },
+              {
+                "constraints": {
+                  "productTypes": [
+                    "video-device"
+                  ],
+                  "allowedAction": "callToOrder",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "45af0c29-9e18-434f-a387-2cdec679b266",
+                    "typeId": "product",
+                    "productType": "video-device",
+                    "key": "DEVICE-GENIE-MINI-4K_satellite"
+                  }
+                ]
+              },
+              {
+                "constraints": {
+                  "productTypes": [
+                    "video-device"
+                  ],
+                  "allowedAction": "callToOrder",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "6180b381-c9be-4f1f-9ec1-0640841a31cb",
+                    "typeId": "product",
+                    "productType": "video-device",
+                    "key": "DEVICE-GENIE-MINI-WIRELESS_satellite"
+                  }
+                ]
+              },
+              {
+                "constraints": {
+                  "productTypes": [
+                    "video-device"
+                  ],
+                  "allowedAction": "callToOrder",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "44750eb0-3b68-4e43-a7d0-5e7c838f4160",
+                    "typeId": "product",
+                    "productType": "video-device",
+                    "key": "DEVICE-GENIE-MINI_satellite"
+                  }
+                ]
+              },
+              {
+                "constraints": {
+                  "productTypes": [
+                    "video-device"
+                  ],
+                  "allowedAction": "callToOrder",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "b60f7fdc-4b4d-4e2c-9e4f-dcb5f04e0055",
+                    "typeId": "product",
+                    "productType": "video-device",
+                    "key": "DEVICE-GENIE-HD-DVR_satellite"
+                  }
+                ]
+              }
+            ],
+            "contractApplicable": "noncontract",
+            "contractIndicator": [
+              "non-contract"
+            ],
+            "omsComponentMapping": [
+              {
+                "componentCode": "DTVHDDVR",
+                "componentPath": "ATTDTVCPE|DTVHDDVR",
+                "operationName": "MOORequest,PUSPO1Request"
+              },
+              {
+                "omsAttributes": [
+                  {
+                    "attributeCode": "DTVHDD",
+                    "attributeValue": "@QUANTITY@"
+                  },
+                  {
+                    "attributeCode": "numberOfTvs",
+                    "attributeValue": "@QUANTITY@"
+                  }
+                ],
+                "componentCode": "ATTDTVCPE",
+                "componentPath": "ATTDTVCPE",
+                "operationName": "MOORequest,PUSPO1Request"
+              }
+            ],
+            "customerSegments": [
+              "Residential"
+            ],
+            "selfInstallAvailability": "notAllowed",
+            "termsAndConditions": {
+              "en": "All equipment is leased. Advanced Receiver Service ($15/mo). A monthly fee of $7.00 applies for each receiver and/or Genie Mini/DIRECTV Ready TV on your account. FeaturesThe newest movie releases — many available nearly a month before Netflix and Redbox | All new releases in 1080p HD, the same stunning quality as Blu-ray&trade;, Dolby Digital Surround Sound | Plus over 10,000 shows and movies streamed instantly, at no extra charge | "
+            },
+            "specifications": [
+              {
+                "0": {
+                  "0": {
+                    "specificationsId": "165",
+                    "category": "feature",
+                    "text": "Plus over 10,000 shows and movies streamed instantly, at no extra charge"
+                  },
+                  "specificationsId": "164",
+                  "text": "All new releases in 1080p HD, the same stunning quality as Blu-ray™, Dolby Digital Surround Sound",
+                  "category": "feature"
+                },
+                "specificationsId": "163",
+                "text": "The newest movie releases — many available nearly a month before Netflix and Redbox",
+                "category": "feature"
+              }
+            ],
+            "deviceType": "hddvr",
+            "deviceCategory": "dvr",
+            "maxOrderLimit": 1,
+            "maxAccountLimit": 8,
+            "migratedProduct": false,
+            "enablerPricePlanCode": "88855504",
+            "tokens": "compatibleHDDVRNRC",
+            "chargeCode": "DTVHDO",
+            "billingParams": [
+              {
+                "value": "DTVHDDVR",
+                "name": "STBName"
+              }
+            ],
+            "productImages": "/cms2/product_catalog/equipment/HDDVR_Receiver_OM.png",
+            "description": {
+              "en": "Get the latest HD and DVR technology in one easy-to-use unit. Plus get access to: The newest movie releases — many available nearly a month before Netflix and Redbox | All new releases in 1080p HD, the same stunning quality as Blu-ray&trade;, Dolby Digital Surround Sound | Plus over 10,000 shows and movies streamed instantly, at no extra charge | And much more."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

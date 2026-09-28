@@ -1,0 +1,332 @@
+{
+    "limit": 300,
+    "offset": 0,
+    "count": 1,
+    "total": 1,
+    "offers": [
+        {
+            "id": "725b2be6-36fb-4d91-b560-fed9dd0af611",
+            "code": "OF_CAMPAIGN_PROD",
+            "version": 37,
+            "createdAt": "2020-05-14T17:08:49.743Z",
+            "lastModifiedAt": "2020-06-01T09:58:05.864Z",
+            "status": "in_progress",
+            "productType": {
+                "typeId": "product-type",
+                "id": "2a2bd54a-1435-4138-822f-bc2c20ec106f"
+            },
+            "name": {
+                "en": "OF_CAMPAIGN_PROD"
+            },
+            "categories": [],
+            "startDate": "2020-05-11T00:00:00.000Z",
+            "endDate": "2020-06-30T00:00:00.000Z",
+            "attributes": {
+                "offerProductFamily": "satellite",
+                "offerActionType": "Acquisition",
+                "clearRejections": false,
+                "migratedOffer": false,
+                "agreement": {},
+                "displayName": {
+                    "en": "OF_CAMPAIGN_PROD"
+                },
+                "rank": 1,
+                "eligibility": {
+                    "computedRules": {
+                        "predicate": "customerSegments = \"Residential\" AND salesChannel = \"opusServices\"",
+                        "rules": [
+                            {
+                                "predicate": "customerSegments = \"Residential\" AND salesChannel = \"opusServices\"",
+                                "rules": [
+                                    {
+                                        "predicate": "customerSegments = \"Residential\"",
+                                        "field": "customerSegments",
+                                        "operator": "=",
+                                        "value": "\"Residential\""
+                                    },
+                                    {
+                                        "predicate": "salesChannel = \"opusServices\"",
+                                        "field": "salesChannel",
+                                        "operator": "=",
+                                        "value": "\"opusServices\""
+                                    }
+                                ],
+                                "groupingOperator": "AND"
+                            }
+                        ],
+                        "groupingOperator": "OR"
+                    },
+                    "constraints": [
+                        {
+                            "customerSegments": [
+                                "Residential"
+                            ],
+                            "salesChannel": [
+                                "opusServices"
+                            ]
+                        }
+                    ]
+                },
+                "approvalWorkFlowIDs": "approvalStatus-ConsumerOnlineSales||approvalStatus-CPOP",
+                "isPrimary": true,
+                "associatedProducts": [
+                    {
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite"
+                                },
+                                "products": [
+                                    {
+                                        "typeId": "product",
+                                        "id": "060c45ca-8492-49d2-a4ab-8770d16ebee3"
+                                    }
+                                ]
+                            }
+                        ],
+                        "predicate": "dtvs1",
+                        "qualifyingProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "predicateTag": "dtvs1",
+                                    "productState": "Existing"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "existingProductFamilies": [
+                    "satellite"
+                ],
+                "offerType": "coupon",
+                "offerProductFamilies": [
+                    "satellite"
+                ],
+                "offerActionTypes": [
+                    "Acquisition"
+                ],
+                "benefits": [
+                    {
+                        "duration": 111,
+                        "billingBenefitCode": "TEST_CAM_BENEFIT_001",
+                        "billingBenefitId": "TEST_CAM_BENEFIT_001",
+                        "benefitType": "flat-off",
+                        "contractIndicator": "contract",
+                        "benefitDisplayName": {
+                            "en": "TEST_CAM_BENEFIT_001"
+                        },
+                        "isCouponPromo": true,
+                        "parentOffers": [
+                            {
+                                "typeId": "product",
+                                "id": "725b2be6-36fb-4d91-b560-fed9dd0af611"
+                            }
+                        ],
+                        "period": "NoOfDays",
+                        "benefitCategory": "Product",
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "typeId": "product",
+                                        "id": "060c45ca-8492-49d2-a4ab-8770d16ebee3"
+                                    }
+                                ]
+                            }
+                        ],
+                        "id": "60f98a67-38eb-4446-a43a-8f9175f55f79",
+                        "version": 9,
+                        "code": "TEST_CAM_BENEFIT_001",
+                        "benefitName": {
+                            "en": "TEST_CAM_BENEFIT_001"
+                        },
+                        "description": {
+                            "en": "TEST_CAM_BENEFIT_001"
+                        },
+                        "startDate": "2020-05-19T00:00:00.000Z",
+                        "endDate": "2020-05-31T00:00:00.000Z",
+                        "value": {
+                            "percentage": 1
+                        },
+                        "isQuotaBased": false
+                    },
+                    {
+                        "duration": 10,
+                        "billingBenefitCode": "TEST_BENEFIT_001",
+                        "benefitType": "flat-off",
+                        "contractIndicator": "contract",
+                        "benefitDisplayName": {
+                            "en": "TEST_BENEFIT_001"
+                        },
+                        "isCouponPromo": true,
+                        "parentOffers": [
+                            {
+                                "typeId": "product",
+                                "id": "725b2be6-36fb-4d91-b560-fed9dd0af611"
+                            }
+                        ],
+                        "benefitLevel": "account",
+                        "period": "NoOfDays",
+                        "benefitCategory": "Product",
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "typeId": "product",
+                                        "id": "060c45ca-8492-49d2-a4ab-8770d16ebee3"
+                                    }
+                                ]
+                            }
+                        ],
+                        "id": "62742a8a-af66-4937-b22a-c68d0b767e59",
+                        "version": 6,
+                        "code": "TEST_BENEFIT_001",
+                        "benefitName": {
+                            "en": "TEST_BENEFIT_001"
+                        },
+                        "description": {
+                            "en": "TEST_BENEFIT_001"
+                        },
+                        "startDate": "2020-05-14T00:00:00.000Z",
+                        "endDate": "2020-05-21T00:00:00.000Z",
+                        "value": {
+                            "percentage": 2
+                        },
+                        "isQuotaBased": false
+                    },
+                    {
+                        "duration": 1,
+                        "billingBenefitCode": "OFCAMPAIGNPROD",
+                        "compliance": {
+                            "constraints": [
+                                {
+                                    "complianceProducts": []
+                                }
+                            ]
+                        },
+                        "isMigrated": false,
+                        "benefitType": "percent-off",
+                        "contractIndicator": "non-contract",
+                        "isCouponRequired": true,
+                        "promoPriority": 4,
+                        "benefitDisplayName": {
+                            "en": "OF_CAMPAIGN_PROD"
+                        },
+                        "parentOffers": [
+                            {
+                                "typeId": "product",
+                                "id": "725b2be6-36fb-4d91-b560-fed9dd0af611"
+                            }
+                        ],
+                        "benefitLevel": "account",
+                        "freeTrialPromo": false,
+                        "period": "NoOfMonths",
+                        "benefitCategory": "Product",
+                        "applicableProducts": [
+                            {
+                                "products": [
+                                    {
+                                        "typeId": "product",
+                                        "id": "060c45ca-8492-49d2-a4ab-8770d16ebee3"
+                                    }
+                                ]
+                            }
+                        ],
+                        "id": "577c5f1c-5d9d-4439-9bae-b9c29c9b3cd9",
+                        "version": 4,
+                        "code": "OFCAMPAIGNPROD",
+                        "benefitName": {
+                            "en": "OF_CAMPAIGN_PROD"
+                        },
+                        "description": {
+                            "en": ""
+                        },
+                        "startDate": "2020-05-11T00:00:00.000Z",
+                        "endDate": "2020-05-31T00:00:00.000Z",
+                        "value": {
+                            "percentage": 10
+                        },
+                        "isQuotaBased": false
+                    }
+                ]
+            }
+        }
+    ],
+    "products": [
+        {
+            "id": "060c45ca-8492-49d2-a4ab-8770d16ebee3",
+            "code": "CAMPAIGN_PROD",
+            "name": {
+                "en": "CAMPAIGN_PROD"
+            },
+            "description": {
+                "en": "CAMPAIGN_PROD"
+            },
+            "version": 136,
+            "createdAt": "2020-04-28T15:09:06.625Z",
+            "createdBy": {
+                "isPlatformClient": true,
+                "user": {
+                    "typeId": "user",
+                    "id": "7e1e4ee6-4244-460b-877d-08e68f69ae24"
+                }
+            },
+            "lastModifiedAt": "2020-06-04T07:18:36.280Z",
+            "lastModifiedBy": {
+                "isPlatformClient": true,
+                "user": {
+                    "typeId": "user",
+                    "id": "8316bf34-ee3e-4c6f-bfbd-1063cf9e8ec1"
+                }
+            },
+            "status": {
+                "typeId": "state",
+                "id": "9f211e6a-7902-4d3c-8352-e06a621aadf8"
+            },
+            "productType": {
+                "typeId": "product-type",
+                "id": "1606965f-73ce-4eb7-8c5c-bc2900e8b4fa",
+                "key": "campaign"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": 1,
+                    "attributes": {
+                        "campaignId": "1234",
+                        "campaignName": "Spring",
+                        "campaignCode": "CAMPAIGN_PROD",
+                        "campaignDesc": "Sprinf campaign",
+                        "couponType": "multi-use2",
+                        "campaignCategory": "standard",
+                        "creationDate": "2020-04-02T00:00:00.000Z",
+                        "campaignStartDate": "2020-04-25T00:00:00.000Z",
+                        "campaignEndDate": "9999-07-15T00:00:00.000Z",
+                        "autoRegister": false,
+                        "studioSponsorByATT": false,
+                        "lockDuration": "12",
+                        "studioSponsorNames": "dff",
+                        "redemptionLimit": "10",
+                        "campaignEligibility": [
+                            {
+                                "purchaseType": "Rent",
+                                "contentCategory": "Adult",
+                                "genre": "comedy",
+                                "rating": "PG13",
+                                "format": "Blu-Ray",
+                                "studio": "CAMPAIGN",
+                                "newRelease": true,
+                                "releaseDate": "2",
+                                "title": ["Superman"]
+                            }
+                        ],
+                        "partnerKeys": []
+                    },
+                    "prices": []
+                }
+            ]
+        }
+    ],
+    "partners": []
+}

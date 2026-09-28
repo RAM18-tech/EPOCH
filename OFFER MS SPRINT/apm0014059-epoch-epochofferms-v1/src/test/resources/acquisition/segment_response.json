@@ -1,0 +1,58 @@
+{
+  "limit": 300,
+  "count": 1,
+  "total": 1,
+  "products": [
+    {
+      "id": "86f27510-e5df-4d95-bc0f-828230310e9e",
+      "code": "SEGMENT-SP0205_satellite",
+      "productType": {
+        "typeId": "product-type",
+        "id": "b6afc823-139e-464d-bfb7-5a5d24905806",
+        "key": "segment"
+      },
+      "name": {
+        "en": "SP0205"
+      },
+      "description": {
+        "en": "Segment SP0205"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": "1",
+          "prices": [],
+          "attributes": {
+            "startDate": "2022-07-01T00:00:00.000Z",
+            "endDate": "2050-12-31T23:59:00.000Z",
+            "regionName": "Acquisition Dealers All Risk Levels",
+            "regionDesc": "Acquisition Dealers All Risk Levels",
+            "segmentKey": "SP0205",
+            "segmentStatus": "Active",
+            "segmentType": "programming",
+            "segmentTypeCode": "001",
+            "segmentTypeDesc": "Acquisition",
+            "segmentLevel": 3,
+            "eligibleAccountTypeList": "MDU,JDU",
+            "eligibleAccountStatus": "NEW,PEND",
+            "eligibleDMA": "653,643",
+            "eligibleZip": "42101",
+            "customerRisk": "1,2,88,99",
+            "salesSystem": "online",
+            "equipmentOption": "leased,owned",
+            "marketingSourceCode": "WDSL",
+            "segmentOffers": [
+              {
+                "segmentOfferId": "OF_SEGMENT_DTV-FLAT-EPIX-3-MOS_satellite",
+                "segmentOfferType": "Acquisition",
+                "offerRequired": "Mandatory",
+                "promotionCode": "PC12345",
+                "freeTVCount": 1
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

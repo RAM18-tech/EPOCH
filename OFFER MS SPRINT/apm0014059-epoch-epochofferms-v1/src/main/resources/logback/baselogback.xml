@@ -1,0 +1,56 @@
+<included>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
+            <!-- Enable the PrettyPrintingJsonGeneratorDecorator for Local development.  DO NOT add this to the ConfigRole logback.xml -->
+            <!-- <jsonGeneratorDecorator class="net.logstash.logback.decorate.PrettyPrintingJsonGeneratorDecorator"/> -->
+            <providers>
+                <timestamp>
+                    <fieldName>@timestamp</fieldName>
+                    <pattern>yyyy-MM-dd HH:mm:ss.SSS zzz</pattern>
+                    <timeZone>GMT</timeZone>
+                </timestamp>
+                <logLevel>
+                    <fieldName>level</fieldName>
+                </logLevel>
+                <threadName>
+                    <fieldName>thread</fieldName>
+                </threadName>
+                <loggerName>
+                    <fieldName>logger</fieldName>
+                    <shortenedLoggerNameLength>25</shortenedLoggerNameLength>
+                </loggerName>
+              <mdc>
+					<fieldName>context</fieldName>
+                     
+                    
+                    <includeMdcKeyName>idp-trace-id</includeMdcKeyName>
+                     
+                  
+					
+                </mdc>
+                <stackTrace>
+                    <fieldName>exTrace</fieldName>
+                    <throwableConverter class="net.logstash.logback.stacktrace.ShortenedThrowableConverter">
+                        <maxDepthPerThrowable>10</maxDepthPerThrowable>
+                        <rootCauseFirst>false</rootCauseFirst>
+                        <maxLength>10240</maxLength>
+                    </throwableConverter>
+                </stackTrace>
+                <stackHash>
+                    <fieldName>exHash</fieldName>
+                </stackHash>
+                <sequence>
+                    <fieldName>seq</fieldName>
+                </sequence>
+                <pattern><pattern>{ "format": "nf-v1.0" }</pattern></pattern>
+            </providers>
+        </encoder>
+    </appender>
+    
+    <logger name="io.jaegertracing.internal.reporters" level="WARN" additivity="false">
+       <appender-ref ref="STDOUT" />
+    </logger>
+   
+</included>    
+
+    

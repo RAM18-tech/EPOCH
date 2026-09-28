@@ -1,0 +1,148 @@
+{
+  "limit": 300,
+  "offset": 0,
+  "count": 1,
+  "total": 1,
+  "offers": [
+    {
+      "id": "277680bc-227f-45ab-abec-c934f344c676",
+      "code": "OF_SEGMENT_DTV-FLAT-EPIX-3-MOS_satellite",
+      "status": "live",
+      "name": {
+        "en": "DTV - 100% off EPIX _3 mos_DS1213"
+      },
+      "description": {
+        "en": "$5.99 off for 3 months"
+      },
+      "startDate": "2019-04-30T00:00:00.000Z",
+      "endDate": "2049-12-31T23:59:00.000Z",
+      "attributes": {
+        "offerProductType": "segment",
+        "offerProductTypes": [
+          "segment"
+        ],
+        "offerProductFamily": "satellite",
+        "offerProductFamilies": [
+          "satellite"
+        ],
+        "offerStatus": "Active",
+        "offerType": "multi-benefit",
+        "offerActionType": "Acquisition",
+        "offerActionTypes": [
+          "Acquisition"
+        ],
+        "migratedOffer": false,
+        "benefits": [
+          {
+            "benefitCategory": "Product",
+            "billingBenefitId": "B106644/004",
+            "id": "97264dbf-33cb-4875-9402-f49dedf50a58",
+            "code": "PROMO_DTV-FLAT-EPIX-3-MOS_satellite",
+            "billingBenefitCode": "88894663",
+            "benefitName": {
+              "en": "DTV - 100% off EPIX _3 mos_DS1213"
+            },
+            "benefitDisplayName": {
+              "en": "$5.99 off EPIX for 3 months"
+            },
+            "benefitRank": 100,
+            "description": {
+              "en": "$5.99 off for 3 months"
+            },
+            "startDate": "2019-04-30T00:00:00.000Z",
+            "retIoApplicableProducts": false,
+            "endDate": "2049-12-31T23:59:00.000Z",
+            "contractIndicator": "contract",
+            "selfBenefit": false,
+            "duration": 3,
+            "period": "NoOfMonths",
+            "billAfterPeriod": false,
+            "applicableProducts": [
+              {
+                "products": [
+                  {
+                    "id": "a1bdfe8b-e861-4c2c-bd25-f98a6184e3b1",
+                    "typeId": "product",
+                    "productType": "video-addon",
+                    "key": "BOLTON-EPIX_satellite"
+                  }
+                ]
+              }
+            ],
+            "maxOccurrence": 0,
+            "benefitType": "flat-off",
+            "value": {
+              "centAmount": 599,
+              "currencyCode": "USD",
+              "fractionDigits": 2,
+              "dollarAmount": 5.99
+            },
+            "secondaryBenefitCode": "VAGR-EPIX-3MO-V2",
+            "freeTrialPromo": false,
+            "ioOffer": false,
+            "freeTrialDuration": 0,
+            "agentOffer": false,
+            "minQuantity": 0,
+            "promoPriority": 4,
+            "benefitLevel": "product",
+            "notApplibaleForOffer": false,
+            "enableServiceDisconnect": false,
+            "rtpIndicator": true,
+            "portin": false,
+            "benefitSaleType": "B",
+            "segment": [
+              "Residential"
+            ],
+            "salesChannels": [
+              "online"
+            ],
+            "benefitActionType": [
+              "Aquisition"
+            ],
+            "gfVersion": "0",
+            "enablerPromotionCode": "DS1213",
+            "locationType": "nation",
+            "location": "US",
+            "billingReasonCode": "4612",
+            "omsProductId": "10035788",
+            "numberOfCredits": 3,
+            "recurringBillingReasonCode": "SAJ4613",
+            "agreementID": "VAGR-EPIX-3MO-V2",
+            "agreementPriceCode": "1",
+            "active": true,
+            "quotaBased": false,
+            "couponPromo": false,
+            "migrated": false,
+            "isDependentPromo": false,
+            "isMigrated": false,
+            "isQuotaBased": false,
+            "isActive": true
+          }
+        ],
+        "eligibility": {
+          "constraints": [
+            {
+              "salesChannel": [
+                "online"
+              ],
+              "existingCustomerType": [
+                "Satellite"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "non-contract",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "recommendedOfferOPUS": false,
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isSpecialOffer": false
+      }
+    }
+  ],
+  "products": []
+}

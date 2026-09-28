@@ -1,0 +1,343 @@
+{
+    "limit": 0,
+    "offset": 0,
+    "count": 1,
+    "total": 1,
+    "offers": [
+      {
+        "id": "689ea0ae-1d95-4176-a21e-cc59c4351c02",
+        "code": "OF_HARD-OSPREY-042019_EDSP_1_GIFT",
+        "status": "live",
+        "name": {
+          "en": "TBD"
+        },
+        "description": {
+          "en": "TBD"
+        },
+        "startDate": "2020-01-15T06:00:00.000Z",
+        "endDate": "2051-01-01T07:59:00.000Z",
+        "attributes": {
+          "offerProductType": "video-device",
+          "offerProductTypes": [
+            "video-device"
+          ],
+          "offerProductFamily": "OTT",
+          "offerProductFamilies": [
+            "OTT"
+          ],
+          "offerType": "free-promo",
+          "offerActionType": "Other",
+          "offerActionTypes": [
+            "Other"
+          ],
+          "environment": "",
+          "rank": "30",
+          "displayName": {
+            "en": "TBD"
+          },
+          "descriptionsByKey": {
+            "att.com": "Ospery free Offer"
+          },
+          "billingId": "7523831467",
+          "billingCode": "OF_HARD-OSPREY-042019",
+          "migratedOffer": true,
+          "associatedProducts": [
+            {
+              "qualifyingProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "NA",
+                    "dependent": false,
+                    "anchor": false
+                  }
+                }
+              ],
+              "bundleProducts": [
+                {
+                  "constraints": {
+                    "productFamily": "OTT",
+                    "dependent": false,
+                    "anchor": false
+                  },
+                  "products": [
+                    {
+                      "id": "3f7011e5-34fe-4658-92b6-4557727d807c",
+                      "typeId": "product",
+                      "obj": {
+                        "id": "3f7011e5-34fe-4658-92b6-4557727d807c",
+                        "code": "HARD-OSPREY-042019",
+                        "productType": {
+                          "typeId": "product-type",
+                          "id": "60f4091f-8f83-4964-8dc8-0d39a9048a1c",
+                          "key": "video-device"
+                        },
+                        "name": {
+                          "en": "Gemini Device(s)"
+                        },
+                        "description": {
+                          "en": "Gemini Device(s)"
+                        },
+                        "categories": [],
+                        "variants": [
+                          {
+                            "id": "1",
+                            "prices": [
+                              {
+                                "value": {
+                                  "centAmount": 12000.0,
+                                  "currencyCode": "USD",
+                                  "fractionDigits": 2,
+                                  "dollarAmount": 120.0
+                                },
+                                "id": "fceb4cad-34a4-454b-bb6e-e1089f5ea8f7",
+                                "startDate": "2020-08-31T18:30:00.000Z",
+                                "endDate": "9999-12-30T18:30:00.000Z",
+                                "recurrenceIndicator": false,
+                                "duration": 0,
+                                "contractIndicator": "EDSP",
+                                "billingReferenceId": "90031",
+                                "gfVersion": 0,
+                                "grandfathered": false,
+                                "contracted": false
+                              }
+                            ],
+                            "attributes": {
+                              "displayName": {
+                                "en": "Gemini Device(s)"
+                              },
+                              "displayNamesByKey": {
+                                "name-cpc": "Gemini Device"
+                              },
+                              "descriptionsByKey": {
+                                "short-opus": "Gemini Device &amp; voice remote with the Google Assistant.  Google login required.",
+                                "short-myatt": "Gemini Device &amp; voice remote with the Google Assistant.  Google login required.",
+                                "long-myatt": "Rep should inform customer that device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation.",
+                                "description-cpc": "Gemini Device"
+                              },
+                              "billingProductCode": "HARD-OSPREY-042019",
+                              "billingProductId": "20899",
+                              "startDate": "2019-04-16T18:30:00.000Z",
+                              "endDate": "9999-12-30T18:30:00.000Z",
+                              "businessSegment": [
+                                "CONS"
+                              ],
+                              "opusDisclosureMessage": "<p>Any Gemini device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br><sup>1</sup>Purchasing a device on an installment plan requires an installment agreement and DIRECTV service. Taxes are due at time of sale. If service is cancelled, the outstanding balance is charged.</p>",
+                              "myAttDisclosureMessage": "<strong>DIRECTV:</strong> New U.S. customers only. Must prepay first 2 months of service at full price. Online orders will be shipped in 1 to 3 days by FedEx Ground<sup>&#174;</sup> to the address provided. <strong>Non-refundable.</strong> Offer limited to 1 per DIRECTV account; 2 per household. Not combinable with select offers.",
+                              "productFamily": "OTT",
+                              "removalRule": {
+                                "accountType": [
+                                  "NONE"
+                                ]
+                              },
+                              "secondaryBillingProductId": "7534713770",
+                              "discountSku": "7088A",
+                              "equipmentSku": "60075",
+                              "contractApplicable": "contract",
+                              "contractIndicator": [
+                                "TAZCONTRACT",
+                                "TAZBYOD",
+                                "TAZ",
+                                "contract"
+                              ],
+                              "minQuantity": "1",
+                              "minMaxQuantity": [
+                                {
+                                  "maxQuantity": "6",
+                                  "minQuantity": "0",
+                                  "contractApplicable": [
+                                    "EDSP"
+                                  ]
+                                }
+                              ],
+                              "installmentList": [
+                                {
+                                  "installmentDescription": "DIRECTV-EDSP 12M Installment plan",
+                                  "numberOfMonthlyInstallments": "12",
+                                  "installmentPlanVersion": "V6",
+                                  "installmentStartDate": "2022-06-15T18:30:00.000Z",
+                                  "installmentEndDate": "2050-09-09T18:30:00.000Z",
+                                  "installmentId": "3329699",
+                                  "contractApplicable": [
+                                    "EDSP"
+                                  ],
+                                  "installmentProvider": "DIRECTV",
+                                  "disclosureMessagesByKey": {
+                                    "onlineDisclosure": " <p>Any Gemini device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br><sup>1</sup>Purchasing a device on an installment plan requires an installment agreement and DIRECTV service. Taxes are due at time of sale. If service is cancelled, the outstanding balance is charged.</p>",
+                                    "opusDisclosure": "<p>Any Gemini device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br><sup>1</sup>Purchasing a device on an installment plan requires an installment agreement and DIRECTV service. Taxes are due at time of sale. If service is cancelled, the outstanding balance is charged.</p>",
+                                    "opusDisclosureForServices": "<p>Any Gemini device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br><sup>1</sup>Purchasing a device on an installment plan requires an installment agreement and DIRECTV service. Taxes are due at time of sale. If service is cancelled, the outstanding balance is charged.</p>",
+                                    "onlineDisclosureForServices": "<p>Any Gemini device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br><sup>1</sup>Purchasing a device on an installment plan requires an installment agreement and DIRECTV service. Taxes are due at time of sale. If service is cancelled, the outstanding balance is charged.</p>"
+                                  }
+                                },
+                                {
+                                  "installmentDescription": "Affirm Installment Plan",
+                                  "numberOfMonthlyInstallments": "24",
+                                  "installmentStartDate": "2022-03-18T00:00:00.000Z",
+                                  "installmentEndDate": "9999-03-31T00:00:00.000Z",
+                                  "contractApplicable": [
+                                    "EDSP"
+                                  ],
+                                  "installmentProvider": "Affirm",
+                                  "disclosureMessagesByKey": {
+                                    "onlineDisclosure": "<p>You may cancel your DIRECTV service within 14 days of purchase to avoid charges.<br>Purchased Gemini devices can be returned within 14 days of purchase for a full refund. Details at directv.com/CancellationPolicyStream. Gemini devices have a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation.<br>We now offer an installment plan option from Affirm for financing your Gemini device purchase. The finance rate is as low as 0% APR for well-qualified customers, with flexible payment options. Requires a credit check that will not impact your credit score. Payment options depend on your purchase amount, and a down payment may be required.<br>You must have DIRECTV service to purchase a Gemini device on an installment plan through Affirm. If you cancel your DIRECTV service, you remain responsible for any outstanding balance on your device installment plan.<br>Read this to the customers that live in California ONLY: Loans by Affirm Loan Services, LLC are made or arranged pursuant to a California Finance Lenders Law License.</p>",
+                                    "opusDisclosure": "<p>You may cancel your DIRECTV service within 14 days of purchase to avoid charges.<br>Purchased Gemini devices can be returned within 14 days of purchase for a full refund. Details at directv.com/CancellationPolicyStream. Gemini devices have a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation.<br>We now offer an installment plan option from Affirm for financing your Gemini device purchase. The finance rate is as low as 0% APR for well-qualified customers, with flexible payment options. Requires a credit check that will not impact your credit score. Payment options depend on your purchase amount, and a down payment may be required.<br>You must have DIRECTV service to purchase a Gemini device on an installment plan through Affirm. If you cancel your DIRECTV service, you remain responsible for any outstanding balance on your device installment plan.<br>Read this to the customers that live in California ONLY: Loans by Affirm Loan Services, LLC are made or arranged pursuant to a California Finance Lenders Law License.</p>",
+                                    "opusDisclosureForServices": "<p>You may cancel your DIRECTV service within 14 days of purchase to avoid charges.<br>Purchased Gemini devices can be returned within 14 days of purchase for a full refund. Details at directv.com/CancellationPolicyStream. Gemini devices have a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation.<br>We now offer an installment plan option from Affirm for financing your Gemini device purchase. The finance rate is as low as 0% APR for well-qualified customers, with flexible payment options. Requires a credit check that will not impact your credit score. Payment options depend on your purchase amount, and a down payment may be required.<br>You must have DIRECTV service to purchase a Gemini device on an installment plan through Affirm. If you cancel your DIRECTV service, you remain responsible for any outstanding balance on your device installment plan.<br>Read this to the customers that live in California ONLY: Loans by Affirm Loan Services, LLC are made or arranged pursuant to a California Finance Lenders Law License.</p>",
+                                    "onlineDisclosureForServices": "<p>You may cancel your DIRECTV service within 14 days of purchase to avoid charges.<br>Purchased Gemini devices can be returned within 14 days of purchase for a full refund. Details at directv.com/CancellationPolicyStream. Gemini devices have a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation.<br>We now offer an installment plan option from Affirm for financing your Gemini device purchase. The finance rate is as low as 0% APR for well-qualified customers, with flexible payment options. Requires a credit check that will not impact your credit score. Payment options depend on your purchase amount, and a down payment may be required.<br>You must have DIRECTV service to purchase a Gemini device on an installment plan through Affirm. If you cancel your DIRECTV service, you remain responsible for any outstanding balance on your device installment plan.<br>Read this to the customers that live in California ONLY: Loans by Affirm Loan Services, LLC are made or arranged pursuant to a California Finance Lenders Law License.</p>"
+                                  }
+                                }
+                              ],
+                              "customerSegments": [
+                                "Employee"
+                              ],
+                              "deliverymethod": [
+                                "Enjoy",
+                                "DF"
+                              ],
+                              "deviceType": "ATTTV",
+                              "deliveryMethodByChannels": [
+                                {
+                                  "salesChannel": [
+                                    "directvOnline"
+                                  ],
+                                  "customerSegments": [
+                                    "Residential",
+                                    "Mobility"
+                                  ],
+                                  "deliveryMethod": [
+                                    "DF"
+                                  ]
+                                }
+                              ],
+                              "conflictingProducts": [
+                                {
+                                  "typeId": "product",
+                                  "id": "ea13aebe-ab23-4330-9b12-56389bd97724",
+                                  "key": "REFURB-OSPREY-092021"
+                                }
+                              ],
+                              "migratedProduct": true,
+                              "disclosureMessagesByKey": {
+                                "onlineDisclosure": "<p>Any Gemini device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br></p>",
+                                "opusDisclosure": "<p>Any Gemini device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br></p>",
+                                "opusDisclosureForServices": "<p>Any Gemini device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br></p>",
+                                "onlineDisclosureForServices": "<p>Any Gemini device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br></p>"
+                              },
+                              "deviceState": "new",
+                              "warrantyDuration": "24"
+                            }
+                          }
+                        ]
+                      },
+                      "productType": "video-device",
+                      "key": "HARD-OSPREY-042019"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "benefits": [
+            {
+              "benefitCategory": "Product",
+              "billingBenefitId": "506445",
+              "id": "83eea65f-ad4e-4e8d-8235-021111a44fa6",
+              "code": "FREE4GBGEMD",
+              "billingBenefitCode": "FREE4GBGEMD",
+              "benefitName": {
+                "en": "TBD"
+              },
+              "benefitDisplayName": {
+                "en": "TBD"
+              },
+              "benefitRank": 10,
+              "description": {
+                "en": "TBD"
+              },
+              "startDate": "2024-07-12T18:29:00.000Z",
+              "retIoApplicableProducts": false,
+              "endDate": "9999-12-31T18:29:00.000Z",
+              "contractIndicator": "all",
+              "selfBenefit": false,
+              "duration": 0,
+              "period": "LifeTime",
+              "billAfterPeriod": false,
+              "applicableProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "3f7011e5-34fe-4658-92b6-4557727d807c",
+                      "typeId": "product",
+                      "productType": "video-device",
+                      "key": "HARD-OSPREY-042019"
+                    }
+                  ]
+                }
+              ],
+              "maxOccurrence": 1,
+              "benefitType": "free-promo",
+              "value": {
+                "percentage": 0
+              },
+              "customerClassification": "New Customer",
+              "secondaryBenefitCode": "783102294",
+              "freeTrialPromo": false,
+              "ioOffer": false,
+              "freeTrialDuration": 0,
+              "agentOffer": false,
+              "minQuantity": 1,
+              "promoPriority": 2,
+              "salesChannel": "selfServiceExisting",
+              "benefitLevel": "product",
+              "displayNameforServices": "TBD",
+              "notApplibaleForOffer": false,
+              "enableServiceDisconnect": false,
+              "rtpIndicator": false,
+              "portin": false,
+              "migrated": true,
+              "couponPromo": false,
+              "quotaBased": false,
+              "active": true,
+              "isDependentPromo": false,
+              "isMigrated": true,
+              "isQuotaBased": false,
+              "isActive": true
+            }
+          ],
+          "eligibility": {
+            "constraints": [
+              {
+                "minimumPurchaseAmount": 0,
+                "salesChannel": [
+                  "directvOnline"
+                ],
+                "businessSegment": [
+                  "CONS"
+                ]
+              }
+            ]
+          },
+          "leadOffer": false,
+          "offerPrice": {
+            "dollarAmount": 0.0
+          },
+          "contractIndicator": "EDSP",
+          "targetedOffer": true,
+          "offerIntents": [
+            "migration",
+            "non-migration"
+          ],
+          "offerClassificationType": "non-replacement-device",
+          "benefitCodesToSuppressOffer": [
+            "FREE4GBGEMD"
+          ],
+          "recommendedOfferOPUS": false,
+          "recommendedOnline": false,
+          "banLookupTable": "osprey_gifting_bans",
+          "specialPage": "ospreyGift",
+          "isVirtual": false,
+          "flashSaleOffer": false,
+          "isBulkOffer": false,
+          "isSpecialOffer": false
+        }
+      }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+  "offerRequest": {
+    "accountTypes": [
+      "Residential"
+    ],
+    "addOnType": [],
+    "contractIndicator": [
+      "TAZCONTRACT"
+    ],
+    "customerContext": {
+      "existingProductFamily": [
+        "OTT"
+      ],
+      "OTT": {
+        "isActive": true,
+        "retentionPromotionIndicator": false,
+        "freeTrialEligible": false,
+        "accountType": "Residential",
+        "nextBillingDate": "08/15/2024",
+        "parentSubscriptionDate": "02/13/2024",
+        "active": true,
+        "products": [
+          {
+            "basePrice": "89.99",
+            "productCode": "BASE-CHOICE-201811",
+            "productType": "video-plan"
+          },
+          {
+            "basePrice": "0.0",
+            "productCode": "BOLT-20STREAMS-202010",
+            "productType": "video-addon"
+          },
+          {
+            "basePrice": "49.99",
+            "productCode": "REFURB-OSPREY-092021",
+            "productType": "video-device"
+          },
+          {
+            "basePrice": "120.0",
+            "productCode": "HARD-OSPREY-042019",
+            "productType": "video-device"
+          },
+          {
+            "basePrice": "12.0",
+            "productCode": "RSN-TAZTIER1-202212",
+            "productType": "fee"
+          }
+        ],
+        "accountNumber": "211220188167750"
+      }
+    },
+    "customerEligibility": {
+      "zipCode": [
+        "63031"
+      ]
+    },
+    "offerActionType": [
+      "Upgrade",
+      "Downgrade",
+      "Cross-sell",
+      "Other"
+    ],
+    "offerProductFamily": [
+      "OTT"
+    ],
+    "salesChannel": [
+      "directvOnline"
+    ],
+    "creditRisk": "Low",
+    "migrationIndicator": false,
+    "reconnectCustomer": false,
+    "decisioningFlow": false,
+    "swimlaneSwitchEligible": false,
+    "offerProductTypes": [
+      "video-device",
+      "fee"
+    ],
+    "isExpiredOffers": false
+  },
+  "dtvnAccount": "211220188167750",
+  "iptvMigration": false,
+  "iptvMigrationIntent": false,
+  "ctOfferRequest": {
+    "customerEligibility": {
+      "zipCode": [
+        "63031"
+      ]
+    },
+    "expandProductRefs": false,
+    "migrationIndicator": false,
+    "partnerDealerDetails": {},
+    "reconnectOfferFlag": true,
+    "isExpiredOffers": false
+  },
+  "cartModeMobility": false,
+  "mobility": false,
+  "employeeAccount": false,
+  "partner": false,
+  "directvOnline": true,
+  "channelEligiblity": false
+}

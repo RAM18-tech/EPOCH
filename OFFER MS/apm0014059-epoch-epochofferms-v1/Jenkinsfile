@@ -1,0 +1,12 @@
+//library "dcp-shared-library@master"
+library "dcp-shared-library@feature/jenkins-argocd"
+//Override jenkins job params - Remove when introduced in DCP UI portal in future
+def ovrParams = [
+   NOTIFICATION_ID: "",
+   SKIP_QGS : "QG2,QG3,QG4",
+   AWS_REGION : "us-east-1",
+   //PHASE : "SWITCH_CANARY",
+   //DEPLOYMENT_STRATEGY : "canary",
+   //SOURCE_K8S_NAMESPACE : "prodconfig"
+]
+main_dcp_ms(ovrParams)

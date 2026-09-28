@@ -1,0 +1,489 @@
+{
+
+    "limit": 300,
+    "count": 5,
+    "total": 110,
+    "products": [
+      {
+        "id": "a6721258-498b-4992-8e83-68b86cd2b4fa",
+        "code": "TestDevice0220",
+        "productType": {
+          "typeId": "product-type",
+          "id": "81078d42-227b-444c-b225-d1ab9226acd6",
+          "key": "video-device"
+        },
+        "name": {
+          "en": "Test Device 0220"
+        },
+        "description": {
+          "en": "Test Device 0220 updated 0224"
+        },
+        "categories": [],
+        "variants": [
+          {
+            "id": "1",
+            "prices": [
+              {
+                "value": {
+                  "centAmount": 12000,
+                  "currencyCode": "USD",
+                  "fractionDigits": 2,
+                  "dollarAmount": 120
+                },
+                "id": "44846572-be03-4676-b27f-fa227791b858",
+                "endDate": "9999-12-31T00:00:00.000Z",
+                "recurrenceIndicator": false,
+                "duration": 0,
+                "gfVersion": 0,
+                "contracted": false,
+                "grandfathered": false
+              }
+            ],
+            "attributes": {
+              "displayName": {
+                "en": "Test Device 0220"
+              },
+              "displayNamesByKey": {},
+              "descriptionsByKey": {
+                "short-myatt": "Test Device 0220"
+              },
+              "billingProductCode": "TestDevice0220",
+              "startDate": "2020-02-25T00:00:00.000Z",
+              "endDate": "9999-12-31T00:00:00.000Z",
+              "businessSegment": [
+                "CONS"
+              ],
+              "congratsMessage": "Test Congrats message",
+              "opusDisclosureMessage": "Test OPUS message",
+              "myAttDisclosureMessage": "Test MYATT message",
+              "salesChannel": [
+                "online"
+              ],
+              "productFamily": "OTT",
+              "productStatus": "Active",
+              "equipmentSku": "1234ab",
+              "contractApplicable": "contract",
+              "maxQuantity": "5",
+              "installmentList": [
+                {
+                  "installmentDescription": "Osprey Test",
+                  "numberOfMonthlyInstallments": "3",
+                  "installmentPlanVersion": "V4",
+                  "installmentStartDate": "2020-02-25T00:00:00.000Z",
+                  "installmentEndDate": "2021-02-25T00:00:00.000Z",
+                  "installmentId": "220",
+                  "installmentProductName": "Test DEVICE"
+                }
+              ],
+              "customerSegments": [
+                "Residential"
+              ],
+              "isThirdParty": false,
+              "termsAndConditions": {
+                "en": "Test Terms and Conditions"
+              },
+              "deviceType": "osprey"
+            }
+          }
+        ]
+      },
+      {
+        "id": "792b3bf2-774b-4ceb-b8b0-146d9c5d1577",
+        "code": "HARD-OSPREYFREE-201804",
+        "productType": {
+          "typeId": "product-type",
+          "id": "81078d42-227b-444c-b225-d1ab9226acd6",
+          "key": "video-device"
+        },
+        "name": {
+          "en": "AT&T TV"
+        },
+        "description": {
+          "en": "AT&T Osprey Box"
+        },
+        "categories": [],
+        "variants": [
+          {
+            "id": "1",
+            "prices": [
+              {
+                "value": {
+                  "centAmount": 0,
+                  "currencyCode": "USD",
+                  "fractionDigits": 2,
+                  "dollarAmount": 0
+                },
+                "id": "210a2322-918d-4ebe-8ed3-69fd05bff2ed",
+                "startDate": "2017-01-01T06:00:00.000Z",
+                "endDate": "9999-12-31T06:00:00.000Z",
+                "recurrenceIndicator": false,
+                "duration": 0,
+                "contractIndicator": "non-contract",
+                "billingReferenceId": "2801",
+                "gfVersion": 0,
+                "contracted": false,
+                "grandfathered": false
+              },
+              {
+                "value": {
+                  "centAmount": 0,
+                  "currencyCode": "USD",
+                  "fractionDigits": 2,
+                  "dollarAmount": 0
+                },
+                "id": "d8097e96-c779-4f6e-9ec2-1d713594ba9f",
+                "startDate": "2019-02-17T06:00:00.000Z",
+                "endDate": "9999-12-31T06:00:00.000Z",
+                "recurrenceIndicator": false,
+                "duration": 0,
+                "contractIndicator": "contract",
+                "billingReferenceId": "21025",
+                "gfVersion": 0,
+                "contracted": false,
+                "grandfathered": false
+              }
+            ],
+            "attributes": {
+              "displayName": {
+                "en": "Genie Extreme"
+              },
+              "displayNamesByKey": {
+                "name-cpc": "Genie Extreme"
+              },
+              "descriptionsByKey": {
+                "short-opus": "Get a free streaming media device",
+                "short-myatt": "When you prepay 2 months of AT&T TV NOW",
+                "long-myatt": "Get up to {0} receivers.",
+                "description-cpc": "AT&T Osprey Box"
+              },
+              "billingProductCode": "HARD-OSPREYFREE-201804",
+              "billingProductId": "2805",
+              "startDate": "2018-01-01T06:00:00.000Z",
+              "endDate": "9999-12-31T06:00:00.000Z",
+              "opusDisclosureMessage": "New U.S. customers only. Must Prepay for service at full price. Non-refundable. Not combinable with select offers.",
+              "myAttDisclosureMessage": "<strong>AT&T TV:</strong> New U.S. customers only. Must prepay first 2 months of service at full price. Online orders will be shipped in 1 to 3 days by FedEx Ground<sup>&#174;</sup> to the address provided. <strong>Non-refundable.</strong> Offer limited to 1 per AT&T TV NOW account; 2 per household. Not combinable with select offers.",
+              "productFamily": "OTT",
+              "removalRule": {
+                "channel": [
+                  "online"
+                ],
+                "accountType": [
+                  "NONE"
+                ]
+              },
+              "secondaryBillingProductId": "7513325626",
+              "discountSku": "7088A",
+              "equipmentSku": "60075",
+              "includedProducts": [
+                {
+                  "products": [
+                    {
+                      "id": "07b18be4-8bb6-438c-bf50-26e6f3ce07c6",
+                      "typeId": "product",
+                      "productType": "video-addon",
+                      "key": "BOLT-3RDSTREAMFREE-201804"
+                    }
+                  ],
+                  "constraints": {
+                    "dependent": false,
+                    "anchor": false
+                  }
+                }
+              ],
+              "conflictPromoList": [
+                "LAL14",
+                "JR14",
+                "BIO14",
+                "TW14",
+                "HISTYF7D",
+                "NWBRAZ07",
+                "NWVIET07",
+                "PLUS07",
+                "MAX07"
+              ],
+              "contractApplicable": "contract",
+              "installmentList": [],
+              "isThirdParty": false,
+              "evergentProdCategory": "Hardware",
+              "deliverymethod": [
+                "RTG"
+              ]
+            },
+            "contentImages": [
+              {
+                "url": "/salescms/dam/att/2017/idp/dtvnow/osprey-desktop.jpg",
+                "name": "AT&T TV",
+                "size": "large"
+              },
+              {
+                "url": "/salescms/dam/att/2017/idp/dtvnow/osprey-mobile.jpg",
+                "name": "AT&T TV",
+                "size": "small"
+              },
+              {
+                "url": "/salescms/dam/att/2017/idp/dtvnow/osprey-tablet.jpg",
+                "name": "AT&T TV",
+                "size": "medium"
+              }
+            ],
+            "productImages": []
+          }
+        ]
+      },
+      {
+        "id": "2067b3eb-ffc9-4865-82bf-a76f2bc7cbe2",
+        "code": "HARD-OSPREY-042019",
+        "productType": {
+          "typeId": "product-type",
+          "id": "81078d42-227b-444c-b225-d1ab9226acd6",
+          "key": "video-device"
+        },
+        "name": {
+          "en": "AT&T TV Device"
+        },
+        "description": {
+          "en": "AT&T TV Device(s)"
+        },
+        "categories": [],
+        "variants": [
+          {
+            "id": "1",
+            "sku": "HARD-OSPREY-042019",
+            "key": "HARD-OSPREY-042019",
+            "prices": [
+              {
+                "value": {
+                  "centAmount": 9600,
+                  "currencyCode": "USD",
+                  "fractionDigits": 2,
+                  "dollarAmount": 96
+                },
+                "id": "b20c5885-139f-463c-ba46-8ae5dc5fd534",
+                "startDate": "2019-04-01T05:00:00.000Z",
+                "endDate": "2019-06-23T05:00:00.000Z",
+                "recurrenceIndicator": false,
+                "duration": 0,
+                "contractIndicator": "contract",
+                "billingReferenceId": "21831",
+                "gfVersion": 0,
+                "contracted": false,
+                "grandfathered": false
+              },
+              {
+                "value": {
+                  "centAmount": 12000,
+                  "currencyCode": "USD",
+                  "fractionDigits": 2,
+                  "dollarAmount": 120
+                },
+                "id": "1a1d8178-5ed1-4bc1-87b8-ef7bf1d9fba9",
+                "startDate": "2019-06-24T05:00:00.000Z",
+                "endDate": "9999-12-31T06:00:00.000Z",
+                "recurrenceIndicator": false,
+                "duration": 0,
+                "contractIndicator": "contract",
+                "billingReferenceId": "23232",
+                "gfVersion": 0,
+                "contracted": false,
+                "grandfathered": false
+              }
+            ],
+            "attributes": {
+              "displayName": {
+                "en": "AT&T TV Device(s)"
+              },
+              "displayNamesByKey": {
+                "name-cpc": "AT&T TV Device(s)"
+              },
+              "descriptionsByKey": {
+                "short-opus": "AT&amp;T TV device &amp; voice remote with the Google Assistant.  Google login required.",
+                "short-myatt": "AT&amp;T TV device &amp; voice remote with the Google Assistant.  Google login required.",
+                "long-myatt": "Rep should inform customer that device has a Limited 2-year Warranty; term details can be found at att.com/atttvwarranty.",
+                "description-cpc": "AT&T TV Device(s)"
+              },
+              "billingProductCode": "HARD-OSPREY-042019",
+              "billingProductId": "20899",
+              "startDate": "2019-04-17T05:00:00.000Z",
+              "endDate": "9999-12-31T06:00:00.000Z",
+              "opusDisclosureMessage": "<p>I have informed the customer of the following: Device has a Limited 2-year Warranty; term details can be found at att.com/atttvwarranty<br><sup>1</sup> Purchasing a device on an installment plan requires an installment agreement and AT&#38;T TV service. Taxes are due at time of sale. If service is cancelled, the outstanding balance is charged. <br>If service is canceled within the first 14 days of purchase, the AT&#38;TV device included with service must be returned within 14 days of purchase to avoid a non-return fee of $120.</p>",
+              "productFamily": "OTT",
+              "removalRule": {
+                "channel": [
+                  "online"
+                ],
+                "accountType": [
+                  "NONE"
+                ]
+              },
+              "secondaryBillingProductId": "7513326000",
+              "discountSku": "7088A",
+              "equipmentSku": "60075",
+              "contractApplicable": "contract",
+              "maxQuantity": "6",
+              "installmentList": [
+                {
+                  "installmentDescription": "AT&T TV Device Service Fee",
+                  "numberOfMonthlyInstallments": "12",
+                  "installmentPlanVersion": "V2",
+                  "installmentStartDate": "2019-06-01T05:00:00.000Z",
+                  "installmentEndDate": "2019-06-04T22:59:00.000Z",
+                  "installmentId": "5207"
+                },
+                {
+                  "installmentDescription": "AT&T TV Installment plan",
+                  "numberOfMonthlyInstallments": "12",
+                  "installmentPlanVersion": "V3",
+                  "installmentStartDate": "2019-07-19T05:00:00.000Z",
+                  "installmentEndDate": "9999-12-30T23:59:00.000Z",
+                  "installmentId": "54240"
+                }
+              ],
+              "evergentProdCategory": "Hardware",
+              "deliverymethod": [
+                "DF",
+                "Enjoy"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "adc010b8-0e78-4c71-ae41-9cb08630c097",
+        "code": "CPOP-RT-HARD-OSPREY-042019",
+        "productType": {
+          "typeId": "product-type",
+          "id": "81078d42-227b-444c-b225-d1ab9226acd6",
+          "key": "video-device"
+        },
+        "name": {
+          "en": "CPOP_RT_AT&T TV Device"
+        },
+        "description": {
+          "en": "CPOP_RT_AT&T TV Devices"
+        },
+        "categories": [],
+        "variants": [
+          {
+            "id": "1",
+            "sku": "CPOP-RT-HARD-OSPREY-042019-1",
+            "key": "CPOP-RT-HARD-OSPREY-042019-1",
+            "prices": [
+              {
+                "value": {
+                  "centAmount": 12000,
+                  "currencyCode": "USD",
+                  "fractionDigits": 2,
+                  "dollarAmount": 120
+                },
+                "id": "0e2e63c2-a2e9-4e3b-84c8-795e44c35fc2",
+                "startDate": "2019-10-23T00:00:00.000Z",
+                "endDate": "9999-12-31T00:00:00.000Z",
+                "recurrenceIndicator": false,
+                "duration": 0,
+                "period": "month",
+                "contractIndicator": "contract",
+                "billingReferenceId": "adc010b8-0e78-4c71-ae41-9cb08630c097_786",
+                "gfVersion": 0,
+                "contracted": false,
+                "grandfathered": false
+              }
+            ],
+            "attributes": {
+              "displayName": {
+                "en": "CPOP_RT_AT&T TV Device(s)."
+              },
+              "displayNamesByKey": {
+                "name-cpc": "CPOP_RT_AT&T TV Devices."
+              },
+              "descriptionsByKey": {
+                "short-opus": "AT&amp;T TV device &amp; voice remote with the Google Assistant.  Google login required.",
+                "short-myatt": "AT&amp;T TV device &amp; voice remote with the Google Assistant.  Google login required.",
+                "long-myatt": "Rep should inform customer that device has a Limited 2-year Warranty; term details can be found at att.com/atttvwarranty.",
+                "description-cpc": "CPOP_RT_AT&T TV Devices."
+              },
+              "billingProductCode": "CPOP-RT-HARD-OSPREY-042019",
+              "billingProductId": "35299",
+              "startDate": "2019-10-23T00:00:00.000Z",
+              "endDate": "2020-10-23T00:00:00.000Z",
+              "businessSegment": [
+                "CONS"
+              ],
+              "opusDisclosureMessage": "Rep should inform customer that device has a Limited 2-year Warranty; term details can be found at att.com/atttvwarranty.",
+              "productFamily": "OTT",
+              "equipmentSku": "60075",
+              "contractApplicable": "contract",
+              "maxQuantity": "6",
+              "installmentList": [
+                {
+                  "installmentDescription": "CPOP RT AT&T TV Device Service Fee",
+                  "numberOfMonthlyInstallments": "12",
+                  "installmentPlanVersion": "V2",
+                  "installmentStartDate": "2019-10-25T00:00:00.000Z",
+                  "installmentEndDate": "2019-11-01T00:00:00.000Z",
+                  "installmentId": "5207"
+                },
+                {
+                  "installmentDescription": "CPOP RT AT&T TV Installment plan",
+                  "numberOfMonthlyInstallments": "12",
+                  "installmentPlanVersion": "V3",
+                  "installmentStartDate": "2019-10-26T00:00:00.000Z",
+                  "installmentEndDate": "2019-11-07T01:00:00.000Z",
+                  "installmentId": "54240"
+                }
+              ],
+              "customerSegments": [
+                "Residential"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "7c8d5147-f8d7-4997-bfa5-ae990bcb98e8",
+        "code": "12312",
+        "productType": {
+          "typeId": "product-type",
+          "id": "81078d42-227b-444c-b225-d1ab9226acd6",
+          "key": "video-device"
+        },
+        "name": {
+          "en": "test1"
+        },
+        "description": {
+          "en": "test1"
+        },
+        "categories": [],
+        "variants": [
+          {
+            "id": "1",
+            "sku": "12312-1",
+            "key": "12312-1",
+            "prices": [],
+            "attributes": {
+              "billingProductCode": "12312",
+              "businessSegment": [
+                "CONS"
+              ],
+              "productFamily": "OTT",
+              "customerSegments": [
+                "Residential"
+              ],
+              "deliverymethod": [
+                "RTG"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "devices": [
+      {
+        "make": "UNKNOWN",
+        "model": "UNKNOWN",
+        "deviceType": "UNKNOWN",
+        "deviceName": "Connected Device",
+        "thirdPartyOtt": "false",
+        "catalogProductName": "Connected Device"
+      }
+    ]
+}

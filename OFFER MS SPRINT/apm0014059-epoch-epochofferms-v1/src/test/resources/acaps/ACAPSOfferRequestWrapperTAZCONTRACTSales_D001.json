@@ -1,0 +1,57 @@
+{
+  "offerRequest": {
+    "addOnType": [],
+    "contractIndicator": [
+      "TAZCONTRACT"
+    ],
+    "customerEligibility": {
+      "zipCode": [
+        "32080"
+      ]
+    },
+    "offerActionType": [
+      "Acquisition"
+    ],
+    "offerProductFamily": [
+      "OTT"
+    ],
+    "pagination": {
+      "page": 1,
+      "limit": 300
+    },
+    "planSubType": [],
+    "salesChannel": [
+      "directvOnline"
+    ],
+    "migrationIndicator": false,
+    "reconnectCustomer": false,
+    "treatmentCode": "D001",
+    "decisioningFlow": false,
+    "swimlaneSwitchEligible": false,
+    "offerProductTypes": [
+      "video-device",
+      "fee"
+    ],
+    "isExpiredOffers": false
+  },
+  "iptvMigration": false,
+  "iptvMigrationIntent": false,
+  "ctOfferRequest": {
+    "customerEligibility": {
+      "zipCode": [
+        "32080"
+      ]
+    },
+    "expandProductRefs": false,
+    "migrationIndicator": false,
+    "partnerDealerDetails": {},
+    "reconnectOfferFlag": true,
+    "isExpiredOffers": false
+  },
+  "cartModeMobility": false,
+  "mobility": false,
+  "employeeAccount": false,
+  "channelEligiblity": false,
+  "partner": false,
+  "directvOnline": true
+}

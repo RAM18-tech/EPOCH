@@ -1,0 +1,72 @@
+{
+    "isMigrationRequired": true,
+    "customerEligibility": {
+        "zipCode": [
+            "77365"
+        ],
+        "county": [
+            "48339"
+        ]
+    },
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "salesChannel": [
+        "online"
+    ],
+    "offerActionType": [
+        "Upgrade",
+        "Downgrade",
+        "Retention",
+        "Other"
+    ],
+    "cartContext": {
+        "cartOffers": [],
+        "cartProducts": []
+    },
+    "customerContext": {
+        "satellite": {
+            "products": [
+                {
+                    "pricePlanCode": "88849754",
+                    "productType": "video-plan",
+                    "priceCode": "DVALL2"
+                },
+                {
+                    "pricePlanCode": "88986885",
+                    "productType": "video-addon"
+                },
+                {
+                    "pricePlanCode": "88841724",
+                    "productType": "insurance"
+                },
+                {
+                    "pricePlanCode": "88830604",
+                    "pickCode": "P0010",
+                    "productType": "video-addon"
+                },
+                {
+                    "pricePlanCode": "88971885",
+                    "productType": "video-accessory"
+                },
+                {
+                    "manufacturer": "DIRECTV",
+					"modelNumber": "HR34-700",
+                    "productType": "video-device"
+                },
+                {
+                    "manufacturer": "DIRECTV",
+					"modelNumber": "HDD1TBR033",
+                    "productType": "video-device"
+                },
+				{
+                    "manufacturer": "DIRECTV",
+					"modelNumber": "C31-700",
+                    "productType": "video-device"
+                }
+            ],
+            "serviceOrderDate": "03/09/2020",
+            "accountCreationDate": "03/09/2011"
+        }
+    }
+}

@@ -1,0 +1,96 @@
+{
+  "limit": 200,
+  "offset": 0,
+  "count": 1,
+  "total": 1,
+  "benefits": [
+    {
+      "benefitCategory": "Product",
+      "billingBenefitId": "69845",
+      "id": "26094ca4-861b-4415-b282-e5c4c51c7fc8",
+      "billingBenefitCode": "10OFFOVERLAY",
+      "benefitName": {
+        "en": "10OFFOVERLAY"
+      },
+      "benefitDisplayName": {
+        "en": "Includes additional $10 off AT&T TV for 12 mos."
+      },
+      "benefitRank": 10,
+      "description": {
+        "en": "Additional $10 off AT&T TV for 12 mos."
+      },
+      "startDate": "2019-01-01T00:00:00.000Z",
+      "retIoApplicableProducts": false,
+      "contractIndicator": "contract",
+      "contractVersion": "1",
+      "selfBenefit": false,
+      "duration": 12,
+      "period": "NoOfMonths",
+      "billAfterPeriod": false,
+      "applicableProducts": [
+        {
+          "products": [
+            {
+              "id": "c1053952-f6dd-428c-bd29-406cbbf20826",
+              "typeId": "product",
+              "productType": "video-plan",
+              "key": "BASE-CHOICE-201811"
+            },
+            {
+              "id": "cb57cdcc-84b1-4bdd-a2c0-0a87365d51ab",
+              "typeId": "product",
+              "productType": "video-plan",
+              "key": "BASE-ENTERTAINMENT-201811"
+            },
+            {
+              "id": "b979e218-aec4-40c6-a678-3333b141fb47",
+              "typeId": "product",
+              "productType": "video-plan",
+              "key": "BASE-XTRA-201811"
+            },
+            {
+              "id": "b5f6e954-f958-428a-8cdf-34790b7be34f",
+              "typeId": "product",
+              "productType": "video-plan",
+              "key": "BASE-OPTIMOMAS-122018"
+            },
+            {
+              "id": "ce6e4352-433b-4466-9d16-b8b6ceb942b9",
+              "typeId": "product",
+              "productType": "video-plan",
+              "key": "BASE-ULTIMATE-201811"
+            }
+          ]
+        }
+      ],
+      "maxOccurrence": 0,
+      "benefitType": "flat-off",
+      "value": {
+        "centAmount": 1000.0,
+        "currencyCode": "USD",
+        "fractionDigits": 2,
+        "dollarAmount": 10.0
+      },
+      "customerClassification": "NewCustomer",
+      "secondaryBenefitCode": "7513836505",
+      "freeTrialPromo": false,
+      "ioOffer": false,
+      "freeTrialDuration": 0,
+      "agentOffer": false,
+      "contractTerm": "24",
+      "minQuantity": 0,
+      "extPromoType": "contract",
+      "promoPriority": 4,
+      "salesChannel": "agentNew|selfServiceNew",
+      "benefitLevel": "account",
+      "displayNameforServices": "$10/mo. off AT&T TV for 12 mos.",
+      "notApplibaleForOffer": false,
+      "enableServiceDisconnect": false,
+      "quotaBased": false,
+      "migrated": true,
+      "isDependentPromo": false,
+      "isMigrated": true,
+      "isQuotaBased": false
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "accountTypes": [
+    "Residential"
+  ],
+  "addOnType": [],
+  "contractIndicator": [
+    "contract"
+  ],
+  "swimlaneSwitchEligible": false,
+  "decisioningFlow": false,
+  "customerContext": {
+    "existingProductFamily": [
+      "OTT"
+    ],
+    "OTT": {
+      "products": [
+        {
+          "basePrice": "89.99",
+          "productCode": "BASE-ENTERTAINMENT-201811",
+          "productType": "video-plan",
+          "productStartDate": "03/01/2024"
+        },
+        {
+          "basePrice": "0.0",
+          "productCode": "BOLT-20STREAMS-202010",
+          "productType": "video-addon"
+        },
+        {
+          "basePrice": "49.99",
+          "productCode": "REFURB-OSPREY-092021",
+          "productType": "video-device"
+        },
+        {
+          "basePrice": "120.0",
+          "productCode": "HARD-OSPREY-042019",
+          "productType": "video-device"
+        }
+      ],
+      "accountNumber": "211220188167750",
+      "isActive": true,
+      "retentionPromotionIndicator": false,
+      "freeTrialEligible": false,
+      "accountType": "Residential",
+      "nextBillingDate": "08/16/2024",
+      "parentSubscriptionDate": "02/14/2024"
+    }
+  },
+  "offerActionType": [
+    "Upgrade",
+    "Downgrade",
+    "Cross-sell",
+    "Other"
+  ],
+  "offerProductFamily": [
+    "OTT"
+  ],
+  "salesChannel": [
+    "opus"
+  ],
+  "offerProductTypes": [
+    "video-addon",
+    "video-plan",
+    "video-device",
+    "fee"
+  ]
+}

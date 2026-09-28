@@ -1,0 +1,425 @@
+{
+    "limit": 300,
+    "offset": 0,
+    "count": 2,
+    "total": 2,
+    "offers": [
+        {
+            "id": "2e3322c3-0811-49c0-8277-0db05a0f483e",
+            "code": "OF_FEE-SERVICE-ACTIVATION-SALES-V1_satellite",
+            "status": "live",
+            "name": {
+                "en": "Service Activation Fee"
+            },
+            "description": {
+                "en": "Activation Fee"
+            },
+            "startDate": "2022-01-01T00:00:00.000Z",
+            "endDate": "2050-12-31T23:59:00.000Z",
+            "attributes": {
+                "offerProductType": "fee",
+                "offerProductTypes": [
+                    "fee"
+                ],
+                "offerProductFamily": "satellite",
+                "offerProductFamilies": [
+                    "satellite"
+                ],
+                "offerStatus": "Active",
+                "offerType": "multi-benefit",
+                "offerActionType": "Acquisition",
+                "offerActionTypes": [
+                    "Acquisition"
+                ],
+                "displayName": {
+                    "en": "Service Activation Fee"
+                },
+                "billingId": "1",
+                "billingCode": "F0038",
+                "migratedOffer": false,
+                "associatedProducts": [
+                    {
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "productTypes": [
+                                        "fee"
+                                    ],
+                                    "productStatus": "Active",
+                                    "productState": "New",
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "ef2ad788-34ab-4d5c-940e-5b50fee19c6e",
+                                        "typeId": "product",
+                                        "obj": {
+                                            "id": "ef2ad788-34ab-4d5c-940e-5b50fee19c6e",
+                                            "code": "FEE-SERVICE-ACTIVATION-SALES_satellite",
+                                            "productType": {
+                                                "typeId": "product-type",
+                                                "id": "b1fbfd1e-1324-49f0-a498-8d38c53090c9",
+                                                "key": "fee"
+                                            },
+                                            "name": {
+                                                "en": "Service Activation Fee"
+                                            },
+                                            "description": {
+                                                "en": "Activation Fee\n"
+                                            },
+                                            "categories": [],
+                                            "variants": [
+                                                {
+                                                    "id": "1",
+                                                    "sku": "88727653",
+                                                    "key": "88727653",
+                                                    "prices": [
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 4995.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 49.95
+                                                            },
+                                                            "id": "32c61fd9-951e-4db4-a0b6-a4ad1593ac47",
+                                                            "startDate": "2018-09-17T18:30:00.000Z",
+                                                            "endDate": "2049-12-31T18:29:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "1",
+                                                            "gfVersion": 0,
+                                                            "chargeType": "nrc",
+                                                            "omsProductId": "791",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        },
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 0.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 0.0
+                                                            },
+                                                            "id": "9242ade6-8d7e-460d-a3d0-c4e621e3c2ad",
+                                                            "startDate": "2024-05-31T18:30:00.000Z",
+                                                            "endDate": "2050-12-30T18:30:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "2",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "02",
+                                                            "omsProductId": "791",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        }
+                                                    ],
+                                                    "attributes": {
+                                                        "displayName": {
+                                                            "en": "Service Activation Fee"
+                                                        },
+                                                        "billingProductCode": "F0038",
+                                                        "billingCode": "F0038",
+                                                        "startDate": "2017-04-12T18:30:00.000Z",
+                                                        "endDate": "2049-12-31T18:29:00.000Z",
+                                                        "productFamily": "satellite",
+                                                        "contractApplicable": "noncontract",
+                                                        "contractIndicator": [
+                                                            "non-contract"
+                                                        ],
+                                                        "subCategory": "SERVICE-ACTIVATION",
+                                                        "customerSegments": [
+                                                            "Residential"
+                                                        ],
+                                                        "feeType": "ActivationFee",
+                                                        "migratedProduct": false,
+                                                        "orderingMethod": "addToCart",
+                                                        "enablerPricePlanCode": "88727653",
+                                                        "tokens": "FEE-SERVICE-ACTIVATION-SALES",
+                                                        "chargeCode": "DTVACT",
+                                                        "enablerATGProductId": "prod8990248",
+                                                        "enablerATGSkuId": "sku8290243",
+                                                        "recurrenceType": "OnetimeDueToday",
+                                                        "waiveOffSalesSubChannel": [
+                                                            "MDU-DTH"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "productType": "fee",
+                                        "key": "FEE-SERVICE-ACTIVATION-SALES_satellite"
+                                    }
+                                ]
+                            }
+                        ],
+                        "associatedConditions": [
+                            {
+                                "constraints": {
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "74af0750-b760-4d01-b571-2dc64426e46c",
+                                        "typeId": "product",
+                                        "obj": {
+                                            "id": "74af0750-b760-4d01-b571-2dc64426e46c",
+                                            "code": "CON-ACTIVATION-FEE_satellite",
+                                            "productType": {
+                                                "typeId": "product-type",
+                                                "id": "267581a8-311c-413d-874f-e8264b179c45",
+                                                "key": "condition"
+                                            },
+                                            "name": {
+                                                "en": "Activation Fee"
+                                            },
+                                            "description": {
+                                                "en": "A one-time $49.95 Activation Fee will be included in the first month's bill."
+                                            },
+                                            "categories": [],
+                                            "variants": [
+                                                {
+                                                    "id": "1",
+                                                    "prices": [],
+                                                    "attributes": {
+                                                        "startDate": "2023-12-01T00:00:00.000Z",
+                                                        "endDate": "2050-12-31T23:59:00.000Z",
+                                                        "productFamily": "satellite",
+                                                        "isVisible": true,
+                                                        "lineItemType": "virtual",
+                                                        "billingSystem": "stms"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "productType": "condition",
+                                        "key": "CON-ACTIVATION-FEE_satellite"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "benefits": [],
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "customerSegments": [
+                                "Residential"
+                            ],
+                            "salesChannel": [
+                                "online",
+                                "assistedSales",
+                                "directIntegrationPartner",
+                                "dpp",
+                                "ccap",
+                                "salesCRM"
+                            ],
+                            "existingCustomerType": [
+                                "Satellite"
+                            ]
+                        }
+                    ]
+                },
+                "leadOffer": false,
+                "contractIndicator": "RR",
+                "ineligibleSalesSubChannel": [
+                    "MDU-DTH"
+                ],
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "recommendedOfferOPUS": false,
+                "bundleProductIds": [
+                    {
+                        "id": "ef2ad788-34ab-4d5c-940e-5b50fee19c6e",
+                        "typeId": "offer",
+                        "key": "FEE-SERVICE-ACTIVATION-SALES_satellite"
+                    }
+                ],
+                "billingSystem": "stms",
+                "recommendedOnline": false,
+                "isVirtual": false,
+                "flashSaleOffer": false,
+                "isBulkOffer": false,
+                "isSpecialOffer": false
+            }
+        },
+        {
+            "id": "245034b8-c021-4f45-bd11-f73ecca83767",
+            "code": "OF_FEE-SERVICE-ACTIVATION-SALES-V2_satellite",
+            "status": "live",
+            "name": {
+                "en": "Service Activation Fee"
+            },
+            "description": {
+                "en": "Activation Fee"
+            },
+            "startDate": "2024-05-31T18:30:00.000Z",
+            "endDate": "2050-12-30T18:30:00.000Z",
+            "attributes": {
+                "offerProductType": "fee",
+                "offerProductTypes": [
+                    "fee"
+                ],
+                "offerProductFamily": "satellite",
+                "offerProductFamilies": [
+                    "satellite"
+                ],
+                "offerStatus": "Active",
+                "offerType": "multi-benefit",
+                "offerActionType": "Acquisition",
+                "offerActionTypes": [
+                    "Acquisition"
+                ],
+                "displayName": {
+                    "en": "Service Activation Fee"
+                },
+                "billingId": "2",
+                "billingCode": "F0038",
+                "migratedOffer": false,
+                "associatedProducts": [
+                    {
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "productTypes": [
+                                        "fee"
+                                    ],
+                                    "productStatus": "Active",
+                                    "productState": "New",
+                                    "anchor": false,
+                                    "dependent": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "ef2ad788-34ab-4d5c-940e-5b50fee19c6e",
+                                        "typeId": "product",
+                                        "obj": {
+                                            "id": "ef2ad788-34ab-4d5c-940e-5b50fee19c6e",
+                                            "code": "FEE-SERVICE-ACTIVATION-SALES_satellite",
+                                            "productType": {
+                                                "typeId": "product-type",
+                                                "id": "b1fbfd1e-1324-49f0-a498-8d38c53090c9",
+                                                "key": "fee"
+                                            },
+                                            "name": {
+                                                "en": "Service Activation Fee"
+                                            },
+                                            "description": {
+                                                "en": "Activation Fee\n"
+                                            },
+                                            "categories": [],
+                                            "variants": [
+                                                {
+                                                    "id": "1",
+                                                    "sku": "88727653",
+                                                    "key": "88727653",
+                                                    "prices": [
+                                                        {
+                                                            "value": {
+                                                                "centAmount": 0.0,
+                                                                "currencyCode": "USD",
+                                                                "fractionDigits": 2,
+                                                                "dollarAmount": 0.0
+                                                            },
+                                                            "id": "9242ade6-8d7e-460d-a3d0-c4e621e3c2ad",
+                                                            "startDate": "2024-05-31T18:30:00.000Z",
+                                                            "endDate": "2050-12-30T18:30:00.000Z",
+                                                            "recurrenceIndicator": false,
+                                                            "duration": 0,
+                                                            "billingReferenceId": "2",
+                                                            "gfVersion": 0,
+                                                            "customerGroup": "02",
+                                                            "omsProductId": "791",
+                                                            "grandfathered": false,
+                                                            "contracted": false
+                                                        }
+                                                    ],
+                                                    "attributes": {
+                                                        "displayName": {
+                                                            "en": "Service Activation Fee"
+                                                        },
+                                                        "billingProductCode": "F0038",
+                                                        "billingCode": "F0038",
+                                                        "startDate": "2017-04-12T18:30:00.000Z",
+                                                        "endDate": "2049-12-31T18:29:00.000Z",
+                                                        "productFamily": "satellite",
+                                                        "contractApplicable": "noncontract",
+                                                        "contractIndicator": [
+                                                            "non-contract"
+                                                        ],
+                                                        "subCategory": "SERVICE-ACTIVATION",
+                                                        "customerSegments": [
+                                                            "Residential"
+                                                        ],
+                                                        "feeType": "ActivationFee",
+                                                        "migratedProduct": false,
+                                                        "orderingMethod": "addToCart",
+                                                        "enablerPricePlanCode": "88727653",
+                                                        "tokens": "FEE-SERVICE-ACTIVATION-SALES",
+                                                        "chargeCode": "DTVACT",
+                                                        "enablerATGProductId": "prod8990248",
+                                                        "enablerATGSkuId": "sku8290243",
+                                                        "recurrenceType": "OnetimeDueToday",
+                                                        "waiveOffSalesSubChannel": [
+                                                            "MDU-DTH"
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "productType": "fee",
+                                        "key": "FEE-SERVICE-ACTIVATION-SALES_satellite"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "benefits": [],
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "customerSegments": [
+                                "Residential"
+                            ],
+                            "salesChannel": [
+                                "assistedSales",
+                                "directIntegrationPartner"
+                            ],
+                            "existingCustomerType": [
+                                "Satellite"
+                            ]
+                        }
+                    ]
+                },
+                "leadOffer": false,
+                "contractIndicator": "RR",
+                "salesSubChannel": [
+                    "MDU-DTH"
+                ],
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "recommendedOfferOPUS": false,
+                "bundleProductIds": [
+                    {
+                        "id": "ef2ad788-34ab-4d5c-940e-5b50fee19c6e",
+                        "typeId": "offer",
+                        "key": "FEE-SERVICE-ACTIVATION-SALES_satellite"
+                    }
+                ],
+                "billingSystem": "stms",
+                "recommendedOnline": false,
+                "isVirtual": false,
+                "flashSaleOffer": false,
+                "isBulkOffer": false,
+                "isSpecialOffer": false
+            }
+        }
+    ]
+}

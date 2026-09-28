@@ -1,0 +1,46 @@
+---  
+sMsgSecurityConfigs:
+  - name: 'msg'
+    regexPatterns:
+      '("cvv":")([^"]*)(")' : '$1xxxx$3'
+  - name: 'reqPayload'
+    regexPatterns:
+      '("apiPassword\s*":\s*"\s*)\S+?(\s*")' : '$1xxxxxx$2'
+      '("expirationYearMonth"\s*:\s*")([^"]*)(")' : '$1xxxx-xx$3'
+      '("creditCardNumber"\s*:\s*")([^"]*)(")' : '$1xxxx$3'
+      '("creditCardLast4Digits"\s*:\s*")([^"]*)(")' : '$1xxxx$3'
+      '("accountNumberLast4Digits"\s*:\s*")([^"]*)(")' : '$1xxxx$3'
+      '("cardBillingZipCode"\s*:\s*")([^"]*)(")' : '$1xxxxx$3'
+      '("creditCardHolderName"\s*:\s*")([^"]*)(")' : '$1xxxxxxxx$3'
+      '("creditCardType"\s*:\s*")([^"]*)(")' : '$1xxxx$3'
+      '("zip"\s*:\s*")([^"]*)(")' : '$1xxxxx$3'
+      '("zipcode"\s*:\s*")([^"]*)(")' : '$1xxxxx$3'
+      '("card_type"\s*:\s*")([^"]*)(")' : '$1xxxx$3'
+      '("card_number"\s*:\s*")([^"]*)(")' : '$1xxxx$3'
+      '("card_expiration_year"\s*:\s*")([^"]*)(")' : '$1xxxx$3'
+      '("card_expiration_month"\s*:\s*")([^"]*)(")' : '$1xx$3'
+  - name: 'resPayload'
+    regexPatterns:
+      '("apiPassword\s*":\s*"\s*)\S+?(\s*")' : '$1xxxxxx$2'
+      '("expirationYearMonth"\s*:\s*")([^"]*)(")' : '$1xxxx-xx$3'
+      '("creditCardNumber"\s*:\s*")([^"]*)(")' : '$1xxxx$3'
+      '("creditCardLast4Digits"\s*:\s*")([^"]*)(")' : '$1xxxx$3'
+      '("accountNumberLast4Digits"\s*:\s*")([^"]*)(")' : '$1xxxx$3' 
+      '("cardBillingZipCode"\s*:\s*")([^"]*)(")' : '$1xxxxx$3'
+      '("creditCardHolderName"\s*:\s*")([^"]*)(")' : '$1xxxxxxxx$3' 
+      '("creditCardType"\s*:\s*")([^"]*)(")' : '$1xxxx$3'
+      '("zip"\s*:\s*")([^"]*)(")' : '$1xxxxx$3'
+      '("zipcode"\s*:\s*")([^"]*)(")' : '$1xxxxx$3'
+      '("card_type"\s*:\s*")([^"]*)(")' : '$1xxxx$3'
+      '("card_number"\s*:\s*")([^"]*)(")' : '$1xxxx$3'
+      '("card_expiration_year"\s*:\s*")([^"]*)(")' : '$1xxxx$3'
+      '("card_expiration_month"\s*:\s*")([^"]*)(")' : '$1xx$3'
+  - name: 'reqHeaders'
+    regexPatterns:
+      '(<.*userPassword>)[a-zA-Z0-9]+(<\/.*userPassword>)' : '$1xxxxxxxx$2'
+  - name: 'resHeaders'
+    regexPatterns:
+      '(<.*userPassword>)[a-zA-Z0-9]+(<\/.*userPassword>)' : '$1xxxxxxxx$2'
+...
+ 
+

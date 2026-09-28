@@ -1,0 +1,286 @@
+{
+  "limit": 300,
+  "offset": 0,
+  "count": 1,
+  "total": 1,
+  "offers": [
+    {
+      "id": "784446dd-1e27-423f-8bf5-8ca9c87896b2",
+      "code": "OF_RSN-TIER1-201812_contract",
+      "version": 406,
+      "createdAt": "2019-09-13T16:30:25.772Z",
+      "lastModifiedAt": "2020-01-10T18:15:33.354Z",
+      "status": "live",
+      "productType": {
+        "typeId": "product-type",
+        "id": "1f980710-c1c0-4b05-92b7-dd79f4b1e86b"
+      },
+      "name": {
+        "en": "TIER1"
+      },
+      "description": {
+        "en": "TIER1"
+      },
+      "categories": [],
+      "startDate": "2019-04-11T05:00:00.000Z",
+      "endDate": "9999-12-31T06:00:00.000Z",
+      "attributes": {
+        "billingId": "7504208402",
+        "approvalStatus-Finance": "pending",
+        "approvalStatus-DMG": "pending",
+        "approvalStatus-OTTAcqMkt": "pending",
+        "approvalStatus-OTTProductManagement": "pending",
+        "approvalStatus-OTTRetentionMkt": "pending",
+        "approvalStatus-SuppliersPayments": "pending",
+        "approvalStatus-OTTLegal": "pending",
+        "displayName": {
+          "en": "TIER1"
+        },
+        "descriptionsByKey": {
+          "att.com": "RSN Fees"
+        },
+        "clearRejections": false,
+        "billingCode": "OF_RSN-TIER1-201812",
+        "rank": 20,
+        "environment": "",
+        "offerProductFamily": "OTT",
+        "offerActionType": "Acquisition",
+        "eligibility": {
+          "computedRules": {
+            "predicate": "businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\")",
+            "rules": [
+              {
+                "predicate": "businessSegment = \"[object Object]\" AND salesChannel in (\"opus\",\"online\")",
+                "rules": [
+                  {
+                    "predicate": "businessSegment = \"[object Object]\"",
+                    "field": "businessSegment",
+                    "operator": "=",
+                    "value": "\"[object Object]\""
+                  },
+                  {
+                    "predicate": "salesChannel in (\"opus\",\"online\")",
+                    "field": "salesChannel",
+                    "operator": "in",
+                    "value": "(\"opus\",\"online\")"
+                  }
+                ],
+                "groupingOperator": "AND"
+              }
+            ],
+            "groupingOperator": "OR"
+          },
+          "constraints": [
+            {
+              "businessSegment": [
+                "CONS"
+              ],
+              "salesChannel": [
+                "opus",
+                "online"
+              ]
+            }
+          ]
+        },
+        "contractIndicator": "contract",
+        "offerPromos": [
+          [
+            {
+              "value": "DRSN1",
+              "name": "promoId"
+            },
+            {
+              "value": "04/30/2019",
+              "name": "startDateStr"
+            },
+            {
+              "value": "12/31/9999",
+              "name": "endDateStr"
+            }
+          ]
+        ],
+        "associatedProducts": [
+          {
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "OTT"
+                },
+                "products": [
+                  {
+                    "typeId": "product",
+                    "id": "0fafba6f-66af-4536-a26a-dace6daf0ed2",
+                    "productType": "fee",
+                    "key": "RSN-TIER1-201812",
+                    "obj": {
+                      "id": "0fafba6f-66af-4536-a26a-dace6daf0ed2",
+                      "code": "RSN-TIER1-201812",
+                      "version": 67,
+                      "createdAt": "2019-09-13T01:06:49.014Z",
+                      "createdBy": {
+                        "clientId": "ypNeWLt-V4rSN58xfigmxCUb",
+                        "isPlatformClient": false
+                      },
+                      "lastModifiedAt": "2019-11-21T06:14:44.892Z",
+                      "lastModifiedBy": {
+                        "clientId": "Svh1onmv2MN7EyOmtPH2UQw1",
+                        "isPlatformClient": false
+                      },
+                      "status": {
+                        "typeId": "state",
+                        "id": "97da72df-4bdf-482c-a054-936dfb18df63"
+                      },
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "b1fbfd1e-1324-49f0-a498-8d38c53090c9",
+                        "key": "fee"
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": 1,
+                          "attributes": {
+                            "approvalStatus-Finance": "pending",
+                            "approvalStatus-DMG": "pending",
+                            "approvalStatus-OTTAcqMkt": "pending",
+                            "approvalStatus-OTTProductManagement": "pending",
+                            "approvalStatus-OTTRetentionMkt": "pending",
+                            "approvalStatus-SuppliersPayments": "pending",
+                            "approvalStatus-OTTLegal": "pending",
+                            "displayNamesByKey": {
+                              "name-cpc": "Regional Sports Fee"
+                            },
+                            "descriptionsByKey": {
+                              "description-cpc": "TIER1"
+                            },
+                            "secondaryBillingProductId": "7504208322",
+                            "clearRejections": false,
+                            "contractApplicable": "contract",
+                            "feeType": "RSNFee",
+                            "displayName": {
+                              "en": "Regional Sports Fee"
+                            },
+                            "billingProductCode": "RSN-TIER1-201812",
+                            "billingProductId": "15499",
+                            "endDate": "9999-12-31T06:00:00.000Z",
+                            "removalRule": {
+                              "channel": [
+                                "online"
+                              ]
+                            },
+                            "evergentProdCategory": "RSN",
+                            "productFamily": "OTT",
+                            "migratedProduct": true
+                          },
+                          "prices": [
+                            {
+                              "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 0,
+                                "fractionDigits": 2,
+                                "dollarAmount": "0.00"
+                              },
+                              "id": "78ea5432-5a6b-4dc0-ace9-42558c97d266",
+                              "startDate": "2018-12-01T06:00:00.000Z",
+                              "endDate": "9999-12-31T06:00:00.000Z",
+                              "recurrenceIndicator": true,
+                              "contractIndicator": "contract",
+                              "isGrandfathered": false,
+                              "billingReferenceId": "20828"
+                            }
+                          ]
+                        }
+                      ],
+                      "name": {
+                        "en": "TIER1"
+                      },
+                      "description": {
+                        "en": "TIER1"
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "NA"
+                }
+              }
+            ]
+          }
+        ],
+        "compliance": {
+          "computedRules": {
+            "predicate": "",
+            "rules": [],
+            "groupingOperator": "AND"
+          },
+          "constraints": [
+            {}
+          ]
+        },
+        "offerProductType": "fee",
+        "migratedOffer": true,
+        "isPrimary": true,
+        "qualifyingProductsBillingProductCode": [
+          "RSN-TIER1-201812"
+        ],
+        "existingProductCodes": [
+          "RSN-TIER1-201812"
+        ],
+        "benefits": [
+          {
+            "ioOffer": false,
+            "billingBenefitCode": "DRSN1",
+            "isDependentPromo": false,
+            "isMigrated": true,
+            "billingBenefitId": "23643",
+            "beneficiaryProductFamily": "ott",
+            "secondaryBenefitCode": "7504876874",
+            "benefitType": "free-trial",
+            "displayNameforServices": "Test Promotion",
+            "contractIndicator": "all",
+            "salesChannel": "agentNew|selfServiceNew",
+            "agentOffer": false,
+            "benefitDisplayName": {
+              "en": "DRSN1"
+            },
+            "benefitRank": 10,
+            "benefitLevel": "product",
+            "period": "NoOfDays",
+            "benefitCategory": "Dependent",
+            "applicableProducts": [
+              {
+                "products": [
+                  {
+                    "typeId": "product",
+                    "id": "0fafba6f-66af-4536-a26a-dace6daf0ed2",
+                    "key": "RSN-TIER1-201812",
+                    "productType": "fee"
+                  }
+                ]
+              }
+            ],
+            "id": "377ca97d-c551-4d3b-87f5-d263fb785ce6",
+            "version": 677,
+            "code": "DRSN1",
+            "benefitName": {
+              "en": "DRSN1"
+            },
+            "description": {
+              "en": "DRSN1"
+            },
+            "startDate": "2019-04-22T05:00:00.000Z",
+            "value": {
+              "percentage": 0
+            },
+            "isQuotaBased": false
+          }
+        ]
+      }
+    }
+  ]
+}

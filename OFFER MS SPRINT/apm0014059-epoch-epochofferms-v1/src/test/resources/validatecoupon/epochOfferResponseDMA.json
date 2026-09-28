@@ -1,0 +1,429 @@
+{
+  "limit": 100,
+  "offset": 0,
+  "count": 1,
+  "total": 1,
+  "productResultsMap": {},
+  "offers": [
+    {
+      "id": "86e3c261-60c6-489e-af90-434e270c1a07",
+      "code": "OF_TESTDMA",
+      "version": 63,
+      "createdAt": "2024-07-31T19:22:36.177Z",
+      "lastModifiedAt": "2024-09-17T07:24:32.510Z",
+      "status": "live",
+      "productType": {
+        "typeId": "product-type",
+        "id": "1f980710-c1c0-4b05-92b7-dd79f4b1e86b"
+      },
+      "name": {
+        "en": "$50 VISA Reward Card"
+      },
+      "description": {
+        "en": "$50 VISA Reward Card"
+      },
+      "categories": [],
+      "startDate": "2024-02-21T08:00:00.000Z",
+      "endDate": "2051-01-01T07:59:00.000Z",
+      "attributes": {
+        "offerType": "coupon",
+        "offerProductFamily": "OTT",
+        "offerActionType": "Acquisition",
+        "displayName": {
+          "en": "$50 VISA Reward Card"
+        },
+        "offerPreselectDesignation": "Optional",
+        "eligibility": {
+          "constraints": [
+            {
+              "existingCustomerType": [
+                "DTVN"
+              ],
+              "businessSegment": [
+                "CONS"
+              ],
+              "customerSegment": "Residential",
+              "customerSegments": [
+                "Residential"
+              ],
+              "dma": [
+                "501"
+              ],
+              "salesChannel": [
+                "directvOnline"
+              ]
+            }
+          ]
+        },
+        "associatedProducts": [
+          {
+            "bundleProducts": [
+              {
+                "constraints": {},
+                "products": [
+                  {
+                    "typeId": "product",
+                    "id": "770f8f58-ea9c-468c-b53c-d18eb2780aa8",
+                    "productType": "reward",
+                    "key": "REWARD-50-202311",
+                    "obj": {
+                      "id": "770f8f58-ea9c-468c-b53c-d18eb2780aa8",
+                      "code": "REWARD-50-202311",
+                      "name": {
+                        "en": "$50 Reward Card"
+                      },
+                      "description": {
+                        "en": "$50 Reward Card"
+                      },
+                      "version": 29,
+                      "createdAt": "2023-11-08T09:47:44.672Z",
+                      "createdBy": {
+                        "clientId": "Vxjd_1L0y8LaupK2qWejWPOG",
+                        "isPlatformClient": false
+                      },
+                      "lastModifiedAt": "2024-09-12T14:17:01.018Z",
+                      "lastModifiedBy": {
+                        "isPlatformClient": true,
+                        "user": {
+                          "typeId": "user",
+                          "id": "e2d42858-843a-43d1-b52a-171946cb9bfc"
+                        }
+                      },
+                      "status": {
+                        "typeId": "state",
+                        "id": "97da72df-4bdf-482c-a054-936dfb18df63"
+                      },
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "ce701fe6-a7d5-4039-9803-43470ad0a31f",
+                        "key": "reward"
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": 1,
+                          "attributes": {
+                            "clearRejections": false,
+                            "migratedProduct": false,
+                            "productFamily": "OTT",
+                            "displayName": {
+                              "en": "$50 Reward Card"
+                            },
+                            "billingProductCode": "REWARD-50-202311",
+                            "businessSegment": [
+                              "CONS"
+                            ],
+                            "displayType": "optional",
+                            "salesChannel": [
+                              "directvOnline"
+                            ],
+                            "language": "English",
+                            "subCategory": "reward",
+                            "evergentProdCategory": "reward",
+                            "descriptionsByKey": {
+                              "short-opus": "$50 Reward Card",
+                              "short-services": "$50 Reward Card",
+                              "long-services": "$50 Reward Card",
+                              "long-myatt": "$50 Reward Card",
+                              "description-cpc": "$50 Reward Card"
+                            },
+                            "displayNamesByKey": {
+                              "OPUS": "$50 Reward Card",
+                              "online": "$50 Reward Card",
+                              "services": "$50 Reward Card",
+                              "onlineService": "$50 Reward Card"
+                            },
+                            "startDate": "2023-10-25T18:30:00.000Z",
+                            "endDate": "9999-12-30T18:30:00.000Z",
+                            "planSubType": "Cross-product",
+                            "rewardValue": "50",
+                            "contractIndicator": [
+                              "TAZCONTRACT"
+                            ],
+                            "partnerKeys": []
+                          },
+                          "prices": [
+                            {
+                              "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 0,
+                                "fractionDigits": 2,
+                                "dollarAmount": "0.00"
+                              },
+                              "id": "53e93c08-06a6-4463-9a7d-9bbb1512fe4b",
+                              "startDate": "2023-10-18T07:00:00.000Z",
+                              "endDate": "2050-12-31T08:00:00.000Z",
+                              "channel": "TAZCONTRACT",
+                              "recurrenceIndicator": false,
+                              "contractIndicator": "TAZCONTRACT",
+                              "period": "month",
+                              "proRateFrequency": "daily",
+                              "isGrandfathered": false
+                            },
+                            {
+                              "value": {
+                                "type": "centPrecision",
+                                "currencyCode": "USD",
+                                "centAmount": 0,
+                                "fractionDigits": 2,
+                                "dollarAmount": "0.00"
+                              },
+                              "id": "2552e9d1-eebb-4ba0-9fc5-931fafc14cbc",
+                              "startDate": "2024-06-26T07:00:00.000Z",
+                              "endDate": "9999-12-31T07:59:59.000Z",
+                              "channel": "RR",
+                              "recurrenceIndicator": false,
+                              "contractIndicator": "RR",
+                              "period": "month",
+                              "proRateFrequency": "Daily",
+                              "billingReferenceId": "323232"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "contractIndicator": "TAZCONTRACT",
+        "offerProductType": "campaign",
+        "videoOfferCategory": "Acquisition",
+        "customerTypes": ["acquisition"],
+        "offerIntent": "non-migration",
+        "bundleProductIds": [
+          {
+            "id": "770f8f58-ea9c-468c-b53c-d18eb2780aa8",
+            "typeId": "offer",
+            "key": "REWARD-50-202311"
+          }
+        ],
+        "billingCode": "OF_TESTDMA",
+        "qualifyingProductsBillingProductCode": [
+          "REWARD-50-202311"
+        ],
+        "offerPromos": [
+          [
+            {
+              "name": "promoId",
+              "value": "TESTDMA"
+            },
+            {
+              "name": "startDateStr",
+              "value": "06/06/2024"
+            },
+            {
+              "name": "endDateStr",
+              "value": "06/06/2099"
+            }
+          ]
+        ],
+        "offerProductFamilies": [
+          "OTT"
+        ],
+        "offerActionTypes": [
+          "Acquisition"
+        ],
+        "offerProductTypes": [
+          "campaign"
+        ],
+        "offerIntents": [
+          "non-migration"
+        ],
+        "benefits": [
+          {
+            "billingBenefitCode": "TESTDMA",
+            "longDescriptionforServices": "$500 VISA Reward Card (Requires Redemption)",
+            "myATTDisclosureForServices": "$500 VISA Reward Card (Requires Redemption)",
+            "billingBenefitId": "3675323",
+            "myAttDisclosureMessage": "$500 VISA Reward Card (Requires Redemption)",
+            "displayNameforServices": "$500 VISA Reward Card (Requires Redemption)",
+            "contractIndicator": "TAZCONTRACT",
+            "benefitDisplayName": {
+              "en": "$500 VISA Reward Card (Requires Redemption)"
+            },
+            "isCouponPromo": true,
+            "period": "LifeTime",
+            "benefitCategory": "Product",
+            "shortDescriptionforServices": "$500 VISA Reward Card (Requires Redemption)",
+            "opusDisclosureMessage": "$500 VISA Reward Card (Requires Redemption)",
+            "shortDescriptionforOpus": "$500 VISA Reward Card (Requires Redemption)",
+            "shortDescription": "$500 VISA Reward Card (Requires Redemption)",
+            "customerClassification": "New Customer",
+            "isMigrated": false,
+            "beneficiaryProductFamily": "OTT",
+            "opusDisclosureForServices": "$500 VISA Reward Card (Requires Redemption)",
+            "benefitType": "reward",
+            "salesChannel": "selfServiceNew",
+            "saleschannels": [
+              "onlineSales"
+            ],
+            "parentOffers": [
+              {
+                "typeId": "product",
+                "id": "86e3c261-60c6-489e-af90-434e270c1a07"
+              }
+            ],
+            "benefitLevel": "product",
+            "id": "1b61aa29-af96-440c-9259-c153f9717154",
+            "version": 1,
+            "code": "TESTDMA",
+            "rtpIndicator": false,
+            "benefitName": {
+              "en": "$500 VISA Reward Card (Requires Redemption)"
+            },
+            "description": {
+              "en": "$500 VISA Reward Card (Requires Redemption)"
+            },
+            "startDate": "2023-11-01T07:00:00.000Z",
+            "endDate": "9999-12-31T08:00:00.000Z",
+            "value": {
+              "type": "centPrecision",
+              "currencyCode": "USD",
+              "centAmount": 0,
+              "fractionDigits": 2
+            },
+            "isQuotaBased": false,
+            "isActive": true,
+            "applicableProducts": [
+              {
+                "products": [
+                  {
+                    "typeId": "product",
+                    "id": "770f8f58-ea9c-468c-b53c-d18eb2780aa8",
+                    "productType": "reward",
+                    "key": "REWARD-50-202311"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "770f8f58-ea9c-468c-b53c-d18eb2780aa8",
+      "code": "REWARD-50-202311",
+      "name": {
+        "en": "$50 Reward Card"
+      },
+      "description": {
+        "en": "$50 Reward Card"
+      },
+      "version": 29,
+      "createdAt": "2023-11-08T09:47:44.672Z",
+      "createdBy": {
+        "clientId": "Vxjd_1L0y8LaupK2qWejWPOG",
+        "isPlatformClient": false
+      },
+      "lastModifiedAt": "2024-09-12T14:17:01.018Z",
+      "lastModifiedBy": {
+        "isPlatformClient": true,
+        "user": {
+          "typeId": "user",
+          "id": "e2d42858-843a-43d1-b52a-171946cb9bfc"
+        }
+      },
+      "status": {
+        "typeId": "state",
+        "id": "97da72df-4bdf-482c-a054-936dfb18df63"
+      },
+      "productType": {
+        "typeId": "product-type",
+        "id": "ce701fe6-a7d5-4039-9803-43470ad0a31f",
+        "key": "reward"
+      },
+      "categories": [],
+      "variants": [
+        {
+          "id": 1,
+          "attributes": {
+            "clearRejections": false,
+            "migratedProduct": false,
+            "productFamily": "OTT",
+            "displayName": {
+              "en": "$50 Reward Card"
+            },
+            "billingProductCode": "REWARD-50-202311",
+            "businessSegment": [
+              "CONS"
+            ],
+            "displayType": "optional",
+            "salesChannel": [
+              "directvOnline"
+            ],
+            "language": "English",
+            "subCategory": "reward",
+            "evergentProdCategory": "reward",
+            "descriptionsByKey": {
+              "short-opus": "$50 Reward Card",
+              "short-services": "$50 Reward Card",
+              "long-services": "$50 Reward Card",
+              "long-myatt": "$50 Reward Card",
+              "description-cpc": "$50 Reward Card"
+            },
+            "displayNamesByKey": {
+              "OPUS": "$50 Reward Card",
+              "online": "$50 Reward Card",
+              "services": "$50 Reward Card",
+              "onlineService": "$50 Reward Card"
+            },
+            "startDate": "2023-10-25T18:30:00.000Z",
+            "endDate": "9999-12-30T18:30:00.000Z",
+            "planSubType": "Cross-product",
+            "rewardValue": "50",
+            "contractIndicator": [
+              "TAZCONTRACT"
+            ],
+            "partnerKeys": []
+          },
+          "prices": [
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 0,
+                "fractionDigits": 2,
+                "dollarAmount": "0.00"
+              },
+              "id": "53e93c08-06a6-4463-9a7d-9bbb1512fe4b",
+              "startDate": "2023-10-18T07:00:00.000Z",
+              "endDate": "2050-12-31T08:00:00.000Z",
+              "channel": "TAZCONTRACT",
+              "recurrenceIndicator": false,
+              "contractIndicator": "TAZCONTRACT",
+              "period": "month",
+              "proRateFrequency": "daily",
+              "isGrandfathered": false
+            },
+            {
+              "value": {
+                "type": "centPrecision",
+                "currencyCode": "USD",
+                "centAmount": 0,
+                "fractionDigits": 2,
+                "dollarAmount": "0.00"
+              },
+              "id": "2552e9d1-eebb-4ba0-9fc5-931fafc14cbc",
+              "startDate": "2024-06-26T07:00:00.000Z",
+              "endDate": "9999-12-31T07:59:59.000Z",
+              "channel": "RR",
+              "recurrenceIndicator": false,
+              "contractIndicator": "RR",
+              "period": "month",
+              "proRateFrequency": "Daily",
+              "billingReferenceId": "323232"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "partners": [],
+  "specialOfferCartModeCodes": []
+}

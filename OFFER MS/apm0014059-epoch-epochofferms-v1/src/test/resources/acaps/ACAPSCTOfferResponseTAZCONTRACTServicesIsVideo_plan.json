@@ -1,0 +1,666 @@
+{
+  "limit": 0,
+  "offset": 0,
+  "count": 1,
+  "total": 1,
+  "offers": [
+    {
+      "id": "7dc71591-476c-4937-a5da-e39b1ab6ee18",
+      "code": "OF_HARD-PENDANT-052022_TAZCONTRACT_Affirm_1",
+      "status": "live",
+      "name": {
+        "en": "Gemini Air Device"
+      },
+      "description": {
+        "en": "Gemini Air Device"
+      },
+      "startDate": "2023-04-20T07:00:00.000Z",
+      "endDate": "9999-04-16T08:00:00.000Z",
+      "attributes": {
+        "offerProductType": "video-plan",
+        "offerProductTypes": [
+          "video-plan"
+        ],
+        "offerProductFamily": "OTT",
+        "offerProductFamilies": [
+          "OTT"
+        ],
+        "offerType": "free-promo",
+        "offerActionType": "Other",
+        "offerActionTypes": [
+          "Other"
+        ],
+        "ineligibleAccountStatus": [
+          "Pause",
+          "Pending Pause",
+          "Grace Period",
+          "Suspend"
+        ],
+        "environment": "",
+        "rank": "30",
+        "displayName": {
+          "en": "Gemini Air Device"
+        },
+        "descriptionsByKey": {
+          "att.com": "Gemini Air Device free Offer"
+        },
+        "opusDisclosureMessage": "<p>Any Gemini Air device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini Air devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini Air device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br><sup>1</sup>Purchasing a device on an installment plan requires an installment agreement through Affirm and DIRECTV service. If service is cancelled, customer remains responsible for any outstanding balance on their installment plan.<br>Your rate will be 0% APR or 10&#8211;30% APR. Payment options through Affirm are subject to an eligibility check and are provided by these lending  partners:&nbsp;affirm.com/lenders. Options depend on your purchase amount, and a down payment may be required.<br>Read this if the customer lives in California ONLY: Loans by Affirm Loan Services, LLC are made or arranged pursuant to a California Finance Lenders Law license.</p>",
+        "billingId": "7523831467",
+        "billingCode": "OF_HARD-PENDANT-052022",
+        "migratedOffer": true,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "OTT",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "9cd6416c-0641-4b77-9bbf-55d8b521a5e5",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "9cd6416c-0641-4b77-9bbf-55d8b521a5e5",
+                      "code": "HARD-PENDANT-052022",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "60f4091f-8f83-4964-8dc8-0d39a9048a1c",
+                        "key": "video-device"
+                      },
+                      "name": {
+                        "en": "Gemini Air Device(s)"
+                      },
+                      "description": {
+                        "en": "Gemini Air Device(s)"
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 12000.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 120.0
+                              },
+                              "id": "67071a90-8726-4fda-950f-e9dba046446f",
+                              "startDate": "2019-06-23T18:30:00.000Z",
+                              "endDate": "9999-12-30T18:30:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "contractIndicator": "contract",
+                              "billingReferenceId": "516216",
+                              "gfVersion": 0,
+                              "channel": "contracted",
+                              "contracted": false,
+                              "grandfathered": false
+                            },
+                            {
+                              "value": {
+                                "centAmount": 12000.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 120.0
+                              },
+                              "id": "9dead6c0-e4ef-4133-abe4-c47a94310ba9",
+                              "startDate": "2020-08-31T18:30:00.000Z",
+                              "endDate": "9999-12-30T18:30:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "contractIndicator": "EDSP",
+                              "billingReferenceId": "516217",
+                              "gfVersion": 0,
+                              "channel": "EDSP",
+                              "contracted": false,
+                              "grandfathered": false
+                            },
+                            {
+                              "value": {
+                                "centAmount": 12000.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 120.0
+                              },
+                              "id": "931d68f8-4ee0-4271-9107-023e59efb193",
+                              "startDate": "2022-12-15T08:00:00.000Z",
+                              "endDate": "2050-12-31T08:00:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "proRateFrequency": "daily",
+                              "contractIndicator": "TAZ",
+                              "gfVersion": 0,
+                              "channel": "TAZ",
+                              "contracted": false,
+                              "grandfathered": false
+                            },
+                            {
+                              "value": {
+                                "centAmount": 12000.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 120.0
+                              },
+                              "id": "d213ddbf-7dfa-49d3-9e1c-18f358bb3f88",
+                              "startDate": "2022-12-15T08:00:00.000Z",
+                              "endDate": "2050-12-31T08:00:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "proRateFrequency": "daily",
+                              "contractIndicator": "TAZBYOD",
+                              "gfVersion": 0,
+                              "channel": "TAZBYOD",
+                              "contracted": false,
+                              "grandfathered": false
+                            },
+                            {
+                              "value": {
+                                "centAmount": 12000.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 120.0
+                              },
+                              "id": "b3ea220c-1234-4e10-bb64-3ff602a29b2d",
+                              "startDate": "2023-04-23T00:00:00.000Z",
+                              "endDate": "2050-12-31T00:00:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "contractIndicator": "TAZCONTRACT",
+                              "billingReferenceId": "516217",
+                              "gfVersion": 0,
+                              "channel": "TAZCONTRACT",
+                              "contracted": false,
+                              "grandfathered": false
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "Gemini Air Device(s)"
+                            },
+                            "displayNamesByKey": {
+                              "name-cpc": "Gemini Air Device",
+                              "name-partner": "Gemini Air Device"
+                            },
+                            "descriptionsByKey": {
+                              "short-opus": "Gemini Air Device &amp; voice remote with the Google Assistant.  Google login required.",
+                              "short-myatt": "Gemini Air Device &amp; voice remote with the Google Assistant.  Google login required.",
+                              "long-myatt": "Rep should inform customer that device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation.",
+                              "description-cpc": "Gemini Air Device",
+                              "short-partner": "Gemini Air Device &amp; voice remote with the Google Assistant.  Google login required.",
+                              "long-partner": "Rep should inform customer that device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation."
+                            },
+                            "billingProductCode": "HARD-PENDANT-052022",
+                            "billingProductId": "371099",
+                            "startDate": "2019-04-16T18:30:00.000Z",
+                            "endDate": "9999-12-30T18:30:00.000Z",
+                            "businessSegment": [
+                              "CONS"
+                            ],
+                            "opusDisclosureMessage": "<p>Any Gemini Air device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini Air device can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini Air device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br><sup>1</sup>Purchasing a device on an installment plan requires an installment agreement and DIRECTV service. Taxes are due at time of sale. If service is cancelled, the outstanding balance is charged.</p>",
+                            "myAttDisclosureMessage": "<strong>DIRECTV:</strong> New U.S. customers only. Must prepay first 2 months of service at full price. Online orders will be shipped in 1 to 3 days by FedEx Ground<sup>&#174;</sup> to the address provided. <strong>Non-refundable.</strong> Offer limited to 1 per DIRECTV account; 2 per household. Not combinable with select offers.",
+                            "productFamily": "OTT",
+                            "removalRule": {
+                              "channel": [],
+                              "accountType": [
+                                "NONE"
+                              ]
+                            },
+                            "secondaryBillingProductId": "7534713770",
+                            "discountSku": "7088A",
+                            "equipmentSku": "60298",
+                            "contractApplicable": "contract",
+                            "contractIndicator": [
+                              "TAZCONTRACT",
+                              "TAZBYOD",
+                              "TAZ",
+                              "contract"
+                            ],
+                            "minQuantity": "1",
+                            "minMaxQuantity": [
+                              {
+                                "maxQuantity": "6",
+                                "minQuantity": "1",
+                                "contractApplicable": [
+                                  "TAZCONTRACT"
+                                ]
+                              }
+                            ],
+                            "installmentList": [
+                              {
+                                "installmentDescription": "Affirm installment for TAZCONTRACT",
+                                "numberOfMonthlyInstallments": "24",
+                                "installmentStartDate": "2022-05-03T00:00:00.000Z",
+                                "installmentEndDate": "9999-05-04T00:00:00.000Z",
+                                "contractApplicable": [
+                                  "TAZCONTRACT"
+                                ],
+                                "creditRiskEligibility": [
+                                  {
+                                    "key": "Unknown",
+                                    "label": "Unknown"
+                                  },
+                                  {
+                                    "key": "High",
+                                    "label": "High"
+                                  },
+                                  {
+                                    "key": "Medium",
+                                    "label": "Medium"
+                                  },
+                                  {
+                                    "key": "Low",
+                                    "label": "Low"
+                                  }
+                                ],
+                                "installmentProvider": "Affirm",
+                                "disclosureMessagesByKey": {
+                                  "onlineDisclosure": "<p>You may cancel your DIRECTV service within 14 days of purchase to avoid charges.<br>Purchased Gemini Air devices can be returned within 14 days of purchase for a full refund. Details at directv.com/CancellationPolicyStream. Gemini Air devices have a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation.<br>We now offer an installment plan option from Affirm for financing your Gemini Air device purchase. The finance rate is as low as 0% APR for well-qualified customers, with flexible payment options. Requires a credit check that will not impact your credit score. Payment options depend on your purchase amount, and a down payment may be required.<br>You must have DIRECTV service to purchase a Gemini Air device on an installment plan through Affirm. If you cancel your DIRECTV service, you remain responsible for any outstanding balance on your device installment plan.<br>Read this to the customers that live in California ONLY: Loans by Affirm Loan Services, LLC are made or arranged pursuant to a California Finance Lenders Law License.</p>",
+                                  "opusDisclosure": "<p>You may cancel your DIRECTV service within 14 days of purchase to avoid charges.<br>Purchased Gemini Air devices can be returned within 14 days of purchase for a full refund. Details at directv.com/CancellationPolicyStream. Gemini Air devices have a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation.<br>We now offer an installment plan option from Affirm for financing your Gemini Air device purchase. The finance rate is as low as 0% APR for well-qualified customers, with flexible payment options. Requires a credit check that will not impact your credit score. Payment options depend on your purchase amount, and a down payment may be required.<br>You must have DIRECTV service to purchase a Gemini Air device on an installment plan through Affirm. If you cancel your DIRECTV service, you remain responsible for any outstanding balance on your device installment plan.<br>Read this to the customers that live in California ONLY: Loans by Affirm Loan Services, LLC are made or arranged pursuant to a California Finance Lenders Law License.</p>",
+                                  "opusDisclosureForServices": "<p>You may cancel your DIRECTV service within 14 days of purchase to avoid charges.<br>Purchased Gemini Air devices can be returned within 14 days of purchase for a full refund. Details at directv.com/CancellationPolicyStream. Gemini Air devices have a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation.<br>We now offer an installment plan option from Affirm for financing your Gemini Air device purchase. The finance rate is as low as 0% APR for well-qualified customers, with flexible payment options. Requires a credit check that will not impact your credit score. Payment options depend on your purchase amount, and a down payment may be required.<br>You must have DIRECTV service to purchase a Gemini Air device on an installment plan through Affirm. If you cancel your DIRECTV service, you remain responsible for any outstanding balance on your device installment plan.<br>Read this to the customers that live in California ONLY: Loans by Affirm Loan Services, LLC are made or arranged pursuant to a California Finance Lenders Law License.</p>",
+                                  "onlineDisclosureForServices": "<p>You may cancel your DIRECTV service within 14 days of purchase to avoid charges.<br>Purchased Gemini Air devices can be returned within 14 days of purchase for a full refund. Details at directv.com/CancellationPolicyStream. Gemini Air devices have a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation.<br>We now offer an installment plan option from Affirm for financing your Gemini Air device purchase. The finance rate is as low as 0% APR for well-qualified customers, with flexible payment options. Requires a credit check that will not impact your credit score. Payment options depend on your purchase amount, and a down payment may be required.<br>You must have DIRECTV service to purchase a Gemini Air device on an installment plan through Affirm. If you cancel your DIRECTV service, you remain responsible for any outstanding balance on your device installment plan.<br>Read this to the customers that live in California ONLY: Loans by Affirm Loan Services, LLC are made or arranged pursuant to a California Finance Lenders Law License.</p>"
+                                }
+                              },
+                              {
+                                "installmentDescription": "DIRECTV-TAZCONTRACT 12M Installment plan",
+                                "numberOfMonthlyInstallments": "12",
+                                "installmentPlanVersion": "V6",
+                                "installmentStartDate": "2022-06-15T18:30:00.000Z",
+                                "installmentEndDate": "2050-09-09T18:30:00.000Z",
+                                "installmentId": "2274299",
+                                "contractApplicable": [
+                                  "TAZCONTRACT"
+                                ],
+                                "creditRiskEligibility": [
+                                  {
+                                    "key": "Low",
+                                    "label": "Low"
+                                  }
+                                ],
+                                "installmentProvider": "DIRECTV",
+                                "disclosureMessagesByKey": {
+                                  "onlineDisclosure": "<p>Any Gemini Air device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini Air devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini Air device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br><sup>1</sup>Purchasing a device on an installment plan requires an installment agreement and DIRECTV service. Taxes are due at time of sale. If service is cancelled, the outstanding balance is charged.</p>",
+                                  "opusDisclosure": "<p>Any Gemini Air device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini Air devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini Air device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br><sup>1</sup>Purchasing a device on an installment plan requires an installment agreement and DIRECTV service. Taxes are due at time of sale. If service is cancelled, the outstanding balance is charged.</p>",
+                                  "opusDisclosureForServices": " <p>Any Gemini Air device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini Air devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini Air device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br><sup>1</sup>Purchasing a device on an installment plan requires an installment agreement and DIRECTV service. Taxes are due at time of sale. If service is cancelled, the outstanding balance is charged.</p>",
+                                  "onlineDisclosureForServices": "<p>Any Gemini Air device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini Air devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini Air device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br><sup>1</sup>Purchasing a device on an installment plan requires an installment agreement and DIRECTV service. Taxes are due at time of sale. If service is cancelled, the outstanding balance is charged.</p>"
+                                }
+                              }
+                            ],
+                            "customerSegments": [
+                              "Employee"
+                            ],
+                            "deliverymethod": [
+                              "Enjoy",
+                              "DF"
+                            ],
+                            "deviceType": "ATTTV",
+                            "deliveryMethodByChannels": [
+                              {
+                                "salesChannel": [
+                                  "directvOnline"
+                                ],
+                                "customerSegments": [
+                                  "Residential",
+                                  "Mobility"
+                                ],
+                                "deliveryMethod": [
+                                  "DF"
+                                ]
+                              }
+                            ],
+                            "conflictingProducts": [
+                              {
+                                "typeId": "product",
+                                "id": "ea13aebe-ab23-4330-9b12-56389bd97724",
+                                "key": "REFURB-OSPREY-092021"
+                              }
+                            ],
+                            "migratedProduct": true,
+                            "disclosureMessagesByKey": {
+                              "onlineDisclosure": "<p>Any Gemini Air device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini Air devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini Air device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br></p>",
+                              "opusDisclosure": "<p>Any Gemini Air device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini Air devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini Air device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br></p>",
+                              "opusDisclosureForServices": "<p>Any Gemini Air device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini Air devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini Air device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br></p>",
+                              "onlineDisclosureForServices": "<p>Any Gemini Air device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini Air devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini Air device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br></p>"
+                            },
+                            "deviceState": "new",
+                            "warrantyDuration": "24"
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "video-device",
+                    "key": "HARD-PENDANT-052022"
+                  }
+                ]
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "OTT",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "9cd6416c-0641-4b77-9bbf-55d8b521a5e5",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "9cd6416c-0641-4b77-9bbf-55d8b521a5e5",
+                      "code": "HARD-PENDANT-052022",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "60f4091f-8f83-4964-8dc8-0d39a9048a1c",
+                        "key": "video-device"
+                      },
+                      "name": {
+                        "en": "Gemini Air Device(s)"
+                      },
+                      "description": {
+                        "en": "Gemini Air Device(s)"
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 12000.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 120.0
+                              },
+                              "id": "67071a90-8726-4fda-950f-e9dba046446f",
+                              "startDate": "2019-06-23T18:30:00.000Z",
+                              "endDate": "9999-12-30T18:30:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "contractIndicator": "contract",
+                              "billingReferenceId": "516216",
+                              "gfVersion": 0,
+                              "channel": "contracted",
+                              "contracted": false,
+                              "grandfathered": false
+                            },
+                            {
+                              "value": {
+                                "centAmount": 12000.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 120.0
+                              },
+                              "id": "9dead6c0-e4ef-4133-abe4-c47a94310ba9",
+                              "startDate": "2020-08-31T18:30:00.000Z",
+                              "endDate": "9999-12-30T18:30:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "contractIndicator": "EDSP",
+                              "billingReferenceId": "516217",
+                              "gfVersion": 0,
+                              "channel": "EDSP",
+                              "contracted": false,
+                              "grandfathered": false
+                            },
+                            {
+                              "value": {
+                                "centAmount": 12000.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 120.0
+                              },
+                              "id": "931d68f8-4ee0-4271-9107-023e59efb193",
+                              "startDate": "2022-12-15T08:00:00.000Z",
+                              "endDate": "2050-12-31T08:00:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "proRateFrequency": "daily",
+                              "contractIndicator": "TAZ",
+                              "gfVersion": 0,
+                              "channel": "TAZ",
+                              "contracted": false,
+                              "grandfathered": false
+                            },
+                            {
+                              "value": {
+                                "centAmount": 12000.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 120.0
+                              },
+                              "id": "d213ddbf-7dfa-49d3-9e1c-18f358bb3f88",
+                              "startDate": "2022-12-15T08:00:00.000Z",
+                              "endDate": "2050-12-31T08:00:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "proRateFrequency": "daily",
+                              "contractIndicator": "TAZBYOD",
+                              "gfVersion": 0,
+                              "channel": "TAZBYOD",
+                              "contracted": false,
+                              "grandfathered": false
+                            },
+                            {
+                              "value": {
+                                "centAmount": 12000.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 120.0
+                              },
+                              "id": "b3ea220c-1234-4e10-bb64-3ff602a29b2d",
+                              "startDate": "2023-04-23T00:00:00.000Z",
+                              "endDate": "2050-12-31T00:00:00.000Z",
+                              "recurrenceIndicator": false,
+                              "duration": 0,
+                              "contractIndicator": "TAZCONTRACT",
+                              "billingReferenceId": "516217",
+                              "gfVersion": 0,
+                              "channel": "TAZCONTRACT",
+                              "contracted": false,
+                              "grandfathered": false
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "Gemini Air Device(s)"
+                            },
+                            "displayNamesByKey": {
+                              "name-cpc": "Gemini Air Device",
+                              "name-partner": "Gemini Air Device"
+                            },
+                            "descriptionsByKey": {
+                              "short-opus": "Gemini Air Device &amp; voice remote with the Google Assistant.  Google login required.",
+                              "short-myatt": "Gemini Air Device &amp; voice remote with the Google Assistant.  Google login required.",
+                              "long-myatt": "Rep should inform customer that device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation.",
+                              "description-cpc": "Gemini Air Device",
+                              "short-partner": "Gemini Air Device &amp; voice remote with the Google Assistant.  Google login required.",
+                              "long-partner": "Rep should inform customer that device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation."
+                            },
+                            "billingProductCode": "HARD-PENDANT-052022",
+                            "billingProductId": "371099",
+                            "startDate": "2019-04-16T18:30:00.000Z",
+                            "endDate": "9999-12-30T18:30:00.000Z",
+                            "businessSegment": [
+                              "CONS"
+                            ],
+                            "opusDisclosureMessage": "<p>Any Gemini Air device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini Air device can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini Air device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br><sup>1</sup>Purchasing a device on an installment plan requires an installment agreement and DIRECTV service. Taxes are due at time of sale. If service is cancelled, the outstanding balance is charged.</p>",
+                            "myAttDisclosureMessage": "<strong>DIRECTV:</strong> New U.S. customers only. Must prepay first 2 months of service at full price. Online orders will be shipped in 1 to 3 days by FedEx Ground<sup>&#174;</sup> to the address provided. <strong>Non-refundable.</strong> Offer limited to 1 per DIRECTV account; 2 per household. Not combinable with select offers.",
+                            "productFamily": "OTT",
+                            "removalRule": {
+                              "channel": [],
+                              "accountType": [
+                                "NONE"
+                              ]
+                            },
+                            "secondaryBillingProductId": "7534713770",
+                            "discountSku": "7088A",
+                            "equipmentSku": "60298",
+                            "contractApplicable": "contract",
+                            "contractIndicator": [
+                              "TAZCONTRACT",
+                              "TAZBYOD",
+                              "TAZ",
+                              "contract"
+                            ],
+                            "minQuantity": "1",
+                            "minMaxQuantity": [
+                              {
+                                "maxQuantity": "6",
+                                "minQuantity": "1",
+                                "contractApplicable": [
+                                  "TAZCONTRACT"
+                                ]
+                              }
+                            ],
+                            "installmentList": [
+                              {
+                                "installmentDescription": "Affirm installment for TAZCONTRACT",
+                                "numberOfMonthlyInstallments": "24",
+                                "installmentStartDate": "2022-05-03T00:00:00.000Z",
+                                "installmentEndDate": "9999-05-04T00:00:00.000Z",
+                                "contractApplicable": [
+                                  "TAZCONTRACT"
+                                ],
+                                "creditRiskEligibility": [
+                                  {
+                                    "key": "Unknown",
+                                    "label": "Unknown"
+                                  },
+                                  {
+                                    "key": "High",
+                                    "label": "High"
+                                  },
+                                  {
+                                    "key": "Medium",
+                                    "label": "Medium"
+                                  },
+                                  {
+                                    "key": "Low",
+                                    "label": "Low"
+                                  }
+                                ],
+                                "installmentProvider": "Affirm",
+                                "disclosureMessagesByKey": {
+                                  "onlineDisclosure": "<p>You may cancel your DIRECTV service within 14 days of purchase to avoid charges.<br>Purchased Gemini Air devices can be returned within 14 days of purchase for a full refund. Details at directv.com/CancellationPolicyStream. Gemini Air devices have a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation.<br>We now offer an installment plan option from Affirm for financing your Gemini Air device purchase. The finance rate is as low as 0% APR for well-qualified customers, with flexible payment options. Requires a credit check that will not impact your credit score. Payment options depend on your purchase amount, and a down payment may be required.<br>You must have DIRECTV service to purchase a Gemini Air device on an installment plan through Affirm. If you cancel your DIRECTV service, you remain responsible for any outstanding balance on your device installment plan.<br>Read this to the customers that live in California ONLY: Loans by Affirm Loan Services, LLC are made or arranged pursuant to a California Finance Lenders Law License.</p>",
+                                  "opusDisclosure": "<p>You may cancel your DIRECTV service within 14 days of purchase to avoid charges.<br>Purchased Gemini Air devices can be returned within 14 days of purchase for a full refund. Details at directv.com/CancellationPolicyStream. Gemini Air devices have a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation.<br>We now offer an installment plan option from Affirm for financing your Gemini Air device purchase. The finance rate is as low as 0% APR for well-qualified customers, with flexible payment options. Requires a credit check that will not impact your credit score. Payment options depend on your purchase amount, and a down payment may be required.<br>You must have DIRECTV service to purchase a Gemini Air device on an installment plan through Affirm. If you cancel your DIRECTV service, you remain responsible for any outstanding balance on your device installment plan.<br>Read this to the customers that live in California ONLY: Loans by Affirm Loan Services, LLC are made or arranged pursuant to a California Finance Lenders Law License.</p>",
+                                  "opusDisclosureForServices": "<p>You may cancel your DIRECTV service within 14 days of purchase to avoid charges.<br>Purchased Gemini Air devices can be returned within 14 days of purchase for a full refund. Details at directv.com/CancellationPolicyStream. Gemini Air devices have a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation.<br>We now offer an installment plan option from Affirm for financing your Gemini Air device purchase. The finance rate is as low as 0% APR for well-qualified customers, with flexible payment options. Requires a credit check that will not impact your credit score. Payment options depend on your purchase amount, and a down payment may be required.<br>You must have DIRECTV service to purchase a Gemini Air device on an installment plan through Affirm. If you cancel your DIRECTV service, you remain responsible for any outstanding balance on your device installment plan.<br>Read this to the customers that live in California ONLY: Loans by Affirm Loan Services, LLC are made or arranged pursuant to a California Finance Lenders Law License.</p>",
+                                  "onlineDisclosureForServices": "<p>You may cancel your DIRECTV service within 14 days of purchase to avoid charges.<br>Purchased Gemini Air devices can be returned within 14 days of purchase for a full refund. Details at directv.com/CancellationPolicyStream. Gemini Air devices have a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation.<br>We now offer an installment plan option from Affirm for financing your Gemini Air device purchase. The finance rate is as low as 0% APR for well-qualified customers, with flexible payment options. Requires a credit check that will not impact your credit score. Payment options depend on your purchase amount, and a down payment may be required.<br>You must have DIRECTV service to purchase a Gemini Air device on an installment plan through Affirm. If you cancel your DIRECTV service, you remain responsible for any outstanding balance on your device installment plan.<br>Read this to the customers that live in California ONLY: Loans by Affirm Loan Services, LLC are made or arranged pursuant to a California Finance Lenders Law License.</p>"
+                                }
+                              },
+                              {
+                                "installmentDescription": "DIRECTV-TAZCONTRACT 12M Installment plan",
+                                "numberOfMonthlyInstallments": "12",
+                                "installmentPlanVersion": "V6",
+                                "installmentStartDate": "2022-06-15T18:30:00.000Z",
+                                "installmentEndDate": "2050-09-09T18:30:00.000Z",
+                                "installmentId": "2274299",
+                                "contractApplicable": [
+                                  "TAZCONTRACT"
+                                ],
+                                "creditRiskEligibility": [
+                                  {
+                                    "key": "Low",
+                                    "label": "Low"
+                                  }
+                                ],
+                                "installmentProvider": "DIRECTV",
+                                "disclosureMessagesByKey": {
+                                  "onlineDisclosure": "<p>Any Gemini Air device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini Air devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini Air device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br><sup>1</sup>Purchasing a device on an installment plan requires an installment agreement and DIRECTV service. Taxes are due at time of sale. If service is cancelled, the outstanding balance is charged.</p>",
+                                  "opusDisclosure": "<p>Any Gemini Air device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini Air devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini Air device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br><sup>1</sup>Purchasing a device on an installment plan requires an installment agreement and DIRECTV service. Taxes are due at time of sale. If service is cancelled, the outstanding balance is charged.</p>",
+                                  "opusDisclosureForServices": " <p>Any Gemini Air device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini Air devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini Air device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br><sup>1</sup>Purchasing a device on an installment plan requires an installment agreement and DIRECTV service. Taxes are due at time of sale. If service is cancelled, the outstanding balance is charged.</p>",
+                                  "onlineDisclosureForServices": "<p>Any Gemini Air device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini Air devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini Air device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br><sup>1</sup>Purchasing a device on an installment plan requires an installment agreement and DIRECTV service. Taxes are due at time of sale. If service is cancelled, the outstanding balance is charged.</p>"
+                                }
+                              }
+                            ],
+                            "customerSegments": [
+                              "Employee"
+                            ],
+                            "deliverymethod": [
+                              "Enjoy",
+                              "DF"
+                            ],
+                            "deviceType": "ATTTV",
+                            "deliveryMethodByChannels": [
+                              {
+                                "salesChannel": [
+                                  "directvOnline"
+                                ],
+                                "customerSegments": [
+                                  "Residential",
+                                  "Mobility"
+                                ],
+                                "deliveryMethod": [
+                                  "DF"
+                                ]
+                              }
+                            ],
+                            "conflictingProducts": [
+                              {
+                                "typeId": "product",
+                                "id": "ea13aebe-ab23-4330-9b12-56389bd97724",
+                                "key": "REFURB-OSPREY-092021"
+                              }
+                            ],
+                            "migratedProduct": true,
+                            "disclosureMessagesByKey": {
+                              "onlineDisclosure": "<p>Any Gemini Air device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini Air devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini Air device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br></p>",
+                              "opusDisclosure": "<p>Any Gemini Air device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini Air devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini Air device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br></p>",
+                              "opusDisclosureForServices": "<p>Any Gemini Air device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini Air devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini Air device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br></p>",
+                              "onlineDisclosureForServices": "<p>Any Gemini Air device purchased must be returned within 14 days of purchase to avoid a non-return fee of $120.<br>Purchased Gemini Air devices can be returned within 14 days for a full refund. Details at directv.com/CancellationPolicyStream.<br>Gemini Air device has a Limited 2-year Warranty; term details can be found at directv.com/WarrantyInformation<br></p>"
+                            },
+                            "deviceState": "new",
+                            "warrantyDuration": "24"
+                          }
+                        }
+                      ]
+                    },
+                    "productType": "video-device",
+                    "key": "HARD-PENDANT-052022"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [],
+        "eligibility": {
+          "constraints": [
+            {
+              "salesChannel": [
+                "directvOnline"
+              ],
+              "businessSegment": [
+                "CONS"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "TAZCONTRACT",
+        "offerIntents": [
+          "non-migration"
+        ],
+        "offerClassificationType": "non-replacement-device",
+        "offerPreselectDesignation": "Optional",
+        "recommendedOfferOPUS": false,
+        "qualifyingProductsBillingProductCode": [
+          "HARD-PENDANT-052022"
+        ],
+        "installmentBiller": "Affirm",
+        "recommendedOnline": false,
+        "isVirtual": false,
+        "flashSaleOffer": false,
+        "isBulkOffer": false,
+        "isSpecialOffer": false,
+        "eligibilityCreditRisk": [
+          "Low",
+          "Unknown",
+          "High",
+          "Medium"
+        ]
+      }
+    }
+  ]
+}

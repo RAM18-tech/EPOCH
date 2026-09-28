@@ -1,0 +1,29 @@
+# default identity
+idp.voltage-auto.voltage.enable=true
+idp.voltage-auto.voltage.storage.path=voltageKeyCache
+idp.voltage-auto.voltage.trust.store.path=voltageTrustStore
+idp.voltage-auto.voltage.key.server.url=https://voltage-pp-0000.dpsqa.cso.att.com/policy/clientPolicy.xml
+idp.voltage-auto.voltage.mech.id=m41221
+idp.voltage-auto.voltage.password=c3EuGq3SYg9DtOhugBBVp0sOR6W0QS+x
+idp.voltage-auto.voltage.identity.cust.id=AP-TEST_CUST_ID@ITSERVICES.SBC.COM
+idp.voltage-auto.voltage.identity.cust.pci=AP-TEST_CUST_PCI@ITSERVICES.SBC.COM
+idp.voltage-auto.voltage.identity.emp.id=AP-TEST_EMP_ID@ITSERVICES.SBC.COM
+idp.voltage-auto.voltage.exception.to.be.thrown=true
+
+
+# by BSI identity
+idp.voltage-auto.voltage.identity.bsi.enable=false
+idp.voltage-auto.voltage.identity.bsi.mech.id=m41221
+idp.voltage-auto.voltage.identity.bsi.password=c3EuGq3SYg9DtOhugBBVp0sOR6W0QS+x
+idp.voltage-auto.voltage.identity.bsi.cust.id=AP-TEST_BSI@ITSERVICES.SBC.COM
+idp.voltage-auto.voltage.identity.bsi.cust.pci=AP-TEST_BSI@ITSERVICES.SBC.COM
+idp.voltage-auto.voltage.identity.bsi.emp.id=AP-TEST_BSI@ITSERVICES.SBC.COM
+
+
+# by EXT3 identity
+idp.voltage-auto.voltage.identity.ext3.enable=false
+idp.voltage-auto.voltage.identity.ext3.mech.id=m41221
+idp.voltage-auto.voltage.identity.ext3.password=c3EuGq3SYg9DtOhugBBVp0sOR6W0QS+x
+idp.voltage-auto.voltage.identity.ext3.cust.id=AP-TEST_EXT3_PCI@ITSERVICES.SBC.COM
+idp.voltage-auto.voltage.identity.ext3.cust.pci=AP-TEST_EXT3_PCI@ITSERVICES.SBC.COM
+idp.voltage-auto.voltage.identity.ext3.emp.id=AP-TEST_EXT3_SPI@ITSERVICES.SBC.COM

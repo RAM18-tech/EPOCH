@@ -1,0 +1,34 @@
+{
+    "offerActionType": [
+        "Upgrade",
+        "Downgrade",
+        "Cross-sell",
+        "Other",
+        "Retention"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "offerProductType": [
+        "video-plan",
+        "video-addon",
+        "video-device",
+        "video-accessory",
+        "insurance"
+    ],
+    "pagination": {
+        "page": 1,
+        "limit": 150
+    },
+    "salesChannel": [
+        "online"
+    ],
+    "state": "staged",
+    "expandProductRefs": true,
+    "migrationIndicator": false,
+    "reconnectOfferFlag": true,
+    "adeRequest": true,
+    "decisioningFlow": false,
+    "reconnectCustomer": false,
+    "isExpiredOffers": true
+}

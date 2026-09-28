@@ -1,0 +1,828 @@
+{
+  "limit": 100,
+  "offset": 0,
+  "count": 2,
+  "total": 2,
+  "offers": [
+    {
+      "id": "0e8ddb68-23fb-47c3-bf9b-51a6436b254e",
+      "code": "ATTV_ACQ_Cho_Res_47",
+      "status": "in_progress",
+      "name": {
+        "en": "DTV Rack Rate Offer 47"
+      },
+      "startDate": "2019-12-16T00:00:00.000Z",
+      "endDate": "2023-01-01T00:00:00.000Z",
+      "attributes": {
+        "offerProductType": "video-plan",
+        "offerProductFamily": "OTT",
+        "offerType": "multi-benefit",
+        "offerActionType": "Acquisition",
+        "environment": "ATT TV Migration",
+        "rank": "1",
+        "displayName": {
+          "en": "DirecTV Satellite Migration Offer"
+        },
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productStatus": "Grandfather",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "OTT",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                      "code": "BASE-CHOICE-201811",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "cb512bc7-05aa-4d02-896c-bcfb3487c5da",
+                        "key": "video-plan"
+                      },
+                      "name": {
+                        "en": "Choice"
+                      },
+                      "description": {
+                        "en": "Choice must-haves. ##85##+ channels"
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 11000,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 110
+                              },
+                              "id": "cc2e76ea-b553-45ee-999e-812c0a7b83aa",
+                              "startDate": "2019-02-17T06:00:00.000Z",
+                              "endDate": "2019-06-24T05:00:00.000Z",
+                              "recurrenceIndicator": true,
+                              "period": "month",
+                              "proRateFrequency": "daily",
+                              "contractIndicator": "contract"
+                            },
+                            {
+                              "value": {
+                                "centAmount": 10500,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 105
+                              },
+                              "id": "7453c8c5-a650-483e-aaaa-e320f68b6a92",
+                              "startDate": "2019-06-25T05:00:00.000Z",
+                              "endDate": "2019-07-28T05:00:00.000Z",
+                              "recurrenceIndicator": true,
+                              "period": "month",
+                              "proRateFrequency": "daily",
+                              "contractIndicator": "contract"
+                            },
+                            {
+                              "value": {
+                                "centAmount": 11000,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 110
+                              },
+                              "id": "9481620c-dad3-4dc6-a744-7c2b891b778e",
+                              "startDate": "2019-07-29T05:00:00.000Z",
+                              "endDate": "9999-12-31T06:00:00.000Z",
+                              "recurrenceIndicator": true,
+                              "period": "month",
+                              "proRateFrequency": "daily",
+                              "contractIndicator": "contract"
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "CHOICE"
+                            },
+                            "displayNamesByKey": {
+                              "services": "Choice",
+                              "name-cpc": "CHOICE"
+                            },
+                            "descriptionsByKey": {
+                              "short-opus": "85+ channels",
+                              "long-services": "85+ channels",
+                              "short-services": "85+",
+                              "long-myatt": "$19.95 ACTIVATION, EARLY TERMINATION FEE OF $15/MO. FOR EACH MONTH REMAINING ON AGMT., ADD'L FEES APPLY.   Ends 9/28/19. 1st &amp; 2nd year Pricing: $59.99/mo. for ENTERTAINMENT Pkg; $64.99/mo. for CHOICE Pkg; $74.99/mo. for XTRA Pkg; $79.99/mo. for ULTIMATE Pkg; $64.99/mo. for OPTIMO MAS  for first 12 mos. only. After 12 mos. or loss of eligibility, then prevailing rate applies (currently $93/mo. for ENTERTAINMENT Pkg; $110/mo. for CHOICE Pkg; $124/mo. for XTRA Pkg; $135/mo. for ULTIMATE Pkg; $86/mo. for OPTIMO MAS), unless cancelled or changed prior to end of the promo period. Includes: AT&amp;T TV Pkg, & one (1) AT&amp;T TV device. Exclusions: Price excludes Regional Sports Fee of up to $8.49/mo. (which is extra &amp; applies to CHOICE and higher Pkgs), AT&amp;T TV device service fee for additional devices, and certain other add'l fees &amp; charges.",
+                              "description-cpc": "Choice"
+                            },
+                            "billingProductCode": "BASE-CHOICE-201811",
+                            "billingProductId": "13843",
+                            "startDate": "2018-11-26T06:00:00.000Z",
+                            "endDate": "9999-12-31T06:00:00.000Z",
+                            "congratsMessage": "Great choice!",
+                            "productFamily": "OTT",
+                            "packageGroup": "20000",
+                            "removalRule": {
+                              "channel": [
+                                "online"
+                              ]
+                            },
+                            "numberOfChannels": "85+ live channels",
+                            "language": "English",
+                            "serviceFlag": true,
+                            "secondaryBillingProductId": "7492324299",
+                            "productStatus": "Active",
+                            "compatibleProducts": [
+                              {
+                                "constraints": {
+                                  "dependent": false,
+                                  "anchor": false
+                                },
+                                "products": [
+                                  {
+                                    "id": "99d6d8de-7797-46cd-bd3b-a6357888c3a9",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "d54b9253-695c-443c-9117-7b6d74876801",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "265a48d4-fef0-4b0c-8b98-3fb03178de61",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "3b00e93d-e89a-4833-9937-79286c64dc76",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "e5500e72-277a-40d2-8344-e9fa2b05f26e",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "a1e40152-f76c-4be9-8589-18b33e7b48a5",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "cf137bf8-01d6-403c-9908-0b8841d1e654",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "4f702563-f062-4255-9a3d-e3553d13854c",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "2fc8b39b-20cd-4c04-9018-4699b24a16b2",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "2eac96b0-34e8-468d-afca-cd16c2a06c19",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "86abb2e1-bc09-49b1-8e6e-3bbe39fc396c",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "124dfd11-2837-46e3-a357-5d672eb3e40a",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "d7a05882-4296-4c97-baac-01e0228c5f21",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "5ef805cf-7ca5-4433-b365-ca71da9b8bd1",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "89086c9f-23b9-45d8-8cc5-79e72936811b",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "14cf7580-d04e-437e-91fe-14629b25d8e5",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "afd250d0-9739-4035-9717-28fb6fa276a0",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "b4f91c96-60b2-4474-acb0-9fa063f71285",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "a650e103-2d78-4867-906a-6d42a27aebac",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "adff648a-0db9-4934-9a86-2fddd363840d",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "30e1cea1-def7-431f-8209-5d8e06f6fa16",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "b9db6f0b-a7b4-44f1-b99b-131e81640c57",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "8a6d1efd-27ae-4c5f-ba5e-93df6b2fa089",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "f1578557-8c43-4ccb-bfef-bb9988fae63a",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "8b174e95-f430-4a41-a506-974c29aa4611",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "e7ac37eb-ea69-4da8-af9d-7b979d0b923f",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "91d2bebc-33ed-46ff-abf7-926e0303290d",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "c848c4a6-1312-45ec-8f64-a5145e29d5e4",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "53b93c90-fd1f-4ad5-9324-c0539e6579fe",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "3f7011e5-34fe-4658-92b6-4557727d807c",
+                                    "typeId": "product"
+                                  }
+                                ]
+                              }
+                            ],
+                            "contractApplicable": "all"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [
+          {
+            "benefitCategory": "Product",
+            "billingBenefitId": "67039",
+            "id": "f892976a-00a4-4f32-aeda-72d94d422846",
+            "billingBenefitCode": "PMTRACKCON",
+            "benefitName": {
+              "en": "PMTRACKCON"
+            },
+            "benefitDisplayName": {
+              "en": "DTV Rack Rate Tracking Promotion"
+            },
+            "benefitRank": 11,
+            "description": {
+              "en": "PLUS&MAX packages are not eligible for introductory pricing"
+            },
+            "startDate": "2019-01-01T06:00:00.000Z",
+            "retIoApplicableProducts": false,
+            "contractIndicator": "contract",
+            "contractVersion": "1",
+            "selfBenefit": false,
+            "duration": 12,
+            "period": "NoOfMonths",
+            "billAfterPeriod": false,
+            "applicableProducts": [
+              {
+                "products": [
+                  {
+                    "id": "f69a0c12-ac1c-4e4f-97e0-ae40fb44409f",
+                    "typeId": "product"
+                  },
+                  {
+                    "id": "8356c668-2cea-406a-a141-c93da6cce6af",
+                    "typeId": "product"
+                  },
+                  {
+                    "id": "17409ef2-12e9-48a3-85c0-0e52d21be60c",
+                    "typeId": "product"
+                  },
+                  {
+                    "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                    "typeId": "product"
+                  },
+                  {
+                    "id": "acaafa61-a5ef-4584-b7fa-6b81045d3f06",
+                    "typeId": "product"
+                  },
+                  {
+                    "id": "bbb634c9-d2ea-4997-a47e-4d3a5ef17657",
+                    "typeId": "product"
+                  },
+                  {
+                    "id": "0e796d14-487b-4058-8fe5-0b1dae7f231e",
+                    "typeId": "product"
+                  }
+                ]
+              }
+            ],
+            "maxOccurrence": 0,
+            "benefitType": "percent-off",
+            "value": {
+              "percentage": 1
+            },
+            "customerClassification": "NewCustomer",
+            "secondaryBenefitCode": "7512670793",
+            "freeTrialPromo": false,
+            "ioOffer": false,
+            "freeTrialDuration": 0,
+            "agentOffer": false,
+            "promoSourceSku": "BASE-PLUS-2018,BASE-MAX-2018,BASE-ENTERTAINMENT-201811,BASE-ULTIMATE-201811,BASE-XTRA-201811,BASE-CHOICE-201811,BASE-OPTIMOMAS-122018",
+            "contractTerm": "24",
+            "minQuantity": 0,
+            "promoPriority": 4,
+            "salesChannel": "agentNew",
+            "benefitLevel": "product",
+            "promoSourceSkus": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "notApplibaleForOffer": false,
+            "enableServiceDisconnect": false,
+            "migrated": true,
+            "quotaBased": false,
+            "contracted": false,
+            "isDependentPromo": false,
+            "isMigrated": true,
+            "isQuotaBased": false
+          }
+        ],
+        "eligibility": {
+          "computedRules": {
+            "predicate": "customerSegments = \"Residential\" AND salesChannel = \"opus\"",
+            "groupingOperator": "OR",
+            "rules": [
+              {
+                "predicate": "customerSegments = \"Residential\" AND salesChannel = \"opus\""
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "minimumPurchaseAmount": 0,
+              "salesChannel": [
+                "opus"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "contract",
+        "offerIntent": "migration",
+        "offerIntents": ["migration"],
+        "migrationServiceType": [
+          "legacySatellite"
+        ],
+        "migrationServiceOfferType": "rackRate",
+        "isVirtual": false,
+        "flashSaleOffer": false
+      }
+    },
+    {
+      
+      "id": "0e8ddb68-23fb-47c3-bf9b-51a6436b254e",
+      "code": "ATTV_ACQ_Cho_Res_47",
+      "status": "in_progress",
+      "name": {
+        "en": "DTV Rack Rate Offer 47"
+      },
+      "startDate": "2019-12-16T00:00:00.000Z",
+      "endDate": "2023-01-01T00:00:00.000Z",
+      "attributes": {
+        "offerProductType": "video-plan",
+        "offerProductFamily": "OTT",
+        "offerType": "multi-benefit",
+        "offerActionType": "Acquisition",
+        "environment": "ATT TV Migration",
+        "rank": "1",
+        "displayName": {
+          "en": "DirecTV Satellite Migration Offer"
+        },
+        "migratedOffer": false,
+        "associatedProducts": [
+          {
+            "qualifyingProducts": [
+              {
+                "constraints": {
+                  "productFamily": "satellite",
+                  "productStatus": "Grandfather",
+                  "dependent": false,
+                  "anchor": false
+                }
+              }
+            ],
+            "bundleProducts": [
+              {
+                "constraints": {
+                  "productFamily": "OTT",
+                  "dependent": false,
+                  "anchor": false
+                },
+                "products": [
+                  {
+                    "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                    "typeId": "product",
+                    "obj": {
+                      "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                      "code": "BASE-CHOICE-201811",
+                      "productType": {
+                        "typeId": "product-type",
+                        "id": "cb512bc7-05aa-4d02-896c-bcfb3487c5da",
+                        "key": "video-plan"
+                      },
+                      "name": {
+                        "en": "Choice"
+                      },
+                      "description": {
+                        "en": "Choice must-haves. ##85##+ channels"
+                      },
+                      "categories": [],
+                      "variants": [
+                        {
+                          "id": "1",
+                          "prices": [
+                            {
+                              "value": {
+                                "centAmount": 11000,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 110
+                              },
+                              "id": "cc2e76ea-b553-45ee-999e-812c0a7b83aa",
+                              "startDate": "2019-02-17T06:00:00.000Z",
+                              "endDate": "2019-06-24T05:00:00.000Z",
+                              "recurrenceIndicator": true,
+                              "period": "month",
+                              "proRateFrequency": "daily",
+                              "contractIndicator": "contract"
+                            },
+                            {
+                              "value": {
+                                "centAmount": 10500,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 105
+                              },
+                              "id": "7453c8c5-a650-483e-aaaa-e320f68b6a92",
+                              "startDate": "2019-06-25T05:00:00.000Z",
+                              "endDate": "2019-07-28T05:00:00.000Z",
+                              "recurrenceIndicator": true,
+                              "period": "month",
+                              "proRateFrequency": "daily",
+                              "contractIndicator": "contract"
+                            },
+                            {
+                              "value": {
+                                "centAmount": 11000,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 110
+                              },
+                              "id": "9481620c-dad3-4dc6-a744-7c2b891b778e",
+                              "startDate": "2019-07-29T05:00:00.000Z",
+                              "endDate": "9999-12-31T06:00:00.000Z",
+                              "recurrenceIndicator": true,
+                              "period": "month",
+                              "proRateFrequency": "daily",
+                              "contractIndicator": "contract"
+                            }
+                          ],
+                          "attributes": {
+                            "displayName": {
+                              "en": "CHOICE"
+                            },
+                            "displayNamesByKey": {
+                              "services": "Choice",
+                              "name-cpc": "CHOICE"
+                            },
+                            "descriptionsByKey": {
+                              "short-opus": "85+ channels",
+                              "long-services": "85+ channels",
+                              "short-services": "85+",
+                              "long-myatt": "$19.95 ACTIVATION, EARLY TERMINATION FEE OF $15/MO. FOR EACH MONTH REMAINING ON AGMT., ADD'L FEES APPLY.   Ends 9/28/19. 1st &amp; 2nd year Pricing: $59.99/mo. for ENTERTAINMENT Pkg; $64.99/mo. for CHOICE Pkg; $74.99/mo. for XTRA Pkg; $79.99/mo. for ULTIMATE Pkg; $64.99/mo. for OPTIMO MAS  for first 12 mos. only. After 12 mos. or loss of eligibility, then prevailing rate applies (currently $93/mo. for ENTERTAINMENT Pkg; $110/mo. for CHOICE Pkg; $124/mo. for XTRA Pkg; $135/mo. for ULTIMATE Pkg; $86/mo. for OPTIMO MAS), unless cancelled or changed prior to end of the promo period. Includes: AT&amp;T TV Pkg, & one (1) AT&amp;T TV device. Exclusions: Price excludes Regional Sports Fee of up to $8.49/mo. (which is extra &amp; applies to CHOICE and higher Pkgs), AT&amp;T TV device service fee for additional devices, and certain other add'l fees &amp; charges.",
+                              "description-cpc": "Choice"
+                            },
+                            "billingProductCode": "BASE-CHOICE-201811",
+                            "billingProductId": "13843",
+                            "startDate": "2018-11-26T06:00:00.000Z",
+                            "endDate": "9999-12-31T06:00:00.000Z",
+                            "congratsMessage": "Great choice!",
+                            "productFamily": "OTT",
+                            "packageGroup": "20000",
+                            "removalRule": {
+                              "channel": [
+                                "online"
+                              ]
+                            },
+                            "numberOfChannels": "85+ live channels",
+                            "language": "English",
+                            "serviceFlag": true,
+                            "secondaryBillingProductId": "7492324299",
+                            "productStatus": "Active",
+                            "compatibleProducts": [
+                              {
+                                "constraints": {
+                                  "dependent": false,
+                                  "anchor": false
+                                },
+                                "products": [
+                                  {
+                                    "id": "99d6d8de-7797-46cd-bd3b-a6357888c3a9",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "d54b9253-695c-443c-9117-7b6d74876801",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "265a48d4-fef0-4b0c-8b98-3fb03178de61",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "3b00e93d-e89a-4833-9937-79286c64dc76",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "e5500e72-277a-40d2-8344-e9fa2b05f26e",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "a1e40152-f76c-4be9-8589-18b33e7b48a5",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "cf137bf8-01d6-403c-9908-0b8841d1e654",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "4f702563-f062-4255-9a3d-e3553d13854c",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "2fc8b39b-20cd-4c04-9018-4699b24a16b2",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "2eac96b0-34e8-468d-afca-cd16c2a06c19",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "86abb2e1-bc09-49b1-8e6e-3bbe39fc396c",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "124dfd11-2837-46e3-a357-5d672eb3e40a",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "d7a05882-4296-4c97-baac-01e0228c5f21",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "5ef805cf-7ca5-4433-b365-ca71da9b8bd1",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "89086c9f-23b9-45d8-8cc5-79e72936811b",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "14cf7580-d04e-437e-91fe-14629b25d8e5",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "afd250d0-9739-4035-9717-28fb6fa276a0",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "b4f91c96-60b2-4474-acb0-9fa063f71285",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "a650e103-2d78-4867-906a-6d42a27aebac",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "adff648a-0db9-4934-9a86-2fddd363840d",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "30e1cea1-def7-431f-8209-5d8e06f6fa16",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "b9db6f0b-a7b4-44f1-b99b-131e81640c57",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "8a6d1efd-27ae-4c5f-ba5e-93df6b2fa089",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "f1578557-8c43-4ccb-bfef-bb9988fae63a",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "8b174e95-f430-4a41-a506-974c29aa4611",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "e7ac37eb-ea69-4da8-af9d-7b979d0b923f",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "91d2bebc-33ed-46ff-abf7-926e0303290d",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "c848c4a6-1312-45ec-8f64-a5145e29d5e4",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "53b93c90-fd1f-4ad5-9324-c0539e6579fe",
+                                    "typeId": "product"
+                                  },
+                                  {
+                                    "id": "3f7011e5-34fe-4658-92b6-4557727d807c",
+                                    "typeId": "product"
+                                  }
+                                ]
+                              }
+                            ],
+                            "contractApplicable": "all"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "benefits": [
+          {
+            "benefitCategory": "Product",
+            "billingBenefitId": "67039",
+            "id": "f892976a-00a4-4f32-aeda-72d94d422846",
+            "billingBenefitCode": "PMTRACKCON",
+            "benefitName": {
+              "en": "PMTRACKCON"
+            },
+            "benefitDisplayName": {
+              "en": "DTV Rack Rate Tracking Promotion"
+            },
+            "benefitRank": 11,
+            "description": {
+              "en": "PLUS&MAX packages are not eligible for introductory pricing"
+            },
+            "startDate": "2019-01-01T06:00:00.000Z",
+            "retIoApplicableProducts": false,
+            "contractIndicator": "contract",
+            "contractVersion": "1",
+            "selfBenefit": false,
+            "duration": 12,
+            "period": "NoOfMonths",
+            "billAfterPeriod": false,
+            "applicableProducts": [
+              {
+                "products": [
+                  {
+                    "id": "f69a0c12-ac1c-4e4f-97e0-ae40fb44409f",
+                    "typeId": "product"
+                  },
+                  {
+                    "id": "8356c668-2cea-406a-a141-c93da6cce6af",
+                    "typeId": "product"
+                  },
+                  {
+                    "id": "17409ef2-12e9-48a3-85c0-0e52d21be60c",
+                    "typeId": "product"
+                  },
+                  {
+                    "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                    "typeId": "product"
+                  },
+                  {
+                    "id": "acaafa61-a5ef-4584-b7fa-6b81045d3f06",
+                    "typeId": "product"
+                  },
+                  {
+                    "id": "bbb634c9-d2ea-4997-a47e-4d3a5ef17657",
+                    "typeId": "product"
+                  },
+                  {
+                    "id": "0e796d14-487b-4058-8fe5-0b1dae7f231e",
+                    "typeId": "product"
+                  }
+                ]
+              }
+            ],
+            "maxOccurrence": 0,
+            "benefitType": "percent-off",
+            "value": {
+              "percentage": 1
+            },
+            "customerClassification": "NewCustomer",
+            "secondaryBenefitCode": "7512670793",
+            "freeTrialPromo": false,
+            "ioOffer": false,
+            "freeTrialDuration": 0,
+            "agentOffer": false,
+            "promoSourceSku": "BASE-PLUS-2018,BASE-MAX-2018,BASE-ENTERTAINMENT-201811,BASE-ULTIMATE-201811,BASE-XTRA-201811,BASE-CHOICE-201811,BASE-OPTIMOMAS-122018",
+            "contractTerm": "24",
+            "minQuantity": 0,
+            "promoPriority": 4,
+            "salesChannel": "agentNew",
+            "benefitLevel": "product",
+            "promoSourceSkus": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {},
+              {}
+            ],
+            "notApplibaleForOffer": false,
+            "enableServiceDisconnect": false,
+            "migrated": true,
+            "quotaBased": false,
+            "contracted": false,
+            "isDependentPromo": false,
+            "isMigrated": true,
+            "isQuotaBased": false
+          }
+        ],
+        "eligibility": {
+          "computedRules": {
+            "predicate": "customerSegments = \"Residential\" AND salesChannel = \"opus\"",
+            "groupingOperator": "OR",
+            "rules": [
+              {
+                "predicate": "customerSegments = \"Residential\" AND salesChannel = \"opus\""
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "customerSegments": [
+                "Residential"
+              ],
+              "minimumPurchaseAmount": 0,
+              "salesChannel": [
+                "opus"
+              ]
+            }
+          ]
+        },
+        "leadOffer": false,
+        "contractIndicator": "contract",
+        "offerIntent": "migration",
+        "offerIntents": ["migration"],
+        "migrationServiceType": [
+          "satellite"
+        ],
+        "migrationServiceOfferType": "rackRate",
+        "isVirtual": false,
+        "flashSaleOffer": false
+      }
+    
+    }
+  ]
+}

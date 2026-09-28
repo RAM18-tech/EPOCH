@@ -1,0 +1,78 @@
+{
+    "customerEligibility": {
+        "zipCode": [
+            "42101"
+        ],
+        "county": [
+            "21031"
+        ]
+    },
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "salesChannel": [
+        "directIntegrationPartner"
+    ],
+    "offerActionType": [
+        "Acquisition",
+        "SOS"
+    ],
+    "marketingSourceCode": [
+        "2547"
+    ],
+    "billingSystem": "stms",
+    "cartContext": {
+        "cartOffers": [
+            {
+                "offerCode": "OF_BASE-PREMIER-ALL-INCLUDED-NO-LOCALS_sales_satellite",
+                "quantity": 1
+            },
+            {
+                "offerCode": "OF_BOLTON-HALLMARK-MOVIES-NOW_satellite",
+                "quantity": 1
+            },
+            {
+                "offerCode": "OF_BOLTON-EPIX_satellite",
+                "quantity": 1
+            },
+            {
+                "offerCode": "OF_BOLTON-FOX-NATION_satellite",
+                "quantity": 1
+            },
+            {
+                "offerCode": "OF_BOLTON-NFL-SUNDAY-TICKET-MAX-2022-V7_Satellite",
+                "quantity": 1
+            },
+            {
+                "offerCode": "OF_DEVICE-GENIE-HD-DVR-V1_sales_satellite",
+                "quantity": 1
+            },
+            {
+                "offerCode": "OF_PROMO-SOS-CREDIT-25-OFF-2-MOS_satellite",
+                "quantity": 1
+            }
+        ]
+    },
+    "customerContext": {
+        "satellite": {
+            "serviceAddress": {
+                "streetAddress": "2600 CANYON BLVD",
+                "city": "BOULDER",
+                "state": "CO",
+                "zipCode": "80302"
+            },
+            "businessSegment": "REG",
+            "accountStatus": "PEND"
+        }
+    },
+    "channelEligibility": {
+        "isFulfillmentDealer": true,
+        "salesChannel": "indirect",
+        "salesSubChannel": "DTVCALLCTR",
+        "locationId": "118724",
+        "locationTypeId": "4",
+        "dealerCode": "44B3G",
+        "directIntegrationPartnerName": "CHUZO",
+        "masterDealerId": "12345"
+    }
+}

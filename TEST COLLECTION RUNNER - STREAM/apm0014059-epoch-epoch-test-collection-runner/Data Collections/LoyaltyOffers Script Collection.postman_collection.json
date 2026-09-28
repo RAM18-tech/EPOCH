@@ -1,0 +1,1557 @@
+{
+	"info": {
+		"_postman_id": "52c6612d-cb69-43a6-ba1a-2dc279cd268e",
+		"name": "LoyaltyOffers Script Collection",
+		"description": "Feature Numbers:  \nF134794",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26896344",
+		"_collection_link": "https://speeding-satellite-638584.postman.co/workspace/My-Workspace~c7526f72-eaab-41d5-896d-9a9cc5cd778a/collection/26896344-52c6612d-cb69-43a6-ba1a-2dc279cd268e?action=share&source=collection_link&creator=26896344"
+	},
+	"item": [
+		{
+			"name": "Loyalty Offer Not On Account",
+			"item": [
+				{
+					"name": "CHOICE",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"   var jsonData = pm.response.json();\r",
+									"if( (pm.iterationData.get(\"contractIndicator\"))  == \"TAZBYOD\")\r",
+									"{\r",
+									"\r",
+									"let TAZBYODOFFPlans = [\r",
+									"  \"OF_UMS-90OFF12M-2024-A1_1\",\r",
+									"      \"OF_UMS-95OFF12M-2024-A1_1\",\r",
+									"      \"OF_UMS-90OFF12M-2024-A2_1\",\r",
+									"      \"OF_UMS-95OFF12M-2024-A2_1\",\r",
+									"      \"OF_UMS-90OFF12M-2024-B1_1\",\r",
+									"      \"OF_UMS-95OFF12M-2024-B1_1\",\r",
+									"      \"OF_UMS-90OFF12M-2024-B2_1\",\r",
+									"      \"OF_UMS-95OFF12M-2024-B2_1\"]\r",
+									"    for(plan of TAZBYODOFFPlans){    \r",
+									"        pm.test(\"Validation for TAZBYOD OFF PLAN should not returned-\"+plan, () => {\r",
+									"            const TAZBYODOFFPlans = jsonData.content.offers.find(m => (m.code === plan));\r",
+									"            pm.expect(TAZBYODOFFPlans).to.eql(undefined, plan + \" should not be returned for this request\");\r",
+									"        });\r",
+									"    } \r",
+									"}"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								},
+								{
+									"key": "showPassword",
+									"value": false,
+									"type": "boolean"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"accountTypes\": [\r\n        \"Residential\"\r\n    ],\r\n    \"addOnType\": [],\r\n    \"contractIndicator\": [\r\n        \"{{contractIndicator}}\"\r\n    ],\r\n    \"swimlaneSwitchEligible\": false,\r\n   \r\n    \"customerContext\": {\r\n        \"existingProductFamily\": [\r\n            \"OTT\"\r\n        ],\r\n        \"OTT\": {\r\n            \"products\": [\r\n                {\r\n                    \"basePrice\": \"14.99\",\r\n                    \"productCode\": \"BOLT-HBO-201610\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"0.0\",\r\n                    \"productCode\": \"BOLT-3RDSTREAMFREE-201804\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"11.0\",\r\n                    \"productCode\": \"BOLT-SHOWTIME-201707\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"110.0\",\r\n                    \"productCode\": \"BASE-CHOICE-201811\",\r\n                    \"productType\": \"video-plan\"\r\n                }\r\n            ],\r\n            \"accountNumber\": \"200420163448548\",\r\n            \"isActive\": true,\r\n            \"retentionPromotionIndicator\": true,\r\n            \"freeTrialEligible\": false,\r\n            \"accountType\": \"Residential\",\r\n            \"nextBillingDate\": \"{{nextBillingDate}}\"\r\n        }\r\n    },\r\n    \"offerActionType\": [\r\n        \"Retention\",\r\n        \"Other\"\r\n    ],\r\n    \"decisioningFlow\":true,\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"{{salesChannel}}\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\"\r\n    ]\r\n}"
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ENTERTIANMENT",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"   var jsonData = pm.response.json();\r",
+									"if( (pm.iterationData.get(\"contractIndicator\"))  == \"TAZBYOD\")\r",
+									"{\r",
+									"\r",
+									"let TAZBYODOFFPlans = [\r",
+									"  \"OF_UMS-90OFF12M-2024-A1_1\",\r",
+									"      \"OF_UMS-95OFF12M-2024-A1_1\",\r",
+									"      \"OF_UMS-90OFF12M-2024-A2_1\",\r",
+									"      \"OF_UMS-95OFF12M-2024-A2_1\",\r",
+									"      \"OF_UMS-90OFF12M-2024-B1_1\",\r",
+									"      \"OF_UMS-95OFF12M-2024-B1_1\",\r",
+									"      \"OF_UMS-90OFF12M-2024-B2_1\",\r",
+									"      \"OF_UMS-95OFF12M-2024-B2_1\"]\r",
+									"    for(plan of TAZBYODOFFPlans){    \r",
+									"        pm.test(\"Validation for TAZBYOD OFF PLAN should not returned-\"+plan, () => {\r",
+									"            const TAZBYODOFFPlans = jsonData.content.offers.find(m => (m.code === plan));\r",
+									"            pm.expect(TAZBYODOFFPlans).to.eql(undefined, plan + \" should not be returned for this request\");\r",
+									"        });\r",
+									"    } \r",
+									"}"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								},
+								{
+									"key": "showPassword",
+									"value": false,
+									"type": "boolean"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "idpctx-feature-svc-epoch-performance-updates",
+								"value": "{{performanceFlag}}",
+								"type": "text"
+							},
+							{
+								"key": "idpctx-feature-svc-epoch-pvtenabled",
+								"value": "{{dcpbackupFlag}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "idpctx-feature-svc-epoch-pvtenabled",
+								"value": "{{dcpbackupFlag}}"
+							},
+							{
+								"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+								"value": "{{backupFlag}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"accountTypes\": [\r\n        \"Residential\"\r\n    ],\r\n    \"addOnType\": [],\r\n    \"contractIndicator\": [\r\n        \"{{contractIndicator}}\"\r\n    ],\r\n    \"swimlaneSwitchEligible\": false,\r\n   \r\n    \"customerContext\": {\r\n        \"existingProductFamily\": [\r\n            \"OTT\"\r\n        ],\r\n        \"OTT\": {\r\n            \"products\": [\r\n                {\r\n                    \"basePrice\": \"14.99\",\r\n                    \"productCode\": \"BOLT-HBO-201610\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"0.0\",\r\n                    \"productCode\": \"BOLT-3RDSTREAMFREE-201804\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"11.0\",\r\n                    \"productCode\": \"BOLT-SHOWTIME-201707\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"110.0\",\r\n                    \"productCode\": \"BASE-ENTERTAINMENT-201811\",\r\n                    \"productType\": \"video-plan\"\r\n                }\r\n            ],\r\n            \"accountNumber\": \"200420163448548\",\r\n            \"isActive\": true,\r\n            \"retentionPromotionIndicator\": true,\r\n            \"freeTrialEligible\": false,\r\n            \"accountType\": \"Residential\",\r\n            \"nextBillingDate\": \"{{nextBillingDate}}\"\r\n        }\r\n    },\r\n    \"offerActionType\": [\r\n        \"Retention\",\r\n        \"Other\"\r\n    ],\r\n    \"decisioningFlow\":true,\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"{{salesChannel}}\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\"\r\n    ]\r\n}"
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ULTIMATE",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"   var jsonData = pm.response.json();\r",
+									"if( (pm.iterationData.get(\"contractIndicator\"))  == \"TAZBYOD\")\r",
+									"{\r",
+									"\r",
+									"let TAZBYODOFFPlans = [\r",
+									"  \"OF_UMS-90OFF12M-2024-A1_1\",\r",
+									"      \"OF_UMS-95OFF12M-2024-A1_1\",\r",
+									"      \"OF_UMS-90OFF12M-2024-A2_1\",\r",
+									"      \"OF_UMS-95OFF12M-2024-A2_1\",\r",
+									"      \"OF_UMS-90OFF12M-2024-B1_1\",\r",
+									"      \"OF_UMS-95OFF12M-2024-B1_1\",\r",
+									"      \"OF_UMS-90OFF12M-2024-B2_1\",\r",
+									"      \"OF_UMS-95OFF12M-2024-B2_1\"]\r",
+									"    for(plan of TAZBYODOFFPlans){    \r",
+									"        pm.test(\"Validation for TAZBYOD OFF PLAN should not returned-\"+plan, () => {\r",
+									"            const TAZBYODOFFPlans = jsonData.content.offers.find(m => (m.code === plan));\r",
+									"            pm.expect(TAZBYODOFFPlans).to.eql(undefined, plan + \" should not be returned for this request\");\r",
+									"        });\r",
+									"    } \r",
+									"}"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								},
+								{
+									"key": "showPassword",
+									"value": false,
+									"type": "boolean"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "idpctx-feature-svc-epoch-performance-updates",
+								"value": "{{performanceFlag}}",
+								"type": "text"
+							},
+							{
+								"key": "idpctx-feature-svc-epoch-pvtenabled",
+								"value": "{{dcpbackupFlag}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "idpctx-feature-svc-epoch-pvtenabled",
+								"value": "{{dcpbackupFlag}}"
+							},
+							{
+								"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+								"value": "{{backupFlag}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"accountTypes\": [\r\n        \"Residential\"\r\n    ],\r\n    \"addOnType\": [],\r\n    \"contractIndicator\": [\r\n        \"{{contractIndicator}}\"\r\n    ],\r\n    \"swimlaneSwitchEligible\": false,\r\n   \r\n    \"customerContext\": {\r\n        \"existingProductFamily\": [\r\n            \"OTT\"\r\n        ],\r\n        \"OTT\": {\r\n            \"products\": [\r\n                {\r\n                    \"basePrice\": \"14.99\",\r\n                    \"productCode\": \"BOLT-HBO-201610\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"0.0\",\r\n                    \"productCode\": \"BOLT-3RDSTREAMFREE-201804\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"11.0\",\r\n                    \"productCode\": \"BOLT-SHOWTIME-201707\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"110.0\",\r\n                    \"productCode\": \"BASE-ULTIMATE-201811\",\r\n                    \"productType\": \"video-plan\"\r\n                }\r\n            ],\r\n            \"accountNumber\": \"200420163448548\",\r\n            \"isActive\": true,\r\n            \"retentionPromotionIndicator\": true,\r\n            \"freeTrialEligible\": false,\r\n            \"accountType\": \"Residential\",\r\n            \"nextBillingDate\": \"{{nextBillingDate}}\"\r\n        }\r\n    },\r\n    \"offerActionType\": [\r\n        \"Retention\",\r\n        \"Other\"\r\n    ],\r\n    \"decisioningFlow\":true,\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"{{salesChannel}}\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\"\r\n    ]\r\n}"
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PREMIER",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"   var jsonData = pm.response.json();\r",
+									"if( (pm.iterationData.get(\"contractIndicator\"))  == \"TAZBYOD\")\r",
+									"{\r",
+									"\r",
+									"let TAZBYODOFFPlans = [\r",
+									"  \"OF_UMS-90OFF12M-2024-A1_1\",\r",
+									"      \"OF_UMS-95OFF12M-2024-A1_1\",\r",
+									"      \"OF_UMS-90OFF12M-2024-A2_1\",\r",
+									"      \"OF_UMS-95OFF12M-2024-A2_1\",\r",
+									"      \"OF_UMS-90OFF12M-2024-B1_1\",\r",
+									"      \"OF_UMS-95OFF12M-2024-B1_1\",\r",
+									"      \"OF_UMS-90OFF12M-2024-B2_1\",\r",
+									"      \"OF_UMS-95OFF12M-2024-B2_1\"]\r",
+									"    for(plan of TAZBYODOFFPlans){    \r",
+									"        pm.test(\"Validation for TAZBYOD OFF PLAN should not returned-\"+plan, () => {\r",
+									"            const TAZBYODOFFPlans = jsonData.content.offers.find(m => (m.code === plan));\r",
+									"            pm.expect(TAZBYODOFFPlans).to.eql(undefined, plan + \" should not be returned for this request\");\r",
+									"        });\r",
+									"    } \r",
+									"}"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								},
+								{
+									"key": "showPassword",
+									"value": false,
+									"type": "boolean"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "idpctx-feature-svc-epoch-performance-updates",
+								"value": "{{performanceFlag}}",
+								"type": "text"
+							},
+							{
+								"key": "idpctx-feature-svc-epoch-pvtenabled",
+								"value": "{{dcpbackupFlag}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "idpctx-feature-svc-epoch-pvtenabled",
+								"value": "{{dcpbackupFlag}}"
+							},
+							{
+								"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+								"value": "{{backupFlag}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"accountTypes\": [\r\n        \"Residential\"\r\n    ],\r\n    \"addOnType\": [],\r\n    \"contractIndicator\": [\r\n        \"{{contractIndicator}}\"\r\n    ],\r\n    \"swimlaneSwitchEligible\": false,\r\n   \r\n    \"customerContext\": {\r\n        \"existingProductFamily\": [\r\n            \"OTT\"\r\n        ],\r\n        \"OTT\": {\r\n            \"products\": [\r\n                {\r\n                    \"basePrice\": \"14.99\",\r\n                    \"productCode\": \"BOLT-HBO-201610\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"0.0\",\r\n                    \"productCode\": \"BOLT-3RDSTREAMFREE-201804\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"11.0\",\r\n                    \"productCode\": \"BOLT-SHOWTIME-201707\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"110.0\",\r\n                    \"productCode\": \"BASE-PREMIER-202004\",\r\n                    \"productType\": \"video-plan\"\r\n                }\r\n            ],\r\n            \"accountNumber\": \"200420163448548\",\r\n            \"isActive\": true,\r\n            \"retentionPromotionIndicator\": true,\r\n            \"freeTrialEligible\": false,\r\n            \"accountType\": \"Residential\",\r\n            \"nextBillingDate\": \"{{nextBillingDate}}\"\r\n        }\r\n    },\r\n    \"offerActionType\": [\r\n        \"Retention\",\r\n        \"Other\"\r\n    ],\r\n    \"decisioningFlow\":true,\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"{{salesChannel}}\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\"\r\n    ]\r\n}"
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "OPTIMOMAS",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"   var jsonData = pm.response.json();\r",
+									"if( (pm.iterationData.get(\"contractIndicator\"))  == \"TAZBYOD\")\r",
+									"{\r",
+									"\r",
+									"let TAZBYODOFFPlans = [\r",
+									"  \"OF_UMS-90OFF12M-2024-A1_1\",\r",
+									"      \"OF_UMS-95OFF12M-2024-A1_1\",\r",
+									"      \"OF_UMS-90OFF12M-2024-A2_1\",\r",
+									"      \"OF_UMS-95OFF12M-2024-A2_1\",\r",
+									"      \"OF_UMS-90OFF12M-2024-B1_1\",\r",
+									"      \"OF_UMS-95OFF12M-2024-B1_1\",\r",
+									"      \"OF_UMS-90OFF12M-2024-B2_1\",\r",
+									"      \"OF_UMS-95OFF12M-2024-B2_1\"]\r",
+									"    for(plan of TAZBYODOFFPlans){    \r",
+									"        pm.test(\"Validation for TAZBYOD OFF PLAN should not returned-\"+plan, () => {\r",
+									"            const TAZBYODOFFPlans = jsonData.content.offers.find(m => (m.code === plan));\r",
+									"            pm.expect(TAZBYODOFFPlans).to.eql(undefined, plan + \" should not be returned for this request\");\r",
+									"        });\r",
+									"    } \r",
+									"}"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "{{password}}",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "{{username}}",
+									"type": "string"
+								},
+								{
+									"key": "showPassword",
+									"value": false,
+									"type": "boolean"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "idpctx-feature-svc-epoch-performance-updates",
+								"value": "{{performanceFlag}}",
+								"type": "text"
+							},
+							{
+								"key": "idpctx-feature-svc-epoch-pvtenabled",
+								"value": "{{dcpbackupFlag}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "idpctx-feature-svc-epoch-pvtenabled",
+								"value": "{{dcpbackupFlag}}"
+							},
+							{
+								"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+								"value": "{{backupFlag}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"accountTypes\": [\r\n        \"Residential\"\r\n    ],\r\n    \"addOnType\": [],\r\n    \"contractIndicator\": [\r\n        \"{{contractIndicator}}\"\r\n    ],\r\n    \"swimlaneSwitchEligible\": false,\r\n   \r\n    \"customerContext\": {\r\n        \"existingProductFamily\": [\r\n            \"OTT\"\r\n        ],\r\n        \"OTT\": {\r\n            \"products\": [\r\n                {\r\n                    \"basePrice\": \"14.99\",\r\n                    \"productCode\": \"BOLT-HBO-201610\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"0.0\",\r\n                    \"productCode\": \"BOLT-3RDSTREAMFREE-201804\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"11.0\",\r\n                    \"productCode\": \"BOLT-SHOWTIME-201707\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"110.0\",\r\n                    \"productCode\": \"BASE-OPTIMOMAS-122018\",\r\n                    \"productType\": \"video-plan\"\r\n                }\r\n            ],\r\n            \"accountNumber\": \"200420163448548\",\r\n            \"isActive\": true,\r\n            \"retentionPromotionIndicator\": true,\r\n            \"freeTrialEligible\": false,\r\n            \"accountType\": \"Residential\",\r\n            \"nextBillingDate\": \"{{nextBillingDate}}\"\r\n        }\r\n    },\r\n    \"offerActionType\": [\r\n        \"Retention\",\r\n        \"Other\"\r\n    ],\r\n    \"decisioningFlow\":true,\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"{{salesChannel}}\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\"\r\n    ]\r\n}"
+						},
+						"url": {
+							"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"msapi",
+								"{{offerMs}}",
+								"v2",
+								"getOffers"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"packages": {},
+						"exec": [
+							"const jsonData = pm.response.json();\r",
+							"const offersToBeValidated = pm.iterationData.get(\"offersToBeValidated\");\r",
+							"\r",
+							"\r",
+							"if (offersToBeValidated && Array.isArray(offersToBeValidated)) {\r",
+							"    offersToBeValidated.forEach((offerData) => {\r",
+							"        \r",
+							"          const loyaltyOffer = jsonData.content.offers.find(m => m.code === offerData.offerSKU);\r",
+							"        \r",
+							"            if (loyaltyOffer) {\r",
+							"                pm.test(\"Test Loyalty Offers \" + offerData.offerSKU, () => {\r",
+							"                pm.expect(loyaltyOffer).to.be.an(\"object\", \"Could not find the offer\");\r",
+							"                pm.expect(loyaltyOffer.name.en).to.eql(offerData.offerName, \"Name for Loyalty offer is incorrect\");\r",
+							"                pm.expect(loyaltyOffer.description.en).to.eql(offerData.offerDescription, \"descriptions for Loyalty offer is incorrect\");\r",
+							"                pm.expect(loyaltyOffer.attributes.videoOfferCategory).to.eql(offerData.videoOfferCategory, \"videoOfferCategory is incorrect\");\r",
+							"                pm.expect(loyaltyOffer.attributes.stackabilityGroup).to.eql(offerData.stackabilityGroup, \"stackabilityGroup is incorrect\");\r",
+							"                pm.expect(loyaltyOffer.attributes.contractIndicator).to.eql(pm.iterationData.get(\"contractIndicator\"), \"contractIndicator should be there\");\r",
+							"                \r",
+							"\r",
+							"                \r",
+							"                const salesChannel = loyaltyOffer.attributes.eligibility.constraints[0].salesChannel.find( s => s.salesChannel === offerData.salesChannel );\r",
+							"                 if (offerData.salesChannel == salesChannel)\r",
+							"                  pm.expect(salesChannel).to.include(offerData.salesChannel,\"salesChannel value \");\r",
+							"                  else\r",
+							"                    pm.expect(salesChannel).not.to.include(offerData.salesChannel,\"salesChannel value is different\");\r",
+							"               \r",
+							"                  \r",
+							"\r",
+							"                const benefit = loyaltyOffer.attributes.benefits.find(b => b.billingBenefitCode === offerData.benefitSKU);\r",
+							"                if (offerData.agentOffer)\r",
+							"                    pm.expect(benefit.agentOffer).to.eql(true, \"Agent Offer should be true\");\r",
+							"                else\r",
+							"                    pm.expect(benefit.agentOffer).to.eql(false, \"Agent Offer should be false\");\r",
+							"                pm.expect(benefit.benefitName.en).to.eql(offerData.benefitName, \"benefitName under benefit is incorrect\");\r",
+							"                pm.expect(benefit.description.en).to.eql(offerData.benefitdescription, \"description under benefit is incorrect\");\r",
+							"                pm.expect(benefit.value.dollarAmount).to.eql(offerData.benefitPrice, \"benefitPrice under benefit is incorrect\");\r",
+							"                pm.expect(benefit.benefitType).to.eql(offerData.benefitType, \"benefitType under benefit is incorrect\");\r",
+							"                pm.expect(benefit.customerClassification).to.eql(offerData.customerClassification, \"customerClassification under benefit is incorrect\");\r",
+							"                pm.expect(benefit.displayNameforServices).to.eql(offerData.displayNameforServices, \"displayNameForServices under benefit is incorrect\");\r",
+							"                pm.expect(benefit.benefitDisplayName.en).to.eql(offerData.benefitDisplayName, \"displayName under benefit is incorrect\");\r",
+							"                pm.expect(benefit.shortDescriptionforOpus).to.eql(offerData.shortDescriptionforOpus, \"shortDescriptionforOpus under benefit is incorrect\");\r",
+							"                pm.expect(benefit.shortDescription).to.eql(offerData.shortDescription, \"shortDescription under benefit is incorrect\");\r",
+							"                pm.expect(benefit.shortDescriptionforServices).to.eql(offerData.shortDescriptionforServices, \"shortDescriptionforServices under benefit is incorrect\");\r",
+							"                pm.expect(benefit.contractIndicator).to.eql(offerData.benefitContractIndicator, \"Benefit contractIndicator is all\");\r",
+							"                });\r",
+							"            }\r",
+							"            else {\r",
+							"                pm.test(\"Test Loyalty Offers\" + offerData.offerSKU, () => {\r",
+							"                    pm.expect(loyaltyOffer).to.exist;\r",
+							"                });\r",
+							"            }\r",
+							"        });\r",
+							"    \r",
+							"} \r",
+							"else {\r",
+							"    pm.test(\"No offers to be validated\", () => {\r",
+							"        pm.expect(offersToBeValidated).to.exist;\r",
+							"    });\r",
+							"}\r",
+							"\r",
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Loyalty Offers On Account [A1,B1,C1,A2,B2,C2]",
+			"item": [
+				{
+					"name": "Opus",
+					"item": [
+						{
+							"name": "CHOICE",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "{{password}}",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "{{username}}",
+											"type": "string"
+										},
+										{
+											"key": "showPassword",
+											"value": false,
+											"type": "boolean"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "idpctx-feature-svc-epoch-performance-updates",
+										"value": "{{performanceFlag}}",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-feature-svc-epoch-pvtenabled",
+										"value": "{{dcpbackupFlag}}"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-feature-svc-epoch-pvtenabled",
+										"value": "{{dcpbackupFlag}}"
+									},
+									{
+										"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+										"value": "{{backupFlag}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"accountTypes\": [\r\n        \"Residential\"\r\n    ],\r\n    \"addOnType\": [],\r\n    \"contractIndicator\": [\r\n        \"{{contractIndicator}}\"\r\n    ],\r\n    \"swimlaneSwitchEligible\": false,\r\n    \"benefitsCustomerHasReceived\": [\r\n        {\r\n            \"benefitCode\": \"{{benefitA1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitA2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n          {\r\n            \"benefitCode\": \"{{benefitB1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitB2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n          {\r\n            \"benefitCode\": \"{{benefitC1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitC2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        }\r\n    ],\r\n    \"customerContext\": {\r\n        \"existingProductFamily\": [\r\n            \"OTT\"\r\n        ],\r\n        \"OTT\": {\r\n            \"products\": [\r\n                {\r\n                    \"basePrice\": \"14.99\",\r\n                    \"productCode\": \"BOLT-HBO-201610\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"0.0\",\r\n                    \"productCode\": \"BOLT-3RDSTREAMFREE-201804\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"11.0\",\r\n                    \"productCode\": \"BOLT-SHOWTIME-201707\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"110.0\",\r\n                    \"productCode\": \"BASE-CHOICE-201811\",\r\n                    \"productType\": \"video-plan\"\r\n                }\r\n            ],\r\n            \"accountNumber\": \"200420163448548\",\r\n            \"isActive\": true,\r\n            \"retentionPromotionIndicator\": true,\r\n            \"freeTrialEligible\": false,\r\n            \"accountType\": \"Residential\",\r\n            \"nextBillingDate\": \"{{nextBillingDate}}\"\r\n        }\r\n    },\r\n     \"offerActionType\": [\r\n        \"Retention\",\r\n        \"Other\"\r\n    ],\r\n    \"decisioningFlow\":true,\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"salesChannel\": [\r\n       \"{{salesChannel}}\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\"\r\n    ]\r\n}"
+								},
+								"url": {
+									"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"msapi",
+										"{{offerMs}}",
+										"v2",
+										"getOffers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ENTERTIANMENT",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "{{password}}",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "{{username}}",
+											"type": "string"
+										},
+										{
+											"key": "showPassword",
+											"value": false,
+											"type": "boolean"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "idpctx-feature-svc-epoch-performance-updates",
+										"value": "{{performanceFlag}}",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-feature-svc-epoch-pvtenabled",
+										"value": "{{dcpbackupFlag}}"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-feature-svc-epoch-pvtenabled",
+										"value": "{{dcpbackupFlag}}"
+									},
+									{
+										"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+										"value": "{{backupFlag}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"accountTypes\": [\r\n        \"Residential\"\r\n    ],\r\n    \"addOnType\": [],\r\n    \"contractIndicator\": [\r\n        \"{{contractIndicator}}\"\r\n    ],\r\n    \"swimlaneSwitchEligible\": false,\r\n    \"benefitsCustomerHasReceived\": [\r\n       {\r\n            \"benefitCode\": \"{{benefitA1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitA2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n          {\r\n            \"benefitCode\": \"{{benefitB1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitB2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n          {\r\n            \"benefitCode\": \"{{benefitC1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitC2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        }\r\n    ],\r\n    \"customerContext\": {\r\n        \"existingProductFamily\": [\r\n            \"OTT\"\r\n        ],\r\n        \"OTT\": {\r\n            \"products\": [\r\n                {\r\n                    \"basePrice\": \"14.99\",\r\n                    \"productCode\": \"BOLT-HBO-201610\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"0.0\",\r\n                    \"productCode\": \"BOLT-3RDSTREAMFREE-201804\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"11.0\",\r\n                    \"productCode\": \"BOLT-SHOWTIME-201707\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"110.0\",\r\n                    \"productCode\": \"BASE-ENTERTAINMENT-201811\",\r\n                    \"productType\": \"video-plan\"\r\n                }\r\n            ],\r\n            \"accountNumber\": \"200420163448548\",\r\n            \"isActive\": true,\r\n            \"retentionPromotionIndicator\": true,\r\n            \"freeTrialEligible\": false,\r\n            \"accountType\": \"Residential\",\r\n            \"nextBillingDate\": \"{{nextBillingDate}}\"\r\n        }\r\n    },\r\n     \"offerActionType\": [\r\n        \"Retention\",\r\n        \"Other\"\r\n    ],\r\n    \"decisioningFlow\":true,\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"salesChannel\": [\r\n       \"{{salesChannel}}\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\",\r\n        \"video-addon\",\r\n        \"video-accessory\",\r\n        \"fee\",\r\n        \"video-device\"\r\n    ]\r\n}"
+								},
+								"url": {
+									"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"msapi",
+										"{{offerMs}}",
+										"v2",
+										"getOffers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ULTIMATE",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "{{password}}",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "{{username}}",
+											"type": "string"
+										},
+										{
+											"key": "showPassword",
+											"value": false,
+											"type": "boolean"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "idpctx-feature-svc-epoch-performance-updates",
+										"value": "{{performanceFlag}}",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-feature-svc-epoch-pvtenabled",
+										"value": "{{dcpbackupFlag}}"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-feature-svc-epoch-pvtenabled",
+										"value": "{{dcpbackupFlag}}"
+									},
+									{
+										"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+										"value": "{{backupFlag}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"accountTypes\": [\r\n        \"Residential\"\r\n    ],\r\n    \"addOnType\": [],\r\n    \"contractIndicator\": [\r\n        \"{{contractIndicator}}\"\r\n    ],\r\n    \"swimlaneSwitchEligible\": false,\r\n    \"benefitsCustomerHasReceived\": [\r\n         {\r\n            \"benefitCode\": \"{{benefitA1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitA2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n          {\r\n            \"benefitCode\": \"{{benefitB1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitB2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n          {\r\n            \"benefitCode\": \"{{benefitC1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitC2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        }\r\n    ],\r\n    \"customerContext\": {\r\n        \"existingProductFamily\": [\r\n            \"OTT\"\r\n        ],\r\n        \"OTT\": {\r\n            \"products\": [\r\n                {\r\n                    \"basePrice\": \"14.99\",\r\n                    \"productCode\": \"BOLT-HBO-201610\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"0.0\",\r\n                    \"productCode\": \"BOLT-3RDSTREAMFREE-201804\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"11.0\",\r\n                    \"productCode\": \"BOLT-SHOWTIME-201707\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"110.0\",\r\n                    \"productCode\": \"BASE-ENTERTAINMENT-201811\",\r\n                    \"productType\": \"video-plan\"\r\n                }\r\n            ],\r\n            \"accountNumber\": \"200420163448548\",\r\n            \"isActive\": true,\r\n            \"retentionPromotionIndicator\": true,\r\n            \"freeTrialEligible\": false,\r\n            \"accountType\": \"Residential\",\r\n            \"nextBillingDate\": \"{{nextBillingDate}}\"\r\n        }\r\n    },\r\n     \"offerActionType\": [\r\n        \"Retention\",\r\n        \"Other\"\r\n    ],\r\n    \"decisioningFlow\":true,\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"salesChannel\": [\r\n       \"{{salesChannel}}\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\",\r\n        \"video-addon\",\r\n        \"video-accessory\",\r\n        \"fee\",\r\n        \"video-device\"\r\n    ]\r\n}"
+								},
+								"url": {
+									"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"msapi",
+										"{{offerMs}}",
+										"v2",
+										"getOffers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PREMIER",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "{{password}}",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "{{username}}",
+											"type": "string"
+										},
+										{
+											"key": "showPassword",
+											"value": false,
+											"type": "boolean"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "idpctx-feature-svc-epoch-performance-updates",
+										"value": "{{performanceFlag}}",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-feature-svc-epoch-pvtenabled",
+										"value": "{{dcpbackupFlag}}"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-feature-svc-epoch-pvtenabled",
+										"value": "{{dcpbackupFlag}}"
+									},
+									{
+										"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+										"value": "{{backupFlag}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"accountTypes\": [\r\n        \"Residential\"\r\n    ],\r\n    \"addOnType\": [],\r\n    \"contractIndicator\": [\r\n        \"{{contractIndicator}}\"\r\n    ],\r\n    \"swimlaneSwitchEligible\": false,\r\n    \"benefitsCustomerHasReceived\": [\r\n       {\r\n            \"benefitCode\": \"{{benefitA1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitA2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n          {\r\n            \"benefitCode\": \"{{benefitB1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitB2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n          {\r\n            \"benefitCode\": \"{{benefitC1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitC2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        }\r\n    ],\r\n    \"customerContext\": {\r\n        \"existingProductFamily\": [\r\n            \"OTT\"\r\n        ],\r\n        \"OTT\": {\r\n            \"products\": [\r\n                {\r\n                    \"basePrice\": \"14.99\",\r\n                    \"productCode\": \"BOLT-HBO-201610\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"0.0\",\r\n                    \"productCode\": \"BOLT-3RDSTREAMFREE-201804\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"11.0\",\r\n                    \"productCode\": \"BOLT-SHOWTIME-201707\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"110.0\",\r\n                    \"productCode\": \"BASE-PREMIER-202004\",\r\n                    \"productType\": \"video-plan\"\r\n                }\r\n            ],\r\n            \"accountNumber\": \"200420163448548\",\r\n            \"isActive\": true,\r\n            \"retentionPromotionIndicator\": true,\r\n            \"freeTrialEligible\": false,\r\n            \"accountType\": \"Residential\",\r\n            \"nextBillingDate\": \"{{nextBillingDate}}\"\r\n        }\r\n    },\r\n     \"offerActionType\": [\r\n        \"Retention\",\r\n        \"Other\"\r\n    ],\r\n    \"decisioningFlow\":true,\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"salesChannel\": [\r\n       \"{{salesChannel}}\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\",\r\n        \"video-addon\",\r\n        \"video-accessory\",\r\n        \"fee\",\r\n        \"video-device\"\r\n    ]\r\n}"
+								},
+								"url": {
+									"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"msapi",
+										"{{offerMs}}",
+										"v2",
+										"getOffers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "OPTIMOMAS",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "{{password}}",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "{{username}}",
+											"type": "string"
+										},
+										{
+											"key": "showPassword",
+											"value": false,
+											"type": "boolean"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "idpctx-feature-svc-epoch-performance-updates",
+										"value": "{{performanceFlag}}",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-feature-svc-epoch-pvtenabled",
+										"value": "{{dcpbackupFlag}}"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-feature-svc-epoch-pvtenabled",
+										"value": "{{dcpbackupFlag}}"
+									},
+									{
+										"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+										"value": "{{backupFlag}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"accountTypes\": [\r\n        \"Residential\"\r\n    ],\r\n    \"addOnType\": [],\r\n    \"contractIndicator\": [\r\n        \"{{contractIndicator}}\"\r\n    ],\r\n    \"swimlaneSwitchEligible\": false,\r\n    \"benefitsCustomerHasReceived\": [\r\n        {\r\n            \"benefitCode\": \"{{benefitA1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitA2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitB1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitB2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitC1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitC2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        }\r\n    ],\r\n    \"customerContext\": {\r\n        \"existingProductFamily\": [\r\n            \"OTT\"\r\n        ],\r\n        \"OTT\": {\r\n            \"products\": [\r\n                {\r\n                    \"basePrice\": \"14.99\",\r\n                    \"productCode\": \"BOLT-HBO-201610\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"0.0\",\r\n                    \"productCode\": \"BOLT-3RDSTREAMFREE-201804\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"11.0\",\r\n                    \"productCode\": \"BOLT-SHOWTIME-201707\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"110.0\",\r\n                    \"productCode\": \"BASE-OPTIMOMAS-122018\",\r\n                    \"productType\": \"video-plan\"\r\n                }\r\n            ],\r\n            \"accountNumber\": \"200420163448548\",\r\n            \"isActive\": true,\r\n            \"retentionPromotionIndicator\": true,\r\n            \"freeTrialEligible\": false,\r\n            \"accountType\": \"Residential\",\r\n            \"nextBillingDate\": \"{{nextBillingDate}}\"\r\n        }\r\n    },\r\n    \"offerActionType\": [\r\n        \"Retention\",\r\n        \"Other\"\r\n    ],\r\n    \"decisioningFlow\": true,\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"{{salesChannel}}\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\",\r\n        \"video-addon\",\r\n        \"video-accessory\",\r\n        \"fee\",\r\n        \"video-device\"\r\n    ]\r\n}"
+								},
+								"url": {
+									"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"msapi",
+										"{{offerMs}}",
+										"v2",
+										"getOffers"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"packages": {},
+								"exec": [
+									"pm.variables.set(\"salesChannel\", \"opus\");"
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"packages": {},
+								"exec": [
+									"const jsonData = pm.response.json();\r",
+									"\r",
+									"pm.test(\"Test Loyalty Offer Not Returned, promo on account: \"+pm.iterationData.get(\"benefitA1SKUOnAccount\")+\" and \"+pm.iterationData.get(\"benefitA2SKUOnAccount\")+\" and \"+pm.iterationData.get(\"benefitB1SKUOnAccount\")+\" and \"+pm.iterationData.get(\"benefitB2SKUOnAccount\")+\" and \"+pm.iterationData.get(\"benefitC1SKUOnAccount\")+\" and \"+pm.iterationData.get(\"benefitC2SKUOnAccount\"), () => {\r",
+									"    pm.iterationData.get(\"offerSKUNotReturned\").forEach(offerSKU => {\r",
+									"    const loyaltyOffer = jsonData.content.offers.find(m => m.code === offerSKU)\r",
+									"    pm.expect(loyaltyOffer).to.eql(undefined, \"Loyalty offer \"+offerSKU+\" should not be returned.\");\r",
+									"  })\r",
+									"\r",
+									"});"
+								]
+							}
+						}
+					]
+				},
+				{
+					"name": "DirectvOnline",
+					"item": [
+						{
+							"name": "CHOICE",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "{{password}}",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "{{username}}",
+											"type": "string"
+										},
+										{
+											"key": "showPassword",
+											"value": false,
+											"type": "boolean"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "idpctx-feature-svc-epoch-performance-updates",
+										"value": "{{performanceFlag}}",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-feature-svc-epoch-pvtenabled",
+										"value": "{{dcpbackupFlag}}"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-feature-svc-epoch-pvtenabled",
+										"value": "{{dcpbackupFlag}}"
+									},
+									{
+										"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+										"value": "{{backupFlag}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"accountTypes\": [\r\n        \"Residential\"\r\n    ],\r\n    \"addOnType\": [],\r\n    \"contractIndicator\": [\r\n        \"{{contractIndicator}}\"\r\n    ],\r\n    \"swimlaneSwitchEligible\": false,\r\n    \"benefitsCustomerHasReceived\": [\r\n        {\r\n            \"benefitCode\": \"{{benefitA1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitA2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n          {\r\n            \"benefitCode\": \"{{benefitB1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitB2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n          {\r\n            \"benefitCode\": \"{{benefitC1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitC2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        }\r\n    ],\r\n    \"customerContext\": {\r\n        \"existingProductFamily\": [\r\n            \"OTT\"\r\n        ],\r\n        \"OTT\": {\r\n            \"products\": [\r\n                {\r\n                    \"basePrice\": \"14.99\",\r\n                    \"productCode\": \"BOLT-HBO-201610\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"0.0\",\r\n                    \"productCode\": \"BOLT-3RDSTREAMFREE-201804\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"11.0\",\r\n                    \"productCode\": \"BOLT-SHOWTIME-201707\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"110.0\",\r\n                    \"productCode\": \"BASE-CHOICE-201811\",\r\n                    \"productType\": \"video-plan\"\r\n                }\r\n            ],\r\n            \"accountNumber\": \"200420163448548\",\r\n            \"isActive\": true,\r\n            \"retentionPromotionIndicator\": true,\r\n            \"freeTrialEligible\": false,\r\n            \"accountType\": \"Residential\",\r\n            \"nextBillingDate\": \"{{nextBillingDate}}\"\r\n        }\r\n    },\r\n     \"offerActionType\": [\r\n        \"Retention\",\r\n        \"Other\"\r\n    ],\r\n    \"decisioningFlow\":true,\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"salesChannel\": [\r\n       \"{{salesChannel}}\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\"\r\n    ]\r\n}"
+								},
+								"url": {
+									"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"msapi",
+										"{{offerMs}}",
+										"v2",
+										"getOffers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ENTERTIANMENT",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "{{password}}",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "{{username}}",
+											"type": "string"
+										},
+										{
+											"key": "showPassword",
+											"value": false,
+											"type": "boolean"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "idpctx-feature-svc-epoch-performance-updates",
+										"value": "{{performanceFlag}}",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-feature-svc-epoch-pvtenabled",
+										"value": "{{dcpbackupFlag}}"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-feature-svc-epoch-pvtenabled",
+										"value": "{{dcpbackupFlag}}"
+									},
+									{
+										"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+										"value": "{{backupFlag}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"accountTypes\": [\r\n        \"Residential\"\r\n    ],\r\n    \"addOnType\": [],\r\n    \"contractIndicator\": [\r\n        \"{{contractIndicator}}\"\r\n    ],\r\n    \"swimlaneSwitchEligible\": false,\r\n    \"benefitsCustomerHasReceived\": [\r\n       {\r\n            \"benefitCode\": \"{{benefitA1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitA2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n          {\r\n            \"benefitCode\": \"{{benefitB1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitB2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n          {\r\n            \"benefitCode\": \"{{benefitC1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitC2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        }\r\n    ],\r\n    \"customerContext\": {\r\n        \"existingProductFamily\": [\r\n            \"OTT\"\r\n        ],\r\n        \"OTT\": {\r\n            \"products\": [\r\n                {\r\n                    \"basePrice\": \"14.99\",\r\n                    \"productCode\": \"BOLT-HBO-201610\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"0.0\",\r\n                    \"productCode\": \"BOLT-3RDSTREAMFREE-201804\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"11.0\",\r\n                    \"productCode\": \"BOLT-SHOWTIME-201707\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"110.0\",\r\n                    \"productCode\": \"BASE-ENTERTAINMENT-201811\",\r\n                    \"productType\": \"video-plan\"\r\n                }\r\n            ],\r\n            \"accountNumber\": \"200420163448548\",\r\n            \"isActive\": true,\r\n            \"retentionPromotionIndicator\": true,\r\n            \"freeTrialEligible\": false,\r\n            \"accountType\": \"Residential\",\r\n            \"nextBillingDate\": \"{{nextBillingDate}}\"\r\n        }\r\n    },\r\n     \"offerActionType\": [\r\n        \"Retention\",\r\n        \"Other\"\r\n    ],\r\n    \"decisioningFlow\":true,\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"salesChannel\": [\r\n       \"{{salesChannel}}\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\",\r\n        \"video-addon\",\r\n        \"video-accessory\",\r\n        \"fee\",\r\n        \"video-device\"\r\n    ]\r\n}"
+								},
+								"url": {
+									"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"msapi",
+										"{{offerMs}}",
+										"v2",
+										"getOffers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "ULTIMATE",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "{{password}}",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "{{username}}",
+											"type": "string"
+										},
+										{
+											"key": "showPassword",
+											"value": false,
+											"type": "boolean"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "idpctx-feature-svc-epoch-performance-updates",
+										"value": "{{performanceFlag}}",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-feature-svc-epoch-pvtenabled",
+										"value": "{{dcpbackupFlag}}"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-feature-svc-epoch-pvtenabled",
+										"value": "{{dcpbackupFlag}}"
+									},
+									{
+										"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+										"value": "{{backupFlag}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"accountTypes\": [\r\n        \"Residential\"\r\n    ],\r\n    \"addOnType\": [],\r\n    \"contractIndicator\": [\r\n        \"{{contractIndicator}}\"\r\n    ],\r\n    \"swimlaneSwitchEligible\": false,\r\n    \"benefitsCustomerHasReceived\": [\r\n         {\r\n            \"benefitCode\": \"{{benefitA1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitA2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n          {\r\n            \"benefitCode\": \"{{benefitB1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitB2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n          {\r\n            \"benefitCode\": \"{{benefitC1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitC2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        }\r\n    ],\r\n    \"customerContext\": {\r\n        \"existingProductFamily\": [\r\n            \"OTT\"\r\n        ],\r\n        \"OTT\": {\r\n            \"products\": [\r\n                {\r\n                    \"basePrice\": \"14.99\",\r\n                    \"productCode\": \"BOLT-HBO-201610\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"0.0\",\r\n                    \"productCode\": \"BOLT-3RDSTREAMFREE-201804\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"11.0\",\r\n                    \"productCode\": \"BOLT-SHOWTIME-201707\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"110.0\",\r\n                    \"productCode\": \"BASE-ENTERTAINMENT-201811\",\r\n                    \"productType\": \"video-plan\"\r\n                }\r\n            ],\r\n            \"accountNumber\": \"200420163448548\",\r\n            \"isActive\": true,\r\n            \"retentionPromotionIndicator\": true,\r\n            \"freeTrialEligible\": false,\r\n            \"accountType\": \"Residential\",\r\n            \"nextBillingDate\": \"{{nextBillingDate}}\"\r\n        }\r\n    },\r\n     \"offerActionType\": [\r\n        \"Retention\",\r\n        \"Other\"\r\n    ],\r\n    \"decisioningFlow\":true,\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"salesChannel\": [\r\n       \"{{salesChannel}}\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\",\r\n        \"video-addon\",\r\n        \"video-accessory\",\r\n        \"fee\",\r\n        \"video-device\"\r\n    ]\r\n}"
+								},
+								"url": {
+									"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"msapi",
+										"{{offerMs}}",
+										"v2",
+										"getOffers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "PREMIER",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "{{password}}",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "{{username}}",
+											"type": "string"
+										},
+										{
+											"key": "showPassword",
+											"value": false,
+											"type": "boolean"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "idpctx-feature-svc-epoch-performance-updates",
+										"value": "{{performanceFlag}}",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-feature-svc-epoch-pvtenabled",
+										"value": "{{dcpbackupFlag}}"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-feature-svc-epoch-pvtenabled",
+										"value": "{{dcpbackupFlag}}"
+									},
+									{
+										"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+										"value": "{{backupFlag}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"accountTypes\": [\r\n        \"Residential\"\r\n    ],\r\n    \"addOnType\": [],\r\n    \"contractIndicator\": [\r\n        \"{{contractIndicator}}\"\r\n    ],\r\n    \"swimlaneSwitchEligible\": false,\r\n    \"benefitsCustomerHasReceived\": [\r\n       {\r\n            \"benefitCode\": \"{{benefitA1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitA2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n          {\r\n            \"benefitCode\": \"{{benefitB1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitB2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n          {\r\n            \"benefitCode\": \"{{benefitC1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitC2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        }\r\n    ],\r\n    \"customerContext\": {\r\n        \"existingProductFamily\": [\r\n            \"OTT\"\r\n        ],\r\n        \"OTT\": {\r\n            \"products\": [\r\n                {\r\n                    \"basePrice\": \"14.99\",\r\n                    \"productCode\": \"BOLT-HBO-201610\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"0.0\",\r\n                    \"productCode\": \"BOLT-3RDSTREAMFREE-201804\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"11.0\",\r\n                    \"productCode\": \"BOLT-SHOWTIME-201707\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"110.0\",\r\n                    \"productCode\": \"BASE-PREMIER-202004\",\r\n                    \"productType\": \"video-plan\"\r\n                }\r\n            ],\r\n            \"accountNumber\": \"200420163448548\",\r\n            \"isActive\": true,\r\n            \"retentionPromotionIndicator\": true,\r\n            \"freeTrialEligible\": false,\r\n            \"accountType\": \"Residential\",\r\n            \"nextBillingDate\": \"{{nextBillingDate}}\"\r\n        }\r\n    },\r\n     \"offerActionType\": [\r\n        \"Retention\",\r\n        \"Other\"\r\n    ],\r\n    \"decisioningFlow\":true,\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"salesChannel\": [\r\n       \"{{salesChannel}}\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\",\r\n        \"video-addon\",\r\n        \"video-accessory\",\r\n        \"fee\",\r\n        \"video-device\"\r\n    ]\r\n}"
+								},
+								"url": {
+									"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"msapi",
+										"{{offerMs}}",
+										"v2",
+										"getOffers"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "OPTIMOMAS",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											""
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "{{password}}",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "{{username}}",
+											"type": "string"
+										},
+										{
+											"key": "showPassword",
+											"value": false,
+											"type": "boolean"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "idpctx-feature-svc-epoch-performance-updates",
+										"value": "{{performanceFlag}}",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-feature-svc-epoch-pvtenabled",
+										"value": "{{dcpbackupFlag}}"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "idpctx-feature-svc-epoch-pvtenabled",
+										"value": "{{dcpbackupFlag}}"
+									},
+									{
+										"key": "idpctx-feature-svc-epochofferv2enabled-ctenv-backup",
+										"value": "{{backupFlag}}",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"accountTypes\": [\r\n        \"Residential\"\r\n    ],\r\n    \"addOnType\": [],\r\n    \"contractIndicator\": [\r\n        \"{{contractIndicator}}\"\r\n    ],\r\n    \"swimlaneSwitchEligible\": false,\r\n    \"benefitsCustomerHasReceived\": [\r\n        {\r\n            \"benefitCode\": \"{{benefitA1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitA2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitB1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitB2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitC1SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        },\r\n        {\r\n            \"benefitCode\": \"{{benefitC2SKUOnAccount}}\",\r\n            \"startDate\": {{startDate}},\r\n            \"endDate\": {{endDate}}\r\n        }\r\n    ],\r\n    \"customerContext\": {\r\n        \"existingProductFamily\": [\r\n            \"OTT\"\r\n        ],\r\n        \"OTT\": {\r\n            \"products\": [\r\n                {\r\n                    \"basePrice\": \"14.99\",\r\n                    \"productCode\": \"BOLT-HBO-201610\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"0.0\",\r\n                    \"productCode\": \"BOLT-3RDSTREAMFREE-201804\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"11.0\",\r\n                    \"productCode\": \"BOLT-SHOWTIME-201707\",\r\n                    \"productType\": \"video-addon\"\r\n                },\r\n                {\r\n                    \"basePrice\": \"110.0\",\r\n                    \"productCode\": \"BASE-OPTIMOMAS-122018\",\r\n                    \"productType\": \"video-plan\"\r\n                }\r\n            ],\r\n            \"accountNumber\": \"200420163448548\",\r\n            \"isActive\": true,\r\n            \"retentionPromotionIndicator\": true,\r\n            \"freeTrialEligible\": false,\r\n            \"accountType\": \"Residential\",\r\n            \"nextBillingDate\": \"{{nextBillingDate}}\"\r\n        }\r\n    },\r\n    \"offerActionType\": [\r\n        \"Retention\",\r\n        \"Other\"\r\n    ],\r\n    \"decisioningFlow\": true,\r\n    \"offerProductFamily\": [\r\n        \"OTT\"\r\n    ],\r\n    \"salesChannel\": [\r\n        \"{{salesChannel}}\"\r\n    ],\r\n    \"offerProductTypes\": [\r\n        \"video-plan\",\r\n        \"video-addon\",\r\n        \"video-accessory\",\r\n        \"fee\",\r\n        \"video-device\"\r\n    ]\r\n}"
+								},
+								"url": {
+									"raw": "{{URL}}/msapi/{{offerMs}}/v2/getOffers",
+									"host": [
+										"{{URL}}"
+									],
+									"path": [
+										"msapi",
+										"{{offerMs}}",
+										"v2",
+										"getOffers"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"type": "text/javascript",
+								"packages": {},
+								"exec": [
+									"pm.variables.set(\"salesChannel\", \"directvOnline\");"
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"type": "text/javascript",
+								"packages": {},
+								"exec": [
+									"const jsonData = pm.response.json();\r",
+									"\r",
+									"pm.test(\"Test Loyalty Offer Not Returned, promo on account: \"+pm.iterationData.get(\"benefitA1SKUOnAccount\")+\" and \"+pm.iterationData.get(\"benefitA2SKUOnAccount\")+\" and \"+pm.iterationData.get(\"benefitB1SKUOnAccount\")+\" and \"+pm.iterationData.get(\"benefitB2SKUOnAccount\")+\" and \"+pm.iterationData.get(\"benefitC1SKUOnAccount\")+\" and \"+pm.iterationData.get(\"benefitC2SKUOnAccount\"), () => {\r",
+									"    pm.iterationData.get(\"offerSKUNotReturned\").forEach(offerSKU => {\r",
+									"    const loyaltyOffer = jsonData.content.offers.find(m => m.code === offerSKU)\r",
+									"    pm.expect(loyaltyOffer).to.eql(undefined, \"Loyalty offer \"+offerSKU+\" should not be returned.\");\r",
+									"  })\r",
+									"\r",
+									"});"
+								]
+							}
+						}
+					]
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"var moment = require('moment');",
+							"",
+							"let currentTimeStamp = moment();",
+							"let startDate= currentTimeStamp.subtract(3,'month').format(\"MM/DD/YYYY\")",
+							"let endDate= currentTimeStamp.add(4,'months').format(\"MM/DD/YYYY\")",
+							"pm.environment.set(\"startDate\",\"\\\"\"+ startDate +\"\\\"\");",
+							"pm.environment.set(\"endDate\",\"\\\"\"+ endDate +\"\\\"\");"
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"",
+							"",
+							" "
+						]
+					}
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"var moment = require('moment');",
+					"",
+					"let currentTimeStamp = moment();",
+					"let billingDate= currentTimeStamp.add(2,'days').format(\"MM/DD/YYYY\")",
+					"pm.variables.set(\"nextBillingDate\", billingDate);",
+					"if(pm.variables.get(\"devmode\")==\"false\"){",
+					"    pm.request.headers.remove('idpctx-feature-svc-epochofferv2enabled-ctenv-backup')",
+					"    pm.request.headers.remove('idpctx-feature-svc-epoch-pvtenabled')",
+					"    pm.request.headers.remove('idpctx-feature-svc-epoch-dcp-offerms-enabled')",
+					"    pm.request.headers.remove('dcp-canary')",
+					"    pm.request.headers.remove('idpctx-feature-svc-middlewarecache-enabled')",
+					"}",
+					"else if(pm.variables.get(\"devmode\")==\"true\"){",
+					"    pm.request.headers.add({",
+					"    'key': \"idpctx-feature-svc-epoch-dcp-offerms-enabled\",",
+					"    'value': pm.environment.get(\"dcpOffermsFlag\")   ",
+					"    });",
+					"",
+					"    pm.request.headers.add({",
+					"    'key': \"idpctx-feature-svc-epochofferv2enabled-ctenv-backup\",",
+					"    'value': pm.environment.get(\"backupFlag\")    ",
+					"   });",
+					"}",
+					"if(pm.variables.get(\"dcpCanaryFlag\") == \"true\"){",
+					"        ",
+					"pm.request.headers.add({",
+					"    'key': \"dcp-canary\",",
+					"    'value': pm.environment.get(\"dcpCanaryFlag\")    ",
+					"});",
+					"pm.request.headers.add({",
+					"    'key': \"idpctx-feature-svc-epochofferv2enabled-ctenv-backup\",",
+					"    'value': pm.environment.get(\"backupFlag\")    ",
+					"   });",
+					"",
+					"}",
+					"if(pm.variables.get(\"liveMode\") == \"true\")",
+					"{",
+					"      pm.request.headers.add({",
+					"    'key': \"idpctx-feature-svc-epoch-dcp-offerms-enabled\",",
+					"    'value': pm.environment.get(\"dcpOffermsFlag\")   ",
+					"    });",
+					"}"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "customerSegment",
+			"value": "",
+			"disabled": true
+		},
+		{
+			"key": "segmentDescription",
+			"value": "",
+			"disabled": true
+		},
+		{
+			"key": "customerSegments",
+			"value": "",
+			"disabled": true
+		}
+	]
+}

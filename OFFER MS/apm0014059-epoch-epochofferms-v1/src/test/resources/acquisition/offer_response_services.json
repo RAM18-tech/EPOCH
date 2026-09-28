@@ -1,0 +1,313 @@
+{
+    "limit": 20,
+    "offset": 0,
+    "count": 1,
+    "total": 1,
+    "offers": [
+        {
+            "id": "57b65c8b-c6ce-4202-996a-634fd734ea7f",
+            "code": "OF_BOLTON-TV-GLOBO_satellite",
+            "status": "live",
+            "name": {
+                "en": "TV Globo"
+            },
+            "description": {
+                "en": "Keep up with the latest news and entertainment through Brazil's #1 channel. By subscribing you will be billed $19.99 per month on a recurring basis."
+            },
+            "startDate": "1989-12-31T18:30:00.000Z",
+            "endDate": "2049-12-30T18:30:00.000Z",
+            "attributes": {
+                "offerProductType": "video-addon",
+                "offerProductTypes": [
+                    "video-addon"
+                ],
+                "offerProductFamily": "satellite",
+                "offerProductFamilies": [
+                    "satellite"
+                ],
+                "offerStatus": "Active",
+                "offerType": "multi-benefit",
+                "offerActionType": "Other",
+                "offerActionTypes": [
+                    "Other",
+                    "Cross-sell",
+                    "Downgrade",
+                    "Upgrade",
+                    "Acquisition"
+                ],
+                "displayName": {
+                    "en": "TV Globo"
+                },
+                "termsAndConditions": {
+                    "en": "By subscribing you will be billed $19.99 per month on a recurring basis (price subject to change).  On next bill you will see a partial amount for remainder of the current billing period and the full amount for the following period, which we bill in advance."
+                },
+                "billingId": "1",
+                "billingCode": "R6348",
+                "migratedOffer": false,
+                "associatedProducts": [
+                    {
+                        "bundleProducts": [
+                            {
+                                "constraints": {
+                                    "productFamily": "satellite",
+                                    "productTypes": [
+                                        "video-addon"
+                                    ],
+                                    "productStatus": "Active",
+                                    "productState": "New",
+                                    "dependent": false,
+                                    "anchor": false
+                                },
+                                "products": [
+                                    {
+                                        "id": "d60153cd-9abc-4157-9a2e-5a76642fa911",
+                                        "typeId": "product",
+                                        "productType": "video-addon",
+                                        "key": "BOLTON-TV-GLOBO_satellite"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "benefits": [],
+                "eligibility": {
+                    "constraints": [
+                        {
+                            "customerSegments": [
+                                "Residential"
+                            ],
+                            "salesChannel": [
+                                "assistedSales",
+                                "directIntegrationPartner",
+                                "dpp",
+                                "salesCRM",
+                                "ccap",
+                                "opusServices",
+                                "opusSales",
+                                "onlineServices",
+                                "onlineSales",
+                                "opus",
+                                "online"
+                            ],
+                            "existingCustomerType": [
+                                "Satellite"
+                            ]
+                        }
+                    ]
+                },
+                "qualifyingProductsPlanSubTypes": [
+                    "International"
+                ],
+                "leadOffer": false,
+                "contractIndicator": "non-contract",
+                "enablerSalesOfferId": "DTV_ADDON_TVGlobo",
+                "offerIntents": [
+                    "non-migration"
+                ],
+                "recommendedOfferOPUS": false,
+                "qualifyingProductsBillingProductCode": [
+                    "sku8220531"
+                ],
+                "bundleProductIds": [
+                    {
+                        "id": "d60153cd-9abc-4157-9a2e-5a76642fa911",
+                        "typeId": "offer",
+                        "key": "BOLTON-TV-GLOBO_satellite"
+                    }
+                ],
+                "recommendedOnline": false,
+                "isVirtual": false,
+                "flashSaleOffer": false,
+                "isBulkOffer": false,
+                "isSpecialOffer": false,
+                "descriptionByKey": [
+                    {
+                        "name": "defaultSalesShortDescription",
+                        "value": "3D Short Description for Sales"
+                    },
+                    {
+                        "name": "defaultServicesShortDescription",
+                        "value": "3D Short Description for Services"
+                    },
+                    {
+                        "name": "defaultSalesLongDescription",
+                        "value": "3D Long Description for Sales"
+                    },
+                    {
+                        "name": "defaultServicesLongDescription",
+                        "value": "3D Long Description for Services"
+                    }
+                ],
+                "disclosureMessagesByKey": [
+                    {
+                        "name": "defaultSalesDisclosure",
+                        "value": "3D Disclosure for Sales"
+                    },
+                    {
+                        "name": "defaultServicesDisclosure",
+                        "value": "3D Disclosure for Services"
+                    },
+                    {
+                        "name": "defaultSalesOptIn",
+                        "value": "3D Default opt in for Sales"
+                    },
+                    {
+                        "name": "defaultServicesOptIn",
+                        "value": "3D Default opt in for Services"
+                    },
+                    {
+                        "name": "defaultSalesOptOut",
+                        "value": "3D Default opt out for Sales"
+                    },
+                    {
+                        "name": "defaultServicesOptOut",
+                        "value": "3D Default opt out for Services"
+                    },
+                    {
+                        "name": "defaultSalesAutoRenew",
+                        "value": "3D Default Auto Renew for Sales"
+                    },
+                    {
+                        "name": "defaultServicesAutoRenew",
+                        "value": "3D Default Auto Renew for Services"
+                    }
+                ],
+                "displayNameByKey": [
+                    {
+                        "name": "defaultSalesShortDisplayName",
+                        "value": "3D Short Display Name for Sales"
+                    },
+                    {
+                        "name": "defaultServicesShortDisplayName",
+                        "value": "3D Short Display Name for Services"
+                    },
+                    {
+                        "name": "defaultSalesLongDisplayName",
+                        "value": "3D Long Display Name for Sales"
+                    },
+                    {
+                        "name": "defaultServicesLongDisplayName",
+                        "value": "3D Long Display Name for Services"
+                    }
+                ]
+            }
+        }
+    ],
+    "products": [
+        {
+            "id": "d60153cd-9abc-4157-9a2e-5a76642fa911",
+            "code": "BOLTON-TV-GLOBO_satellite",
+            "productType": {
+                "typeId": "product-type",
+                "id": "775e669d-483a-4bf7-843c-7492e0cb0d18",
+                "key": "video-addon"
+            },
+            "name": {
+                "en": "TV Globo"
+            },
+            "description": {
+                "en": "Keep up with the latest news and entertainment through Brazil's #1 channel. By subscribing you will be billed $19.99 per month on a recurring basis."
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": "1",
+                    "sku": "sku8220531",
+                    "key": "sku8220531",
+                    "prices": [
+                        {
+                            "value": {
+                                "centAmount": 1999.0,
+                                "currencyCode": "USD",
+                                "fractionDigits": 2,
+                                "dollarAmount": 19.99
+                            },
+                            "id": "e521286c-0b9e-49ff-9e77-5da0a23c202f",
+                            "startDate": "1989-12-31T18:30:00.000Z",
+                            "endDate": "2048-12-30T18:30:00.000Z",
+                            "recurrenceIndicator": false,
+                            "duration": 0,
+                            "billingReferenceId": "1",
+                            "gfVersion": 0,
+                            "businessSegment": "CSH,DTV,GME,HDL,HSP,LSE,MBL,PCO,PCR,REG,RVB,VEN,VIP,VPA,JDU,MDU,QST,VZN,BLS,DAE,MTL,PTR,SWB,MDD,MDL,MDU,JCD,TCD,TMU,TMW,ATT,CenturyLink,residential",
+                            "chargeType": "mrc",
+                            "grandfatherVersion": 0,
+                            "omsProductId": "22523",
+                            "channel": "non-contracted",
+                            "contracted": false,
+                            "grandfathered": false
+                        }
+                    ],
+                    "attributes": {
+                        "displayName": {
+                            "en": "TV Globo"
+                        },
+                        "billingProductCode": "R6348",
+                        "billingCode": "R6348",
+                        "startDate": "2017-03-10T16:30:00.000Z",
+                        "endDate": "2049-12-31T16:30:00.000Z",
+                        "businessSegment": [
+                            "MDU",
+                            "CONS"
+                        ],
+                        "salesChannel": [
+                            "opusServices",
+                            "opusSales",
+                            "onlineServices",
+                            "onlineSales",
+                            "opus",
+                            "online"
+                        ],
+                        "productFamily": "satellite",
+                        "planSubType": "International",
+                        "language": "Brazilian Portuguese",
+                        "productStatus": "Active",
+                        "contractApplicable": "noncontract",
+                        "contractIndicator": [
+                            "non-contract"
+                        ],
+                        "subCategory": "International",
+                        "omsComponentMapping": [
+                            {
+                                "attributes": [
+                                    {
+                                        "attributeCode": "DTgenrePackage",
+                                        "attributeValue": "TVGlobo"
+                                    }
+                                ],
+                                "componentCode": "TVGlobo",
+                                "operationName": "MOORequest,PUSPO1Request",
+                                "componentPath": "ATTDTV|TVGlobo"
+                            }
+                        ],
+                        "customerSegments": [
+                            "Residential"
+                        ],
+                        "isPickService": false,
+                        "isAutoRenewable": false,
+                        "migratedProduct": false,
+                        "orderingMethod": "addToCart",
+                        "enablerPricePlanCode": "88987145",
+                        "tokens": "BOLTON-TV-GLOBO",
+                        "chargeCode": "DGLOBO",
+                        "isWorldDirect": true,
+                        "isETFRequired": false,
+                        "isRemovable": true,
+                        "dollarAmount": 19.99,
+                        "enablerATGProductId": "prod8920310",
+                        "enablerATGSkuId": "sku8220531",
+                        "groupCategory": "InternationalBrazilian",
+                        "productImages": "/cms2/product_catalog/international/international.gif",
+                        "subCategoryByKey": [
+                            {
+                                "key": "assistedSalesSales",
+                                "value": "International"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

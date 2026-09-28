@@ -1,0 +1,67 @@
+{
+    "limit": 50,
+    "offset": 0,
+    "count": 1,
+    "total": 1,
+    "products": [
+        {
+            "id": "060c45ca-8492-49d2-a4ab-8770d16ebee3",
+            "code": "CAMPAIGN_PROD",
+            "version": 529,
+            "createdAt": "2020-04-28T15:09:06.625Z",
+            "lastModifiedAt": "2020-06-25T01:47:19.112Z",
+            "status": "in_progress",
+            "productType": {
+                "typeId": "product-type",
+                "id": "1606965f-73ce-4eb7-8c5c-bc2900e8b4fa",
+                "key": "campaign"
+            },
+            "categories": [],
+            "variants": [
+                {
+                    "id": 1,
+                    "attributes": {
+                        "campaignId": "1234",
+                        "campaignName": "Spring",
+                        "campaignCode": "CAMPAIGN_PROD",
+                        "campaignDesc": "Sprinf campaign",
+                        "couponType": "multi-use1",
+                        "campaignCategory": "standard",
+                        "creationDate": "2020-04-02T00:00:00.000Z",
+                        "campaignStartDate": "2020-04-06T00:00:00.000Z",
+                        "campaignEndDate": "2020-06-30T01:00:00.000Z",
+                        "autoRegister": false,
+                        "studioSponsorByATT": false,
+                        "lockDuration": "12",
+                        "studioSponsorNames": "dff",
+                        "campaignEligibility": [
+	                        {
+	                            "purchaseType": "Purchase",
+	                            "contentCategory": "Adult",
+	                            "rating": "PG13",
+	                            "genre": "Horror",
+	                            "format": "Blu-Ray",
+	                            "title": "SMILE",
+	                            "newRelease": true,
+	                            "studio": "WB",
+	                            "releaseDate": "2"
+	                        }
+	                    ],
+                        "campaignMessaging": "test",
+                        "numberOfCoupons": 20,
+                        "productFamily": "satellite"
+                    },
+                    "prices": []
+                }
+            ],
+            "name": {
+                "en": "CAMPAIGN_PROD"
+            },
+            "description": {
+                "en": "CAMPAIGN_PROD"
+            }
+        }
+    ],
+    "partners": [],
+    "productsInCurrentRequest": 1
+}

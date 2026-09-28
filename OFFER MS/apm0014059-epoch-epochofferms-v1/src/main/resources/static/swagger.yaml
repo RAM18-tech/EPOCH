@@ -1,0 +1,39 @@
+---
+swagger: "2.0"
+info:
+  description: "API Documentation for epochofferms-v1"
+  version: "1.0.0"
+  title: "epochofferms-v1"
+  termsOfService: ""
+  contact: {}
+paths:
+  /helloworld:
+    get:
+      summary: "Says Hello World!"
+      description: "Says Hello World!"
+      produces:
+      - "application/json"
+      responses:
+        200:
+          description: "Successful Response"
+          schema:
+            $ref: "#/definitions/SampleResponse"
+        500:
+          description: "Sytem Error Response"
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+definitions:
+  SampleResponse:
+    type: "object"
+    properties:
+      message:
+        type: "string"
+        description: "Message from the sample esrvice"
+  ErrorResponse:
+    type: "object"
+    properties:
+      errorCode:
+        type: "string"
+      errorMessage:
+        type: "string"
+    description: "Error Response"

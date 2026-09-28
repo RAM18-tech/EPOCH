@@ -1,0 +1,65 @@
+{
+    "customerEligibility": {
+        "zipCode": [
+            "08302"
+        ],
+        "county": [
+            "08013"
+        ]
+    },
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "salesChannel": [
+        "directIntegrationPartner"
+    ],
+    "offerActionType": [
+        "Acquisition"
+    ],
+    "marketingSourceCode": [
+        "2547"
+    ],
+    "channelEligibility": {
+        "isFulfillmentDealer": false,
+        "salesChannel": "indirect",
+        "salesSubChannel": "DTVCALLCTR",
+        "locationId": "118724",
+        "locationTypeId": "4",
+        "dealerCode": "ZG745",
+        "directIntegrationPartnerName": "CHUZO",
+        "masterDealerId": "12345"
+    },
+    "billingSystem": "stms",
+    "cartContext": {
+        "cartOffers": [
+            {
+                "offerCode": "OF_BASE-ULTIMATE-ALL-INCLUDED_sales_satellite",
+                "quantity": 1
+            },
+            {
+                "offerCode": "OF_BOLTON-LIFETIME-MOVIE-CLUB_satellite",
+                "quantity": 1
+            },
+            {
+                "offerCode": "OF_DEVICE-GENIE-2-WIRELESS-V1_sales_satellite",
+                "quantity": 1
+            },
+            {
+                "offerCode": "OF_DEVICE-GENIE-MINI-WIRELESS-V3_sales_satellite",
+                "quantity": 1
+            }
+        ]
+    },
+    "customerContext": {
+        "satellite": {
+            "serviceAddress": {
+                "streetAddress": "2600 CANYON BLVD",
+                "city": "BOULDER",
+                "state": "CO",
+                "zipCode": "80302"
+            },
+            "businessSegment": "REG",
+            "accountStatus": "PEND"
+        }
+    }
+}

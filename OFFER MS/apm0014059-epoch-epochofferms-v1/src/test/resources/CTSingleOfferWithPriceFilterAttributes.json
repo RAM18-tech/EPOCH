@@ -1,0 +1,305 @@
+{
+	"limit": 1,
+	"offset": 0,
+	"count": 1,
+	"total": 7,
+	"offers": [
+		{
+			"id": "706af354-b8f6-4601-ba5b-09f85363ab83",
+			"code": "OF_BASE-PREMIER-ALL-INCLUDED-EMP-RET_satellite",
+			"version": 28,
+			"createdAt": "2021-06-08T18:45:40.134Z",
+			"lastModifiedAt": "2021-06-16T15:18:05.279Z",
+			"status": "live",
+			"productType": {
+				"typeId": "product-type",
+				"id": "1f980710-c1c0-4b05-92b7-dd79f4b1e86b"
+			},
+			"name": {
+				"en": "PREMIER ALL INCLUDED"
+			},
+			"description": {
+				"en": " Our top-of-the-line package, with everything you want in TV entertainment and sports. "
+			},
+			"categories": [],
+			"startDate": "2010-08-18T18:30:00.000Z",
+			"endDate": "2050-02-07T18:30:00.000Z",
+			"attributes": {
+				"offerType": "multi-benefit",
+				"offerProductFamily": "satellite",
+				"offerProductType": "video-plan",
+				"offerActionType": "Other",
+				"rank": 40,
+				"displayName": {
+					"en": "PREMIER ALL INCLUDED"
+				},
+				"termsAndConditions": {
+					"en": "Does this replace my current package? Yes, this will replace your current package. How much will I be charged? On your next bill, you'll see a credit for the package that you're disconnecting today because you paid in advance. You'll also see a partial charge that covers the new package starting today, and the regular monthly charge that we bill in advance for the following month. How long does activation take? 5 minutes."
+				},
+				"billingId": "1",
+				"billingCode": "P103348",
+				"migratedOffer": false,
+				"isPrimary": true,
+				"contractIndicator": "non-contract",
+				"offerStatus": "Active",
+				"qualifyingProductsBillingProductCode": [
+					"P103348"
+				],
+				"offerIntent": "non-migration",
+				"existingProductFamilies": [
+					"satellite"
+				],
+				"existingProductCodes": [
+					"P103348"
+				],
+				"eligibility": {
+					"constraints": [
+						{
+							"existingCustomerType": [
+								"Satellite"
+							],
+							"customerSegment": "Residential",
+							"customerSegments": [
+								"Residential"
+							],
+							"accountStatus": "active",
+							"salesChannel": [
+								"opusServices",
+								"opusSales",
+								"onlineServices",
+								"onlineSales",
+								"opus",
+								"online"
+							]
+						}
+					]
+				},
+				"associatedProducts": [
+					{
+						"bundleProducts": [
+							{
+								"constraints": {
+									"productStatus": "Active",
+									"productState": "New",
+									"productFamily": "satellite",
+									"productTypes": [
+										"video-plan"
+									]
+								},
+								"products": [
+									{
+										"typeId": "product",
+										"id": "d13d8f8a-5927-42ad-8d15-ff517dabc947",
+										"productType": "video-plan",
+										"key": "BASE-PREMIER-ALL-INCLUDED_satellite"
+									}
+								]
+							}
+						]
+					}
+				],
+				"offerProductFamilies": [
+					"satellite"
+				],
+				"offerActionTypes": [
+					"Other",
+					"Cross-sell",
+					"Retention",
+					"Downgrade",
+					"Upgrade",
+					"Acquisition"
+				],
+				"offerProductTypes": [
+					"video-plan"
+				],
+				"offerIntents": [
+					"non-migration"
+				],
+				"benefits": []
+			}
+		}
+	],
+	"products": [
+		{
+			"id": "d13d8f8a-5927-42ad-8d15-ff517dabc947",
+			"code": "BASE-PREMIER-ALL-INCLUDED_satellite",
+			"name": {
+				"en": "PREMIER ALL INCLUDED"
+			},
+			"description": {
+				"en": " Our top-of-the-line package, with everything you want in TV entertainment and sports."
+			},
+			"version": 126,
+			"createdAt": "2021-05-06T10:28:07.089Z",
+			"createdBy": {
+				"isPlatformClient": true,
+				"user": {
+					"typeId": "user",
+					"id": "210c0159-8a54-44e7-9c5b-0b0e0297394a"
+				}
+			},
+			"lastModifiedAt": "2021-06-16T18:55:02.964Z",
+			"lastModifiedBy": {
+				"isPlatformClient": true,
+				"user": {
+					"typeId": "user",
+					"id": "95e65e8d-ab59-46c1-a884-eae33e0a2ccb"
+				}
+			},
+			"status": {
+				"typeId": "state",
+				"id": "97da72df-4bdf-482c-a054-936dfb18df63"
+			},
+			"productType": {
+				"typeId": "product-type",
+				"id": "cb512bc7-05aa-4d02-896c-bcfb3487c5da",
+				"key": "video-plan"
+			},
+			"categories": [],
+			"variants": [
+				{
+					"id": 1,
+					"attributes": {
+						"migratedProduct": false,
+						"productFamily": "satellite",
+						"productStatus": "Active",
+						"planType": "AllIn",
+						"contractApplicable": "non-contract",
+						"customerSegments": [
+							"Employee",
+							"Residential"
+						],
+						"billingProductCode": "P103348",
+						"displayName": {
+							"en": "PREMIER ALL INCLUDED"
+						},
+						"startDate": "2010-08-18T18:30:00.000Z",
+						"endDate": "2050-02-07T18:30:00.000Z",
+						"language": "English",
+						"salesChannel": [
+							"opus",
+							"online",
+							"opusServices",
+							"opusSales",
+							"onlineServices",
+							"onlineSales"
+						],
+						"numberOfChannels": "330+ digital channels",
+						"termsAndConditions": {
+							"en": "Does this replace my current package? Yes, this will replace your current package. How much will I be charged? On your next bill, you'll see a credit for the package that you're disconnecting today because you paid in advance. You'll also see a partial charge that covers the new package starting today, and the regular monthly charge that we bill in advance for the following month. How long does activation take? 5 minutes."
+						},
+						"billingCode": "P103348",
+						"businessSegment": [
+							"PTR",
+							"REG"
+						],
+						"displayRanking": 40,
+						"hasLocalChannels": true,
+						"isBasePlan": true,
+						"serviceFlag": true,
+						"contractIndicator": [
+							"non-contract"
+						],
+						"partnerKeys": []
+					},
+					"prices": [
+						{
+							"value": {
+								"type": "centPrecision",
+								"currencyCode": "USD",
+								"centAmount": 22000,
+								"fractionDigits": 2,
+								"dollarAmount": "220.00"
+							},
+							"id": "c9578046-4dc2-4782-bd3a-c9c38a6f7fcf",
+							"startDate": "2010-08-18T18:30:00.000Z",
+							"endDate": "2050-02-07T18:30:00.000Z",
+							"channel": "non-contracted",
+							"customerGroup": "01",
+							"period": "month",
+							"billingReferenceId": "1",
+							"businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+							"nftvFlag": "Y"
+						},
+						{
+							"value": {
+								"type": "centPrecision",
+								"currencyCode": "USD",
+								"centAmount": 21300,
+								"fractionDigits": 2,
+								"dollarAmount": "213.00"
+							},
+							"id": "21d04b4a-a71e-4468-83a7-3430630421c4",
+							"startDate": "2010-08-19T07:00:00.000Z",
+							"endDate": "2050-02-08T08:00:00.000Z",
+							"channel": "non-contracted",
+							"customerGroup": "02",
+							"period": "month",
+							"billingReferenceId": "2",
+							"businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+							"nftvFlag": "Y",
+							"ftvCount": "2"
+						},
+						{
+							"value": {
+								"type": "centPrecision",
+								"currencyCode": "USD",
+								"centAmount": 20600,
+								"fractionDigits": 2,
+								"dollarAmount": "206.00"
+							},
+							"id": "178bc719-2752-4be0-bdc5-52e52b497302",
+							"startDate": "2010-02-08T08:00:00.000Z",
+							"endDate": "2050-02-08T08:00:00.000Z",
+							"channel": "non-contracted",
+							"customerGroup": "03",
+							"period": "month",
+							"billingReferenceId": "3",
+							"businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+							"nftvFlag": "Y",
+							"ftvCount": "1"
+						},
+						{
+							"value": {
+								"type": "centPrecision",
+								"currencyCode": "USD",
+								"centAmount": 17680,
+								"fractionDigits": 2,
+								"dollarAmount": "176.80"
+							},
+							"id": "86acd2d6-c3f7-41ca-925e-5d7a76684a99",
+							"startDate": "2010-08-19T07:00:00.000Z",
+							"endDate": "2050-02-05T08:00:00.000Z",
+							"channel": "non-contracted",
+							"customerGroup": "04",
+							"period": "month",
+							"billingReferenceId": "410",
+							"businessSegment": "PTR",
+							"employeeSegment": "retiree"
+						},
+						{
+							"value": {
+								"centAmount": 9000.0,
+								"currencyCode": "USD",
+								"fractionDigits": 2,
+								"dollarAmount": 90.0
+							},
+							"id": "e24051e2-96da-4cf5-b760-0ac6261e47d5",
+							"startDate": "2021-07-11T18:30:00.000Z",
+							"endDate": "2021-08-29T18:29:00.000Z",
+							"recurrenceIndicator": false,
+							"duration": 1,
+							"period": "month",
+							"billingReferenceId": "61",
+							"gfVersion": 0,
+							"businessSegment": "CSH,GME,HDL,HSP,LSE,PCO,PCR,REG,RVB,VIP,VPA,BLS,DAE,MTL,QST,SWB,VZN,PTR,JDU,MDU,MDD,MDL,ATT,Centurylink",
+							"contracted": false,
+							"grandfathered": false
+						}
+					]
+				}
+			]
+		}
+	],
+	"partners": []
+}

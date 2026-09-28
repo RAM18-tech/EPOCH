@@ -1,0 +1,57 @@
+{
+  "limit": 20,
+  "offset": 0,
+  "count": 1,
+  "total": 1,
+  "results": [
+    {
+      "id": "883519c3-1e72-4f07-bf68-fa69742ddd1c",
+      "version": 2,
+      "versionModifiedAt": "2024-02-23T12:16:36.301Z",
+      "lastMessageSequenceNumber": 1,
+      "createdAt": "2024-02-23T10:48:07.663Z",
+      "lastModifiedAt": "2024-02-23T12:16:36.301Z",
+      "lastModifiedBy": {
+        "isPlatformClient": true,
+        "user": {
+          "typeId": "user",
+          "id": "b00c4e55-9ce6-400a-b75a-a5ba945a7847"
+        }
+      },
+      "createdBy": {
+        "clientId": "lom_T-CZu3JA2N3osKYl4g74",
+        "isPlatformClient": false
+      },
+      "code": "RUSH",
+      "name": {
+        "en": "RUSH"
+      },
+      "description": {
+        "en": "$100 VISA Reward Card (Requires Redemption)"
+      },
+      "cartDiscounts": [
+        {
+          "typeId": "cart-discount",
+          "id": "e8cea323-79cb-41da-8cb4-f589dc55b4cb"
+        }
+      ],
+      "isActive": true,
+      "maxApplications": 5000000,
+      "maxApplicationsPerCustomer": 1,
+      "references": [],
+      "custom": {
+        "type": {
+          "typeId": "type",
+          "id": "c156a415-1782-433a-b5a3-e2e3e27ecc50"
+        },
+        "fields": {
+          "couponStatus": "Available",
+          "campaignCode": "RUSH"
+        }
+      },
+      "validFrom": "2024-02-21T08:00:00.000Z",
+      "validUntil": "2051-01-01T07:50:00.000Z",
+      "groups": []
+    }
+  ]
+}

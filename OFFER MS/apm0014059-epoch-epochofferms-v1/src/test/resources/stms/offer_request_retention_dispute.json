@@ -1,0 +1,71 @@
+{
+    "contractIndicator": [
+        "non-contract"
+    ],
+    "customerEligibility": {
+        "zipCode": [
+            "00161"
+        ],
+        "county": [
+            "18000"
+        ]
+    },
+    "customerContext": {
+        "existingProductFamily": [
+            "satellite"
+        ],
+        "satellite": {
+            "products": [
+                {
+                    "billingProductCode": "P103351",
+                    "billingReferenceID": "1",
+                    "productType": "video-plan"
+                },
+                {
+                    "billingProductCode": "R0167",
+                    "billingReferenceID": "41",
+                    "productType": "video-addon"
+                },
+                {
+                    "billingProductCode": "R107436",
+                    "billingReferenceID": "41",
+                    "productType": "video-addon"
+                },
+                {
+                    "billingProductCode": "R107444",
+                    "billingReferenceID": "41",
+                    "productType": "video-addon"
+                },
+                {
+                    "manufacturer": "DIRECTV",
+                    "modelNumber": "HR44-200",
+                    "accessCardId": "002187890633",
+                    "accessCardStatus": "ACTV",
+                    "equipmentOwnership": "lease"
+                }
+            ],
+            "accountNumber": "171202181454689",
+            "isActive": true,
+            "retentionPromotionIndicator": false,
+            "freeTrialEligible": false,
+            "accountType": "Residential",
+            "nextBillingDate": "03/09/2020",
+            "businessSegment": "REG",
+            "nftvFlag": "Y",
+            "ftvCount": "4",
+			"dynamicUpgrade": 1
+        }
+    },
+    "offerActionType": [
+        "Retention"
+    ],
+    "offerProductFamily": [
+        "satellite"
+    ],
+    "salesChannel": [        
+        "online"
+    ],
+    "offerProductTypes": [
+        "video-plan"
+    ]
+}

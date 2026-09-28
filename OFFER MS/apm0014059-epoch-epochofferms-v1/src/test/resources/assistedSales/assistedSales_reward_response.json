@@ -1,0 +1,276 @@
+{
+        "limit": 0,
+        "offset": 0,
+        "count": 1,
+        "total": 1,
+        "offers": [
+            {
+                "id": "d11d8e96-7c24-44f8-9f55-0d8a6c0b4af2",
+                "code": "OF_REWARD-400-202311_TAZCONTRACT",
+                "status": "live",
+                "name": {
+                    "en": "$400 VISA Reward Card"
+                },
+                "description": {
+                    "en": "$400 VISA Reward Card"
+                },
+                "startDate": "2023-11-01T18:30:00.000Z",
+                "endDate": "2050-12-30T18:30:00.000Z",
+                "attributes": {
+                    "offerProductType": "reward",
+                    "offerProductTypes": [
+                        "reward"
+                    ],
+                    "offerProductFamily": "OTT",
+                    "offerProductFamilies": [
+                        "OTT"
+                    ],
+                    "offerType": "multi-benefit",
+                    "offerActionType": "Acquisition",
+                    "offerActionTypes": [
+                        "Acquisition"
+                    ],
+                    "displayName": {
+                        "en": "$400 VISA Reward Card (Requires Redemption)"
+                    },
+                    "migratedOffer": false,
+                    "associatedProducts": [
+                        {
+                            "bundleProducts": [
+                                {
+                                    "constraints": {
+                                        "dependent": false,
+                                        "anchor": false
+                                    },
+                                    "products": [
+                                        {
+                                            "id": "226b8d78-df84-4f1b-a25b-a0ee514ba84e",
+                                            "typeId": "product",
+                                            "obj": {
+                                                "id": "226b8d78-df84-4f1b-a25b-a0ee514ba84e",
+                                                "code": "REWARD-400-202311",
+                                                "productType": {
+                                                    "typeId": "product-type",
+                                                    "id": "f39b093a-9c9d-4ca4-b4e9-ef83c1995156",
+                                                    "key": "reward"
+                                                },
+                                                "name": {
+                                                    "en": "$400 Reward Card"
+                                                },
+                                                "description": {
+                                                    "en": "$400 Reward Card"
+                                                },
+                                                "categories": [],
+                                                "variants": [
+                                                    {
+                                                        "id": "1",
+                                                        "prices": [
+                                                            {
+                                                                "value": {
+                                                                    "centAmount": 0.0,
+                                                                    "currencyCode": "USD",
+                                                                    "fractionDigits": 2,
+                                                                    "dollarAmount": 0.0
+                                                                },
+                                                                "id": "cc8d3c53-9559-4193-b4e7-19d5bcd1ac80",
+                                                                "startDate": "2023-10-18T07:00:00.000Z",
+                                                                "endDate": "2050-12-31T08:00:00.000Z",
+                                                                "recurrenceIndicator": false,
+                                                                "duration": 0,
+                                                                "period": "month",
+                                                                "proRateFrequency": "daily",
+                                                                "contractIndicator": "TAZCONTRACT",
+                                                                "gfVersion": 0,
+                                                                "grandfathered": false,
+                                                                "contracted": false
+                                                            }
+                                                        ],
+                                                        "attributes": {
+                                                            "displayName": {
+                                                                "en": "$400 Reward Card"
+                                                            },
+                                                            "displayNamesByKey": {
+                                                                "online": "$400 Reward Card",
+                                                                "opus": "$400 Reward Card",
+                                                                "services": "$400 Reward Card",
+                                                                "onlineService": "$400 Reward Card"
+                                                            },
+                                                            "descriptionsByKey": {
+                                                                "short-opus": "$400 Reward Card",
+                                                                "long-services": "$400 Reward Card",
+                                                                "short-services": "$400 Reward Card",
+                                                                "long-myatt": "$400 Reward Card",
+                                                                "description-cpc": "$400 Reward Card"
+                                                            },
+                                                            "billingProductCode": "REWARD-400-202311",
+                                                            "startDate": "2023-10-25T18:30:00.000Z",
+                                                            "endDate": "9999-12-30T18:30:00.000Z",
+                                                            "businessSegment": [
+                                                                "CONS"
+                                                            ],
+                                                            "salesChannel": [
+                                                                "directvOnline"
+                                                            ],
+                                                            "productFamily": "OTT",
+                                                            "planSubType": "Cross-product",
+                                                            "displayType": "optional",
+                                                            "language": "English",
+                                                            "contractIndicator": [
+                                                                "TAZCONTRACT"
+                                                            ],
+                                                            "subCategory": "reward",
+                                                            "migratedProduct": false,
+                                                            "rewardValue": "400"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "productType": "reward",
+                                            "key": "REWARD-400-202311"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "benefits": [
+                        {
+                            "benefitCategory": "Product",
+                            "billingBenefitId": "9407",
+                            "id": "31f5e7ad-38e7-40d9-94e0-66f6de69b8c3",
+                            "code": "EDSPDEACT001",
+                            "billingBenefitCode": "EDSPDEACT001",
+                            "benefitName": {
+                                "en": "Device Activation"
+                            },
+                            "benefitDisplayName": {
+                                "en": "14 days service BRE"
+                            },
+                            "benefitRank": 10,
+                            "description": {
+                                "en": "Device Activation"
+                            },
+                            "opusDisclosureMessage": "You may cancel service within the first 14 days of purchase to avoid charges.",
+                            "disclosureMessagesByKey": {
+                                "opusDisclosure": "You may cancel service within the first 14 days of purchase to avoid charges."
+                            },
+                            "startDate": "2020-11-27T18:30:00.000Z",
+                            "retIoApplicableProducts": false,
+                            "contractIndicator": "all",
+                            "selfBenefit": false,
+                            "duration": 15,
+                            "period": "NoOfDays",
+                            "billAfterPeriod": true,
+                            "applicableProducts": [
+                                {
+                                    "products": [
+                                        {
+                                            "id": "17409ef2-12e9-48a3-85c0-0e52d21be60c",
+                                            "typeId": "product",
+                                            "productType": "video-plan",
+                                            "key": "BASE-OPTIMOMAS-122018"
+                                        },
+                                        {
+                                            "id": "fee8d6f4-fc53-4687-83e7-7a3f870f97ba",
+                                            "typeId": "product",
+                                            "productType": "video-plan",
+                                            "key": "BASE-CHOICE-201811"
+                                        },
+                                        {
+                                            "id": "cda38789-8834-4d91-9060-6e3dc67c5ce5",
+                                            "typeId": "product",
+                                            "productType": "video-plan",
+                                            "key": "BASE-PREMIER-202004"
+                                        },
+                                        {
+                                            "id": "acaafa61-a5ef-4584-b7fa-6b81045d3f06",
+                                            "typeId": "product",
+                                            "productType": "video-plan",
+                                            "key": "BASE-ULTIMATE-201811"
+                                        },
+                                        {
+                                            "id": "0e796d14-487b-4058-8fe5-0b1dae7f231e",
+                                            "typeId": "product",
+                                            "productType": "video-plan",
+                                            "key": "BASE-ENTERTAINMENT-201811"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "maxOccurrence": 0,
+                            "benefitType": "free-promo",
+                            "value": {
+                                "percentage": 0
+                            },
+                            "customerClassification": "New Customer",
+                            "secondaryBenefitCode": "860346961",
+                            "freeTrialPromo": true,
+                            "ioOffer": false,
+                            "freeTrialDuration": 0,
+                            "agentOffer": false,
+                            "minQuantity": 0,
+                            "extPromoType": "Device Activation",
+                            "promoPriority": 2,
+                            "salesChannel": "agentNew|selfServiceNew",
+                            "benefitLevel": "product",
+                            "displayNameforServices": "Device Activation",
+                            "notApplibaleForOffer": false,
+                            "enableServiceDisconnect": false,
+                            "rtpIndicator": false,
+                            "portin": false,
+                            "active": true,
+                            "migrated": true,
+                            "quotaBased": false,
+                            "couponPromo": false,
+                            "isDependentPromo": true,
+                            "isMigrated": true,
+                            "isQuotaBased": false,
+                            "isActive": true
+                        }
+                    ],
+                    "eligibility": {
+                        "constraints": [
+                            {
+                                "customerSegments": [
+                                    "Residential"
+                                ],
+                                "customerSegment": "Residential",
+                                "minimumPurchaseAmount": 0,
+                                "salesChannel": [
+                                    "assistedSales",
+                                    "directIntegrationPartner"
+                                ],
+                                "businessSegment": [
+                                    "CONS"
+                                ],
+                                "existingCustomerType": [
+                                    "DTVN"
+                                ]
+                            }
+                        ]
+                    },
+                    "leadOffer": false,
+                    "offerPrice": {
+                        "dollarAmount": 0.0
+                    },
+                    "contractIndicator": "TAZCONTRACT",
+                    "salesChannel": [
+                        "directvCenters"
+                    ],
+                    "offerIntents": [
+                        "non-migration"
+                    ],
+                    "offerPreselectDesignation": "Mandatory",
+                    "recommendedOfferOPUS": false,
+                    "customerTypes": ["acquisition"],
+                    "videoOfferCategory": "Acquisition",
+                    "recommendedOnline": false,
+                    "isVirtual": false,
+                    "flashSaleOffer": false,
+                    "isBulkOffer": false,
+                    "isSpecialOffer": false
+                }
+            }
+        ]
+
+}
